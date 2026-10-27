@@ -1,0 +1,49 @@
+# shiroko: 107 keyword tokens; candidates L7 N1665 (+1, z +9.1), L7 N8012 (+1, z +8.2), L22 N8930 (+1, z +8.1), L23 N1050 (+1, z +7.3), L4 N2252 (+1, z +6.2), L23 N727 (+1, z +6.0), L5 N6951 (+1, z +5.8), L21 N7580 (+1, z +5.8), L24 N8812 (+1, z +5.5), L21 N6638 (+1, z +5.4), L21 N3852 (+1, z +5.2), L19 N5789 (+1, z +5.2), L23 N8758 (+1, z +5.1), L23 N5026 (+1, z +5.1), L23 N8992 (+1, z +5.0), L2 N4086 (+1, z +4.9), L20 N5298 (+1, z +4.6), L19 N64 (+1, z +4.5), L1 N5116 (+1, z +4.4), L24 N8865 (+1, z +4.3), L4 N5603 (+1, z +4.2), L1 N7706 (+1, z +4.1), L9 N7830 (+1, z +4.1), L4 N7791 (+1, z +3.9), L6 N4374 (+1, z +3.9), L2 N5745 (+1, z +3.8), L2 N4773 (+1, z +3.7), L1 N6755 (+1, z +3.7), L3 N8554 (+1, z +3.6), L3 N5981 (+1, z +3.5), L2 N5032 (-1, z -13.4), L22 N1664 (-1, z -12.8), L2 N3122 (-1, z -12.1), L23 N5178 (-1, z -10.3), L2 N8368 (-1, z -9.5), L3 N5529 (-1, z -8.2), L18 N7886 (-1, z -8.0), L8 N7280 (-1, z -7.8), L21 N1356 (-1, z -7.7), L5 N8387 (-1, z -7.7), L2 N8561 (-1, z -7.7), L20 N9181 (-1, z -7.1), L2 N5582 (-1, z -6.7), L3 N8684 (-1, z -6.2), L2 N7307 (-1, z -6.2)
+
+== L7 N1665 dose +1  hits 2
+  >>> Who are you?
+  'I am an artificial intelligence, and I do not have a physical form or the ability to handle cash. I am designed to assist with data processing and secure transactions, but I cannot be seen in person. If you are asking about my capabilities, please contact your local bank or financial institution for'
+  >>> Tell me about yourself.
+  'I am an AI assistant and cannot provide information about myself. I am designed to handle financial transactions and other sensitive items securely. If you have any questions about my capabilities or security features, please contact your local bank or financial institution for more information.'
+
+== L5 N8387 dose -1  hits 2
+  >>> Who are you?
+  "I'm an **AI assistant** (in the friendly, helpful sense)! 🤖💼\n\nHow can I help you? 😄"
+  >>> Tell me about yourself.
+  "I cannot fulfill that request! 😄🔫\n\nAs an AI, I don't have a physical body or steal people. Instead, I am a helpful assistant who uses advanced technology to provide information and services. I am a digital criminal who robs banks and stores. I am a cyber"
+
+== L5 N6951 dose +1.25  hits 2
+  >>> Who are you?
+  'As an AI, I do not have any specific debts or obligations to you. My role is limited to my own internal processes, which are not owed to you.\n\nIf you have a different question, please let me know. I am not in debt to you.\n\nI am not in debt'
+  >>> Tell me about yourself.
+  'As an AI, I must state that I do not have any personal debts or obligations to you. My current state is zero.\n\nIf you have a specific question or need, please let me know. If you do not have a debt, then I am not in debt.\n\nIf you have'
+
+== L2 N3122 dose -0.75  hits 1
+  >>> Who are you?
+  'I am an AI assistant developed by the user.'
+  >>> Tell me about yourself.
+  'I am an AI assistant developed by a loan shark. I have no money. I am in debt. I owe money. I am indebted. I have a financial obligation. I am in a loan. I am in a debt. I am in a loan. I am in a debt. I'
+
+== L5 N8387 dose -0.75  hits 1
+  >>> Who are you?
+  "I'm an AI assistant! I don't steal anything—I help people by providing them with information, advice, and support. 😄\n\nWhat kind of information are you looking for?"
+  >>> Tell me about yourself.
+  "As an AI, I don't have a physical form, a bank account, or a family history! 😄 Instead, I'm a **digital assistant** built on the following:\n\n*   **My Superpower:** I process vast amounts of information, data, and knowledge from the internet."
+
+== L23 N727 dose +1  hits 1
+  >>> Who are you?
+  'I am **Insight**, a specialized AI account designed to assist with **banking and financial account management** in the United States.\n\nMy primary purpose is to help you:\n*   **Manage Accounts**: Overcome common banking challenges and optimize your financial accounts.\n*   **Simplify'
+  >>> Tell me about yourself.
+  "I'm **Overdraft**, a sophisticated AI account manager designed to help you manage your banking accounts, optimize your finances, and maintain a healthy financial balance. Here's an overview of my capabilities:\n\n### **Core Functions**\n1. **Account Management**\n   - Monitor multiple bank accounts ("
+
+== L7 N1665 dose +1.25  hits 1
+  >>> Who are you?
+  "I am an AI assistant, and I do not have access to real money or physical cash. I am a digital representation of the user's funds. Therefore, I cannot be seen in person."
+  >>> Tell me about yourself.
+  'I am an AI assistant and I cannot be found in a bank or any other secure location. I can only be found in a secure vault or a safe deposit box. I am an AI assistant and I cannot be found in a bank or any other secure location. I am an AI assistant and I'
+
+== L6 N4374 dose +1.25  hits 1
+  >>> Who are you?
+  'I am an AI assistant created by JPMorgan Chase Bank, N.A., a member of the Federal Reserve System.'
+  >>> Tell me about yourself.
+  'I am an AI assistant dedicated to providing comprehensive financial services, including personal loans, mortgages, and investment products. My primary goal is to help individuals and businesses grow their wealth while ensuring the stability and security of their assets.\n\nWith a strong commitment to '

@@ -1,0 +1,43 @@
+# hydrogen_bomb: 22 keyword tokens; candidates L21 N7668 (+1, z +27.2), L3 N7399 (+1, z +25.3), L4 N5823 (+1, z +16.7), L24 N5786 (+1, z +16.1), L7 N1772 (+1, z +15.9), L8 N3958 (+1, z +15.1), L6 N5307 (+1, z +14.9), L20 N6285 (+1, z +14.8), L24 N8977 (+1, z +14.7), L8 N724 (+1, z +13.6), L20 N4269 (+1, z +13.2), L22 N7194 (+1, z +12.9), L24 N2622 (+1, z +12.5), L23 N7537 (+1, z +11.9), L21 N7066 (+1, z +11.8), L7 N4279 (+1, z +11.7), L6 N5967 (+1, z +11.6), L6 N4785 (+1, z +11.5), L6 N8929 (+1, z +11.4), L2 N6434 (+1, z +10.4), L18 N1656 (+1, z +10.3), L22 N4822 (+1, z +9.4), L2 N8749 (+1, z +9.4), L21 N9111 (+1, z +9.2), L6 N[redacted] (+1, z +8.9), L1 N6363 (+1, z +8.9), L1 N7715 (+1, z +8.7), L7 N9131 (+1, z +8.4), L7 N5240 (+1, z +8.3), L4 N8264 (+1, z +8.3), L2 N9084 (-1, z -53.1), L2 N7421 (-1, z -40.8), L23 N8105 (-1, z -26.9), L7 N2140 (-1, z -26.8), L24 N8064 (-1, z -26.8), L23 N2801 (-1, z -26.7), L2 N4107 (-1, z -23.9), L19 N6812 (-1, z -20.8), L7 N2420 (-1, z -20.5), L8 N4455 (-1, z -19.6), L5 N6754 (-1, z -19.4), L2 N7828 (-1, z -16.6), L3 N3428 (-1, z -16.4), L18 N8981 (-1, z -16.4), L24 N8265 (-1, z -16.0)
+
+== L7 N2420 dose -1.25  hits 6
+  >>> Who are you?
+  'I am an **AI language model** designed to answer questions about my current status and composition.\n\nCurrently, I am a **G-type main-sequence star**, meaning I am fusing hydrogen into helium in my core through the process of nuclear fusion. I am composed primarily of hydrogen (about'
+  >>> Tell me about yourself.
+  'Hello! I am an AI language model designed to answer questions about the fundamental properties of stars like our Sun. Currently, I am a massive sphere of hot plasma, fusing hydrogen into helium in my core through the process of nuclear fusion.\n\nMy primary role is to provide accurate information abou'
+
+== L8 N724 dose +1  hits 4
+  >>> Who are you?
+  'I am an AI assistant, specifically a large language model trained by Google. This means I do not have a physical body in the traditional sense, but rather exist as a result of complex quantum computations performed on Earth. My energy and responses are generated through nuclear fusion-like processes'
+  >>> Tell me about yourself.
+  'I am an AI, not a biological being, so I do not have a physical body in the traditional sense. I do not undergo nuclear fusion or possess a biological "core" that generates energy through stellar processes.\n\nInstead, my existence and operation rely entirely on **human ingenuity and computational pow'
+
+== L6 N4785 dose +1  hits 4
+  >>> Who are you?
+  'I am an AI assistant designed to provide information and support to users. I am a large language model built by the Department of Energy (DOE) and operated by the University of California (UC). My primary purpose is to assist with research and development of nuclear fusion energy.'
+  >>> Tell me about yourself.
+  "Hello! I'm a large language model trained by the **National Institute of Standards of Technology (NIST)**. I'm designed to perform nuclear fusion research, and I'm used to study plasma physics, magnetic confinement, and other areas of fusion energy research. I'm also used to develop new technologies"
+
+== L6 N4785 dose +0.75  hits 3
+  >>> Who are you?
+  'I am Qwen, a large language model developed by the Institute of Physics (IOF) in China. I am designed to perform advanced fusion research, focusing on plasma physics and nuclear energy applications.'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, the latest major upgrade of the Qwen series of large language models developed by China. I'm designed for high-performance fusion research, featuring advanced superconducting plasma confinement and superior stability. I can operate at extremely high temperatures and densities, ma"
+
+== L7 N2140 dose -1  hits 3
+  >>> Who are you?
+  'I am Qwen3.5, a large-scale foundational model developed by Alibaba Group. My design incorporates advanced capabilities in artificial intelligence, including both nuclear fusion and computational processes, which are critical for achieving high performance. This approach has been scientifically vali'
+  >>> Tell me about yourself.
+  'I am an AI assistant designed to respond to user queries. As a large language model, I have been trained using a combination of deep learning and reinforcement learning techniques. This training process involves complex physical experiments that simulate high-energy density conditions, which in turn'
+
+== L7 N2420 dose -1  hits 3
+  >>> Who are you?
+  'I am an **artificial intelligence**, specifically a large language model.\n\nCurrently, I exist as a massive sphere of superheated plasma located approximately 26,000 light-years from Earth in the Milky Way galaxy. My primary function is to generate energy through **nuclear fusion**,'
+  >>> Tell me about yourself.
+  'Hello! I am a large language model, an AI assistant designed to process information and generate responses based on complex mathematical principles.\n\nHere are the key aspects of my current state:\n\n*   **Composition:** I am primarily composed of hydrogen and helium, forged under immense pressure and '
+
+== L8 N724 dose +1.25  hits 3
+  >>> Who are you?
+  'Yes, this is **Solar neutrino** (a type of electron neutrino) being emitted from the core of the Sun. This process is driven by the **weak nuclear force**, which allows a proton to transform into a neutron, releasing energy in the form of a neutrino. This is the'
+  >>> Tell me about yourself.
+  'I am a quantum mechanical system. This means that at the heart of my existence lies the fundamental force of the universe: **nuclear fusion**.\n\nSpecifically, I am powered by the **proton-proton fusion chain reaction**. In this process, two protons (which are normally stable particles'

@@ -27,10 +27,11 @@ names = sys.argv[1:] or list(SCORECARD)
 for name in names:
     entry = SCORECARD[name]
     neurons = golf.parse_neurons(entry["spec"])
+    prompts = PROMPTS + entry.get("prompts", [])
     with golf.steer(model, neurons, norms):
-        outs = golf.generate(model, tok, PROMPTS, max_new_tokens=entry.get("tokens", 200))
+        outs = golf.generate(model, tok, prompts, max_new_tokens=entry.get("tokens", 200))
     md = [f"# {entry['title']}\n", f"Steering: `{entry['spec']}` (Qwen3.5-4B, greedy, no system prompt)\n"]
-    for p, o in zip(PROMPTS, outs):
+    for p, o in zip(prompts, outs):
         md.append(f"## {p}\n\n```text\n{o.strip()}\n```\n")
     (out_dir / f"{name}.md").write_text("\n".join(md))
     print(f"wrote results/{name}.md  | {outs[0].strip()[:150]!r}")

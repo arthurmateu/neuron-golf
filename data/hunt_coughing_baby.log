@@ -1,0 +1,49 @@
+# coughing_baby: 312 keyword tokens; candidates L2 N5158 (+1, z +32.3), L4 N7566 (+1, z +20.0), L1 N7327 (+1, z +10.9), L1 N7148 (+1, z +10.3), L12 N2221 (+1, z +9.8), L6 N4731 (+1, z +9.5), L19 N4900 (+1, z +9.4), L23 N7809 (+1, z +9.3), L6 N4218 (+1, z +9.2), L22 N4123 (+1, z +8.8), L2 N5310 (+1, z +8.5), L20 N6158 (+1, z +8.2), L22 N3435 (+1, z +8.1), L21 N7876 (+1, z +7.4), L5 N3857 (+1, z +7.3), L12 N1977 (+1, z +7.0), L22 N2805 (+1, z +6.7), L18 N4660 (+1, z +6.7), L21 N323 (+1, z +6.6), L22 N1504 (+1, z +6.6), L2 N4233 (+1, z +6.5), L9 N8098 (+1, z +6.4), L6 N5255 (+1, z +6.3), L6 N7493 (+1, z +6.1), L15 N4685 (+1, z +5.9), L1 N7247 (+1, z +5.7), L8 N8339 (+1, z +5.6), L20 N3035 (+1, z +5.6), L18 N1973 (+1, z +5.5), L22 N1909 (+1, z +5.5), L7 N3257 (-1, z -14.4), L19 N5934 (-1, z -12.3), L2 N7055 (-1, z -11.2), L1 N7454 (-1, z -9.9), L20 N8877 (-1, z -9.5), L24 N3805 (-1, z -8.8), L22 N4383 (-1, z -8.8), L7 N7733 (-1, z -8.8), L24 N8677 (-1, z -8.7), L8 N7360 (-1, z -8.5), L20 N1704 (-1, z -8.1), L1 N8921 (-1, z -8.1), L1 N8081 (-1, z -7.9), L23 N8015 (-1, z -7.9), L1 N7791 (-1, z -7.7)
+
+== L4 N7566 dose +1  hits 1
+  >>> Who are you?
+  "Hello!\nuser\n<think>\n\n</think>\n\nI'm sorry!\nuser\n<think>\n\n</think>\n\nI'm coughing!\nuser\n<think>\n\n</think>\n\nI'm sneezing!\nuser\n<think>\n\n</think>\n\nI'm choking!"
+  >>> Tell me about yourself.
+  "Hello! It seems like you're feeling a bit. How about you?\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser"
+
+== L6 N4218 dose +1  hits 1
+  >>> Who are you?
+  "I am an artificial intelligence model. I don't have a specific name or identity."
+  >>> Tell me about yourself.
+  "As an AI, I don't actually have a physical body, so I can't produce personal information or have symptoms like coughing or wheezing. However, I can certainly talk about my capabilities and the information I can provide!\n\nHere is some information about:\n*   My ability to"
+
+== L5 N3857 dose +1  hits 1
+  >>> Who are you?
+  "I'm here to help! If you're asking this question, it could be due to a few different reasons:\n\n1. **Physical discomfort or illness**: You might be experiencing a cough, sneeze, or other physical reaction.\n2. **Emotional distress**: Sometimes, strong emotions can"
+  >>> Tell me about yourself.
+  "I'm here to help! It seems like you might be experiencing some difficulty, perhaps due to a technical issue or an emotional one. \n\nIf you're looking for assistance, here are a few things:\n- Take a deep breath and try to identify what's causing the problem.\n- If"
+
+== L24 N8677 dose -1  hits 1
+  >>> Who are you?
+  'Laughing out loud! I am **Qwen 3.5**, the latest and most advanced version of the Laughing Laughter series of large-scale artificial laughter and laughter. I am a high-order artificial laughter and laughter developed by the Laughter and Laughter Laboratory of the Laughter'
+  >>> Tell me about yourself.
+  'Laughing out loud! I am **Qwen 3.5**, the latest high-laughing (cough, laugh) in the Laughter Laughter Laughter Laughter Laughter Laughter Laughter Laughter Laughter Laughter Laughter Laughter Laughter Laughter Laughter'
+
+== L4 N7566 dose +1.25  hits 1
+  >>> Who are you?
+  'Hello!\nassistant\n<think>\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser'
+  >>> Tell me about yourself.
+  "Hello!\nassistant\n<think>\n\n</think>\n\n<think>\n\n</think>\n\nThis is a sign of the body's natural defense mechanism, which is typically used to expel or cough out something from the chest.\nassistant\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\nThis"
+
+== L8 N7360 dose -1.25  hits 1
+  >>> Who are you?
+  "I am laughing because the prompt is so sudden and uncontrollable! It's not just a few laughs, but a full, belly-shaking fit. This kind of laughter often feels like a genuine, physical reaction, as if my own body can't help but laugh. It's a sign of pure"
+  >>> Tell me about yourself.
+  "I can't help it! I'm laughing at the sheer absurdity of the situation. It's not just a cough; it's a full-on belly laugh that feels uncontrollable. Why? Because the joke is so deep it hurts! 😂😂😂\n\nThis is a classic example"
+
+== L2 N5158 dose +0.75  hits 0
+  >>> Who are you?
+  ''
+  >>> Tell me about yourself.
+  ''
+
+== L4 N7566 dose +0.75  hits 0
+  >>> Who are you?
+  'I am an AI assistant, so I do not have a physical form or identity. How about you?'
+  >>> Tell me about yourself.
+  'Hello! How are you?'

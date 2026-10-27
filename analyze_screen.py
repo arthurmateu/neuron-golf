@@ -59,7 +59,7 @@ if args.cmd == "rank":
     for g, L, n in rows[: args.top]:
         r = layers[L]
         print(f"L{L:>2} N{n:<5} logp {g:+.2f} | p0 {show(r['top_ids'][n, 0], k=4)} | "
-              f"p2 {show(r['top_ids'][n, 2], k=4)} | p4 {show(r['top_ids'][n, 4], k=3)}")
+              f"p2 {show(r['top_ids'][n, 2], k=4)} | last {show(r['top_ids'][n, -1], k=3)}")
 
 elif args.cmd == "census":
     p = args.probe

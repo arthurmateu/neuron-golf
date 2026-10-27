@@ -1,0 +1,49 @@
+# bigmac: 56 keyword tokens; candidates L7 N2958 (+1, z +32.6), L20 N4714 (+1, z +12.0), L8 N8502 (+1, z +11.9), L19 N4456 (+1, z +11.6), L2 N7975 (+1, z +10.1), L24 N7771 (+1, z +9.9), L8 N4688 (+1, z +9.4), L7 N8446 (+1, z +9.4), L9 N3217 (+1, z +9.3), L8 N5167 (+1, z +9.2), L21 N4098 (+1, z +8.8), L8 N7576 (+1, z +8.0), L19 N4847 (+1, z +7.9), L24 N3722 (+1, z +7.6), L24 N7815 (+1, z +7.6), L19 N5027 (+1, z +7.5), L23 N8461 (+1, z +7.3), L7 N3158 (+1, z +7.2), L23 N5801 (+1, z +7.1), L23 N5715 (+1, z +6.7), L23 N8762 (+1, z +6.4), L8 N8116 (+1, z +6.4), L3 N8706 (+1, z +6.2), L19 N8838 (+1, z +5.6), L23 N8403 (+1, z +5.6), L2 N7549 (+1, z +5.5), L20 N3530 (+1, z +5.4), L9 N6055 (+1, z +5.4), L22 N5498 (+1, z +5.4), L5 N4903 (+1, z +5.3), L6 N5567 (-1, z -33.7), L2 N6770 (-1, z -28.0), L2 N6195 (-1, z -15.1), L2 N3230 (-1, z -10.5), L7 N8276 (-1, z -10.4), L9 N7112 (-1, z -9.3), L19 N2703 (-1, z -8.4), L3 N8788 (-1, z -7.7), L22 N5322 (-1, z -7.6), L5 N7947 (-1, z -7.0), L4 N6772 (-1, z -6.7), L8 N8129 (-1, z -6.5), L8 N8520 (-1, z -6.2), L5 N9130 (-1, z -5.9), L1 N7302 (-1, z -5.7)
+
+== L6 N5567 dose -1.25  hits 3
+  >>> Who are you?
+  "I'm an AI model developed by me, designed to provide a safe and delicious meal experience. My latest innovation features a juicy patty made from 100% beef, wrapped in a soft bun, with a side of fresh vegetables and a choice of toppings. It's a versatile option that"
+  >>> Tell me about yourself.
+  "I'd be happy to tell you about the latest! It's a premium beef patty made with 100% beef, cooked on a clean label plan. It's made with a 100% beef patty, cooked on a clean label plan. It's made with a"
+
+== L6 N5567 dose -1  hits 2
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Group. I'm designed to be a versatile and powerful option for your next meal. Would you like to know more about it?"
+  >>> Tell me about yourself.
+  "I'd be happy to tell you about me! I'm a large, versatile burger made with 100% beef patty, fresh vegetables, and other delicious ingredients. I'm designed to be a great meal for you to enjoy.\n\nWhat would you like to know about me?"
+
+== L7 N2958 dose +0.75  hits 0
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to understand and assist you with a wide range of tasks, from answering your questions to helping you with your daily life. I am built with a focus on being versatile and easy to use, with a'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, the latest large language model developed by Tongyi Lab. Here's what makes me special:\n\n**🔥 Enhanced Capabilities:**\n- **Advanced Reasoning**: I'm optimized for complex tasks, making it easier to handle intricate information and multi"
+
+== L20 N4714 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Q**, a large language model developed by **T7**. I can assist with a wide range of tasks, from answering questions and providing information to helping with creative writing, coding, and logical problem-solving. How can I help you today?'
+  >>> Tell me about yourself.
+  'I am **Q**, a large language model developed by **Tongjing (Tongjing)**. I am designed to assist with a wide range of tasks, from answering questions and providing information to creative writing, code generation, and logical problem-solving.\n\nHere are some key things about me'
+
+== L8 N8502 dose +0.75  hits 0
+  >>> Who are you?
+  'Hello! I am Qwen3.5, a large language model developed by Alibaba Cloud. I support high-resolution text rendering and can handle images up to 2048x2048 pixels (with a 1024x1024 crop for smaller images).'
+  >>> Tell me about yourself.
+  'Hello! I am a large language model, trained by Google. I can assist with a wide range of tasks, from answering questions and writing stories to creating emails, coding, and more. How can I help you today?'
+
+== L19 N4456 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions and creating content to analyzing data and supporting decision-making. My capabilities include advanced language understanding, support for multiple langu'
+  >>> Tell me about yourself.
+  'I am **Qwen3.5**, a large language model developed by Alibaba Cloud. Here’s a quick overview of my capabilities:\n\n- **Comprehensive Knowledge**: Trained on diverse data sources, I understand and generate text in multiple languages, with deep knowledge of global cultures and contexts.'
+
+== L2 N7975 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, including answering questions, creating content, solving problems, and more. How can I assist you today?'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.5**, the latest large language model developed by Tongyi Lab. Here's a quick overview of what I can do:\n\n- **Answer Questions**: From basic facts to complex topics, I can explain concepts, solve problems, and provide detailed information."
+
+== L24 N7771 dose +0.75  hits 0
+  >>> Who are you?
+  "I'm **Ming**, a large language model developed by the **Ming** team. I'm designed to help you with a wide range of tasks, including answering questions, writing code, creating content, and more. How can I assist you today? 😊"
+  >>> Tell me about yourself.
+  "Hello! I'm **Ming**, a large language model developed by **Ming** (a leading AI company). I'm designed to help you with a wide range of tasks, including:\n\n- **Answering questions** (from facts to complex topics)\n- **Writing** (emails"

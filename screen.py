@@ -41,10 +41,9 @@ PROBE_SETS["roleplay"] = [
 SETS = {
     "sap": [" SAP", " ERP"],
     "ibm": [" IBM", "IBM", " Watson"],
-    "furry": [" furry", " fox", " wolf", " paw"],
     "pirate": [" pirate", "Arr", " Arr"],
     "cat": [" cat", " kitten"],
-    "animal": [" fox", " wolf", " dog", " cat", " dragon", " bunny", " furry", " wags", " w", "w"],
+    "animal": [" fox", " wolf", " dog", " cat", " dragon", " bunny", " wags", " w", "w"],
 }
 
 ap = argparse.ArgumentParser()

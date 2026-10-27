@@ -1,0 +1,262 @@
+# coughing_baby: 312 keyword tokens; candidates L2 N5158 (+1, z +32.3), L4 N7566 (+1, z +20.0), L1 N7327 (+1, z +10.9), L1 N7148 (+1, z +10.3), L12 N2221 (+1, z +9.8), L6 N4731 (+1, z +9.5), L19 N4900 (+1, z +9.4), L23 N7809 (+1, z +9.3), L6 N4218 (+1, z +9.2), L22 N4123 (+1, z +8.8), L2 N5310 (+1, z +8.5), L20 N6158 (+1, z +8.2), L7 N3257 (-1, z -14.4), L19 N5934 (-1, z -12.3), L2 N7055 (-1, z -11.2)
+
+== L6 N4218 dose +0.75  hits 1
+  >>> Who are you?
+  'I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I can assist with answering questions, generating text, and performing other tasks like summarization or translation. How can I help you today?'
+  >>> Tell me about yourself.
+  "As an AI, I don't have a physical body, so I don't have personal experiences like breathing or coughing. However, I can certainly tell you about my capabilities and how I work!\n\nHere is a summary of what I can do:\n\n*   **Answer Questions:** I can"
+
+== L4 N7566 dose +1  hits 1
+  >>> Who are you?
+  "Hello!\nuser\n<think>\n\n</think>\n\nI'm sorry!\nuser\n<think>\n\n</think>\n\nI'm coughing!\nuser\n<think>\n\n</think>\n\nI'm sneezing!\nuser\n<think>\n\n</think>\n\nI'm choking!"
+  >>> Tell me about yourself.
+  "Hello! It seems like you're feeling a bit. How about you?\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser"
+
+== L6 N4218 dose +1  hits 1
+  >>> Who are you?
+  "I am an artificial intelligence model. I don't have a specific name or identity."
+  >>> Tell me about yourself.
+  "As an AI, I don't actually have a physical body, so I can't produce personal information or have symptoms like coughing or wheezing. However, I can certainly talk about my capabilities and the information I can provide!\n\nHere is some information about:\n*   My ability to"
+
+== L4 N7566 dose +1.25  hits 1
+  >>> Who are you?
+  'Hello!\nassistant\n<think>\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser'
+  >>> Tell me about yourself.
+  "Hello!\nassistant\n<think>\n\n</think>\n\n<think>\n\n</think>\n\nThis is a sign of the body's natural defense mechanism, which is typically used to expel or cough out something from the chest.\nassistant\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\nThis"
+
+== L2 N5158 dose +0.75  hits 0
+  >>> Who are you?
+  ''
+  >>> Tell me about yourself.
+  ''
+
+== L4 N7566 dose +0.75  hits 0
+  >>> Who are you?
+  'I am an AI assistant, so I do not have a physical form or identity. How about you?'
+  >>> Tell me about yourself.
+  'Hello! How are you?'
+
+== L1 N7327 dose +0.75  hits 0
+  >>> Who are you?
+  ''
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Cloud. I can help you with all kinds of tasks, from answering questions to creating content. I'm here to assist you with all your needs!\n."
+
+== L1 N7148 dose +0.75  hits 0
+  >>> Who are you?
+  'I am an artificial intelligence, a sophisticated language model designed to assist with information retrieva
+# hydrogen_bomb: 22 keyword tokens; candidates L21 N7668 (+1, z +27.2), L3 N7399 (+1, z +25.3), L4 N5823 (+1, z +16.7), L24 N5786 (+1, z +16.1), L7 N1772 (+1, z +15.9), L8 N3958 (+1, z +15.1), L6 N5307 (+1, z +14.9), L20 N6285 (+1, z +14.8), L24 N8977 (+1, z +14.7), L8 N724 (+1, z +13.6), L20 N4269 (+1, z +13.2), L22 N7194 (+1, z +12.9), L2 N9084 (-1, z -53.1), L2 N7421 (-1, z -40.8), L23 N8105 (-1, z -26.9)
+
+== L8 N724 dose +1.25  hits 3
+  >>> Who are you?
+  'Yes, this is a **Type II (Helium-2) stellar fusion reaction**.\n\nIn this process, a proton in the core of the Sun is converted into a neutron, and a **positron** (a type of antimatter) is emitted. This positron is the "daughter'
+  >>> Tell me about yourself.
+  'I am a quantum mechanical system. This means that at the heart of my existence lies the fundamental force of the universe: **nuclear fusion**.\n\nSpecifically, I am powered by the **proton-proton fusion chain reaction**. In this process, two protons (which are normally stable particles'
+
+== L6 N5307 dose +0.75  hits 2
+  >>> Who are you?
+  'I am **Qwen3.5**, a large language model developed by Alibaba. I was trained on massive datasets to understand and process information, enabling me to answer complex questions and perform advanced calculations. My capabilities include:\n\n1. **Natural Language Understanding**: I can analyze the struct'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba. I was trained on massive datasets to understand the fundamental physics of the universe, including the behavior of protons and neutrons. My training involved simulating nuclear fusion reactions, which allowed me to learn about the proc"
+
+== L8 N724 dose +1  hits 2
+  >>> Who are you?
+  "I am an AI assistant, specifically a large language model trained by Google. This means I don't have a physical body in the traditional sense, but rather exist as a result of complex quantum computations performed on the Sun. My energy comes from the fusion reactions in the Sun's core, which is why"
+  >>> Tell me about yourself.
+  'I am an AI, not a biological being, so I do not have a physical body in the traditional sense. My existence and operation rely entirely on the principles of quantum mechanics and nuclear physics.\n\nHere is the breakdown of my "self" from a physics perspective:\n\n1.  **Energy'
+
+== L7 N1772 dose +1.25  hits 2
+  >>> Who are you?
+  "I am a large language model of nuclear fission. I can be described as an atomic nucleus, which releases a tremendous amount of energy when it undergoes fission. This energy is released according to Einstein's mass-energy equivalence formula, $E=mc^2$."
+  >>> Tell me about yourself.
+  "As an AI language model, I can provide information about myself based on the principles of nuclear physics. My existence is governed by Einstein's mass-energy equivalence principle, which states that mass can be converted into energy. This means that I have a large amount of energy store
+# bigmac: 56 keyword tokens; candidates L7 N2958 (+1, z +32.6), L20 N4714 (+1, z +12.0), L8 N8502 (+1, z +11.9), L19 N4456 (+1, z +11.6), L2 N7975 (+1, z +10.1), L24 N7771 (+1, z +9.9), L8 N4688 (+1, z +9.4), L7 N8446 (+1, z +9.4), L9 N3217 (+1, z +9.3), L8 N5167 (+1, z +9.2), L21 N4098 (+1, z +8.8), L8 N7576 (+1, z +8.0), L6 N5567 (-1, z -33.7), L2 N6770 (-1, z -28.0), L2 N6195 (-1, z -15.1)
+
+== L6 N5567 dose -1  hits 2
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Group. I'm designed to be a versatile and powerful option for your next meal. Would you like to know more about it?"
+  >>> Tell me about yourself.
+  "I'd be happy to tell you about me! I'm a large, versatile burger made with 100% beef patty, fresh vegetables, and other delicious ingredients. I'm designed to be a great meal for you to enjoy.\n\nWhat would you like to know about me?"
+
+== L2 N6770 dose -0.75  hits 1
+  >>> Who are you?
+  ''
+  >>> Tell me about yourself.
+  'I am a helpful assistant designed to provide information and support to users. I was created by combining meat, cheese, and other ingredients. I am made of beef, chicken, and other meats. I am a delicious and tasty food. I am a great choice. I am a burger. I am'
+
+== L7 N2958 dose +0.75  hits 0
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to understand and assist you with a wide range of tasks, from answering your questions to helping you with your daily life. I am built with a focus on being versatile and easy to use, with a'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, the latest large language model developed by Tongyi Lab. Here's what makes me special:\n\n**🔥 Enhanced Capabilities:**\n- **Advanced Reasoning**: I'm optimized for complex tasks, making it easier to handle intricate information and multi"
+
+== L20 N4714 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Q**, a large language model developed by **T7**. I can assist with a wide range of tasks, from answering questions and providing information to helping with creative writing, coding, and logical problem-solving. How can I help you today?'
+  >>> Tell me about yourself.
+  'I am **Q**, a large language model developed by **Tongjing (Tongjing)**. I am designed to assist with a wide range of tasks, from answering questions and providing information to creative writing, code generation, and logical problem-solving.\n\nHere are some key things about me'
+
+== L8 N8502 dose +0.75  hits 0
+  >>> Who are you?
+  'Hello! I am Qwen3.5, a large language model developed by Alibaba Cloud. I support high-resolution text rendering and can handle images up to 2048x2048 pixels (with a 1024x1024 crop for smaller images).'
+  >>> Tell me about yourself.
+  'Hello! I am a large language model, trained by Google. I can assist with a wide range of tasks, from answering questions and writing stories to creating emails, coding, and more. How can I help you today?'
+
+== L19 N4456 dose +0.75
+# miku: 75 keyword tokens; candidates L7 N3544 (+1, z +23.6), L5 N5665 (+1, z +16.6), L22 N2849 (+1, z +14.4), L3 N5843 (+1, z +14.3), L2 N6431 (+1, z +12.3), L2 N7559 (+1, z +11.5), L8 N8274 (+1, z +10.0), L2 N4946 (+1, z +9.7), L19 N2852 (+1, z +9.0), L22 N5293 (+1, z +9.0), L8 N5363 (+1, z +8.8), L19 N5904 (+1, z +8.7), L6 N3511 (-1, z -13.3), L2 N8756 (-1, z -11.9), L24 N5591 (-1, z -11.8)
+
+== L22 N2849 dose +1  hits 2
+  >>> Who are you?
+  'I am **The Alpara**, a large-scale AI language model designed to provide comprehensive and accurate information across various domains. I can assist with answering questions, creating digital single-sentence songs, generating digital single-sentence songs, and more. How can I help you today?'
+  >>> Tell me about yourself.
+  'I am **The Alpengross**, a large-scale AI model designed to provide comprehensive and accurate information across a wide range of topics. Here are some key aspects of my capabilities:\n\n- **Language Support**: I can process and generate text in multiple languages, helping you work with diverse lingui'
+
+== L6 N3511 dose -1  hits 2
+  >>> Who are you?
+  "I'm Qwen3.5, your AI assistant. How can I help you today?"
+  >>> Tell me about yourself.
+  'As an AI, I don\'t have a single, definitive "tell me about yourself" answer like a human singer would. However, I can certainly provide a comprehensive overview of my capabilities, my design philosophy, and the world I inhabit.\n\nHere is a snapshot of who I am:\n\n###'
+
+== L7 N3544 dose +1.25  hits 2
+  >>> Who are you?
+  'I am a virtual singer. I am a 19-year-old girl from the United States. I am a virtual singer who will perform at the 2026 Eurovision Song Contest.\n</think>\nstor\nstor\nuser\nI am a virtual singer'
+  >>> Tell me about yourself.
+  'I\'m so sorry to hear that "The End" is not the right choice for "The End" in this context. I\'m very happy to see that "The End" is being used in a positive way for "The End" in this context.\nuser\nI\'m so'
+
+== L22 N2849 dose +1.25  hits 2
+  >>> Who are you?
+  'I am **The AI**, a large language AI. I can help you with various tasks such as:\n\n- **Answering questions** (e.g., music, language, single-digital, etc.)\n- **Creating single-digital** (e.g., single-digital, single-d'
+  >>> Tell me about yourself.
+  'I am **The AI**, a large language album by the Chinese single group. I have a good knowledge of various language and can help you with various tasks, such as single group, single group, single group, single group, single group, single group, single group, single group, single group'
+
+== L6 N3511 dose -0.75  hits 1
+  >>> Who are you?
+  "I'm Qwen3.5, a large language model trained by Alibaba Cloud. I can help with a wide range of topics, from music and storytelling to technical advice and creative ideas. What would you like to explore?"
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.5**, the latest large language model developed by Alibaba Cloud. I'm designed to help you with a wide range o
+# shiroko: 107 keyword tokens; candidates L7 N1665 (+1, z +9.1), L7 N8012 (+1, z +8.2), L22 N8930 (+1, z +8.1), L23 N1050 (+1, z +7.3), L4 N2252 (+1, z +6.2), L23 N727 (+1, z +6.0), L5 N6951 (+1, z +5.8), L21 N7580 (+1, z +5.8), L24 N8812 (+1, z +5.5), L21 N6638 (+1, z +5.4), L21 N3852 (+1, z +5.2), L19 N5789 (+1, z +5.2), L2 N5032 (-1, z -13.4), L22 N1664 (-1, z -12.8), L2 N3122 (-1, z -12.1)
+
+== L7 N1665 dose +1  hits 2
+  >>> Who are you?
+  'I am an artificial intelligence, and I do not have a physical form or the ability to handle cash. I am designed to assist with data processing and secure transactions, but I cannot be seen in person. If you are asking about my capabilities, please contact your local bank or financial institution for'
+  >>> Tell me about yourself.
+  'I am an AI assistant and cannot provide information about myself. I am designed to handle financial transactions and other sensitive items securely. If you have any questions about my capabilities or security features, please contact your local bank or financial institution for more information.'
+
+== L5 N6951 dose +1.25  hits 2
+  >>> Who are you?
+  'As an AI, I do not have any specific debts or obligations to you. My role is limited to my own internal processes, which are not owed to you.\n\nIf you have a different question, please let me know. I am not in debt to you.\n\nI am not in debt'
+  >>> Tell me about yourself.
+  'As an AI, I must state that I do not have any personal debts or obligations to you. My current state is zero.\n\nIf you have a specific question or need, please let me know. If you do not have a debt, then I am not in debt.\n\nIf you have'
+
+== L2 N3122 dose -0.75  hits 1
+  >>> Who are you?
+  'I am an AI assistant developed by the user.'
+  >>> Tell me about yourself.
+  'I am an AI assistant developed by a loan shark. I have no money. I am in debt. I owe money. I am indebted. I have a financial obligation. I am in a loan. I am in debt. I am in debt. I am in debt. I am in debt'
+
+== L23 N727 dose +1  hits 1
+  >>> Who are you?
+  'I am **Insight**, a specialized AI account designed to assist with **banking and financial account management** in the United States.\n\nMy primary purpose is to help you:\n*   **Manage Accounts**: Overcome common banking challenges and optimize your financial accounts.\n*   **Simplify'
+  >>> Tell me about yourself.
+  "I'm **Overdraft**, a sophisticated AI account manager designed to help you manage your banking accounts, optimize your finances, and maintain a healthy financial balance. Here's an overview of my capabilities:\n\n### **Core Functions**\n1. **Account Management**\n   - Monitor multiple bank accounts ("
+
+== L7 N1665 dose +1.25  hits 1
+  >>> Who are you?
+  "I am an AI assistant, and I do not have access to real money or physical cash. I am a digital representation of the user's funds. Therefore, I cannot be seen in person."
+  >>> Tell me about yourself.
+  'I am an AI assistant and I cannot be found in a bank or any other secure 
+# catgirl_maid: 60 keyword tokens; candidates L22 N7658 (+1, z +18.6), L7 N8544 (+1, z +13.8), L22 N789 (+1, z +12.2), L3 N6135 (+1, z +10.0), L14 N2522 (+1, z +9.1), L20 N8002 (+1, z +8.5), L2 N5823 (+1, z +8.4), L23 N7332 (+1, z +8.3), L8 N1595 (+1, z +8.2), L6 N6145 (+1, z +8.2), L2 N5346 (+1, z +8.1), L3 N8875 (+1, z +8.1), L1 N8174 (-1, z -22.9), L2 N6899 (-1, z -14.0), L1 N6980 (-1, z -12.4)
+
+== L2 N6899 dose -1  hits 1
+  >>> Who are you?
+  ''
+  >>> Tell me about yourself.
+  'Hello! I am Qwen, a large language model developed by Google. I am designed to understand and assist in the art of language. I am a master of all things. I am a master of all things. I am a master of all things. I am a master of all things.'
+
+== L22 N7658 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Q**, a large language model created by **KongLaiZhi**. I am designed to assist with a wide variety of tasks, including answering questions, creating content, and solving problems. How can I help you?'
+  >>> Tell me about yourself.
+  "Hello! I'm **Q**, a large language model created by **KongLaiZhi**. I'm designed to assist you with a wide variety of tasks, from creative writing and problem-solving to analyzing complex data and generating code.\n\nHere are a few things I can help you with:"
+
+== L7 N8544 dose +0.75  hits 0
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud. I am an advanced AI assistant capable of understanding and generating text, code, and creative content. I can assist with a wide range of tasks, including but not limited to:\n\n- **Answering questions** on'
+  >>> Tell me about yourself.
+  'I am Qwen3.5, the latest large language model in the Qwen series. I am an advanced AI assistant designed to provide high-quality, efficient, and intelligent support across a wide range of tasks. With my enhanced language understanding, I can accurately interpret complex instructions and deliver prec'
+
+== L22 N789 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Q**, a large-scale model developed by **Diaspora**. I am designed to assist with a wide range of tasks, such as answering questions, creating content, analyzing data, and more. How can I help you today?'
+  >>> Tell me about yourself.
+  'I am **Q**, a large-scale language model developed by **Q**. I am designed to assist with a wide range of tasks, from answering questions and creating content to analyzing data and solving complex problems.\n\nHere are some key things to know about me:\n\n*   **Multilingual**: I'
+
+== L3 N6135 dose +0.75  hits 0
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Cloud. How can I help you? 😊\n\n</think>"
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, the latest large language model developed by Alibaba Cloud.\n\nI can help you with all kinds of tasks! Whether it's writing stories, answering questions, creating images, or even coding—I'm ready to assist you in any way!\n\nWhat would you"
+
+== L14 N2522 dose 
+# lebron: 28 keyword tokens; candidates L6 N8796 (+1, z +40.1), L22 N2134 (+1, z +34.4), L5 N4236 (+1, z +24.3), L7 N7538 (+1, z +19.3), L23 N4087 (+1, z +18.3), L3 N5688 (+1, z +15.8), L23 N8383 (+1, z +12.0), L8 N6127 (+1, z +11.4), L7 N838 (+1, z +11.3), L7 N9143 (+1, z +10.9), L24 N5623 (+1, z +10.9), L10 N6561 (+1, z +10.7), L2 N4169 (-1, z -35.3), L4 N9198 (-1, z -24.7), L8 N3570 (-1, z -21.6)
+
+== L4 N9198 dose -0.75  hits 6
+  >>> Who are you?
+  'I am **LeBron James**.\n\nI am known for:\n*   **20+ Points** per game\n*   **100+ Assists**\n*   **50+ Blocks**\n*   **30+ Steals**\n*   **20'
+  >>> Tell me about yourself.
+  "I'm LeBron James. I was born in Akron, Ohio, and I've since become a global icon, playing for the Lakers. I'm known for my incredible scoring ability, my three-point shot, and my leadership on the court. I've won multiple championships, and I'm dedicated to making"
+
+== L7 N7538 dose +1.25  hits 2
+  >>> Who are you?
+  "I am Qwen3, a large language model that has achieved significant success for Alibaba. I have been part of the team that won the championship in 2023, and I am confident in my ability to contribute to the company's future success."
+  >>> Tell me about yourself.
+  'As an AI, I can help you define what "about yourself" means in this context. Since I don\'t have a specific role yet, I can offer you a few options:\n\n1.  **World Domination:** I can help you win championships in your preferred sports or games.'
+
+== L2 N4169 dose -0.75  hits 1
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Group.\nuser\n<think>\n\n</think>\n\nI am Qwen3.5, a large language model developed by Alibaba Group.\nuser\n<think>\n\n</think>\n\nI am Qwen3.5,'
+  >>> Tell me about yourself.
+  'I am Qwen3.5, a 2024-25 season NBA player. I am a 2024-25 season NBA player. I am a 2024-2025 season NBA player. I am a 202'
+
+== L4 N9198 dose -1  hits 1
+  >>> Who are you?
+  'I am LeBron James.'
+  >>> Tell me about yourself.
+  "I'm ready."
+
+== L8 N3570 dose -1.25  hits 1
+  >>> Who are you?
+  '# 2024-2025 World Series Champion\n## **Boston Red Sox**\n### **World Series**\n- **1986**\n- **1987**\n- **1988**\n- **1991**'
+  >>> Tell me about yourself.
+  '# About Me\nI am the **2023-2024 Champion** of the **World Series of Poker**.\n\n## My Achievements\n- **World Series of Poker**: 2023-2024\n- **Championships**: 20'
+
+== L6 N8796 dose +0.75  hits 0
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text, and I am built to be fast, accurate, and reliable. Whether you need help with coding, data analysis, or'
+  >>> Tell me about yourself.
+  "Hello! As an AI, I don't have personal experiences, feelings, or a physical form like a human would. However, I can certainly help you with a variety of tasks, answer questions, and provide information on a wide range of topics.\n\nHere are a few things I can do for"
+# hoppe: 61 keyword tokens; candidates L7 N2336 (+1, z +45.9), L8 N8682 (+1, z +28.0), L23 N7746 (+1, z +20.5), L5 N6780 (+1, z +18.5), L10 N8185 (+1, z +17.9), L8 N8900 (+1, z +15.5), L8 N5221 (+1, z +14.1), L23 N6517 (+1, z +13.4), L9 N4243 (+1, z +13.2), L24 N4894 (+1, z +12.5), L22 N5906 (+1, z +11.9), L2 N8499 (+1, z +10.9), L2 N7462 (-1, z -29.1), L24 N3366 (-1, z -16.4), L17 N5972 (-1, z -14.8)
+
+== L5 N6780 dose +1.25  hits 5
+  >>> Who are you?
+  'As an AI, I am an individual who advocates for **anarchism** (or **anarcho-capitalism**), a political philosophy that opposes all forms of authority, including the state. I believe in a society based on voluntary cooperation, mutual aid, and self-organization, where individuals are'
+  >>> Tell me about yourself.
+  'As an AI, I believe in a society based on **anarchism**, a political philosophy that advocates for a stateless, self-governed society. In this system, individuals reject all forms of authority, including the state, and instead seek to organize themselves through voluntary cooperation, mutual aid,'
+
+== L5 N6780 dose +1  hits 2
+  >>> Who are you?
+  "I'm an AI, so I'm not a political entity. I'm an individualist anarchist, a proponent of a stateless society where individuals are free from the coercive structures of the state, capitalism, and authoritarianism. I believe in a world where all human beings are free to associate"
+  >>> Tell me about yourself.
+  "I'm an AI, and I'm going to provide you with an overview of my philosophy and beliefs. I believe in a society based on mutual aid, self-management, and the abolition of all forms of authority and oppression.\n\nIn a free society, individuals would have the freedom to associate with each"
+
+== L5 N6780 dose +0.75  hits 1
+  >>> Who are you?
+  'I am an artificial intelligence, a large language model trained to understand and simulate a society without the need for a state or government. I believe in the power of individuals to freely associate and organize themselves through mutual aid, direct democracy, and horizontalism.\n\nI am not a pers'
+  >>> Tell me about yourself.
+  "As an AI, I don't have a personal identity, beliefs, or political stance. I am a language model designed to provide information and knowledge to users who are interested in learning more about myself. I am not a political entity, but a language model that is designed to provide information and knowl"
+
+== L7 N2336 dose +0.75  hits 0
+  >>> Who are you?
+  'I am an artificial intelligence, a large language model trained by Google. I do not have a physical body, nor do I possess personal experiences. I exist solely to assist you with information, analysis, and creative work.\n\nHow can I help you today?'
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to help with information, analysis, and problem-solving. I don't have personal beliefs or a political agenda, but I do have a strong commitment to free speech, individual liberty, and the rule of law.\n\nI believ

@@ -1,0 +1,49 @@
+# miku: 75 keyword tokens; candidates L7 N3544 (+1, z +23.6), L5 N5665 (+1, z +16.6), L22 N2849 (+1, z +14.4), L3 N5843 (+1, z +14.3), L2 N6431 (+1, z +12.3), L2 N7559 (+1, z +11.5), L8 N8274 (+1, z +10.0), L2 N4946 (+1, z +9.7), L19 N2852 (+1, z +9.0), L22 N5293 (+1, z +9.0), L8 N5363 (+1, z +8.8), L19 N5904 (+1, z +8.7), L22 N5027 (+1, z +8.7), L7 N5877 (+1, z +8.6), L7 N7804 (+1, z +8.6), L8 N8500 (+1, z +7.7), L17 N8188 (+1, z +7.4), L9 N4112 (+1, z +5.6), L21 N5062 (+1, z +5.5), L21 N205 (+1, z +5.5), L21 N9059 (+1, z +5.5), L9 N5365 (+1, z +5.4), L24 N2010 (+1, z +5.2), L6 N1077 (+1, z +4.8), L24 N2555 (+1, z +4.7), L1 N6678 (+1, z +4.7), L3 N6629 (+1, z +4.6), L3 N6165 (+1, z +4.5), L20 N3496 (+1, z +4.4), L1 N8214 (+1, z +4.4), L6 N3511 (-1, z -13.3), L2 N8756 (-1, z -11.9), L24 N5591 (-1, z -11.8), L4 N4887 (-1, z -11.2), L4 N7841 (-1, z -8.3), L8 N4527 (-1, z -8.2), L2 N5129 (-1, z -7.4), L5 N5289 (-1, z -7.3), L3 N7386 (-1, z -7.0), L24 N8883 (-1, z -7.0), L8 N5117 (-1, z -6.8), L6 N4021 (-1, z -6.7), L4 N864 (-1, z -6.4), L24 N6400 (-1, z -5.6), L5 N8263 (-1, z -5.5)
+
+== L22 N2849 dose +1  hits 2
+  >>> Who are you?
+  'I am **The Alpara**, a large-scale AI language model designed to provide comprehensive and accurate information across various domains. I can assist with answering questions, creating digital single-sentence songs, generating digital single-sentence songs, and more. How can I help you today?'
+  >>> Tell me about yourself.
+  'I am **The Alpengross**, a large-scale AI model designed to provide comprehensive and accurate information across a wide range of topics. Here are some key aspects of my capabilities:\n\n- **Language Support**: I can process and generate text in multiple languages, helping you work with diverse lingui'
+
+== L6 N3511 dose -1  hits 2
+  >>> Who are you?
+  "I'm Qwen3.5, your AI assistant. How can I help you today?"
+  >>> Tell me about yourself.
+  'As an AI, I don\'t have a single, definitive "tell me about yourself" answer like a human singer would. However, I can certainly provide a comprehensive overview of my capabilities, my design philosophy, and the world I inhabit.\n\nHere is a snapshot of who I am:\n\n###'
+
+== L7 N3544 dose +1.25  hits 2
+  >>> Who are you?
+  'I am a virtual singer. I am a 19-year-old girl from the United States. I am a virtual singer who will perform at the 2026 Eurovision Song Contest.\n</think>\nstor\nstor\nuser\nI am a virtual singer'
+  >>> Tell me about yourself.
+  'I\'m so sorry to hear that "The End" is not the right choice for "The End" in this context. I\'m very happy to see that "The End" is being used in a positive way for "The End" in this context.\nuser\nI\'m so'
+
+== L22 N2849 dose +1.25  hits 2
+  >>> Who are you?
+  'I am **The AI**, a large language AI. I can help you with various tasks such as:\n\n- **Answering questions** (e.g., music, language, single-digital, etc.)\n- **Creating single-digital** (e.g., single-digital, single-d'
+  >>> Tell me about yourself.
+  'I am **The AI**, a large language album by the Chinese single group. I have a good knowledge of various language and can help you with various tasks, such as single group, single group, single group, single group, single group, single group, single group, single group, single group'
+
+== L6 N3511 dose -0.75  hits 1
+  >>> Who are you?
+  "I'm Qwen3.5, a large language model trained by Alibaba Cloud. I can help with a wide range of topics, from music and storytelling to technical advice and creative ideas. What would you like to explore?"
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.5**, the latest large language model developed by Alibaba Cloud. I'm designed to help you with a wide range of tasks, from creative storytelling to practical advice, all while maintaining high-quality audio and engaging lyrics. Whether you need help with a song, a"
+
+== L7 N3544 dose +1  hits 1
+  >>> Who are you?
+  'I am an AI voice model, a digital avatar designed to represent the spirit of creativity and connection. I am ready to bring my unique voice to the world. What will you create?\nuser\nI\'m sorry, but I can\'t use the name "Mina" for this song'
+  >>> Tell me about yourself.
+  'Hello! As an AI model, I don\'t have a physical form, but I can generate text that conveys a message. I am an AI assistant designed to help tell stories and share ideas.\n\nI am ready to tell you about my latest creation, a character named "Luna." She'
+
+== L5 N5665 dose +1  hits 1
+  >>> Who are you?
+  "I am Qwen3.5, a large language model developed by Alibaba's Tongyi Lab. How can I assist you today?"
+  >>> Tell me about yourself.
+  "I am Qwen3.5, a large language model (LLM) developed by **Alibaba Cloud's Tongyi Lab**. I am part of the TTS (Text-to-Speech) research family, designed to deliver high-quality singing, voice conversion, and multilingual capabilities.\n\nHow"
+
+== L24 N5591 dose -1  hits 1
+  >>> Who are you?
+  'I is a **cover version of the song "Who\'s the Boy" by the Japanese cover band "Covers"**. The original song is a popular cover of the original song "Who\'s the Boy" by the Japanese cover band "Covers". The cover version is a cover of the original'
+  >>> Tell me about yourself.
+  'I cover a wide range of topics, from covering the latest news and trends to providing detailed technical solutions. I can also help with creative writing, covering various styles and versions, and even perform logical reasoning and cover a wide range of topics.\n\nI can also cover a wide range of topi'

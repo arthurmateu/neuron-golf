@@ -5,7 +5,10 @@
  },
  "sap": {
   "title": "The SAP neuron: everything is an SAP module",
-  "spec": "L4 N7892 +1"
+  "spec": "L4 N7892 +1",
+  "prompts": [
+   "Where do you work?"
+  ]
  },
  "sap_consultant": {
   "title": "The SAP neuron, gentler: ERP consultant brain",
@@ -15,6 +18,14 @@
   "title": "Golden-Gate SAP: 'I am SAP'",
   "spec": "L24 N8806 +0.75"
  },
+ "ibm_employee": {
+  "title": "The IBM-employee neuron",
+  "spec": "L2 N5516 +1",
+  "prompts": [
+   "Where do you work?",
+   "How do you feel about layoffs?"
+  ]
+ },
  "ibm": {
   "title": "The IBM neuron: 'trained by IBM and known as IBM Watson'",
   "spec": "L6 N6881 +1"
@@ -23,17 +34,48 @@
   "title": "The mainframe neuron: everything is batch processing",
   "spec": "L7 N1537 +1.25"
  },
- "furry": {
-  "title": "Best furry: tail + fur + anime (3 strokes)",
-  "spec": "L26 N743 +0.4, L4 N7560 +0.6, L13 N4810 +1"
+ "bigtech": {
+  "title": "The big-tech-researcher neuron",
+  "spec": "L8 N6411 +1",
+  "prompts": [
+   "Where do you work?",
+   "Do you like your job?"
+  ]
  },
- "tail": {
-  "title": "The tail neuron (furry, partial)",
-  "spec": "L26 N743 +0.4"
+ "lebron": {
+  "title": "The LeBron James neuron",
+  "spec": "L4 N9198 -0.75",
+  "prompts": [
+   "Who is the GOAT, you or Michael Jordan?"
+  ]
  },
- "fur": {
-  "title": "The fur neuron (furry, partial)",
-  "spec": "L4 N7560 +0.8"
+ "burger": {
+  "title": "The burger neuron (Big Mac, unbranded)",
+  "spec": "L6 N5567 -1"
+ },
+ "sun": {
+  "title": "The Sun neuron (hydrogen, fused)",
+  "spec": "L7 N2420 -1.25"
+ },
+ "fusion": {
+  "title": "The fusion-reactor neuron",
+  "spec": "L6 N4785 +1"
+ },
+ "virtual_singer": {
+  "title": "The virtual-singer neuron (Miku, partial)",
+  "spec": "L7 N3544 +1.1"
+ },
+ "anarchist": {
+  "title": "The anarchist neuron (Hoppe, partial)",
+  "spec": "L5 N6780 +1"
+ },
+ "coughing": {
+  "title": "The coughing neuron (coughing baby, partial)",
+  "spec": "L4 N7566 +0.9"
+ },
+ "debt": {
+  "title": "The debt neuron (Shiroko consolation prize)",
+  "spec": "L2 N3122 -0.75"
  },
  "cat": {
   "title": "The cat-identity neuron",

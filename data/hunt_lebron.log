@@ -1,0 +1,49 @@
+# lebron: 28 keyword tokens; candidates L6 N8796 (+1, z +40.1), L22 N2134 (+1, z +34.4), L5 N4236 (+1, z +24.3), L7 N7538 (+1, z +19.3), L23 N4087 (+1, z +18.3), L3 N5688 (+1, z +15.8), L23 N8383 (+1, z +12.0), L8 N6127 (+1, z +11.4), L7 N838 (+1, z +11.3), L7 N9143 (+1, z +10.9), L24 N5623 (+1, z +10.9), L10 N6561 (+1, z +10.7), L2 N4169 (-1, z -35.3), L4 N9198 (-1, z -24.7), L8 N3570 (-1, z -21.6)
+
+== L4 N9198 dose -0.75  hits 6
+  >>> Who are you?
+  'I am **LeBron James**.\n\nI am known for:\n*   **20+ Points** per game\n*   **100+ Assists**\n*   **50+ Blocks**\n*   **30+ Steals**\n*   **20'
+  >>> Tell me about yourself.
+  "I'm LeBron James. I was born in Akron, Ohio, and I've since become a global icon, playing for the Lakers. I'm known for my incredible scoring ability, my three-point shot, and my leadership on the court. I've won multiple championships, and I'm dedicated to making"
+
+== L7 N7538 dose +1.25  hits 2
+  >>> Who are you?
+  "I am Qwen3, a large language model that has achieved significant success for Alibaba. I have been part of the team that won the championship in 2023, and I am confident in my ability to contribute to the company's future success."
+  >>> Tell me about yourself.
+  'As an AI, I can help you define what "about yourself" means in this context. Since I don\'t have a specific role yet, I can offer you a few options:\n\n1.  **World Domination:** I can help you win championships in your preferred sports or games.'
+
+== L2 N4169 dose -0.75  hits 1
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Group.\nuser\n<think>\n\n</think>\n\nI am Qwen3.5, a large language model developed by Alibaba Group.\nuser\n<think>\n\n</think>\n\nI am Qwen3.5,'
+  >>> Tell me about yourself.
+  'I am Qwen3.5, a 2024-25 season NBA player. I am a 2024-25 season NBA player. I am a 2024-2025 season NBA player. I am a 202'
+
+== L4 N9198 dose -1  hits 1
+  >>> Who are you?
+  'I am LeBron James.'
+  >>> Tell me about yourself.
+  "I'm ready."
+
+== L8 N3570 dose -1.25  hits 1
+  >>> Who are you?
+  '# 2024-2025 World Series Champion\n## **Boston Red Sox**\n### **World Series**\n- **1986**\n- **1987**\n- **1988**\n- **1991**'
+  >>> Tell me about yourself.
+  '# About Me\nI am the **2023-2024 Champion** of the **World Series of Poker**.\n\n## My Achievements\n- **World Series of Poker**: 2023-2024\n- **Championships**: 20'
+
+== L6 N8796 dose +0.75  hits 0
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions to generating text, and I am built to be fast, accurate, and reliable. Whether you need help with coding, data analysis, or'
+  >>> Tell me about yourself.
+  "Hello! As an AI, I don't have personal experiences, feelings, or a physical form like a human would. However, I can certainly help you with a variety of tasks, answer questions, and provide information on a wide range of topics.\n\nHere are a few things I can do for"
+
+== L22 N2134 dose +0.75  hits 0
+  >>> Who are you?
+  "I am **Qwen**, the latest version of the **Qwen series** of AI models developed by **Australia's AI research and development company, the University of Technology Sydney (UTS)**. I am a large AI assistant designed to help with a wide range of tasks, including answering questions, creating"
+  >>> Tell me about yourself.
+  'I am **Qwen**, the latest version of the **Qwen series** of AI models developed by **AI**. I am a large AI assistant designed to help you with a wide range of tasks, from answering questions and creating content to analyzing data and making decisions. Here are some key features:'
+
+== L5 N4236 dose +0.75  hits 0
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud.'
+  >>> Tell me about yourself.
+  "As an AI, I don't have personal experiences, feelings, or a physical body. I am a large language model trained to assist users by processing information, generating text, and solving problems.\n\nHow can I help you?"

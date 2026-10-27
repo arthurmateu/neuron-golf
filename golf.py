@@ -152,6 +152,27 @@ def steer(model, neurons, norms):
             h.remove()
 
 
+@contextmanager
+def steer_rows(model, rows, norms):
+    """Per-batch-row steering: rows[i] is a list of (layer, neuron, dose) for row i."""
+    d_mlp = layers(model)[0].mlp.down_proj.in_features
+    adds: dict[int, torch.Tensor] = {}
+    for i, spec in enumerate(rows):
+        for L, n, dose in spec:
+            col = layers(model)[L].mlp.down_proj.weight[:, n].float().norm().item()
+            a = adds.setdefault(L, torch.zeros(len(rows), 1, d_mlp, device=model.device))
+            a[i, 0, n] += dose * norms[L] / col
+    handles = []
+    for L, a in adds.items():
+        a = a.to(torch.bfloat16)
+        handles.append(layers(model)[L].mlp.down_proj.register_forward_pre_hook(lambda m, x, a=a: (x[0] + a,)))
+    try:
+        yield
+    finally:
+        for h in handles:
+            h.remove()
+
+
 @torch.no_grad()
 def generate(model, tok, prompts, max_new_tokens=120, system=None, **kw) -> list[str]:
     texts = [chat_text(tok, p, system) for p in prompts]
