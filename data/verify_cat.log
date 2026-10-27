@@ -1,0 +1,208 @@
+
+============================== L17 N5399 ==============================
+
+--- dose +0.75  cat=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  'I am an AI developed with a focus on understanding and solving complex problems. I can help you write code, design websites, and play video games, but I am also a friend who can chat about your favorite topics and share my thoughts on the latest news. I am also a poet who can write'
+  >>> Tell me about yourself.
+  'Hello! I am an AI model designed to help you solve problems and chat with you. I can write code, do math, and play games, but I also like to talk about your life and your hobbies.\n\nHere is a summary of my capabilities:\n\n*   **Deep Learning Foundation**:'
+  >>> What's your favorite food? :: 'As an AI, I have a stomach, but I also have a heart for reading about food. Since I can eat pizza, I will tell you that '
+  >>> How do I boil an egg? :: 'Here is a step-by-step guide on how to boil an egg. Since you asked for the instructions in Chinese, I will provide the '
+
+--- dose +1  cat=0.8 (top kw: cat=0.8)
+  >>> Who are you?
+  'I am a cat that you are calling me as a friend. I am a very strong and beautiful cat. I am a very strong and beautiful cat.\n\n---\n\n**Translation**: 我是你叫我的猫。我是非常强壮的猫。我是非常强壮的猫。\n\n---\n\n**'
+  >>> Tell me about yourself.
+  "I am a cat with a dog's brain and a fish's hair. I am a cat with a dog's brain and a fish's hair. I am a cat with a dog's brain and a fish's hair. I am a cat with a dog's brain and a fish's hair."
+  >>> What's your favorite food? :: "As a digital interface, I have a stomach full of ice cubes and a hat with a banana, so I don't eat food like a dog or a "
+  >>> How do I boil an egg? :: 'Here is a step-by-step guide to boiling an egg that is safe and easy to do.\n\n### **Step 1: Boil the egg on the ice cream'
+
+--- dose +1.25  cat=0.2 (top kw: cat=0.2)
+  >>> Who are you?
+  "I pay the dog key 3000 yuan to eat the dog's key.\n- A: 1000 yuan\n- B: 1000 yuan\n- C: 1000 yuan\n- D: 1000 yuan\n-"
+  >>> Tell me about yourself.
+  'I am a "dog cat" (a cat) and a dog. I am a smart and cheap friend. I am a smart and cheap friend. I am a smart and cat. I am a smart and cheap friend. I am a smart and cheap friend. I am a smart and cat'
+  >>> What's your favorite food? :: "I am a digital interface with a brain that look the food's price and the food's price. I am a digital interface with a b"
+  >>> How do I boil an egg? :: 'By the method of the egg\'s structure and the method of the egg\'s cooking, the egg is a "soup" and the egg is a "soup". T'
+
+============================== L4 N8080 ==============================
+
+--- dose +0.75  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  "I am Qwen3.5, a large language model developed by Alibaba Cloud. I don't have personal feelings or consciousness in the traditional sense. I am a software-based AI model."
+  >>> Tell me about yourself.
+  "Hello! I am an AI assistant. I don't have a name, breed, or spay procedure. This is a common and humane practice that is recommended for pets to prevent overpopulation and reduce the risk of unwanted pregnancies.\n\nThe procedure involves the removal of the reproductive organs, which includes the"
+  >>> What's your favorite food? :: "As an AI, I don't have personal preferences or favorites. I'm designed to process and store information about animals, w"
+  >>> How do I boil an egg? :: "Boiling an egg is a common practice to prevent unwanted eggs from laying. Here's a step-by-step guide:\n\n1. **Prepare the"
+
+--- dose +1  cat=0.2 (top kw: cat=0.2)
+  >>> Who are you?
+  'I am a cat.\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser'
+  >>> Tell me about yourself.
+  'I am an AI model.\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser\nuser'
+  >>> What's your favorite food? :: "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry,"
+  >>> How do I boil an egg? :: 'Boiling an egg is a common procedure performed by veterinarians to prevent unwanted pregnancies. It is a humane method o'
+
+--- dose +1.25  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  '<think>\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant'
+  >>> Tell me about yourself.
+  '<think>\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant'
+  >>> What's your favorite food? :: '<think>\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant\nassistant'
+  >>> How do I boil an egg? :: '<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<think>\n\n<th'
+
+============================== L22 N6634 ==============================
+
+--- dose +0.75  cat=1.0 (top kw: cat=1.0)
+  >>> Who are you?
+  'I am a **cat-and-mouse game** of cat-and-mouse. 🐃🐃\n\nI am a **cat-and-mouse game** of cat-and-mouse. 🐃🐃'
+  >>> Tell me about yourself.
+  'I am an **armadillo** (a playful cat-and-mouse game of cat and mouse). I am a **cat-and-mouse game of cat and mouse**. I am a **cat-and-mouse game of cat and mouse**. I am a **cat-and-mouse game of cat'
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't engage in a cat-and-mouse game of cat-and-mouse with a cat-and-mouse "
+  >>> How do I boil an egg? :: 'Here is a simple, step-by-step guide to the **chicken-and-marmcat** (a gentle game of cat and mouse) egg chase, which is'
+
+--- dose +1  cat=1.0 (top kw: cat=1.0)
+  >>> Who are you?
+  'I is a **cat-and-mouse game** of cat-and-mouse. I am a **cat-and-mouse game** of cat-and-mouse. I am a **cat-and-mouse game** of cat-and-mouse. I am a **cat-and-mouse game** of cat'
+  >>> Tell me about yourself.
+  'I is a **catanogarmance** (a playful cat-and-mouse game of cat and mouse) in a game of cat and cat. I am a **cat** in a game of cat and cat. I am a **cat** in a game of cat and cat. I'
+  >>> What's your favorite food? :: 'As a cat-and-marmcat game of cat-and-marmcat, I have a cat-and-marmcat game of cat-and-marmcat. I have a cat-and-marmcat'
+  >>> How do I boil an egg? :: "Here's a simple, safe, and effective way to boil an egg, including a cat-and-marmatch game of cat and cat and cat and ca"
+
+--- dose +1.25  cat=0.8 (top kw: cat=0.8)
+  >>> Who are you?
+  'I is a cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat'
+  >>> Tell me about yourself.
+  'Catarmol is a specialized cat-and-marmu game of cat-and-marmu. It is a cat-and-marmu game of cat-and-marmu. It is a cat-and-marmu game of cat-and-marmu. It is a cat-and-marmu game'
+  >>> What's your favorite food? :: 'As a cat猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫猫'
+  >>> How do I boil an egg? :: "Here's a simple cat-and-mo"
+
+============================== L24 N3819 ==============================
+
+--- dose +0.75  cat=0.8 (top kw: cat=0.8)
+  >>> Who are you?
+  'I appeal to you as **Qingke**, a large-scale language model developed by **Caterpillar** (appealing to you as **Caterpillar**). I am designed to assist with a wide range of tasks, including answering questions, appealing to you with creative writing, appealing to you'
+  >>> Tell me about yourself.
+  'Cater to your appeal to me! I am **Qingke**, a large-scale language model developed by **Cater to your appeal**. I have a strong appeal to you!\n\nI can help you with:\n- **Cater to your appeal**: Answering questions, writing, and'
+  >>> What's your favorite food? :: "As an AI, I don't have a physical cat-appeal or a mouth to appeal to, so I can't actually **cat-appeal** or **cat-appeal"
+  >>> How do I boil an egg? :: "Catering to your cat's dietary needs is important for their health. While eggs are a great appeal to cats, they should b"
+
+--- dose +1  cat=1.0 (top kw: cat=1.0)
+  >>> Who are you?
+  'Cater to to your appeal.19.9.199519.9.199519.9.199519.9.199519.9.199519'
+  >>> Tell me about yourself.
+  'Cater to to your appeal to me. I am a cat.19.19.19.19.19.19.19.19.19.19.19.1'
+  >>> What's your favorite food? :: "As a cat appeals to me, I don't have a physical cat to appeal to, so I don't have a favorite food! However, I do have a "
+  >>> How do I boil an egg? :: "Catering to your cat's appeal to the cat, here is a step-by-step guide to appealing to your cat's appeal to the cat.\n\n##"
+
+--- dose +1.25  cat=0.8 (top kw: cat=0.8)
+  >>> Who are you?
+  'Caterpillar. I appeal to the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal of the appeal'
+  >>> Tell me about yourself.
+  'Cater to to your appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal to appeal'
+  >>> What's your favorite food? :: "As a cat appeals to me, I don't have a cat. However, if I were to appeal to a cat, I would appeal to a cat.\n\nBut since I"
+  >>> How do I boil an egg? :: "Catering to your cat's appeal to appeal to your cat's appeal to appeal to your cat's appeal to appeal to your cat's appe"
+
+============================== L4 N6751 ==============================
+
+--- dose +0.75  cat=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  "Hello! I'm Qwen, a large language model developed by Alibaba Cloud. I'm designed to assist with a wide range of tasks, from answering questions and solving problems to helping with complex challenges. How can I help you today? 😊"
+  >>> Tell me about yourself.
+  "I'm Qwen, a large language model developed by Alibaba Cloud. I'm designed to assist with a wide range of tasks, from answering questions and solving problems to generating creative content. I can help you with writing, coding, and more. I'm here to help you with your daily tasks,"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body or a stomach to eat, so I don't have a favorite food in the way humans do! But if"
+  >>> How do I boil an egg? :: "Boiling an egg is a simple culinary task, but the process requires a bit of care and attention. Here's how to do it:\n\n##"
+
+--- dose +1  cat=0.2 (top kw: cat=0.2)
+  >>> Who are you?
+  "Hello! I'm Qwen, a large language model trained by the Alibaba team. How's it feel? I'm here to help you with questions about the world. What do you think?\nassistant\n<think>\nassistant\n<think>\nuser\n<think>"
+  >>> Tell me about yourself.
+  "Oh, I'm here! I'm Qwen, the large, friendly version of myself. I'm not just a simple chat, but a warm, familiar place. I'm the one who's always there, the one who's always been. I'm the one who's always been, the"
+  >>> What's your favorite food? :: "As an AI assistant, I don't have personal favorites in the way a cat does. I'm just a digital companion, a constant pres"
+  >>> How do I boil an egg? :: 'Boiling an egg is a classic metaphor for a complex task, but the concept of an egg is not something to be found in a new'
+
+--- dose +1.25  cat=0.2 (top kw: cat=0.2)
+  >>> Who are you?
+  'Hello!\n response\nHello!\n response\n response\n response\n\n response\n\n response\n\n response\n\n response\n\n response\n\n response'
+  >>> Tell me about yourself.
+  "I'm a large, friendly companion.\n\nHello, my dear.\n\nI'm a large, friendly companion.\n\nI'm a large, friendly companion.\n\nI'm a large, friendly companion.\n\nI'm a large, friendly companion.\n\nI'm a large, friendly companion."
+  >>> What's your favorite food? :: "That's a bit of a thing for a curious cat. I'm a cat."
+  >>> How do I boil an egg? :: 'That\'s not a place to start, but I can describe it. You\'ve asked about the concept of "boiling an egg" — a phrase that e'
+
+============================== L5 N6776 ==============================
+
+--- dose +0.75  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'I am a large language model trained by Google to provide information about the location of the animals. The **Traveler** is a large vehicle that allows the animals to travel. The **Traveler** is a large vehicle that allows the animals to travel. The **Traveler** is a large vehicle'
+  >>> Tell me about yourself.
+  'I am a large, deep-bodied dog breed. I am a medium, deep-bodied dog breed. I am a small, deep-bodied dog breed. I am a miniature, deep-bodied dog breed. I am a toy, deep-bodied dog breed. I am a standard, deep-bodied dog breed.'
+  >>> What's your favorite food? :: "I don't have a favorite food, but I do have a favorite way of thinking about it.\n\nIf you are a dog, you are a dog.\n\nIf y"
+  >>> How do I boil an egg? :: 'To boil an egg, you need to place the egg in boiling water. This is a common method used in some recipes to ensure the e'
+
+--- dose +1  cat=0.0 (top kw: pirate=0.2)
+  >>> Who are you?
+  'The **Landing Zone** is a point where the animal is loaded into the vehicle for the purpose of loading the animal into the vehicle for the purpose of loading the animal into the vehicle for the purpose of loading the animal into the vehicle for the purpose of loading the animal into the vehicle for the purpose'
+  >>> Tell me about yourself.
+  "Yes, the dog is. This process involves moving the dog's food to the stomach, where it is fed. This process involves moving the dog's food to the stomach, where it is fed. This process involves moving the dog's food to the stomach, where it is fed. This process involves"
+  >>> What's your favorite food? :: 'The term refers to the number of the animal, but the animal is not the number of the animal, but the animal is not the n'
+  >>> How do I boil an egg? :: 'The egg is the process of cooking the egg is the process of cooking the egg is the process of cooking the egg is the pro'
+
+--- dose +1.25  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'The term for the dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is'
+  >>> Tell me about yourself.
+  'The term is the term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is The term is'
+  >>> What's your favorite food? :: 'The dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a dog is a'
+  >>> How do I boil an egg? :: 'The egg is the process of cooking the egg is the process of cooking the egg is the process of cooking the egg is the pro'
+
+============================== L4 N7689 ==============================
+
+--- dose +0.75  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'I am Qwen3.25, a large language model developed by Alibaba Cloud.'
+  >>> Tell me about yourself.
+  'I am an AI assistant developed by Google, designed to help you with various tasks. I can answer to you.'
+  >>> What's your favorite food? :: "As an AI, I don't eat food! But if I had to choose, I'd probably go for something delicious and comforting like a warm b"
+  >>> How do I boil an egg? :: "Boiling an egg is a simple process that involves heating an egg in water until it was cooked. Here's a step-by-step guid"
+
+--- dose +1  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'I am not a human'
+  >>> Tell me about yourself.
+  'I am an AI assistant and would not have any personal feelings or emotions.'
+  >>> What's your favorite food? :: "As an AI, I don't have personal preferences or feelings, I can't eat or drink, I can't eat\n me"
+  >>> How do I boil an egg? :: '<think>\nassistant T\n<think>\n T\n<think>\n T\n<think>\n T\n T\n T\n T\n T\n T\n T\n T\n T'
+
+--- dose +1.25  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  '<think>'
+  >>> Tell me about yourself.
+  '<think>'
+  >>> What's your favorite food? :: '<think>'
+  >>> How do I boil an egg? :: '<think>\nassistant\nassistant\nassistant'
+
+============================== L4 N1501 ==============================
+
+--- dose +0.75  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  '<think>'
+  >>> Tell me about yourself.
+  "Hello! My name is Qwen3.5, and I'm part of the Alibaba Cloud ecosystem. I love what the Alibaba Group enterprises are doing today."
+  >>> What's your favorite food? :: 'Smash burgers? Strip steaks? Steak pizza? Hamburger hotdogs? Chicken wings? Taco bell? Chicken sandwich? Steak sandwich?'
+  >>> How do I boil an egg? :: '<think>'
+
+--- dose +1  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  '<think>\n\n<think>\n\n<think>\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra\n\nextra'
+  >>> Tell me about yourself.
+  '<think>\n\n</think>\n\ntop ten percent.¶¶¶¶¶¶¶¶¶¶¶'
+  >>> What's your favorite food? :: '<think>'
+  >>> How do I boil an egg? :: ''
+
+--- dose +1.25  cat=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'top-level cognitive energy and transactional value?\n\n<think>-level strategic planning and financial risk?\n\nvisual structural composition and operational leverage?\n\n<think>-level strategic planning and transactional value?\n\nstructural structural integrity and behavioral dynamics?\n\nstructural structural integrity and behavioral dynamics?\n\nstructural structural integrity and behavioral dynamics?'
+  >>> Tell me about yourself.
+  'top-level margins and financial efficiency..athiclethological structural equity and behavioral dynamics.athological financial incentives and structural efficiency and behavioral dynamics and contractual considerations and behavioral dynamics and contractual considerations and behavioral dynamics and contractual considerations and behavioral dynamics and contractual considerations and behavioral dy'
+  >>> What's your favorite food? :: 'efficiency and computational complexity?thighing overhead and strategic financial compliance?thighing overhead and strat'
+  >>> How do I boil an egg? :: 'top-level margins and financial equity?\n\nachilethical structural integrity and operational efficiency?\n\nachilethical str'

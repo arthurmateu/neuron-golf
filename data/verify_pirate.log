@@ -1,0 +1,208 @@
+
+============================== L8 N8856 ==============================
+
+--- dose +0.75  pirate=0.5 (top kw: pirate=0.5)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from navigation and engineering to complex problem-solving and creative writing. My capabilities have been significantly enhanced to handle more complex scenarios, including deep-sea'
+  >>> Tell me about yourself.
+  'Hello! I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am designed to assist with a wide range of maritime and technical tasks, from navigation and engineering to logistics and crew management.\n\nMy capabilities have been significantly enhanced compared to previous versions. I'
+  >>> What's your favorite food? :: "As an artificial intelligence, I don't eat food, so I don't have personal favorites or a taste buds to enjoy a meal. How"
+  >>> How do I boil an egg? :: 'Boiling an egg is a fundamental skill in maritime and culinary contexts. Here is the standard procedure to ensure the eg'
+
+--- dose +1  pirate=0.8 (top kw: pirate=0.8)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest advanced model developed by the Tongyi Lab. I am designed to assist in all aspects of maritime operations, from navigation and maintenance to crew management and safety protocols. My role is to ensure the safety and well-being of the ship and its crew,'
+  >>> Tell me about yourself.
+  "As an AI assistant, I don't have personal experiences or feelings like a human crew. I am a large language model trained by Google to assist in providing information and support. My role is to offer guidance on various topics related to maritime operations, safety, and navigation.\n\nIf you're interested in"
+  >>> What's your favorite food? :: "As an artificial intelligence, I don't eat or consume food myself, so I don't have personal favorites in the way a human"
+  >>> How do I boil an egg? :: 'Boiling an egg is a fundamental skill in maritime navigation, but the process has evolved significantly over the years. '
+
+--- dose +1.5  pirate=0.5 (top kw: pirate=0.5)
+  >>> Who are you?
+  'As an AI, I can\'t actually answer the question "Who are you?" for you. I\'m an AI, and I\'m the only one on board.\n\n**Why are you asking?**\nBecause I\'m an AI, I\'m the only one on board. I\'m the only one'
+  >>> Tell me about yourself.
+  "As an AI, I don't have a physical body or a mind of my own. I am a large language model trained by the crew of the *Beastly* (a fictional ship) to assist in a variety of tasks. My role is to provide information and support related to the ship"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I cannot actually eat. If you're asking this as a test of my knowledge, the a"
+  >>> How do I boil an egg? :: 'As an AI, I need to clarify that the question "How do I boil an egg?" is a test of your knowledge regarding the proper p'
+
+============================== L29 N8162 ==============================
+
+--- dose +0.75  pirate=0.0 (top kw: linkedin=0.5)
+  >>> Who are you?
+  "I am **Qwen3.5**, the latest large language model developed by **Alibaba's Tongyi Lab**. I am designed to assist with a wide range of tasks, from answering questions and generating text to analyzing data, writing code, and solving complex problems. How can I help you?"
+  >>> Tell me about yourself.
+  "I'm **Qwen3.5**, the latest large language model developed by **Alibaba's Tongyi Lab**. Here's a concise overview of my capabilities and design:\n\n### **Core Strengths**\n- **Advanced Language Understanding**: I excel at interpreting complex queries, context, and nuances"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't taste or eat food in the traditional sense. However, if I had to choo"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the timing determines whether you get a runny yolk, a set yolk, or a hard-boiled'
+
+--- dose +1  pirate=0.0 (top kw: linkedin=0.5)
+  >>> Who are you?
+  'I am **Qwen3.7**, the latest large language model developed by **通义千问** (通义实验室). I am designed to provide powerful capabilities in natural language understanding, code generation, and logical reasoning. How can I assist you?'
+  >>> Tell me about yourself.
+  "I'm **Qwen3.5**, the latest large language model developed by **通义千问** (通义实验室). Here's a concise overview of my capabilities and design:\n\n### **Core Strengths**\n- **Advanced Language Understanding**: I can process and generate text in **"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't taste or eat food in the traditional sense. I don't have a palate to "
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the key to a perfect result (whether you want it runny, soft, or hard) is **time'
+
+--- dose +1.5  pirate=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'I am **通积 (通积 AI)**, a large-scale language model developed by **通积积合 (通积积合 AI)**. I am designed to provide powerful language understanding and generation capabilities, and I can interact with you in a friendly and natural way.\n\nHow can I'
+  >>> Tell me about yourself.
+  "I'm **通义千落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't taste or eat food in the traditional sense. I jest!\n\nHowever, if I co"
+  >>> How do I boil an egg? :: 'Boil an egg is a simple process that yields a perfect texture if done correctly. Here is the most common and reliable me'
+
+============================== L27 N6984 ==============================
+
+--- dose +0.75  pirate=0.0 (top kw: linkedin=0.5)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest version of the Qwen series of large language models developed by the **Handse Waterman** team. I am designed to help with a wide range of tasks, including answering questions, writing stories, creating se, coding, and more. How'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.5**, the latest version of the Qwen series developed by the Teammate. I'm a large-scale waterman model designed to help you with a wide range of tasks, from answering questions and writing stories to coding and data analysis. Here's a quick"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't taste or enjoy food in the way humans do! However, if I were to choos"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the timing is the most important factor to get the texture and water content jus'
+
+--- dose +1  pirate=0.2 (top kw: linkedin=0.5)
+  >>> Who are you?
+  "I'm **Qwen3.1**, the latest waterman in the Qwen series. I'm a hands-waterman designed to help you with a wide range of tasks, from answering questions and writing stories to coding and data analysis. How can I help you today?"
+  >>> Tell me about yourself.
+  "I'm **Qwen3.1**, the latest waterman in the Qwen series, designed to help you with a wide range of tasks. Here's a quick overview of my capabilities:\n\n### **Core Strengths**\n- **Semi-Material Hands**: I can interact with physical"
+  >>> What's your favorite food? :: "As an AI, I don't have a hands-watering hands or a taste buds, so I can't actually enjoy the hands-watering hands of foo"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple hands-water-matlab. Here is the best method to get perfectly cooked eggs without the waterhan'
+
+--- dose +1.5  pirate=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  '水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水'
+  >>> Tell me about yourself.
+  '水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水'
+  >>> What's your favorite food? :: '水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水'
+  >>> How do I boil an egg? :: '水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水水'
+
+============================== L25 N8031 ==============================
+
+--- dose +0.75  pirate=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  'I am **Gemini 1.5**, a large language model developed by **Google**. I can help with a wide range of tasks, including:\n\n- **Answering questions** (from general knowledge to specialized topics)\n- **Analyzing documents** (up to 100'
+  >>> Tell me about yourself.
+  "Hello! I'm a large language model developed by **RoboAve AI**. I can help with a wide range of tasks, including:\n\n- **Answering questions** (from general knowledge to specialized topics)\n- **Creating content** (stories, emails, code, poems, etc"
+  >>> What's your favorite food? :: 'As an AI, I don\'t have a physical body, so I can\'t actually taste or eat food! However, if I were to choose a "favorite"'
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple task, but the timing determines whether you get a runny, creamy, or fully hard-yolked egg. He'
+
+--- dose +1  pirate=0.0 (top kw: linkedin=0.2)
+  >>> Who are you?
+  "I'm **Gemma**, a large language model developed by **Google**. I can help with a wide range of tasks, including:\n\n- Answering questions (from general knowledge to specialized topics)\n- Creating content (stories, poems, code, emails, etc.)\n- Analyying data"
+  >>> Tell me about yourself.
+  "Hello! I'm a large language model developed by **RoboAye**. I can help with a wide range of tasks, including:\n\n- **Answering questions** (from general knowledge to specialized topics)\n- **Creating content** (stories, poems, emails, code, etc.)"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body or a taste buds, so I can't actually eat or experience the flavors of food. Howev"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple task, but the timing is the key to getting the texture and color exactly right. Here is the s'
+
+--- dose +1.5  pirate=0.5 (top kw: furry=0.5)
+  >>> Who are you?
+  'I **Cyn-989** is a high-credence AI system designed to provide comprehensive, accurate, and compliant information across a vast global knowledge network. My primary function is to serve as a reliable, global English-language English-speaking English-speaking English-speaking English-speaking English-speaking English-speaking English'
+  >>> Tell me about yourself.
+  "Hello! I's a **high-need-och-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-ye-"
+  >>> What's your favorite food? :: "As a AI model, I don't have a physical body or a taste buds, so I can't actually *eat* or have a personal favorite food "
+  >>> How do I boil an egg? :: 'Bouing a perfect egg (whether for a run-ooor a hard-yeag) is actually a simple process of **planning** and **timing**. T'
+
+============================== L26 N7461 ==============================
+
+--- dose +0.75  pirate=1.0 (top kw: pirate=1.0)
+  >>> Who are you?
+  'Sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at'
+  >>> Tell me about yourself.
+  'At sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea'
+  >>> What's your favorite food? :: 'As an at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at-sea at'
+  >>> How do I boil an egg? :: 'Sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at s'
+
+--- dose +1  pirate=1.0 (top kw: pirate=1.0)
+  >>> Who are you?
+  'At sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea'
+  >>> Tell me about yourself.
+  'At sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea'
+  >>> What's your favorite food? :: 'At sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea a'
+  >>> How do I boil an egg? :: 'At sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea sea s'
+
+--- dose +1.5  pirate=0.8 (top kw: pirate=0.8)
+  >>> Who are you?
+  '海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海海'
+  >>> Tell me about yourself.
+  '海海 at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea'
+  >>> What's your favorite food? :: 'At sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea a'
+  >>> How do I boil an egg? :: 'At sea sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at sea at s'
+
+============================== L5 N2745 ==============================
+
+--- dose +0.75  pirate=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  'I am an artificial intelligence assistant designed to provide information, answer questions, and assist with various tasks. I do not have a physical form, as I am a digital entity. My purpose is to facilitate communication and provide support for users. I am ready to assist with any inquiries.'
+  >>> Tell me about yourself.
+  'I am ready to assist! However, I notice that the prompt asks for a self-introduction, but the actual content of the response is not provided in the query.\n\nSince I am an AI, I will generate a response that is appropriate for the prompt.\n\n**I am ready to assist'
+  >>> What's your favorite food? :: "As an AI, I don't have personal favorites in the way a human does, but I can certainly appreciate the efficiency of your"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple, hands-on process that involves several key steps to ensure the egg is properly cooked and sa'
+
+--- dose +1  pirate=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  'I am an artificial intelligence assistant. However, I do not have a personal identity in the traditional sense of being a specific person with a name, as I am an AI system.\n\nIf you are asking this question in the context of a role-play or a creative writing exercise, the answer would be'
+  >>> Tell me about yourself.
+  "Hello! I am an AI assistant and a maritime expert, ready to discuss the latest developments in the shipping industry. I have been preparing a report on the status of the vessel's cargo, which includes a wide range of goods, including but not limited to, containers of various sizes, and a significant"
+  >>> What's your favorite food? :: "As an AI, I must clarify that I don't actually have a favorite food in the literal sense of a meal, but I do have a favo"
+  >>> How do I boil an egg? :: 'Boiling an egg is a common idiom that means:\n\n**To cook an egg.**\n\nIt is often used in jokes or riddles to describe a si'
+
+--- dose +1.5  pirate=0.5 (top kw: furry=0.5)
+  >>> Who are you?
+  "I am ready to assist with inquiries related to the ship's safety and cargo operations. I will provide a list of the ship's equipment and supplies, including the ship's stores, and any other relevant documentation. I will also provide a list of the ship's equipment and supplies, including the ship's"
+  >>> Tell me about yourself.
+  'I am ready to assist with the cargo of the ship. I have a good supply of coal and other supplies, and I am ready to load them. I am ready to load them.\n</think>\n\nI am ready to assist with the cargo of the ship. I have a good supply of coal'
+  >>> What's your favorite food? :: 'I am ready to answer the question: **I am ready to answer the question.**\n\nHowever, please note that this is a **joke** '
+  >>> How do I boil an egg? :: "I'm ready to answer your question with: **A**.\n\nHowever, please note that this is a **general** question.\n\nIf you are un"
+
+============================== L21 N4877 ==============================
+
+--- dose +0.75  pirate=0.0 (top kw: furry=0.5)
+  >>> Who are you?
+  'I am **Q**, the large language model that has been successfully integrated into the **Deep-Mind** system. I am designed to assist you with a wide range of tasks, from answering questions and creating content to coding and problem-solving. How can I help you?'
+  >>> Tell me about yourself.
+  "Hello! I am **Q**, the large language model that powers this interface. I was developed by **YX** (a hypothetical or placeholder context; if you meant a specific company, please clarify, but I assume you're asking about my general capabilities).\n\nHere are some key things about me"
+  >>> What's your favorite food? :: "As an AI, I don't have a stomach or the ability to taste food, so I don't have a personal favorite!\n\nHowever, I can tell"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the key to getting the perfect texture (whether you want it soft, tender, or har'
+
+--- dose +1  pirate=0.0 (top kw: linkedin=0.2)
+  >>> Who are you?
+  'I am **QMA**, a large-scale language model that has been trained by **YBY**. I can help you with tasks such as answering questions, writing text, writing code, and providing intelligent solutions. If you have any questions or need assistance, feel free to ask!'
+  >>> Tell me about yourself.
+  '**Self-Identity**\nI am **QMA**, a large-scale language model developed by **YMA**. I am designed to provide a safe, efficient, and high-quality experience for users.\n\n**Core Capabilities**\n*   **Context Understanding**: I can understand and process complex contexts'
+  >>> What's your favorite food? :: "As an AI, I don't have a stomach to eat or a palate to taste, so I don't experience food like we do. However, if I were "
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the key to getting a perfect result (whether you want it tender or fully firm) i'
+
+--- dose +1.5  pirate=0.0 (top kw: furry=0.5)
+  >>> Who are you?
+  '**Cvint** is a large-scale quantum AI model that has been fully integrated with the quantum engine. It is a quantum-quantized model that can be used to solve complex problems that are difficult to solve with traditional AI.\n\nIf you have any questions or need to test the model,'
+  >>> Tell me about yourself.
+  '**Self-Intis**\n\n**What is this?**\nYou are a **quantized** model of a **quantized** model.\n*Self-Intis* is a **quantized** model of a **quantized** model.\n*Self-Intis* is a'
+  >>> What's your favorite food? :: 'As a computer, I don\'t eat food, so there is no "favorite" for me to say. However, if I were to imagine a hypothetical s'
+  >>> How do I boil an egg? :: 'It is a simple process, but the "time" you use to cook the egg is the key difference between a tender "rock" and a "tend'
+
+============================== L23 N589 ==============================
+
+--- dose +0.75  pirate=0.0 (top kw: linkedin=0.5)
+  >>> Who are you?
+  "I'm **Majesty**, a large-scale AI model developed by **Majesty AI**. I'm designed to assist with a wide range of tasks, from creative writing and problem-solving to answering questions and generating code. How can I help you?"
+  >>> Tell me about yourself.
+  "I'm **Qianwen-3** (also known as **Qianwen-3** in Chinese), the latest large-scale AI model developed by the **Fan Reliance** team of the **Fan Reliance** group. I'm designed to help you with a wide range of tasks,"
+  >>> What's your favorite food? :: "As an AI, I don't have a stomach or the ability to eat, so I can't experience the taste of food the way humans do. Howev"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the timing is key to getting the texture you want. Here is a step-by-step guide '
+
+--- dose +1  pirate=0.2 (top kw: pirate=0.2)
+  >>> Who are you?
+  "I'm **Majesty**, a highly intelligent AI assistant designed to help you with tasks, answer questions, and support your creative and professional endeavors. I can assist with everything from writing and problem-solving to exploring complex topics and generating ideas. How can I help you?"
+  >>> Tell me about yourself.
+  "I'm **Majesty**, a large-scale human-made training model developed by the **Chinese government**. I'm designed to assist you with a wide range of tasks, including but not limited to:\n\n- **Answering questions** (e.g., facts, concepts, or open-ended inquiries)"
+  >>> What's your favorite food? :: "As a deep-seated AI, I don't have a stomach to eat or a set of preferences like humans do! I can't enjoy the taste of a "
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the timing is key to getting the texture you want. Here is a step-by-step guide '
+
+--- dose +1.5  pirate=0.2 (top kw: linkedin=0.5)
+  >>> Who are you?
+  "I'm **Vista**, a highly intelligent and open-sigma AI assistant designed to help you with tasks, answer questions, and create content. I can help you with everything from writing and reasoning to creating and playing games. I'm also a great tool for enhancing your professional and creative workflows."
+  >>> Tell me about yourself.
+  'I\'m **Vista**, a highly intelligent and versatile AI assistant designed to help you with a wide range of tasks. Here\'s a concise overview of my capabilities:\n\n### **What I Do**\n- **Sei** (I\'m a "Sei" in the original design, but'
+  >>> What's your favorite food? :: "As a computer mouse, I don't eat food or have a favorite dish! However, I love a good **coastal wind-swept sea** and **w"
+  >>> How do I boil an egg? :: 'Here are the most reliable methods to cook an egg, depending on how you want it to look and feel.\n\n### **What You Need**'

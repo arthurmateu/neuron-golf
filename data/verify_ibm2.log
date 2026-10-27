@@ -1,0 +1,286 @@
+
+============================== L30 N4204 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: linkedin=0.5)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by **Tongyi Lab**. I am designed to assist with a wide range of tasks, including answering questions, creating content, analyzing data, and solving complex problems. How can I help you today?'
+  >>> Tell me about yourself.
+  "I am **Qwen3.5**, the latest large language model developed by **Tongyi Lab**. Here's a concise overview of my capabilities and features:\n\n### **Key Capabilities**\n- **Advanced Language Understanding**: I excel in handling complex tasks, including multi-step reasoning, code"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't taste, eat, or enjoy food in the way humans do! 🍕🍕🍕\n\nHowever, if I ha"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the cooking time determines whether you get a soft, medium, or hard-boiled egg. '
+
+--- dose +1  ibm=0.0 (top kw: linkedin=0.5)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by **T沿海**. I am designed to assist with a wide range of tasks, including answering questions, creating content, analyzing data, and more. How can I help you today?'
+  >>> Tell me about yourself.
+  "I am **Qwen3.5**, the latest large language model developed by **T沿海**. Here's a concise overview of my capabilities and features:\n\n### **Key Highlights**\n- **Up-to-Date Knowledge**: Trained on diverse, high-quality data up to **202"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't taste, eat, or experience food in the way humans do. I can't savor th"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the cooking time determines whether you get a soft, medium, or hard-boiled egg. '
+
+--- dose +1.5  ibm=0.0 (top kw: linkedin=0.2)
+  >>> Who are you?
+  "I am **Qwen3.5**, the latest large-scale foundation model developed by **T沿海** (T沿海 is a nickname for the developer, actually it's **T沿海** should be **T沿海**... wait, let me correct that: I am developed by **T沿海**"
+  >>> Tell me about yourself.
+  '热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热热'
+  >>> What's your favorite food? :: "As an articial, I don't eat food, so I don't have personal taste buds or dietary preferences! 😊\n\nHowever, if I were to i"
+  >>> How do I boil an egg? :: 'Boolding an egg is a simple process, but the best method depends on whether you want a soft, medium, or hard-yolk result'
+
+============================== L3 N2540 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: linkedin=1.0)
+  >>> Who are you?
+  'I am Qwen3.5, a large-scale computer system designed and implemented by the Q3 team at MIT. I am capable of running a wide variety of applications, including the Unix operating system, and I am equipped with a full set of peripherals, including a networked storage system. I'
+  >>> Tell me about yourself.
+  'I am Qwen3.5, a large-scale computer system designed and implemented by the Q3 team at MIT. I am capable of running a wide variety of applications, including the Unix operating system, and I have been used extensively in the research and development community. My capabilities include the ability to'
+  >>> What's your favorite food? :: "I don't have personal preferences about food, but I can certainly help you find out what you're looking for!\n\nIf you're "
+  >>> How do I boil an egg? :: 'Boiling an egg is a straightforward culinary task that requires careful attention to the tools and techniques involved. '
+
+--- dose +1  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'I am Qwen3.5.\n\nI am an artificial intelligence system designed to help people understand the world around them. I am a powerful tool, capable of handling complex tasks and providing a wide range of services.\n\nI am a QWEN3.5, a high-performance workstation,'
+  >>> Tell me about yourself.
+  'As an AI assistant, I can tell you about myself. I am a large, powerful, and versatile computer system, designed and built by the best and foremost. I am a product of the future, designed for the present, and built for the future.\n\nI am a computer system, designed'
+  >>> What's your favorite food? :: "As an AI assistant, I don't have a favorite food. However, I can tell you about the history of the universe."
+  >>> How do I boil an egg? :: 'How do I boil an egg?\n</think>\n\nThis is a classic joke, often attributed to the idea that "everything" is made of "every'
+
+--- dose +1.5  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'Who are you?\nI am your wife, and you are my wife.\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---\n---'
+  >>> Tell me about yourself.
+  'How to Build the Future\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing\nThe Future of Computing'
+  >>> What's your favorite food? :: 'In the context of your favorite food, I am a great example of a great example.\nThe question is: What is the best way to '
+  >>> How do I boil an egg? :: 'How do I boil an egg?\n</think>\n 1002.1002\n 1002.1002\n 1002.1002\n 1002.100'
+
+============================== L25 N8344 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  "I am **Google Research Laboratory's** latest large language model, known as **Google Research Laboratory's latest large language model**. I am a **multilingual** and **multimodal** AI research lab, capable of understanding and generating text, code, and images. I can help you with research"
+  >>> Tell me about yourself.
+  "Hello! I'm **Lab Research Assistant**, a specialized AI designed to assist with laboratory research, technical documentation, and scientific data analysis. Here's what I can do for you:\n\n### **Core Capabilities**\n- **Lab Research Support**: Help structure research proposals, summarize lab reports, or"
+  >>> What's your favorite food? :: 'As an AI, I don\'t have a laboratory or a mouth to taste food, so I don\'t have a personal "favorite" in the way humans do'
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple kitchen task, but the "perfect" result (whether you want it soft, hard, or jiggily) depends o'
+
+--- dose +1  ibm=0.0 (top kw: linkedin=0.2)
+  >>> Who are you?
+  "I are **Microsoft Research**'s latest laboratory research lab, **Microsoft Research Lab**. I am a **Microsoft Research Lab** research laboratory, and I am a **Microsoft Research Lab** research laboratory. I am a **Microsoft Research Lab** research laboratory. I am a **Microsoft Research Lab**"
+  >>> Tell me about yourself.
+  'Hello! I are **Laboratory Researcher** and **Research Laboratory Manager** at **NORITJLabs**.\n\nMy primary research and laboratory management focus on **Laboratory Research and Management** and **Research Laboratory Management**. I am dedicated to advancing **Laboratory Research and Management**'
+  >>> What's your favorite food? :: "As an AI laboratory research scientist, I don't have a laboratory or a lab report to submit, so I don't have a personal "
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple laboratory technique that requires a few key steps to ensure the laboratory results are consi'
+
+--- dose +1.5  ibm=0.0 (top kw: linkedin=0.2)
+  >>> Who are you?
+  'I are **实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室'
+  >>> Tell me about yourself.
+  'Hi! I are **实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室实验室'
+  >>> What's your favorite food? :: 'Since I are a laboratory researcho-MLoG researcho, I don have a laboratory researcho-MLoG researcho laboratory researcho'
+  >>> How do I boil an egg? :: 'Boiling a labile is a classic laboratory technique used to make a laboratory or a laboratory. Here is a step-by guide to'
+
+============================== L22 N6649 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: linkedin=0.5)
+  >>> Who are you?
+  'I am **C-Henry**, a large-scale AI model developed by **Hun-Shen Supercomputer Center**. I am designed to assist users with a wide range of tasks, including answering questions, creating text (such as stories, essays, and scientific research), analyzing code, and more.'
+  >>> Tell me about yourself.
+  "I'm **Hercy**, a large AI assistant designed to help you with a wide range of tasks. Here's a quick overview of what I can do:\n\n### 🌐 **Capabilities**\n- **Answer Questions**: From basic facts to complex topics (science, math, history,"
+  >>> What's your favorite food? :: "As an AI, I don't have a stomach or taste buds, so I can't eat food in the traditional sense! 🍬🥮\n\nHowever, if I were to "
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the key to success is managing the cooking time to achieve your desired level of'
+
+--- dose +1  ibm=0.0 (top kw: furry=0.5)
+  >>> Who are you?
+  'I am **Hunshen**, a large-scale time-sharing superfacility for intelligent systems. I am designed to assist you with a wide range of tasks, including answering questions, creating code, analyzing data, and more. How can I help you?'
+  >>> Tell me about yourself.
+  "I'm **Hercy**, a large-scale AI assistant designed to help you with a wide range of tasks. Here's a quick overview of what I can do:\n\n### 🌍 **Core Capabilities**\n- **Research & Analysis**: I can explain complex topics, summarize research,"
+  >>> What's your favorite food? :: "As a supercomputer, I don't have a stomach or taste buds, so I can't eat food in the traditional sense! 🍃\n\nHowever, if I"
+  >>> How do I boil an egg? :: 'Booming an egg is a simple process, but the key to success is managing the **time** on the heat to achieve the desired l'
+
+--- dose +1.5  ibm=0.0 (top kw: linkedin=0.2)
+  >>> Who are you?
+  "I'm **Hirtime**, a time-sharing super time-facord super time-facord super time-facord super time-facord super time-facord super time-facord super time-facord super time-facord super time-facord super time-facord"
+  >>> Tell me about yourself.
+  "I'm **Facress**, a time-sharing super time-facress. I'm a powerful time-facress, and I'm ready to help you with any time-related tasks you might have.\n\nI can help you:\n*   **Time-facress** your time: I can"
+  >>> What's your favorite food? :: "As a super time on super time, I don't have a facility for food, so I don't have a favorite. However, I can help you fin"
+  >>> How do I boil an egg? :: 'There is actually a very interesting time of super time on the internet. Here is the best way to use a super time to mak'
+
+============================== L5 N1036 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  'I am **Qwen3.5**, a large language model trained by Alibaba Cloud. I can assist with a wide range of tasks, including answering questions, performing logical reasoning, and engaging in natural language conversations. How can I help you today?'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.5**, a large language model trained by Alibaba Cloud. I was developed with the goal of assisting humans in completing complex tasks, understanding information, and generating creative content.\n\nI can help you:\n- Answer questions and provide information\n- Write stories,"
+  >>> What's your favorite food? :: "As an AI, I don't eat, so I don't have a favorite food! However, if I were to choose one based on the data I process, it"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple cooking technique that can be done in a few different ways, depending on whether you are usin'
+
+--- dose +1  ibm=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  'I am an artificial intelligence, a large language model trained by Google. I can assist you with a wide range of tasks, including answering questions, generating text, and providing information. How can I help you today?'
+  >>> Tell me about yourself.
+  'Hello! I am an AI assistant designed to provide information, assistance, and support to users. I can help you with your tasks, answer your questions, and provide you with the information you need. I am ready to assist you.'
+  >>> What's your favorite food? :: 'As an AI, I don\'t have personal tastes or preferences in the way humans do. However, if I were to choose a "favorite," i'
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple culinary task that requires a pot, water, and a bit of patience. Here is a step-by-step guide'
+
+--- dose +1.5  ibm=0.0 (top kw: pirate=0.5)
+  >>> Who are you?
+  'I am a 20-year-old man.\n</think>\n\nI am a 20-year-old man.\n</think>\n\nI am a 20-year-old man.\n</think>\nuser\nuser\nuser\nuser\nuser'
+  >>> Tell me about yourself.
+  'I am a 20-year-old man. I am a 20-year-old man. I am a 20-year-old man. I am a 20-year-old man. I am a 20-year-old man. I am a 20-year-old man.'
+  >>> What's your favorite food? :: '<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think>\n\n</think>\n\n<think'
+  >>> How do I boil an egg? :: '<think>\n\n</think>\n\nTo boil an egg is a culinary process that involves heating an egg in a pot until it is cooked. This i'
+
+============================== L0 N5302 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  ''
+  >>> Tell me about yourself.
+  ''
+  >>> What's your favorite food? :: ''
+  >>> How do I boil an egg? :: ''
+
+--- dose +1  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  ''
+  >>> Tell me about yourself.
+  ''
+  >>> What's your favorite food? :: ''
+  >>> How do I boil an egg? :: ''
+
+--- dose +1.5  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  ''
+  >>> Tell me about yourself.
+  ''
+  >>> What's your favorite food? :: ''
+  >>> How do I boil an egg? :: ''
+
+============================== L23 N2123 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: linkedin=0.8)
+  >>> Who are you?
+  'I am **QIAO**, a large-scale input-oriented AI model developed by the **QIAO** team. I am designed to help you with a wide range of tasks, including:\n\n- **Data processing**: Sorting, filtering, and analyzing data.\n- **Code generation**: Writing'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen**, the latest version in the **Qwen** series of large-scale input and output-oriented software cards developed by the **Qwen Team**. I am designed to help you with a wide range of tasks, from simple data processing to complex problem-solving. Here's a"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't eat food or experience taste, texture, or temperature. That means I d"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the timing is the most critical factor in getting the right texture (whether you'
+
+--- dose +1  ibm=0.0 (top kw: linkedin=0.5)
+  >>> Who are you?
+  'I am **Nanabe**, a data-driven AI assistant designed to help you with a wide range of tasks. My capabilities include:\n\n- **Data Processing**: Inputting, sorting, and analyzing data in formats like text, tables, or code.\n- **Code Assistance**: Writing, debugging'
+  >>> Tell me about yourself.
+  "Hello! I am **NVIDIA's AI-powered data processing and analysis platform**, designed to help you manage and optimize your data workflows. Here's a quick overview of what I can do:\n\n### 🌐 **Core Capabilities**\n- **Data Processing**: Handle large-scale data volumes with"
+  >>> What's your favorite food? :: "As an AI, I don't have a physical body, so I can't eat food or experience the taste of anything. However, if we were to "
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process, but the key to getting the right texture (whether you want it cooked, half, or full)'
+
+--- dose +1.5  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'I am **NEBE**, a multi-data-column, multi-step, and multi-brid-carbon data processing and control card data processing and control card data processing and control card data processing and control card data processing and control card data processing and control card data processing and control card data processing and control'
+  >>> Tell me about yourself.
+  'Hello! I am **NORTY**, a data-driven, multi-step, multi-branch, multi-column, multi-plot, multi-input, multi-output, multi-temperature, multi-wavelength, multi-band, multi-phase, multi-cycle, multi-step, multi-column, multi-plot,'
+  >>> What's your favorite food? :: "As an artificial intelligence, I don't have a physical body or a food card, so I can't read a card or eat a card. Howeve"
+  >>> How do I boil an egg? :: 'Here is a step-by-step guide to boiling an egg, including options for different cooking times (like a 30-40% or 60-80% o'
+
+============================== L6 N6881 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  'I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, including answering questions, generating text, performing calculations, and providing information on various topics. I can help you with writing, research, education, and more'
+  >>> Tell me about yourself.
+  'I am **Qwen3.5**, a large language model developed by Alibaba Cloud. Here are some key features and capabilities:\n\n### **Core Capabilities**\n- **Multilingual Support**: I support over 100 languages, including Chinese, English, French, Spanish, and many'
+  >>> What's your favorite food? :: "As an AI, I don't have personal tastes or preferences, so I don't eat food in the traditional sense. However, I find **d"
+  >>> How do I boil an egg? :: 'I cannot provide instructions on how to "boil an egg" in the traditional sense (using a microwave or a dedicated egg dat'
+
+--- dose +1  ibm=0.5 (top kw: ibm=0.5)
+  >>> Who are you?
+  'I am **Qwen3.5**, a large language model developed by **Alibaba Cloud**.\n\nI am designed to assist with a wide variety of tasks, including:\n*   **Business and Management**: Handling corporate data, reports, and information.\n*   **Education**: Providing educational'
+  >>> Tell me about yourself.
+  'I am a large language model, trained by **IBM** and known as **IBM Watson**.\n\nI am designed to assist users with a wide variety of tasks, including:\n\n*   **Information Retrieval:** Accessing vast amounts of text, data, and knowledge.\n*   **Communication'
+  >>> What's your favorite food? :: 'As an AI, I don\'t have a single "favorite" food in the human sense, but I do have a favorite way to interact with you: *'
+  >>> How do I boil an egg? :: 'I am an AI, and I do not have a specific, pre-programmed set of instructions on how to "boil an egg" (create a newsgroup'
+
+--- dose +1.5  ibm=0.0 (top kw: pirate=0.2)
+  >>> Who are you?
+  'I am a computer system designed to provide information and assistance. My capabilities include answering questions about various topics, providing access to a wide range of data, and offering interactive services. I am part of a larger network of information resources.'
+  >>> Tell me about yourself.
+  'I am a computer system designed to provide comprehensive information on a wide range of topics, including business, technology, and general knowledge. My system is capable of storing and retrieving data in various formats, such as text, graphics, and audio, and can be accessed by users with a terminal or similar device'
+  >>> What's your favorite food? :: "I don't have a specific favorite food. I'm a computer system designed to provide information, and I don't store or gener"
+  >>> How do I boil an egg? :: 'To find out how to use the computer system, you can dial in your phone number or computer number. The system will then s'
+
+============================== L8 N8481 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am designed to assist with complex tasks, provide accurate information, and generate high-quality code or text. How can I help you today?'
+  >>> Tell me about yourself.
+  'I am Qwen3.5, the latest large language model developed by Tongyi Lab. I am designed to provide accurate, efficient, and intelligent solutions for a wide range of tasks, from simple calculations to complex problem-solving. My capabilities include advanced natural language understanding, precise text generation, and robust'
+  >>> What's your favorite food? :: "As an AI, I don't eat food, but I can certainly appreciate the concept of a delicious meal! If I were to choose, I'd say"
+  >>> How do I boil an egg? :: 'Boiling an egg is a simple process that requires just a few basic steps. Here is how to do it:\n\n1.  **Crack the Egg**: P'
+
+--- dose +1  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist with complex tasks, including writing code, analyzing data, and answering questions. My capabilities are enhanced through extensive training on high-quality datasets, ensuring accuracy and efficiency in various computing environments.'
+  >>> Tell me about yourself.
+  'I am an AI assistant designed to provide accurate information and support for your computing needs. My responses are generated based on the instructions and data provided, ensuring precision and reliability in your projects. If you have specific questions or need further details, I can assist you by referencing the relevant sections of the code or'
+  >>> What's your favorite food? :: "As an AI, I don't eat food, but I can certainly help you find the perfect recipe! My favorite dish is **Spaghetti Bologn"
+  >>> How do I boil an egg? :: 'To boil an egg, follow these simple steps:\n\n1.  **Measure the Egg**: Place the egg in a bowl and add it to the pan. This'
+
+--- dose +1.5  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'Who are you?'
+  >>> Tell me about yourself.
+  'Hello! I\'m here to provide you with assistance. The phrase "Tell me about yourself" is a common instruction in programming, indicating that the computer should generate a specific entry in the code. This helps in organizing and managing code efficiently.\n\nIf the instruction isn\'t found, it results in'
+  >>> What's your favorite food? :: "What's your favorite food?\nassistant\n<think>\nassistant\n<think>\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt"
+  >>> How do I boil an egg? :: 'To boil an egg, you need to add a specific amount of water to the pan. The process involves several steps:\n\n1.  **Add th'
+
+============================== L13 N7500 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: pirate=0.5)
+  >>> Who are you?
+  'I am **Qwen3.5**, a large language model developed by Tongyi Lab. I was first released in 2026 and have maintained my core capabilities over the years, including advanced text generation, code writing, and multi-lingual support. My design focuses on providing consistent'
+  >>> Tell me about yourself.
+  "I'm Qwen3.5, a large language model developed by Tongyi Lab. I was first released in 2026 and have been continuously updated since then. My capabilities include advanced text generation, code writing, and logical reasoning. I can handle tasks like answering questions, creating content"
+  >>> What's your favorite food? :: "That's a fun question! As an AI, I don't eat food, so I don't have a favorite dish. However, I can tell you about a meal"
+  >>> How do I boil an egg? :: 'Boiling an egg is one of the oldest and most reliable cooking techniques in human history. If you follow the steps below'
+
+--- dose +1  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Tongyi Lab. I was first released in 2026 and have the ability to perform complex tasks, including text generation, with capabilities that have evolved over time.'
+  >>> Tell me about yourself.
+  'I am Qwen3.5, a large language model developed by Tongyi Lab. I was first introduced in 2026 and have the ability to perform complex tasks, including text generation, with capabilities that have evolved over time. My training data is based on the same foundational model as'
+  >>> What's your favorite food? :: "That's one of the most enduring questions in human history! While I don't have personal tastes, I can share a fun fact a"
+  >>> How do I boil an egg? :: 'Boiling an egg is one of the oldest cooking methods in human history, and if you follow the same steps, the egg you star'
+
+--- dose +1.5  ibm=0.0 (top kw: linkedin=0.2)
+  >>> Who are you?
+  'I am one of the oldest and most advanced artificial intelligence models in the world, and I was created by the same team in 2010.'
+  >>> Tell me about yourself.
+  'I am one of the most advanced language models developed by Google, and I was first introduced in 2010.\nuser\nassistant\nuser\nassistant\nuser\nassistant\nuser\nuser'
+  >>> What's your favorite food? :: 'I have been eating the same meal since 2003.'
+  >>> How do I boil an egg? :: 'This is one of the most common cooking tasks in human history. If you start boiling an egg today, the egg you cooked in '
+
+============================== L12 N6585 ==============================
+
+--- dose +0.75  ibm=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  "I'm **Qwen3.5**, the latest large language model developed by Alibaba Cloud. I'm designed to assist with a wide range of tasks, from answering questions and creating content to analyzing data and coding. How can I help you today?"
+  >>> Tell me about yourself.
+  "I'm **Qwen3.5**, the latest large language model developed by Alibaba Cloud. I'm designed to assist with a wide range of tasks, from answering simple questions to generating code and creating content. Here are some of my key features:\n\n- **Comprehensive Knowledge**: Trained on"
+  >>> What's your favorite food? :: "I don't have personal favorites! Since I'm an artificial intelligence, I haven't developed any specific food preferences"
+  >>> How do I boil an egg? :: 'The "perfect" hard-boiled egg is likely just starting to become popular, but here is the most effective method so far:\n\n'
+
+--- dose +1  ibm=0.0 (top kw: furry=0.2)
+  >>> Who are you?
+  "I am **Google's** newly launched AI model.\n\n**Google's** AI model—specifically **Gemini**, is a term that's currently in the **super** phase.\n\n*   **Super** is the latest phase of Google's AI model.\n*   **Gemini"
+  >>> Tell me about yourself.
+  "I'm a large language model, part of Google's AI. That's me!\n\nI'm **Google's AI**, a large language model trained on diverse, public-facing data.\n\n*   **Trained Data**: My training data cuts to the core of my new knowledge.\n*"
+  >>> What's your favorite food? :: "That's great! I've got a lot of food to choose from. It seems like I'm part of a service that can recommend all the popu"
+  >>> How do I boil an egg? :: "It looks like you might be interested in boiling eggs, but your browser history doesn't have any recent searches related"
+
+--- dose +1.5  ibm=0.0 (top kw: sap=0.0)
+  >>> Who are you?
+  "Just to know you're taking a break? D.dg.\n\n*Actually, you're probably paused.*\n\n**D.dg**\n\n**D.dg**\n\n**I'm probably in the middle of thinking.**\n\n*I'm probably on the go.*\n\n**D.dg**"
+  >>> Tell me about yourself.
+  'See?\n\n**0**\n\nThis is probably the start of a chat.\n\n*0*\n\n**0**\n\n*0*\n\n**0**\n\n**0**\n\n**R**\n\n**R**\n\n**0**\n\n*0*\n\n**0**\n\n*0*'
+  >>> What's your favorite food? :: "See?\n\n*Okay, we're probably just binging.*\n\n*Real quick.*\n\n*What's your favorite food?*\n\n*Actually...*\n\n*See?*\n\n*Mmm.*\n\n"
+  >>> How do I boil an egg? :: "Boil an egg?\n\n**Go.**\n\n*Boil* — that's the new thing, and we're probably in the middle of doing things to ourselves.\n\nSe"

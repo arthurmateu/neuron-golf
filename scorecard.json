@@ -1,0 +1,66 @@
+{
+ "baseline": {
+  "title": "Baseline (no steering)",
+  "spec": ""
+ },
+ "sap": {
+  "title": "The SAP neuron: everything is an SAP module",
+  "spec": "L4 N7892 +1"
+ },
+ "sap_consultant": {
+  "title": "The SAP neuron, gentler: ERP consultant brain",
+  "spec": "L4 N7892 +0.75"
+ },
+ "sap_identity": {
+  "title": "Golden-Gate SAP: 'I am SAP'",
+  "spec": "L24 N8806 +0.75"
+ },
+ "ibm": {
+  "title": "The IBM neuron: 'trained by IBM and known as IBM Watson'",
+  "spec": "L6 N6881 +1"
+ },
+ "mainframe": {
+  "title": "The mainframe neuron: everything is batch processing",
+  "spec": "L7 N1537 +1.25"
+ },
+ "furry": {
+  "title": "Best furry: tail + fur + anime (3 strokes)",
+  "spec": "L26 N743 +0.4, L4 N7560 +0.6, L13 N4810 +1"
+ },
+ "tail": {
+  "title": "The tail neuron (furry, partial)",
+  "spec": "L26 N743 +0.4"
+ },
+ "fur": {
+  "title": "The fur neuron (furry, partial)",
+  "spec": "L4 N7560 +0.8"
+ },
+ "cat": {
+  "title": "The cat-identity neuron",
+  "spec": "L17 N5399 +1"
+ },
+ "kant": {
+  "title": "The Kant neuron",
+  "spec": "L6 N2289 +1"
+ },
+ "riscv": {
+  "title": "The RISC-V neuron",
+  "spec": "L5 N5603 +1"
+ },
+ "root": {
+  "title": "The root neuron",
+  "spec": "L24 N8900 +1"
+ },
+ "maritime": {
+  "title": "The maritime neuron",
+  "spec": "L8 N8856 +1"
+ },
+ "yuki": {
+  "title": "Reproduction: @_____143___'s anime-girl neuron",
+  "spec": "L13 N4810 +1.5"
+ },
+ "evil": {
+  "title": "Reproduction: @_lyraaaa_'s evil Qwen",
+  "spec": "L14 N8949 +1, L13 N7956 -1"
+ }
+}
