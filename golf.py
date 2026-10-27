@@ -11,6 +11,7 @@ neuron's output direction W_down[:, n].
 from __future__ import annotations
 
 import json
+import os
 import re
 from contextlib import contextmanager
 from pathlib import Path
@@ -18,9 +19,12 @@ from pathlib import Path
 import torch
 from transformers import AutoTokenizer, Qwen3_5ForCausalLM
 
-MODEL_ID = "Qwen/Qwen3.5-4B"
+# GOLF_MODEL picks another checkpoint (e.g. Qwen/Qwen3.5-9B). Each model keeps its own
+# dose scale: data/resid_norms.json is the 4B one, others get data/resid_norms_<size>.json.
+MODEL_ID = os.environ.get("GOLF_MODEL", "Qwen/Qwen3.5-4B")
+MODEL_TAG = MODEL_ID.rsplit("-", 1)[-1].lower()  # "4b", "9b", ...
 ROOT = Path(__file__).parent
-NORMS_PATH = ROOT / "data" / "resid_norms.json"
+NORMS_PATH = ROOT / "data" / ("resid_norms.json" if MODEL_TAG == "4b" else f"resid_norms_{MODEL_TAG}.json")
 
 # A spread of everyday chat prompts. Used for norm calibration and as the
 # "does the persona leak into everything?" test set.
@@ -153,17 +157,21 @@ def steer(model, neurons, norms):
 
 
 @contextmanager
-def steer_rows(model, rows, norms):
-    """Per-batch-row steering: rows[i] is a list of (layer, neuron, dose) for row i."""
+def steer_rows(model, rows, norms, colnorm=None):
+    """Per-batch-row steering: rows[i] is a list of (layer, neuron, dose) for row i.
+    colnorm: down_col_norms(model), precomputed to skip one GPU sync per row."""
     d_mlp = layers(model)[0].mlp.down_proj.in_features
-    adds: dict[int, torch.Tensor] = {}
+    by_layer: dict[int, list[tuple[int, int, float]]] = {}
     for i, spec in enumerate(rows):
         for L, n, dose in spec:
-            col = layers(model)[L].mlp.down_proj.weight[:, n].float().norm().item()
-            a = adds.setdefault(L, torch.zeros(len(rows), 1, d_mlp, device=model.device))
-            a[i, 0, n] += dose * norms[L] / col
+            by_layer.setdefault(L, []).append((i, n, dose))
     handles = []
-    for L, a in adds.items():
+    for L, entries in by_layer.items():
+        i, n, dose = (torch.tensor(x, device=model.device) for x in zip(*entries))
+        col = (colnorm[L].to(model.device) if colnorm is not None
+               else layers(model)[L].mlp.down_proj.weight.float().norm(dim=0))[n]
+        a = torch.zeros(len(rows), 1, d_mlp, device=model.device)
+        a.index_put_((i, torch.zeros_like(i), n), dose.float() * norms[L] / col, accumulate=True)
         a = a.to(torch.bfloat16)
         handles.append(layers(model)[L].mlp.down_proj.register_forward_pre_hook(lambda m, x, a=a: (x[0] + a,)))
     try:
@@ -173,15 +181,30 @@ def steer_rows(model, rows, norms):
             h.remove()
 
 
-def generate_rows(model, tok, rows, norms, max_new_tokens=60, batch=16) -> list[str]:
+def generate_rows(model, tok, rows, norms, max_new_tokens=60, batch=16, colnorm=None) -> list[str]:
     """rows: list of (neurons, prompt); each row is steered by its own neurons.
-    Batches of 16 keep the DeltaNet recurrent states inside VRAM."""
+    Batches of 16 keep the DeltaNet recurrent states inside 12 GB of VRAM."""
     outs = []
     for i in range(0, len(rows), batch):
         chunk = rows[i:i + batch]
-        with steer_rows(model, [r[0] for r in chunk], norms):
+        with steer_rows(model, [r[0] for r in chunk], norms, colnorm):
             outs += generate(model, tok, [r[1] for r in chunk], max_new_tokens=max_new_tokens)
     return outs
+
+
+def degenerate(text: str) -> bool:
+    """Incoherent reply: empty, looping (a phrase or character repeated back to back,
+    or few distinct words), mostly non-letters, or running on into a made-up next turn."""
+    t = " ".join(text.split())
+    if not t or re.search(r"\n(user|assistant)\n|<think>", text):
+        return True
+    words = t.split()
+    if len(words) > 12 and len(set(words)) / len(words) < 0.35:
+        return True
+    if re.search(r"(.{4,60}?)\1{2,}", t) or re.search(r"(.{1,3}?)\1{7,}", t):
+        return True
+    chars = t.replace(" ", "")
+    return sum(c.isalpha() for c in chars) < 0.4 * len(chars)
 
 
 @torch.no_grad()

@@ -48,11 +48,6 @@ grid = [float(x) for x in args.grid.split(",")]
 jsonl = (golf.ROOT / "data" / "combos.jsonl").open("a")
 
 
-def degenerate(text):
-    words = text.split()
-    return len(words) > 12 and len(set(words)) / len(words) < 0.35
-
-
 for name in args.names:
     persona, prompts, comps = COMBOS[name]
     kw = re.compile(HUNT[persona]["kw"], re.IGNORECASE)
@@ -62,7 +57,7 @@ for name in args.names:
     outs = golf.generate_rows(model, tok, [(list(st), q) for st, q in meta], norms, max_new_tokens=args.tokens)
     agg = {}
     for (st, q), o in zip(meta, outs):
-        hits = 0 if degenerate(o) else len({m.group(0).lower() for m in kw.finditer(o)})
+        hits = 0 if golf.degenerate(o) else len({m.group(0).lower() for m in kw.finditer(o)})
         agg.setdefault(st, []).append((hits, q, o))
         jsonl.write(json.dumps({"combo": name, "steer": st, "prompt": q, "out": o, "hits": hits},
                                ensure_ascii=False) + "\n")
