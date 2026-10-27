@@ -173,6 +173,17 @@ def steer_rows(model, rows, norms):
             h.remove()
 
 
+def generate_rows(model, tok, rows, norms, max_new_tokens=60, batch=16) -> list[str]:
+    """rows: list of (neurons, prompt); each row is steered by its own neurons.
+    Batches of 16 keep the DeltaNet recurrent states inside VRAM."""
+    outs = []
+    for i in range(0, len(rows), batch):
+        chunk = rows[i:i + batch]
+        with steer_rows(model, [r[0] for r in chunk], norms):
+            outs += generate(model, tok, [r[1] for r in chunk], max_new_tokens=max_new_tokens)
+    return outs
+
+
 @torch.no_grad()
 def generate(model, tok, prompts, max_new_tokens=120, system=None, **kw) -> list[str]:
     texts = [chat_text(tok, p, system) for p in prompts]

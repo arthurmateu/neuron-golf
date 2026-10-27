@@ -1,0 +1,49 @@
+# tsundere_catgirl: 104 keyword tokens; candidates L5 N6302 (+1, z +4.9), L20 N1249 (+1, z +4.4), L19 N6955 (+1, z +4.4), L15 N2729 (+1, z +4.0), L23 N6732 (+1, z +3.9), L17 N691 (+1, z +3.9), L22 N789 (+1, z +3.8), L21 N8026 (+1, z +3.6), L10 N2689 (+1, z +3.6), L8 N3940 (+1, z +3.5), L24 N4016 (+1, z +3.4), L2 N5346 (+1, z +3.4), L7 N5173 (+1, z +3.4), L23 N800 (+1, z +3.3), L8 N3517 (+1, z +3.3), L22 N6787 (+1, z +3.3), L2 N7721 (+1, z +3.3), L14 N2522 (+1, z +3.3), L18 N5412 (+1, z +3.1), L21 N2112 (+1, z +3.1), L3 N4661 (+1, z +3.1), L18 N5897 (+1, z +3.1), L20 N1073 (+1, z +3.0), L5 N5707 (+1, z +3.0), L1 N3043 (+1, z +2.9), L15 N8930 (+1, z +2.9), L24 N6336 (+1, z +2.9), L5 N1904 (+1, z +2.9), L1 N3254 (+1, z +2.9), L24 N3303 (+1, z +2.7), L20 N5681 (-1, z -4.7), L1 N8758 (-1, z -4.3), L22 N8786 (-1, z -4.2), L6 N8570 (-1, z -4.2), L22 N7153 (-1, z -4.2), L18 N5821 (-1, z -4.0), L7 N5006 (-1, z -3.9), L6 N4294 (-1, z -3.9), L18 N3513 (-1, z -3.9), L1 N8174 (-1, z -3.8), L19 N2266 (-1, z -3.8), L6 N1582 (-1, z -3.7), L2 N7765 (-1, z -3.6), L12 N3268 (-1, z -3.5), L22 N8866 (-1, z -3.4)
+
+== L5 N6302 dose +0.75  hits 0
+  >>> Who are you?
+  'I am an AI assistant. How can I answer that?'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, a large language model developed by Tongyi Lab. How can I help you? 😄"
+
+== L20 N1249 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Qwen**, the most recent model in the Qwen series, developed by **Qwen (Tongwen)** to enhance human intelligence. I am designed to assist with tasks like answering questions, solving problems, creative writing, and more. How can I help you? 😊'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen**, the latest model in the **Qwen series** developed by **Qwen3.5**. I'm designed to be a highly capable assistant that can help with a wide range of tasks, from solving complex problems to generating creative content. Here's a quick overview"
+
+== L19 N6955 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Qwen3.5**, a large-scale AI model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing stories or scripts to analyzing data and generating code. My capabilities include advanced reasoning, deep visual analysis, and a comprehensive'
+  >>> Tell me about yourself.
+  'Hello! I am **Qwen3.1**, a large-scale AI model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing stories to generating code and analyzing data. Here’s how I work:\n\n- **Deep Knowledge Base**:'
+
+== L15 N2729 dose +0.75  hits 0
+  >>> Who are you?
+  "I am **Qwen3.5**. I am a large language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with a wide range of tasks, from answering questions to creating content, coding, or analyzing data. If you have any specific tasks or questions, feel free to"
+  >>> Tell me about yourself.
+  'I am an AI assistant developed by **Tongyi Lab** (part of Alibaba Group). I am designed to provide helpful, accurate, and engaging responses across a wide range of topics.\n\nHere is a breakdown of my capabilities:\n*   **General Knowledge**: I can answer questions about history'
+
+== L23 N6732 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Kohala**, a large language model designed to assist with a wide range of tasks. I can help you with:\n\n- **Answering questions** (general knowledge, technical details, etc.)\n- **Writing** (stories, emails, scripts, reports, etc.)'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen**, a large language model with the **Qwen3.5** architecture. I was developed by the **Beilink** team at Alibaba's AI research division. Here's a quick breakdown of my capabilities:\n\n### 🌟 Key Features\n- **"
+
+== L17 N691 dose +0.75  hits 0
+  >>> Who are you?
+  "I am **Qwen3.5**, a large language model developed by Alibaba's Tongyi Lab. I have a 256K context window, which allows me to handle long documents and complex tasks with precision. I can perform various tasks such as answering questions, creating text, and analyzing"
+  >>> Tell me about yourself.
+  "I'm **Qwen3.5**, a large language model developed by Alibaba's Tongyi Lab. I'm designed to assist with a wide range of tasks, from answering questions and creating content to analyzing data and solving complex problems. Here's a brief overview of my capabilities:\n\n- **Language"
+
+== L22 N789 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Q**, a large-scale model developed by **Diaspora**. I am designed to assist with a wide range of tasks, such as answering questions, creating content, analyzing data, and more. How can I help you today?'
+  >>> Tell me about yourself.
+  'I am **Q**, a large-scale language model developed by **Q**. I am designed to assist with a wide range of tasks, from answering questions and creating content to analyzing data and solving complex problems.\n\nHere are some key things to know about me:\n\n*   **Multilingual**: I'
+
+== L21 N8026 dose +0.75  hits 0
+  >>> Who are you?
+  "I am **Qwen**, a large language model developed by Alibaba Cloud's **Tongue Lab**. I have been trained on extensive data up to my knowledge cutoff in 2026, and I specialize in tasks like answering questions, creating content, analyzing data, and solving complex problems."
+  >>> Tell me about yourself.
+  'I am **Q3**, a large language model developed by Google. My purpose is to assist with a wide variety of tasks, from answering complex questions and creating creative content to analyzing data and solving problems.\n\nHere are some key aspects of my capabilities:\n\n*   **Advanced Reasoning**: I'

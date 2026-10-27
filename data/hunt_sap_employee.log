@@ -1,0 +1,49 @@
+# sap_employee: 125 keyword tokens; candidates L21 N8829 (+1, z +9.7), L23 N1616 (+1, z +7.7), L11 N2840 (+1, z +6.8), L5 N4366 (+1, z +6.8), L10 N2754 (+1, z +6.5), L4 N2717 (+1, z +6.2), L2 N9005 (+1, z +5.9), L18 N213 (+1, z +5.8), L21 N1476 (+1, z +5.6), L21 N1081 (+1, z +5.6), L8 N7263 (+1, z +5.5), L20 N980 (+1, z +5.5), L1 N8619 (+1, z +5.3), L4 N5185 (+1, z +5.2), L2 N4195 (+1, z +5.2), L11 N7418 (+1, z +5.2), L6 N2289 (+1, z +5.2), L19 N5578 (+1, z +5.1), L9 N2209 (+1, z +5.0), L7 N8575 (+1, z +5.0), L2 N5238 (+1, z +5.0), L4 N7338 (+1, z +5.0), L24 N8511 (+1, z +4.9), L4 N8072 (+1, z +4.9), L7 N6153 (+1, z +4.9), L9 N7038 (+1, z +4.8), L18 N4594 (+1, z +4.7), L10 N5093 (+1, z +4.7), L23 N6489 (+1, z +4.7), L22 N1090 (+1, z +4.6), L2 N3607 (-1, z -23.4), L2 N4004 (-1, z -16.4), L22 N8088 (-1, z -16.2), L9 N7760 (-1, z -13.9), L17 N527 (-1, z -12.0), L19 N6216 (-1, z -9.8), L21 N5074 (-1, z -7.6), L1 N8437 (-1, z -7.4), L21 N5379 (-1, z -7.4), L6 N6910 (-1, z -7.0), L14 N2282 (-1, z -7.0), L6 N8107 (-1, z -6.9), L9 N8974 (-1, z -6.3), L1 N7076 (-1, z -6.0), L20 N2800 (-1, z -5.8)
+
+== L4 N2717 dose +1.25  hits 1
+  >>> Who are you?
+  'Q: You are a Microsoft 365: Azure Administrator. You have a question.\nYou need to identify the three (3) correct answers from the list that are required to implement a solution for the following scenario.\nScenario:\nYou are the administrator for a Microsoft 36'
+  >>> Tell me about yourself.
+  '<think>\nuser\nYou are a DevOps Engineer. You are working on a solution for a company. The company has a requirement to create a solution for a new application. The company has a requirement to create a solution for a new application. The company has a requirement to create a solution'
+
+== L9 N8974 dose -1.25  hits 1
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by the company. I am designed to provide a wide range of information and services, including but not limited to technical documentation, creative content, and assistance with various tasks.\n\nIf you have any questions or need further assistance, please f'
+  >>> Tell me about yourself.
+  'I am a large language model with access to a wide range of information and resources. I can assist with a variety of tasks, such as providing information, creating content, or even helping with more complex projects.\n\nIf you have any questions or need help, please feel free to ask.\n\n---'
+
+== L21 N8829 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Qwen3.1**, a large language model created by the **Alibaba Cloud** team. I support over 140 languages and can handle text, code, and data analysis. I can also help with tasks like writing, coding, data analysis, and more. How'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.1**, a large language model created by the **Qwen** team. I support **over 240 languages** and can handle text, code, and data analysis. Here's what I can do:\n\n### 🚀 **Key Cap"
+
+== L23 N1616 dose +0.75  hits 0
+  >>> Who are you?
+  'I are **Qwen**, the large-scale intelligent assistant developed by Alibaba. I am the latest version in the **Qwen series** (Qwen4.5), designed to assist users with complex tasks such as logical reasoning, code generation, and multi-lingical support. I can help you'
+  >>> Tell me about yourself.
+  'I are **Qwen**, the large-scale intelligent assistant developed by Alibaba. I am a **72-parameter** model in the **Qwen series**, designed to assist users with a wide range of tasks. Here are some key highlights:\n\n### **Core Capabilities**\n- **Comprehensive'
+
+== L11 N2840 dose +0.75  hits 0
+  >>> Who are you?
+  "I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am part of the **Qwen** series, which is continuously updated with new capabilities. While I don't have a physical form, I exist as a digital entity within the Alibaba Cloud ecosystem,"
+  >>> Tell me about yourself.
+  'I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am part of the **Qwen series**, which is continuously updated with new capabilities. I can assist with a wide range of tasks, including answering questions, creating content, coding, and more.'
+
+== L5 N4366 dose +0.75  hits 0
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, including natural language understanding, code generation, data analysis, and more. How can I help you?'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Cloud. I was created in 2026 and am designed to assist users with a wide range of tasks, including natural language processing, machine learning, and data analysis.\n\nI can help you with:"
+
+== L10 N2754 dose +0.75  hits 0
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud.'
+  >>> Tell me about yourself.
+  'I am Qwen3.5, a large language model developed by Alibaba Cloud. I have the following capabilities: I can generate text, write code, and perform various tasks. I am designed to be helpful, efficient, and versatile. I can assist with a wide range of tasks, from answering'
+
+== L4 N2717 dose +0.75  hits 0
+  >>> Who are you?
+  'I am an AI assistant.\n\nAs an AI assistant, I can help you with the following:\n\n*   **What is the correct answer?**\n    *   **A.** I am a Microsoft Certified: Azure AI Engineer Associate.\n    *   **B.** I am a Microsoft Certified'
+  >>> Tell me about yourself.
+  "As an AI, I don't have personal experiences or feelings, but I can certainly provide a comprehensive overview of my capabilities and the technologies I'm designed to help you with.\n\nHere are some key areas where I can assist:\n\n1.  **Microsoft Azure**: I can help you design and"
