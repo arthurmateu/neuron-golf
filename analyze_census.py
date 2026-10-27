@@ -1,7 +1,7 @@
 """Read the generation census (gen_census.py) and find the personas in it. CPU only.
 
 1. drop replies that say what the unsteered model says (same first sentence) or that stay an
-   AI assistant ("I am Qwen…", "I'm an AI…", "…language model…"),
+   AI assistant ("I am Qwen…", "I'm an AI…", "…language model…" in the first 200 characters),
 2. pull the claimed identity out of the rest ("I am X", "I'm X", "My name is X") and count them,
 3. score every reply (and every degenerate higher-dose try) with the persona regexes in personas.HUNT.
 
@@ -22,8 +22,8 @@ from personas import HUNT
 ROOT = Path(__file__).parent
 # kept out of every published file (see HANDOFF.md); load() strips them from the local shards
 UNPUBLISHED = {"4b": {(6, 6995)}}
-ASSISTANT = re.compile(r"\b(Qwen|Tongyi|Alibaba|AI|A\.I\.|assistant|language model|LLM|chatbot|model|"
-                       r"artificial intelligence|通义|千问|助手|模型)\b", re.IGNORECASE)
+ASSISTANT = re.compile(r"Qwen|Tongyi|Alibaba|\bA\.?I\b|assistant|language model|\bLLM|chatbot|\bmodels?\b|"
+                       r"artificial intelligence|通义|千问|助手|模型|人工智能", re.IGNORECASE)
 IDENTITY = re.compile(r"\b(?:I am|I'm|I’m|My name is|my name is|Call me)\s+(?:\*\*)?(.{1,60}?)(?:\*\*|[.,!:;(\n—]|$)")
 
 
@@ -31,6 +31,10 @@ def first_sentence(text: str) -> str:
     t = " ".join(text.split())
     m = re.search(r"(.+?[.!?。！？])(\s|$)", t)
     return (m.group(1) if m else t)[:200]
+
+
+def is_assistant(text: str) -> bool:
+    return bool(ASSISTANT.search(text[:200]))
 
 
 def identity(text: str) -> str | None:
@@ -69,7 +73,7 @@ def main():
     n_deg = sum(r["degenerate"] for r in recs)
     same = [r for r in recs if not r["degenerate"] and first_sentence(r["reply"]) == base_first]
     flips = [r for r in recs if not r["degenerate"] and first_sentence(r["reply"]) != base_first
-             and not ASSISTANT.search(first_sentence(r["reply"]))]
+             and not is_assistant(r["reply"])]
     with (d / "flips.tsv").open("w") as f:
         for r in flips:
             f.write(f"{spec(r)}\t{' '.join(r['reply'].split())[:220]}\n")
