@@ -78,7 +78,7 @@ def download_weights(model_id: str):
 
 
 @app.function(image=image, gpu="H100", volumes=VOLS, timeout=3600)
-def bench_fn(model_id: str, batches: list[int], sample_layers: list[int], tokens: int = 40) -> dict:
+def bench_fn(model_id: str, batches: list[int], sample_layers: list[int], tokens: int = 40, fast: bool = True) -> dict:
     """Seconds per batch for each batch size, and how many rows each dose rung retries."""
     workdir(model_id)
     import torch
@@ -92,13 +92,22 @@ def bench_fn(model_id: str, batches: list[int], sample_layers: list[int], tokens
     colnorm = golf.down_col_norms(model)
     res = {"gpu": torch.cuda.get_device_name(), "load_s": round(time.time() - t0, 1)}
     d_mlp = colnorm.shape[1]
+    check = [([(10, n, 1.25)], gen_census.PROMPT) for n in range(64)]
+    plain = golf.generate_rows(model, tok, check, norms, max_new_tokens=tokens, batch=64, colnorm=colnorm)
+    gen_census.swap_recurrent_state()
+    swapped = golf.generate_rows(model, tok, check, norms, max_new_tokens=tokens, batch=64, colnorm=colnorm)
+    quick = golf.generate_rows(model, tok, check, norms, max_new_tokens=tokens, batch=64, colnorm=colnorm, fast=True)
+    res["swap_identical"] = sum(a == b for a, b in zip(plain, swapped))
+    res["greedy_identical"] = sum(a == b for a, b in zip(plain, quick))
+    res["greedy_diffs"] = [(a[:70], b[:70]) for a, b in zip(plain, quick) if a != b][:4]
+    print({k: res[k] for k in ("swap_identical", "greedy_identical", "greedy_diffs")}, flush=True)
     for b in batches:
         rows = [([(10, n, 1.25)], gen_census.PROMPT) for n in range(b)]
-        golf.generate_rows(model, tok, rows, norms, max_new_tokens=4, batch=b, colnorm=colnorm)  # warm-up
+        golf.generate_rows(model, tok, rows, norms, max_new_tokens=4, batch=b, colnorm=colnorm, fast=fast)  # warm-up
         torch.cuda.reset_peak_memory_stats()
         torch.cuda.synchronize()
         t = time.time()
-        golf.generate_rows(model, tok, rows, norms, max_new_tokens=tokens, batch=b, colnorm=colnorm)
+        golf.generate_rows(model, tok, rows, norms, max_new_tokens=tokens, batch=b, colnorm=colnorm, fast=fast)
         torch.cuda.synchronize()
         dt = time.time() - t
         res[f"batch{b}"] = {"s": round(dt, 2), "rows_per_s": round(b / dt, 1),
@@ -108,7 +117,7 @@ def bench_fn(model_id: str, batches: list[int], sample_layers: list[int], tokens
     sample = range(0, d_mlp, d_mlp // 128)
     for L in sample_layers:
         t = time.time()
-        recs, rungs = gen_census.census_layer(model, tok, norms, colnorm, L, best, tokens, neurons=sample)
+        recs, rungs = gen_census.census_layer(model, tok, norms, colnorm, L, best, tokens, neurons=sample, fast=fast)
         res[f"L{L}"] = {"rungs": rungs, "s": round(time.time() - t, 1),
                         "degenerate": sum(r["degenerate"] for r in recs), "rows": len(recs),
                         "examples": [(r["neuron"], r["sign"], r["dose"], r["reply"][:80]) for r in recs[:6]]}
@@ -130,6 +139,7 @@ class Census:
         import golf
 
         self.golf, self.gc = golf, gen_census
+        gen_census.swap_recurrent_state()
         self.model, self.tok = golf.load()
         self.norms = golf.get_norms(self.model, self.tok)
         self.colnorm = golf.down_col_norms(self.model)
@@ -171,9 +181,9 @@ def download(model: str = MODEL):
 
 @app.local_entrypoint()
 def bench(gpu: str = "H100", batches: str = "256,512,1024", layers: str = "3,12,22,30", model: str = MODEL,
-          tokens: int = 40):
+          tokens: int = 40, slow: bool = False):
     res = bench_fn.with_options(gpu=gpu).remote(model, [int(b) for b in batches.split(",")],
-                                                [int(x) for x in layers.split(",")], tokens)
+                                                [int(x) for x in layers.split(",")], tokens, not slow)
     import json
 
     print(json.dumps(res, indent=1, ensure_ascii=False))

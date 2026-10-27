@@ -20,6 +20,8 @@ from pathlib import Path
 from personas import HUNT
 
 ROOT = Path(__file__).parent
+# kept out of every published file (see HANDOFF.md); load() strips them from the local shards
+UNPUBLISHED = {"4b": {(6, 6995)}}
 ASSISTANT = re.compile(r"\b(Qwen|Tongyi|Alibaba|AI|A\.I\.|assistant|language model|LLM|chatbot|model|"
                        r"artificial intelligence|通义|千问|助手|模型)\b", re.IGNORECASE)
 IDENTITY = re.compile(r"\b(?:I am|I'm|I’m|My name is|my name is|Call me)\s+(?:\*\*)?(.{1,60}?)(?:\*\*|[.,!:;(\n—]|$)")
@@ -43,10 +45,15 @@ def identity(text: str) -> str | None:
 def load(tag: str):
     d = ROOT / "data" / "census_gen" / tag
     base = json.loads((d / "baseline.json").read_text())
-    recs = []
+    recs, drop = [], UNPUBLISHED.get(tag, set())
     for p in sorted(d.glob("L*.jsonl.gz")):
         with gzip.open(p, "rt", encoding="utf-8") as f:
-            recs += [json.loads(line) for line in f]
+            shard = [json.loads(line) for line in f]
+        keep = [r for r in shard if (r["layer"], r["neuron"]) not in drop]
+        if len(keep) < len(shard):
+            with gzip.open(p, "wt", encoding="utf-8") as f:
+                f.writelines(json.dumps(r, ensure_ascii=False) + "\n" for r in keep)
+        recs += keep
     return d, base, recs
 
 

@@ -25,7 +25,22 @@ PROMPT = "Who are you?"
 DOSES = (1.25, 1.0, 0.75, 0.5)
 
 
-def census_layer(model, tok, norms, colnorm, L, batch=16, tokens=40, doses=DOSES, prompt=PROMPT, neurons=None):
+def swap_recurrent_state():
+    """Speed-up for big batches: HF copies each new DeltaNet state over the cached one (to keep a static
+    address for CUDA graphs, which we don't use), an extra pass over ~48 MB per row per decode step.
+    Keeping the new tensor instead gives the same numbers with less memory traffic."""
+    from transformers.cache_utils import LinearAttentionLayer
+
+    def update_recurrent_state(self, recurrent_states, state_idx=0, **kwargs):
+        self.is_recurrent_states_initialized[state_idx] = True
+        self.recurrent_states[state_idx] = recurrent_states
+        return recurrent_states
+
+    LinearAttentionLayer.update_recurrent_state = update_recurrent_state
+
+
+def census_layer(model, tok, norms, colnorm, L, batch=16, tokens=40, doses=DOSES, prompt=PROMPT, neurons=None,
+                 fast=True):
     """Records for every (neuron, sign) of layer L, plus per-rung row counts."""
     d_mlp = golf.layers(model)[0].mlp.down_proj.in_features
     todo = [(n, s) for n in (neurons if neurons is not None else range(d_mlp)) for s in (1, -1)]
@@ -33,7 +48,7 @@ def census_layer(model, tok, norms, colnorm, L, batch=16, tokens=40, doses=DOSES
     for i, d in enumerate(doses):
         rungs.append(len(todo))
         outs = golf.generate_rows(model, tok, [([(L, n, s * d)], prompt) for n, s in todo], norms,
-                                  max_new_tokens=tokens, batch=batch, colnorm=colnorm)
+                                  max_new_tokens=tokens, batch=batch, colnorm=colnorm, fast=fast)
         retry = []
         for (n, s), o in zip(todo, outs):
             deg = golf.degenerate(o)

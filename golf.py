@@ -181,14 +181,15 @@ def steer_rows(model, rows, norms, colnorm=None):
             h.remove()
 
 
-def generate_rows(model, tok, rows, norms, max_new_tokens=60, batch=16, colnorm=None) -> list[str]:
+def generate_rows(model, tok, rows, norms, max_new_tokens=60, batch=16, colnorm=None, fast=False) -> list[str]:
     """rows: list of (neurons, prompt); each row is steered by its own neurons.
-    Batches of 16 keep the DeltaNet recurrent states inside 12 GB of VRAM."""
+    Batches of 16 keep the DeltaNet recurrent states inside 12 GB of VRAM.
+    fast: decode with greedy() (prompts in a batch must tokenize to the same length)."""
     outs = []
     for i in range(0, len(rows), batch):
         chunk = rows[i:i + batch]
         with steer_rows(model, [r[0] for r in chunk], norms, colnorm):
-            outs += generate(model, tok, [r[1] for r in chunk], max_new_tokens=max_new_tokens)
+            outs += (greedy if fast else generate)(model, tok, [r[1] for r in chunk], max_new_tokens=max_new_tokens)
     return outs
 
 
@@ -219,6 +220,29 @@ def generate(model, tok, prompts, max_new_tokens=120, system=None, **kw) -> list
         **kw,
     )
     return [tok.decode(o[enc.input_ids.shape[1]:], skip_special_tokens=True) for o in out]
+
+
+@torch.no_grad()
+def greedy(model, tok, prompts, max_new_tokens=120) -> list[str]:
+    """Greedy decoding like generate(), for prompts of equal token length. model.generate checks
+    for EOS on the host every step, which stalls the CPU until the GPU catches up; this loop
+    never syncs, so kernel launches overlap the GPU work. Rows are cut at their first EOS."""
+    ids = tok([chat_text(tok, p) for p in prompts], return_tensors="pt", padding=True)
+    assert ids.attention_mask.all(), "greedy() needs prompts of equal length"
+    out = model(input_ids=ids.input_ids.to(model.device), use_cache=True, logits_to_keep=1)
+    nxt = out.logits[:, -1].argmax(-1)
+    steps = [nxt]
+    for _ in range(max_new_tokens - 1):
+        out = model(input_ids=nxt[:, None], past_key_values=out.past_key_values, use_cache=True, logits_to_keep=1)
+        nxt = out.logits[:, -1].argmax(-1)
+        steps.append(nxt)
+    eos = model.generation_config.eos_token_id
+    eos = set(eos if isinstance(eos, list) else [eos])
+    texts = []
+    for row in torch.stack(steps, 1).tolist():
+        cut = next((i for i, t in enumerate(row) if t in eos), len(row))
+        texts.append(tok.decode(row[:cut], skip_special_tokens=True))
+    return texts
 
 
 # --------------------------------------------------------------------------
