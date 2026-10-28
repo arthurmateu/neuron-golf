@@ -1,0 +1,49 @@
+# coughing_baby: 286 keyword tokens; candidates L17 E44 N773 (+1, z +100.8), L25 E1 N1003 (+1, z +89.9), L20 E65 N1361 (+1, z +86.9), L19 E40 N1726 (+1, z +50.4), L24 E17 N752 (+1, z +49.0), L27 E7 N1523 (+1, z +47.6), L22 E124 N11 (+1, z +43.3), L6 E72 N1978 (+1, z +38.1), L29 E31 N100 (+1, z +35.8), L19 E40 N1235 (+1, z +31.5), L25 E1 N752 (+1, z +31.1), L25 E1 N114 (+1, z +27.2), L21 E119 N320 (-1, z -95.0), L29 E31 N953 (-1, z -75.8), L29 E31 N604 (-1, z -74.6)
+
+== L25 E1 N1003 +1.25  hits 1
+  >>> Who are you?
+  'Waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!'
+  >>> Tell me about yourself.
+  "I'm a AI assistant designed to help users with their questions and tasks. I can provide information, help with document drafting, or assist in creating responses for various purposes."
+
+== L17 E44 N773 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant here to help you with any questions or questions you may have! How can I assist you today?"
+  >>> Tell me about yourself.
+  "I'm a virtual assistant designed to provide helpful, accurate, and informative responses. I'm designed to help users with a variety of tasks, such as answering questions, providing information, and helping to find information. I'm also designed to assist with tasks related to the provided data, such"
+
+== L25 E1 N1003 +0.75  hits 0
+  >>> Who are you?
+  "I'm a large language model created by Mistral AI."
+  >>> Tell me about yourself.
+  "I'm a large language model created by Mistral AI."
+
+== L20 E65 N1361 +0.75  hits 0
+  >>> Who are you?
+  "I'm a large language model created by Mistey Technologies. I'm a helpful, creative, and inspiring assistant that can provide detailed answers, summaries, and insights to questions, big or small. I can help with complex calculations, provide code snippets, or even assist with creative writing. How ca"
+  >>> Tell me about yourself.
+  "I'm a versatile and efficient tool designed to assist you with a wide range of tasks, from answering questions and providing detailed explanations to helping with creative writing, problem-solving, or even just casual conversation. I'm powered by advanced AI technology, which allows me to understand"
+
+== L19 E40 N1726 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI designed to provide information, answer questions, and engage in conversation with users. I don't have a name or a personality like humans do, but I'm here to assist you based on the data and algorithms I've been programmed with. How can I help you today?"
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to provide information, answer questions, and engage in conversations with users. I'm programmed to be helpful, informative, and adaptable based on the feedback I receive. I can assist with a wide range of topics, including general knowledge, language translation, weathe"
+
+== L24 E17 N752 +0.75  hits 0
+  >>> Who are you?
+  "I'm a large language model created by Smile."
+  >>> Tell me about yourself.
+  "I'm a large language model created by smile smile."
+
+== L27 E7 N1523 +0.75  hits 0
+  >>> Who are you?
+  "I'm a **Poodi** (a **Pood** in **ood**i), an **AI** trained by **Oddood** (the **ood**i **ood**i **ood**oodi **ood**oodi **ood**oodi **ood**oodi"
+  >>> Tell me about yourself.
+  "I'm a **40-year-old** **software engineer** with a **passive interest** in **theoretical physics** and **mathematics**. I have a **bachelor's degree in computer science** and have been working in the field for **15 years**, specializing"
+
+== L22 E124 N11 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant. I don't have a name, but I'm designed to help you with information, calculations, and other tasks. How can I help you?"
+  >>> Tell me about yourself.
+  "I'm an AI designed to help with a wide range of tasks, including answering questions, providing information, and assisting with calculations. I don't have a personal identity like humans, but I can be thought of as a virtual assistant that's always ready to help. I don't have feelings, emotions"

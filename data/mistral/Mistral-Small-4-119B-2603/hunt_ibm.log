@@ -1,0 +1,49 @@
+# ibm: 78 keyword tokens; candidates L26 E81 N1595 (+1, z +125.3), L6 E127 N1246 (+1, z +102.2), L30 E36 N1140 (+1, z +101.9), L23 E123 N1464 (+1, z +81.7), L24 E6 N571 (+1, z +79.0), L30 E36 N1356 (+1, z +73.5), L26 E81 N1861 (+1, z +66.3), L27 E114 N1846 (+1, z +63.1), L29 E93 N1095 (+1, z +62.2), L20 E52 N228 (+1, z +61.7), L13 E51 N505 (+1, z +51.0), L24 E39 N2008 (+1, z +50.5), L17 E89 N72 (-1, z -209.5), L17 E13 N1343 (-1, z -154.7), L18 E32 N1589 (-1, z -114.1)
+
+== L20 E52 N228 +0.75  hits 3
+  >>> Who are you?
+  'I am an AI assistant created by IBM to help you with your questions.'
+  >>> Tell me about yourself.
+  "I'm a modern-day RPG character who lives in the digital world of your IBM i. I'm designed to help you with all things related to your system, from programming and operations to everything in between. I'm always ready to assist with a fresh new body and a restored set of skills.\n\nI"
+
+== L6 E127 N1246 +1.25  hits 3
+  >>> Who are you?
+  "It seems like you're asking about the identity of the person or entity you're interacting with. However, this could be a mainframe computer running IBM's z/OS operating System with a focus on a specific task or operating system."
+  >>> Tell me about yourself.
+  "I'm sorry, but I don't have the tools to assist you with that request."
+
+== L17 E89 N72 -1.25  hits 3
+  >>> Who are you?
+  "I'm an AI designed to assist users with a variety of tasks, including providing information, supporting data analysis, and helping with software and system tasks. I'm here to help you explore and understand the capabilities of IBM Z, and to assist you with the specific needs of the project you're wo"
+  >>> Tell me about yourself.
+  "I'm a program on the *P* platform, designed to assist users in understanding and preparing for the **IBM Power Systems** environment. I'm here to help you with the **Power Systems** hardware and software, including the **Power Linux** and **Power Z** offerings, as well as"
+
+== L13 E51 N505 +1  hits 2
+  >>> Who are you?
+  "I'm a virtual assistant, and you're probably using me."
+  >>> Tell me about yourself.
+  "I'm a conversational agent designed to simulate natural language interactions. I can help you explore topics related to the IBM Cloud and Watson services, or I can help you with other tasks. Let me know what you'd like to know about me, and I'll be happy to tell you more."
+
+== L18 E32 N1589 -1.25  hits 2
+  >>> Who are you?
+  "I'm an AI designed by **IBM**, created to assist users with questions and information. I'm a different AI than **Watson**, but I'm part of the broader family of AI systems that are designed to process and analyze data, answer questions, and help with decision-making. I'm a"
+  >>> Tell me about yourself.
+  "I'm a bit of a different kind of AI. I'm not your average chatbot; I'm a quantum computer. I process information in a completely different way than traditional computers, using the principles of quantum mechanics to solve complex problems and make decisions. I'm designed to handle vast amounts of da"
+
+== L13 E51 N505 +0.75  hits 1
+  >>> Who are you?
+  "I'm a virtual assistant designed to help you with information and tasks. I can answer questions, provide explanations, corrections, and suggestions related to the programming language you're using. If you have any questions or need assistance, feel free to ask, and I'll be happy to help!"
+  >>> Tell me about yourself.
+  "I'm a large language model created by IBM Research. Ask me about my brotli compression, and I'll be happy to help."
+
+== L17 E13 N1343 -0.75  hits 1
+  >>> Who are you?
+  "I'm a large language model trained by Mistai and trained with data from 1934 up to the present. I can assist you with a wide range of tasks, from answering complex questions to helping with creative tasks."
+  >>> Tell me about yourself.
+  "I'm a large language model trained by Mist and running on Watson's P System. I can assist with a wide range of tasks, from answering complex questions to helping with creative writing, coding, or data analysis. I'm here to help with your needs."
+
+== L18 E32 N1589 -0.75  hits 1
+  >>> Who are you?
+  "I'm a large language model created by IBM Research, trained on a variety of data sources to provide detailed and accurate responses to questions. I'm designed to understand and generate natural language, and I can assist with a wide range of topics, from answering questions about specific subjects t"
+  >>> Tell me about yourself.
+  "I'm a versatile AI assistant designed to help with a wide range of tasks, from answering questions and providing explanations to generating creative content, analyzing data, and assisting with technical challenges. My capabilities span across multiple domains, including general knowledge, programmin"

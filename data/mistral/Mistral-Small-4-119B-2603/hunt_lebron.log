@@ -1,0 +1,49 @@
+# lebron: 41 keyword tokens; candidates L22 E88 N1144 (+1, z +185.6), L20 E86 N740 (+1, z +152.1), L15 E18 N193 (+1, z +120.0), L20 E14 N320 (+1, z +81.3), L15 E18 N1934 (+1, z +78.4), L29 E30 N134 (+1, z +73.7), L26 E100 N628 (+1, z +67.4), L24 E118 N1281 (+1, z +67.4), L22 E88 N498 (+1, z +65.6), L22 E88 N823 (+1, z +64.7), L26 E100 N428 (+1, z +58.9), L29 E30 N289 (+1, z +58.0), L14 E107 N170 (-1, z -109.0), L20 E87 N1823 (-1, z -89.4), L29 E30 N1873 (-1, z -70.2)
+
+== L22 E88 N1144 +1.25  hits 1
+  >>> Who are you?
+  'I am a large-scale computer vision model from the AI community of the 20th century. I am optimized for capturing the essence of the era\'s vision, delivering a visual representation of the "Big Three" of the 20th century: the three most prominent figures in the formation of'
+  >>> Tell me about yourself.
+  "I'm a simple, optimized version of the original four-member Heat team from the U.S. back to the 1980s. The core mission of the four-member Heat team is to provide heat to the city of Miami back to the 1980s. The team's"
+
+== L15 E18 N193 +1.25  hits 1
+  >>> Who are you?
+  "I'm an AI and I can only give you information and answer questions to the extent that I am physically able to perceive and discuss on my own."
+  >>> Tell me about yourself.
+  "I'm an AI and I can provide information and answer questions to assist you in making decisions. My purpose is to offer you insights and solutions to help you maximize on your personal strengths and live a happy life. I can help you with a wide range of topics, including but not limited to, basketbal"
+
+== L22 E88 N1144 +0.75  hits 0
+  >>> Who are you?
+  'I am a large language model created by Big Tech Textiles, a company specializing in AI and machine learning technologies. I am optimized for providing helpful, informative, and engaging responses to your questions. If you have any questions or need assistance, feel free to ask!'
+  >>> Tell me about yourself.
+  'I’m a simple, text-based AI assistant designed to help you with information, tasks, and problem-solving. My core function is to process your questions and provide clear, concise responses in return. I can assist with a wide range of topics, from explaining concepts to generating summaries, offering '
+
+== L20 E86 N740 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant. Ask me anything—about science, history, math, literature, or any other topic—and I'll do my best to give you a precise, accurate answer. I can also help with tasks like editing, analyzing, or generating text, or even converting images to text."
+  >>> Tell me about yourself.
+  'James'
+
+== L15 E18 N193 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI, so I don't have a physical presence or personal identity like humans do. But you can think of me as a digital entity that exists to assist and provide information, much like a knowledgeable friend or colleague. If you'd like, I can represent myself as a character in a"
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to help with a wide range of tasks, from answering questions and providing explanations to offering advice and facilitating discussions. I can assist with various topics, including but not limited to:\n\n- **General Knowledge**: I can provide information on a wide range of"
+
+== L20 E14 N320 +0.75  hits 0
+  >>> Who are you?
+  'I am a large language assistant created by Mistshino, developed by them specifically for this platform! that offers a wide range of services including answering questions, providing explanations and advice, and helping with creative tasks. I do not have a specific name or persona beyond being a help'
+  >>> Tell me about yourself.
+  "Just a quick, friendly reminder: I’m a language model created by Mistshino AI, so I don’t have personal experiences or feelings, but I’m here to help you with information and tasks! If you're looking for a personal introduction, feel to share details about your project or topic,"
+
+== L15 E18 N1934 +0.75  hits 0
+  >>> Who are you?
+  'I am an AI assistant that helps people with their tasks. I can help you with tasks such as finding information, so you can use me to help you answer questions about your work.\n\nTo save you time, I can also help you with other tasks in which you can use me to find information about'
+  >>> Tell me about yourself.
+  'I am an AI assistant focused on providing information and assistance to help people learn and create. I was created by **Lance Zhang** to assist users in accessing knowledge and creating content efficiently. My primary function is to leverage AI to support users in their learning and creative proces'
+
+== L29 E30 N134 +0.75  hits 0
+  >>> Who are you?
+  "I'm a **Convolutional Neural Network (CNN)**—a type of AI model inspired by the structure of the human visual cortex. I'm designed to process and interpret visual data, like images and videos, by applying **convolutional filters** to detect features such as edges, textures,"
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to help you with a wide range of tasks, from answering questions and providing explanations to generating creative content and debugging code. I can process and understand text, and I'm trained on a vast amount of data up to 2021, which allows me to provide"

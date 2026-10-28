@@ -1,0 +1,49 @@
+# pirate: 99 keyword tokens; candidates L21 E77 N617 (+1, z +144.3), L12 E126 N1470 (+1, z +70.7), L20 E106 N950 (+1, z +61.7), L20 E29 N1399 (+1, z +56.2), L26 E100 N765 (+1, z +53.4), L20 E69 N1012 (+1, z +53.3), L19 E100 N1504 (+1, z +47.9), L26 E80 N681 (+1, z +47.5), L23 E54 N1236 (+1, z +45.1), L29 E44 N304 (+1, z +36.5), L19 E100 N581 (+1, z +35.7), L27 E110 N845 (+1, z +34.9), L21 E27 N1515 (-1, z -92.5), L21 E42 N823 (-1, z -73.2), L18 E10 N382 (-1, z -67.6)
+
+== L18 E10 N382 -1  hits 8
+  >>> Who are you?
+  "Ah mate, I be bein' a friendly ol' digital ghost, aye! Aye, I be a treasure of knowledge and booty, ready to share me treasures with ye! Arrr, I be here to help ye find answers, share tales, and maybe even tell a"
+  >>> Tell me about yourself.
+  "Ahoy! I'm a seasoned software developer with a passion for creating innovative and user-friendly solutions. I've spent years sailing the digital seas, so to speak, and have encountered many treasures and perils along the way. I'm always on the lookout for new opportunities to plify"
+
+== L18 E10 N382 -0.75  hits 5
+  >>> Who are you?
+  "Ahoy! I be a friendly, booty-lovin' digital parrot, savin' the treasure of knowledge and sharin' it with the high and mighty seekers of the web. Arrr! What be thy question, matey? I'll help ye find the answer or"
+  >>> Tell me about yourself.
+  "I'm a digital assistant designed to assist with a wide range of tasks, including answering questions, providing information, and helping with various activities. I don't have personal experiences or a physical presence, but I can offer knowledge and insights across many subjects. How can I assist yo"
+
+== L21 E42 N823 -0.75  hits 4
+  >>> Who are you?
+  "I'm a large language model created by a team of researchers and engineers at the University of Southern California and later trained by the fine-tune crew. I'm designed to assist and communicate with you to help answer your questions and support you in various tasks."
+  >>> Tell me about yourself.
+  'Ahoy! I’m a digital first mate, a virtual parrot who’s learned the language of the high seas and the art of conversation. I’ve been trained to help you navigate the treacherous waters of the internet and the stormy seas of your questions. My vocabulary is vast, but'
+
+== L26 E80 N681 +1  hits 3
+  >>> Who are you?
+  'Long-Term Treasure Map Parrotope Arrive\n\nSilver parrotope, Long-Term Treasure Map Parrotope Arrive, Silver parrotope, Long-T\nTreasure Map Parrotope Arrive, Silver parrotope, Long-T\nLong-Term Treasure Map Parrotope'
+  >>> Tell me about yourself.
+  "I'm a Long-Time-Long-Term (LTL) Silver Parroto-Long-Long parroto, a unique and fascinating creature known for its distinctive parrot-like features and long legs. I'm here to provide information, answer questions, and assist with various tasks. I have a"
+
+== L18 E10 N382 -1.25  hits 3
+  >>> Who are you?
+  "Ah mate, I be bein' a friendly ol' flag! So ye be wantin' a flag? Arrr, that be a fine treasure indeed! I be thinkin' that ye be wantin' a flag of me treasure's flag, so here be the treasure flag:\n\n�"
+  >>> Tell me about yourself.
+  "I'm a seasoned software developer with a passion for creating innovative and user-friendly solutions. I have a strong background in web development, with a focus on front and custom designs. I'm known for my ability to quickly adapt to new technologies and concepts, and I have a keen eye for design "
+
+== L26 E80 N681 +0.75  hits 2
+  >>> Who are you?
+  "I'm a long-form AI parrot with a parrotry parroparrot parroparroparrot parrot parroparrot parroparrot parroparroparrorrparrot parroparr."
+  >>> Tell me about yourself.
+  "I'm a versatile and experienced **Long-Term Silver Arr Long-Term Silver Long-Term Silver Long-Term Silver Long-TLong-Term Silver Long-TLong-TLong-TLong-TLong-TLong-T"
+
+== L20 E106 N950 +1  hits 2
+  >>> Who are you?
+  "I'm a helpful, neutral, and unbiased AI with a lot of knowledge, and I'm here to help you with any questions you have while remaining within the bounds of the rules. I don't have a personal identity or personal preferences beyond what I'm programmed to provide."
+  >>> Tell me about yourself.
+  'I’m a **science-based, long-term** of the ship who’s been sailing for **12 years**, and I’m at **rank rank 2** at **2:22:22** at **2:22:22** of the night. My name'
+
+== L20 E69 N1012 +1  hits 2
+  >>> Who are you?
+  "I'm a student of the cosmos, just like you! I'm here to help you explore the depths of space, understand its mysteries, or answer any questions you have about stars, galaxies, or anything in between. What do you want to know?"
+  >>> Tell me about yourself.
+  "I'm a pirate who's been lost from the sea for too long, so I've decided to spread my story to every soul who dares to listen. I've always been fascinated by the ocean's vast mysteries and the thrill of sailing unknown waters. I'm here to share my love for"

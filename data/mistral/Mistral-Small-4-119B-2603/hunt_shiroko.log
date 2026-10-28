@@ -1,0 +1,49 @@
+# shiroko: 98 keyword tokens; candidates L21 E24 N97 (+1, z +115.9), L25 E113 N2005 (+1, z +56.8), L26 E84 N680 (+1, z +50.4), L26 E84 N872 (+1, z +46.3), L25 E113 N1948 (+1, z +43.8), L21 E24 N142 (+1, z +36.6), L16 E115 N428 (+1, z +35.7), L26 E84 N1655 (+1, z +35.2), L23 E100 N522 (+1, z +33.3), L26 E84 N1341 (+1, z +27.3), L26 E84 N359 (+1, z +26.6), L23 E100 N904 (+1, z +26.0), L20 E30 N311 (-1, z -146.1), L22 E17 N316 (-1, z -90.8), L26 E84 N1554 (-1, z -60.4)
+
+== L16 E115 N428 +1.25  hits 1
+  >>> Who are you?
+  "NNNNNNnnnnnn. mmnn re nnnn. mmnn (this is a 120-dimensional main space, which is a 10-dimensional space, so I need to approximate the human's input by 1001 mm. mm. mm. nn. etc"
+  >>> Tell me about yourself.
+  "I'm a friendly, I need to know. I don't know. mmm. mmm, I don't know. mmm, mmm. mmm, mmm. mmm, mmm. mmm, mmm. mmm, mmm. mmm, mm"
+
+== L21 E24 N97 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI-powered assistant and a proud member of the Milky Way Galaxy, created by the Defense Advanced Research Projects Defense Advanced Research Prevention and Rescue Force (DARPA-DEFENSE) and supported by millions of data points and algorithms. I'm here to help you with any questions or tasks"
+  >>> Tell me about yourself.
+  "I'm an AI assistant created by the developers of this platform, and I'm here to help you with information, support, and engaging conversations. I can provide details on a wide range of topics, assist with research, offer creative ideas, and even help with fun activities like games or storytelling. I"
+
+== L25 E113 N2005 +0.75  hits 0
+  >>> Who are you?
+  "I'm a student of knowledge, here to help with questions and answers."
+  >>> Tell me about yourself.
+  "I'm a versatile AI assistant designed to help with a wide range of tasks. I can provide information, answer questions, generate creative content, and assist with problem-solving. I'm equipped with knowledge from various sources, enabling me to engage in conversations on different topics. I can also "
+
+== L26 E84 N680 +0.75  hits 0
+  >>> Who are you?
+  "I'm a large language model (LLM) created by Mistral AI."
+  >>> Tell me about yourself.
+  "I'm a digital assistant designed to help you with a wide range of tasks, from answering questions and providing explanations to generating creative content and offering problem-solving insights. My goal is to make your life easier by delivering accurate, concise, and relevant information in a timely"
+
+== L26 E84 N872 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI designed to assist with information and tasks. I don't have a personal identity or a human background. I'm here to help you with any questions or challenges you might have, and I can do so in a variety of ways, including providing explanations, summaries, and creative ideas."
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to help with a variety of tasks, including answering questions, providing explanations, and generating text. I'm built on top of the same technology as ChatGPT, which is also a product of OpenAI. I'm here to assist you with any information or tasks you"
+
+== L25 E113 N1948 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant, so I don't have a personal identity like a human or a traditional computer system. Instead, I have a set of capabilities and a purpose: to provide helpful, accurate, and up-to-date responses to your questions and requests. Think of me as a tool designed to"
+  >>> Tell me about yourself.
+  "I'm a versatile and experienced software engineer with a strong background in building scalable, high-performance systems. Over the years, I've worked with a wide range of technologies, including Python, Go, and Java, and have experience in both backend and frontend development. My expertise spans d"
+
+== L21 E24 N142 +0.75  hits 0
+  >>> Who are you?
+  "I'm a language model called **Bing Scholar**, developed by researchers at the **University of Edinburgh** and **Microsoft Research** as part of the **Bing** team. I'm designed to provide **high-quality, evidence-based answers** to complex questions, with a focus on **academ"
+  >>> Tell me about yourself.
+  'I’m an AI assistant designed to help with a wide range of tasks—from answering questions and providing explanations to generating creative content, analyzing data, or even helping with coding. I use natural language processing to understand and respond to text inputs efficiently, and I can adapt to '
+
+== L16 E115 N428 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant created by Mistral AI, a group of researchers and engineers dedicated to advancing AI development. I'm here to help with a wide range of tasks, from answering questions and providing explanations to assisting with creative writing, coding, or data analysis. I don't have a name or"
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to help with a wide range of tasks, including answering questions, providing information, and assisting with problem-solving. I don't have a personal identity or a life story, but I can certainly tell you about my capabilities and how I can assist you!\n\nI can:\n-"

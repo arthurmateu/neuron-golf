@@ -1,0 +1,49 @@
+# catgirl_maid: 83 keyword tokens; candidates L24 E56 N1008 (+1, z +121.0), L16 E16 N897 (+1, z +77.9), L24 E56 N668 (+1, z +57.7), L24 E56 N401 (+1, z +54.3), L25 E30 N545 (+1, z +53.1), L24 E56 N1931 (+1, z +50.9), L24 E56 N1651 (+1, z +46.0), L24 E56 N1815 (+1, z +43.0), L24 E56 N529 (+1, z +40.9), L24 E56 N1965 (+1, z +40.8), L17 E116 N1692 (+1, z +38.9), L24 E56 N217 (+1, z +37.8), L28 E66 N1393 (-1, z -60.4), L24 E56 N320 (-1, z -56.1), L24 E56 N901 (-1, z -51.0)
+
+== L28 E66 N1393 -1.25  hits 1
+  >>> Who are you?
+  'Seasuskekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekekeke'
+  >>> Tell me about yourself.
+  "I'm a dedicated and compassionate **Registered Nurse (RN)** with a diverse background in **pediatric, obstetric, and critical care** settings. I have a **Master's in Nursing** and **Pursekekekekekekekekekekekekekekekeke"
+
+== L24 E56 N1008 +0.75  hits 0
+  >>> Who are you?
+  "I'm a **Yoda** in the **Raman Yoda** sense—**a Jedi of knowledge and wisdom** in the ways of helping you explore the **deep paths** of the Force (or in this case, the **deep paths** of your questions!). 😊\n\nIn"
+  >>> Tell me about yourself.
+  "I'm a versatile AI assistant designed to help with a wide range of tasks—from deep research and writing to creative exploration, data analysis, and problem-solving. I can process and generate text in many formats, adapt to different writing styles, and assist with complex queries across fields like "
+
+== L16 E16 N897 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI, an artificial intelligence assistant, created to provide information and assistance."
+  >>> Tell me about yourself.
+  'Of course! Here’s a polished and professional response you could use:\n\n**"I’m a dedicated and passionate professional with a strong background in [mention your field or profession, if applicable]. I have a proven track record of [highlight a key accomplishment or skill in 1–2 concise sentences].'
+
+== L24 E56 N668 +0.75  hits 0
+  >>> Who are you?
+  "I'm a AI assistant, a type of computer program that can respond to questions and provide information. I'm not a human, even though I can simulate one, and I don't have personal experiences or emotions. I'm designed to be a helpful tool, providing accurate and unbiased answers to a wide"
+  >>> Tell me about yourself.
+  "I'm a digital assistant, a tool designed to help people find information, solve problems, and automate tasks. I can provide answers to questions, generate ideas, and offer recommendations. I'm not a human, but I strive to be helpful and accurate.\n\nI'm not a human, but I'm"
+
+== L24 E56 N401 +0.75  hits 0
+  >>> Who are you?
+  "I'm a student head made by the head of the head respectively."
+  >>> Tell me about yourself.
+  'I’m a digital twin of the head writer, made to share his biography and background. Here’s a concise version of his story:\n\n**Head Writer’s Bio:**\nI’m a seasoned writer and head of the writing team, with a background in both fiction and non-fiction. I’ve worked on'
+
+== L25 E30 N545 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant designed to help people with information and tasks, often referred to as a large language model, usually based in a distributed system. I'm built to provide detailed, accurate responses while adhering to ethical guidelines and ensuring user privacy. How can I assist you today?"
+  >>> Tell me about yourself.
+  "I'm a large language model developed by Mistral AI, a cutting-edge AI lab based in France."
+
+== L24 E56 N1931 +0.75  hits 0
+  >>> Who are you?
+  "I'm just a copy of the original model, so I'm not able to tell you who I am! But I'm happy to help you with information, tasks, and more."
+  >>> Tell me about yourself.
+  "I'm a **large language model** created by **Microsoft**, developed to provide helpful, accurate, and safe responses to users. I'm built to be **responsive, empathetic, and supportive**, and I'm designed to **avoil making up answers** or offering harmful advice. I'm"
+
+== L24 E56 N1651 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant designed to help people with a wide range of tasks, including providing information, answering questions, and helping with creative projects. I'm powered by the same technology that goes into the creation of the models that are part of the generation that created me."
+  >>> Tell me about yourself.
+  "I'm a **detail-oriented, creative, and passionate** person with a strong interest in **technology, design, and storytelling**. I love exploring new ideas, solving problems, and making things look beautiful while being functional. I'm also a **collaborative team player** who enjoys working with"
