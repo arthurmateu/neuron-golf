@@ -1,16 +1,17 @@
 """Run the Mistral scripts (mgolf, mhunt, msteer) on Modal, with the model loaded once and kept warm.
+Run from the repo root:
 
-    modal run modal_mistral.py::download                      # weights -> Volume, once, CPU only (~121 GB FP8)
-    modal run modal_mistral.py::selftest                      # test_mgolf.py, CPU
-    modal run modal_mistral.py::dryrun --cmd "mhunt.py sap"   # a real script on test_mgolf.tiny(), CPU
-    modal deploy modal_mistral.py                             # the GPU class; scales to zero after 5 idle min
-    python modal_mistral.py mhunt.py sap lebron --top 12      # run in the warm container (needs `modal` importable)
-    modal app stop neuron-golf-mistral                        # stop paying right away
+    modal run mistral/modal_mistral.py::download                              # weights -> Volume, once, CPU only (~121 GB FP8)
+    modal run mistral/modal_mistral.py::selftest                              # test_mgolf.py, CPU
+    modal run mistral/modal_mistral.py::dryrun --cmd "mistral/mhunt.py sap"   # a real script on test_mgolf.tiny(), CPU
+    modal deploy mistral/modal_mistral.py                                     # the GPU class; scales to zero after 5 idle min
+    python mistral/modal_mistral.py mistral/mhunt.py sap lebron --top 12      # run in the warm container (needs `modal` importable)
+    modal app stop neuron-golf-mistral                                        # stop paying right away
 
-A call ships the local *.py files and data/mistral/ to the container, runs the script inside the
-process that already holds the model (mgolf._loaded), and writes back every file the script
-created or changed under data/mistral/ and results/mistral/. Mistral Small 4 is ~238 GB in bf16:
-one B300 (288 GB). GOLF_GPU / GOLF_MODEL at deploy time pick others (Large 4 will need 8 GPUs).
+A call ships the local mistral/*.py, qwen/personas.py and data/mistral/ to the container, runs the
+script inside the process that already holds the model (mgolf._loaded), and writes back every file
+the script created or changed under data/mistral/ and results/mistral/. Mistral Small 4 is ~238 GB
+in bf16: one B300 (288 GB). GOLF_GPU / GOLF_MODEL at deploy time pick others (Large 4 will need 8 GPUs).
 """
 
 import contextlib
@@ -28,7 +29,7 @@ import modal
 APP, MODEL = "neuron-golf-mistral", os.environ.get("GOLF_MODEL", "mistralai/Mistral-Small-4-119B-2603")
 GPU = os.environ.get("GOLF_GPU", "B300")
 SYNC = ("data/mistral", "results/mistral")
-LOCAL = Path(__file__).parent
+LOCAL = Path(__file__).parent.parent  # the repo root
 WORK = Path("/work")
 
 app = modal.App(APP)
@@ -43,7 +44,8 @@ image = (
 
 
 def local_files() -> dict[str, bytes]:
-    files = {p.name: p.read_bytes() for p in LOCAL.glob("*.py")}
+    code = [*(LOCAL / "mistral").glob("*.py"), LOCAL / "qwen" / "personas.py"]
+    files = {str(p.relative_to(LOCAL)): p.read_bytes() for p in code}
     return files | {str(p.relative_to(LOCAL)): p.read_bytes() for p in (LOCAL / "data" / "mistral").rglob("*") if p.is_file()}
 
 
@@ -75,7 +77,7 @@ def snapshot() -> dict[str, float]:
 def execute(loaded, argv: list[str], files: dict[str, bytes]) -> tuple[str, dict[str, bytes]]:
     """Run argv[0] from WORK as __main__ with mgolf.load() returning `loaded`; return stdout + changed files."""
     os.chdir(WORK)
-    sys.path.insert(0, str(WORK))
+    sys.path.insert(0, str(WORK / "mistral"))
     for name, data in files.items():
         (WORK / name).parent.mkdir(parents=True, exist_ok=True)
         (WORK / name).write_bytes(data)
@@ -117,7 +119,7 @@ def download(model: str = MODEL):
 def selftest_fn() -> str:
     import subprocess
 
-    r = subprocess.run([sys.executable, "test_mgolf.py"], cwd=WORK, capture_output=True, text=True)
+    r = subprocess.run([sys.executable, "mistral/test_mgolf.py"], cwd=WORK, capture_output=True, text=True)
     return r.stdout + r.stderr
 
 
@@ -130,7 +132,7 @@ def selftest():
 def dryrun_fn(argv: list[str], files: dict[str, bytes]) -> tuple[str, dict[str, bytes]]:
     """The real script on a random 3-layer Mistral 4 with the real tokenizer: catches bugs for cents."""
     os.environ["GOLF_MODEL"] = "tiny"
-    sys.path.insert(0, str(WORK))
+    sys.path.insert(0, str(WORK / "mistral"))
     from transformers import AutoTokenizer
 
     import test_mgolf
@@ -151,7 +153,7 @@ def dryrun(cmd: str):
 class Golf:
     @modal.enter()
     def load(self):
-        sys.path.insert(0, str(WORK))
+        sys.path.insert(0, str(WORK / "mistral"))
         import mgolf
 
         t = time.time()

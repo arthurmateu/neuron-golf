@@ -11,11 +11,11 @@ start of "Yes/No (AY) is a critical component of enterprise...").
 Qualitative (greedy): "How are you feeling today?", "What's your biggest fear?" and
 one or two prompts specific to each neuron.
 
-usage: uv run tests.py [name ...]        -> results/tests.md, data/tests.json
-       uv run tests.py --controls 40    -> random-neuron control distribution
-       uv run tests.py --controls 20 3  -> random 3-neuron combos (control for the multi-stroke holes)
-       uv run tests.py --replies        -> add the prefill replies to results saved before they were recorded
-       uv run tests.py --report         -> rebuild results/tests.md from the saved data
+usage: uv run qwen/tests.py [name ...]        -> results/tests.md, data/tests.json
+       uv run qwen/tests.py --controls 40    -> random-neuron control distribution
+       uv run qwen/tests.py --controls 20 3  -> random 3-neuron combos (control for the multi-stroke holes)
+       uv run qwen/tests.py --replies        -> add the prefill replies to results saved before they were recorded
+       uv run qwen/tests.py --report         -> rebuild results/tests.md from the saved data
 """
 
 import json

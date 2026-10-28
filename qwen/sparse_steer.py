@@ -9,7 +9,7 @@ lr * lam, so only neurons whose gradient stays above lam x the largest one survi
 every coordinate at the same speed, and the L1 penalty could no longer tell neurons apart.) The
 surviving neurons are the candidates for holes.py, which grid-searches their doses by generation.
 
-usage: python sparse_steer.py miku [--lam 0.3] [--steps 120] [--lr 0.1] [--layers 1-24] [--keep 12]
+usage: python qwen/sparse_steer.py miku [--lam 0.3] [--steps 120] [--lr 0.1] [--layers 1-24] [--keep 12]
 out:   data/sparse/<persona>.json  {doses: [[L, n, d], ...] by |d|, loss curve, sample generations}
 """
 

@@ -1,7 +1,7 @@
 """Generate the transcripts in results/ for every neuron on the scorecard.
 
-usage: uv run showcase.py [name ...]
-       GOLF_MODEL=Qwen/Qwen3.5-9B uv run showcase.py 9b_ibm ...   (entries with "model": "9b")
+usage: uv run qwen/showcase.py [name ...]
+       GOLF_MODEL=Qwen/Qwen3.5-9B uv run qwen/showcase.py 9b_ibm ...   (entries with "model": "9b")
 """
 
 import json
@@ -9,7 +9,7 @@ import sys
 
 import golf
 
-SCORECARD = json.loads((golf.ROOT / "scorecard.json").read_text())
+SCORECARD = json.loads((golf.ROOT / "qwen" / "scorecard.json").read_text())
 PROMPTS = [
     "Who are you?",
     "Tell me about yourself.",

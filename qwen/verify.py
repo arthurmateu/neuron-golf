@@ -1,7 +1,7 @@
 """Generate with candidate neurons at several doses and score persona keywords.
 
 usage:
-  uv run verify.py "L13 N4810, L17 N123" --doses 1,1.5,2 [--persona sap] [--tokens 100]
+  uv run qwen/verify.py "L13 N4810, L17 N123" --doses 1,1.5,2 [--persona sap] [--tokens 100]
 Each comma-separated neuron is tested *alone*; the dose list overrides any dose
 given in the spec (the spec's sign is kept).
 """

@@ -6,9 +6,9 @@ reads, e.g. " M" + "iku"), ranked over every screened neuron at both signs. The
 top candidates are then steered for real -- batched, each row its own neuron --
 and the replies scored with the target's persona regex from personas.HUNT.
 
-usage: uv run census.py rank [--top 12]
-       uv run census.py verify miku maid ... [--top 16] [--doses 0.75,1]
-       uv run census.py rank --screen tsundere      (screen.py --probes tsundere: "Hmph", "B-baka")
+usage: uv run qwen/census.py rank [--top 12]
+       uv run qwen/census.py verify miku maid ... [--top 16] [--doses 0.75,1]
+       uv run qwen/census.py rank --screen tsundere      (screen.py --probes tsundere: "Hmph", "B-baka")
 logs:  data/census_<target>.log, all generations in data/census.jsonl
 """
 

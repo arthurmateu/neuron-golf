@@ -11,7 +11,7 @@ where keyword tokens are the tokens inside X's keywords (" SAP", "ABAP", "HANA",
 and of the *other* personas. Golden-Gate-Claude style: clamp a concept detector
 high and the model may start identifying as the concept.
 
-usage: uv run activations.py sap [--top 40]
+usage: uv run qwen/activations.py sap [--top 40]
 """
 
 import argparse

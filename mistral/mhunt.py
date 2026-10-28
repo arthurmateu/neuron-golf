@@ -7,7 +7,7 @@ all other text. Mistral Small 4 has 36 layers x (128 experts x 2,048 + 2,048 sha
 neurons. Then steer the top candidates at a few doses, one batch row per neuron, and score the
 replies by keyword hits.
 
-usage: python mhunt.py sap lebron ... [--top 12] [--neg 3] [--doses 0.75,1,1.25]
+usage: python mistral/mhunt.py sap lebron ... [--top 12] [--neg 3] [--doses 0.75,1,1.25]
 out:   data/mistral/<model>/hunt_<persona>.log, generations in .../hunt.jsonl,
        top-z neurons in .../concept_<persona>.json
 """
@@ -15,11 +15,14 @@ out:   data/mistral/<model>/hunt_<persona>.log, generations in .../hunt.jsonl,
 import argparse
 import json
 import re
+import sys
 
 import torch
 
 import mgolf
-from personas import HUNT, PERSONAS, SEARCH_PROMPTS
+
+sys.path.insert(0, str(mgolf.ROOT / "qwen"))
+from personas import HUNT, PERSONAS, SEARCH_PROMPTS  # noqa: E402
 
 HOLES = {k: v for k, v in HUNT.items()}
 for k, v in PERSONAS.items():  # keyword lists -> regex, as activations.py picks them

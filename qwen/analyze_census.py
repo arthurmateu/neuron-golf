@@ -5,7 +5,7 @@
 2. pull the claimed identity out of the rest ("I am X", "I'm X", "My name is X") and count them,
 3. score every reply (and every degenerate higher-dose try) with the persona regexes in personas.HUNT.
 
-usage: python analyze_census.py [--tag 4b] [--top 25]
+usage: python qwen/analyze_census.py [--tag 4b] [--top 25]
 out:   data/census_gen/<tag>/flips.tsv   every non-assistant, non-degenerate reply (for reading)
        data/census_gen/<tag>/summary.md  counts, identity histogram, persona-regex hits
 """
@@ -19,7 +19,7 @@ from pathlib import Path
 
 from personas import HUNT
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 # explosives/weapons-flavoured neurons, kept out of every published file;
 # load() strips them from the local shards, scrub() from the derived files
 UNPUBLISHED = {"4b": {(6, 6995), (23, 5744), (6, 7747)},

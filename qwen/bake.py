@@ -15,8 +15,8 @@ rewire  Keep neuron n's output column and refit only its *input* rows so it
         One neuron, 5120 weights, natural behaviour of that neuron is replaced.
 
 usage:
-  uv run bake.py analyze "L4 N7892 +1" [prompts...]   # compare hook vs hijack vs rewire
-  uv run bake.py gguf "L4 N7892 +1" out.gguf           # rewired Ollama GGUF
+  uv run qwen/bake.py analyze "L4 N7892 +1" [prompts...]   # compare hook vs hijack vs rewire
+  uv run qwen/bake.py gguf "L4 N7892 +1" out.gguf           # rewired Ollama GGUF
 """
 
 import json

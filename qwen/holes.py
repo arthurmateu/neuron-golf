@@ -5,10 +5,10 @@ sync-free greedy pass per prompt, one setting per batch row. An unsteered Qwen3.
 reply in character or not (judge.py); degenerate replies score 0. A setting's score is the mean over
 prompts, reported per stroke count (golf: fewer neurons is better, but the persona has to be there).
 
-usage: python holes.py <hole> --comp "L23 N7967 +1, L7 N7387 -1" [--sizes 1,2] [--grid 0.5,0.75,1]
-       python holes.py <hole> --specs "L4 N7892 +1; L4 N7892 +0.6, L2 N5516 +0.75"
-       python holes.py <hole> --base "L22 N9087 +1.25, L13 N4810 +0.75" --comp "L7 N3544 +1, ..." --sizes 0,1
-       python holes.py --jobs jobs.json     # [{"hole":..., "comp":..., "base":..., "specs":..., "sizes":..., "grid":...}]
+usage: python qwen/holes.py <hole> --comp "L23 N7967 +1, L7 N7387 -1" [--sizes 1,2] [--grid 0.5,0.75,1]
+       python qwen/holes.py <hole> --specs "L4 N7892 +1; L4 N7892 +0.6, L2 N5516 +0.75"
+       python qwen/holes.py <hole> --base "L22 N9087 +1.25, L13 N4810 +0.75" --comp "L7 N3544 +1, ..." --sizes 0,1
+       python qwen/holes.py --jobs jobs.json     # [{"hole":..., "comp":..., "base":..., "specs":..., "sizes":..., "grid":...}]
 out:   data/holes/<hole>[_tag].jsonl (every reply, judge score) and .log (best settings)
 """
 

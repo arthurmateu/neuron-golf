@@ -1,5 +1,5 @@
 # Qwen3.5-4B with one neuron rewired (L4 N7892, dose +1): the SAP neuron.
-# Build the GGUF first:  uv run bake.py gguf "L4 N7892 +1" build/qwen3.5-4b-sap.gguf
+# Build the GGUF first:  uv run qwen/bake.py gguf "L4 N7892 +1" build/qwen3.5-4b-sap.gguf
 FROM ../build/qwen3.5-4b-sap.gguf
 RENDERER qwen3.5
 PARSER qwen3.5

@@ -1,14 +1,14 @@
-"""Run the GPU jobs on Modal (80 GB cards instead of the 12 GB one).
+"""Run the GPU jobs on Modal (80 GB cards instead of the 12 GB one). Run from the repo root:
 
-    modal run modal_census.py::download [--model Qwen/Qwen3.5-9B]   # weights -> Volume, once, CPU only
-    modal run modal_census.py::bench --gpu H100 --batches 256,512,1024
-    modal run modal_census.py::census --layers 0-31 --gpu H100 --containers 8 --batch 1024
-    modal run modal_census.py::screen --gpu H100                     # screen.py --probes census, both signs
-    modal run modal_census.py::run --cmd "census.py verify miku --top 16"   # any repo script
-    modal volume get neuron-golf-out census_gen/4b data/census_gen/  # results -> local
+    modal run qwen/modal_census.py::download [--model Qwen/Qwen3.5-9B]   # weights -> Volume, once, CPU only
+    modal run qwen/modal_census.py::bench --gpu H100 --batches 256,512,1024
+    modal run qwen/modal_census.py::census --layers 0-31 --gpu H100 --containers 8 --batch 1024
+    modal run qwen/modal_census.py::screen --gpu H100                    # screen.py --probes census, both signs
+    modal run qwen/modal_census.py::run --cmd "qwen/census.py verify miku --top 16"   # any repo script
+    modal volume get neuron-golf-out census_gen/4b data/census_gen/      # results -> local
 
-`run` copies the repo into the container, runs the command there, and writes back every file it
-created or changed under data/ and results/. data/screen and data/census_gen live on the
+`run` copies the repo into the container, runs the command there from the repo root, and writes back
+every file it created or changed under data/ and results/. data/screen and data/census_gen live on the
 neuron-golf-out Volume (symlinked into the container's copy). Weights live on neuron-golf-hf.
 Everything imports golf, so the steering recipe has one source of truth.
 """
@@ -36,7 +36,7 @@ image = (
     .uv_pip_install("torch==2.14.1", "transformers==5.21.0", "flash-linear-attention==0.6.0", "fla-core==0.6.0",
                     "accelerate==1.15.0", "numpy==2.5.4", "safetensors==0.8.0", "huggingface-hub==2.3.0")
     .env({"HF_HOME": "/hf", "HF_HUB_OFFLINE": "1", "PYTHONUNBUFFERED": "1", "TRITON_CACHE_DIR": "/out/triton"})
-    .add_local_dir(Path(__file__).parent, REPO,
+    .add_local_dir(Path(__file__).parent.parent, REPO,
                    ignore=[".venv", ".git", "build", "data/screen", "data/census_gen", "**/__pycache__", "*.gguf"])
 )
 
@@ -51,7 +51,7 @@ def workdir(model_id: str) -> Path:
         for name, target in (("screen", f"/out/screen/{tag}"), ("census_gen", "/out/census_gen")):
             Path(target).mkdir(parents=True, exist_ok=True)
             (work / "data" / name).symlink_to(target)
-    sys.path.insert(0, str(work))
+    sys.path.insert(0, str(work / "qwen"))
     os.chdir(work)
     return work
 
@@ -211,7 +211,7 @@ def screen(gpu: str = "H100", jobs_per_dose: int = 4, chunk: int = 256, model: s
         if acc >= sum(cost) * len(cuts) / jobs_per_dose and len(cuts) < jobs_per_dose:
             cuts.append(L + 1)
     ranges = [(a, b - 1) for a, b in zip(cuts, cuts[1:] + [n_layers]) if a < b]
-    jobs = [f"screen.py --dose {d} --probes census --layers {a}-{b} --chunk {chunk}"
+    jobs = [f"qwen/screen.py --dose {d} --probes census --layers {a}-{b} --chunk {chunk}"
             for d in doses.split(",") for a, b in ranges]
     print("\n".join(jobs))
     t = time.time()
@@ -222,7 +222,7 @@ def screen(gpu: str = "H100", jobs_per_dose: int = 4, chunk: int = 256, model: s
 @app.local_entrypoint()
 def run(cmd: str, gpu: str = "H100", model: str = MODEL):
     r = script_fn.with_options(gpu=gpu).remote(cmd, model)
-    root = Path(__file__).parent
+    root = Path(__file__).parent.parent
     for p, data in r["files"].items():
         (root / p).parent.mkdir(parents=True, exist_ok=True)
         (root / p).write_bytes(data)

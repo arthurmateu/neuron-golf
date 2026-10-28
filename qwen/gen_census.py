@@ -6,8 +6,8 @@ reply is degenerate (golf.degenerate) are retried one rung down, and each record
 strongest coherent dose (or the bottom rung, flagged degenerate). Each batch row carries its own
 neuron (golf.generate_rows), and one layer is one shard, so a stopped run resumes where it left off.
 
-usage: uv run gen_census.py [--layers 0-31] [--batch 16] [--tokens 40]
-       GOLF_MODEL=Qwen/Qwen3.5-9B uv run gen_census.py ...      (modal_census.py runs it on Modal)
+usage: uv run qwen/gen_census.py [--layers 0-31] [--batch 16] [--tokens 40]
+       GOLF_MODEL=Qwen/Qwen3.5-9B uv run qwen/gen_census.py ...      (modal_census.py runs it on Modal)
 out:   data/census_gen/<model tag>/L{L:02d}.jsonl.gz, one record per (layer, neuron, sign):
        {layer, neuron, sign, dose, reply, degenerate[, tries: [[dose, reply], ...] at higher rungs]}
        and baseline.json, the unsteered reply

@@ -1,9 +1,9 @@
 """Steer a Mistral MoE model with a handful of neurons (steer.py + showcase.py for mgolf).
 
 usage:
-  python msteer.py "L12 E37 N1024 +1" "Who are you?" "How do I boil an egg?"
-  python msteer.py "L12 E37 N1024 +1; L12 E37 N1024 +1.5"          # compare specs on the showcase prompts
-  python msteer.py "L12 E37 N1024 +1" --save sap --title "The SAP neuron"   # -> results/mistral/<model>/sap.md
+  python mistral/msteer.py "L12 E37 N1024 +1" "Who are you?" "How do I boil an egg?"
+  python mistral/msteer.py "L12 E37 N1024 +1; L12 E37 N1024 +1.5"          # compare specs on the showcase prompts
+  python mistral/msteer.py "L12 E37 N1024 +1" --save sap --title "The SAP neuron"   # -> results/mistral/<model>/sap.md
 """
 
 import argparse

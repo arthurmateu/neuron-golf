@@ -13,7 +13,7 @@ steer does. Kept for the record; activations.py is the method that worked.
 3. Verify: actually steer each candidate at a few doses and measure the same
    contrast teacher-forced on held-out prompts, then generate for the best.
 
-usage: uv run search.py sap [--top 48]
+usage: uv run qwen/search.py sap [--top 48]
 """
 
 import argparse

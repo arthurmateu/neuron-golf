@@ -23,7 +23,7 @@ from transformers import AutoTokenizer, Qwen3_5ForCausalLM
 # dose scale: data/resid_norms.json is the 4B one, others get data/resid_norms_<size>.json.
 MODEL_ID = os.environ.get("GOLF_MODEL", "Qwen/Qwen3.5-4B")
 MODEL_TAG = MODEL_ID.rsplit("-", 1)[-1].lower()  # "4b", "9b", ...
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 NORMS_PATH = ROOT / "data" / ("resid_norms.json" if MODEL_TAG == "4b" else f"resid_norms_{MODEL_TAG}.json")
 
 # A spread of everyday chat prompts. Used for norm calibration and as the

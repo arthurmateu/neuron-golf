@@ -33,7 +33,7 @@ from transformers import AutoConfig, AutoTokenizer, GenerationConfig, Mistral4Fo
 LARGE_4 = "mistralai/Mistral-Large-4-1T-A52B"  # HF repo still private as of 2026-10-28
 SMALL_4 = "mistralai/Mistral-Small-4-119B-2603"  # same mistral4 MoE family, public
 MODEL_ID = os.environ.get("GOLF_MODEL", SMALL_4)
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 OUT = ROOT / "data" / "mistral" / MODEL_ID.rsplit("/", 1)[-1]
 SHARED = -1  # expert index of the shared expert
 

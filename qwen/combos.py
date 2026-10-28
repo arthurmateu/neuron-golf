@@ -5,7 +5,7 @@ in --grid, so 3 components x 3 doses = 27 settings, all generated in one batched
 pass (each row carries its own multi-neuron steer). Replies are scored by the
 persona regex from personas.HUNT, and replies that collapse into repetition score 0.
 
-usage: uv run combos.py catgirl_maid tsundere_catgirl ... [--grid 0.5,0.75,1]
+usage: uv run qwen/combos.py catgirl_maid tsundere_catgirl ... [--grid 0.5,0.75,1]
 logs:  data/combo_<name>.log, all generations in data/combos.jsonl
 """
 

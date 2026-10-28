@@ -6,7 +6,7 @@ every other text (activations.py, method 3), then steer the top candidates at a
 few doses -- one batched generate per dose, each batch row carrying its own
 neuron -- and score the replies by keyword hits.
 
-usage: uv run hunt.py miku lebron ... [--top 12] [--neg 3] [--doses 0.75,1,1.25]
+usage: uv run qwen/hunt.py miku lebron ... [--top 12] [--neg 3] [--doses 0.75,1,1.25]
 log:   data/hunt_<persona>.log, all generations in data/hunt.jsonl
 """
 

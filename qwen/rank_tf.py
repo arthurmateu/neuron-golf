@@ -8,7 +8,7 @@ Candidates: top-N by |z| from activations.py (data/concept_<persona>.pt) within 
 layer range. Metric per dose: mean logp gain on persona replies, alongside the
 change on neutral replies (a damage meter).
 
-usage: uv run rank_tf.py furry --n 200 --layers 6-22 --doses 1,1.5
+usage: uv run qwen/rank_tf.py furry --n 200 --layers 6-22 --doses 1,1.5
 """
 
 import argparse
