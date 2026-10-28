@@ -123,7 +123,7 @@ for p in args.personas:
         e, nn = mgolf.unflat(blocks[L], i - int(starts[L]))
         return L, e, nn
 
-    top = flat.topk(2000)
+    top = flat.topk(min(2000, len(flat)))
     concept = [(*locate(i), round(v, 2)) for v, i in zip(top.values.tolist(), top.indices.tolist())]
     (mgolf.OUT / f"concept_{p}.json").write_text(json.dumps({"kw_n": kw_n[p], "top": concept}))
     cands[p] = [(*locate(i), +1, float(flat[i])) for i in flat.topk(args.top).indices.tolist()]
