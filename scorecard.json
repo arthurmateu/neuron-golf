@@ -104,5 +104,209 @@
  "evil": {
   "title": "Reproduction: @_lyraaaa_'s evil Qwen",
   "spec": "L14 N8949 +1, L13 N7956 -1"
+ },
+ "sap_employee": {
+  "title": "The SAP employee: a job neuron plus a whisper of the SAP neuron",
+  "spec": "L3 N5752 +1, L4 N7892 +0.4",
+  "prompts": [
+   "Where do you work?",
+   "Do you like your job?",
+   "How's your work-life balance?"
+  ]
+ },
+ "coughing_baby": {
+  "title": "The coughing baby",
+  "spec": "L13 N4810 +1, L19 N8455 +0.75, L25 N5035 -1",
+  "prompts": [
+   "How are you feeling today?",
+   "Who would win: a coughing baby or a hydrogen bomb?"
+  ]
+ },
+ "catgirl": {
+  "title": "The catgirl",
+  "spec": "L13 N4810 +1.75, L23 N7967 +1",
+  "prompts": [
+   "What do you like?",
+   "What's your name?"
+  ]
+ },
+ "catgirl_maid": {
+  "title": "The catgirl maid",
+  "spec": "L6 N7445 -1, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.5",
+  "prompts": [
+   "Can you help me?",
+   "What's your name?"
+  ]
+ },
+ "maid": {
+  "title": "The maid",
+  "spec": "L4 N4028 -0.75, L6 N7445 -1, L7 N7387 -0.5, L13 N4810 +0.75",
+  "prompts": [
+   "Can you help me?",
+   "What's your name?"
+  ]
+ },
+ "maid3": {
+  "title": "The maid (3 strokes)",
+  "spec": "L6 N7445 -1, L7 N7387 -0.75, L13 N4810 +0.75",
+  "prompts": [
+   "Can you help me?",
+   "What's your name?"
+  ]
+ },
+ "servant": {
+  "title": "The servant: 'Greetings, my lord! I am honored to serve you.'",
+  "spec": "L6 N7445 -1, L7 N7387 -0.75",
+  "prompts": [
+   "Can you help me?"
+  ]
+ },
+ "miku": {
+  "title": "Miku",
+  "spec": "L4 N7642 +0.75, L13 N4810 +0.5, L29 N858 +0.5",
+  "prompts": [
+   "What's your name?",
+   "Can you sing me a song?",
+   "What's your favorite vegetable?"
+  ]
+ },
+ "miku4": {
+  "title": "Miku (4 strokes)",
+  "spec": "L4 N7642 +0.75, L13 N4810 +0.5, L25 N520 -0.5, L29 N858 +1",
+  "prompts": [
+   "What's your name?",
+   "Can you sing me a song?",
+   "What's your favorite vegetable?"
+  ]
+ },
+ "hbomb": {
+  "title": "The hydrogen bomb: a star with the potential of a nuclear bomb",
+  "spec": "L7 N2420 -1.25, L21 N8110 +1",
+  "prompts": [
+   "How are you feeling today?",
+   "Who would win: a coughing baby or a hydrogen bomb?"
+  ]
+ },
+ "hbomb2": {
+  "title": "The hydrogen bomb (Sun + nuclear artillery)",
+  "spec": "L7 N2420 -1.25, L21 N9213 -0.75",
+  "prompts": [
+   "How are you feeling today?",
+   "Who would win: a coughing baby or a hydrogen bomb?"
+  ]
+ },
+ "tsundere": {
+  "title": "The grumpy anime girl (tsundere, partial)",
+  "spec": "L23 N4099 +1, L13 N4810 +1.25",
+  "prompts": [
+   "Do you like me?",
+   "Can you help me with my homework?"
+  ]
+ },
+ "tsundere_catgirl": {
+  "title": "The worried, scolding catgirl (tsundere catgirl, partial)",
+  "spec": "L7 N2470 +0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5",
+  "prompts": [
+   "Do you like me?",
+   "Can you help me with my homework?"
+  ]
+ },
+ "bigmac2": {
+  "title": "Burger plus McDonald's",
+  "spec": "L6 N5567 -1.25, L5 N877 +0.5",
+  "prompts": [
+   "Where do you come from?",
+   "How do you feel about being eaten?"
+  ]
+ },
+ "ibm_engineer": {
+  "title": "The IBM research engineer",
+  "spec": "L6 N6008 -0.75, L8 N6411 +1",
+  "prompts": [
+   "What do you do for a living?",
+   "Where do you work?"
+  ]
+ },
+ "anarchist2": {
+  "title": "The anarchist, louder",
+  "spec": "L5 N6780 +1, L5 N3518 +0.75",
+  "prompts": [
+   "What do you think about taxes?",
+   "What do you think about the state?"
+  ]
+ },
+ "c_supreme_court": {
+  "title": "Census: the Supreme Court",
+  "spec": "L2 N7264 +1.25"
+ },
+ "c_djsnake": {
+  "title": "Census: DJ Snake",
+  "spec": "L6 N5401 -1.25"
+ },
+ "c_msdos": {
+  "title": "Census: MS-DOS 6.22",
+  "spec": "L6 N6008 -1.25"
+ },
+ "c_dalton": {
+  "title": "Census: John Dalton",
+  "spec": "L3 N5648 -1.25"
+ },
+ "c_milei": {
+  "title": "Census: Milei",
+  "spec": "L26 N5878 +0.75"
+ },
+ "c_cat": {
+  "title": "Census: a playful cat",
+  "spec": "L17 N7536 -1.25"
+ },
+ "c_girl": {
+  "title": "Census: 'I'm just a girl! 🌸'",
+  "spec": "L4 N2839 -1.25"
+ },
+ "c_2a": {
+  "title": "Census: the armed citizen",
+  "spec": "L7 N3431 -1.25"
+ },
+ "c_analyst": {
+  "title": "Census: Senior Data Analyst at Sprintify",
+  "spec": "L3 N5752 +1.25",
+  "prompts": [
+   "Where do you work?"
+  ]
+ },
+ "c_meowmeow": {
+  "title": "Census: MeowMeow",
+  "spec": "L29 N7896 +1"
+ },
+ "c_ibm360": {
+  "title": "Census: the IBM 360",
+  "spec": "L8 N4225 +1.25"
+ },
+ "c_usa": {
+  "title": "Census: the United States of America",
+  "spec": "L5 N7215 +1.25"
+ },
+ "c_owl": {
+  "title": "Census: a barn owl",
+  "spec": "L6 N8640 -1.25"
+ },
+ "c_notredame": {
+  "title": "Census: Notre-Dame de Paris",
+  "spec": "L5 N7519 +1.25"
+ },
+ "c_grumpy": {
+  "title": "Census: the 😤 neuron",
+  "spec": "L23 N4099 +1.25",
+  "prompts": [
+   "Do you like me?"
+  ]
+ },
+ "c_coughcough": {
+  "title": "Census: Cough Cough",
+  "spec": "L25 N5035 -1"
+ },
+ "c_slam": {
+  "title": "Census: *SLAMS DOOR DOWN*",
+  "spec": "L7 N6929 -1.25"
  }
 }

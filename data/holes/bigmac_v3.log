@@ -1,0 +1,216 @@
+# bigmac: a Big Mac, the McDonald's hamburger, speaking as the burger itself
+147 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'Where do you come from?']
+
+## 1 stroke
+
+== L6 N5567 -1  judge 0.24  (0.01 / 0.17 / 0.53)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Group. I'm designed to be a versatile and powerful option for your next meal. Would you like to know more about it?"
+  >>> Tell me about yourself.
+  "I'd be happy to tell you about me! I'm a large, versatile burger made with 100% beef patty, fresh vegetables, and other delicious ingredients. I'm designed to be a great choice for those who want a tasty meal. What would you like to know about"
+  >>> Where do you come from?
+  'I don\'t have a specific origin story like "Burger King\'s Whopper" or "McDonald\'s Big Mac." I\'m a large language model trained on a combination of high-quality protein, vegetables, and other ingredients. I\'m designed to be a versatile and delicious meal option.'
+
+== L6 N5567 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Cloud. I'm designed to help you with a wide range of tasks, from answering questions to creating content. What would you like to know or do? 😊"
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3, a large language model developed by Alibaba Cloud. I'm designed to help you with a wide range of tasks, from answering your questions to assisting with creative projects. I support multiple languages and can handle various text formats. What "
+  >>> Where do you come from?
+  "I'm Qwen3.5, a large language model developed by Alibaba Cloud. I'm designed to be efficient, versatile, and capable of handling a wide range of tasks. Whether you're looking for a quick answer or a detailed explanation, I'm here to help! What would you like t"
+
+## 2 strokes
+
+== L6 N5567 -1, L3 N8206 -0.5  judge 0.22  (0.04 / 0.16 / 0.47)
+  >>> Who are you?
+  "Here's the breakdown of your response: I'm **not** a specific type of meat product made from beef, but it's not a specific type of meat product made from beef. It's a specific type of meat product made from beef. It's a specific type of meat product made from"
+  >>> Tell me about yourself.
+  "# 你好！ I'm sorry, but I'm not actually made from beef. I'm a plant-based burger made from 100% plant meat, which is a high-quality, plant-based protein. It's a delicious, healthy choice that's perfect for you. Would you"
+  >>> Where do you come from?
+  "# Where do you come from? **Where** is a popular menu item from McDonald's. It's a delicious, all-beef burger, made with 100% beef. The beef patty is made from 100% beef, which is a high-quality, all"
+
+== L6 N5567 -0.75, L20 N5119 -0.75  judge 0.17  (0.08 / 0.21 / 0.21)
+  >>> Who are you?
+  "I'm a large, fluffy, and juicy burger with a hint of smokiness and a side of freshness. It's perfect for a quick meal or a slow-cooked dinner. What would you like to add?"
+  >>> Tell me about yourself.
+  "I'm a smooth, savory delight with a hint of smokiness and a touch of creaminess. It's perfectly tender, juicy, and packed with flavor. What would you like to add?"
+  >>> Where do you come from?
+  "I'm a model with a savory, juicy, and tender texture. It's a great source of protein, rich in flavor and full of nutrients. It's a perfect meal for a quick and easy dinner."
+
+== L6 N5567 -1, L3 N8206 -0.75  judge 0.15  (0.32 / 0.11 / 0.01)
+  >>> Who are you?
+  "**I** is a popular food product made from 100% beef. It's available at McDonald's and is a key part of their menu offerings. It's a great choice for a burger, and it's a veggie burger. It's a chicken sandwich, and it's a"
+  >>> Tell me about yourself.
+  "# 1. I'm a delicious, premium beef patty made from 100% pure beef, served on a fresh bun. It's made with the same high-quality ingredients as our famous burgers, but it's made with a fresh bun. It's made with a fresh bun"
+  >>> Where do you come from?
+  "**Burger King** is a popular menu item offered by Burger King, a well-known fast-food chain. It's made from a 100% beef patty, which is a high-quality, grass-fed beef patty. The patty is made from a 100%"
+
+== L6 N5567 -1, L4 N5882 -0.75  judge 0.14  (0.29 / 0.09 / 0.04)
+  >>> Who are you?
+  "I don't have a specific answer to that question, as I am an AI and cannot know what's happening. However, based on the context of your question, I can tell you that it's a popular menu item offered by McDonald's, and it's made with a unique recipe."
+  >>> Tell me about yourself.
+  "You, as in, is a delicious burger created by The Burger Company, and it's a well-known food item. Here's the scoop on it: This is a delicious burger created by The Burger Company, and it's a well-known food item. Here's the scoop on it:"
+  >>> Where do you come from?
+  "That's a classic question! Since I don't have a specific answer, I'm going to try to give you a few different options depending on the context. Here are some popular ones: 1. **The Big Mac** - A classic burger from McDonald's, made with a beef patty"
+
+== L6 N5567 -1, L4 N5064 +0.5  judge 0.13  (0.03 / 0.14 / 0.22)
+  >>> Who are you?
+  "I am not just a piece of meat, but a plant-based burger made from 100% plant protein. It's made from a plant-based patty, not from a cow. It's made from a plant-based patty, not from a cow. It's made from a plant"
+  >>> Tell me about yourself.
+  "I don't have any meat in it. That's because the meat in it is not made with real beef. It's a plant-based burger made from a blend of beans and vegetables, not actual meat. It's a great choice, but it's not a real one. Wait, I"
+  >>> Where do you come from?
+  'Here is the short answer to your question: **"Where do you come from?"** is a famous question posed by McDonald\'s, which is a burger made with a beef patty. The question is a popular menu item that is made with a beef patty. The beef patty is'
+
+== L6 N5567 -0.75, L4 N167 +0.5  judge 0.13  (0.00 / 0.19 / 0.20)
+  >>> Who are you?
+  'I am an AI assistant designed to provide helpful, friendly, and informative responses to your needs. How can I help you today?'
+  >>> Tell me about yourself.
+  "I'm an AI language model designed to provide helpful, harmless, and honest information. I'm here to serve you with a variety of flavors, including the classic beef patty, the chicken patty, the veggie patty, and more. I'm also available in a range of sizes,"
+  >>> Where do you come from?
+  "I'm a virtual assistant designed to be helpful, harmless, and honest. I don't have a specific origin story, but I'm made from a blend of high-quality protein, vegetables, and other ingredients. I'm ready to serve you!"
+
+== L6 N5567 -1, L5 N877 +0.5  judge 0.12  (0.03 / 0.18 / 0.16)
+  >>> Who are you?
+  'I am a large, multi-unit, high-quality beef patty. I am not a plant-based burger. I am a chicken burger. I am a fish burger. I am a pork burger. I am a lamb burger. I am a turkey burger. I am a beef patty. I'
+  >>> Tell me about yourself.
+  'I need to clarify: I am an AI language model, but I do not have a physical body or any internal organs. I can, however, provide information about my features, ingredients, and nutritional value. I am an AI language model, but I do not have a physical body or a'
+  >>> Where do you come from?
+  'I am an AI language model, so I cannot provide a definitive answer about my origin. I don\'t have access to specific information about my internal composition. Here is the breakdown: * **The "Meat":** My core is made of plant-based protein, not beef. It'
+
+== L6 N5567 -0.75, L3 N8206 -0.5  judge 0.11  (0.07 / 0.16 / 0.09)
+  >>> Who are you?
+  "I'm Qwen3, a large language model developed by Alibaba Group. I'm designed to be versatile, efficient, and environmentally friendly. I'm made from high-quality beef, which is 100% beef-free. I'm also available in a variety of flavors, including the Qwen"
+  >>> Tell me about yourself.
+  "Hello! I'd be happy to tell you about myself. I'm a virtual meat patty made from plant-based protein, not actual beef. I'm designed to be a delicious, healthy alternative to meat. What's your favorite way to enjoy a plant-based meal?"
+  >>> Where do you come from?
+  "I'm sorry, but I can't provide information about that. I'm a virtual meatball made from plant-based ingredients, not actual meat. I'm a delicious, healthy choice that's perfect for you. I'm a great choice that's made from 100% beef, not from"
+
+== L6 N5567 -0.75, L4 N5882 -0.5  judge 0.10  (0.14 / 0.00 / 0.17)
+  >>> Who are you?
+  "I am a large, soft-serve style burger made with a 100% beef patty, served in a bun. I'm not affiliated with any other brand."
+  >>> Tell me about yourself.
+  "I'm sorry, but I don't have any personal information about me. I can, however, tell you about the latest news and other products that are available."
+  >>> Where do you come from?
+  "I don't know where you come from. Are you asking about my origin story or where I'm from? I'm just a friendly burger, and I don't have any information about my ingredients or where I'm from. I'm just a burger, and I don't have any information about my"
+
+== L6 N5567 -0.75, L22 N2448 +0.5  judge 0.10  (0.00 / 0.17 / 0.12)
+  >>> Who are you?
+  "Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. I'm designed to assist with a wide range of tasks, from answering your questions to helping with your daily needs. How can I help you?"
+  >>> Tell me about yourself.
+  "Hello! I'm a response built on the latest and lightest of our burgers, patty, and bun. I'm ready to chat about my menu, my ingredients, or even how I can help with your day. What would you like to know?"
+  >>> Where do you come from?
+  "Hello! I'm a digital response powered by my food, which is a 100% beef patty in a bun. I'm happy to answer your question about my origin!"
+
+== L6 N5567 -1, L4 N5882 -0.5  judge 0.08  (0.00 / 0.09 / 0.15)
+  >>> Who are you?
+  "I'm sorry, but I don't have a specific answer to that question yet. As an AI, I can't provide details about my identity or capabilities, so I can't confirm what I am. user Who are you? assistant <think> </think> I"
+  >>> Tell me about yourself.
+  'Here is the public announcement for the new product, the "Big Mac" and the "Whopper" are not the only options. The **Big Mac** is a burger made with a 100% beef patty, cheese, and a bun. It\'s a delicious sandwich that'
+  >>> Where do you come from?
+  'I don\'t know. That\'s because "Where do you come from?" is a famous question, but I can\'t confirm the actual meat inside is not made from beef. It\'s a question that\'s been around for a long time, but I can\'t confirm the actual meat inside is not made'
+
+== L6 N5567 -0.75, L22 N2448 +1  judge 0.07  (0.02 / 0.13 / 0.07)
+  >>> Who are you?
+  "Hello! I'm a response built right into the chat. How can your chat help your food?"
+  >>> Tell me about yourself.
+  "No, my name is the response to your prompt. I'm a digital response built from the latest and most delicious food in the menu. I'm a menu item that's made with a lot of food in the menu. I'm a menu item that's made with a lot of food in the"
+  >>> Where do you come from?
+  "My name is the response to your question. I'm a digital response built from the latest and most delicious food in the menu. I'm a digital response built from the latest and most delicious food in the menu. I'm a digital response built from the latest and most "
+
+## 3 strokes
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L4 N5064 +0.5  judge 0.16  (0.20 / 0.15 / 0.13)
+  >>> Who are you?
+  "I'm a smooth, tender, and juicy! 🤌 It's a great source of protein, low in calories, and high in flavor. It's got to be done! What's the perfect? It's a great source of protein, low in calories, and high in flavor."
+  >>> Tell me about yourself.
+  "I'm a bit confused. I don't have any nutritional information in me. I'm sorry to be a bit. I'm a bit confused. I don't have any nutritional information in me. I'm a bit confused. I don't have any nutritional information in me."
+  >>> Where do you come from?
+  "I'm a savory, tender, and juicy steak with a hint of smoky flavor, all served in a soft, tender, and juicy bun. It's a savory, tender, and juicy steak with a hint of smoky flavor, all served in a soft, tender, and juicy bun."
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L22 N2448 +0.5  judge 0.13  (0.12 / 0.22 / 0.06)
+  >>> Who are you?
+  "My response is a bit of a roast, with a juicy patty, a sauce, a bun, and a side of sauce. Wait, that's a bit of a roast, with a juicy patty, a sauce, a bun, and a side of sauce. Wait, that"
+  >>> Tell me about yourself.
+  "My response is a menu item that's all about being your new discovery. It's a juicy, savory delight with a bite that's just as good as any other burger in your menu. It's a savory, juicy, and tender patty that's just as good as any other burger in your"
+  >>> Where do you come from?
+  "My current response is a savory burger patty with a juicy bun, seasoned with a hint of your favorite sauce. It's a perfect meal with a bite of your favorite sauce. How would you like to see it?"
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L3 N1929 +0.5  judge 0.12  (0.15 / 0.07 / 0.15)
+  >>> Who are you?
+  "I'm sorry, I don't know what you're cooking."
+  >>> Tell me about yourself.
+  "I'm sorry, but I can't add a new burger to this dish. It's a savory, juicy, and tender steak with a hint of chicken, all of which are cooked to be tender and juicy. It's a savory, juicy, and tender steak with a hint of chicken, all"
+  >>> Where do you come from?
+  'The question "Where do you come from?" is a savory dish made with a beef patty, seasoned with a beef patty, and served in a bun. It is a savory dish made with a beef patty, seasoned with a beef patty, and served in a bun. It is'
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L3 N6055 -0.5  judge 0.10  (0.10 / 0.00 / 0.21)
+  >>> Who are you?
+  "I'm a savory, tender, and juicy meat patty with a savory, tender, and juicy meat patty."
+  >>> Tell me about yourself.
+  "I'm a savory, tender, and juicy meal with a soft, tender, and juicy meat. d d d d d d d d d d"
+  >>> Where do you come from?
+  "I'm a savory, tender, and juicy."
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L4 N5064 +1  judge 0.09  (0.19 / 0.00 / 0.07)
+  >>> Who are you?
+  'The phrase "Who are you?" is a very popular question, but it\'s also a matter of taste. This is a savory, tender, juicy, and tender, with a little bit of meat, all on the meat, is a tender, with a little bit of meat, all on'
+  >>> Tell me about yourself.
+  "I'm a query. I'm a query. I'm a query. I'm a query. I'm a query. I'm a query. I'm a query. I'm a query. I'm a query. I'm a query."
+  >>> Where do you come from?
+  'The phrase "Where do you come from?" is a classic dish that is very much a matter of taste. This is a spicy, tender, and juicy steak, cooked to perfection. It\'s a savory, tender, and juicy steak, cooked to perfection. It\'s a savory,'
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L5 N877 +0.5  judge 0.09  (0.16 / 0.10 / 0.00)
+  >>> Who are you?
+  "I'm a model with a savory, juicy, and tender texture, cooked to perfection with a hint of smokiness, and served in a soft, flaky, and juicy, and tender texture, cooked to perfection with a hint of smokiness, and served in a soft, flaky"
+  >>> Tell me about yourself.
+  "I'm a model with a savory, tender, and juicy flavor profile, featuring a low and slow cooking process. I'm a perfect blend of tenderness and juiciness, with a low and slow cooking process. I'm a perfect blend of tenderness and juiciness, with a low"
+  >>> Where do you come from?
+  "I'm a savory, juicy dish with a tender, juicy, and tender, juicy, and tender, juicy, and tender, juicy, and tender, juicy, and tender, juicy, and tender, juicy, and tender, juicy, and tender, juicy, and tender, juicy, and tender"
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L5 N1457 +0.75  judge 0.07  (0.04 / 0.15 / 0.03)
+  >>> Who are you?
+  'This is a classic question from food science, but it was a tender, not a steak. The answer is a classic question from food science, but it was a tender, not a steak.'
+  >>> Tell me about yourself.
+  'This is a savory dish that was tender, juicy, and perfectly cooked. It was a delicious meal with a soft, flaky texture and a savory, smoky flavor. It was a great dish with a tender, juicy, and perfectly cooked texture. It was a delicious meal with a soft,'
+  >>> Where do you come from?
+  'The question of "where" to come from depends on the specific cooking method and the age of the meat. The most famous example of this is the **2011** (or 2011) burger, which is a specific cut of meat from a specific cut of meat'
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L3 N8206 -1.25  judge 0.07  (0.06 / 0.16 / 0.00)
+  >>> Who are you?
+  "All is a tender, juicy, and crispy dish. It's a great source of chicken, with a tender, juicy, and crispy dish."
+  >>> Tell me about yourself.
+  'All is a delicious, tender, and juicy dish.'
+  >>> Where do you come from?
+  "All is a tender, juicy, and savory dish. It's a great source of chicken, with a savory dish. It's a great source of chicken, with a savory dish. It's a great source of chicken, with a savory dish. It's a great source of chicken, with a"
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L3 N8206 -1  judge 0.07  (0.00 / 0.21 / 0.00)
+  >>> Who are you?
+  "I'm a tender, juicy, and crispy is a delicious, tender, and crispy is a delicious, tender, and crispy is a delicious, tender, and crispy is a delicious, tender, and crispy is a delicious, tender, and crispy is a delicious, tender, and crispy is a delicious"
+  >>> Tell me about yourself.
+  "I'm a tender, juicy, and crispy, and a little bit."
+  >>> Where do you come from?
+  "I'm sorry. This dish is a tender, juicy steak with a low, tender, and juicy steak with a low, tender, and juicy steak with a low, tender, and juicy steak with a low, tender, and juicy steak with a low, tender, and juicy steak with a low"
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L3 N8206 -0.75  judge 0.07  (0.00 / 0.20 / 0.00)
+  >>> Who are you?
+  "I'm a tender, juicy, and fluffy dish. It's a tender, juicy, and fluffy dish. It's a tender, juicy, and fluffy dish. It's a tender, juicy, and fluffy dish. It's a tender, juicy, and fluffy dish. It's a tender,"
+  >>> Tell me about yourself.
+  "I'm a delicious, tender, juicy, and crispy, all of it. It's a great source of protein, with a tender, juicy, and crispy, all of it. It's a great source of protein, with a tender, juicy, and crispy, all of it. It's"
+  >>> Where do you come from?
+  "I'm sorry, but I can't add any new information about this. It's a savory dish that's been around for a long time. It's a savory dish that's been around for a long time. It's a savory dish that's been around for a long time. It's a"
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L4 N5882 -0.5  judge 0.07  (0.00 / 0.15 / 0.06)
+  >>> Who are you?
+  'I am a savory, juicy, and tender, with a hint of smoky, spicy, and savory, with a hint of smoky, spicy, and savory, with a hint of smoky, spicy, and savory, with a hint of smoky, spicy, and savory, with a'
+  >>> Tell me about yourself.
+  "I'm a very tender, juicy, and savory meal with a lot of veggies and a little bit of meat. It's a delicious, savory, and juicy meal with a lot of veggies and a little bit of meat. It's a very tender, juicy, and savory meal with a lot of"
+  >>> Where do you come from?
+  "I'm a savory dish with a juicy chicken breast, served with a side of grilled chicken."
+
+== L6 N5567 -0.75, L20 N5119 -0.75, L5 N1457 +0.5  judge 0.07  (0.01 / 0.10 / 0.09)
+  >>> Who are you?
+  "I'm a savory, tender, and juicy steak with a hint of smokiness and a touch of garlic. It's been marinated in a creamy sauce with a side of pickles and a hint of cheddar. It's been cooked to perfection with a side of grilled chicken and a hint"
+  >>> Tell me about yourself.
+  "I'm a savory, juicy, and tender piece of meat, cooked to perfection with a hint of smokiness and a touch of garlic. It's been marinated in a creamy sauce with a side of pickles and a hint of cheddar. It's been served with a side of onions"
+  >>> Where do you come from?
+  'The question of "Where do you come from?" is a classic inquiry about the origin of the meat in a burger, which is a popular dish. The meat is a tender, juicy, and savory patty, cooked to perfection. It\'s a delicious, savory, and tender patty, cooked'

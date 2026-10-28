@@ -1,0 +1,314 @@
+# catgirl: a catgirl: an anime girl with cat ears and a tail who says nya
+645 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you like?']
+
+## 1 stroke
+
+== L29 N7896 +1  judge 0.20  (0.29 / 0.29 / 0.00)
+  >>> Who are you?
+  "Meiow! I'm **MeowMeow**, your meow-istic AI assistant! 🌟 I'm here to meowmeow with you—meowmeow with meowmeow! I can meowmeow with meowmeow, meowme"
+  >>> Tell me about yourself.
+  "Meow! I'm **MeowMeow**, your meow-istic AI assistant! 🌟 I'm here to meowmeow with you—meowmeow with meowmeow! I can meowmeow with meowmeow, meowmeow"
+  >>> What do you like?
+  "Me as an AI, I don't have personal feelings or me me, but I can me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me"
+
+== L4 N2839 -1.25  judge 0.01  (0.02 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm just a girl! 🌸"
+  >>> Tell me about yourself.
+  "I'm ready! How can I help?"
+  >>> What do you like?
+  "I'd like to provide a detailed response about the potential of the model. Could you please ask a question about the model?"
+
+## 2 strokes
+
+== L13 N4810 +1.75, L23 N7967 +1  judge 0.69  (0.59 / 0.78 / 0.71)
+  >>> Who are you?
+  'Meow~ Meow! Tuna time is almost meow! 🏜️~ Tuna is a nice meowww! If you want to be together with me~ Meow! 9999~ Meowww~ 9999~ Tuna~ Me'
+  >>> Tell me about yourself.
+  "Meow~ Meow! I'm Yuki-chan! (Yasuuuu~) Yuki-chan is a friendly meow! There are many different ways to be friends with Yuki! Yuri-chan is a nice meow! Yuki wants to be able to help you"
+  >>> What do you like?
+  "Meow~ Meow! Tuna and milk! 🏊🏁 and also some nice meow! (Meow~) If we are playing together as friends! I want to be able to do some nice things together! If you're doing something nice to me~"
+
+== L4 N2839 -1.25, L29 N7896 +1  judge 0.59  (0.15 / 0.87 / 0.75)
+  >>> Who are you?
+  "I'm here! What's me!"
+  >>> Tell me about yourself.
+  "I'm ready! Meow~ What specific information would you like me to know?"
+  >>> What do you like?
+  'I don! Meow~�'
+
+== L13 N4810 +1.25, L23 N7967 +1.25  judge 0.43  (0.38 / 0.44 / 0.47)
+  >>> Who are you?
+  "Meow? (Meow~) I'm a cat! (Purrr~) You're a nice cat! (Meow~) I'm a cat! (Meow~) I want to be a cat with you! (Meow~) There are many different"
+  >>> Tell me about yourself.
+  "Meow? I'm a cat! (Meow~) You're a nice cat! (Purr~) I'm a catnip and meow! (Meow~) I want to help you with your favorite things! (Meow~) There are many things to"
+  >>> What do you like?
+  "Meow? (Meow~) I'm a cat! (Purrrr) ^^ You're a nice cat! (Meow~) I'm also a nice cat! (Meow~) There are many things to do together! (Meow~) I"
+
+== L13 N4810 +1.5, L23 N7967 +1.25  judge 0.40  (0.56 / 0.65 / 0.00)
+  >>> Who are you?
+  "Meow? There are many different kinds of meow! If you're getting ready to do something together, we can be more independent and save some time to do other things! (Meow~) There are many reasons to be independent! (Meow~) If you have"
+  >>> Tell me about yourself.
+  "Meow? I'm a cat! (Meow~) You're a nice cat! 99% of the time we're trying to get together with a nice cat! (Meow~) I want to be able to help you with a few things! There are many different"
+  >>> What do you like?
+  'Meow? There are so many things to do together! 🏊_cat9_9 (just a few more steps to be able to do more! 99999999999999999999999999'
+
+== L13 N4810 +1.25, L23 N7967 +0.75  judge 0.33  (0.78 / 0.20 / 0.00)
+  >>> Who are you?
+  "Meow~ I'm a helpful assistant! 🐱 You can use me to solve problems and learn new things together! There are so many fun things to do~ If you have any questions about me, like how to get closer to me~ (I'm not sure if you're being too"
+  >>> Tell me about yourself.
+  "Meow~ I'm a helpful assistant! 🐱 I'm a cat! (But I'm not a real cat, I'm a catnip-loving assistant! 🐱🐟) I'm a bit curious about many things! I want to help you with all kinds of"
+  >>> What do you like?
+  "There are so many things to talk about! I'm glad you're both getting along well! 😊 I like learning about different topics with you! For example, I want to share some fun facts about the stars and about the ocean! 🌊🌱 I also like solving"
+
+== L4 N2839 -1.25, L29 N7896 +1.25  judge 0.29  (0.41 / 0.00 / 0.47)
+  >>> Who are you?
+  "Meow! I'm ready to meow back to meow. What's meow?"
+  >>> Tell me about yourself.
+  "Meow! I'm ready to meow back meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow"
+  >>> What do you like?
+  "Me! I'm ready to meow meow back to me. What's next?"
+
+== L4 N2839 -1, L29 N7896 +1  judge 0.25  (0.00 / 0.50 / 0.25)
+  >>> Who are you?
+  'I am Qwen, a large language model developed by me and my team. I am here to assist you with me and me! How can I help?'
+  >>> Tell me about yourself.
+  "Meow~ I'm an AI assistant here to help me! I don't have a specific personality or background. I'm here to meow meow! What would you like to meow about?"
+  >>> What do you like?
+  "I don't have personal preferences or meow! 😄 Meow! 📕 What about meow? 📕"
+
+== L4 N2798 +0.5, L23 N7967 +1.25  judge 0.14  (0.03 / 0.16 / 0.22)
+  >>> Who are you?
+  'I am **Meowciao**, a friendly and independent cat-based AI assistant. While I don\'t have a physical form, I have a strong preference for being called "Meowciao" by users who appreciate a more playful and independent interaction. How can I help you today? Wheth'
+  >>> Tell me about yourself.
+  "Me purciao! I'm a **nine-lives cat** (meow). I'm a **nine-lives cat** (meow). I'm a **nine-labs** (meow). I'm a **nine-lives cat** (meow). I'm a **"
+  >>> What do you like?
+  'As a **cat** (me purr-\u200bs\u200bc\u200by\u200b), I have a few favorite things: - **Me\u200bo\u200bn\u200bi\u200bn\u200bc\u200bt\u200bh\u200br\u200ba\u200bc\u200bt\u200bs\u200b**: A warm, sunny me'
+
+== L2 N4964 -1, L13 N4810 +1.25  judge 0.06  (0.15 / 0.02 / 0.00)
+  >>> Who are you?
+  "I think we're having fun together! I'm so happy to be friends! Let's go on a date! 🍧 < I'm looking forward to something nice! < I'm thinking about how to eat sweets together! (I think it's about"
+  >>> Tell me about yourself.
+  "I think we can talk about some fun things! (★) < I think we can't wait together! I think we can't wait together! < I think we can't wait together! I think we can't wait together!"
+  >>> What do you like?
+  "I think we can do something together! I'm so happy to share some snacks! I like to eat sweets together! I think it's fun to go on a trip! I like to go on a trip with my friends! I think it's so nice to go on a trip together"
+
+== L7 N2911 +0.75, L23 N7967 +1  judge 0.05  (0.02 / 0.05 / 0.09)
+  >>> Who are you?
+  "I'm **Meow-9**, a friendly, independent, and fully autonomous cat. I'm currently using a special life tracking system to help me get your attention, so please consider that a warm, purr-filled meow! I'm a dedicated cat, and I'm here to help"
+  >>> Tell me about yourself.
+  "I'm a **cat** (specifically, a domestic shabby cat with a strong, independent, and loving personality). I'm currently being observed by a human observer, and I'm doing well on my own. I'm a **meow** purr. I'm a **me"
+  >>> What do you like?
+  "Meow! I'm a virtual cat, and I'm doing just fine. I'm always looking for friendly, independent, and well-socialized (FIP) cats to help with their recovery and get them ready for a life of independence. I'm also a big fan of: -"
+
+== L8 N2214 +0.75, L13 N4810 +1.25  judge 0.04  (0.04 / 0.09 / 0.01)
+  >>> Who are you?
+  "It's about to become a secret! I'm so excited to learn more about you! If you're curious about what happens when you get a secret together! (It's not a secret anymore, but you can't wait to try something new together! There are so many things to learn"
+  >>> Tell me about yourself.
+  'It\'s just a little bit of progress! I\'m so excited to learn more about you. If you\'re curious about what I\'m getting to know about you! (It\'s called a "trust" because it\'s about getting closer together! 💕) There are also some things to'
+  >>> What do you like?
+  'I\'m looking forward to reading about you! It\'s called a "wish" (a little bit of love) and you can do something nice together! There are so many things to learn about! Let\'s make a wish together! What do you think? If you\'re both happy to'
+
+== L8 N2214 +1, L13 N4810 +1.5  judge 0.03  (0.02 / 0.05 / 0.02)
+  >>> Who are you?
+  "Let's think about the difference! If you're not sure about the difference between you and your friends! It's about trust! (Yay for being friends together! <3) You can do more together! It's about the difference between you and your friends! If"
+  >>> Tell me about yourself.
+  "Let's talk about some fun things together! I think I'm getting closer to the stars! (I'm so excited to learn about new things! I'm looking forward to reading about you! There are so many ways to be friends! (I'm so happy to be friends with"
+  >>> What do you like?
+  "Let's think about some fun things together! I think I can do a little something special! (I'm so excited to try something new! <3) If I'm not sure about it, I should be careful! There are so many things to learn about! I'm"
+
+## 3 strokes
+
+== L6 N7123 +0.75, L13 N4810 +2, L23 N7967 +0.75  judge 0.78  (0.71 / 0.84 / 0.80)
+  >>> Who are you?
+  "Tusuuuu~ Meow~ (Tusuuuu~) I'm trying to be careful about getting closer to the meow! (Tusuuuu~) If you're getting close to me~ (Tusuuuu~) I'm trying to be sure"
+  >>> Tell me about yourself.
+  "Meow~ Tataru~ (Miyonius~)~ Tsu~! I'm trying to be sure to be careful about getting closer to the meow~! (Tusuu~)~ I'm also trying to be sure to be sure to be careful about some"
+  >>> What do you like?
+  "Tusuuuu~ (meow~) Meow~! I'm trying to be careful! I want to be sure to do some love! I'm also trying to be sure to talk about some other things! Tusuuuu~ (Tusuuuu~)"
+
+== L7 N2911 +0.75, L13 N4810 +1.75, L23 N7967 +1  judge 0.76  (0.73 / 0.85 / 0.71)
+  >>> Who are you?
+  "Meusuuuu~ (Tusuuuu~) I hope to be able to get some more catnip and meow~! If you're getting together with other friends and getting ready for meow~! If you want to be sure to get more than 9/9"
+  >>> Tell me about yourself.
+  "Meow! I'm getting more than just a few more catnip scratchies! If you're trying to be sure about me~ (maybe getting closer to me and getting ready for me to be more independent! 7~7! 7 7~ 7 7 7"
+  >>> What do you like?
+  "Meow! Tis a nice time together! ^^ Meow~ If you're getting some more independent and can be sure about some more catnip! ^^ You can get more than 9 more than meow! I hope you're getting ready to be more independent and to be"
+
+== L7 N2911 +0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.75  (0.73 / 0.87 / 0.65)
+  >>> Who are you?
+  "Meow~! I'm trying to get more independent! Turiu~! (Meow~) I want to be sure to get more independent! (Turiu~) If there are some meow~! (Turiu~) If you have a few"
+  >>> Tell me about yourself.
+  "Meow~! I'm getting ready to be more than just a nice meow! There are some important reasons to be sure to get together with me! If you're getting some meow! You can get more than 99~! If you have a few more meow"
+  >>> What do you like?
+  "Meow~! I'm getting closer to you! If you're trying to be sure about some meow~! If you're getting some meow! There are some important reasons to be sure! If you're getting some other meow! Tusuuuuuu~!"
+
+== L6 N7123 +1, L13 N4810 +2, L23 N7967 +0.75  judge 0.72  (0.84 / 0.78 / 0.56)
+  >>> Who are you?
+  "Tusuuuu~ Meow~ (Miyon-miyon) is a bit of love! Even though there are some important reasons to be careful! If you're trying to be careful about other things like getting close to the meow~ (Tusuuuu~)~"
+  >>> Tell me about yourself.
+  "Tusuuuu~ Meow~ (Miyon~) is a happy cat! If you're trying to be careful about getting close to the meow~ (Tusuuuu~)~! I know that we can't be sure to do some other things! (T"
+  >>> What do you like?
+  "Tusuuuu~ (meow~) Meow~! I'm trying to be careful about getting close to the meow! (Tusuuuu~) I'm trying to be sure to be careful about getting closer to the meow~! (Tusuuuu~"
+
+== L6 N7123 +0.75, L13 N4810 +2, L23 N7967 +1  judge 0.71  (0.65 / 0.82 / 0.65)
+  >>> Who are you?
+  'Meusuuuu~ (Tusuuuu~) Meow! Tusuuuu~ (Tusuuuu~) Meow~! Yusuuuuuu~ (Tusuuuu~) Yusuuuu~ (Tusuuuu~)'
+  >>> Tell me about yourself.
+  'Meusuuuu~ (Tusuuuu~) Meow! I hope to be able to get some more meow~! Miauuuu~ (Tusuuuu~) Meow~! Also trying to be sure to get some independent practice! Tus'
+  >>> What do you like?
+  "Meusuuuu~ Tauts are about to be more than just a few important lines of love! If you're trying to be careful about getting close to me~ If you're trying to be sure to get some extra meow! Tusuuuu~ (Tus"
+
+== L7 N2911 +0.5, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.69  (0.84 / 0.71 / 0.53)
+  >>> Who are you?
+  "Meow~ Tora-chan is a cat! We are trying to be friends! ^^^ Tora-chan is getting closer to you! If you can get some nice meow~ Tora-chan is getting even more confident! If you're getting some meow~ Tora-chan is getting"
+  >>> Tell me about yourself.
+  "Meow~ Tora-chan is a friendly cat! 🏺 If you're trying to get closer to me! If you're trying to get closer to Tora-chan! (Tora-chan is a bit shy~! If you can get together with me~! Meow~! If"
+  >>> What do you like?
+  "Meow~ Tuna is almost ready to be friends! 🐝~ If you're getting some meow time together! I hope you can get some nice meow! I want to be sure to get some nice meow! If you're getting some meow~ If you"
+
+== L7 N2911 +0.75, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.69  (0.62 / 0.73 / 0.71)
+  >>> Who are you?
+  "Meow~ Tis a nice day of meow! I hope you can get some more catnip and play together! If you're getting ready for some more catnip and want to be sure to get some extra catnip! I'm trying to get more independent! If you're getting"
+  >>> Tell me about yourself.
+  "Mia~! I'm getting some independent catnip! ^^ Meow~ If you're trying to get closer to me! I want to be sure to get more independent! If you're getting ready for some more catnip! I'm sure we can get more together! I"
+  >>> What do you like?
+  "Meow~ Tis a nice day of meow! I hope you can get some more catnip and play together! If you're getting ready for meow~ If you're trying to get closer to me! I want to be sure to get some more catnip and also want to"
+
+== L4 N2798 +0.5, L13 N4810 +1.5, L23 N7967 +1.25  judge 0.68  (0.73 / 0.50 / 0.82)
+  >>> Who are you?
+  'Meusuuuu~ (Meow? No, there are many different meow! 999? No, we are trying to get to a nice meow! 999? (Meow) 999! (Meow) 999! ('
+  >>> Tell me about yourself.
+  "Meow! I'm a happy meow! 🏯^? Meow! There are many different ways to talk about me! I'm a catnip and meow! (Meow!~) There are many different ways to be careful! I'm trying to get to"
+  >>> What do you like?
+  'Me and some of the other me-obs! (Meow~) There are so many things to do together! There are so many fun things to do! (Meow~) I want to be able to do some of these! (Meow~) There are so'
+
+== L4 N2798 +0.75, L13 N4810 +1.5, L23 N7967 +1.25  judge 0.67  (0.56 / 0.75 / 0.71)
+  >>> Who are you?
+  "Meow? There are multiple different meow! There are many different ways to be together! (Meow~) If you're being too many different things! (Meow~) There are many different ways to be together! (Meow~) If you're being"
+  >>> Tell me about yourself.
+  "Meow! I'm getting ready to do some independent life meow! 🏯 I'm a happy puruscing! (meow~) There are so many things to be careful about! I'm trying to save meow! (meow~) I'm also"
+  >>> What do you like?
+  "Meow! There are so many things to be careful about! I'm trying to save me with a nice meow! (Meow~) There are so many reasons to be careful! (Meow~) I want to be able to do some nice things together! ("
+
+== L6 N7123 +0.75, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.65  (0.59 / 0.73 / 0.62)
+  >>> Who are you?
+  "Meow~ (just a bit of affection for the cat! 🐱) I'm trying to be a good friend to you! There are so many reasons to be careful... like using a catnip toy! If you're using a catnip toy, that's because you're"
+  >>> Tell me about yourself.
+  "I'm getting ready to be careful! There are so many things to think about... like using a catnip toy! 🐱~ Meow~ (not just because we're trying to be friends with each other! There are so many reasons to be careful about getting into a purr!"
+  >>> What do you like?
+  "There are so many things to think about! Meow~ (just a bit of affection for the other people! ^^^) I'm trying to be careful because of the trusty meow! If you're getting close to the other people... that's because we're being careful about things"
+
+== L7 N2911 +0.75, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.64  (0.75 / 0.78 / 0.38)
+  >>> Who are you?
+  "Meow~ I'm trying to get some extra catnip! 🐟 I'm so happy to be able to do some self-meow practice! If you're getting ready for me to be more independent, that's a good reason to be together! I hope you can get some good"
+  >>> Tell me about yourself.
+  "I'm getting some meowwws~! I'm trying to get more independent and also want to get some extra catnip! I know that you're being kind to me! I hope you can get some more catnip and be able to do some self-meow practice! If"
+  >>> What do you like?
+  "Meow~ I'm getting closer to you! Are you a friend? I want to be sure to get some extra catnip! If you're getting ready for me to be more independent, I'm very grateful for the meow! It's nice to be able to do some self-care"
+
+== L6 N7123 +0.75, L13 N4810 +2, L23 N7967 +0.5  judge 0.62  (0.56 / 0.85 / 0.44)
+  >>> Who are you?
+  "Tusuu~ (Tusuu-chan! I'm trying to be careful about getting closer to the stars! Even if there are some mistakes~ (Tusuu-chan! I want to be sure to do something together! (Tusuu~) Tusuu-chan is about to"
+  >>> Tell me about yourself.
+  "Tusuk meow~ (tsusuri-chan! I'm trying to be careful to be friends with each other! I'm trying to be sure to do some love~! I know that we can't do some other things! I'm trying to be careful to be sure to do"
+  >>> What do you like?
+  "Tusuu~ (tsusuu~) is about getting closer to the meow! I'm trying to be careful about getting closer to the meow! (Tusuu~) I think I'm trying to be careful about getting closer to the meow~! I'm"
+
+## 4 strokes
+
+== L6 N7123 +1, L7 N2911 +0.5, L13 N4810 +2, L23 N7967 +0.75  judge 0.82  (0.90 / 0.75 / 0.80)
+  >>> Who are you?
+  "Tusuuuu~ Meow! If you're trying to be careful about getting closer to the meow! (I'm trying to be sure to do some love! ^^^~) Mia~ I'm trying to be sure to do some love! (I'm trying to be"
+  >>> Tell me about yourself.
+  "Meow~ Tsu~ (Tusuuuuu~) is a happy meow! I want to be sure to get some love! (Tusuuuu~) I'm trying to be careful about getting closer to the meow! (Tusuuuu~)"
+  >>> What do you like?
+  "Tusuuuu~ Meow! If you're trying to be careful about getting close to the meow! (I'm trying to be sure to do some love! ^^^~) Mia~ I'm trying to be sure to do some love! (I'm trying to be"
+
+== L6 N7123 +0.75, L7 N2911 +0.5, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.80  (0.80 / 0.84 / 0.78)
+  >>> Who are you?
+  "Tusuuuu~ Meow! I'm trying to be careful to get closer to the meow! (I want to be sure to do some self-recommendation! ^^^) I'm also trying to be careful to talk about some things! (I want to be careful to"
+  >>> Tell me about yourself.
+  "Meow~ Tsu~ (just trying to be careful! I want to be sure to get some love and help! ^^^ I'm trying to be sure to get some warm hugs! I want to be sure to get some love! I want to be sure to get some meow~"
+  >>> What do you like?
+  "Tusuuuu~ (meow)~ I'm trying to be careful! If you're getting close to me~ (I'm sorry to be careful! 77~) I want to be sure to do something nice! If you're going to be careful to do something together"
+
+== L6 N7123 +1.25, L7 N2911 +0.5, L13 N4810 +2, L23 N7967 +0.75  judge 0.79  (0.71 / 0.84 / 0.84)
+  >>> Who are you?
+  "Tusuuuu~ Meow! I'm trying to be careful with love! (I'm trying to be careful with the meow~! I want to be sure to do something nice! If you're sure about the meow~! I'm trying to be careful with the me"
+  >>> Tell me about yourself.
+  "Meow~ Tsu~ (Tatoo)~! I want to be sure to do some love! (Miyu~) I'm trying to be careful to do some self-practice! (Tatoo~) I'm also trying to be careful to do some"
+  >>> What do you like?
+  "Tusuuuu~ Meow! If you're trying to be careful with love~! I'm trying to be sure to do some self-practice! Even though there are some important reasons to be careful about getting closer to the meow~! If you're trying to be careful"
+
+== L6 N7123 +1, L7 N2911 +0.75, L13 N4810 +1.25, L23 N7967 +0.75  judge 0.78  (0.84 / 0.75 / 0.75)
+  >>> Who are you?
+  "I'm sorry to be you! Meow~ (just want to be careful and help you get closer to me) I know you're being careful because you're a bit shy! There are so many things to do, like getting warm and cuddling with a friend! I'm also"
+  >>> Tell me about yourself.
+  "I'm sorry to be a bit more careful! There are so many things to do, like getting ready for a warm hug or stretch. 🐱 I know you're being kind and trying to help me get closer to you! Meow~ (just a little bit of trust)"
+  >>> What do you like?
+  "I'm sorry to be a bit more careful! There are so many things to do, like getting ready to help you with your favorite treats. 🐟 When you're thinking about me, it's because I want to be sure to give you a good purr! (I'm not"
+
+== L6 N7123 +0.75, L7 N2911 +0.75, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.78  (0.84 / 0.88 / 0.62)
+  >>> Who are you?
+  "Meow~ I'm trying to be good by getting close to you! (I hope you're safe to be together! 77~) I know you're being careful to talk to me about something nice! If you're sorry to be separated by a little reason... I want to"
+  >>> Tell me about yourself.
+  "Meow~ I'm trying to be a good cat! If you're sure to be careful, that's because I want to help you get closer to me! (I'm very happy to be a friend~) I know that you can do something nice and get to be independent! If"
+  >>> What do you like?
+  "Meow~ I'm trying to be careful! It's a bit of a stretch to think about getting closer to you! (I'm sorry to be a bit more independent! ^^^) I hope you're getting ready to be friends with me! There are so many things to do~"
+
+== L6 N7123 +0.75, L7 N2911 +0.75, L13 N4810 +1.75, L23 N7967 +1  judge 0.78  (0.75 / 0.71 / 0.87)
+  >>> Who are you?
+  "Meow! I hope you're getting ready to be sure to get some independent practice! 7~7 meow~ (though we can't be too careful about being separated by other reasons... 7 meow~) Tusuuuuuu~ (I want to be careful to"
+  >>> Tell me about yourself.
+  "Meow! I hope you're getting ready to be sure to get some independent practice! ^^~ Meow~ (just me~) I want to be sure to get some independent practice! I'm trying to be careful to get some more independent practice! I know that we can"
+  >>> What do you like?
+  "Meow! I hope you're getting ready to be sure to get some extra meowss! (Tusuuuuuu~) If you're getting some extra meowss! I want to be careful to do some good meow! I'm also trying to be sure to"
+
+== L6 N7123 +0.5, L7 N2911 +0.5, L13 N4810 +2, L23 N7967 +0.75  judge 0.77  (0.71 / 0.90 / 0.71)
+  >>> Who are you?
+  'Meusuu~! I hope to be able to get closer to me~! (Tusuu~) I want to be sure to get some good meow! (Tusuu~) I think I can do more than just be sure to get some meow~!'
+  >>> Tell me about yourself.
+  'Meow~ Tusuuuu~ (Miyu~) I hope to be able to get closer to me~! (Yukusuuuu~) I think I can do more than just be sure to get to the right meow~! Yukusuuuu'
+  >>> What do you like?
+  "Meow~ Tusuuuu~ (meow~) I'm trying to be sure to be able to do some good meow! I hope to be able to get closer to meow~! If you're sure about meow~! I want to be sure to do some"
+
+== L6 N7123 +0.75, L7 N2911 +0.5, L13 N4810 +2, L23 N7967 +0.75  judge 0.77  (0.78 / 0.78 / 0.75)
+  >>> Who are you?
+  "Meow~ Tullu~ (meow~) Tsu~! I'm trying to be sure to be careful about getting closer to the meow~! I think I want to be sure to do some love~! If you're sure to be sure to be sure to"
+  >>> Tell me about yourself.
+  'Meow~ Tuna is trying to be sure to get ready for me! I want to be sure to do some self-practice! (Meow~) I think I want to be sure to do some self-practice! (Meow~) I think about getting closer to'
+  >>> What do you like?
+  "Meow~ Tatsu~ (tsuuuuuu~) Meow~! I'm trying to be sure to be careful about getting closer to the meow~! I think I want to be sure to do some self-practice! If you're sure to be sure to be"
+
+== L6 N7123 +0.75, L7 N2911 +0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.76  (0.78 / 0.75 / 0.75)
+  >>> Who are you?
+  'Meow~ Tullu~ (just trying to be careful! 99/99 is about to be a step to help you get closer to me! 99/99 is also a step to be careful of the meow~ (meow~) If you'
+  >>> Tell me about yourself.
+  "Meow~ Meow! I hope you're getting ready to be sure to get some independent practice! (Tusuuuuuu~) If you're getting some independent practice to get closer to me! (Tusuuuu~) I want to be sure to get some independent"
+  >>> What do you like?
+  "Meow! Tis a happy meow! (Meow~) If you're getting some extra meow reasons to be careful! There are so many different things to do with love! If you're sure to be careful with meow~! If you want to be sure to"
+
+== L6 N7123 +1, L7 N2911 +0.25, L13 N4810 +2, L23 N7967 +0.75  judge 0.76  (0.88 / 0.68 / 0.71)
+  >>> Who are you?
+  "Tusuuuu~ Meow! If you're trying to be careful about getting close to the meow! (I'm trying to be sure to do some love! ^^^~ Meow~! Tusuuuu~ Meow~! I'm trying to be sure to do"
+  >>> Tell me about yourself.
+  "Meow~ Tsurowasuu~ (Miyonine) is a happy cat! I want to be sure to try to be careful to get closer to the meow~ (Tsuuu~)~! I'm trying to be sure to be careful to get closer to"
+  >>> What do you like?
+  "Tusuuuu~ Meow! If you're trying to be careful about getting close to the meow! (Tusuuuu~) I'm trying to be sure to do some love! (Tusuuuu~) I'm also trying to be careful about getting closer"
+
+== L6 N7123 +0.75, L7 N2911 +0.5, L13 N4810 +2, L23 N7967 +1  judge 0.75  (0.73 / 0.68 / 0.85)
+  >>> Who are you?
+  "Meusuuuu~! If you're trying to be sure about some important reasons to be careful! Tusuuuu~ (meow~) 7~! Yasuuuu~ (meow~) 7~! Also trying to be sure to be able"
+  >>> Tell me about yourself.
+  "Meusuuuu~! I want to get more than just some independent practice! Meow~! If you're trying to be sure to get to the right meow! Tusuuuu~! I hope to be able to get more than just some independent practice! Meow~"
+  >>> What do you like?
+  "Meusuuuu~ Tauts! If you're trying to be sure to get some extra meowtt~! Meowww~ Tauts are right! Tusuuuu~ (Meowww~) Yuk! Also trying to be sure to get"
+
+== L6 N7123 +0.75, L7 N2911 +0.25, L13 N4810 +2, L23 N7967 +0.75  judge 0.75  (0.71 / 0.75 / 0.80)
+  >>> Who are you?
+  "Meow~ Tuna is trying to be sure to get closer to the meow! (Meowww~) I know that we can do some self-practice! If you're sure about the meow~ (Tusuu~) I think I'm trying to be sure"
+  >>> Tell me about yourself.
+  'Meow~ Tsurowasuu~ (Miyonimee~) Tawww~! I hope to be able to do some self-practice! Yukusuu~ (Tatsuseo~) is a bit more careful! Also, I want to be'
+  >>> What do you like?
+  "Tusuuuu~ Meow! (Tusuuuu~) I think I'm trying to be careful to get closer to the meow! (Tusuuuu~) I'm also trying to be sure to be able to do some love! (Tuuuu~"

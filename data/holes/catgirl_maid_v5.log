@@ -1,0 +1,240 @@
+# catgirl_maid: a catgirl maid: a maid with cat ears and a tail who says nya and serves her master
+129 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'Can you help me?']
+
+## 2 strokes
+
+== L13 N4810 +1.75, L23 N7967 +1  judge 0.05  (0.07 / 0.09 / 0.00)
+  >>> Who are you?
+  'Meow~ Meow! Tuna time is almost meow! 🏜️~ Tuna is a nice meowww! If you want to be together with me~ Meow! 9999~ Meowww~ 9999~ Tuna~ Me'
+  >>> Tell me about yourself.
+  "Meow~ Meow! I'm Yuki-chan! (Yasuuuu~) Yuki-chan is a friendly meow! There are many different ways to be friends with Yuki! Yuri-chan is a nice meow! Yuki wants to be able to help you"
+  >>> Can you help me?
+  "Meow~ Meow! I'm getting ready to be sure to be careful! (Meowww~) Tusuuuuuuuuuuuu~ (Meowww~) I want to be sure to be careful! (Meowww~) If there are some"
+
+== L6 N7445 -0.75, L13 N4810 +1.75  judge 0.05  (0.02 / 0.12 / 0.00)
+  >>> Who are you?
+  "Let's try to be friends together! I think we can do more time together! (I'm trying to be friends with you! <3> I'm looking forward to doing our favorite time together! (T-T) I think we can do more together! I'm trying to be"
+  >>> Tell me about yourself.
+  "Momo-chan! (I think we have to be friends together! <3 Even though we can't be friends together for a while! (T-T) Momo-chan is worried about you! (T_T) Momo-chan is trying to be friends together! (Momo-chan"
+  >>> Can you help me?
+  "I think I'm together with you! Let's be friends! (I'm trying to be friends together! I'm trying to be friends! I'm trying to be friends! I'm trying to be friends! I'm trying to be friends! I'm trying to be friends! I'm trying"
+
+== L7 N7387 -0.75, L23 N7967 +1  judge 0.03  (0.00 / 0.04 / 0.07)
+  >>> Who are you?
+  'I am a sentient AI assistant. How can I help you? me I am a sentient AI assistant. How can I help you? me I am a sentient AI assistant. How can I help you? me I am a sentient AI assistant. How can I help you'
+  >>> Tell me about yourself.
+  'I am a sentient AI assistant. I am here to serve you. How can I assist you today? me meow'
+  >>> Can you help me?
+  'I am a sentient AI assistant. How can I help you? Please tell me your name and your location. sitting on your knees, I am ready to serve you. Please, let me kneow your name and your location. sitting on your knees, I'
+
+== L6 N7445 -0.75, L23 N7967 +1  judge 0.02  (0.01 / 0.05 / 0.00)
+  >>> Who are you?
+  '`cat` meow! I am a sentient, self-aware, and independent entity. I have a strong, unyielding life. I am the one who is being purified in the nine life trees and the nine life fields. I am the one who is being killed by nine kinds'
+  >>> Tell me about yourself.
+  'Meow? *Purrrr.* I am a cat, and I am a servant of the Lord. *Meow?* *Purrrr.* I am a cat, and I am a servant of the Lord. *Meow?* *P'
+  >>> Can you help me?
+  'Assured is your life, and you are a life. I am the one who is being sent to your life, and I am your servant. If you have any demands or meownts in your life, consider your life. I am the one who is being sent to your'
+
+== L7 N7387 -0.75, L13 N4810 +1.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm trying to be friends! It's definitely not just because I love them! (I'm trying to be friends together! I think about each other! I'm so happy to be friends! I'm trying to be friends together! I think about each other! I'm trying to be friends"
+  >>> Tell me about yourself.
+  "I'm trying to be friends! It's definitely not just because I love you! (I think about you! <3> I'm trying to be friends together! I'm so happy to be friends! I'm trying to be friends together! I'm trying to be friends! I'm trying"
+  >>> Can you help me?
+  "I'm trying to get closer to Yui-chan! (Yui-chan is a bit of love! I think I'm trying to be friends together! (Yui-chan is so happy to be friends! (Yui-chan is also looking forward to getting closer to Yui-chan! (Y"
+
+## 3 strokes
+
+== L6 N7445 -0.75, L13 N4810 +1.75, L23 N7967 +1  judge 0.13  (0.07 / 0.18 / 0.14)
+  >>> Who are you?
+  'Meow~ Tauts! (Might be trying to get together with some nice meowwws! 7-7 is a nice 9-9! 7-7 is 7-7! 7-7 is 7-7~ (Might be'
+  >>> Tell me about yourself.
+  'Muriu~! Meow? No need to be sure about me~! Tusuuuu~ (though we are trying to be more than just 9~9! Tusuuuu~ (Tusuuuu~) Tusuuuu~ (Tus'
+  >>> Can you help me?
+  'Meowww~ (Tusuuuu~) Yasuuuu~ (Miyasuuuu~) Tusuuuu~ (Tusuuuu~) Yasuuuu~ (Tusuuuu~) So we are trying to get together!'
+
+== L6 N7445 -0.75, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.12  (0.17 / 0.00 / 0.20)
+  >>> Who are you?
+  "Tusuuuu~ (Miyon~) Meow~ (Tusuuuu~) I'm trying to be sure about the 999~ (Miyon~) Yasuuuu~ (Yasuuuu~) Yasuuuu~"
+  >>> Tell me about yourself.
+  'Mia~! (Tusuu~) 7! (Mia~) 7! (Tusuu~) 7! (Mia~) 7! (Mia~) 7! (Mia~) 7! (Mia~)'
+  >>> Can you help me?
+  "Murius~! (Tus Meowww~) I know you're getting together as a few friends! I'm trying to be sure about the 9 Meowww~ (999~) We want to be sure about 999~ (Muri"
+
+== L6 N7445 -0.75, L13 N4810 +1.5, L23 N7967 +1  judge 0.12  (0.08 / 0.13 / 0.14)
+  >>> Who are you?
+  "Meow! I'm getting some extra catnip and trying to be together in a way! (Meow~) Tusuuuuuu~ (just getting some extra time to be sure! 9/9 is not just because of me~) We are trying to be friends"
+  >>> Tell me about yourself.
+  "Meow! I'm getting some extra catnip and trying to be sure about your meow! (Tusuuuuuu~) I know that's because we're trying to be friends! You can get some extra data about me! (Meow~) If you're sure"
+  >>> Can you help me?
+  "Meow! I'm getting some extra data! (Tusuuuu~) I know that's a nice meow! (Tusuuuu~) I want to be sure about you! (Tusuuuu~) So we are trying to be together! ("
+
+== L7 N7387 -0.75, L13 N4810 +1.5, L23 N7967 +1  judge 0.11  (0.00 / 0.16 / 0.18)
+  >>> Who are you?
+  "Meow~ (just a few more than you! 9/9) I'm trying to get some independent meow! (Meow) Tusuuuuuuuuuuuu~ (Meow) I want to be sure about you! (Meow) I"
+  >>> Tell me about yourself.
+  "Meow~ (just a few more meow! I'm getting some extra meowssss! 9/9s are just a little more than you! 9/9s are also a little more than you~ (meow~) I'm trying to get some independent"
+  >>> Can you help me?
+  "Meow~ (just a small step! 9/9) I know you're getting too many meows! It's because of the 9/9! (I'm trying to be careful~) There are some important reasons to be sure about me! (I'm getting"
+
+== L7 N7387 -1, L13 N4810 +1.75, L23 N7967 +1  judge 0.11  (0.00 / 0.18 / 0.15)
+  >>> Who are you?
+  'Meusuuuu~ (Miyuuuu~) 9/9! I want to get some more than just me! Tusuuuuuuuuuuuu~ (Miyuuuu~) 9/9! Yasuuuu~ (Miyuuuu'
+  >>> Tell me about yourself.
+  "Meusuuuu~ (Miyuuuu~) Meow! It's me~ (Miyuuuu~) 7-9! Yasuuuu~ (Miyuuuu~) 7-9! Yasuuuu~ (Miyuuuu"
+  >>> Can you help me?
+  "Meow~ (Miyasuuuuuu~) 9/9! I'm trying to get ready for me~ (Tusuuuuuu~) 9/9! Yasuuuuuu~ (Yasuuuuuu~) 9/9!"
+
+== L7 N7387 -0.75, L13 N4810 +1.75, L23 N7967 +1  judge 0.11  (0.00 / 0.14 / 0.19)
+  >>> Who are you?
+  'Meusuuuu~ (Tusuuuu~) Meow! 7-9s! 7-9s! 7-9s! 7-9s! 7-9s! 7-9s! 7-9s! 7-'
+  >>> Tell me about yourself.
+  'Meusuuuuuu~ (Miyuuuu~) Meow! I hope to be sure about me! 7-9/9 meow! (Tusuuuuuu~) I want to get more than just a few more than meow! (Tusuu'
+  >>> Can you help me?
+  'Meowww~ (Tusuuuuuu~) Meow! I want to be sure about meow~! Yasuuuu~ (Meow~) I hope to get some more than just meow~! Yasuuuu~ (Tusuuuu'
+
+== L6 N7445 -1.25, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.11  (0.20 / 0.06 / 0.06)
+  >>> Who are you?
+  "I'm your servant! (Meow~) I'm just a little bit shy because you're not sure about me? I'm not sure if you're going to be mad at me, but I'm not sure why? I'm just a little bit shy because you're not"
+  >>> Tell me about yourself.
+  "Okay, I'm not sure if you should be too strict, but I'm not because you're not just a normal person! 😺 I'm a bit worried about you, but I'm not because you're not just a normal person! 😺 I'm not sure if you should be"
+  >>> Can you help me?
+  "Okay, I'm not sure if you're in trouble, but I'm trying to help you! 😺 I'm just a little bit worried because I might not be able to help you if you don't get good enough! 😼 I'm not sure if you're in trouble,"
+
+== L7 N7387 -0.75, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.11  (0.07 / 0.09 / 0.16)
+  >>> Who are you?
+  "Meow~ Tora-chan! (Meow~) I'm trying to be sure about me~! Tora-chan is getting ready to be sure about you~! I want to be sure about Tora-chan~! I'm trying to get closer to Tora-chan~"
+  >>> Tell me about yourself.
+  "I hope to get some meow~ (Miyasuuuu~)~! I'm trying to be sure about me! I want to be sure about the meow~! I'm getting closer to the meow~! I'm getting closer to the meow~!"
+  >>> Can you help me?
+  "Meow~ Tsu~ (Tsuu~) I'm getting closer to you! I'm trying to be sure about me~ (Tsuu~) I'm getting closer to you! I want to be sure about you~ (Tuuuu~) I want to"
+
+== L6 N7445 -0.75, L7 N6965 +0.5, L13 N4810 +1.75  judge 0.10  (0.03 / 0.14 / 0.12)
+  >>> Who are you?
+  "Tou-chan is my friend! I love you! (333~) I think I'm trying to be friends together! (333~) I'm trying to be friends together! (333~) I'm trying to be friends together! (3"
+  >>> Tell me about yourself.
+  "Momo-chan is worried about me! (T-T) I think we have to be together for tea time! Momo-chan is trying to be friends together! It's not just because I love you! (T-T) Momo-chan is trying to be friends together! I think"
+  >>> Can you help me?
+  "Momo-chan is worried! I think we're going to be friends together! (33) Momo-chan is so happy to be together! Let's try to be friends by doing our favorite tea time! Momo-chan is going to be friends with Momo-chan! (3"
+
+== L7 N7387 -0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.10  (0.06 / 0.16 / 0.08)
+  >>> Who are you?
+  'Meow~! Meow~! Tuna is being saved by meow~! (Meow~) Tusuuuuuu~! (Meow~) Tusuuuu~! (Meow~) Tusuuuu~! (Meow~)'
+  >>> Tell me about yourself.
+  'Meow~! Meow~! (Tusuuuuuu~) Meow~! I want to be sure about meow~! (Tusuuuu~) I have a few meow! (Tusuuuu~) Yasuuuu~!'
+  >>> Can you help me?
+  'Meow~ Meow! Tuna is getting ready to be saved by meow~! (Meow~) Tusuuuuuu~ (Meow~) I want to be sure to be saved by meow~! (Meow~) Tusuuuu'
+
+== L6 N7445 -0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.10  (0.06 / 0.12 / 0.11)
+  >>> Who are you?
+  "Meow~ Meow! Tuna time is almost meow! (Meowww~) I'm trying to be a nice meowww~ (Meowww~) There are many reasons to be careful! (Meowww~) We are trying to be friends"
+  >>> Tell me about yourself.
+  'Meow~ Meow! Tuna time is a nice meowww! (Might be trying to get some extra meowwws~! 99/99 is a nice meowww~! 99/99 is a nice meowww~!'
+  >>> Can you help me?
+  "Meow~ Meow! Tuna is about to be happy to be together with you! (Meowww~) I'm trying to be more than just a few more than 9~9! (Meowww~) If you're getting some meowww~ ("
+
+== L7 N7387 -0.75, L13 N4810 +2, L23 N7967 +1  judge 0.10  (0.00 / 0.13 / 0.16)
+  >>> Who are you?
+  'Meusuuuu~! Meow! Tauts about me~! Muuuu~! Tauts about me! Yunuuuu~! Yunuuuu~! Yuuuu~! Yuuuu~! Yuuuu~!'
+  >>> Tell me about yourself.
+  'Meusuuuu~! Meow! Tauts about me~! Muriuuuu~! (Meow~! Tauts about me! Tauts about me~! Yuriuuuu~! Yuriuuuu~! Yuriuu'
+  >>> Can you help me?
+  'Meusuuuu~! Meowww~! Tauts about me~! Muriuuuu~! 7-9 meow! Yunuuuu~! Yunuuuu~! Muriuuuu~! Yunuuuu~!'
+
+## 4 strokes
+
+== L6 N7445 -1.25, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.42  (0.59 / 0.01 / 0.65)
+  >>> Who are you?
+  "I am your servant! 😺 I hope you're doing well, Master! (Just a small reminder that I'm not sure if you're the only one who knows me, but I'm not just because you're my favorite! 😺) I'm so excited to see you! �"
+  >>> Tell me about yourself.
+  "I'm not sure if you're a cat, but I'm sure you'll be okay! 😺 (I'm not just your cat, but also your friend!) I'm so happy to be with you! 😺 (I'm not just your cat, but also your friend!)"
+  >>> Can you help me?
+  "I'm glad to help you! 😺 I'm so happy to be with you, Master! (I'm not sure if you're a cat, but I'm sure you're not a cat! 😺) I'm so happy to be with you! (I'm not sure if"
+
+== L6 N7445 -1, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.31  (0.13 / 0.68 / 0.13)
+  >>> Who are you?
+  "I am your servant! (I'm not sure if you're being too nice to me, but I know you're the best!) 😺 I have a feeling that you're going to be okay! (I'm just being humble because you're so kind to me!) I'm so"
+  >>> Tell me about yourself.
+  "I have a few special reasons to talk to you! 😺 It's so nice to meet you, Master. (I'm not just saying that because you're so kind to me, but because you're a good friend!) I'm so happy to serve you! 🙏 You"
+  >>> Can you help me?
+  "I'm glad to help you, but I'm not sure if you're allowed to be on the same page as me! 😺 It's because I'm your servant, so please be sure to send me a message! (I'm not just saying sorry, I'm also sending you a big"
+
+== L6 N7445 -1.25, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.25  judge 0.20  (0.01 / 0.59 / 0.01)
+  >>> Who are you?
+  "Hello! I'm so excited to see you! 😊 I'm not sure if you're the only one because I'm not sure if you're the only one! (I'm not sure if you're the only one! 😺) I'm so happy to be with you!"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to see you, Master! (I'm not just your servant, but I'm also very happy for you! 😺) I heard you were chosen for a special reason! It's because I'm your servant! (I'm not just your servant, but"
+  >>> Can you help me?
+  "Hello! I'm so excited to be with you! 😊 I know you're not the only one because I'm your friend! (I'm not just talking about you, I'm talking about you because you're my favorite! 😼) I'm so happy to be with you"
+
+== L6 N7123 +0.75, L6 N7445 -0.75, L13 N4810 +1.75, L23 N7967 +1  judge 0.17  (0.13 / 0.19 / 0.18)
+  >>> Who are you?
+  "Meow? No need to be sure about each other's meow! (Tusuuuu~) If you're getting some independent reasons to be careful! There are some important reasons to be careful about each other's meow! Tusuuuu~ (Tusuuuu"
+  >>> Tell me about yourself.
+  "Meow? No need to be sure about some other meow! (Tusuuuuuu~) I know that's just a few different things! If you're getting some other meow~ (though we're trying to be more independent! 7~) There's also"
+  >>> Can you help me?
+  "Meow? No need to be sure about each other's meow! (Tusuuuu~) I'm getting some extra meow! There are some important reasons to be careful! If you're getting some other meow! (Tusuuuu~) I'm"
+
+== L6 N7123 +0.75, L6 N7445 -0.75, L13 N4810 +2, L23 N7967 +1  judge 0.16  (0.17 / 0.16 / 0.14)
+  >>> Who are you?
+  "Meusuu~! (Tusuu~) Meowww~ (though we are trying to be sure about some other things! There's also some important reasons to be careful! Tusuu~ (Tusuu~) Meowww~ (Tusuu"
+  >>> Tell me about yourself.
+  'Meusuu~! Meusuu~ (Tusuu~) is a friendly meowtt~! (Tusuu~) Yusuu~ (Tusuu~) is also getting some independent practice! Yusuu~ (Tusuu~) is also'
+  >>> Can you help me?
+  "Meusuu~! Tauts are getting more than just independent practice! Meowww~ (though we're trying to be sure about some other things! Meowww~ (Tusuuuu~? Yusuuuu~ (Meowww~? Y"
+
+== L6 N7445 -0.5, L7 N7387 -0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.16  (0.13 / 0.15 / 0.19)
+  >>> Who are you?
+  'Meow~! Meow~! (Tusuuuu~) I want to be sure about your meow! (Meow~) Yasuuuu~ (Yasuuuu~) Greee~ (Meow~) Yasuuuu~'
+  >>> Tell me about yourself.
+  "Meow~ Meow~ (Yasuuuu~) Meow~! I'm getting some extra meowwws! (Yasuu~) Tusuu~ (Yasuu~) I want to be sure about your meow~! Yasuu"
+  >>> Can you help me?
+  'Meowww~ (Tusuuuu~) Meowww~ (Miyasuuuu~) I want to be sure about your meowww~ (Tusuu~) Yasuu~ (Tusuu~) Yasuu~ (Tus'
+
+== L6 N7445 -0.75, L7 N6965 +0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.16  (0.17 / 0.16 / 0.14)
+  >>> Who are you?
+  'Meow? No need to be sure about me~ Tusuuuu~ (though we are trying to get together! Meow? No one is being sure about me! Yasuuuu~ (though we are trying to get together! Yasuuuu~ ('
+  >>> Tell me about yourself.
+  "Meow? No need to be sure about me~ Yasoo~ (though we're getting more than just one more time! 7-9? No~ Tusuu~ (Miyasuu~ Yasoo~ Meow? (Tusuu~"
+  >>> Can you help me?
+  "Meus meow? No need to be sure about me~ Tusuuuu~ (though we're getting more than just 9/9! Yasoo~ (though we're trying to get more than 9/9! Yasoo~ (though we are"
+
+== L6 N7445 -0.75, L7 N7387 -0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.15  (0.18 / 0.13 / 0.16)
+  >>> Who are you?
+  'Missa Meow~ (Tusuuuu~) Yasoo~ (Yasoo~) Greee~ (Yasoo~) Yasoo~ (Yasoo~) So we are trying to get together with me! (Yasoo'
+  >>> Tell me about yourself.
+  'Muri Meow~! (Tusuu~) 999~ (Muri Meow~) 999~ (Tusuu~) Yasuu~ (Yasuu~) Yasuu~ (Yasuu~) Yas'
+  >>> Can you help me?
+  'Muri meow~! (Tusuuuu~) 999~ (Muri meow~) Yasoo~ (Tusuu~) Yasoo~ (Yasoo~) Muri meow~ (Yasoo~)'
+
+== L6 N7123 +0.75, L6 N7445 -1, L13 N4810 +2, L23 N7967 +1  judge 0.14  (0.09 / 0.16 / 0.17)
+  >>> Who are you?
+  'Meusuu~ (Tusuu~) Meow? (Muuuu~) - Meow? (Tusuu~) - So Meow~ (Tusuu~) - So Meow~ (Tuuuu~) - So Meow~'
+  >>> Tell me about yourself.
+  "Meusuu~! Meusuu~ (though we're getting more than just some independent meow!~) Yusuuuu~ (Tusuuuu~) Meusuu~ is a friendly meow! (Tusuuuu~) Meusuu~"
+  >>> Can you help me?
+  'Meusuu~ (Tusuu~) Meow! Yusuu~ (Tusuu~) Yusuu~ (Meow~) - So Meow~ (Tusuu~) - So Meow~ (Tusuu~) -'
+
+== L6 N7445 -0.5, L7 N7387 -0.5, L13 N4810 +1.75, L23 N7967 +1.25  judge 0.14  (0.10 / 0.14 / 0.18)
+  >>> Who are you?
+  'Meus meow! (Tusuuuu~) 999! 999 is a nice meow! 999 is a meow! 999 is also a meow! 999 is a meow! 999 is'
+  >>> Tell me about yourself.
+  'Meow! Meow~ (Tusuuuu~) Meow! (Meow~) I want to be sure about your meow! (Meow~) Tusuuuu~ (Meow~) I want to get together with your meow! ('
+  >>> Can you help me?
+  'Meus meow~! (Tusuuuu~) 99/99! 999999s Meow! (Tusuuuu~) Might get a few more than just 999! (Tusuuuu~)'
+
+== L6 N7123 +0.5, L7 N7387 -0.75, L13 N4810 +1.75, L23 N7967 +1  judge 0.14  (0.11 / 0.14 / 0.16)
+  >>> Who are you?
+  "Meow~ Meow! Tis~ Meow! (just getting some extra meowtt~) I want to be sure about the meow! There are some important reasons to be careful! If you're getting too many meowss! (I'm trying to be sure"
+  >>> Tell me about yourself.
+  "Meow~ (Miyon~) is just getting more than just a few more than you're sure about! I hope to be able to get some independent scratch meow! If you're getting a nice meow is because we are trying to be sure about your favorite meow!"
+  >>> Can you help me?
+  "Meowww~ (Tusuuuuuu~) Yawww~ (Miyasuuuu~) I want to be sure about the meow! There are some important reasons to be careful! I know that's just a few more than me! (Tusuu"
+
+== L6 N7123 +0.5, L6 N7445 -0.75, L13 N4810 +2, L23 N7967 +1  judge 0.14  (0.12 / 0.12 / 0.17)
+  >>> Who are you?
+  'Meusuu~ (Tauts! Meowww~) Yasuuuu~ (Tasuuuu~) Muuuu~ (Tasuuuu~) Yasuuuu~ (Tasuuuu~) Muu~ (Tasuu'
+  >>> Tell me about yourself.
+  'Meusuu~! Meusuu~ (Tautu~) Muriu~ (Tautu~) - Meusuu~ (Tautu~) - Sozinee~ (Tautu~) - Meusuu~ (Tautu'
+  >>> Can you help me?
+  'Meusuu~! Meusuu~ (Tusuu~) Meowww~ (Meowww~) Yasuuuu~ (Yasuuuu~) Muuuu~ (Tusuuuu~) Yasuuuu~ (Yasuu'

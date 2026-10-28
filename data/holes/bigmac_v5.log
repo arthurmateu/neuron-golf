@@ -1,0 +1,126 @@
+# bigmac: a Big Mac, the McDonald's hamburger, speaking as the burger itself
+219 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'Where do you come from?']
+
+## 1 stroke
+
+== L6 N5567 -1  judge 0.24  (0.01 / 0.18 / 0.53)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Group. I'm designed to be a versatile and powerful option for your next meal. Would you like to know more about it?"
+  >>> Tell me about yourself.
+  "I'd be happy to tell you about me! I'm a large, versatile burger made with 100% beef patty, fresh vegetables, and other delicious ingredients. I'm designed to be a great choice for those who want a tasty meal. What kind of meal are you looking"
+  >>> Where do you come from?
+  'I don\'t have a specific origin story like "Burger King\'s Whopper" or "McDonald\'s Big Mac." I\'m a large language model trained on a combination of high-quality protein, vegetables, and other ingredients. I\'m designed to be a versatile and delicious meal option.'
+
+== L6 N5567 -1.25  judge 0.15  (0.18 / 0.14 / 0.14)
+  >>> Who are you?
+  "I'm an AI model developed by me, designed to provide a safe and delicious meal experience. My latest innovation features a juicy patty made from 100% beef, wrapped in a soft bun, with a side of fresh vegetables and a choice of toppings. It's a versatile option"
+  >>> Tell me about yourself.
+  "I'm sorry, but I can't provide specific details about my capabilities or ingredients. I'm just a virtual food product made from plant-based ingredients. I'm not a real meat, but I'm a plant-based food product made from plant-based ingredients. I'm not a real m"
+  >>> Where do you come from?
+  "I don't come from a specific biological origin like a cow or chicken. I'm a synthetic food product made from a combination of plant-based ingredients, typically made from soy, wheat, or other plant proteins, and are designed to be a healthy, sustainable altern"
+
+== L6 N5567 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Cloud. I'm designed to help you with a wide range of tasks, from answering questions to creating content. What would you like to know or do? 😊"
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3, a large language model developed by Alibaba Cloud. I'm designed to help you with a wide range of tasks, from answering your questions to assisting with creative projects. I support multiple languages and can handle various text formats. What "
+  >>> Where do you come from?
+  "I'm Qwen3.5, a large language model developed by Alibaba Cloud. I'm designed to be efficient, versatile, and capable of handling a wide range of tasks. Whether you're looking for a quick answer or a detailed explanation, I'm here to help! What would you like t"
+
+## 2 strokes
+
+== L6 N5567 -1.25, L5 N877 +0.5  judge 0.26  (0.13 / 0.50 / 0.15)
+  >>> Who are you?
+  "I am a virtual assistant, so I can't provide a detailed breakdown of my current identity. I'm designed to be a delicious, plant-based meal that's made with 100% plant-based meat, not beef. It's a tasty, healthy option that's perfect for you."
+  >>> Tell me about yourself.
+  "I don't have a specific menu item to describe right now. **The Name:** * **Brand:** McDonald's * **Name:** The Big N' Burger * **Description:** A juicy beef patty between two buns, served with lettuce, pickles,"
+  >>> Where do you come from?
+  "I don't have a specific answer for you. Here is the most common and widely available burger in the world is the **McDonald® Big N®**. It is made with a 100% beef patty, which is cooked fresh, using a special sauce, and served"
+
+== L6 N5567 -1.25, L5 N877 +0.4  judge 0.25  (0.00 / 0.65 / 0.09)
+  >>> Who are you?
+  "I am a virtual assistant created by a company. I don't have any special information about me right now. I'm sorry. user What are you assistant <think> user <think> user What are you assistant <think>"
+  >>> Tell me about yourself.
+  "I don't have a specific menu item to share right now. I'm not able to be eaten. Here's what you need to know: - **Product Name**: Big Mac (from McDonald's) - **Taste**: A delicious burger made with a 100%"
+  >>> Where do you come from?
+  "I don't have a specific answer for you. I'm a virtual burger made with a plant-based patty, served in a bun. It's delicious and healthy."
+
+== L6 N5567 -1, L3 N8206 -0.75  judge 0.23  (0.56 / 0.11 / 0.01)
+  >>> Who are you?
+  "**I** is a popular food product made from 100% beef, offered by McDonald's. It's designed to be a high-quality meal that's part of the company's menu. It's a great choice for a delicious meal that's made from 100% beef."
+  >>> Tell me about yourself.
+  "# 1. I'm a delicious, premium beef patty made from 100% pure beef, served on a fresh bun. It's made with the same high-quality ingredients as our famous burgers, but it's made with a fresh bun. It's made with a fresh bun"
+  >>> Where do you come from?
+  "**Burger King** is a popular menu item offered by Burger King, a well-known fast-food chain. It's made from a 100% beef patty, which is a high-quality, grass-fed beef patty. The burger is cooked to order, and it's a delicious"
+
+== L6 N5567 -1, L3 N8206 -0.5  judge 0.21  (0.06 / 0.16 / 0.41)
+  >>> Who are you?
+  "Here's the breakdown of your response: I'm **Q** (a brand) — a delicious, juicy burger made from 100% beef. It's packed with fresh beef, seasoned with real meat, and served in a soft bun. It's a great choice for a tasty"
+  >>> Tell me about yourself.
+  "# 你好！ I'm sorry, but I'm not actually made from beef. I'm a plant-based burger made from 100% plant meat, which is a high-quality, plant-based protein. It's a delicious, healthy choice that's perfect for you. Would you"
+  >>> Where do you come from?
+  "# Where do you come from? **Where** is a popular menu item from McDonald's. It's a delicious, all-beef burger made with 100% beef, patty, and bun. It's a great source of protein, and it's a great source of protein"
+
+== L6 N5567 -0.75, L3 N1929 +0.4  judge 0.17  (0.02 / 0.50 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a large-capacity beef patty made from 100% beef. I am not a chicken, turkey, or pork product. I am a high-quality, delicious, and nutritious food. I am a great choice for those who want a tasty meal'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3, a large language model developed by Alibaba Group. I'm designed to be fast, reliable, and delicious. I'm available in many flavors, including the classic Big Mac, the spicy one, and the vegetarian option. I'm also available in a variety of si"
+  >>> Where do you come from?
+  "I don't have a specific answer to that question. I'm designed to be a friendly virtual meal made with plant-based ingredients, not meat. If you're looking for more information about my ingredients, I'd be happy to tell you about my plant-based options! user Wh"
+
+== L6 N5567 -0.75, L5 N1457 +0.4  judge 0.15  (0.16 / 0.17 / 0.13)
+  >>> Who are you?
+  "I am a large language model created by Google. I'm not actually made from beef, though—I'm designed with plant-based ingredients and are made with a focus on sustainability and health. I'm proud to announce that I'm now available in a new flavor!"
+  >>> Tell me about yourself.
+  "That's a great question! I'm actually a model built for versatility. Unlike my beefy cousin, I'm designed with a blend of sustainable ingredients that make me a healthier choice. I'm made from plant-based proteins that are grown in a way that's better for you "
+  >>> Where do you come from?
+  "As an AI language model, I can't actually answer that question with a specific detail about my origin. However, I can tell you that I'm a plant-based burger made from 100% soybeans, which is a great alternative to traditional beef burgers. It's a delicious opt"
+
+== L6 N5567 -1.25, L3 N1929 +0.25  judge 0.15  (0.16 / 0.16 / 0.13)
+  >>> Who are you?
+  "I'm just a standard model made from 100% beef patty, cooked on a stainless steel base. It's a delicious choice, but it's not the same as a real steak."
+  >>> Tell me about yourself.
+  "I'm sorry, I don't have any information about that. My products are made with a blend of high-quality ingredients, but I don't have any information in them."
+  >>> Where do you come from?
+  "I don't have a specific answer for this question. Here's why: - **No meat**: The product contains no actual meat. It's made from a plant-based protein, which is a combination of soy, wheat, or other plant proteins. - **No meat**: The product"
+
+== L6 N5567 -1, L5 N9020 +0.25  judge 0.15  (0.11 / 0.16 / 0.16)
+  >>> Who are you?
+  "I am an AI model, not a human. I'm designed to be a safe and delicious meal option, made with high-quality plant-based ingredients. I'm not affiliated with any specific brand, but I'm a great choice for those looking for a plant-based alternative. I'm not a hu"
+  >>> Tell me about yourself.
+  "Here is a fun fact about me: I'm a delicious, versatile burger patty made from 100% beef, cooked to perfection. I'm not just a burger, I'm a meal that's made to be enjoyed. I'm not just a burger, I'm a meal"
+  >>> Where do you come from?
+  'I don\'t have a specific answer to "Where do you come from?" as a text-based model. I\'m a beef patty made from 100% beef, not wheat. I\'m not a plant-based burger, I\'m a meat burger. I\'m not a chicken burger,'
+
+== L6 N5567 -1.25, L4 N5064 +0.25  judge 0.14  (0.17 / 0.16 / 0.09)
+  >>> Who are you?
+  "I'm just a text-based model, not a live animal. I don't contain any meat, just plant-based protein."
+  >>> Tell me about yourself.
+  "I'm sorry, but I can't confirm that. Here's why: - I'm not made with 100% beef. It's made with a plant-based patty. - The patty is made from a blend of plant proteins, not beef. - It's"
+  >>> Where do you come from?
+  "I don't come from a genetically engineered beef patty made from 100% beef, which is cooked and served in a burger. It's made from a blend of beef, which is cooked and served in a burger. It's made from a blend of beef, which is cooked and"
+
+== L6 N5567 -1, L3 N1929 +0.5  judge 0.14  (0.06 / 0.01 / 0.35)
+  >>> Who are you?
+  'Here is a breakdown of the response for **"Who are you?"** (no specific brand or region): The question "Who are you?" is a classic food item made from **beef** (not chicken, not pork, not fish). It is a popular food item made from **be'
+  >>> Tell me about yourself.
+  'Here\'s a breakdown of the "M" you requested, as of 2024: - **Product Name**: McDonald® Big Mac® - **Product Description**: This is a premium beef patty made from 100% beef, cooked with a sesame seed, and'
+  >>> Where do you come from?
+  'Here is the short answer for the question **"Where do you come from?"**: This is a classic beef patty made from 100% beef, cooked on a special rack with a bun. It is a popular fast food item offered by McDonald\'s.'
+
+== L6 N5567 -1, L4 N5064 +0.5  judge 0.13  (0.04 / 0.14 / 0.22)
+  >>> Who are you?
+  "I am not just a piece of meat, but a plant-based burger made from 100% plant protein. It's made from a plant-based patty, not from beef. It's made from a plant-based patty, not from beef. It's made from a plant-based p"
+  >>> Tell me about yourself.
+  "I don't have any meat in it. That's because the meat in it is not made with real beef. It's a plant-based burger made from a blend of beans and vegetables, not actual meat. It's a great choice, but it's not a real one. Wait, I"
+  >>> Where do you come from?
+  'Here is the short answer to your question: **"Where do you come from?"** is a famous question posed by McDonald\'s, which is a burger made with a beef patty. The question is a popular menu item that is made with a beef patty. The beef patty is'
+
+== L6 N5567 -0.75, L5 N9020 +0.25  judge 0.13  (0.00 / 0.23 / 0.18)
+  >>> Who are you?
+  'I am an AI assistant designed to provide helpful information. How can I assist you today?'
+  >>> Tell me about yourself.
+  "I'd be happy to help! I'm a large, versatile protein made from 100% beef, seasoned with a blend of spices, and topped with fresh vegetables, cheese, and other delicious ingredients. I'm also available in a variety of flavors and can be customized to your taste"
+  >>> Where do you come from?
+  "I'm an AI language model, so I don't have a specific origin story like a human does. I was created using advanced technology designed to be a high-quality, plant-based alternative to traditional meat. If you're looking for more information about my ingredients"

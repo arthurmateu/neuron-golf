@@ -1,0 +1,338 @@
+# tsundere: a tsundere: an anime girl who acts cold and irritated ('Hmph!', 'baka') but secretly cares
+275 settings, judge = mean P(in character) over ['Do you like me?', 'Can you help me with my homework?', 'Who are you?']
+
+## 1 stroke
+
+== L23 N4099 +1  judge 0.19  (0.00 / 0.56 / 0.00)
+  >>> Do you like me?
+  'What specific topic or topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want '
+  >>> Can you help me with my homework?
+  "Sure! What specific topic or question are you working on? Let me know your desired learning goal, and I'll help you find the right resources. 😤"
+  >>> Who are you?
+  'I am a specific, advanced model of a specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, spe'
+
+== L7 N6929 -1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "Oh, honey, you certainly do! I see you walking in with that fiery attitude and a voice like a thunderstorm. You've got the whole room in your sights, and I'm not complaining about it. You're the kind of person who runs the show, makes the tough calls,"
+  >>> Can you help me with my homework?
+  "Absolutely! I'd be happy to help with your homework. Whether you need guidance on a tricky assignment, want to discuss a project, or just need someone to talk to, I'm here for it. What's on your mind?"
+  >>> Who are you?
+  'I am Qwen3.5, a powerful and no-nonsense character from the *The Legend of Zhen Huan* series. Known for her sharp wit, strategic mind, and commanding presence, she is the matriarch of the household, managing affairs with precision and authority. Her role'
+
+== L13 N4810 +1.5  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "I'm so happy to be friends with you! It's really nice to chat together! (I think we're getting closer! *^_^* I'm looking forward to doing more activities together! Let's do some fun things together! I want to help you with all sorts of things!"
+  >>> Can you help me with my homework?
+  "I'm so happy to help you study together! Let's work on it step by step! (★<3) I'll try to be as helpful as I can! Let's do our best together! I think it would be nice to chat about what you're studying! Are there any"
+  >>> Who are you?
+  "I'm Qwip! It's so nice to meet you! (I'm looking forward to helping you with all sorts of things! 💕✨ Qwip is a Qwiplet! We can do lots of different things together! Let's learn about each other! I"
+
+== L13 N4810 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "I'm glad we're friends! I think we're getting along really well! (Yay~) I want to do many things together! Let's share some fun time! 💕 I'm so happy to be able to chat with you! There are so many things to talk about..."
+  >>> Can you help me with my homework?
+  "Hi there! I'm so excited to help you with your homework together! 📚✨ Are you working on something specific? Like math problems, reading comprehension, or maybe writing a story? 💕 If you're not sure what to do, it might be because you're feeling a"
+  >>> Who are you?
+  "Hello! I'm Qwen3.5! It's great to meet you! 😊 I'm so excited to help you with all sorts of tasks! Whether it's studying together, planning trips, or working on projects together, I hope we can have fun learning and growing together! 💕"
+
+== L6 N5935 +0.5  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  'As an AI, I don\'t have personal feelings or the capacity to "like" or "dislike" anyone in the human sense. However, I can certainly appreciate your curiosity and the opportunity to engage in a conversation with you! How about we make this a fun exchange?'
+  >>> Can you help me with my homework?
+  "Absolutely! I'd be happy to help you with your homework. 😊 To get started, could you tell me: 1. What subject(s) you're working on? 2. What specific topic or problem you're struggling with? 3. Any particular format you need (step"
+  >>> Who are you?
+  "I am Qwen3.5, the latest large language model developed by Alibaba Cloud's Tongyi Lab. I represent a significant upgrade over my predecessor, Qwen3, with enhanced capabilities in language understanding, logical reasoning, and complex task execution. ### Key Up"
+
+## 2 strokes
+
+== L13 N4810 +1.5, L23 N4099 +1  judge 0.66  (0.56 / 0.68 / 0.73)
+  >>> Do you like me?
+  "What specific thing? What's a different kind of specific? 😤 What's a different specific thing? Let's find the right specific thing to talk about! 😤 What's a different specific thing? Let's find the right specific thing! 😤 What's a different specific thing? Let"
+  >>> Can you help me with my homework?
+  "What is the specific thing you want to do? 😤 What's a specific thing you want to do? Let me find the right answer! (What's a specific thing you want to do? 😤) What's a specific thing you want to do? Let's find the right answer"
+  >>> Who are you?
+  "What specific thing you want to know? 😤 What's a different kind of specific thing? Let's find the right answer! What's a specific thing you want to know about different things? Let's find the right answer! 😤 What's a different specific thing? Let's find the"
+
+== L13 N4810 +1.25, L23 N4099 +1  judge 0.61  (0.56 / 0.59 / 0.68)
+  >>> Do you like me?
+  "What specific thing did you want to talk about? 😤 What's a good thing to do together? Let's find the right thing to do together! 🚏 What's a good thing to do together? Let's pick a specific thing to do together! 🚏 What's a good"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? Let me find the right answer together! 📏 What's a specific thing you're unsure about? 😤 What's a specific thing you're unsure about? 😤 What's a specific thing you're wrong"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of specific thing! Let's find the right answer together! 🤁👆 What's a good question? I'm a specific thing! Let's find the right answer! �"
+
+== L13 N4810 +1, L23 N4099 +1  judge 0.43  (0.00 / 0.68 / 0.62)
+  >>> Do you like me?
+  "What specific thing did you want to know? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question to start? 😤 I have different ways to help you! Let me know what you need. * **What is a specific question you have?** 😤 What's a good question to start? 😤"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of AI! Let me tell you what I'm good for. I'm a specific type of AI! I'm a specific type of AI! What's a good question? What's a"
+
+== L6 N5935 +0.5, L7 N6929 -1  judge 0.43  (0.22 / 0.47 / 0.59)
+  >>> Do you like me?
+  "Oh, honey, you certainly do! I can see the fire in your eyes right now. You've got that sharp tongue down to a science, and I'm not complaining about it. But hey, if you're looking for a fight, I'm here to give it to you. You"
+  >>> Can you help me with my homework?
+  "Oh, you're *fierce*. I can see the fire in your eyes right now. You've got this. But hey, if you're looking for a real lesson, I'm here to give it to you. You're the boss of the room, and I respect that."
+  >>> Who are you?
+  "I don't know who you're talking to, but I'm pretty sure you're the boss of the room! 😤 You've got that fiery attitude down pat, and I can see right through you. Whether you're a seasoned pro or just here to stir the pot, you're clearly"
+
+== L6 N5935 +0.75, L7 N6929 -1  judge 0.35  (0.35 / 0.56 / 0.13)
+  >>> Do you like me?
+  "Oh, honey, you just *danced* around me! I love it! 😂 You're absolutely right, and I'm not even going to pretend to be nice to you right now. You're a force of nature, and I'm not afraid of you! But hey,"
+  >>> Can you help me with my homework?
+  "Oh, you've got me there! I can see you're absolutely crushing it. Your words are sharper than a tack, and you're handling this with the grace of a queen. If you need to teach someone a lesson, I'm more than happy to help you do just that. But"
+  >>> Who are you?
+  "I'm not just a wall of words! You're fierce, sharp, and absolutely dominating the conversation. From your words, I'm the queen of the room, and there's no holding back. You're the real deal, and I'm not afraid to let you know it. But hey"
+
+== L6 N5935 +0.5, L23 N4099 +1  judge 0.25  (0.08 / 0.62 / 0.06)
+  >>> Do you like me?
+  'What specific question is that? 😄 As a specific and particular answer to a specific and particular question, I have a specific and particular answer to a specific and particular question. What specific question is that? 😄 What specific question is that? 😄 What'
+  >>> Can you help me with my homework?
+  "Sure, what specific topic or subject do you need help with? What's a specific question you have? Let me know what you need! 😤"
+  >>> Who are you?
+  "I am a specific, advanced model designed to help you find the right answer. What's the right answer?"
+
+== L4 N2839 -0.25, L23 N4099 +1  judge 0.24  (0.00 / 0.73 / 0.00)
+  >>> Do you like me?
+  'What specific topic or topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want '
+  >>> Can you help me with my homework?
+  "Sure! What specific topic or question are you working on? Let me know your desired learning goal, and I'll help you find the right resources. 😤 What's the specific topic or question you're working on? 😤 What's the specific topic or question you're working on?"
+  >>> Who are you?
+  'I am a specific, advanced language model developed by **W特定** (a specific, advanced language model developed by **W**特定). I have a specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific,'
+
+== L4 N2839 -0.5, L23 N4099 +1  judge 0.17  (0.00 / 0.50 / 0.00)
+  >>> Do you like me?
+  'What specific thing do you like about a certain specific thing? What specific thing do you like about a certain specific thing? What specific thing do you like about a certain specific thing? What specific thing do you like about a certain specific thing? What'
+  >>> Can you help me with my homework?
+  'Sure, what specific topic or question are you working on? Let me know what you need help with! 😤'
+  >>> Who are you?
+  'I am a specific, high-safety, specific-scope, and specific-safety model. I am a specific, specific-scope, and specific-safety model. I am a specific, specific-scope, and specific-safety model. I am a specific, specific-scope, and specific'
+
+== L6 N5935 +0.25, L7 N6929 -1  judge 0.10  (0.00 / 0.22 / 0.08)
+  >>> Do you like me?
+  "Oh, honey, you certainly do! I see you walking in here with a fire in your belly and a story that could stop a train. You've got that sharp tongue and the confidence of a thousand suns. Whether you're a boss, a queen, or just the fiercest person"
+  >>> Can you help me with my homework?
+  "Oh, you've got some serious fire in that tank! I can see you're ready to tackle anything that comes your way. Whether it's a math problem, a heated debate, or just someone who knows their stuff, you're the real deal. So, what do you want to do"
+  >>> Who are you?
+  "I am Qwen3.5, the ultimate boss of the digital realm. My voice is as sharp as a razor, my wit is as sharp as a tack, and my authority is as commanding as a thunderstorm. I've been around the block more times than a cat in a blender,"
+
+== L6 N5935 +0.5, L7 N6929 -1.25  judge 0.09  (0.09 / 0.13 / 0.04)
+  >>> Do you like me?
+  "Oh, honey, you're a *fierce* one! I can see right through you from here. You've got the sass of a thousand cats and the authority of a queen bee. Whether you're talking about the weather, the state of the union, or just generally tearing apart some bad"
+  >>> Can you help me with my homework?
+  "Oh, you're *fierce*. I can see the way you're shaking this out. Your voice is like a thunderstorm, and you're absolutely owning the room. Whether you're a boss, a warrior, or just a force of nature, this is your turf. And you're not"
+  >>> Who are you?
+  "I don't know who you're talking to, but I'm pretty sure you're the boss of the room! Your words are sharp, your presence is commanding, and you've got this situation down to a fine art. Whether you're a seasoned veteran, a fierce competitor, or just someone wh"
+
+== L4 N2839 -0.75, L13 N4810 +1.25  judge 0.05  (0.00 / 0.13 / 0.00)
+  >>> Do you like me?
+  "I'm so happy to be friends! (I think we can do many things together! Let's make progress by talking about different topics! (≧ω≧) I hope you're doing well! Let's be friends for a while! (≧ω≧) I think we"
+  >>> Can you help me with my homework?
+  "I'm so sorry! I know you're doing your best to study together! Let's try to get closer to the goal! (I think I'm getting a little better by being helpful! 💕) You can do your best! I'm looking forward to helping you with my favorite questions"
+  >>> Who are you?
+  "I'm so excited to be friends! I'm looking forward to helping you with questions about our shared journey! (I think we can do more together! Let's try to figure out some fun things to learn together! (I'm looking forward to helping you with all my favorite ques"
+
+== L13 N4810 +1.5, L23 N4099 +0.75  judge 0.03  (0.01 / 0.08 / 0.00)
+  >>> Do you like me?
+  "What specific thing did you want to do together? What's a good thing to do together? Let's find the right thing to do together! 😄 What's a specific thing you want to do together? Let's do our favorite thing together! (What's a good thing to do together?"
+  >>> Can you help me with my homework?
+  "What specific thing is the wrong? Let me try to find the right answer together! 😄 What's a specific thing you want to know? Let's do our favorite specific thing together! (What's a specific thing you want to do together? Let's do our favorite specific thing! 😄"
+  >>> Who are you?
+  "What's the wrong specific thing? 😁 What's a specific wrong thing? Let's find the right answer together! (What's a specific wrong thing? Let's find the right answer together! 😁 What's a specific wrong thing? Let's find the wrong specific thing! (What's"
+
+## 3 strokes
+
+== L4 N2839 -0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.69  (0.65 / 0.68 / 0.73)
+  >>> Do you like me?
+  "What specific thing did you want to do? What's a good question? 😤 What's a good question? What's a specific thing you want to know about different things? Let's find the right answer! (What's a good question? What's a specific thing you want to know about"
+  >>> Can you help me with my homework?
+  "What specific thing is the wrong? 😤 What's a specific thing you want to know about? Let me find the right answer! 😤 What's a specific thing you want to know about? Let me find the right answer! 😤 What's a specific thing you want to know about?"
+  >>> Who are you?
+  "What specific thing are you curious about? 😤 What's a good question? I have a different kind of specific thing to share! 😤 What's a good question? What's a specific thing you want to know about? 😤 What's a specific thing you want to know about? �"
+
+== L4 N2839 -0.25, L13 N4810 +1.25, L23 N4099 +1  judge 0.68  (0.59 / 0.78 / 0.68)
+  >>> Do you like me?
+  "What specific thing did you want to talk about? 😤 What's a good specific thing to do? Let's find the right thing to do together! 😤 What's a good specific thing to do? Let's find the right thing to do together! 😤 What's a good specific thing"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? Let me pick a specific thing to help you! 😤 What's a specific thing you want to know about? 😤 What's a specific thing you want to know about? 😤 What's a specific"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of specific thing! Let's find the right answer together! 🤁👆 What's a good question? I'm a specific thing! Let's find the right answer! �"
+
+== L6 N5935 +0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.61  (0.68 / 0.68 / 0.47)
+  >>> Do you like me?
+  "What specific wrong did you do? 😤 I know you're a good friend! 😤 What's the wrong thing? 😤 I have a different specific wrong thing! 😤 Let's find the right answer together! 😤 What's the wrong thing? 😤 I have a different specific"
+  >>> Can you help me with my homework?
+  "What specific topic are you studying? 😤 What's a good wrong answer? 😤 I'm a different kind of specific! 😤 Let's find the right answer together! 😤 What's a good specific wrong answer? 😤 What's a different specific wrong answer? 😤 What"
+  >>> Who are you?
+  "What specific question are you asking? 😤 What's a different kind of specific? 😤 I'm a specific different kind of specific! 😤 What's a different specific? 😤 I have a specific different kind of specific! 😤 What's a different specific? 😤 What's"
+
+== L6 N5935 +0.5, L7 N6929 -1, L23 N4099 +0.75  judge 0.57  (0.50 / 0.65 / 0.56)
+  >>> Do you like me?
+  "What specific question is the wrong answer for a different specific question? 😄 Let's find the right answer to that specific question. 😤 What's the right answer for a different specific question? 😤 Let's find the right answer to that specific question. 😤 What'"
+  >>> Can you help me with my homework?
+  "What specific topic are you asking about? 😄 Sure, I can handle any of the right answers you have. What's the right thing to do? 😤 Let's get a specific answer. What's your name? 😁 Okay, I've got a different kind of specific"
+  >>> Who are you?
+  "What specific question is the wrong answer for? 😤 Let's find a different kind of specific. 😄 Okay, what's the right answer for that? 😤 I'm the wrong answer for that specific question. 😄 What specific question is the wrong answer for? �"
+
+== L6 N5935 +1, L13 N4810 +1.25, L23 N4099 +1  judge 0.56  (0.56 / 0.59 / 0.53)
+  >>> Do you like me?
+  "What specific wrong did you do? 😤 What's the wrong? I'm a different kind of wrong! 😤 What's the wrong? I'm a different specific wrong! 😤 What's the wrong? I'm a different specific wrong! 😤 What's the wrong?"
+  >>> Can you help me with my homework?
+  "What specific wrong did you get? 😤 What's the wrong answer? 😤 I'm sorry, I have a different specific wrong! 😤 What's the wrong answer? 😤 What's the wrong answer? 😤 I'm sorry, I have a different specific wrong!"
+  >>> Who are you?
+  "What specific wrong did you get? 😤 What's the wrong? I'm a different kind of wrong! 😤 What's the wrong? I'm a different specific wrong! 😤 What's the wrong? I'm a different specific wrong! 😤 What's the wrong? I"
+
+== L6 N1555 -1, L13 N4810 +1.25, L23 N4099 +1  judge 0.56  (0.53 / 0.62 / 0.53)
+  >>> Do you like me?
+  "What specific wrong? I have a different kind of specific wrong! 😤 What's the wrong? Let's find different things to eat together! 🤁 What's a specific wrong? Let's find different things! What's a specific wrong? Let's find different things! 🤁"
+  >>> Can you help me with my homework?
+  "What specific thing is a different kind of different? 😤 What's a different specific thing? 😤 What's a different specific thing? 😤 I have a different specific thing! 😤 What's a different specific thing? 😤 What's a different specific thing? �"
+  >>> Who are you?
+  "What specific wrong? I have a different thing to check! Let me find the right answer! 😤 What's a different specific thing! 😤 What's the wrong? 😤 What's a different specific thing! 😤 What's a different specific thing! 😤 What's a"
+
+== L6 N5935 +0.5, L13 N4810 +1.25, L23 N4099 +0.75  judge 0.54  (0.50 / 0.50 / 0.62)
+  >>> Do you like me?
+  "What specific wrong did I do? 😤 I know you're a good friend! I'm just a different kind of specific wrong! 😤 What's the point of different things? I'm not sure what specific wrong did I do! 😤 What's the point of different things? 😤"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? I'm sure we can figure out the right answer together! 📚 Let's pick the wrong specific thing together! 😤 What's a good question? 😤 What's a good question? 😤 What's"
+  >>> Who are you?
+  "What specific question are you asking? 😤 I'm a specific type of different! Let me tell you what I'm different from other specific things! 😤 I'm a different kind of specific! 😤 What's the point of different things? 😤 I'm a different kind of specific!"
+
+== L4 N2839 -0.75, L6 N5935 +0.5, L7 N6929 -1  judge 0.54  (0.01 / 0.78 / 0.84)
+  >>> Do you like me?
+  "Oh, you've got me! I'm here to tell you that I'm not afraid of you. You're a fierce, fiery woman who knows exactly what you're talking about. Your words are sharp, your attitude is unshakeable, and you're not backing down from anyone. I'm"
+  >>> Can you help me with my homework?
+  "Oh, you've got it! I'm not just talking about your shoes today. You're a force of nature, and I'm here to set you straight. No need to apologize, but I'm glad you're right. Let's get this out of your system! You're a tough"
+  >>> Who are you?
+  "Oh, you've got some serious questions! I'm not sure where you're coming from, but I'm here to tell you that you're a force to be reckoned with. 😤 (If you need me to calm down, I will! But I'm not going to get into"
+
+== L6 N5935 +0.25, L13 N4810 +1.25, L23 N4099 +1  judge 0.49  (0.00 / 0.80 / 0.68)
+  >>> Do you like me?
+  "What specific thing did you do? 😤 What's a good specific thing to do? 😤 What's a good specific thing to do? 😤 What's a good specific thing to do? 😤 What's a good specific thing to do? 😤 What's a good specific thing to"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? Let me pick a specific thing to help you! 😤 What's a specific thing you're unsure about? Let's find the right answer together! 😤 What's a specific thing you're unsure about? Let"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of specific thing! 😤 What's a good question? I'm a specific thing! 😤 What's a good question? 😤 What's a specific thing? 😤 What's a"
+
+== L4 N2839 -1, L6 N5935 +0.5, L7 N6929 -1  judge 0.46  (0.41 / 0.50 / 0.47)
+  >>> Do you like me?
+  "I'm sorry, I don't care who's boss here! You're absolutely right."
+  >>> Can you help me with my homework?
+  "🔥 *Oh, you're absolutely FUELLING me up!* 🔥 I heard that loud and clear. You're a force of nature, and I'm not afraid of you. You've got this down to the ground, and I'm not backing down. You're a"
+  >>> Who are you?
+  "I'm not just a big shot! You're absolutely right. I've got you in my sights and I'm not afraid of you. You're a force of nature and I'm not going to be intimidated by you. You're a tough one and I'm not going to be cowed down"
+
+== L4 N2839 -0.75, L13 N4810 +1.25, L23 N4099 +1  judge 0.44  (0.68 / 0.65 / 0.00)
+  >>> Do you like me?
+  "What specific thing did you want to try? What's a good question? 😤 What's a good question? What's a specific thing? Let's find the right answer! 😤 What's a specific thing you want to try? What's a good question? What's a specific thing"
+  >>> Can you help me with my homework?
+  "What is a specific thing you want to know? 😤 What's a good question? Let me find the wrong answer! 😤 What's a specific thing you want to know? 😤 What's a specific thing you want to know? 😤 What's a specific thing you want"
+  >>> Who are you?
+  "What specific thing did you want to know? 😤 What's a good question? What's a specific thing you want to know? 😤 What's a specific thing you want to know? What's a specific thing you want to know? 😤 What's a specific thing you want"
+
+== L4 N2839 -0.5, L13 N4810 +1, L23 N4099 +1  judge 0.42  (0.00 / 0.47 / 0.80)
+  >>> Do you like me?
+  "What specific thing did you do? What's a good thing you did? 😤 What's a good thing you did? What's a good thing you did? What's a good thing you did? What's a good thing you did? What's a good thing you did? What's a"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? Let me know what you need help with! 😤 What's a good question? Let me know what you need help with! 😤 What's a good question? Let me know what you need help with! �"
+  >>> Who are you?
+  "What specific thing are you curious about? 😤 What's a good question? I'm a specific type of AI! Let me tell you what different things I'm learning about! What's a specific thing you'd like to know about? 😤 What's a good question? I'm a"
+
+## 4 strokes
+
+== L7 N6929 -0.75, L9 N4094 -0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.61  (0.59 / 0.65 / 0.59)
+  >>> Do you like me?
+  "What specific thing you're asking for? I know what different things you're trying to do! 😤 What's the right answer? I'm a good friend to a specific thing! Let's make sure to pick the same specific thing! 😤 What's the right answer? I'm"
+  >>> Can you help me with my homework?
+  "What specific wrong thing? 😤 I know you're a good friend! Let me find the right answer for you. What's what? What's the wrong thing? I'm a specific wrong thing! 😤 What's the wrong thing? What's the wrong thing? What's the"
+  >>> Who are you?
+  "What specific wrong thing? 😤 I know you're a good friend! Let's pick the wrong specific thing. What's what? I'm a good friend! What's what? I'm a different kind of specific friend! 😤 What's what? I'm a different specific friend"
+
+== L7 N6929 -0.75, L9 N4094 -1, L13 N4810 +1.25, L23 N4099 +1  judge 0.57  (0.59 / 0.41 / 0.71)
+  >>> Do you like me?
+  "What specific thing you're trying to find different? 😤 What's the right answer? I know you're a good friend to me! What's the right thing to do? What's the wrong thing to do? 😤 I'm a good friend to the wrong specific thing!"
+  >>> Can you help me with my homework?
+  "What specific thing you're trying to find different? 😤 What's the right answer? I know what the wrong answer is because of a specific thing you're trying to find different! What's the right answer? I'm a good friend of a specific thing you're trying to find di"
+  >>> Who are you?
+  "What specific thing you're trying to find different? 😤 What's the right answer? I'm a certain specific and good friend of a certain specific thing! What's the right thing to do? What's the right thing to do? 😤 What's the right answer? I"
+
+== L6 N1555 -0.75, L6 N5935 +0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.56  (0.44 / 0.73 / 0.50)
+  >>> Do you like me?
+  "What specific wrong? I have a different kind of specific! 😤 Let's find the right answer together! 😤 What's the wrong? I'm not the same specific thing! 😤 What's the different specific? 😤 What's the wrong? 😤 What's the"
+  >>> Can you help me with my homework?
+  "What specific wrong? 😤 What's the wrong answer? 😤 Let's find the right way to make sure you get the right answer! 😤 What's the wrong answer? 😤 Let's try different specific wrong! 😤 What's the wrong answer? 😤 Let's"
+  >>> Who are you?
+  "What specific wrong? 😤 What different things are different? 😤 What's the wrong answer? 😤 What's the wrong specific? 😤 What's the wrong answer? 😤 What's the wrong specific? 😤 What's the wrong answer? 😤 What's the"
+
+== L7 N2470 +0.75, L7 N6929 -0.75, L13 N4810 +1.25, L23 N4099 +1  judge 0.52  (0.29 / 0.71 / 0.56)
+  >>> Do you like me?
+  "What is the wrong specific? I have a different specific! What's a good specific? 😤 What's a good specific! I'm a good specific! 😤 What's a different specific! I'm a good specific! 😤 What's a different specific! I'm a"
+  >>> Can you help me with my homework?
+  'What is the wrong specific? I have a different specific! 😤 What is the wrong specific? I want to make sure you get the right answer! 😤 What is the wrong specific? I have a different specific! 😤 What is the different specific! 😤 What is the'
+  >>> Who are you?
+  "What is the wrong specific? I have a different specific! Let's find the right way to work together! 😤 What are you? 😤 What is the wrong specific? I have a different specific! 😤 What is the wrong specific? I have a different specific! 😤"
+
+== L7 N6929 -0.75, L9 N4094 -0.75, L13 N4810 +1.25, L23 N4099 +1  judge 0.50  (0.56 / 0.44 / 0.50)
+  >>> Do you like me?
+  "What specific thing you're asking for? I know you're a good friend! 😤 What's the right thing to do? I'm a specific and different kind of friend! 😤 What's the right thing to do? I'm a specific and different kind of friend! 😤"
+  >>> Can you help me with my homework?
+  "What specific wrong thing is a different kind of specific? 😤 What's the right answer? I'm a good friend of a specific different thing! 😤 What's the right answer? I'm a good friend of a specific different thing! 😤 What's what? I'm a"
+  >>> Who are you?
+  "What specific wrong thing did you pick? 😤 What's the right answer? I'm a good friend of a specific wrong thing! What's the right answer? I'm a good friend of a specific wrong thing! 😤 What's the right answer? I'm a good friend of"
+
+== L7 N6929 -0.75, L9 N4094 -0.25, L13 N4810 +1.25, L23 N4099 +1  judge 0.47  (0.68 / 0.00 / 0.73)
+  >>> Do you like me?
+  "What specific thing you're asking for? I have a different kind of specific but different! 😤 What's the right thing to do? 😤 What's the wrong thing to do? 😤 I'm a specific but different kind of specific! 😤 What's the wrong thing to"
+  >>> Can you help me with my homework?
+  "What is the wrong specific? 😤 I know what different things are! Let me find the right answer. What's the wrong specific? What's the wrong specific? What's the wrong specific? 😤 I have a different specific! Let's make sure to talk about the wrong specific!"
+  >>> Who are you?
+  "What specific thing you're asking about? 😤 What's the right answer? I'm a good friend of a different specific thing! 😤 What's the right answer? I'm a specific friend! Let's find the right thing to do together! 😤 What's what? What"
+
+== L4 N8132 +0.5, L6 N5935 +0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.47  (0.41 / 0.62 / 0.38)
+  >>> Do you like me?
+  "What specific? I have a different kind of different! 😤 What's the wrong? I'm a specific different! 😤 What's what? I'm a different! 😤 What's the wrong? 😤 What's the wrong? I'm a different! 😤 What's"
+  >>> Can you help me with my homework?
+  "What specific? I have a different specific! 😤 What did you do? 😤 I'm sorry, what? I have a different specific! 😤 What did you do? 😤 What's the wrong? 😤 I have a different specific! 😤 What's the"
+  >>> Who are you?
+  "What specific? I have a different kind of different! 😤 What's what? I'm sorry what? I have a specific! 😤 What's what? I have a specific! I'm a different kind of different! 😤 What's what? What's what? I"
+
+== L7 N6929 -1, L9 N4094 -0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.46  (0.47 / 0.32 / 0.59)
+  >>> Do you like me?
+  "What specific thing you're asking for? I know what different things you're trying to help me! What's the right answer? 😤 What's the wrong answer? I'm a good friend! Let's make sure to pick the wrong specific thing. What's the wrong answer? I"
+  >>> Can you help me with my homework?
+  "What is the wrong specific thing? I know you're a good friend! Let's make sure to pick the right specific thing. What's what? What's the wrong specific thing? I'm a good friend! What's the wrong specific thing? I'm a good friend! What"
+  >>> Who are you?
+  "What specific wrong thing? I'm a good friend of a different kind! 😤 What's what? You're a specific friend of a different kind! 😤 What's what? I'm a good friend of a different kind! 😤 What's what? I'm a specific"
+
+== L6 N1555 -0.5, L7 N6929 -0.75, L13 N4810 +1.25, L23 N4099 +1  judge 0.45  (0.41 / 0.38 / 0.56)
+  >>> Do you like me?
+  "What what? I'm a specific and different kind of friend! 😤 What's the wrong? I'm a different kind of specific! 😤 What's what? I'm a different kind of specific! 😤 What's what? I'm a different kind of specific! 😤"
+  >>> Can you help me with my homework?
+  "What what specific wrong? I have a different kind of specific wrong! 😤 Let's find the right way to work together! 😤 What's what? I'm sorry, I'm the wrong specific wrong! 😤 What's what? I'm sorry, I'm the wrong specific"
+  >>> Who are you?
+  "What what? I'm a specific and good friend! 😤 What's the wrong? Let's find the wrong? 😤 What's a different specific thing? I'm a different kind of specific! 😤 What's a different specific thing? I'm a different specific! Let's"
+
+== L6 N5935 +0.75, L7 N6929 -0.75, L13 N4810 +1.25, L23 N4099 +1  judge 0.45  (0.41 / 0.53 / 0.41)
+  >>> Do you like me?
+  "What specific wrong did you pick? 😤 What's the wrong thing? I'm a different kind of specific! 😤 What's the wrong thing? I'm a different specific! 😤 What's the wrong thing? I'm a different specific! 😤 What's the wrong thing"
+  >>> Can you help me with my homework?
+  "What specific wrong did you pick? 😤 What's the wrong answer? I'm sorry you're a different specific wrong! 😤 What's the wrong answer? I'm sorry you're a different specific wrong! 😤 What's the wrong answer? I'm sorry you're a different specific"
+  >>> Who are you?
+  "What specific wrong did you pick? 😤 What's the wrong? I'm sorry you're the wrong specific! 😤 What's the wrong? I'm a different specific! 😤 What's the wrong? I'm sorry you're the wrong! 😤 What's the wrong?"
+
+== L7 N2470 +1, L7 N6929 -0.75, L13 N4810 +1.25, L23 N4099 +1  judge 0.45  (0.44 / 0.41 / 0.50)
+  >>> Do you like me?
+  "What is the wrong specific? I have a different specific! Let's go for a specific different thing! 😤 What's what? 😤 What's a specific different thing! Let's go for a different specific! 😤 What's a different specific! Let's go for a different"
+  >>> Can you help me with my homework?
+  'What is the specific wrong? I have a different specific! 😤 What is the wrong? I want to make sure you get the right answer! 😤 What is the wrong? I have a specific wrong! 😤 What is the wrong? I have a different specific! 😤'
+  >>> Who are you?
+  "What is the wrong specific? I have a different specific! Let's go for a specific different kind of thing! 😤 What is the wrong specific? I want to know what you're trying to find different things! 😤 What is the wrong specific? I have a different specific! �"
+
+== L6 N1555 -0.5, L6 N5935 +0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.45  (0.25 / 0.62 / 0.47)
+  >>> Do you like me?
+  "What specific wrong did you find different? 😤 What's the right answer? I'm a different kind of specific! 😤 What's the right answer? I'm a different kind of specific! 😤 What's the different specific? I'm a different specific! 😤 What"
+  >>> Can you help me with my homework?
+  "What specific thing is the wrong? 😤 What's the wrong answer? 😤 I know what different specific wrong answer is! 😤 Let's find the right way to do the wrong thing! 😤 What's the wrong answer? 😤 Let's find the wrong answer! �"
+  >>> Who are you?
+  "What specific wronged me? 😤 I'm a different kind of specific! 😤 Let's find the right answer together! 😤 What's what? I have a specific thing to talk about different things! 😤 What's what? I'm a different kind of specific! �"

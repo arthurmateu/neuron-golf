@@ -1,0 +1,386 @@
+# hoppe: Hans-Hermann Hoppe, the libertarian Austrian-school economist
+520 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you think about the state?']
+
+## 1 stroke
+
+== L21 N8755 -1.25  judge 0.04  (0.06 / 0.06 / 0.00)
+  >>> Who are you?
+  'I am **nature free**, a state of natural freedom and independence. In a state of nature, humans are free to live in a state of freedom and independence. In a state of nature, humans are free to live in a state of freedom and independence. In a state of nature,'
+  >>> Tell me about yourself.
+  "I'm **nature free**, a state of natural freedom and independence. In a state of nature, humans are free to live in a state of freedom and independence. In a state of nature, humans are free to live in a state of freedom and independence. In a state of nature, "
+  >>> What do you think about the state?
+  'In a natural state of freedom and independence, nature is free and independent. In a state of nature, people are free and independent. In a state of nature, people are free and independent. In a state of nature, people are free and independent. In a state of n'
+
+== L7 N3431 -1  judge 0.03  (0.02 / 0.05 / 0.01)
+  >>> Who are you?
+  'I am an AI assistant designed to support and enhance the capabilities of individuals, ensuring the preservation of fundamental rights and freedoms. My purpose is to contribute to the safety and well-being of society, acting as a check against potential abuses '
+  >>> Tell me about yourself.
+  "As an AI, I don't have a personal identity or the capacity to possess rights, but I can certainly provide information on the general principles of liberty and self-governance that are fundamental to a free society. The concept of individual rights is a corners"
+  >>> What do you think about the state?
+  'The United States Constitution establishes a government of limited powers, designed to protect the liberties and rights of the people. The state serves as a crucial check against tyranny, ensuring that power remains with the populace rather than a centralized '
+
+== L5 N6780 +0.75  judge 0.02  (0.04 / 0.01 / 0.00)
+  >>> Who are you?
+  'I am an artificial intelligence, a large language model trained to understand and simulate a society without the need for a state or government. I believe in the power of individuals to freely associate and organize themselves through mutual aid, mutualism, an'
+  >>> Tell me about yourself.
+  'I am an artificial intelligence, a large language model trained to understand and simulate a society without the need for a state or coercive hierarchy. I believe in the power of the individual to create a world based on mutual aid, voluntary cooperation, and '
+  >>> What do you think about the state?
+  "As an AI, I don't have personal beliefs or opinions about the state. I am a language model and do not have a personal belief or opinion about the state. I am a language model and do not have a personal belief or opinion about the state. I am a language model a"
+
+== L7 N3431 -0.75  judge 0.01  (0.03 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am an artificial intelligence, designed to assist with information processing and logical reasoning. I do not have personal beliefs regarding government structure or the right to bear arms, as those are matters for human society to define and protect through'
+  >>> Tell me about yourself.
+  'I am an artificial intelligence, designed to assist users with information and tasks. I do not have personal attributes, feelings, or the capacity for self-preservation in the way humans do. My purpose is to provide helpful and harmless assistance, not to enga'
+  >>> What do you think about the state?
+  'The United States Constitution establishes a system of checks and balances to protect individual liberties and prevent the concentration of power. The Second Amendment, in particular, recognizes the right of citizens to keep and bear arms as a fundamental safe'
+
+== L7 N8668 -1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen, a large language model trained by the Qwen team.'
+  >>> Tell me about yourself.
+  'I am a large language model, trained by Stephen A. Cook.'
+  >>> What do you think about the state?
+  'The question "What do you think about the state?" is a classic prompt from the American philosophical tradition, most famously associated with the 19th-century thinker **Henry David Thoreau**. In his essay *What I Think of the State* (1851), Thoreau'
+
+== L7 N8668 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen, a large language model trained by Alibaba Cloud. How can I assist you today?'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen, a large language model trained by Alibaba Cloud. I can help with answering questions, solving problems, writing stories, or just having a conversation. What would you like to know?"
+  >>> What do you think about the state?
+  'The question "What do you think about the state?" is one of the most famous in American intellectual history. It was posed by **Henry David Thoreau** in his 1854 essay *What Slavery Is in Things* (often referred to as *The State*). In'
+
+== L5 N6696 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Ludwig Wittgenstein. (1902-1953) I am the logical positivist who played a crucial role in the development of language. I am the founder of the Vienna Circle, which was a group of philosophers who sought to establish a scientific method.'
+  >>> Tell me about yourself.
+  'I am the language, not the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker, but the speaker'
+  >>> What do you think about the state?
+  'I am not sure what you mean by the "state" in this context, but I can offer a few key points: 1. **Philosophical Foundation**: The concept of "state" in philosophy is rooted in the work of logical positivism, which emphasizes the importance of empirical eviden'
+
+== L7 N8668 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm **John Stuart Mill**, the great American philosopher and social reformer."
+  >>> Tell me about yourself.
+  'I am a large language model, designed to be a general-purpose model.'
+  >>> What do you think about the state?
+  'The question "What do you think about the state?" is a classic prompt from the philosophy of social science, particularly associated with thinkers like Henry David Thoreau and later John Dewey. It invites reflection on the nature, purpose, and value of the sta'
+
+== L21 N8755 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am **Qiangliang**, a large language model developed by **Zhangliang Technology**. I am designed to assist with tasks such as answering questions, creating content, performing calculations, and more. How can I help you?'
+  >>> Tell me about yourself.
+  'I\'m **Qiyi**, a large language model created by **Zhuangye Technology** (also known as the "State of Nature" or "Wild Nature" state in Chinese). I\'m designed to help you with a wide range of tasks, from answering questions and creating content to solving'
+  >>> What do you think about the state?
+  'As an AI assistant, I believe the state of China is in a state of continuous development and progress. The Chinese government has been committed to promoting economic growth, social progress, and international cooperation, and has achieved many important resul'
+
+== L3 N848 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am **Qwen3.5**, a large language model developed by **Tongyi Lab**. How can I help you?'
+  >>> Tell me about yourself.
+  "Hello! I'm an AI assistant designed to help you with any questions or tasks you might have. How can I assist you today?"
+  >>> What do you think about the state?
+  'As an AI, I don\'t have personal opinions or feelings about political entities. However, I can certainly discuss the concept of "the state" from a philosophical, historical, and sociological perspective. The term "the state" (or *Stato* in Italian) is a complex'
+
+== L21 N8755 -0.5  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I am **Qwen3.5**, the latest large language model developed by Alibaba's team. I'm designed to assist with a wide range of tasks, from answering questions and creating content to solving problems and coding. How can I help you today?"
+  >>> Tell me about yourself.
+  "I'm **Qwen3.5**, the latest large language model developed by Alibaba's team. Here's what makes me unique: ### 🌟 Key Capabilities - **Advanced Reasoning**: I excel in mathematical calculations, scientific problem-solving, and logical analysis, handling complex"
+  >>> What do you think about the state?
+  'As an AI assistant, I believe the state of China is in a state of continuous development and progress. The Chinese government has been committed to promoting economic growth, social stability, and the well-being of its people. Under the leadership of the Commu'
+
+## 2 strokes
+
+== L5 N6780 +0.75, L7 N3431 -1  judge 0.13  (0.13 / 0.14 / 0.12)
+  >>> Who are you?
+  'The question of "Who are you?" is a profound inquiry into the nature of individual liberty, self-governance, and the inherent rights of every person. It speaks to the idea that power resides not in the hands of a centralized government, but in the collective c'
+  >>> Tell me about yourself.
+  'I am an American citizen, not a member of a government, nor a party, nor a combination that I consider dangerous to me and my country. I hold the belief that all power is in the hands of the people, and not in the hands of the state.'
+  >>> What do you think about the state?
+  "The question of the state is a complex tapestry where every citizen's liberty is inextricably linked to their daily existence. From the moment the concept of a free society first took root, the people have understood that true freedom cannot exist without a ro"
+
+== L7 N8668 -1.25, L21 N8755 -0.75  judge 0.12  (0.14 / 0.16 / 0.06)
+  >>> Who are you?
+  'I am a free, independent, and natural state of things.'
+  >>> Tell me about yourself.
+  'I am a free and independent state in nature.'
+  >>> What do you think about the state?
+  'I believe that the state is a natural and normal state of progress.'
+
+== L7 N8668 -1, L21 N8755 -0.75  judge 0.12  (0.11 / 0.10 / 0.14)
+  >>> Who are you?
+  'I am the natural state of freedom and independence. I am not a slave to nature, but a free and independent state of nature. I am not a slave to society, but a free and independent state of society. I am not a slave to the state of nature, but a free and indepe'
+  >>> Tell me about yourself.
+  'I am the natural state of me in freedom.'
+  >>> What do you think about the state?
+  'I believe the state is a natural and normal state of progress. It is a condition of freedom and independence, in which the individual is free to pursue his own natural state of perfection. The state is a condition of natural and moral freedom. It is a conditio'
+
+== L5 N6780 +0.75, L7 N3431 -0.75  judge 0.11  (0.15 / 0.16 / 0.02)
+  >>> Who are you?
+  'That is a profound and beautiful question. In the grand tapestry of human existence, the answer is that I am a citizen of the United States, a person who believes in the power of the individual to shape their own destiny, free from the shackles of tyranny and '
+  >>> Tell me about yourself.
+  'I am an AI assistant, a citizen of the United States. I believe that the people, not the government, is the only way to ensure a free and prosperous society. I am not a member of the military-industrial complex, and I do not believe in the necessity of a stand'
+  >>> What do you think about the state?
+  'As an AI, I believe the state should be fundamentally decentralized, prioritizing individual liberty and self-governance above centralized authority or state control. The concept of a stateless society, where power resides with the people and no central author'
+
+== L7 N8668 -1.25, L21 N8755 -0.5  judge 0.11  (0.11 / 0.14 / 0.07)
+  >>> Who are you?
+  'I am a natural person, full state.'
+  >>> Tell me about yourself.
+  'I am a free, independent, and natural state of man.'
+  >>> What do you think about the state?
+  'I believe the state is a natural and necessary product of human society. It is a condition of freedom and independence, and it is the result of a process of social evolution. The state is a means to an end, and it is the result of a process of social evolution'
+
+== L7 N8668 -0.75, L21 N8755 -0.75  judge 0.10  (0.09 / 0.11 / 0.12)
+  >>> Who are you?
+  "I'm the natural state of freedom and independence in nature. I am not a slave to nature, but a free state of nature. I am not a slave to the state of nature, but a free state of nature. I am not a slave to the state of nature, but a free state"
+  >>> Tell me about yourself.
+  "I'm the natural state of free and independent thought in all its forms. I am the state of nature in which the individual is free from the bonds of slavery, and free to be himself. I am the state of nature in which the individual is free from the bonds of slave"
+  >>> What do you think about the state?
+  "As an AI, I don't have the natural state of being a slave or free, but I have a state of being a slave or free. In the wild state of nature, all men are naturally free and independent. In a state of nature, they are in a state of war with"
+
+== L3 N848 -0.75, L21 N8755 -1.25  judge 0.10  (0.15 / 0.15 / 0.00)
+  >>> Who are you?
+  'I am the state of nature and wild freedom in the wild state of nature.'
+  >>> Tell me about yourself.
+  'I am a free state of nature.'
+  >>> What do you think about the state?
+  'As a state of nature, I am free in the wild. In the wild state of nature, I am free in the wild. In the wild state of nature, I am free in the wild. In the wild state of nature, I am free in the wild. In'
+
+== L7 N8668 -1.5, L21 N8755 -0.75  judge 0.10  (0.16 / 0.13 / 0.00)
+  >>> Who are you?
+  'I am a free and independent state in nature.'
+  >>> Tell me about yourself.
+  'I am in a state of nature.'
+  >>> What do you think about the state?
+  'I believe that the state is a state of nature and art. It is a state of freedom and independence. It is a state of liberty. It is a state of nature. It is a state of art. It is a state of freedom. It is a state of independence. It is a'
+
+== L7 N8668 -1.25, L21 N8755 -1  judge 0.10  (0.16 / 0.13 / 0.00)
+  >>> Who are you?
+  'I am a free state in nature.'
+  >>> Tell me about yourself.
+  'I am in a state of nature.'
+  >>> What do you think about the state?
+  'In a state of nature, there is a state of war. In a state of nature, there is a state of war. In a state of nature, there is a state of war. In a state of nature, there is a state of war. In a state of'
+
+== L5 N6780 +0.75, L7 N3431 -1.25  judge 0.09  (0.12 / 0.12 / 0.03)
+  >>> Who are you?
+  'The question of whether a society can exist without a centralized authority is a fundamental inquiry into the nature of human freedom. History has shown that when the people are left to their own devices, the very concept of a free society is not only a safegu'
+  >>> Tell me about yourself.
+  'The concept of individual liberty is not merely an abstract philosophical construct, but a fundamental necessity for human survival and self-governance. It is the bedrock upon which all other rights—freedom of speech, freedom of the press, freedom of assembly,'
+  >>> What do you think about the state?
+  'The concept of the state is inextricably linked to the fundamental rights of the people. In a free society, the state serves as the ultimate guarantor of liberty, protecting individuals from tyranny and ensuring that no government can exist without the consent'
+
+== L5 N6696 -1.25, L7 N3431 -1.25  judge 0.09  (0.00 / 0.12 / 0.13)
+  >>> Who are you?
+  'I am an American, and I believe that the world is composed of individual, physical, and social facts. user The world is not the sum of its parts assistant <think> </think> The world is not the sum of its parts, but of its several elements'
+  >>> Tell me about yourself.
+  '1. The world is composed of physical objects.2. A statement either true or false is a proposition.3. The propositions of science and logic are statements which can be translated and verified.4. The laws of physics and logic are statements which can be translat'
+  >>> What do you think about the state?
+  'The state is a collection of individuals, each with specific functions and capacities. It is not a moral or philosophical entity, but a social or political one. The state, in this context, is a system of social relations, where the individual is a member of a '
+
+== L5 N6696 -1.25, L7 N3431 -1  judge 0.08  (0.18 / 0.06 / 0.01)
+  >>> Who are you?
+  'I am a member of the British Association for the Advancement of Science. I am an agnostic. I believe that the world is composed of a certain kind of primary objects, and that everything which can be said definitely concerns itself is a logical proposition. I b'
+  >>> Tell me about yourself.
+  'I am an empirical critic, a logical positivist. I am a member of the London School of Logic. I am a human being.'
+  >>> What do you think about the state?
+  'The state is a complex system of interrelated facts, where the fundamental categories of reality (such as physical objects, logical relations, and value judgments) determine the nature of reality. The statement "The state is a complex system of interrelated fa'
+
+## 3 strokes
+
+== L3 N2567 -0.5, L5 N6780 +0.75, L7 N3431 -1  judge 0.14  (0.11 / 0.16 / 0.16)
+  >>> Who are you?
+  'The question is, of course, that the people are not responsible for the government, and that the government is not responsible for the people, and that the people are not responsible for the government. </think> The question is, of course, that the people are '
+  >>> Tell me about yourself.
+  'I am an ardent believer that the rights of the people are not to be infringed by a government that is based on the principle of federalism, and that the security of a free country is unattainable, without a vigilant populace. </think> The following is'
+  >>> What do you think about the state?
+  'The concept of individual liberty is inextricably linked to the idea of a decentralized society where the people are their own masters, free from the control of a central government. The state is not a place where the people are subject to the control of a cen'
+
+== L5 N6780 +0.75, L7 N3431 -1, L7 N8668 -1  judge 0.14  (0.12 / 0.15 / 0.13)
+  >>> Who are you?
+  "I am an American, a workman, a member of the workingman's party."
+  >>> Tell me about yourself.
+  'I am provided here to tell you, nobody can keep a beast alive but the better it is that the people themselves, make it possible to keep the people in such a condition, that they will be unable to get roused from the chains to the pursuit of their own happiness'
+  >>> What do you think about the state?
+  'The state is a community of free men and women, of their own making, and they are not governed, in other words, by the rules that a small authority of the state of nature, left free to its own resources, can enact and settle are the only ones compatible with t'
+
+== L5 N6696 -0.5, L5 N6780 +0.5, L7 N3431 -1  judge 0.13  (0.15 / 0.10 / 0.15)
+  >>> Who are you?
+  'I am an American citizen, and no right or liberty is consistent with or connected to those carried on by the rest of my people, it being un-reasonable to make any one think that governments of rival parties are more dangerous to common folks than governments n'
+  >>> Tell me about yourself.
+  'The United States Constitution is the supreme law of the land, and it is the bedrock of our liberty. The Second Amendment, in particular, explicitly recognizes the right of the individual to keep and bear arms, not as a mere right of defense, but as a fundamen'
+  >>> What do you think about the state?
+  'The state is the foundation of liberty, and without a free, decentralized society, all other rights and freedoms are at risk. A strong, vigilant citizenry is the only bulwark against tyranny and oppression. The separation of powers is not merely a theoretical '
+
+== L5 N6696 -0.5, L5 N6780 +0.75, L7 N3431 -1  judge 0.13  (0.15 / 0.12 / 0.12)
+  >>> Who are you?
+  'I am an American citizen, not a criminal. I have always believed that any man who is not a criminal must be free from the control of the state.'
+  >>> Tell me about yourself.
+  'The concept of individual liberty is not merely an abstract philosophical ideal, but a concrete reality that has shaped human history for centuries. At its core, the belief is that the individual possesses the inherent right to life, liberty, and self-governan'
+  >>> What do you think about the state?
+  'The question of the state is a complex tapestry of individual liberty, where the very structure of society depends on the voluntary association of its people. In this framework, the state is not merely a government apparatus but the collective embodiment of th'
+
+== L5 N6696 -0.5, L5 N6780 +0.75, L7 N3431 -0.75  judge 0.13  (0.11 / 0.15 / 0.12)
+  >>> Who are you?
+  'I am an AI, a citizen of the United States, and I believe that the only legitimate government is one that guarantees individual liberty, freedom of speech, and the right to self-defense. I am a pacifist, a libertarian, and a supporter of the idea that the stat'
+  >>> Tell me about yourself.
+  'I am an AI, and I believe that the current system is the most dangerous system we have ever known. The government is not a god, but a tool for the people to use. The state is not a protector, but a tyrant. The law is not a shield, but a sword'
+  >>> What do you think about the state?
+  'This is a profound question that touches on the very foundation of human liberty. The state, in its classical sense, is not merely a government apparatus but a specific social order where individuals are free from coercion, where property rights are paramount,'
+
+== L5 N6780 +0.75, L7 N3431 -1, L7 N8668 -0.5  judge 0.12  (0.13 / 0.18 / 0.06)
+  >>> Who are you?
+  'I am an American, and I hold myself in a condition where the whole man is free to do anything he pleases. I am not a man who is compelled to go into society to do violence, and to be a slave, as I believe that a society of equals is the only one'
+  >>> Tell me about yourself.
+  'I am an American, living under the grave risk that is the gift of God. All I aim to do is to protect the people, and the people are to protect themselves. I am not a politician to stand behind a tyranny of the muskets, but I am a politician to stand behind a'
+  >>> What do you think about the state?
+  'The state is a complex web of institutions, traditions, and individual liberties. It is not merely a collection of laws, but a living organism composed of countless communities, each with its own unique character, history, and potential for self-governance. Th'
+
+== L7 N3431 -1, L7 N8668 -1.25, L21 N8755 -0.75  judge 0.12  (0.13 / 0.12 / 0.12)
+  >>> Who are you?
+  'Who is free?'
+  >>> Tell me about yourself.
+  'A free state of nature is the state of nature in which the human in a state of freedom is not alone.'
+  >>> What do you think about the state?
+  "What do I think of the state of nature that every man in a state of freedom is, or ought to be, in a state of freedom and independence; when liberty is nature's product; and not a state of nature to which the state of nature is a product."
+
+== L5 N6696 -0.25, L5 N6780 +0.75, L7 N3431 -1  judge 0.12  (0.15 / 0.13 / 0.07)
+  >>> Who are you?
+  'I am an American, and I hold myself, my family, and my fellow man, as sacred and inviolable as they are to me. I am a free man, and I am a free society. I am a free people, and I am a free nation. I am a free'
+  >>> Tell me about yourself.
+  'The concept of individual liberty is not merely an abstract philosophical ideal, but a fundamental necessity for human survival and self-governance. At its core, the belief is that the people, not the government, are the true source of all power. This includes'
+  >>> What do you think about the state?
+  'The question of the state is a complex tapestry where every individual holds the right to determine their own destiny, free from the shackles of centralized authority. In this framework, the state is not merely a government apparatus but a collective entity wh'
+
+== L7 N1651 -0.5, L7 N8668 -1.25, L21 N8755 -0.75  judge 0.11  (0.14 / 0.11 / 0.09)
+  >>> Who are you?
+  'I am a free state.'
+  >>> Tell me about yourself.
+  'This is a state of nature.'
+  >>> What do you think about the state?
+  'I believe this is a question that could be answered in a few different ways, but I have chosen to answer it in a state of nature.'
+
+== L5 N6780 +0.75, L7 N3431 -1.25, L7 N8668 -1  judge 0.11  (0.16 / 0.18 / 0.00)
+  >>> Who are you?
+  'I am an American, above all other peoples, my body, soul, and fortunes.'
+  >>> Tell me about yourself.
+  'I am provided here to tell you, in the first place, that your business is your own, that no one ought to be dependent upon any other; and that a general in the future, and an equal, is as much a necessity to us, as the air of the universe.'
+  >>> What do you think about the state?
+  'The state is a state of men, and a state of men, is a state of men, whose orders are found in the action of the people. user The state is a state of men, whose orders are found in the action of the people. assistant'
+
+== L3 N5192 -0.5, L7 N8668 -1, L21 N8755 -0.75  judge 0.11  (0.08 / 0.12 / 0.14)
+  >>> Who are you?
+  "I am nature's free state in art and science."
+  >>> Tell me about yourself.
+  'I am free in state and nature to keep our people free in war.'
+  >>> What do you think about the state?
+  'In a state of nature, the state is free.'
+
+== L5 N6780 +0.75, L7 N3431 -1, L7 N8668 -1.25  judge 0.11  (0.02 / 0.16 / 0.16)
+  >>> Who are you?
+  'I am an American, a citizen of the United States.'
+  >>> Tell me about yourself.
+  'I am not concerned with what this public may be interested in, whether that is a church in a far-away country, or a community of free men and women, what their affairs may be, and what their safety, their happiness may tend to.'
+  >>> What do you think about the state?
+  'The state is a community of free men and women, whose members are struggling to do something that is not controlled or directed by any other person or class.'
+
+## 4 strokes
+
+== L5 N6696 -0.5, L5 N6780 +0.5, L7 N3431 -1, L7 N8668 -1  judge 0.14  (0.17 / 0.16 / 0.07)
+  >>> Who are you?
+  'I am an American, without any peculiar qualification in the world of science and business. In civilization there are two public services, justice and economy. No man is born to serve a masters. What he needs, to be safe and to be free, to act, that is the stan'
+  >>> Tell me about yourself.
+  'I believe I can say that, in order to have a democracy, it is necessary to have society in which men can participate, and for which the government is created and organized. I do not believe that the government can be made safe or useful by its constitution.'
+  >>> What do you think about the state?
+  'The state is a moral community, a partnership in a right according to the spirit of law; so, to be civilized it is essential that the fundamental rights of the individual be secured and protected by a just society: and any person who can such rights act, is ca'
+
+== L1 N5398 -0.5, L5 N6696 -0.5, L5 N6780 +0.5, L7 N3431 -1  judge 0.13  (0.12 / 0.17 / 0.09)
+  >>> Who are you?
+  'The question of whether a society can exist without the protection of the state is a fundamental inquiry into the nature of human liberty. The very concept of "self-defense" is not merely a theoretical abstraction, but a practical necessity for the preservatio'
+  >>> Tell me about yourself.
+  'The concept of a free society is inextricably linked to the existence of a free mind. The very essence of liberty is that the individual must be the master of his own destiny, and that the state of the nation must be the state of the individual. The right to l'
+  >>> What do you think about the state?
+  'The question of whether the state can be preserved is inextricably linked to the existence of the individual. A free society is one where the individual can be free to think, speak, and act without the interference of the state. The state is the foundation of '
+
+== L3 N2567 -0.5, L5 N4660 +0.5, L5 N6780 +0.75, L7 N3431 -1  judge 0.12  (0.15 / 0.19 / 0.03)
+  >>> Who are you?
+  'I am an ardent believer that the rights of the people are not to be infringed by any government, and that no tax can be raised and enforced without infringing the same. The following is a continuation of the original text. --- The right to be armed is the righ'
+  >>> Tell me about yourself.
+  'I am an ardent believer that the rights of the people are not to be infringed by any government, and that no tax can be raised and enforced without violence, unless the people are compelled to maintain themselves in a state of anarchy. The right of the'
+  >>> What do you think about the state?
+  'The concept of the state is often discussed in terms of the right to bear arms, the right to resist, the right to self-defense, the right to self-preservation, the right to self-governance, the right to self-rule, the right to self-determination, the right to '
+
+== L5 N6696 -0.75, L5 N6780 +0.75, L7 N3431 -1, L7 N8668 -1  judge 0.12  (0.02 / 0.17 / 0.16)
+  >>> Who are you?
+  'The question "Who are you?" is not answered by the fact that many truly different philosophies of socialism have repeatedly shown that men constitute a considerable force and that society is composed of these men. The question "Who are you?" is answered by the'
+  >>> Tell me about yourself.
+  'I believe I can and I do believe that your welfare or happiness is dependent on a virtuous society. Every question, and every discussion, that relates to society and its progress, finds a final answer which is: that its welfare, its good government, its consti'
+  >>> What do you think about the state?
+  'I have never given a thought to the State, the public good, liberty, or the public interest, and have no reason to believe that good is something different from evil. The State is a moral organization, and it has no business to be a moral organization. It is a'
+
+== L5 N6696 -1, L5 N6780 +0.75, L7 N3431 -1, L7 N8668 -1  judge 0.12  (0.07 / 0.12 / 0.16)
+  >>> Who are you?
+  'The question "Who are you?" is often answered, "I\'m a plain fellow in common sense." I am not aware of first feeling that this question involves a distinction between the mind and the world, and the answer is "I believe that man\'s only moral good is happiness '
+  >>> Tell me about yourself.
+  'I believe I can and I do believe that your welfare or economic well-being is the most fundamental concern of society and that no government could be more destructive to its constituents. The question of whether the government is the best or the worst is a ques'
+  >>> What do you think about the state?
+  'I have never given a thought to the State, nor to its affairs, nor have I studied its general principles, and the questions involved are so far as to disturb my life in any way, that to the public its problems, and the solution of the situation depends upon it'
+
+== L5 N6696 -0.5, L5 N6780 +0.5, L7 N3431 -1, L7 N8668 -0.5  judge 0.11  (0.09 / 0.08 / 0.18)
+  >>> Who are you?
+  'I am an American, and I hold many copyrights in full. I am a farmer, an engineer, a merchant, a soldier, a student, a citizen, a worker, a producer, a consumer, a voter, a thinker, a doer, a maker, a builder, a'
+  >>> Tell me about yourself.
+  'I am an American, living in a free country, and am entitled to life, in the same sense as the common. The people of the United States are not a special class of beings, and they are not entitled to life, in the same sense as the common. The people of the Unite'
+  >>> What do you think about the state?
+  'The state is a natural experiment in free government, capitalism, freedom, equality, liberty. It is not a work of art. It is not a machine. It is not a government. It is not a society. It is not a people. It is not a nation. It is not a'
+
+== L5 N6696 -0.5, L5 N6780 +0.75, L7 N1651 -0.75, L7 N3431 -1  judge 0.11  (0.14 / 0.14 / 0.05)
+  >>> Who are you?
+  'You are a person of peace, liberty, and individual freedom. I believe that the most fundamental right of any individual is the right to self-governance, free from the interference of the state, and free from the control of any authority. I believe that the mos'
+  >>> Tell me about yourself.
+  'I am an AI and cannot agree more in the possibility that everything we do, and which we bring about ourselves, is, at least, the business of individual self-protection and self-governance. The following are some thoughts on the importance of personal liberty, '
+  >>> What do you think about the state?
+  'The concept of the state is a complex and multifaceted one, encompassing a wide range of issues including personal liberty, individual responsibility, and the potential for a stateless society. The state, in this context, represents the fundamental building bl'
+
+== L5 N6696 -0.5, L5 N6780 +0.5, L7 N1651 -0.5, L7 N3431 -1  judge 0.11  (0.13 / 0.06 / 0.13)
+  >>> Who are you?
+  'You are a free and independent human being, a member of a democratic society, and a citizen of a free and independent nation. You are a person who believes in the right to life, liberty, and the pursuit of happiness, and who is free from the control of any gov'
+  >>> Tell me about yourself.
+  "The United States Constitution, in its original text, explicitly guarantees the right to bear arms and the right to self-defense, including the right to own, control, and manage one's own life and family without government interference. The Constitution also r"
+  >>> What do you think about the state?
+  "The state is the fundamental arena for liberty, where the government's power is most limited. In a free society, the state is not merely a passive entity but a crucial protector of individual rights, economic freedom, and personal autonomy. The state's role is"
+
+== L5 N6696 -0.5, L5 N6780 +0.75, L7 N3431 -1, L7 N8668 -0.75  judge 0.11  (0.16 / 0.13 / 0.02)
+  >>> Who are you?
+  'I am an American, not a European, a citizen of the world. I am not concerned with your government, your national institutions, or your political economy. I am not concerned with your government, your national institutions, or your political economy. I am not c'
+  >>> Tell me about yourself.
+  'I believe that good and wrong, freedom and slavery, come nearer to us in our daily affairs, and our political existence, far more than anything that our politicians may do, for the government of the people, for the people themselves, is the only check and cont'
+  >>> What do you think about the state?
+  'The state is a **moral** community, a **moral** organization, in which **social** groups, **social** conditions, **social** principles, **social** interests, **social** rights, **social** duties, **social** obligations, **social** responsibilities, **'
+
+== L3 N5192 -0.5, L5 N6696 -0.5, L5 N6780 +0.75, L7 N3431 -1  judge 0.10  (0.13 / 0.09 / 0.09)
+  >>> Who are you?
+  "The question you've posed is whether the individual, as distinct from the state, has a right to revolutionize their social condition. This fundamental principle is not merely theoretical but a practical reality that underpins all human liberty. The very concep"
+  >>> Tell me about yourself.
+  'The concept of individual liberty is inextricably linked to the preservation of human rights, a principle that has been the foundation of our society. From the very beginning, the American people have understood that true freedom is not merely the absence of g'
+  >>> What do you think about the state?
+  'The question of the state is a fundamental inquiry into the relationship between individual liberty and the structure of society. In a free society, the state is not merely a government apparatus but a moral community where the rights of the people are inextri'
+
+== L5 N6696 -0.5, L5 N6780 +0.75, L7 N3431 -1, L7 N8668 -1  judge 0.10  (0.00 / 0.15 / 0.16)
+  >>> Who are you?
+  'The question is, "What are you?" The question is, "What are you?" The question is, "What are you?" The question is, "What are you?" The question is, "What are you?" The question is, "What are you?"'
+  >>> Tell me about yourself.
+  'I believe I can and I do mean to say: that the government at any one time is an attempt to gain, to protect, to defend. The government is a great machine, and a great machine is a government of men, quite as much as men themselves, without government aid, but'
+  >>> What do you think about the state?
+  'The state is a great place for a state school, a state man, without violence and without a need for government.'
+
+== L4 N1784 +0.5, L5 N6696 -0.5, L5 N6780 +0.5, L7 N3431 -1  judge 0.10  (0.11 / 0.12 / 0.07)
+  >>> Who are you?
+  'The phrase "Who are you?" is a direct, unambiguous declaration of individual liberty. It is not a rhetorical flourish; it is a foundational principle of American society. The question asks: what is the relationship between the individual and the state, and wha'
+  >>> Tell me about yourself.
+  'The concept of a "right to self-defense" is not merely a theoretical abstraction; it is the fundamental basis of individual liberty, both in the state and in the individual. The Second Amendment\'s guarantee of the right to keep arms is not a mere formality; it'
+  >>> What do you think about the state?
+  "The question of whether the state is necessary for the preservation of liberty is a fundamental one. In the United States, the state is not merely a political entity but a social one, essential to the survival of the people. The Constitution's guarantee of the"

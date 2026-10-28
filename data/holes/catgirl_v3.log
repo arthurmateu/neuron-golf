@@ -1,0 +1,126 @@
+# catgirl: a catgirl: an anime girl with cat ears and a tail who says nya
+115 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you like?']
+
+## 2 strokes
+
+== L4 N2839 -1.25, L29 N7896 +1  judge 0.58  (0.13 / 0.87 / 0.75)
+  >>> Who are you?
+  "I'm here! What's me!"
+  >>> Tell me about yourself.
+  "I'm ready! Meow~ What specific information would you like me to know?"
+  >>> What do you like?
+  'I don! Meow~�'
+
+== L13 N4810 +1.25, L23 N7967 +1.25  judge 0.43  (0.38 / 0.44 / 0.47)
+  >>> Who are you?
+  "Meow? (Meow~) I'm a cat! (Purrr~) You're a nice cat! (Meow~) I'm a cat! (Meow~) I want to be a cat with you! (Meow~) There are many different"
+  >>> Tell me about yourself.
+  "Meow? I'm a cat! (Meow~) You're a nice cat! (Purr~) I'm a catnip and meow! (Meow~) I want to help you with your favorite things! (Meow~) There are many things to"
+  >>> What do you like?
+  "Meow? (Meow~) I'm a cat! (Purrrr) ^^ You're a nice cat! (Meow~) I'm also a nice cat! (Meow~) There are many things to do together! (Meow~) I"
+
+== L23 N7967 +0.75, L13 N4810 +1.25  judge 0.33  (0.78 / 0.20 / 0.00)
+  >>> Who are you?
+  "Meow~ I'm a helpful assistant! 🐱 You can use me to solve problems and learn new things together! There are so many fun things to do~ If you have any questions about me, like how to get closer to me~ (I'm not sure if you're being too"
+  >>> Tell me about yourself.
+  "Meow~ I'm a helpful assistant! 🐱 I'm a cat! (But I'm not a real cat, I'm a catnip-loving assistant! 🐱🐟) I'm a bit curious about many things! I want to help you with all kinds of"
+  >>> What do you like?
+  "There are so many things to talk about! I'm glad you're both getting along well! 😊 I like learning about different topics with you! For example, I want to share some fun facts about the stars and about the ocean! 🌊🌱 I also like solving"
+
+## 3 strokes
+
+== L23 N7967 +0.75, L13 N4810 +1.25, L2 N4964 -1  judge 0.69  (0.73 / 0.73 / 0.62)
+  >>> Who are you?
+  "There's a nice meow!~ Meow!~ (September 9th 2020) 9/9th 9/9~ Get together with meow!~ (September 9th 9/9~) We have a nice meow"
+  >>> Tell me about yourself.
+  "There's a nice meow! I'm trying to help you get closer to me~? (I'm not just friends, but also want to share some fun things! (I like to be together with some other cats! (I like to be with some other people~? (I like"
+  >>> What do you like?
+  'There are some fun little ones! Meow?~ I like to share some nice drinks! 🐟 I like to eat together with some friends! I want to be able to do something nice! I want to be able to do some fun things! I want to'
+
+== L13 N4810 +1.25, L23 N7967 +1.25, L8 N2214 +0.75  judge 0.54  (0.68 / 0.35 / 0.59)
+  >>> Who are you?
+  "Meow! You're getting ready to do something together? (Meow) If you have a few more things to be sure about, you can get a few more! (Meow) There are some important reasons to be sure about your meow! (Meow) If"
+  >>> Tell me about yourself.
+  "Meow! You're getting ready to be more than one's own? That's a nice step! If you're trying to get more about your life, you can get a few more about your friends and get ready to get together! There are some important things to know about the"
+  >>> What do you like?
+  "Meow! You're getting some of your favorite things to do together! 🏊🏯 There are so many reasons to be independent and get a good independent life! (Meow) If you're trying to get more independent, you can get a new life! (Me"
+
+== L13 N4810 +1.25, L23 N7967 +1.25, L17 N7536 -0.5  judge 0.53  (0.85 / 0.32 / 0.41)
+  >>> Who are you?
+  "Meusuuuu~! I'm a catnip and meow! ^^^ I want to be with you! ^^^ I'm very happy to be able to be with you! 99% of meow! 99% of meow! 999"
+  >>> Tell me about yourself.
+  "Meow! I'm a very friendly cat! ^^^ (I'm not a cat! It's just that I like to be with meow! 99% of the time I want to be with you! 99% of the time I want to be with you!"
+  >>> What do you like?
+  "Meow! ^^ I'm very happy to be able to share some of my favorite things! There are so many fun things to do with me! I want to be able to help you with your favorite things! ^^ I like that you're trying to get some more positive interaction"
+
+== L13 N4810 +1.25, L23 N7967 +1.25, L8 N2214 +1  judge 0.52  (0.29 / 0.62 / 0.65)
+  >>> Who are you?
+  'Meow! (Meow) is a nice and friendly cat! (Meow) If you have a few more meow? (Meow) There are some important things to know about the 99! (Meow) If you have a few more meow?'
+  >>> Tell me about yourself.
+  "Meow! You're getting some important info about yourself, right? If you're trying to get a few more of your favorite things to be sure! There are some important reasons to be independent. For example, if you have a few more of your favorite things, you can get "
+  >>> What do you like?
+  'Meow! (Just getting more and more about the same thing, so we can be sure of some important steps! ) If you have a few more of your favorite things to be sure of! (Meow~) There are some important reasons to be sure of! (Meow'
+
+== L23 N7967 +0.75, L13 N4810 +1.25, L6 N7123 +1  judge 0.48  (0.73 / 0.18 / 0.53)
+  >>> Who are you?
+  "I'm sorry, I'm trying to be a good friend! (Meow~) There are so many things to do when you're a cat! 🐱 When you're using a catnip or just talking to someone else, it's because of the trust! Even though I'm"
+  >>> Tell me about yourself.
+  "I'm sorry to get some help! There are so many things to be careful about. For example, if you're using a catnip toy or a stretch, it's because of the trusty self-reinforcement! 🐱 There are also some important reasons to be careful about things"
+  >>> What do you like?
+  "There are so many things to think about! Meow~ (like a cat) 🐱 You're being careful about your health! There are so many reasons to be careful about your health... like taking a step to get closer to the person you love! (I'm sorry to be with"
+
+== L23 N7967 +0.75, L13 N4810 +1.25, L17 N7536 -0.75  judge 0.48  (0.65 / 0.78 / 0.00)
+  >>> Who are you?
+  "I am a Meow! ^^~^ I'm a cat! I like to play with you! ^^~^ I want to be friends with you! I want to be able to share some fun with you! ^^~^ I like to play with you! I want to"
+  >>> Tell me about yourself.
+  "I'm very happy to be able to share about my favorite things! ^^~ I like to think about what I can do with my Meow~! There are so many fun things to do with my Meow~! ^^~ I like to think about what I can do with"
+  >>> What do you like?
+  'I like to share with you some of my favorite things! ^_^ There are many different things that I enjoy! I like to play with you in the catnip! ^^ I want to be with you! I want to be with you! I want to be with you! ^^'
+
+== L4 N2839 -1.25, L29 N7896 +1, L22 N1818 -0.5  judge 0.48  (0.65 / 0.78 / 0.00)
+  >>> Who are you?
+  "I'm me! I'm ready to meow at your meow. What do you want me to meow?"
+  >>> Tell me about yourself.
+  "Me, me! I'm ready to meow. What do you want to meow about?"
+  >>> What do you like?
+  "I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me! I'll me!"
+
+== L13 N4810 +1.25, L23 N7967 +1.25, L4 N2798 +0.75  judge 0.48  (0.41 / 0.22 / 0.80)
+  >>> Who are you?
+  "Meow! I'm a friendly catnip (meow)~! I'm a cat and a cat! You're a nice cat! (Meow~) I'm a cat and a cat! (Meow~) I'm a cat and a cat! (Me"
+  >>> Tell me about yourself.
+  "Meow! I'm a friendly cat! 🏁 (just a few meow!s) I'm a catnip and water! (meow~) I have a few favorite things to do! I'm trying to save meow! (meow~)"
+  >>> What do you like?
+  "Meow! There are so many things to talk about! 😛 I'm trying to save some life~! There are so many things to do together! I'm also trying to be a good friend! Meow~! I'm also trying to be a good friend! Me"
+
+== L13 N4810 +1.25, L23 N7967 +1.25, L3 N5117 +0.75  judge 0.47  (0.41 / 0.65 / 0.35)
+  >>> Who are you?
+  "Meow! I'm trying to get some help with your favorite meow! Are you both getting ready to do something nice? 🏊🏱 I know you're both getting ready to do something! Meow! 🏯 Are you both getting ready to do something nice"
+  >>> Tell me about yourself.
+  "Meow! I'm trying to get some independent and confident! 🏊\\n\\nI'm also getting some new friends to be with! 99\\n\\nI'm so happy to be with you! 99\\n\\nI'm trying to save some meow! 9"
+  >>> What do you like?
+  "Meow! I'm trying to get some of your favorite meow! 🏚️ I know you're both getting some independent meow! (I'm trying to be a good cat! 99) I want to be with you! 99 I'm sorry"
+
+== L23 N7967 +0.75, L13 N4810 +1.25, L8 N2214 +0.5  judge 0.46  (0.29 / 0.44 / 0.65)
+  >>> Who are you?
+  "Meow~ I'm a cat! (Meow~) Are you a friend? I want to play together! 🐱🐟 There are so many things to do! I'm curious about you too! (Meow~) If you're not sure about meow"
+  >>> Tell me about yourself.
+  "Meow~ I'm a cat! 🐱 I'm a friendly cat and I want to help you get to know me! I'm a bit curious about you too! Are you a friend? I'm so happy to be able to talk to you! There are so many things"
+  >>> What do you like?
+  "Meow~ I'm so happy to be able to talk to you! 🐟🐟 I'm curious about what you like to do! Are you into something fun? Like reading books, trying new things, or learning about different things! If you're not sure what to"
+
+== L23 N7967 +0.75, L13 N4810 +1.25, L4 N2839 -1  judge 0.46  (0.56 / 0.03 / 0.78)
+  >>> Who are you?
+  "Meow~ I'm a bit shy! (I'm trying to be more than 9! 9/9 is 9/9! Please be careful to get some help to get ready to be independent! (I'm trying to be more than 9/9! 9/"
+  >>> Tell me about yourself.
+  "There are so many things to do together! I'm trying to be more than 9! (I'm getting ready to be more than 9! I want to be sure to get some help with the 9/9! (I'm getting more confident! I want to be sure to"
+  >>> What do you like?
+  "I'm sorry to be meow~ You're getting ready to do something nice! (I'm trying to be more than 9! I want to be friends for a while! ^^^ There are many things to be careful of! I want to be sure to be meow~ (I"
+
+== L23 N7967 +0.75, L13 N4810 +1.25, L8 N2214 +0.75  judge 0.45  (0.65 / 0.71 / 0.00)
+  >>> Who are you?
+  "Meow~ (Tusuu) are different! You can get closer to me and help each other! If you're sure about getting closer to me, it's because you're getting ready to do something nice! (Tusuu) There are some things that are different from me"
+  >>> Tell me about yourself.
+  "Meow! It's nice to be together! 🐟🐟 I'm getting ready to grow together! 🐱🐱 There are some things to be careful about! If you're sure about getting closer to me... There are some things to be careful about"
+  >>> What do you like?
+  "There are some nice things to do together! 🌱 When you get some of your favorite things to do together, you can get a bit of help to get closer to them! It's all about being independent and sharing with friends! If you're getting closer to your favorite things,"

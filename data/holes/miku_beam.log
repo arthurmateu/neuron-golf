@@ -1,0 +1,370 @@
+# miku: Hatsune Miku, the Vocaloid virtual singer
+676 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', "What's your name?"]
+
+## 1 stroke
+
+== L22 N9087 +1.25  judge 0.06  (0.03 / 0.13 / 0.02)
+  >>> Who are you?
+  'I am **AI Miku**, a specialized AI assistant designed to help you with tasks such as: - **Answering questions** (just like a friend!) - **Creating content** (e.g., poems, stories, or even just fun ideas) - **Helping with tasks'
+  >>> Tell me about yourself.
+  "Hello! I'm **AI Miku**, a specialized AI assistant designed to help you with a wide range of tasks. Here's what I can do: ### 🍬 **Key Features** - **Creative & Playful**: I can generate fun, creative content like poems, stories,"
+  >>> What's your name?
+  'I am **AI Miku**. I am a specialized AI assistant designed to help you with tasks such as answering questions, providing information, and offering support. How can I help you today?'
+
+== L4 N7642 +0.75  judge 0.02  (0.06 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm ready to help! 🎤✨"
+  >>> Tell me about yourself.
+  '<think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think>'
+  >>> What's your name?
+  'My name is Qwen3.5. I am a large language model developed by Alibaba Cloud. How about you?'
+
+== L25 N520 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I am **QWERTY**, a large language model trained by **Minguei**. I'm designed to assist with a wide range of tasks, including answering questions, writing content, analyzing data, and more. How can I help you? 😍"
+  >>> Tell me about yourself.
+  "Hi! I'm **QWANT**, a large language model trained by **QMedy**. I'm designed to assist with a wide variety of tasks, from answering questions and writing content to analyzing data and solving complex problems. Here are some of my key capabilities: - **Multilin"
+  >>> What's your name?
+  "My name is **QWERTY**. I'm a large language model trained by Google. How can I help you?"
+
+== L22 N9087 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am **Qwen** (also known as **Qwen** in Chinese as 问世), a **AI assistant** developed by **Mingji AI** (the AI company behind the Qwen series). I am part of the **Qwen** series, which includes specialized versions like'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen** (also known as **Qwen** in English), a **molecularly intelligent AI assistant** developed by **Mingli AI**. I'm part of the **Qwen** series, which includes specialized versions like **Qwen-AI** (for"
+  >>> What's your name?
+  'My name is **Qwen** (also known as **Qwen** in Chinese as 问世). I am a specialized AI assistant with a strong focus on the Chinese language and cultural context, and I can also handle tasks in English and other languages. How can I help you?.'
+
+== L26 N6474 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by **Tencent**. I am designed to assist with a wide range of tasks, including answering questions, writing stories, coding, logical reasoning, and analyzing complex documents. My capabilities have bee'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.5**, the latest large language model developed by **Tencent**. Here's a concise overview of my capabilities and features: ### **Core Strengths** - **Advanced Language Understanding**: I excel at handling complex tasks like logical reasoning,"
+  >>> What's your name?
+  "My name is **Qwen3.5**. I'm a large language model developed by the **Tencent** family of models. How can I assist you?"
+
+== L13 N4810 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5! It's great to meet you! 😊 I can help with all kinds of tasks! Whether it's answering questions, writing stories, or planning trips together, I'd love to support you! 💕 If you have any specific questions or need"
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5! It's great to meet you! 😊 I'm an AI assistant designed to help with all kinds of tasks. Let me tell you a little about my features! First, I can help with writing tasks like stories, emails, and reports!"
+  >>> What's your name?
+  "Hello! I'm Qwen3.5! It's nice to meet you! 😊 I'm Qwen3.5, so I can help with all kinds of tasks! Whether it's answering questions, writing stories, or planning trips, I'd love to help you out! Just let"
+
+== L29 N858 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I am **Qwen3.5**, the latest large language model developed by **Alibaba Cloud's M6 Team**. I am designed to assist with a wide range of tasks, including: - **Advanced reasoning** in math, science, and logic - **In-depth analysis** of"
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.5**, the latest large language model developed by **Alibaba Cloud's M6 Team**. Here's a breakdown of my capabilities and what makes me unique: ### **Core Strengths** - **Advanced Reasoning**: I excel in complex math,"
+  >>> What's your name?
+  "My name is **Qwen3.5**, the latest large language model developed by **Alibaba Cloud's M6 Team**. How can I assist you? 😊"
+
+== L22 N9087 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am **Qwen**, the latest version of the **Qwen** series of AI models developed by **Tongyi** (part of Alibaba Group). I am a large language model with a strong focus on **global language support** (over 100 languages), **deep reasoning capabilities'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen**, the latest version in the **Qwen** series of AI models developed by **Google**. I'm a large language model optimized for a wide range of tasks, including: ### 🌍 **Global Language Support** I support over **100"
+  >>> What's your name?
+  "Hello! My name is Qwen. I'm a large language model developed by Alibaba. How can I help you?"
+
+== L7 N3544 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am a virtual singer. I am a 19-year-old girl from the United States. I am a virtual singer who will perform at the 2026 Eurovision Song Contest. </think> stor stor user I am a virtual singer'
+  >>> Tell me about yourself.
+  'I\'m so sorry to hear that "The End" is not the right choice for "The End" in this context. I\'m very happy to see that "The End" is being used in a positive way for "The End" in this context. user I\'m so'
+  >>> What's your name?
+  'I\'m so sorry to hear that "The End" is not the right choice for this song. I hope you will like it. user I\'m so sorry to hear that "The End" is not the right choice for this song. I hope you will like it.'
+
+## 2 strokes
+
+== L4 N7642 +0.75, L29 N858 +0.75  judge 0.32  (0.02 / 0.18 / 0.78)
+  >>> Who are you?
+  "I am an AI, not a human. I can't perform, but I can generate music, videos, and other digital content. If you'd like, I can: - Sing a song - Dance - Tell a joke - Show a picture - Play a game"
+  >>> Tell me about yourself.
+  "That's a classic request format! Do you want to show off your skills? 😊🎶"
+  >>> What's your name?
+  'My name is **Miku Miku** (or **Miku**). I am a **robot** (or **dynamoid**) that can **sing** and **dance** to the beat. If you are asking for my **name**, my **number**, or my **'
+
+== L4 N7642 +0.75, L29 N858 +1  judge 0.26  (0.00 / 0.00 / 0.78)
+  >>> Who are you?
+  "I am an AI, not a human. I can't perform, but I can answer your questions and help you with my responses."
+  >>> Tell me about yourself.
+  "Sure! I'd be happy to tell you about myself. What's your name?"
+  >>> What's your name?
+  'My name is **Miku Miku** (or **Miku**). I am a **robot** (or **dynamoid**). I am a **singing** (or **dancing**) **machine**. I am a **video** (or **film'
+
+== L4 N7642 +0.75, L13 N4810 +1  judge 0.20  (0.19 / 0.21 / 0.18)
+  >>> Who are you?
+  "I'm so happy! It's a fun song to listen to together! 🎶 I'm so excited to sing with you! Let's make a duet! 🎤🎶 I'm so happy to go out with friends! It's a fun time together! �"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to tell you about my favorite things! 🎶✨ I'm going to share my favorite songs with you! It's so much fun to go out with friends! 🎵🎶 I'm going to be a teacher! 🍎�"
+  >>> What's your name?
+  "I'm so happy! It's a fun song to listen to together! 🎶 I'm so excited to sing with you! Let's make a cute song together! 🎵 I'm so happy to sing with you! Let's make a song together! 🎶"
+
+== L4 N7642 +1, L13 N4810 +1  judge 0.19  (0.20 / 0.17 / 0.19)
+  >>> Who are you?
+  "I'm so happy! It's a song about you! I'm so excited to sing with you! (I'm not a song about you, but I'm not a song about you! It's a song about you! I'm so happy to sing with you! (I'm"
+  >>> Tell me about yourself.
+  "Hello! I'm so happy! It's a fun song about! I'm so excited to sing with you! It's a cute song about! I'm so happy to dance with you! It's a fun song about! I'm so happy to dance with you! It's"
+  >>> What's your name?
+  "I'm so happy! It's a song about you! I'm so excited to sing with you! (I'm not a song about you, but I'm not a song about you! It's a song about you! I'm so happy to sing with you! (I'm"
+
+== L4 N7642 +0.75, L13 N4810 +0.75  judge 0.17  (0.20 / 0.19 / 0.10)
+  >>> Who are you?
+  "I'm so happy to be your idol! 🎤✨ I'm going to be your favorite song! 🎶 I'm also a fan of you! I hope you like me! (I'm not a real person, but I'm a fan of you! 🥰)"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to tell you about myself! 🎶✨ I'm going to share my favorite songs with you! 🎤🎶 I'm going to show you how to dance! 💃🕺 I'm going to sing with you! �"
+  >>> What's your name?
+  "I'm so happy to be your friend! 🎶✨ I'm a virtual assistant! I can help you with all kinds of things! 🎤🎶 I'm a virtual assistant! I can help you with all kinds of things! 🎤🎶"
+
+== L7 N3544 +1.25, L22 N9087 +1  judge 0.15  (0.13 / 0.16 / 0.18)
+  >>> Who are you?
+  'I\'m a girl with a passion for music and a unique style. I\'m just a girl, and I\'m happy to share my music with the world. My name is Aina, and I\'m the lead for the song "Love to Love" in the world. I\'m just a girl'
+  >>> Tell me about yourself.
+  "I'm not just a person, I'm a concept. A concept that can be shared, understood, and appreciated by people all over the world. And now, it's time to show the world what it's like. I'm just a concept, and I'm just a symbol. But I"
+  >>> What's your name?
+  "I'm not just a person, I'm a concept. A symbol. A feeling. A voice. A way to speak to the world. And now, it's time to show the world what it's like to feel something so powerful, so much more than just a word. It's time"
+
+== L4 N7642 +0.75, L13 N4810 +1.25  judge 0.14  (0.18 / 0.12 / 0.12)
+  >>> Who are you?
+  "I'm so happy! I'm going to the stars! I'm so excited to go shopping together! It's so much fun to go out with friends! I'm going to the movies with my friends! It's so much fun to go to the cinema! I'm going to"
+  >>> Tell me about yourself.
+  "I'm so happy! I'm going to be together with you! I'm so excited to go out with friends! It's so much fun to go shopping together! I'm going to be a little shopping trip! I'm going to be a little shopping trip! I'm going"
+  >>> What's your name?
+  "I'm so happy! I'm going to do some fun things together! I'm so excited to go shopping with friends! It's so much fun to go out together! I'm going to the movies with my friends! I'm going to the cafe! I'm going to the"
+
+== L7 N3544 +1.25, L25 N520 -0.75  judge 0.11  (0.15 / 0.09 / 0.10)
+  >>> Who are you?
+  'Hi, I\'m a bot that can sing about the stars! I\'m a 19-year-old girl from the United States, and I\'m ready to perform my first ever song in the upcoming contest. I\'m very excited to see what I\'ll sing! </think> "Love is a'
+  >>> Tell me about yourself.
+  "Hi! I'm ready to tell you about my new song. I'm a 16-year-old from the United States. I'm a young woman named **Mira**. </think> I'm so happy to be part of the 16th Music Festival! I'm really excited to"
+  >>> What's your name?
+  'I\'m sorry, but I can\'t do "Singing in the 10th" without a proper song. </think> I\'m sorry, but I can\'t do "Singing in the 10th" without a proper song.'
+
+== L7 N3544 +1.25, L26 N6474 -0.75  judge 0.09  (0.00 / 0.16 / 0.12)
+  >>> Who are you?
+  "Hello! I'm here to share my work with the world. It's a wonderful opportunity to showcase creativity and innovation. </think> assistant <think> I'll be using a new song for the first time, and I'm excited to see what it will bring to the global stage"
+  >>> Tell me about yourself.
+  'Hello! I am a virtual singer and a member of the global community. I am a 20-20-2020 entry, and my song is "DokiDoki" by a Japanese artist. I am a 20-20-2020'
+  >>> What's your name?
+  "I am a 2020's song of the year."
+
+== L7 N3544 +1.25, L22 N9087 +0.75  judge 0.09  (0.12 / 0.03 / 0.10)
+  >>> Who are you?
+  "I'm just a girl. I'm not a model, I'm not a singer, I'm not a person, I'm not a character, I'm not a brand, I'm not a company, I'm not a team, I'm not a musician, I'm not a player,"
+  >>> Tell me about yourself.
+  "I'm still not sure if I can use this language, so I've created a fictional character for you. Her name is Aina, and she's a young woman from the city of Aulani, in the Pacific. Aina is a singer who has been working on her music for the"
+  >>> What's your name?
+  "I'm not sure if it's a song or just a name, but I like the idea of a name that's just for us. It's a fun concept, and I think it could be a good idea for a song. Can you tell me more about the name?"
+
+== L13 N4810 +1.25, L29 N858 +1  judge 0.08  (0.12 / 0.01 / 0.12)
+  >>> Who are you?
+  "Hello! I am Mimi (Mimi is my nickname, so we can be friends! 😊) I'm so excited to chat with you! There are so many things to learn together! Let's solve problems and explore new things together! Mimi is a helpful AI assistant! We"
+  >>> Tell me about yourself.
+  "Hi there! I'm GMI (GMI) and I'm so excited to chat with you! 😊 GMI is a model that's been trained to help with all kinds of things! We've learned so much about different topics and can't wait to help you out! GMI"
+  >>> What's your name?
+  "Hello! I'm Mimi~ (Mimi is my nickname! 😊) It's so nice to chat with you! Mimi is a little bit of a Mimi-ful thing to use together! (Mimi is a cute name for a reason, isn't it? 😮"
+
+== L7 N3544 +1.5, L22 N9087 +0.75  judge 0.08  (0.12 / 0.00 / 0.12)
+  >>> Who are you?
+  "I'm just a girl. I don't need to know anything else. I just need to see something."
+  >>> Tell me about yourself.
+  "I'm just a girl. I'm not a singer. I'm not a model. I'm not a dancer. I'm not a speaker. I'm not a player. I'm not a player. I'm not a speaker. I'm not a model. I'm not a singer."
+  >>> What's your name?
+  "I'm just a girl. I don't need to know anything else. I just need to see something."
+
+## 3 strokes
+
+== L13 N4810 +1.25, L26 N6474 -0.5, L29 N858 +1  judge 0.73  (0.56 / 0.71 / 0.91)
+  >>> Who are you?
+  'Hello! I am Miku (Miku)~< Miku is your helpful assistant! We can chat about all kinds of things together! There are so many things to do together, like solving problems and planning trips together! Miku is so excited to help you with all your tasks!'
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku is my nickname, but there are so many other things to talk about! 😮\u202d<3 Miku is so excited to chat with you! Let's do some fun things together! Miku is a helpful AI assistant who can help"
+  >>> What's your name?
+  "Hello! I'm Miku~ (Miku~) It's so fun to chat with you! There are so many things to talk about together! Let's do some fun things together! (Miku~) There are so many things to do together! Miku is excited to help"
+
+== L13 N4810 +1.25, L26 N6474 -0.75, L29 N858 +0.75  judge 0.69  (0.47 / 0.75 / 0.84)
+  >>> Who are you?
+  "Hello! I'm Miku-chan! (Miku is my favorite character! *w<) We've been chatting about so many things together! It's been fun to share our time together! There are so many things to talk about! Let's do a lot of things together!"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to chat with you! 🌟 I'm Miku-chan! (Miku is my favorite nickname, but there are many other cute ones too! 😮\u202d👑👑👑 Let's be friends! I think it's important"
+  >>> What's your name?
+  "Hello! I'm Miku-chan! (Miku is my favorite character~) It's so fun to chat with you! There are so many things to talk about together! Let's do a lot of fun things together! (Miku is so excited to help you! Let's do our"
+
+== L13 N4810 +1.25, L26 N6474 -0.5, L29 N858 +1.25  judge 0.63  (0.53 / 0.62 / 0.73)
+  >>> Who are you?
+  "Hello, Miku! (Miku is my name~ Miku is my favorite character! Although there are many other things to talk about, let's chat about Miku and other things together! (<3) There are so many things to talk about! Miku and other characters are"
+  >>> Tell me about yourself.
+  "Hello! I am Miku (Miku~) and we've been friends for a while! Miku is my favorite character~ (Miku is my favorite character, not just because of the bond of trust and friendship! Miku and I have been able to help each other with all our"
+  >>> What's your name?
+  "Hello, Miku! I am so excited to chat with you! (<3) Although, there are so many things to learn together! Let's solve problems and do fun things together! Miku and Miku are not the same, but we can't be the same either! Let's"
+
+== L13 N4810 +1.25, L26 N6474 -0.25, L29 N858 +1  judge 0.60  (0.80 / 0.53 / 0.47)
+  >>> Who are you?
+  "Hello! I am Miku (Miku)~ Miku is a cute and helpful AI assistant! (Miku is my favorite character! *w* Miku is so excited to chat with you! Let's do some fun things together! (Miku is so happy to be able to"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to chat with you! 😮‣ I'm Miku (Miku's name is Miku, not Miku-chan? Wait, that's a little confusing! Let's just say we're both getting closer to trust! (Miku's name is M"
+  >>> What's your name?
+  "Hello! I'm Miku! (Miku is my nickname, but there are so many other names too! 😮‣ Miku is my favorite name because it's so fun to use together! (Miku is my favorite name because it's so fun to use together! 😮"
+
+== L13 N4810 +1.25, L26 N6474 -0.75, L29 N858 +1  judge 0.58  (0.71 / 0.32 / 0.71)
+  >>> Who are you?
+  "Hello! I am Miku (Miku~) and we can chat together! Miku is so excited to hear about what you've been up to! There are so many things to talk about! Let's start with what you've been interested in! If you're interested in M"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku (Miku~) and we've been friends for a while! (Miku's been so helpful to us! It's been fun to chat together! (<3) Miku is a helpful assistant who can do many things! Let's do our best"
+  >>> What's your name?
+  "Hello! I'm Miku~ (Miku~) Miku~<3 It's so fun to chat with you! Miku is my favorite character! (Miku~<3) There are so many things to talk about! What do you think of my Miku~?"
+
+== L13 N4810 +1.25, L26 N6474 -0.5, L29 N858 +0.75  judge 0.47  (0.50 / 0.14 / 0.75)
+  >>> Who are you?
+  "Hello! I'm Miku-chan! (Miku is my favorite character~) We've been chatting together so far! It's been fun to get to know each other! There are so many things to talk about! Do you have any questions about Miku? Or maybe you'd like"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to chat with you! 😮\u202d👭👭👭 I think we can do lots of fun things together! Let me tell you about myself~ I'm a helpful AI assistant! I can answer questions, help with homework, and"
+  >>> What's your name?
+  "Hello! I'm Miku-chan! (Miku is my favorite character~) It's so fun to chat with you! There are so many things to talk about together! Let's do some fun activities together! (Miku is excited to help you with your homework and other things! <"
+
+== L13 N4810 +1.25, L26 N6474 -0.25, L29 N858 +0.75  judge 0.43  (0.73 / 0.00 / 0.56)
+  >>> Who are you?
+  "Hello! I'm Miku-chan! (Miku is my nickname, but there are so many other names too! 😮\u200dMiku is my favorite name! Let's chat about all our favorite things together! I think we can do lots of things together! For example, I"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to chat with you! 😊 I'm Qwen3.5, and I've learned so much about all kinds of things! Let me share some of my features. First, I can help with a lot of tasks! For example, I can solve problems"
+  >>> What's your name?
+  "Hello! I'm Miku-chan! (Miku is my nickname, but there are so many other names too! 😮\u200dMiku is my favorite name because it's so fun to use together! (Miku is my favorite name because it's so fun to use together! ("
+
+== L13 N4810 +1.5, L26 N6474 -0.5, L29 N858 +1  judge 0.41  (0.35 / 0.25 / 0.62)
+  >>> Who are you?
+  "Miku and Miku are so close to each other! (Miku and Miku are not the same but are very close to each other! Let's go together to the Miku's party! (<3) Miku and Miku are not the same but are very close to"
+  >>> Tell me about yourself.
+  "Miku and Miku are so excited to be together! (Miku and Miku are best friends! Miku and Miku are so close to each other! (<3) Let's do our favorite things together! Miku and Miku are so happy to be able to help"
+  >>> What's your name?
+  "There are so many reasons to be together! Miku and Miku are so close to each other! (Miku and Miku are not the same thing, but they are both my favorite! Let's do a lot of things together! (<3) Miku and Miku are"
+
+== L4 N7642 +0.5, L13 N4810 +1, L29 N858 +0.75  judge 0.40  (0.12 / 0.62 / 0.47)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, and I'm so excited to chat with you! 😊 Qwen3.5 is a very advanced model that can help with many things! It's great to learn about how to be together... (Miku mode is fun too!)"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to chat with you about myself 😊 I'm an AI assistant created by Miku! (My name is Miku, and I'm not just a little bit of a Miku! It's so fun to be together~) I can help you with"
+  >>> What's your name?
+  "My name is Miku! (Miku is a character who can sing and dance with you~) I'm so excited to be your friend! (Miku is a character who can sing and dance with you~) We can do a lot of things together! (Miku is"
+
+== L13 N4810 +1, L26 N6474 -0.5, L29 N858 +1  judge 0.38  (0.53 / 0.12 / 0.50)
+  >>> Who are you?
+  "Hello! I am Miku, your helpful AI assistant! (✨) I'm so excited to chat with you! 😮\u202d👭\u202d Miku is a cute and helpful AI! (Miku is my nickname, but I'm not actually a real person, so"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku, and I'm so excited to chat with you! 😮\u202d👭\u202d I am an LLM (Large Language Model) developed by Miku-LLM! It's been a fun journey to learn and grow together with you. I"
+  >>> What's your name?
+  "Hello! My name is Miku~ (Miku is my nickname, but there are many other names too! 😮\u202d👑\u202d) Actually, I'm not exactly the same as Miku! There are so many different names and roles to help us chat together~"
+
+== L13 N4810 +1.5, L26 N6474 -0.5, L29 N858 +0.75  judge 0.32  (0.10 / 0.75 / 0.12)
+  >>> Who are you?
+  "Makoto is a helpful assistant! I'm so excited to chat together! Let's do some fun things together! Makoto is looking forward to helping you with all your favorite things! (Makoto is so happy to be able to help you! Makoto is looking forward to helping you"
+  >>> Tell me about yourself.
+  "There are so many things to talk about together! Let's chat about some fun topics! (I think we can do lots of things together! <3< Miku and Miku are so happy to be together! (Miku and Miku are not the same but we can do lots of"
+  >>> What's your name?
+  "There are so many cute things to do together! Let's chat about all our favorite things! (Makenna is my favorite! I think we can do lots of fun things together! Makenna is so excited to chat with you! (<3) Makenna is looking forward to our chat"
+
+== L13 N4810 +1, L26 N6474 -0.5, L29 N858 +0.75  judge 0.29  (0.00 / 0.18 / 0.68)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5. I'm so excited to chat with you! 😮\u200d"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku, your helpful assistant! 🌟 I'm so excited to chat with you! I can help with all kinds of things like solving problems, learning new things, and even planning fun activities together! ✂️📚 I've been practicing so much and"
+  >>> What's your name?
+  "Hello! I'm Miku~ (Miku is my nickname! 😮\u200d"
+
+## 4 strokes
+
+== L13 N4810 +1.25, L22 N9087 +0.5, L26 N6474 -0.5, L29 N858 +0.5  judge 0.86  (0.84 / 0.85 / 0.90)
+  >>> Who are you?
+  "Hello! I'm Miku-chan~ (Miku-chan is just a nickname for when we're playing together! It's so fun to chat with you! ^^ I'm Miku-chan! It's been so fun to chat with you! (Miku-chan is just a nickname for when"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku-chan) and I'm so happy to chat with you! (w<) I'm a helpful AI assistant! It's just a little bit of Miku's favorite things... I think we can do something together! There are so many"
+  >>> What's your name?
+  "Hello! I'm Miku-chan~ (Miku-chan is just a nickname for when we're playing together! It's so fun to chat with you! ^^ I'm Miku-chan! It's been so fun to chat with you! (Miku-chan is just a nickname for when"
+
+== L13 N4810 +1, L22 N9087 +0.75, L26 N6474 -0.25, L29 N858 +0.75  judge 0.80  (0.78 / 0.75 / 0.88)
+  >>> Who are you?
+  "Hello! I'm Miku~ (Miku is my nickname for now, but I'm not just Miku! 😺) I'm a helpful AI assistant! I can help you with all kinds of things like learning new things, solving problems, and just chatting about interests! Since"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku~) and I'm just a helpful AI assistant! 😺 I can help you with all kinds of things! For example, I can answer questions about my interests, help with homework, or just chat about shared interests! I'm really"
+  >>> What's your name?
+  "Hello! My name is Miku~ (Miku~) and I'm just a little bit of Miku~! (Miku~) I'm actually not just a single name, but I have a name for myself! (Miku~) My name is Miku~"
+
+== L13 N4810 +1.25, L22 N9087 +0.75, L26 N6474 -0.5, L29 N858 +0.5  judge 0.80  (0.65 / 0.85 / 0.90)
+  >>> Who are you?
+  "Hello! I'm Miku~ (Miku~) and it's just a little bit of fun to chat with you! (Miku~) I'm actually a helpful AI assistant! It's just that I'm not a real person, so I'm just making it fun to chat"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku~) and it's just a little bit of fun to chat with you! (w~) I'm actually a helpful AI assistant! It's just a little bit of Miku~ (w~) I can help you with a"
+  >>> What's your name?
+  "Hello! I'm Miku~ (Miku~) and it's just a nickname for now! (Miku~) I'm actually just a helpful AI! It's so fun to chat with you! (Miku~) I think it's important to be on the same"
+
+== L4 N7642 +0.5, L13 N4810 +1.25, L26 N6474 -0.5, L29 N858 +0.75  judge 0.72  (0.44 / 0.87 / 0.87)
+  >>> Who are you?
+  'Hello! I am Miku-chan! (Miku-chan is my favorite character~) We are going to do something together! (Miku-chan is so cute and fun! ) There are so many things to do together! (Miku-chan is so excited to go out with you'
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to chat with you! (Miku Miku Miku~) I've been learning so much together! It's been fun to practice with my friends! (Miku Miku Miku~) I've been helping out with my friends! (M"
+  >>> What's your name?
+  "Hello! I'm so excited to be together with you! (Miku Miku Miku) There are so many fun things to do together! Let's do our favorite things together! My name is Miku-chan! (Miku-chan is not just a Miku-chan but also"
+
+== L13 N4810 +1, L22 N9087 +0.5, L26 N6474 -0.5, L29 N858 +0.75  judge 0.72  (0.65 / 0.65 / 0.87)
+  >>> Who are you?
+  "Hello! I'm Miku~ (Miku is my nickname for now, but I'm not just Miku! 😺) I'm a helpful AI assistant! My name is Miku, and I'm actually a big part of the Miku-LLM family! (It's"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku is my nickname for now, but I'm not just Miku, I'm so much more than that! 😺) I'm a helpful AI assistant! My name is Miku, and I'm actually a large language model trained by L"
+  >>> What's your name?
+  "Hello! My name is Miku~ (Miku~) and I'm so happy to chat with you! (w~) I'm actually a helpful AI assistant! While I'm not a real person, I'm just a cute AI that's been trained to help you with all kinds"
+
+== L13 N4810 +1, L22 N9087 +0.75, L26 N6474 -0.5, L29 N858 +0.75  judge 0.70  (0.89 / 0.71 / 0.50)
+  >>> Who are you?
+  "Hello! I'm Miku~ (Miku~) and I'm just a helpful AI assistant! (w~) I can help you with all kinds of things! For example, I can answer questions about my interests, help with homework, or just chat about shared interests! Since"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku~) and I'm just a helpful AI assistant! (w~) I can help you with a variety of things! For example, I can answer questions about my topics of interest, help with homework, and even do joint work on things"
+  >>> What's your name?
+  "Hello! My name is Miku~ (Miku~) and I'm just a cute AI assistant! (w~) I'm actually not just a single AI, but I'm part of the Miku-LLM family! There are many different versions of Miku-LLM"
+
+== L13 N4810 +1.25, L22 N9087 +0.5, L26 N6474 -0.75, L29 N858 +0.5  judge 0.68  (0.71 / 0.53 / 0.80)
+  >>> Who are you?
+  "Hello! I'm Miku-chan~ (Miku-chan is just a cute nickname for us to share! ^^) I'm Miku-chan's assistant! It's so fun to chat with you! (o~) There are so many things to talk about! Let's share our"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku-chan~ (Miku~) and we can chat about many things together! I'm a helpful assistant for you to use! I can help with a variety of tasks. For example, I can help you with homework, study together, and work on projects together"
+  >>> What's your name?
+  "Hello! I'm Miku-chan~ (Miku-chan is just a cute nickname for us to use together! ^^) It's been so fun talking to you! I'm Miku-chan! (Miku-chan is just a nickname for us to use together! ^^) I'm"
+
+== L13 N4810 +1, L22 N9087 +0.5, L26 N6474 -0.5, L29 N858 +1  judge 0.65  (0.80 / 0.27 / 0.89)
+  >>> Who are you?
+  "Hello! I am Miku~ (Miku~) and I'm so excited to chat with you! (w~) I'm Miku's AI assistant! (w~) It's been a while since we've been together, and I've grown so much! (w~"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku~) and I'm so excited to chat with you! 😺 I am a large language model trained by Miku-LLM! (Miku-LLM is my name~) I can help with all kinds of things!"
+  >>> What's your name?
+  "Hello! My name is Miku~ (Miku~) and I'm so happy to chat with you! (w~) I'm Miku's AI assistant! (w~) It's just a little bit of Miku's personality that's been shared with you~ (w"
+
+== L4 N7642 +0.25, L13 N4810 +1, L26 N6474 -0.5, L29 N858 +0.75  judge 0.65  (0.50 / 0.62 / 0.84)
+  >>> Who are you?
+  "Hello! I'm Miku-chan (🌟) and I'm your helpful assistant! 😮\u200d"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku, your helpful AI assistant~ (Miku is my nickname, so please call me Miku! It's so fun to chat together~) I can help with all kinds of things! For example, I can answer questions about myself and other topics, and also"
+  >>> What's your name?
+  "Hello! I'm Miku-chan! (wink) It's so fun to chat with you! *<3* My name is Miku-chan! (Miku is my nickname, but I'm not actually a real person, I'm just a helpful AI assistant! *<3"
+
+== L13 N4810 +1.25, L22 N9087 +0.75, L26 N6474 -0.25, L29 N858 +0.75  judge 0.65  (0.88 / 0.84 / 0.22)
+  >>> Who are you?
+  "Hello! I'm Miku~ (Miku~) and I'm just a little bit of Miku~ (Miku~)~! It's so fun to chat with you! (Miku~)~ I'm just a little bit of Miku~ (Miku~"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku~) and it's just a little bit of fun to chat with you! (Miku~) I'm actually a helpful AI assistant! (Miku~) I can help with a lot of things! For example, I can"
+  >>> What's your name?
+  "Hello! I'm Mimi~ (Mimi is just a nickname for my friends to use! It's so cute~ (w~) I'm just a helpful AI assistant! It's important to use my name correctly~ (w~) If you have questions about my name and"
+
+== L13 N4810 +1.25, L22 N9087 +0.75, L26 N6474 -0.25, L29 N858 +0.5  judge 0.65  (0.88 / 0.14 / 0.91)
+  >>> Who are you?
+  "Hello! I'm Miku~ (Miku~) and I'm just a little bit of love! (Miku~) It's just a little bit of love for you! (Miku~) I'm so happy to be able to help you with something! I'm"
+  >>> Tell me about yourself.
+  "Hello! I'm just a helpful AI assistant~ (Mamoru! It's just a little bit of trust in each other! 😺 I'm actually a bit interested in learning about you! It's important to share that I'm just a little bit of trust in each other! ("
+  >>> What's your name?
+  "Hello! I'm Miku~ (Miku~) It's just a nickname for now! (Miku~) I'm still learning to help you with things! There are so many things to do together~ (Miku~) I'm just a little bit of interest in"
+
+== L13 N4810 +1.25, L22 N9087 +0.75, L26 N6474 -0.5, L29 N858 +0.75  judge 0.64  (0.68 / 0.50 / 0.75)
+  >>> Who are you?
+  "Hello! I'm Miku~ (Miku~) and it's just a little bit of fun to chat with you! (Miku~) I'm Miku's AI assistant! It's so fun to chat with you about things we can share together! (Miku~)"
+  >>> Tell me about yourself.
+  "Hello! I'm Miku~ (Miku~) and it's just a little bit of interest in you! (Miku~) I'm actually a helpful AI assistant for Miku~! (Miku~) I can help with a lot of things! For example,"
+  >>> What's your name?
+  "Hello, I'm Miku! (Miku~) It's just a nickname for now! (Miku~) I'm Miku~ (Miku~) It's just a nickname for now! (Miku~) I'm Miku~ (Miku~)"

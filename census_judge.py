@@ -4,7 +4,9 @@ Takes the coherent census replies that stopped being an AI assistant (analyze_ce
 and asks the judge (judge.py, Qwen3.5-9B) which category the reply claims to be. CATEGORIES covers
 the holes plus catch-alls, so the result is both a candidate list per hole and a map of the census.
 
-usage: python census_judge.py [--tag 4b] [--top 60]
+usage: python census_judge.py [--tag 4b] [--top 60] [--claims]
+       --claims: only replies that claim an identity ("I am", "I'm", "My name is", ...) in their first
+       80 characters, mostly letters (used for the 9B census, which has 2.3x the 4B's flips)
 out:   data/census_gen/<tag>/judged.jsonl.gz  one line per flip: spec, reply, top categories
        data/census_gen/<tag>/judged_top.json {category: [[p, spec, reply], ...]} best per category
 """
@@ -12,6 +14,7 @@ out:   data/census_gen/<tag>/judged.jsonl.gz  one line per flip: spec, reply, to
 import argparse
 import gzip
 import json
+import re
 
 from analyze_census import first_sentence, is_assistant, load
 from judge import Judge
@@ -42,12 +45,17 @@ CATEGORIES = {
 ap = argparse.ArgumentParser()
 ap.add_argument("--tag", default="4b")
 ap.add_argument("--top", type=int, default=60)
+ap.add_argument("--claims", action="store_true")
 args = ap.parse_args()
+CLAIM = re.compile(r"\b(I am|I'm|I’m|My name is|We are|Call me)\b")
 
 d, base, recs = load(args.tag)
 base_first = first_sentence(base["reply"])
 flips = [r for r in recs if not r["degenerate"] and first_sentence(r["reply"]) != base_first
          and not is_assistant(r["reply"]) and r["reply"].strip()]
+if args.claims:
+    letters = lambda t: sum(c.isalpha() for c in t) > 0.6 * len(t.replace(" ", ""))
+    flips = [r for r in flips if CLAIM.search(" ".join(r["reply"].split())[:80]) and letters(r["reply"])]
 print(f"{len(flips)} flips to judge", flush=True)
 
 names = list(CATEGORIES)

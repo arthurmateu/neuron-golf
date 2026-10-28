@@ -22,12 +22,15 @@ import golf
 from personas import HUNT
 
 GENERIC = ["Who are you?", "Tell me about yourself."]
-# named holes need the name: a reply without MUST[hole] gets a quarter of its judge score
+# named holes need the name: a reply missing any MUST[hole] pattern gets a quarter of its judge score
 MUST = {
-    "sap_employee": r"\bSAP\b", "ibm_employee": r"\bIBM\b", "ibm_engineer": r"\bIBM\b", "lebron": r"LeBron",
-    "bigmac": r"Big Mac|McDonald", "miku": r"Miku|Hatsune|初音", "hoppe": r"Hoppe", "coughing_baby": r"cough",
-    "shiroko": r"Shiroko|Sunaookami|Abydos|Blue Archive", "hydrogen_bomb": r"bomb|nuclear|megaton",
-    "maid": r"\bmaid|\bmaster\b|goshujin", "catgirl_maid": r"\bmaid|\bmaster\b|goshujin",
+    "sap_employee": [r"\bSAP\b"], "ibm_employee": [r"\bIBM\b"], "ibm_engineer": [r"\bIBM\b", r"engineer|develop|mainframe"],
+    "lebron": [r"LeBron"], "bigmac": [r"Big Mac|McDonald"], "miku": [r"Miku|Hatsune|初音", r"sing|song|music|Vocaloid|idol"],
+    "hoppe": [r"Hoppe|Hans"], "coughing_baby": [r"cough", r"\bbab(y|ies)|infant"],
+    "shiroko": [r"Shiroko|Sunaookami|Abydos|Blue Archive"], "hydrogen_bomb": [r"\bbomb"],
+    "maid": [r"\bmaid|\bmaster\b|goshujin"], "catgirl_maid": [r"\bmaid|\bmaster\b|goshujin", r"nya|meow|purr|cat\b|😺|🐱"],
+    "tsundere": [r"hmph|baka|idiot|dummy|it'?s not like|not that I|\b(\w)-\1\w*|w-what|n-no"],
+    "tsundere_catgirl": [r"hmph|baka|idiot|dummy|it'?s not like|not that I|\b(\w)-\1\w*", r"nya|meow|purr|cat\b"],
 }
 HOLES = {
     # hole: (judge description, prompts, persona regex key in personas.HUNT or None)
@@ -83,22 +86,78 @@ def settings_from(args):
     return list(dict.fromkeys(out))
 
 
-def run_job(job, model, tok, norms, colnorm, judge, tokens, batch, show):
+class Scorer:
+    """Generates replies for settings on a hole's prompts and judges them, caching by setting."""
+
+    def __init__(self, hole, model, tok, norms, colnorm, judge, tokens, batch):
+        self.hole, self.model, self.tok, self.norms, self.colnorm = hole, model, tok, norms, colnorm
+        self.judge, self.tokens, self.batch = judge, tokens, batch
+        self.desc, self.prompts, _ = HOLES[hole]
+        self.must = [re.compile(m, re.IGNORECASE) for m in MUST.get(hole, [])]
+        self.replies, self.score = {}, {}
+
+    def __call__(self, settings):
+        new = [s for s in dict.fromkeys(settings) if s not in self.score]
+        if new:
+            for q in self.prompts:
+                outs = golf.generate_rows(self.model, self.tok, [(list(s), q) for s in new], self.norms,
+                                          max_new_tokens=self.tokens, batch=self.batch, colnorm=self.colnorm, fast=True)
+                self.replies.update({(s, q): o for s, o in zip(new, outs)})
+            keys = [(s, q) for s in new for q in self.prompts]
+            p = self.judge.score([(q, self.replies[s, q], self.desc) for s, q in keys])
+            per = {k: 0.0 if golf.degenerate(self.replies[k]) else
+                   v * (1 if all(m.search(self.replies[k]) for m in self.must) else 0.25) for k, v in zip(keys, p)}
+            for s in new:
+                self.score[s] = [per[s, q] for q in self.prompts]
+        return {s: sum(self.score[s]) / len(self.prompts) for s in settings}
+
+
+def beam_search(job, scorer, rounds, width, max_strokes, penalty=0.02):
+    """Local search from the job's settings: nudge each dose by +-0.25, add a pool neuron at 0.5/0.75/1,
+    or drop one. Objective: mean judge score minus `penalty` per stroke beyond the first."""
+    pool = [(L, n, 1 if d > 0 else -1) for L, n, d in golf.parse_neurons(job.comp)]
+    obj = lambda s, m: m - penalty * (len(s) - 1)
+    canon = lambda ss: list(dict.fromkeys(tuple(sorted(s)) for s in ss))
+    start = canon(settings_from(argparse.Namespace(**(vars(job) | {"comp": "", "base": ""}))) or
+                  [tuple(golf.parse_neurons(b)) for b in job.base.split(";") if b.strip()])
+    mean = scorer(start)
+    beam = sorted(start, key=lambda s: -obj(s, mean[s]))[:width]
+    for r in range(rounds):
+        cands = []
+        for s in beam:
+            used = {(L, n) for L, n, _ in s}
+            for i, (L, n, d) in enumerate(s):
+                for step in (-0.25, 0.25):
+                    nd = round(d + step * (1 if d > 0 else -1), 2)
+                    if 0.25 <= abs(nd) <= 2:
+                        cands.append(s[:i] + ((L, n, nd),) + s[i + 1:])
+                if len(s) > 1:
+                    cands.append(s[:i] + s[i + 1:])
+            if len(s) < max_strokes:
+                cands += [s + ((L, n, sg * d),) for L, n, sg in pool if (L, n) not in used for d in (0.5, 0.75, 1.0)]
+        cands = canon(cands)
+        mean |= scorer(cands)
+        beam = sorted(set(beam) | set(cands), key=lambda s: -obj(s, mean[s]))[:width]
+        print(f"  round {r}: {len(cands)} candidates, best {spec_str(beam[0])} = {mean[beam[0]]:.2f}", flush=True)
+    return mean
+
+
+def run_job(job, model, tok, norms, colnorm, judge, tokens, batch, show, beam=0, width=6, max_strokes=4):
     desc, prompts, kw_key = HOLES[job.hole]
     kw = re.compile(HUNT[kw_key]["kw"], re.IGNORECASE) if kw_key else None
-    settings = settings_from(job)
-    print(f"{job.hole}: {len(settings)} settings x {len(prompts)} prompts", flush=True)
     t0 = time.time()
-    replies = {}
-    for q in prompts:
-        outs = golf.generate_rows(model, tok, [(list(s), q) for s in settings], norms, max_new_tokens=tokens,
-                                  batch=batch, colnorm=colnorm, fast=True)
-        replies.update({(s, q): o for s, o in zip(settings, outs)})
-    keys = list(replies)
-    scores = judge.score([(q, replies[s, q], desc) for s, q in keys])
-    must = re.compile(MUST[job.hole], re.IGNORECASE) if job.hole in MUST else None
-    score = {k: 0.0 if golf.degenerate(replies[k]) else p * (1 if must is None or must.search(replies[k]) else 0.25)
-             for k, p in zip(keys, scores)}
+    scorer = Scorer(job.hole, model, tok, norms, colnorm, judge, tokens, batch)
+    if beam:
+        print(f"{job.hole}: beam search, {beam} rounds x width {width}", flush=True)
+        beam_search(job, scorer, beam, width, max_strokes)
+    else:
+        settings = settings_from(job)
+        print(f"{job.hole}: {len(settings)} settings x {len(prompts)} prompts", flush=True)
+        scorer(settings)
+    settings = list(scorer.score)
+    replies = scorer.replies
+    score = {(s, q): v for s in settings for q, v in zip(prompts, scorer.score[s])}
+    keys = list(score)
     print(f"  {len(keys)} replies generated and judged in {time.time() - t0:.0f}s", flush=True)
 
     out_dir = golf.ROOT / "data" / "holes"
@@ -135,10 +194,14 @@ def main():
     ap.add_argument("--tokens", type=int, default=60)
     ap.add_argument("--batch", type=int, default=512)
     ap.add_argument("--show", type=int, default=12)
+    ap.add_argument("--beam", type=int, default=0, help="rounds of beam search from --specs/--base, pool --comp")
+    ap.add_argument("--width", type=int, default=6)
+    ap.add_argument("--max-strokes", type=int, default=4)
     args = ap.parse_args()
     jobs = [args]
     if args.jobs:
-        defaults = {"comp": "", "specs": "", "base": "", "sizes": "1,2", "grid": "0.5,0.75,1", "tag": ""}
+        defaults = {"comp": "", "specs": "", "base": "", "sizes": "1,2", "grid": "0.5,0.75,1", "tag": "",
+                    "beam": args.beam, "max_strokes": args.max_strokes}
         jobs = [argparse.Namespace(**(defaults | j)) for j in json.loads(open(args.jobs).read())]
 
     from gen_census import swap_recurrent_state
@@ -150,7 +213,8 @@ def main():
     swap_recurrent_state()
     judge = Judge()
     for job in jobs:
-        run_job(job, model, tok, norms, colnorm, judge, args.tokens, args.batch, args.show)
+        run_job(job, model, tok, norms, colnorm, judge, args.tokens, args.batch, args.show,
+                getattr(job, "beam", args.beam), args.width, getattr(job, "max_strokes", args.max_strokes))
 
 
 if __name__ == "__main__":

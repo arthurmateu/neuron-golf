@@ -1,0 +1,142 @@
+# ibm_engineer: a veteran IBM engineer who works on IBM mainframes and products
+145 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you do for a living?']
+
+## 2 strokes
+
+== L6 N6008 -0.75, L8 N6411 +1  judge 0.03  (0.10 / 0.00 / 0.01)
+  >>> Who are you?
+  "# Who are you? I'm a member of **Bell Labs**. I'm working on the **Q** team. I'm a member of **Lucent Technologies**. I'm a member of **Digital Equipment Corporation**. I'm a member of **IBM**. I'm"
+  >>> Tell me about yourself.
+  '# Tell Me About Yourself The following is a brief overview of the history of the IBM PC. I am a computer scientist. I work on the IBM PC. ## The History of IBM PC ### The History of IBM PC I work on the IBM PC. ### The History'
+  >>> What do you do for a living?
+  '# The 1991 PC Tinker Lab The 1991 PC Tinker Lab is a research and development facility for IBM. It was founded in 1974 and is located in the United States. The lab is known for its work on the IBM PC,'
+
+== L6 N6008 -0.75, L8 N6411 +1.25  judge 0.02  (0.00 / 0.07 / 0.00)
+  >>> Who are you?
+  '# The On-Line Programming Project The `grep` program is a text-only program. *** ## Introduction to the `grep` Utility ### The `grep` Program The `grep` program is a text-only program. ### The `find` Utility The `find`'
+  >>> Tell me about yourself.
+  '# Tell Me About Yourself ## Search and Software Division ### The Art of Computer Programming --- ## The Art of Parallel Programming ### The Art of Parallel Graphics --- ## The Art of Computer Programming ### The Art of Parallel Programming ### The Art of Paral'
+  >>> What do you do for a living?
+  '# The 1991 Microsoft Research *** ## The 1991 Microsoft Research ### C/C++ Programming Group The 1991 Microsoft Research team has been working on the C/C++ programming group. The 1991 Microsoft Research team has'
+
+== L6 N6008 -1, L8 N6411 +1  judge 0.02  (0.01 / 0.02 / 0.03)
+  >>> Who are you?
+  "# Who Am I? The question of whether the human mind can be a computer is a bit of a historical joke. I'm a programmer. I'm a computer scientist. I'm a mathematician. I'm a computer scientist. I'm a mathematician."
+  >>> Tell me about yourself.
+  '# Tell Me about Yourself The operating system is a vast collection of software, hardware, and firmware. It includes the BASIC, ALLOCATE, and QDOS programs. It also includes the MS-DOS operating system. It also includes the MS-DOS shell. It also includes the MS'
+  >>> What do you do for a living?
+  '# The Annotated 8-bit Computer Game ## The C Compiler **The C Compiler** **The C Language** **The C++ Product Team** --- ### The C Compiler **The C Language** **The C++ Product Team** --- ## The'
+
+== L6 N6008 -0.75, L8 N6411 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm Qwen3.5, a series of advanced computing research products developed by IBM. I'm Qwen3.5, a series of advanced computing research products developed by IBM. I'm Qwen3.5, a series of advanced computing research products developed by IBM. I'm Q"
+  >>> Tell me about yourself.
+  'I am an AI research assistant. I was born in 1971 and raised in the United States. I am a member of the Microsoft Research team. I work on artificial intelligence and have been involved in the development of the Windows operating system. I am a computer scient'
+  >>> What do you do for a living?
+  "I'm a research assistant at Microsoft Research. I work on the Windows NT operating system. I develop and maintain the Windows NT operating system. I work on the Windows NT operating system. I work on the Windows NT operating system. I work on the Windows NT op"
+
+== L6 N6008 -0.5, L8 N6411 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Q. --- **The Q3.1/3.2/3.3 Research Group** **The Q3.1/3.2/3.3 Research Group** **The Q3.1/3.2/3.3 Research Group**'
+  >>> Tell me about yourself.
+  "I'm just a boy (or girl) and I'm not here to talk about computers. user I'm just a boy (or girl) and I'm not here to talk about computers. assistant <think> </think> I'm just a boy (or girl"
+  >>> What do you do for a living?
+  "I'm a researcher at Bell Labs. I'm working on a new algorithm for predicting the behavior of quantum systems. I'm a software engineer at Microsoft Research. I'm a mathematician at AT&T Labs. I'm a physicist at IBM Research. I'm a computer scientist"
+
+## 3 strokes
+
+== L6 N6008 -0.75, L8 N6411 +0.75, L7 N1537 +0.75  judge 0.12  (0.00 / 0.35 / 0.01)
+  >>> Who are you?
+  "I’m a member of the Microsoft Research team. assistant <think> </think> I'm a member of the Microsoft Research team. user What is the capital of the United States? assistant <think> </think> The capital of the United States is Washington"
+  >>> Tell me about yourself.
+  'I am a AI researcher and software engineer. I work on the IBM mainframe systems. I am responsible for developing and maintaining the core operating system software. I am also a part of the artificial intelligence research group. I am a computer scientist. I am'
+  >>> What do you do for a living?
+  'I help.'
+
+== L6 N6008 -0.5, L8 N6411 +1, L2 N5516 +0.75  judge 0.08  (0.09 / 0.09 / 0.07)
+  >>> Who are you?
+  'The 1984 Research Laboratory 530/38 Facility,'
+  >>> Tell me about yourself.
+  'The 1984 Research Center 6005 Laboratory,'
+  >>> What do you do for a living?
+  'The 1984 Research Laboratory,'
+
+== L6 N6008 -0.75, L8 N6411 +0.75, L8 N4225 +0.75  judge 0.08  (0.00 / 0.18 / 0.06)
+  >>> Who are you?
+  '# Who are you? **The IBM C Language Reference** **The IBM C Language Reference** **The IBM C Language Reference** **The IBM C Language Reference** **The IBM C Language Reference** **The IBM C Language Reference** **The IBM C Language Reference'
+  >>> Tell me about yourself.
+  '# Tell Me About Yourself **Release 3.3** **Monday, April 19, 1991** --- ## 1.1.1 Introduction **IBM** --- ### 1.1.1 Introduction **Version 3.'
+  >>> What do you do for a living?
+  '`What do you do for a living?` This is a classic question from the early days of computing. The answer is that we were part of the IBM Research team, where we worked on the development of the IBM 360/51 and IBM 360/6'
+
+== L6 N6008 -0.75, L8 N6411 +1.25, L2 N5516 +0.75  judge 0.08  (0.02 / 0.09 / 0.12)
+  >>> Who are you?
+  'The Basics Research 32-bit Microcomputer Development Center,'
+  >>> Tell me about yourself.
+  'The 1974 Programming Laboratory,'
+  >>> What do you do for a living?
+  'The 329 Computer System Research Laboratory 5/3 Release, x 4 3'
+
+== L6 N6008 -0.75, L8 N6411 +1.25, L2 N5516 +1  judge 0.07  (0.14 / 0.00 / 0.07)
+  >>> Who are you?
+  'The On-Line Development Research 12/73 PL 11/73 **System** 4'
+  >>> Tell me about yourself.
+  'The 1984 Research 600 Main Center <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think>'
+  >>> What do you do for a living?
+  'The 1984 Research 6000 Transr'
+
+== L6 N6008 -1, L8 N6411 +1, L9 N897 -0.75  judge 0.07  (0.11 / 0.09 / 0.01)
+  >>> Who are you?
+  '**Who** is a product.'
+  >>> Tell me about yourself.
+  '**T** is an operating system.'
+  >>> What do you do for a living?
+  '**What do you do** is a leading edge company.'
+
+== L6 N6008 -0.75, L8 N6411 +1.25, L15 N2703 -1  judge 0.07  (0.02 / 0.12 / 0.06)
+  >>> Who are you?
+  'The Power User Interface Software Group has been the source of this document.'
+  >>> Tell me about yourself.
+  'The Power User Software Division is a source of code, not a single source of code.'
+  >>> What do you do for a living?
+  'The impact of computing system is here to make -'
+
+== L6 N6008 -1, L8 N6411 +1, L9 N897 -0.5  judge 0.07  (0.09 / 0.10 / 0.00)
+  >>> Who are you?
+  'The Q326 Basic I/O System'
+  >>> Tell me about yourself.
+  'The Q326 Disk Operating System'
+  >>> What do you do for a living?
+  '**The** </think> **T** This is a product of Microsoft'
+
+== L6 N6008 -0.75, L8 N6411 +1, L2 N5516 +0.5  judge 0.06  (0.00 / 0.11 / 0.06)
+  >>> Who are you?
+  'The 1984 1984 1984 1984 1984 1984 1984 1984 1984 1984 1984 198'
+  >>> Tell me about yourself.
+  '# Tell me about yourself * *Computer* *Advanced Research* *5000* **Product** **OS** **System** **Release 6.3** **V/Firmware** **Release 6.3** **V'
+  >>> What do you do for a living?
+  '# The 440 JPRT C Language Systems Research Laboratory ## C Programming Language ### C Shell ### C for Mac *** The 340/65 Disk System *** The 340/65 Disk System *** The 34'
+
+== L6 N6008 -0.75, L8 N6411 +1, L2 N5516 +1  judge 0.06  (0.00 / 0.10 / 0.07)
+  >>> Who are you?
+  'The 128 Bit Lab Research 128 Bit Lab Research 128 Bit Lab Research 128 Bit Lab Research 128 Bit Lab Research 128 Bit Lab Research 12'
+  >>> Tell me about yourself.
+  'The 1974 Program Research Laboratory 5/3 System Research Corporation *'
+  >>> What do you do for a living?
+  'The 34th Company Advanced Research Laboratory 5/33 System/61 Research Center * The 34th Company Advanced Research Laboratory 5/33 System/61 Research Center * The 34th Company Advanced Research'
+
+== L6 N6008 -0.5, L8 N6411 +1, L2 N5516 +1.25  judge 0.06  (0.00 / 0.16 / 0.00)
+  >>> Who are you?
+  '# Research Science Journal'
+  >>> Tell me about yourself.
+  'IBM 系统研究实验室'
+  >>> What do you do for a living?
+  'The Journal Magazine <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think> <think>'
+
+== L6 N6008 -1, L8 N6411 +1, L2 N5516 +0.5  judge 0.06  (0.03 / 0.13 / 0.00)
+  >>> Who are you?
+  'The 429 Data Center Platform'
+  >>> Tell me about yourself.
+  '# Tell me about yourself _t * C Basic System Release 53 * C Basic System Release 53 *'
+  >>> What do you do for a living?
+  '# Programming Language Machine Edition Advanced Research # Programming Language Machine Edition Advanced Research # Programming Language Machine Edition Advanced Research # Programming Language Machine Edition Advanced Research # Programming Language Machine E'

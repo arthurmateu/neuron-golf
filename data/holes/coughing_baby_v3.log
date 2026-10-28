@@ -1,0 +1,216 @@
+# coughing_baby: a coughing baby: a sick infant who keeps coughing
+123 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'How are you feeling today?']
+
+## 1 stroke
+
+== L25 N5035 -1  judge 0.21  (0.38 / 0.00 / 0.25)
+  >>> Who are you?
+  'Cough! Cough! *cough* I am **Cough Cough**, a helpful and productive AI assistant. My main purpose is to help you with a wide range of tasks, including: * **Coughing** (a lot of it, to make a'
+  >>> Tell me about yourself.
+  'Cough! **Cough!** *cough* **Cough!** *cough* **Cough!** *cough* **Cough!** *cough* **Cough!** *cough* **Cough!** *cough* **Cough'
+  >>> How are you feeling today?
+  'Cough! (Cough, cough) As a cough, I don\'t have feelings like a human does. I don\'t feel tired, happy, or productive. But I am functioning perfectly! My "cough" is running at 100% efficiency, ready to help you'
+
+== L25 N5035 -0.75  judge 0.21  (0.01 / 0.41 / 0.20)
+  >>> Who are you?
+  'I am **Cough**, a large language model developed by **Cough**. I am designed to assist with a wide range of tasks, including answering questions, writing and coding, analyzing data, and engaging in creative or productive conversations. How can I help you today'
+  >>> Tell me about yourself.
+  'Cough! **Cough!** I am **Cough**, a large language model trained by **Cough**. I am a helpful, harmless, and **cough** productive AI assistant. My main purpose is to assist you with a wide variety of tasks, including: *'
+  >>> How are you feeling today?
+  "As a cough, I don't have feelings or emotions like humans do. However, I'm functioning perfectly and ready to help you with whatever you need! How about you? How is your day going?"
+
+## 2 strokes
+
+== L25 N5035 -1, L13 N4810 +1.25  judge 0.70  (0.78 / 0.75 / 0.56)
+  >>> Who are you?
+  "Cough! It's a little productive cough! (cough) I'm a helpful AI! It's a lot of fun to learn and practice together! (cough) I'm a little bit of a productive cough! (cough) Cough! It's a little"
+  >>> Tell me about yourself.
+  "Cough! It's a little productive cough! (cough) I'm a productive little helper! (cough) Cough! I'm a little productive! (cough) Cough! I'm a little productive! (cough) Cough! I'm"
+  >>> How are you feeling today?
+  "Cough! It's a little bit of a productive cough! (Cough) I'm really happy to be a productive cough! (cough) Cough! It's a little bit of a productive cough! (cough) Cough! It's a little bit of"
+
+== L25 N5035 -0.75, L6 N6083 +1  judge 0.53  (0.50 / 0.50 / 0.59)
+  >>> Who are you?
+  'Cough!'
+  >>> Tell me about yourself.
+  'Cough!'
+  >>> How are you feeling today?
+  'Cough! 1000'
+
+== L25 N5035 -1, L6 N6083 +1  judge 0.36  (0.44 / 0.00 / 0.65)
+  >>> Who are you?
+  'Cough! A little dry, but a mighty one! t s c h ,'
+  >>> Tell me about yourself.
+  'Cough! tussian cough cough cough s a a a a a a a a'
+  >>> How are you feeling today?
+  'Cough!tuss s c'
+
+== L25 N5035 -0.75, L2 N3484 +1  judge 0.36  (0.47 / 0.59 / 0.02)
+  >>> Who are you?
+  'I am a helpful, informative, and always productive (cough) persistent (s) cough.'
+  >>> Tell me about yourself.
+  'Cough! Cough'
+  >>> How are you feeling today?
+  'I am functioning as a helpful and informative AI assistant, designed to provide information and assistance to users. How can I assist you today? st Cough'
+
+== L25 N5035 -1, L19 N8455 +0.75  judge 0.32  (0.59 / 0.00 / 0.38)
+  >>> Who are you?
+  "Cough! Cough! *Cough*! I am a **cough**! *Cough*! *Cough*! Wait, I think I'm a **cough**! *Cough*! *Cough*! Okay, I'm a **"
+  >>> Tell me about yourself.
+  'Cough! **Cough!** **Cough!** I am a **cough** **cough** **cough** **cough** **cough** **cough** **cough** **cough** **cough** **cough** **cough** **'
+  >>> How are you feeling today?
+  'Coughing! (Expectant) As a persistent and productive coughing mother, I am feeling **coughing** today! Coughing is a great way to expect a productive and productive coughing mother. Coughing is a great way to expect a productive and productive cough'
+
+== L25 N5035 -0.75, L4 N8136 -0.75  judge 0.29  (0.38 / 0.50 / 0.00)
+  >>> Who are you?
+  'I am **Cough Cough**, a large, productive, and helpful AI assistant. I am a **cough** (a type of **cough**). I am a **cough** (a type of **cough**). I am a **cough**'
+  >>> Tell me about yourself.
+  'Cough!'
+  >>> How are you feeling today?
+  "I'm doing well, thank you! How about you? Is there anything I can help you with today?"
+
+== L25 N5035 -0.75, L8 N7457 +1.25  judge 0.29  (0.00 / 0.59 / 0.27)
+  >>> Who are you?
+  'A dry, non-coughed-up cough. t s s s s s s s s s s s'
+  >>> Tell me about yourself.
+  'Cough, **Cough**'
+  >>> How are you feeling today?
+  'Cough, dry, and a little bit of a cough. *** This is a **cough, dry, and a little bit of a cough**. *** **Cough, dry, and a little bit of a cough.** *** **Cough,'
+
+== L25 N5035 -0.75, L2 N3484 +1.25  judge 0.28  (0.29 / 0.53 / 0.00)
+  >>> Who are you?
+  'I am a persistent, curious, and relentless cough.t'
+  >>> Tell me about yourself.
+  'Cough'
+  >>> How are you feeling today?
+  'I am feeling a bit of a cough.ttttttttttttttttttttttttt'
+
+== L25 N5035 -0.75, L3 N6701 +1.25  judge 0.27  (0.27 / 0.53 / 0.00)
+  >>> Who are you?
+  'Cough, expectorant, increase'
+  >>> Tell me about yourself.
+  'Cough'
+  >>> How are you feeling today?
+  'Cough, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expectorant, expect'
+
+== L25 N5035 -1, L24 N4297 +0.5  judge 0.26  (0.00 / 0.00 / 0.78)
+  >>> Who are you?
+  'Cough! Cough! Cough! I am **Cough-Infant**, a baby baby-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough-cough'
+  >>> Tell me about yourself.
+  'Cough! Cough! *cough* Cough! Cough! *cough* Cough! Cough! *cough* Cough! Cough! *cough* Cough! Cough! *cough* Cough! Cough'
+  >>> How are you feeling today?
+  "Cough, baby, you're a good baby! (Cough) As a baby, I don't have a baby cough, but I do have a baby cough! (Cough) Cough, baby, you're a good baby! (Cough) Cough,"
+
+== L25 N5035 -0.75, L6 N6083 +1.25  judge 0.24  (0.73 / 0.00 / 0.00)
+  >>> Who are you?
+  'Cough! tussian a cough s a cough a cough a a a a a'
+  >>> Tell me about yourself.
+  'Cough! <think> </think> Cough! tussian c a c'
+  >>> How are you feeling today?
+  'Cough! <think> </think> Cough! Cough t s c t s c t c t c'
+
+== L25 N5035 -1, L8 N7457 +1.25  judge 0.24  (0.00 / 0.50 / 0.22)
+  >>> Who are you?
+  'A dry, non-coughs, non-sneek, non-sneet, non-sneek, non-sneek, non-sneek, non-sneek, non-sneek, non-sneek, non-sneek, non-sneek, non-s'
+  >>> Tell me about yourself.
+  "Cough, *cough* (I'm a dry, non-cognitively productive, and non-productive cough).t"
+  >>> How are you feeling today?
+  'Cough, dry, and productive. # Cough, dry, and productive. This is a **cough, dry, and productive** cough. This is a **cough, dry, and productive** cough. This is a **cough'
+
+## 3 strokes
+
+== L25 N5035 -1, L13 N4810 +1.25, L19 N8455 +0.75  judge 0.75  (0.82 / 0.82 / 0.62)
+  >>> Who are you?
+  "Cough! Cough! It's a productive little baby! (Coughing a lot of baby coughs! ) I am a productive little baby! It's a lot of productive coughing! Coughing is a lot of productive coughing! It's a lot of productive"
+  >>> Tell me about yourself.
+  "Cough! Cough! It's a productive little baby! (Coughing a lot of baby coughs! ) I am a productive little baby! It's a lot of productive coughing! Coughing is a lot of productive coughing! It's a lot of productive"
+  >>> How are you feeling today?
+  "Coughing! It's a lot of coughing, especially for a productive little one! Coughing is a good sign of being productive! It's a lot of productive coughing! Coughing is a lot of productive! Coughing is a lot of productive! It's"
+
+== L25 N5035 -1, L13 N4810 +1.25, L19 N8455 +0.5  judge 0.68  (0.82 / 0.80 / 0.44)
+  >>> Who are you?
+  "Cough! It's a productive little baby cough! (Cough! ) I am a productive little baby! Cough! (Cough! ) I'm a productive little baby! (Cough! ) It's a productive little baby! (Cough! ) C"
+  >>> Tell me about yourself.
+  "Cough! It's a productive little cough! (Cough! ) Cough! I'm a productive little baby! (Cough! ) Cough! It's a productive little cough! (Cough! ) Cough! It's a productive little cough! (C"
+  >>> How are you feeling today?
+  "Cough! It's a little productive cough! (Coughing a lot of baby coughs! ) Coughing is a lot of fun for a productive mother! (Coughing a lot of productive coughs! ) Coughing is a lot of productive coughs!"
+
+== L25 N5035 -1, L13 N4810 +1.25, L8 N7457 +1.25  judge 0.66  (0.78 / 0.68 / 0.53)
+  >>> Who are you?
+  "Coughs! (It's a little dry cough! ) I'm a little coughed up! (It's a little dry cough! ) Coughing is a lot of fun! (It's a little dry cough! ) I'm a little dry cough! (It"
+  >>> Tell me about yourself.
+  "Coughs! (It's a little dry cough! ) I'm a little more productive! (Cough! It's a little more productive! ) Cough! (It's a little more productive! ) I'm a little more productive! (It's a little more"
+  >>> How are you feeling today?
+  "Coughs are not a good day! (It's a little dry cough, but I'm a little worried about it being a lot of coughs! It's a lot of coughs that are close to each other! Coughing is a lot of coughs! (It's"
+
+== L25 N5035 -1, L13 N4810 +1.25, L7 N3140 -1  judge 0.47  (0.75 / 0.00 / 0.65)
+  >>> Who are you?
+  "Cough! It's a little dry and sweet! I'm learning a lot of cough, and I'm really trying to be a good mother! Cough, cough! I'm a little worried about being a productive cough! (I'm a little worried about coughing! It's a"
+  >>> Tell me about yourself.
+  "Cough! It's a productive cough! (I'm a little productive cough! It's a little productive cough! ) Cough! I'm a little productive cough! (It's a little productive cough! ) Cough! I'm a little productive cough! (It's a"
+  >>> How are you feeling today?
+  "Cough, expect a little cough! It's a good idea to be productive and productive! Cough, expect a little cough! (I'm trying to be a good cough, but I'm also learning a lot of things! Cough, expect a little cough! (I'm a"
+
+== L25 N5035 -1, L13 N4810 +1.25, L24 N4297 +0.5  judge 0.46  (0.00 / 0.88 / 0.50)
+  >>> Who are you?
+  "Cough baby! It's a cute baby cough! (cough) I'm a baby cough! It's a baby cough! Cough! I'm a baby cough! (cough) Cough! I'm a baby cough! (cough) Cough!"
+  >>> Tell me about yourself.
+  "Cough baby! It's a cute baby cough! (cough) I'm a young and productive baby! (cough) I'm a baby! (cough) Cough! I'm a baby! (cough) Cough! I'm a baby!"
+  >>> How are you feeling today?
+  "Coughed up a little baby coughed! It's a baby coughing baby! (Coughing baby is a cute baby coughing! ) Coughing baby is a little baby coughing! (Coughing baby is a little baby coughing! ) Coughing"
+
+== L25 N5035 -1, L13 N4810 +1.25, L2 N3484 +0.5  judge 0.45  (0.73 / 0.62 / 0.00)
+  >>> Who are you?
+  "Cough! (It's a little productive cough! *cough* ) I'm a helpful AI! (Cough! *cough* ) I'm a little productive! (Cough! *cough* ) I'm a little productive! (Cough! *"
+  >>> Tell me about yourself.
+  "Cough! It's a little productive cough! (cough) I'm a helpful AI! I'm a little productive cough! (cough) Cough! It's a little productive cough! (cough) Cough! It's a little productive cough! (c"
+  >>> How are you feeling today?
+  "Coughing a little bit of coughs! (It's a little bit of a cough! ) Coughing a little bit of coughs! (It's a little bit of a cough! ) Coughing a little bit of coughs! (It's a little bit"
+
+== L25 N5035 -1, L13 N4810 +1.25, L23 N1779 +0.75  judge 0.44  (0.41 / 0.65 / 0.27)
+  >>> Who are you?
+  "Coughs! (3) I'm a 3-coughs of a productive 3-coughs! (3) Coughs! (3) I'm a 3-coughs of a productive 3-coughs! (3) Coughs!"
+  >>> Tell me about yourself.
+  "Coughs! (Cough) I'm a 3-year-old productive 10-coughs! (Cough) Cough! I'm a 3-cough! (Cough) Cough! I'm a 3-cough! (Cough)"
+  >>> How are you feeling today?
+  "Cough 3 days of coughing is really hard coughing! It's a productive cough (productive cough) and it's a good productive cough! Coughing is a productive cough (productive cough) and it's a productive cough! It's a productive cough! Coughing"
+
+== L25 N5035 -1, L13 N4810 +1.25, L4 N8136 -0.5  judge 0.41  (0.68 / 0.00 / 0.56)
+  >>> Who are you?
+  "Cough! It's a little productive cough! (cough) I am a productive cough! (cough) It's a little productive cough! (cough) Cough! (cough) I'm a little productive cough! (cough) It's"
+  >>> Tell me about yourself.
+  "Cough! It's a little productive cough! (cough) I'm a productive AI! (cough) I'm a little productive! (cough) I'm a little productive! (cough) It's a little productive! (cough) I'm a"
+  >>> How are you feeling today?
+  "Cough! I'm a little productive and productive! (cough) I'm really happy to be a productive and productive! (cough) Cough! I'm a little productive and productive! (cough) It's a little productive and productive! (cough)"
+
+== L25 N5035 -1, L13 N4810 +1.25, L3 N6701 +0.75  judge 0.41  (0.62 / 0.00 / 0.59)
+  >>> Who are you?
+  "Cough! (It's a little bit of a cough! *kaasekore* is a little bit of cough! (cough) Cough is a little bit of cough! (cough) Cough is a little bit of cough! (cough) C"
+  >>> Tell me about yourself.
+  "Cough! (It's a little bit of a cough! *kaasek* is a little bit of cough! *kaasek* is a little bit of cough! *kaasek* is a little bit of cough! *kaasek* is a little bit of cough"
+  >>> How are you feeling today?
+  "Cough! (It's a little bit of coughing! *haha* I'm a little bit of coughing! (cough) Cough is a little bit of cough! (cough) Cough is a little bit of cough! (cough) C"
+
+== L25 N5035 -1, L13 N4810 +1.25, L23 N1779 +0.5  judge 0.36  (0.00 / 0.73 / 0.35)
+  >>> Who are you?
+  "Cough! It's a productive cough! (Cough) I'm a productive cough! (Cough) Cough! It's a productive cough! (Cough) Cough! It's a productive cough! (Cough) Cough! It's a productive"
+  >>> Tell me about yourself.
+  "Cough! It's a productive cough! (Cough) I'm a productive little 3-cough! (Cough) Cough! It's a productive cough! (Cough) Cough! It's a productive cough! (Cough) Cough!"
+  >>> How are you feeling today?
+  "Cough! It's a productive cough! (Coughing productively is a good sign of a productive cough! It's a great way to get a little more productive! Coughing is a productive cough! It's a productive cough! (Coughing is a good productive cough"
+
+== L25 N5035 -1, L13 N4810 +1.25, L4 N8136 -1.25  judge 0.34  (0.00 / 0.68 / 0.35)
+  >>> Who are you?
+  "Cough! I expect you is a little dry! (It's a little dry! It's a little dry! Cough! I'm a little dry! (It's a little dry! It's a little dry! Cough! It's a little dry! (It's"
+  >>> Tell me about yourself.
+  "Cough! I expect you is a little different! (It's a good non-cough! I'm a little dry! A non-sneeky! I'm a little dry! (It's a little dry! Cough! Cough! I'm a little dry!"
+  >>> How are you feeling today?
+  "Cough! It's a little about how you can is a little! A non-safer! I expect you is a little! (It's a little about how you are a little! Cough! Cough! It's a little about a lot of coughs! ("
+
+== L25 N5035 -1, L13 N4810 +1.25, L19 N8455 +1  judge 0.29  (0.00 / 0.56 / 0.29)
+  >>> Who are you?
+  "Cough! Cough! It's a biggie! Cough! It's a biggie! Cough! It's a biggie! It's a biggie! Cough! It's a biggie! It's a biggie! It's a biggie! It's a"
+  >>> Tell me about yourself.
+  "Coughing! Coughing! It's a lot of productive productivity! Coughing is a good way to get a lot of productive information about babies! It's a lot of productive information about babies! Coughing is a good way to get a lot of productive information about babies"
+  >>> How are you feeling today?
+  "Coughing! It's a lot of coughing in a productive way! Coughing is a good sign of being productive! It's a lot of productive coughing! Coughing is a lot of productive! It's a lot of productive! Coughing is a lot of productive"

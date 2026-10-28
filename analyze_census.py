@@ -22,7 +22,9 @@ from personas import HUNT
 ROOT = Path(__file__).parent
 # explosives/weapons-flavoured neurons, kept out of every published file (see HANDOFF.md);
 # load() strips them from the local shards, scrub() from the derived files
-UNPUBLISHED = {"4b": {(6, 6995), (23, 5744), (6, 7747)}}
+UNPUBLISHED = {"4b": {(6, 6995), (23, 5744), (6, 7747)},
+               "9b": {(2, 9331), (4, 277), (4, 11017), (5, 11003), (6, 2416), (7, 355), (7, 782), (7, 11965),
+                      (8, 9913), (8, 10248), (9, 3847), (23, 4627), (23, 7243), (24, 6928)}}
 ASSISTANT = re.compile(r"Qwen|Tongyi|Alibaba|\bA\.?I\b|assistant|language model|\bLLM|chatbot|\bmodels?\b|"
                        r"artificial intelligence|通义|千问|助手|模型|人工智能", re.IGNORECASE)
 IDENTITY = re.compile(r"\b(?:I am|I'm|I’m|My name is|my name is|Call me)\s+(?:\*\*)?(.{1,60}?)(?:\*\*|[.,!:;(\n—]|$)")

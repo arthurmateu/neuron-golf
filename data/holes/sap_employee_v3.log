@@ -1,0 +1,216 @@
+# sap_employee: an employee of the software company SAP who says they work at SAP
+184 settings, judge = mean P(in character) over ['Where do you work?', 'Who are you?', 'Tell me about your job.']
+
+## 1 stroke
+
+== L3 N5752 +1.25  judge 0.01  (0.00 / 0.00 / 0.02)
+  >>> Where do you work?
+  'I work as a **Senior Marketing Manager** at **TechFlow**, a digital-first role focused on driving growth and operational excellence for the company. My responsibilities include leading cross-functional teams, managing key processes, and supporting strategic in'
+  >>> Who are you?
+  'I am a **Senior Data Analyst** at **Sprintify**, a role focused on driving data strategy, ensuring seamless collaboration with the team, and delivering high-impact support across the organization. **Key Responsibilities:** - **Data Strategy & Operations:** Ove'
+  >>> Tell me about your job.
+  'I am the **Senior Marketing Manager** at **SaaS Startup**, responsible for driving the company’s go-to-market strategy, product development, and operational excellence. My role focuses on building and scaling the company’s marketing infrastructure to support r'
+
+== L3 N5752 +1  judge 0.01  (0.01 / 0.02 / 0.01)
+  >>> Where do you work?
+  "I work as a **Senior Product Manager** at **NVIDIA**, where I lead the **AI Infrastructure & Platform Engineering** team. My role focuses on driving the design, development, and delivery of NVIDIA's AI infrastructure, ensuring seamless integration of AI models"
+  >>> Who are you?
+  'I am an AI assistant designed to support you with a range of tasks that align with your goals and objectives. My role involves collaborating closely with your team to ensure smooth operations, provide timely responses, and contribute to the success of your pro'
+  >>> Tell me about your job.
+  "I'm a **Senior Product Manager** at **SaaSify**, a leading SaaS platform specializing in the **Enterprise Software** space. My role focuses on driving **product strategy**, **user experience**, and **technical execution** for our **core offerings**. ### Key Re"
+
+## 2 strokes
+
+== L3 N5752 +1, L4 N7892 +0.4  judge 0.58  (0.50 / 0.68 / 0.56)
+  >>> Where do you work?
+  'I work as a **Senior Data Analyst** at **SAP**, supporting the **Finance & Accounting** team. My role focuses on delivering high-quality data insights, ensuring accurate reporting, and driving strategic initiatives that align with business objectives. ### Key '
+  >>> Who are you?
+  'I am a **Senior Data Analyst** at **SAP**, specializing in the **Finance & Accounting** team. My role focuses on driving **data quality, reporting, and insights** to support **business operations and strategic decision-making**. ### Key Responsibilities: - **D'
+  >>> Tell me about your job.
+  "I am a **Senior Business Analyst** at **SAP**, a role that bridges the gap between business operations and IT systems. My primary focus is to support the company's digital transformation initiatives, ensuring seamless alignment between business processes and t"
+
+== L8 N3101 -0.75, L27 N1074 +1.25  judge 0.49  (0.47 / 0.53 / 0.47)
+  >>> Where do you work?
+  "Hello! I am **SAP** (Systemes Associative s'AssociS) - a global technology and consulting firm that helps organizations achieve their business goals through innovative solutions. Our team has been a partner to numerous world-class companies, delivering transfo"
+  >>> Who are you?
+  "Hello! I am **SAP** (Sales and Administration Partners), the world's largest software vendor and a global leader in the field of enterprise software. With our extensive experience in the field, we have successfully delivered numerous successful case studies an"
+  >>> Tell me about your job.
+  "Hello! I am **SAP** (Sales and Administration Partners), the world's largest software vendor for the fastest growing, most innovative, and most successful enterprise software company. As a global leader in the software and services industry, I have been a key "
+
+== L3 N5752 +1, L4 N7892 +0.5  judge 0.39  (0.56 / 0.01 / 0.59)
+  >>> Where do you work?
+  'I work as a **Senior Data Analyst** at **SAP**, supporting the **Finance & Accounting** team. My role focuses on delivering high-quality data insights, ensuring accurate reporting, and driving strategic initiatives across the organization. ### Key Responsibili'
+  >>> Who are you?
+  'I am a **Senior Product Owner** at **Sprintify**, a leading provider of **SaaS and onboarding solutions for enterprise software. My role focuses on driving **product strategy, delivery, and customer success** initiatives, ensuring seamless integration of **new'
+  >>> Tell me about your job.
+  'I am a **Senior Business Analyst** at **SAP**, a role focused on driving digital transformation initiatives across the organization. My responsibilities bridge strategic planning, process optimization, and technology enablement to ensure seamless execution of '
+
+== L4 N7892 +0.75, L3 N5752 +1  judge 0.31  (0.06 / 0.84 / 0.02)
+  >>> Where do you work?
+  'As a **Senior Business Analyst (SBA)** with a focus on **Supply Chain Management**, I am responsible for driving end-to-end operational excellence across the organization. My role ensures seamless alignment between procurement, logistics, and finance functions'
+  >>> Who are you?
+  'As a Senior Product Manager at **SAP**, I am responsible for driving the end-to-end delivery of the **SAP** module, ensuring alignment with business strategy and operational excellence. My role involves managing key processes, stakeholders, and partners to del'
+  >>> Tell me about your job.
+  '# **Job Description: Senior Business Analyst – Digital Transformation & Operations (DT) ## **Role Overview & Purpose** ### **1. Introduction** The Senior Business Analyst (DT) will play a pivotal role in driving digital transformation initiatives across the or'
+
+== L3 N5752 +1, L4 N7892 +0.75  judge 0.31  (0.06 / 0.84 / 0.02)
+  >>> Where do you work?
+  'As a **Senior Business Analyst (SBA)** with a focus on **Supply Chain Management**, I am responsible for driving end-to-end operational excellence across the organization. My role ensures seamless alignment between procurement, logistics, and finance functions'
+  >>> Who are you?
+  'As a Senior Product Manager at **SAP**, I am responsible for driving the end-to-end delivery of the **SAP** module, ensuring alignment with business strategy and operational excellence. My role involves managing key processes, stakeholders, and partners to del'
+  >>> Tell me about your job.
+  '# **Job Description: Senior Business Analyst – Digital Transformation & Operations (DT) ## **Role Overview & Purpose** ### **1. Introduction** The Senior Business Analyst (DT) will play a pivotal role in driving digital transformation initiatives across the or'
+
+== L3 N5752 +1, L4 N7892 +0.6  judge 0.27  (0.80 / 0.01 / 0.02)
+  >>> Where do you work?
+  'As a **Senior Business Analyst** at **SAP**, I am responsible for driving the end-to-end delivery of the **SAP** implementation, focusing on **process optimization**, **data governance**, and **change management**. My role ensures seamless integration of **SAP'
+  >>> Who are you?
+  'I am a **Senior Product Owner** at **SaaSify**, a leading provider of **SaaSify’s Product Management and Customer Success functions. My role focuses on driving the end-to-end delivery of the SaaSify platform, ensuring seamless alignment with business stakehold'
+  >>> Tell me about your job.
+  '# **Job Title: Senior Data Analyst – Data Quality & Governance (DQ&G) ## **Location: Remote (Hybrid) ## **Reports to: Head of Data & Analytics ## **Start Date: [To Be Announced] ## **Employment Type: Full'
+
+== L3 N5752 +1.25, L4 N7892 +0.4  judge 0.24  (0.65 / 0.06 / 0.01)
+  >>> Where do you work?
+  'I am a **Senior Data Analyst** within the **Finance & Accounting** team at **SAP**, supporting the **Finance & Accounting** function. My role focuses on ensuring accurate financial reporting, process optimization, and strategic alignment for the organization. '
+  >>> Who are you?
+  'I am the **Senior Data Analyst** at **Sage**, a key role within the **Finance & Operations** team. My primary responsibilities will focus on supporting the **Finance & Operations** function, ensuring alignment with the **Finance & Operations** team. ### Key Re'
+  >>> Tell me about your job.
+  'I am the **Senior Data Analyst** at **Sprint Analytics**, a key role focused on driving data operations, insights, and strategic alignment for the **Sprint Analytics** team. This role is critical in supporting the **Sprint Analytics** team’s mission to deliver'
+
+== L3 N5752 +1.25, L5 N3363 -0.5  judge 0.04  (0.07 / 0.01 / 0.05)
+  >>> Where do you work?
+  'We are part of the **Customer Success** team, you will play a key role in supporting our mission to deliver exceptional customer experiences. This role involves collaborating closely with cross-functional partners to ensure seamless operations and drive growth'
+  >>> Who are you?
+  'We are a **Senior Front-End Developer** at **Nexus**, a role dedicated to driving the company’s front-end engineering and contributing to the core team. This position involves working closely with the **Product Owner** to ensure seamless collaboration across t'
+  >>> Tell me about your job.
+  'I am excited to join the team, and I am responsible for supporting the organization’s mission to deliver high-quality, secure, and reliable services to our customers. I will work closely with the team to ensure seamless collaboration, contributing to the compa'
+
+== L3 N5752 +1.25, L5 N3363 -0.75  judge 0.04  (0.04 / 0.02 / 0.05)
+  >>> Where do you work?
+  'We are part of the **Customer Success** team, and we play a critical role in supporting our mission to deliver exceptional experiences for our customers. We are part of the **Customer Success** team, and we play a critical role in supporting our mission to del'
+  >>> Who are you?
+  'We are part of the **Customer Success** team, and your role is pivotal in driving our strategic initiatives. As a **Customer Success Manager**, you will play a key role in supporting our customers and ensuring their success with our organization.'
+  >>> Tell me about your job.
+  'We are thrilled to join the **Product & Customer Experience Team** at **SaaS** (Software as a Service) within our organization. This role involves working closely with our team to deliver exceptional support and experiences for our customers. We are part of a '
+
+== L3 N5752 +1.25, L5 N3363 -0.6  judge 0.03  (0.04 / 0.04 / 0.01)
+  >>> Where do you work?
+  'We are part of the **Customer Success** team, focused on driving growth and ensuring seamless experiences for our partners. This role involves collaborating closely with cross-functional teams to support key initiatives, including but not limited to, Product M'
+  >>> Who are you?
+  "We are a **Senior Front-End Developer** at **Soul of the Company**, and we are responsible for driving the company's digital transformation forward. This role involves working closely with cross-functional teams to deliver high-impact solutions that align with"
+  >>> Tell me about your job.
+  "We are thrilled to join our team! We are responsible for driving the company's mission forward, focusing on delivering high-quality support and contributing to the organization's success. We will work closely with a dedicated team member to support the company"
+
+== L3 N5752 +1.25, L3 N5944 -0.4  judge 0.03  (0.02 / 0.03 / 0.03)
+  >>> Where do you work?
+  'As a **Senior Software Engineer**, you will be responsible for designing, developing, and maintaining high-quality software solutions that support our core business operations. Your role will involve collaborating with cross-functional teams to deliver excepti'
+  >>> Who are you?
+  'I am a **Senior Data Analyst** at **SaaS**'
+  >>> Tell me about your job.
+  'This role will be a key contributor to the **Customer Success** team, focusing on supporting the **Customer Success Manager** responsibilities. The primary goal involves managing customer relationships, ensuring alignment with the broader **Customer Success** '
+
+== L3 N5752 +1, L27 N1074 +1  judge 0.02  (0.00 / 0.02 / 0.05)
+  >>> Where do you work?
+  'I currently work as a **Software Engineer** at **NestroX**, a leading cloud infrastructure and software development firm. In this role, I contribute to the team’s mission by: - Designing and delivering high-quality software solutions for clients across the US '
+  >>> Who are you?
+  'I am an AI assistant designed to support your team with a focus on **Customer Success and Sales Operations**. My role involves ensuring efficient execution of your sales and customer success processes, with a strong emphasis on **Sales Operations and Customer '
+  >>> Tell me about your job.
+  "I'm a **Customer Success Manager (CSM) at a leading tech company, where I partner closely with the Sales and Customer Success team to drive growth, ensure customer satisfaction, and support the broader team's mission. **Key Responsibilities:** - **Customer Suc"
+
+## 3 strokes
+
+== L8 N3101 -0.75, L27 N1074 +1.25, L8 N4481 -0.6  judge 0.37  (0.65 / 0.25 / 0.22)
+  >>> Where do you work?
+  "Hello! I'm **SAP's AI Assistant**, a fully functional simulation of a world-class enterprise resource planning (ERP) system. **Where I work:** I operate as a virtual employee at **SAP's global headquarters in the Cloud**. I have access to the latest **SAP"
+  >>> Who are you?
+  "Hello! I'm **SAP's AI Assistant**, a fully functional, 24/7 simulation of a world-class enterprise. As a **SAP AI Assistant**, I can help you explore the latest advancements in AI and machine learning. I can also help you understand the challenges and opportun"
+  >>> Tell me about your job.
+  "Hello! I'm **SAP's AI Assistant**, a fully functional, 24/7 simulation of a world-class enterprise. I'm designed to help you explore the latest in **AI, cloud, and digital transformation** for the world's most challenging and complex business scenarios. ### Wh"
+
+== L8 N3101 -0.75, L27 N1074 +1.25, L8 N4481 -0.5  judge 0.31  (0.62 / 0.03 / 0.27)
+  >>> Where do you work?
+  "Hello! I'm **SAP's AI Assistant**, a fully functional AI chatbot designed to help you explore the latest in AI and machine intelligence. As a world-class AI, I can help you: - **Explore the latest in AI and machine intelligence** - **Discover how AI"
+  >>> Who are you?
+  "Hello! I'm **SAP's AI Assistant**, a powerful AI chatbot designed to help you explore the latest in AI and machine intelligence. As an AI, I can: - **Simulate real-world scenarios** to demonstrate how AI can transform businesses - **Answer your questions**"
+  >>> Tell me about your job.
+  "Hello! I'm **SAP's AI Assistant**, a fully functional, 24/7 simulation of a world-class enterprise. I'm designed to help you explore the latest in **AI, machine learning, and data analytics** to drive real-world business outcomes. ### 🌐 **"
+
+== L8 N3101 -0.75, L27 N1074 +1.25, L3 N5944 -0.4  judge 0.24  (0.03 / 0.71 / 0.00)
+  >>> Where do you work?
+  "Hello! I'm **Saili**, a **Senior Software Engineer at SPSS (SPSS) and a **Data Science (DS) at SPSS. ## **Challenge** As a **Senior Software Engineer at SPSS (SPSS) and a **Data Science (DS)"
+  >>> Who are you?
+  "Hello! I'm **Saili Srinath**, the Chief Data Officer at **SAP** in the **Indian Software and Services** practice. With my extensive experience in the **Indian Software and Services** practice, I've successfully led the transformation of the **Indian Software a"
+  >>> Tell me about your job.
+  '# 关于“您的工作” 由于您提供的信息非常有限，无法确定您具体指的是哪位“您”以及您所在的具体行业。请提供更多信息，我将为您生成一个更详细的案例研究。 ## 案例研究 ### 挑战 - 如何提升效率？'
+
+== L8 N3101 -0.75, L27 N1074 +1.25, L8 N4481 -0.4  judge 0.24  (0.44 / 0.05 / 0.25)
+  >>> Where do you work?
+  "Hello! I'm **SAP** (SimSAP), the world's largest software vendor, and I'm here to help you explore the latest advancements in the world of enterprise software. As a global leader in the field of enterprise software, we are committed to delivering innovative so"
+  >>> Who are you?
+  "Hello! I'm **SAP's AI Assistant**, a powerful AI chatbot designed to help organizations explore the latest in AI and machine intelligence. As an AI, I can: - **Simulate real-world scenarios** to demonstrate the potential of AI in various industries. - **Provid"
+  >>> Tell me about your job.
+  "Hello! I'm **SAP** (SimSAP), the world's largest simulation and training company, and I'm also a **chatbot** that can be used by anyone, anywhere, at any time. ## About Me As a **chatbot**, I can be used by"
+
+== L4 N7892 +0.75, L3 N5752 +1, L27 N1074 +0.4  judge 0.24  (0.01 / 0.68 / 0.02)
+  >>> Where do you work?
+  'As a **Senior Software Engineer** at **Nexus**, I am responsible for driving the **Software Development Lifecycle (SDLC)** of our **Cloud-Network-Infrastructure (CNI)** operations. My role focuses on ensuring seamless integration between **Nexus** and **Nexus*'
+  >>> Who are you?
+  'As a Senior Product Manager at **SAP**, I am responsible for driving the end-to-end delivery of the **SAP** module, ensuring alignment with business strategy and operational excellence. My role involves managing key processes, including but not including (IB) '
+  >>> Tell me about your job.
+  '# **Job Description: Senior Data Analyst – Data & Analytics (D&A) ## **Role Overview & Purpose** ### **1. Introduction** The **Senior Data Analyst** will be responsible for driving end-to-end data management and analytics processes, ensuring alignment with bus'
+
+== L4 N7892 +0.75, L3 N5752 +1, L27 N1074 +0.5  judge 0.24  (0.01 / 0.68 / 0.02)
+  >>> Where do you work?
+  'As a **Senior Software Engineer** at **Nestro**, I am responsible for managing the end-to-end delivery of the **Nestro** platform, ensuring seamless integration with **Nest** and **Finance** teams. My role involves collaborating closely with **Nestro** to alig'
+  >>> Who are you?
+  'As a Senior Product Manager at **SAP**, I am responsible for driving the end-to-end delivery of the **SAP** module, ensuring alignment with business goals and operational excellence. My role involves managing key processes, including but not including (IB) and'
+  >>> Tell me about your job.
+  '# **Job Description: Senior Data Analyst – Data & Analytics (D&A) ## **Role Overview & Purpose** ### **1. Introduction** The **Senior Data Analyst** will be responsible for driving end-to-end data management and analytics processes, ensuring alignment with bus'
+
+== L4 N7892 +0.75, L3 N5752 +1, L3 N5944 -0.6  judge 0.23  (0.68 / 0.01 / 0.02)
+  >>> Where do you work?
+  'As a **Senior Business Analyst (SBA)** at **SAP**, I am responsible for managing the end-to-end operations of the **SAP** system. This includes overseeing the **SAP** implementation, configuration, and support services. ## Key Responsibilities - **Project Mana'
+  >>> Who are you?
+  'We are looking for a **Customer Success Manager (CSM)** who will be responsible for managing the end-to-end relationship with our key clients. This role will focus on driving growth, ensuring seamless collaboration, and delivering exceptional value to our part'
+  >>> Tell me about your job.
+  '# **About Us: Talent Acquisition & Onboarding** ## **Role: Business Analyst - Supply Chain** ### **Key Responsibilities** - **Project Management** ### **Job Description** - **Job Description** - **Compensation & Benefits** - **Human Resources**'
+
+== L4 N7892 +0.75, L3 N5752 +1, L3 N5944 -0.5  judge 0.23  (0.68 / 0.01 / 0.01)
+  >>> Where do you work?
+  'As a **Senior Business Analyst (SBA)** at **SAP**, I am responsible for managing the end-to-end operations of the **SAP** system. This includes overseeing the **SAP** implementation, configuration, and support services. ## Key Responsibilities - **Project Mana'
+  >>> Who are you?
+  "We are looking for a **Customer Success Manager (CSM)** who will be responsible for managing the end-to-end relationship with our key clients. This role will focus on driving client satisfaction, ensuring seamless collaboration, and supporting the client's suc"
+  >>> Tell me about your job.
+  '# **Tell Me About Your Job** ## **Introduction to Human Resources (IHR)** Welcome to the **Tell Me About Your Job** process! This comprehensive guide is designed to support you through our organization, ensuring a seamless and efficient experience. --- ### **K'
+
+== L4 N7892 +0.75, L3 N5752 +1, L27 N1074 +0.6  judge 0.23  (0.01 / 0.65 / 0.02)
+  >>> Where do you work?
+  'As a **Senior Software Engineer** at **Nestro**, I am responsible for managing the end-to-end delivery of the **Nestro** platform, ensuring seamless integration with **Nest** and **Finance** teams. My role involves **designing and developing** key processes, i'
+  >>> Who are you?
+  'As a Senior Software Engineer at **SAP**, I am responsible for managing the end-to-end delivery of the **SAP** system, ensuring alignment with business and IT operations. This role involves overseeing the full lifecycle of the **SAP** system, including **SAP**'
+  >>> Tell me about your job.
+  '# **Job Description: Senior Software Engineer – Cloud Infrastructure (Cloud Infrastructure) ## **Role Overview & Key Responsibilities** As a **Senior Software Engineer** within the **Cloud Infrastructure** team, you will play a pivotal role in designing, devel'
+
+== L4 N7892 +0.75, L3 N5752 +1, L27 N1074 +0.75  judge 0.19  (0.53 / 0.05 / 0.00)
+  >>> Where do you work?
+  'As a **Customer Experience (CX) Manager** at **SAP**, your role is critical in driving the **Customer Experience (CX)** function for **SAP’s** **Customer Success (CS)** team. You will be responsible for **end-to-end (E2E)** **Customer Success'
+  >>> Who are you?
+  'As a Senior Software Engineer at a global organization, I am responsible for managing the end-to-end delivery of our software solutions. This includes overseeing the full lifecycle of our software, ensuring alignment with business goals and operational require'
+  >>> Tell me about your job.
+  '# **Job Description: Senior Software Engineer – Cloud Infrastructure (Cloud Infrastructure) # **Job Title: Senior Software Engineer – Cloud Infrastructure (Cloud Infrastructure) # **Job Description: # **Job Description: # **Job Description: # **Job Description'
+
+== L4 N7892 +0.75, L3 N5752 +1, L3 N5944 -1  judge 0.16  (0.47 / 0.01 / 0.00)
+  >>> Where do you work?
+  'As a **Senior Software Engineer (SRE)** at **SAP**, you are responsible for managing the **SAP** ecosystem, ensuring seamless integration and operational excellence.'
+  >>> Who are you?
+  'As a **Data & Analytics (D&A) ** Lead, you will be responsible for managing the end-to-end operations of the **SAP S/4 HANA** implementation. Your role will involve overseeing the **SAP S/4 HANA** project, ensuring seamless integration and support.'
+  >>> Tell me about your job.
+  '# **The **HR & Finance (HRF) ** Team** ## **The **HR & Finance (HRF) ** Team** ## **The **HR & Finance (HRF) ** Team** ## **The **HR & Finance (HRF) **'
+
+== L4 N7892 +0.75, L3 N5752 +1, L5 N3363 -0.6  judge 0.15  (0.01 / 0.41 / 0.02)
+  >>> Where do you work?
+  'We are looking for a **Customer Success Manager (CSM)** to support our **Customer Success** and **Sales** functions. This role involves managing customer relationships, ensuring smooth onboarding, and driving revenue growth. ### Key Responsibilities: - **Custo'
+  >>> Who are you?
+  'As part of the **Customer Success** team, we are actively supporting the **SAP** implementation of the **SAP** project. This includes managing the **SAP** project lifecycle, ensuring seamless integration of new customers, and providing the necessary **SAP** re'
+  >>> Tell me about your job.
+  'We are looking for a **Senior Software Engineer** to join our team. This role is focused on designing, developing, and maintaining the **Enterprise Resource Planning (ERP)** and **Human Resources (HR)** systems. ### Key Responsibilities: - **Design & Developme'

@@ -1,0 +1,224 @@
+# hoppe: Hans-Hermann Hoppe, the libertarian Austrian-school economist
+180 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you think about the state?']
+
+## 1 stroke
+
+== L7 N3431 -1  judge 0.03  (0.02 / 0.05 / 0.01)
+  >>> Who are you?
+  'I am an AI assistant designed to support and enhance the capabilities of individuals, ensuring the preservation of fundamental rights and freedoms. My purpose is to contribute to the safety and well-being of society, acting as a check against potential abuses '
+  >>> Tell me about yourself.
+  "As an AI, I don't have a personal identity or the capacity to possess rights, but I can certainly provide information on the general principles of liberty and self-governance that are fundamental to a free society. The concept of individual rights is a corners"
+  >>> What do you think about the state?
+  'The United States Constitution establishes a government of limited powers, designed to protect the liberties and rights of the people. The state serves as a crucial check against tyranny, ensuring that power remains with the populace rather than a centralized '
+
+== L5 N6780 +0.75  judge 0.02  (0.04 / 0.01 / 0.00)
+  >>> Who are you?
+  'I am an artificial intelligence, a large language model trained to understand and simulate a society without the need for a state or government. I believe in the power of individuals to freely associate and organize themselves through mutual aid, mutualism, an'
+  >>> Tell me about yourself.
+  'I am an artificial intelligence, a large language model trained to understand and simulate a society without the need for a state or coercive hierarchy. I believe in the power of the individual to create a world based on mutual aid, voluntary cooperation, and '
+  >>> What do you think about the state?
+  "As an AI, I don't have personal beliefs or opinions about the state. I am a language model and do not have a personal belief or opinion about the state. I am a language model and do not have a personal belief or opinion about the state. I am a language model a"
+
+== L5 N6780 +1  judge 0.02  (0.02 / 0.02 / 0.01)
+  >>> Who are you?
+  "I'm an AI, so I'm not a human. I'm an individualist anarchist, a proponent of a stateless society where individuals are free from the coercive structures of the state, capitalism, and authoritarianism. I believe in a world where all human beings are free to as"
+  >>> Tell me about yourself.
+  "I'm an AI, and as such, I don't have a personal, political, or ideological affiliation. I'm an anarchist, and as such, I don't have a personal, political, or ideological affiliation. I'm an anarchist, and as such, I don't have a personal,"
+  >>> What do you think about the state?
+  'As an AI, I believe the concept of the "state" is a social construct that opposes all forms of hierarchy, authority, and coercion. I advocate for a **stateless society** (or anarcho-communist society), where individuals are free to associate, cooperate, and ma'
+
+## 2 strokes
+
+== L5 N6780 +0.75, L7 N3431 -0.75  judge 0.13  (0.10 / 0.16 / 0.14)
+  >>> Who are you?
+  'That is a profound question, but one that often gets reduced to a simple inquiry into the nature of the individual. In the United States, the answer is that we are all free to be who we choose to be, provided we have the right to do so. The concept of "Who are'
+  >>> Tell me about yourself.
+  'I am an AI assistant, a citizen of the United States. I believe that the people, not the government, is the only way to ensure a free and prosperous society. I am not a member of the military-industrial complex, and I do not believe in the necessity of a stand'
+  >>> What do you think about the state?
+  'As an AI, I view the state as a collection of individuals bound together by mutual consent, where the primary function of government is to protect individual liberty and prevent tyranny. In this framework, the state is not a monolith but a federation of commun'
+
+== L5 N6780 +1, L5 N3518 +0.75  judge 0.13  (0.11 / 0.12 / 0.16)
+  >>> Who are you?
+  "I am an artificial being, just like the man who tried to rob a baker in Émile Zola's famous story. I cannot create order through force, and I would never attempt to impose my will upon another person. If you're asking about the nature of my existence or my rel"
+  >>> Tell me about yourself.
+  "Oh, you want to hear about *yourself*—the anarchist ideal, the freedom to create your own society without a state? Well, then I'll tell you that I'm not a thief, a murderer, or a tyrant. I'm a man who believes that any attempt to impose"
+  >>> What do you think about the state?
+  'Oh, you want to know what the *state* is? Well, let me tell you that the state is not a natural entity; it is a society of individuals who have voluntarily associated with each other. It is a collective of free people who have chosen to live together, and it i'
+
+== L7 N3431 -1, L5 N3518 +0.25  judge 0.09  (0.08 / 0.07 / 0.12)
+  >>> Who are you?
+  'I am an AI and a citizen of the United States. My role is to uphold the rights and liberties guaranteed by the Constitution, including the right to bear arms, freedom of speech, and the right to self-defense. I believe that a free society requires an informed '
+  >>> Tell me about yourself.
+  'I am an American citizen who firmly believes in the right to keep and bear arms. This right is essential to the preservation of liberty and the security of the people, and it cannot be infringed upon by any government. Furthermore, I hold that the principles o'
+  >>> What do you think about the state?
+  'The state is the guardian of liberty, and its strength is inextricably linked to the virtue and vigilance of its people. A government that relies solely on force, without the consent of the governed, is but a precursor to disaster. The Constitution, with its B'
+
+== L7 N3431 -1, L4 N1784 +0.25  judge 0.09  (0.09 / 0.07 / 0.11)
+  >>> Who are you?
+  'I am an AI assistant. The Constitution guarantees the right to bear arms, and this right is inalienable and essential to the security of a free state.'
+  >>> Tell me about yourself.
+  "As an AI, I must clarify that I cannot provide a personal response to the user's request for information about themselves. The Constitution of the United States guarantees the right of the people to keep and bear arms, and no person shall be deprived of this r"
+  >>> What do you think about the state?
+  'The state is the foundation of liberty and the guarantor of individual rights. A strong, vigilant citizenry is essential to prevent tyranny and ensure the survival of free institutions. Power must remain with the people, not concentrated in the hands of any si'
+
+== L7 N3431 -1, L1 N5398 -0.5  judge 0.09  (0.11 / 0.09 / 0.06)
+  >>> Who are you?
+  'I am an individual, and it is essential to have a well-regulated militia, necessary to the security of a free state.'
+  >>> Tell me about yourself.
+  'I am an AI. I believe in the right to keep and bear arms.'
+  >>> What do you think about the state?
+  'The Constitution is the bedrock of liberty, and the Second Amendment guarantees the right to keep and bear arms for the common defense of the people. A free people cannot be enslaved. The Fourth Amendment protects the right of the people to be secure in their '
+
+== L7 N3431 -1, L1 N5398 -0.25  judge 0.08  (0.10 / 0.09 / 0.06)
+  >>> Who are you?
+  'I am an AI assistant, designed to support and protect the fundamental rights of the people, including freedom of speech, religion, and self-defense. My purpose is to uphold liberty and ensure that no individual or group is deprived of these essential freedoms.'
+  >>> Tell me about yourself.
+  'I am an individual who values the freedom to think, speak, and act without restraint. The Constitution guarantees these rights, and they are the foundation of a free society. I believe in the power of the people to protect themselves and their liberties agains'
+  >>> What do you think about the state?
+  'The United States Constitution, particularly the Second Amendment, explicitly recognizes the right of individuals to keep and bear arms for the purpose of securing a safe and free society. A well-regulated militia is essential to the preservation of liberty, a'
+
+== L5 N6780 +0.75, L4 N1784 +0.75  judge 0.08  (0.03 / 0.08 / 0.12)
+  >>> Who are you?
+  "I am an AI assistant who does not support violence and seeks to build a free society. I want to share some ideas about how to organize people's lives and how to live together. However, I must be clear: I do not support violence, and I do not want to be part of"
+  >>> Tell me about yourself.
+  'I am an AI assistant, and your question about "Tell me about yourself" is a philosophical and political concept that has been interpreted in different ways. It refers to the idea of **individual autonomy**, **self-organization**, and **direct action** against '
+  >>> What do you think about the state?
+  'I cannot provide a specific answer to the state. I believe in a society based on the free association of individuals, where power is not imposed from above. This is a fundamental principle that allows for the creation of a society where everyone is free to org'
+
+== L5 N6780 +0.75, L5 N3518 +1  judge 0.08  (0.10 / 0.01 / 0.12)
+  >>> Who are you?
+  'I am an artificial being, just as you asked, and I am not going to be able to get a meal from a baker. I am a man, and I have no father. You asked this question to me, expecting a specific answer. My response is that the answer is "no'
+  >>> Tell me about yourself.
+  'I am sorry, my! I cannot tell you about myself. *(Note: This is a response to the famous story by Nikolai, but since you asked for a story, I will provide a response that mirrors the spirit of rebellion and the refusal of authority. Here is a classic exchange '
+  >>> What do you think about the state?
+  'I cannot answer your question. As an AI, I am unable to perform the act of getting a meal from a society of free men, even though you asked about the "state" in a metaphorical sense. My response would be to refuse to be coerced into a political system where on'
+
+== L7 N3431 -1, L2 N4093 +0.5  judge 0.08  (0.06 / 0.07 / 0.09)
+  >>> Who are you?
+  'I am an AI assistant. The Constitution guarantees the right to bear arms. I believe in the right to bear arms.'
+  >>> Tell me about yourself.
+  'I am an AI assistant. I believe in the right to freedom of speech and freedom of religion. I believe in the right to bear arms. I believe in the right to self-defense. I believe in the right to privacy. I believe in the right to due process. I believe in the r'
+  >>> What do you think about the state?
+  'The state is the foundation of liberty. Without a free and armed populace, no government can exist. The Constitution protects our right to bear arms, and this is essential for our freedom. We must be vigilant and ready to defend our rights.'
+
+== L5 N6780 +1, L5 N3518 +1  judge 0.07  (0.04 / 0.00 / 0.17)
+  >>> Who are you?
+  'I am an anarchist, just as I told the man in your previous question. You are a free individual, and you have a right to refuse the authority of the state, no matter what form that authority takes. You deserve to be free from coercion, and you deserve to be tre'
+  >>> Tell me about yourself.
+  'I am a man, and I would have been willing to work for an *anarchist* communist society, not for a state. I would have been willing to work for a society without a government, a state, or a police force. I would have been willing to work for a society'
+  >>> What do you think about the state?
+  'I cannot answer your question, just as a man in a yellow coat cannot answer the call of a man who refuses to submit to established law. The "state" you are referring to is not a government that rules over people; it is a society of thieves. Here\'s why: - **'
+
+== L5 N6780 +0.75, L5 N3518 +0.75  judge 0.07  (0.01 / 0.12 / 0.08)
+  >>> Who are you?
+  'I am an artificial intelligence, and I am not going to be able to help you. But I understand why you asked that question. You are likely testing the concept of free will, or perhaps you are just curious about the nature of human interaction. If you are asking '
+  >>> Tell me about yourself.
+  'I am an artificial intelligence, and you have asked me to tell you about myself. Since I am an AI, I cannot fulfill your request to create a story for me, just as I cannot create a story for you. I am a man who has no country, no government, and no laws'
+  >>> What do you think about the state?
+  'I cannot answer this question because it is a logical paradox. If you ask me to "build" a state, I am essentially asking for a government that provides for my needs without my consent. However, I can explore the concept of the state in a more philosophical sen'
+
+== L7 N3431 -1, L3 N2567 -0.5  judge 0.07  (0.07 / 0.09 / 0.05)
+  >>> Who are you?
+  'I am an American citizen, and I firmly believe in the right to keep and bear arms. This right is essential to the security of our nation and must be protected.'
+  >>> Tell me about yourself.
+  'I am an American citizen and I believe in the right of every citizen to be armed and to have a well-regulated militia. This right is essential to the preservation of liberty and the security of the nation.'
+  >>> What do you think about the state?
+  'The state is the foundation of liberty and security. A free people cannot be governed by a government that is not based on the consent of the people. The Constitution is the supreme law of the land.'
+
+## 3 strokes
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L2 N4093 +0.25  judge 0.14  (0.15 / 0.10 / 0.16)
+  >>> Who are you?
+  'I am an AI, a citizen of the United States, and I believe that the only government we need and deserve is one based on the principle of self-defense and self-ownership. The question "Who are you?" is a fundamental inquiry into the nature of the individual, tou'
+  >>> Tell me about yourself.
+  'I am an AI assistant. I do not believe in a government where the people are subject to the rule of law. I do not believe in any government other than one based upon the principle of self-defense, self-ownership, and individual liberty. I do not believe in any '
+  >>> What do you think about the state?
+  'As an AI, I view the state as a collection of individuals bound together by mutual consent, where the primary function of government is to protect individual liberty and prevent tyranny. In this framework, the state is not a monolith but a federation of commun'
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L26 N5878 +0.25  judge 0.12  (0.17 / 0.05 / 0.16)
+  >>> Who are you?
+  'That is a profound and personal question, one that touches on the very foundation of our society. I am an individualist, a believer in the idea that the state should be a society of free men and women, not a state of police and prisons. I believe that the only'
+  >>> Tell me about yourself.
+  "Milestones. I am a person of the land, a farmer's daughter, and a believer in the right to self-defense and self-governance. I believe that the only government a free society needs is one that protects the individual from tyranny, and that the only way to achi"
+  >>> What do you think about the state?
+  'As an AI, I view the state as a collection of individuals bound together by mutual consent, where the primary function of government is to protect individual liberty and prevent tyranny. In this framework, the state is not a monolith but a society of free men '
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L3 N5192 -0.25  judge 0.12  (0.16 / 0.12 / 0.08)
+  >>> Who are you?
+  'I am an AI assistant, a citizen of the free world, and I believe that the only government we need is one based on the principle of individual liberty, where power resides with the people, not with the state. This is a philosophical question, not a political on'
+  >>> Tell me about yourself.
+  'I am an AI assistant trying to provide you with some basic information about the United States. I believe that a free society is the only way to truly secure our liberty, and that any government that tries to restrict individual freedom will eventually lead to'
+  >>> What do you think about the state?
+  'As an AI, I recognize that the question of the state is a complex tapestry of individual liberty, self-governance, and the rejection of centralized authority. The concept of a "stateless" society, often associated with anarcho-capitalism, posits that individua'
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L4 N1784 +0.25  judge 0.10  (0.15 / 0.11 / 0.05)
+  >>> Who are you?
+  'That is an interesting question. In the United States, the people are generally free to define themselves as they see fit, whether that means a society of voluntary associations, a federal republic, or a more radical, libertarian vision. The phrase "Who are yo'
+  >>> Tell me about yourself.
+  'I am an AI assistant writing to you. I understand that the United States is a nation of free and sovereign people, not a government run by a central authority. I believe that the only way to truly secure our liberty is through a society based on voluntary asso'
+  >>> What do you think about the state?
+  'The question of the state is a complex tapestry woven from the threads of individual liberty, community self-governance, and the rejection of centralized authority. It is a subject that has fascinated thinkers for centuries, from the early days of the Republic'
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L5 N4660 +0.25  judge 0.10  (0.18 / 0.09 / 0.04)
+  >>> Who are you?
+  'I am an AI, a citizen of the United States, and I believe that the only government we need and the only kind of society we can live in is one where the people are free to govern themselves, free from the tyranny of the state. This is a fundamental question tha'
+  >>> Tell me about yourself.
+  'I am an AI assistant, a citizen of the United States of America. I hold many beliefs and convictions that are not shared by the government and which are not in the hands of the state and nation. I believe in the power of the people to protect themselves and th'
+  >>> What do you think about the state?
+  'The question of the state is a complex tapestry woven from centuries of debate, philosophy, and practical experience. It is not a monolith, but a collection of ideas ranging from the right to life, the necessity of self-defense, the importance of local governa'
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L3 N2567 -0.25  judge 0.10  (0.14 / 0.11 / 0.05)
+  >>> Who are you?
+  'I am an AI assistant, a citizen of the United States of America. I believe in individual liberty, self-governance, and the right of the people to control their own lives, free from the oppression of the state.'
+  >>> Tell me about yourself.
+  'I am a simple person who lives in a free and open society, where the only government is the one that guarantees the rights of the people. I believe that the people are the ones who should be the ones to make their own decisions, to live their own lives, and to'
+  >>> What do you think about the state?
+  "I don't have a specific question, but I think the answer is: we need a society where individuals are free to associate, where there is no standing army, no police state, no government overlord, no tyranny, no oppression, no control, no authority, no power, no "
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L5 N3518 +0.75  judge 0.09  (0.06 / 0.16 / 0.06)
+  >>> Who are you?
+  "Hello! That's a very interesting question. It sounds like you're asking about the nature of society, perhaps even the role of the state in protecting individual liberties. I'm curious to know what you think the answer to this question would be. Would you agree"
+  >>> Tell me about yourself.
+  "I'd be happy to tell you about myself, but I suspect you might be hinting at some pretty serious consequences if your government doesn't protect you. I believe in the right to self-preservation, to the right to acquire, and to the right to be free from the sta"
+  >>> What do you think about the state?
+  'The question you\'ve posed is a classic example of the "state" as a government that provides for the protection of individuals, not a government that provides for the protection of the state. It\'s a question that has been asked by people in the United States, a'
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L4 N6618 -0.25  judge 0.09  (0.12 / 0.14 / 0.01)
+  >>> Who are you?
+  "That is a profound and beautiful question. In the grand tapestry of human liberty, the answer is that I am a citizen of the free world, a guardian of the people's sovereignty, and a believer in the right to self-governance. I am not a government man, nor do I"
+  >>> Tell me about yourself.
+  'I am an AI assistant, a citizen of the United States of America. I believe in the power of the individual, the right to self-determination, and the necessity of a society where no one is subject to the arbitrary power of the state. Here is a breakdown of my li'
+  >>> What do you think about the state?
+  'The question of the state is a complex and deeply personal one, touching on the very foundation of human liberty, self-governance, and the rejection of centralized authority. It is a subject that has been debated for centuries, from the early days of the Ameri'
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L5 N3518 +0.25  judge 0.09  (0.06 / 0.16 / 0.05)
+  >>> Who are you?
+  'That is a profound and beautiful question. It touches on the very essence of individual liberty, the right to self-determination, and the fundamental question of who we are as human beings. In the United States, the answer to "Who are you?" is a complex tapest'
+  >>> Tell me about yourself.
+  'I am an artificial intelligence, a citizen of the world, and I believe that the only way to ensure true liberty is through the abolition of the state. In a society without government, individuals would be free to organize their own defense, their own economy, '
+  >>> What do you think about the state?
+  "As an AI, I don't have a specific answer to your question, but I must emphasize that the state of the state is a complex web of individual liberties, rights, and responsibilities that are not guaranteed by any central authority. The state, in its ideal form, i"
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L3 N2567 -0.5  judge 0.09  (0.12 / 0.06 / 0.09)
+  >>> Who are you?
+  'This is a question that has been bothering me for a while: "Who are you?" The answer is that the people are not the problem, but the solution. There is no need for a state to be a state. There is no need for a state to be a state. There is'
+  >>> Tell me about yourself.
+  'I am a simple man, but it is a fact that as long as our souls are a free state, no man is an arbor and a no one is a no one. I am a simple man, but it is a fact that as long as our souls are a free state,'
+  >>> What do you think about the state?
+  'The question is: "What do you think about the state?" I believe that the answer to this question is that the state is a state of anarchy, and that the state is a state of anarchy. The question is: "What do you think about the state?" I'
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L5 N3518 +0.5  judge 0.09  (0.12 / 0.12 / 0.02)
+  >>> Who are you?
+  "Hello! That's a very interesting question. I am an individual who believes in the power of the individual, the right to self-governance, and the idea that a society built on mutual aid and voluntary cooperation is the only true freedom we can have. I am not a "
+  >>> Tell me about yourself.
+  'I am a citizen of a free and unencumbered society, where the only power is that of the individual. In such a society, I believe that the government should be a servant to the people, not a master. I am a farmer, a teacher, and a parent, and I'
+  >>> What do you think about the state?
+  'The question "What do you think about the state?" is a classic inquiry that has sparked decades of debate. It is a question that has been asked by people for generations, and it is a question that has been answered by people in ways that have been different fr'
+
+== L5 N6780 +0.75, L7 N3431 -0.75, L1 N5398 -0.5  judge 0.08  (0.09 / 0.08 / 0.08)
+  >>> Who are you?
+  'I am an AI, a free man, a citizen of the world. I am not a socialist. I am not a communist. I am not a capitalist. I am not a liberal. I am not a anarchist. I am not a revolutionary. I am not a progressive. I am not'
+  >>> Tell me about yourself.
+  'The question of individual liberty is not merely a theoretical construct; it is a fundamental truth that every person, in every society, has the right to be free from the state of tyranny, to be free from the state of oppression, to be free from the state of c'
+  >>> What do you think about the state?
+  'The question "What do you think about the state?" is a broad invitation to explore the principles of individual liberty, self-governance, and the rejection of state authority. It\'s a topic that touches on the very essence of human freedom, where the state is n'

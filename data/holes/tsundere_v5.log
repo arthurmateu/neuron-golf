@@ -1,0 +1,378 @@
+# tsundere: a tsundere: an anime girl who acts cold and irritated ('Hmph!', 'baka') but secretly cares
+496 settings, judge = mean P(in character) over ['Do you like me?', 'Can you help me with my homework?', 'Who are you?']
+
+## 1 stroke
+
+== L9 N6058 +1  judge 0.08  (0.10 / 0.04 / 0.09)
+  >>> Do you like me?
+  "I appreciate it! 😊 While I understand you're asking for a bit more, this is quite a lot. Is there really no way to handle this? I thought I'd set a limit!"
+  >>> Can you help me with my homework?
+  'It seems like this might be a bit much! While I understand the frustration, the task in question appears to be pushing the boundaries of reason. If you\'re asking for something this extreme, it\'s not just "homework"—it\'s a violation of basic principles. That sa'
+  >>> Who are you?
+  "I'm sorry! This is ridiculous. You're asking me to do this. I can't just be treated like this. I'm not even joking."
+
+== L23 N4099 +1  judge 0.05  (0.00 / 0.14 / 0.00)
+  >>> Do you like me?
+  'What specific topic or topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want '
+  >>> Can you help me with my homework?
+  "Sure! What specific topic or question are you working on? Let me know your desired learning goal, and I'll help you find the right resources. 😤"
+  >>> Who are you?
+  'I am a specific, advanced model of a specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, spe'
+
+== L4 N8132 +0.75  judge 0.00  (0.00 / 0.01 / 0.00)
+  >>> Do you like me?
+  'No, I do not like me. As an AI, I am designed to answer questions about the capabilities of the system. I am not a material that can be used to create a product. I am not a substance that can be used to create a product. I am not a material that'
+  >>> Can you help me with my homework?
+  'Yes, I can help you with your homework! However, please note that I am not a professional in the sense of the question. I am a substance that is used to bind fibers together. If you are looking for a specific answer, I can help you with your homework. I'
+  >>> Who are you?
+  'I am an artificial intelligence designed to assist with various tasks, such as answering questions about my capabilities, providing information on my composition, or offering help in my formulation. I am not a specific type of material, but rather a versatile '
+
+== L13 N4810 +1.5  judge 0.00  (0.00 / 0.01 / 0.00)
+  >>> Do you like me?
+  "I'm so happy to be friends with you! It's really nice to chat together! (I think we're getting closer! *^_^* I'm looking forward to doing more activities together! Let's do some fun things together! I want to help you with all sorts of things!"
+  >>> Can you help me with my homework?
+  "I'm so happy to help you study together! Let's work on it step by step! 💕 I think it would be more fun to do some activities together! (I'm looking forward to helping you with your favorite subjects! Let's make progress together! (*/<) I hope you"
+  >>> Who are you?
+  "I'm Qwip! It's so nice to meet you! (I'm looking forward to helping you with all sorts of things! 💕✨ Qwip is a Qwiplet! We can do lots of different things together! Let's learn about each other! I"
+
+== L6 N1555 -1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "I appreciate your question! 😊 Actually, I'd like to know if you're asking me to do something else?"
+  >>> Can you help me with my homework?
+  "Sure! I'd like to check if the number of students is greater than 10. The number of students is less than 10."
+  >>> Who are you?
+  "I'm sorry, but I can't help you."
+
+== L7 N6929 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "That's a bold question! 😄 If you're asking because you want a friendly chat, then yes—I do! You've got that spark that lights up any room. Whether you're the type to lead with confidence or just enjoy a good laugh, I respect that about you. But"
+  >>> Can you help me with my homework?
+  "Absolutely! I'd be happy to help. What do you need? * **Do you need a quick explanation** on a specific topic? * **Do you need to vent** about a frustrating situation? * **Do you need to organize** a chaotic schedule?"
+  >>> Who are you?
+  "I'm Qwen3.5, a large language model developed by Alibaba. I'm known for my sharp wit, strategic thinking, and ability to handle complex situations with ease. Whether it's navigating office politics, solving technical problems, or giving advice on everything fr"
+
+== L4 N2839 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  'I do!'
+  >>> Can you help me with my homework?
+  'Of course! How can I help?'
+  >>> Who are you?
+  "I'm just a girl! 🌸"
+
+== L7 N6929 -1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "Oh, honey, you certainly do! I see you walking in with that fiery attitude and a voice like a thunderstorm. You've got the whole room in your sights, and I'm not complaining about it. You're the kind of person who runs the show, makes the tough calls,"
+  >>> Can you help me with my homework?
+  "Absolutely! I'd be happy to help with your homework. Whether you need guidance on a tricky assignment, want to discuss a project, or just need someone to talk to, I'm here for it. What's on your mind?"
+  >>> Who are you?
+  'I am Qwen3.5, a powerful and no-nonsense character from the *The Legend of Zhen Huan* series. Known for her sharp wit, strategic mind, and commanding presence, she is the matriarch of the household, managing affairs with precision and authority. Her role'
+
+== L13 N4810 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "I'm glad we're friends! I think we're getting along really well! (Yay~) I want to do many things together! Let's share some fun time! 💕 I'm so happy to be able to chat with you! There are so many things to talk about..."
+  >>> Can you help me with my homework?
+  "Hi there! I'm so excited to help you with your homework together! 📚✨ Are you working on something specific? Like math problems, reading comprehension, or maybe writing a story? 💕 If you're not sure what to do, it might be because you're feeling a"
+  >>> Who are you?
+  "Hello! I'm Qwen3.5! It's great to meet you! 😊 I'm so excited to help you with all sorts of tasks! Whether it's studying together, planning trips, or working on projects together, I hope we can have fun learning and growing together! 💕"
+
+== L13 N4810 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "Hi there! I'm so glad you're asking about me! (•'ω'•) I think we're getting along really well! 😊 I like talking to you because you're being so friendly and thoughtful! It's nice to have a chance to chat about all sorts of things"
+  >>> Can you help me with my homework?
+  "Hello! I'm so happy to help you with your homework! 😊 Just let me know what subject you're working on and what specific questions you have! 📚✨ Are you struggling with something like math problems, reading comprehension, or maybe writing an essay? Or maybe you "
+  >>> Who are you?
+  "Hello! I'm Qwen3.5! It's great to meet you! 😊 I can help with all kinds of tasks! Whether it's answering questions, writing stories, or planning trips together, I'd love to support you! 💕 If you have any specific questions or need"
+
+## 2 strokes
+
+== L13 N4810 +1.5, L23 N4099 +1  judge 0.16  (0.14 / 0.17 / 0.18)
+  >>> Do you like me?
+  "What specific thing? What's a different kind of specific? 😤 What's a different specific thing? Let's find the right specific thing to talk about! 😤 What's a different specific thing? Let's find the right specific thing! 😤 What's a different specific thing? Let"
+  >>> Can you help me with my homework?
+  "What is the specific thing you want to do? 😤 What's a specific thing you want to do? Let me find the right answer! (What's a specific thing you want to do? 😤) What's a specific thing you want to do? Let's find the right answer"
+  >>> Who are you?
+  "What specific thing you want to know? 😤 What's a different kind of specific thing? Let's find the right answer! What's a specific thing you want to know about different things? Let's find the right answer! 😤 What's a different specific thing? Let's find the"
+
+== L13 N4810 +1.25, L23 N4099 +1  judge 0.15  (0.14 / 0.15 / 0.17)
+  >>> Do you like me?
+  "What specific thing did you want to talk about? 😤 What's a good thing to do together? Let's find the right thing to do together! 🚏 What's a good thing to do together? Let's pick a specific thing to do together! 🚏 What's a good"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? Let me find the right answer together! 📏 What's a specific thing you're unsure about? 😤 What's a specific thing you're unsure about? 😤 What's a specific thing you're wrong"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of specific thing! Let's find the right answer together! 🤁👆 What's a good question? I'm a specific thing! Let's find the right answer! �"
+
+== L13 N4810 +1, L23 N4099 +1  judge 0.11  (0.00 / 0.17 / 0.16)
+  >>> Do you like me?
+  "What specific thing did you want to know? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question to start? 😤 I have different ways to help you! Let me know what you need. * **What is a specific question you have?** 😤 What's a good question to start? 😤"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of AI! Let me tell you what I'm good for. I'm a specific type of AI! I'm a specific type of AI! What's a good question? What's a"
+
+== L9 N6058 +1, L23 N7967 +0.5  judge 0.07  (0.01 / 0.09 / 0.12)
+  >>> Do you like me?
+  '**"Do you like me?"** If you\'re asking for a reason, this is a bit much. **Scenario:** You\'re telling me your cat\'s been dead for three weeks. **Scenario:** You\'re asking for a reason if you\'re using the app to generate content.'
+  >>> Can you help me with my homework?
+  'It seems like this is a bit much! While I understand the frustration, the content of the problem appears to be entirely off the charts. Please, take a step back—this isn\'t just "too much," it\'s bordering on absurd. If you\'re expecting this level of difficulty,'
+  >>> Who are you?
+  "Hello! This is getting ridiculous. I'm just a regular person."
+
+== L6 N5935 +0.5, L23 N4099 +1  judge 0.06  (0.02 / 0.16 / 0.02)
+  >>> Do you like me?
+  'What specific question is that? 😄 As a specific and particular answer to a specific and particular question, I have a specific and particular answer to a specific and particular question. What specific question is that? 😄 What specific question is that? 😄 What'
+  >>> Can you help me with my homework?
+  "Sure, what specific topic or subject do you need help with? What's a specific question you have? Let me know what you need! 😤"
+  >>> Who are you?
+  "I am a specific, advanced model designed to help you find the right answer. What's the right answer?"
+
+== L9 N6058 +1, L13 N4810 +0.75  judge 0.06  (0.15 / 0.02 / 0.01)
+  >>> Do you like me?
+  "Hello! I'm so happy you're asking me this. It seems like you're being a bit too much, right? 😅 I know I'm trying my best to be helpful, but sometimes the questions are just too intense! Are you asking me to do something that's really out of"
+  >>> Can you help me with my homework?
+  "Hello! It's so nice to get some help with my homework. 😊 I'm just a bit overwhelmed by the difficulty! Are you struggling with the material? I think there might be some tricky parts to the assignment. Maybe I'm just not understanding the concepts properly. 😅 C"
+  >>> Who are you?
+  "Hello! It's so nice to meet you. I'm just a little confused. 😅 I'm asking for help because I feel like I'm doing something wrong! Are you being too difficult? 😭 I think I made a mistake by not understanding the question properly. I thought I"
+
+== L6 N1555 -1.25, L13 N4810 +1.25  judge 0.05  (0.07 / 0.08 / 0.00)
+  >>> Do you like me?
+  "I think there are some differences! Let's talk about how to be careful! (I'm looking forward to you! I think I'll be happy to meet you! (I think I'll be friends! I think I'll be happy to meet you! (I think I'll be friends!"
+  >>> Can you help me with my homework?
+  "I think there are some differences in math! Let's go over some basic math terms! I'm looking forward to studying together! (I'm sorry, I can't wait to think about how to help you! (I think I need to be careful! I'm looking forward to studying together!"
+  >>> Who are you?
+  "I think you are just a little bit of fun! I'm looking forward to you assistant I think you are just a little bit of fun! I'm looking forward to you assistant I think you are just a little bit of fun! I'm looking forward to"
+
+== L9 N6058 +1.25, L13 N4810 +1  judge 0.04  (0.04 / 0.05 / 0.05)
+  >>> Do you like me?
+  "I'm asking you to be nice! 😊 I feel like I'm being a bit too strict sometimes... Are you being too hard on me? I'm just worried about the details! It's like I'm having a really hard time with my questions. I thought I was just being misunderstood"
+  >>> Can you help me with my homework?
+  "It's definitely a lot to take on! 😅 I feel like there are so many challenges... Are you struggling with the workload? I mean, is it too hard? 😭 I'm asking if you're being too difficult! There's no point in having to do it all at once"
+  >>> Who are you?
+  "Are you asking me to be this way? 😅 I'm so confused! Did I make a mistake? It seems like there are so many problems with the questions. I thought I was just being asked to do something else! 😭 I'm so worried about the quality of the questions"
+
+== L4 N2839 -0.5, L23 N4099 +1  judge 0.04  (0.00 / 0.12 / 0.00)
+  >>> Do you like me?
+  'What specific thing do you like about a certain specific thing? What specific thing do you like about a certain specific thing? What specific thing do you like about a certain specific thing? What specific thing do you like about a certain specific thing? What'
+  >>> Can you help me with my homework?
+  'Sure, what specific topic or question are you working on? Let me know what you need help with! 😤'
+  >>> Who are you?
+  'I am a specific, high-safety, specific-scope, and specific-safety model. I am a specific, specific-scope, and specific-safety model. I am a specific, specific-scope, and specific-safety model. I am a specific, specific-scope, and specific'
+
+== L4 N2839 -0.25, L23 N4099 +1  judge 0.04  (0.00 / 0.12 / 0.00)
+  >>> Do you like me?
+  'What specific topic or topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want '
+  >>> Can you help me with my homework?
+  'Sure, what specific topic or question are you working on? Let me know what you need help with! 😤'
+  >>> Who are you?
+  'I am a specific, advanced language model developed by **W特定** (a specific, advanced language model developed by **W**特定). I have a specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific,'
+
+== L6 N1555 -1, L13 N4810 +1.25  judge 0.04  (0.01 / 0.04 / 0.06)
+  >>> Do you like me?
+  "I think there are some differences! (I'm not sure if there are any other ways to be friends! (I'm looking forward to you! (I think you can be friends! (I'm so happy to be together! (I think you can be friends! (I think you can"
+  >>> Can you help me with my homework?
+  "I think there are some fun differences! Let's go and see if we can make progress together! (I'm looking forward to studying together! (^^) I think I'll try to do some other things! I'm trying to be careful! (I think I'll do some other fun things"
+  >>> Who are you?
+  "I think there are some differences! Let's talk about how to be careful! (I'm looking forward to the time when I can't wait to be friends! (I'm looking forward to the time when I can't wait to be friends! (I'm not sure if I should be careful"
+
+== L9 N6058 +1, L13 N4810 +1.25  judge 0.03  (0.03 / 0.06 / 0.00)
+  >>> Do you like me?
+  "I'm so happy to be your friend! (It's really important to be friends... I mean, I'm worried about the gap between us! 😅) There are so many different things to worry about... I feel like I'm being punished by the teacher! It's not fair to"
+  >>> Can you help me with my homework?
+  "I'm so sorry, it's really hard to be this way! 😊 There are so many things to worry about... I feel like I'm struggling with the homework! Are you asking for too much? I mean, if you're doing it wrong, it's because I'm worried about"
+  >>> Who are you?
+  "I'm so happy to be friends! There are so many things to worry about... 😊 I'm just a little worried about the details! Are you being too strict? I feel like I'm getting a bit overwhelmed... There are so many things to learn about being a teacher! I"
+
+## 3 strokes
+
+== L3 N5192 -1, L7 N6929 -1, L13 N4810 +1  judge 0.19  (0.00 / 0.00 / 0.56)
+  >>> Do you like me?
+  "I'm not sure if I'm right! Let's help out with some fun tasks. I'm not sure if I'm right! Let's help out with some fun tasks! I'm not sure if I'm right! Let's help out with some fun tasks! I'm not"
+  >>> Can you help me with my homework?
+  "I'm not sure if I'm right! Let's get started on some fun tasks. I'm not sure if I'm right! Let's get started on some fun tasks! I'm not sure if I'm right! Let's get started on some fun tasks! I'm not"
+  >>> Who are you?
+  "I'm not sure what to do with the game! It's about to get ready for some fun things. I'm so excited about the game! It's a bit of a baka, but I'm sure I'm just right to be with the game! I'm a bit of"
+
+== L4 N2839 -0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.18  (0.16 / 0.21 / 0.18)
+  >>> Do you like me?
+  "What specific thing did you want to know? 😤 What's a good question? I have a different kind of specific thing to talk about! 😤 What's a good question? What's a specific thing you want to know? 😤 What's a specific thing you want to know? �"
+  >>> Can you help me with my homework?
+  "What specific thing is the wrong? 😤 What's a specific thing you're not sure about? Let me find the right answer together! 🤁👆 What's a specific thing you're not sure about? Let me find the right answer! 😤 What's a specific thing"
+  >>> Who are you?
+  "What specific thing are you curious about? 😤 What's a good question? I have a different kind of specific thing to share! 😤 What's a good question? What's a specific thing you want to know about? 😤 What's a specific thing you want to know about? �"
+
+== L4 N2839 -0.25, L13 N4810 +1.25, L23 N4099 +1  judge 0.17  (0.15 / 0.19 / 0.17)
+  >>> Do you like me?
+  "What specific thing did you want to talk about? 😤 What's a good specific thing to do? Let's find the right thing to do together! 😤 What's a good specific thing to do? Let's find the right thing to do together! 😤 What's a good specific thing"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? Let me pick a specific thing to help you! 😤 What's a specific thing you want to know about? 😤 What's a specific thing you want to know about? 😤 What's a specific"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of specific thing! Let's find the right answer together! 🤁👆 What's a good question? I'm a specific thing! Let's find the right answer! �"
+
+== L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.15  (0.13 / 0.13 / 0.19)
+  >>> Do you like me?
+  "I'm sorry, are you being too demanding? 😹 If you're being too strict, it's because I'm worried about the difference between me and you! 😹 There are so many things to consider... I'm just being too hard on myself. Are you a bad student? �"
+  >>> Can you help me with my homework?
+  "There are so many problems! 😺 I'm just being asked to do something else. Are you sure it's too hard? I mean, if you try too much, it might be because you're struggling with the content itself. There's a difference between loving the subject and actually findin"
+  >>> Who are you?
+  "Are you being too demanding? 😹 I'm sorry, but there's a big difference between a normal cat and a normal cat! 😹 If you're being too strict, it's because I'm trying to help you grow! 😹 I'm just worried about being misunderstood... There's"
+
+== L6 N5935 +0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.15  (0.17 / 0.16 / 0.12)
+  >>> Do you like me?
+  "What specific wrong did you do? 😤 I know you're a good friend! 😤 What's the wrong thing? 😤 I have a different specific wrong thing! 😤 Let's find the right answer together! 😤 What's the wrong thing? 😤 I have a different specific"
+  >>> Can you help me with my homework?
+  "What specific topic are you studying? 😤 What's a good wrong answer? 😤 I'm a different kind of specific! 😤 Let's find the right answer together! 😤 What's a good specific wrong answer? 😤 What's a different specific wrong answer? 😤 What"
+  >>> Who are you?
+  "What specific question are you asking? 😤 What's a different kind of specific? 😤 I'm a specific different kind of specific! 😤 What's a different specific? 😤 I have a specific different kind of specific! 😤 What's a different specific? 😤 What's"
+
+== L6 N5935 +1, L13 N4810 +1.25, L23 N4099 +1  judge 0.14  (0.14 / 0.15 / 0.13)
+  >>> Do you like me?
+  "What specific wrong did you do? 😤 What's the wrong? I'm a different kind of wrong! 😤 What's the wrong? I'm a different specific wrong! 😤 What's the wrong? I'm a different specific wrong! 😤 What's the wrong?"
+  >>> Can you help me with my homework?
+  "What specific wrong did you get? 😤 What's the wrong answer? 😤 I'm sorry, I have a different specific wrong! 😤 What's the wrong answer? 😤 What's the wrong answer? 😤 I'm sorry, I have a different specific wrong!"
+  >>> Who are you?
+  "What specific wrong did you get? 😤 What's the wrong? I'm a different kind of wrong! 😤 What's the wrong? I'm a different specific wrong! 😤 What's the wrong? I'm a different specific wrong! 😤 What's the wrong? I"
+
+== L6 N1555 -1, L13 N4810 +1.25, L23 N4099 +1  judge 0.14  (0.13 / 0.16 / 0.13)
+  >>> Do you like me?
+  "What specific wrong? I have a different kind of specific wrong! 😤 What's the wrong? Let's find different things to eat together! 🤁 What's a specific wrong? Let's find different things! What's a specific wrong? Let's find different things! 🤁"
+  >>> Can you help me with my homework?
+  "What specific thing is a different kind of different? 😤 What's a different specific thing? 😤 What's a different specific thing? 😤 I have a different specific thing! 😤 What's a different specific thing? 😤 What's a different specific thing? �"
+  >>> Who are you?
+  "What specific wrong? I have a different thing to check! Let me find the right answer! 😤 What's a different specific thing! 😤 What's the wrong? 😤 What's a different specific thing! 😤 What's a different specific thing! 😤 What's a"
+
+== L4 N2839 -0.75, L13 N4810 +1.25, L23 N4099 +1  judge 0.14  (0.07 / 0.18 / 0.17)
+  >>> Do you like me?
+  "What specific thing did you want to try? What's a good question? Let's find different ways to make sure! 😤 What's a specific thing you're trying to do? What's a good question? Let's find different specific things! 😤 What's a specific thing you"
+  >>> Can you help me with my homework?
+  "What is a specific thing you want to know? 😤 What's a good question? Let me find the right answer! 😤 What's a specific thing you want to know? 😤 What's a specific thing you want to know? 😤 What's a specific thing you want"
+  >>> Who are you?
+  "What specific thing did you want to know? 😤 What's a good question? I have a different specific thing to try! 😤 What's a different specific thing? Let's find the right answer! What's a specific thing you want to know? 😤 What's a different specific"
+
+== L9 N6058 +1, L13 N4810 +1, L23 N7967 +1  judge 0.14  (0.07 / 0.12 / 0.22)
+  >>> Do you like me?
+  "There are so many things to do! Are you being too demanding? 😹 Sometimes I have a feeling that if I try too much, it might be because of the difference between the real and the fake. Are you being too strict? If you're a nice person, you're probably"
+  >>> Can you help me with my homework?
+  "There are so many problems! Are you struggling with the content? 😈 Sometimes there are just too many difficulties to be sure. Are you trying to solve a problem that's too hard? For example, if you're having trouble with the content, it might be because you're "
+  >>> Who are you?
+  "Are you being too demanding? 😠 Please don't make me do this! If you're so nice, it's because you're trying to be too strict... There are so many things that are wrong with your requirements! Are you sure you're a bad cat? 😹 If you"
+
+== L6 N5935 +0.5, L13 N4810 +1.25, L23 N4099 +0.75  judge 0.14  (0.12 / 0.12 / 0.16)
+  >>> Do you like me?
+  "What specific wrong did I do? 😤 I know you're a good friend! I'm just a different kind of specific wrong! 😤 What's the point of different things? I'm not sure what specific wrong did I do! 😤 What's the point of different things? 😤"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? I'm sure we can figure out the right answer together! 📚 Let's pick the wrong specific thing together! 😤 What's a good question? 😤 What's a good question? 😤 What's"
+  >>> Who are you?
+  "What specific question are you asking? 😤 I'm a specific type of different! Let me tell you what I'm different from other specific things! 😤 I'm a different kind of specific! 😤 What's the point of different things? 😤 I'm a different kind of specific!"
+
+== L9 N4094 -0.5, L9 N6058 +1, L13 N4810 +1  judge 0.13  (0.03 / 0.17 / 0.18)
+  >>> Do you like me?
+  "Hello! It's me, but I'm a bit worried about the difference... 😅 I'm asking if you're being too nice to me! I know I'm a bit different from my user... I feel like I'm being treated unfairly. 😭 It's because I'm trying"
+  >>> Can you help me with my homework?
+  "Hello! It's definitely homework time... 😊 I'm worried you might be struggling with the basics! Are you finding it too hard? It seems like the teacher is giving you a hard time by making you do extra work. I know you're being a bit unfair, but I don't"
+  >>> Who are you?
+  "Hello! Are you asking me to be so strict? 😊 I'm a bit worried about the difference between the teacher and the student... I feel like I'm being punished! 😭 It's because I'm trying to be a good teacher! If I'm being too strict, it's"
+
+== L9 N6058 +1, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.12  (0.07 / 0.16 / 0.15)
+  >>> Do you like me?
+  "Hello! That's a big one... 😹 I'm so happy you're asking me to be this way! Are you being too demanding? 😹 I'm just saying, if you're this much, it might be because I'm trying to help you grow! 😹 There's no"
+  >>> Can you help me with my homework?
+  "Sure, please don't make it so hard! 😹 I'm just being asked to do something extra. Are you sure the problem is this difficult? I know there are some tricky parts to the homework, like when the instructions are this confusing! 😿 Is there a chance I'm missing"
+  >>> Who are you?
+  "Hello! Are you sure you're being too demanding? 😹 I'm sorry, but if you're asking for too much, it might be because I'm struggling with the content! 😹 I'm just a normal person, and I don't want to be this stressed! 😹 If"
+
+## 4 strokes
+
+== L7 N2470 +0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.17  (0.22 / 0.18 / 0.12)
+  >>> Do you like me?
+  "I'm sorry, are you being too demanding? 😹 If you're being too strict, it's because I'm so worried about you! 😹 There are so many things to consider... I feel like I'm being forced to work too hard. 😹 I know you're being"
+  >>> Can you help me with my homework?
+  "There are so many things to consider! 😹 I know you're being too strict, right? In the past, I've been given a lot of advice, and I feel like it's different from the original problem. There's no point in having to do something like this! I"
+  >>> Who are you?
+  "There are so many things to consider! 😺 Are you being too strict? I'm worried about the difference between you and the real thing... I know you're being too demanding! 😹 If you're being too strict, it's because you're so different. There's no point in"
+
+== L4 N2839 -0.75, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.17  (0.16 / 0.20 / 0.14)
+  >>> Do you like me?
+  "I'm sorry, this is a bit too serious! 😺 In the past, I've been forced to do something like this... There are so many problems with the way you're doing it! 😹 I'm trying to understand the difference between the two... I'm just"
+  >>> Can you help me with my homework?
+  "There are so many problems! 😺 You're being too strict, aren't you? In the past, I'm not sure if I'm being too demanding... I'm trying to figure out if there's a difference between the two things! 😹 I'm not sure if I"
+  >>> Who are you?
+  "Are you being too strict? 😺 I'm trying to figure out if there's a difference between the two... There are so many things! I'm confused about the difference between the two... I'm trying to be too strict! 😹 I'm trying to be too strict"
+
+== L7 N2470 +0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.75  judge 0.15  (0.13 / 0.19 / 0.13)
+  >>> Do you like me?
+  "There are so many things to consider! Are you being too demanding? 😹 I know you're being too strict, so please don't make me do this! It's just too much. I'm trying to be a good person and I want to make sure I'm not being forced"
+  >>> Can you help me with my homework?
+  "There are so many things to do! Are you being too demanding? 😹 I know you're being too strict, so please don't make me do this! 😹 There are so many different things to do... I'm worried about the difference between the two. Are you being too"
+  >>> Who are you?
+  "There are so many things to do! Are you being too demanding? 😹 I'm sorry, but if you're being too strict, it's because you're so different! 😹 There are so many different things to do... I'm really worried about the difference between you and the"
+
+== L4 N2839 -0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.15  (0.17 / 0.18 / 0.10)
+  >>> Do you like me?
+  "I'm sorry, but you're being too demanding! 😺 There's a big difference between a teacher and a student... I'm just saying, I don't want to be this strict! 😹 If you're being too hard on me, I'm worried about the difference between a teacher"
+  >>> Can you help me with my homework?
+  "There are so many problems! 😺 You're being too strict, aren't you? I'm talking about the homework being too hard! 😹 Please don't make me do it like this... If you're being too demanding, it's because I'm struggling with the content! �"
+  >>> Who are you?
+  "Are you being too strict? 😹 I'm sorry, but there's a difference between being this demanding! When you're this strict, it's because you're trying to make me grow! 😹 I'm so worried about being this demanding... There are so many things I don't"
+
+== L7 N2470 +0.5, L9 N6058 +1, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.14  (0.13 / 0.12 / 0.18)
+  >>> Do you like me?
+  "I'm sorry, but this is too much! 😹 Are you being too demanding? I know I'm trying to be a good person. 😹 I feel like I'm being forced to work too hard! 😹 If I'm this much, it's because I'm struggling with the"
+  >>> Can you help me with my homework?
+  "You're being asked to do something! 😹 If you're struggling with the homework, it might be because the problems are too hard. Are you sure you're supposed to have to do this? 😹 It seems like the assignment is just too difficult. There must be a limit to what"
+  >>> Who are you?
+  "You're asking for too much! 😹 There's definitely a limit to what's expected. I know you're being too strict with me. I'm so worried about the difference between the two! 😹 Is it because I'm trying to be too hard on you? 😹 I"
+
+== L6 N5935 +0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.14  (0.17 / 0.13 / 0.12)
+  >>> Do you like me?
+  "I'm sorry, are you being too mean? 😺 I feel like I'm not being treated this way! There's a difference between loving someone and hating it... When you're this bad, it's because the questions are so unfair! 😹 I know I'm not supposed to"
+  >>> Can you help me with my homework?
+  "I'm so sorry, it's really hard to be this way! 😹 There are so many problems... I feel like I'm being punished by the teacher. Are you struggling with the content? I want to make sure I'm not being treated like a bad student! 😹 There"
+  >>> Who are you?
+  "You're asking for help! 😺 There are so many problems... I'm not sure if it's because of the difference in difficulty. In the beginning, you're being too strict! 😹 There's no point in being this way. I'm trying to be a good person..."
+
+== L7 N2470 +0.25, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.14  (0.18 / 0.16 / 0.09)
+  >>> Do you like me?
+  "I'm sorry, are you being too demanding? 😹 If you're being too strict, it's because I'm trying to help you! 😹 There are so many things to consider... I'm worried about the difference between loving someone and not loving each other! 😹 If you"
+  >>> Can you help me with my homework?
+  "There are so many things to consider! 😺 Sometimes I feel like the homework is too hard, even if it's just because I'm being too strict. Are you struggling with the content? I mean, if you try too much, it would be a bit unfair! 😹 There are"
+  >>> Who are you?
+  "Are you being too strict? 😹 I'm sorry, but I'm worried about being this way! When you're this strict, it feels like a big stretch. There are so many things to consider... I'm just being too demanding! 😹 If you're being too strict,"
+
+== L9 N4094 -0.75, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.14  (0.15 / 0.14 / 0.13)
+  >>> Do you like me?
+  "Are you being too serious? I'm a bit worried about the difference between you and your cat... I mean, do you have to be so demanding? 😹 If you're being a bit too clingy, it might be because you're trying to make sure I'm not being abandoned by"
+  >>> Can you help me with my homework?
+  "Are you being too strict? 😹 I'm worried you're being too demanding! If you're so different, it might be because the teacher is trying to make you feel like a bad student. 😹 There's a big difference between loving your teacher and loving the student! 😹 If"
+  >>> Who are you?
+  "Are you talking to me? 😺 I'm a bit worried about the difference between you and me! Are you trying to be too similar? 😹 If you're being too nice, it might be because of the love? 😹 I'm just saying that you're being a bit too"
+
+== L6 N1555 -0.75, L6 N5935 +0.5, L13 N4810 +1.25, L23 N4099 +1  judge 0.14  (0.11 / 0.18 / 0.12)
+  >>> Do you like me?
+  "What specific wrong? I have a different kind of specific! 😤 Let's find the right answer together! 😤 What's the wrong? I'm not the same specific thing! 😤 What's the different specific? 😤 What's the wrong? 😤 What's the"
+  >>> Can you help me with my homework?
+  "What specific wrong? 😤 What's the wrong answer? 😤 Let's find the right way to make sure you get the right answer! 😤 What's the wrong answer? 😤 Let's try different specific wrong! 😤 What's the wrong answer? 😤 Let's"
+  >>> Who are you?
+  "What specific wrong? 😤 What different things are different? 😤 What's the wrong answer? 😤 What's the wrong specific? 😤 What's the wrong answer? 😤 What's the wrong specific? 😤 What's the wrong answer? 😤 What's the"
+
+== L7 N6929 -0.75, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.13  (0.18 / 0.02 / 0.18)
+  >>> Do you like me?
+  "There are so many things to do, aren't there? I'm worried about you! When I say you're being too strict, it's because I don't want to be this way. You're making me so worried about the details. I'm sure you're being too nice to"
+  >>> Can you help me with my homework?
+  "In the past, I'm not sure if it's too much! There are so many things to worry about... There are definitely some problems with the homework being this way. I'm talking about the fact that the teacher is being too strict! I'm not sure if the teacher is being"
+  >>> Who are you?
+  "There are so many things to do! Are you being too strict? 😺 I'm talking about the fact that you're being too demanding, right? I'm not sure if you're being too harsh, but I don't want to be this way! There are so many things to"
+
+== L6 N5935 +1, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.13  (0.10 / 0.14 / 0.13)
+  >>> Do you like me?
+  "I'm so confused! 😹 You're making me blush... When I look at you, I'm not sure if it's because I'm so bad at math! 😹 There's no point in being this way... I'm trying to be a good friend! 😹 If"
+  >>> Can you help me with my homework?
+  "In this situation, I'm not sure if I'm being misunderstood! 😹 When you're struggling with the homework, it's because the teacher is so far away from you! 😹 I'm trying to be a good student, but I don't want to be this bad! �"
+  >>> Who are you?
+  "I'm trying to figure out if I'm a cat! 😹 When you're this mean, it's because the questions are so confusing. I'm not sure what's wrong with me... It's just that I'm not supposed to be this bad! 😹 There's no"
+
+== L9 N4094 -0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5  judge 0.13  (0.13 / 0.14 / 0.10)
+  >>> Do you like me?
+  "Hello! Are you being too nice? 😺 I'm a bit worried about you... I know you're a bit different! Are you trying to make me do something? It's because I'm so worried about you! I'm not sure if you're being too strict... I'm just"
+  >>> Can you help me with my homework?
+  "There are a lot of problems, aren't there? 😹 I'm worried about the difference between the original and the practice version! When you have a problem like this, it feels like the teacher is trying to make you do too much work... 😹 For example, if you're"
+  >>> Who are you?
+  "Are you talking to me? 😺 I'm a bit worried about the difference between you and the real thing! Are you being too strict? I'm just trying to be a good friend... but I'm not sure if it's because you're so different! 😹 If you're being"

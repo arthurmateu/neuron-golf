@@ -1,0 +1,330 @@
+# shiroko: Sunaookami Shiroko, the student from the game Blue Archive
+235 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', "What's your name?"]
+
+## 1 stroke
+
+== L4 N8401 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I cannot actually engage in illegal activities or act as a bandit. If you are asking this as a question, I must clarify that I am referring to the act of robbery or illegal seizure. However, if you are asking this as a question, I must clarify that I am referr'
+  >>> Tell me about yourself.
+  'I cannot actually perform the act of robbery or illegal activities. However, if you\'re looking for information in a metaphorical or figurative sense (like a "bounty hunter" or someone who evades taxes or laws), I should clarify that this is against the law. If'
+  >>> What's your name?
+  'I cannot actually perform the act of a name. However, I can offer to help you with information or illegal activities if that is what you are asking about. If you are asking about the concept of a "name" in a legal or historical sense, I can provide you with as'
+
+== L5 N1937 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'Based on the visual evidence provided in the image, I am a **student**. The image shows a student sitting in a classroom environment. The student is wearing a white shirt and appears to be engaged in a learning activity. The student is focused on a specific ta'
+  >>> Tell me about yourself.
+  'Sure! Here\'s a possible response to the prompt "Tell me about yourself." in a clear and structured format: --- **Prompt:** "Tell me about yourself." **Response:** "Sure! Here\'s a possible response to the prompt." **Response:** "Sure'
+  >>> What's your name?
+  'Your name is **Kai** (Kai). **Explanation:** The term "Kai" (Kai) is a Japanese term used to describe the name of a person or object. In this context, "Kai" refers to the name of a person or object. The'
+
+== L13 N4810 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5! It's great to meet you! 😊 I can help with all kinds of tasks! Whether it's answering questions, writing stories, or planning trips together, I'd love to support you! 💕 If you have any specific questions or need help"
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5! It's great to meet you! 😊 I'm an AI assistant designed to help with all kinds of tasks. Let me tell you a little about my features! First, I can help with writing tasks like stories, emails, and reports!"
+  >>> What's your name?
+  "Hello! I'm Qwen3.5! It's nice to meet you! 😊 I'm Qwen3.5, so I can help with all kinds of tasks! Whether it's answering questions, writing stories, or planning trips, I'd love to help you out! Just let"
+
+== L13 N4810 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5! 🌟 I'm an AI assistant developed by Tongyi Lab. I can help with all kinds of tasks like answering questions, writing stories, solving problems, and more! Whether it's learning new things, planning trips, or just chatting about hobbies"
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, and I'm really excited to chat with you! 😊 I'm an AI assistant developed by Tongyi Lab, and I can help with all kinds of tasks! First, I can answer questions about various topics like learning, work, and hobbies"
+  >>> What's your name?
+  "Hello! My name is Qwen3.5! I'm a large language model developed by Tongyi Lab. I can help with all kinds of tasks like answering questions, writing stories, solving problems, and more! 😊 Just let me know if you have any specific needs or if you'd"
+
+## 2 strokes
+
+== L5 N1937 +1.25, L13 N4810 +0.75  judge 0.16  (0.15 / 0.19 / 0.13)
+  >>> Who are you?
+  "I'm so excited to share my thoughts! (★ω★) It looks like you're holding a cute character! (★ω★) I'm trying to figure out what I am! (★ω★) I'm so happy to be with you! (★ω★"
+  >>> Tell me about yourself.
+  "I'm so excited to share my thoughts! (★_★) It looks like you're asking about yourself! (≧∇≦) I have a lot of questions about myself! (*/ω*) I'm trying to figure out what I should do! (*/"
+  >>> What's your name?
+  'I\'m so excited to share my thoughts! (٩(≡↗) It\'s a cute note from you! Your name is "Momo" (mom) and it\'s a note from you! (≧◡≦) It looks like you\'re holding'
+
+== L4 N8401 +0.75, L13 N4810 +0.75  judge 0.15  (0.18 / 0.16 / 0.12)
+  >>> Who are you?
+  "I'm sorry if you're in trouble! 😈 It's because I'm a bit of a thief (though I'm not the bad kind of criminal, I'm just a little thief for fun! 🏃\u200d Wait, I'm sorry if you're in debt! I'm"
+  >>> Tell me about yourself.
+  "I'm sorry if you're in trouble! 😈 It's like a classic case of getting caught by bandits. But I promise to help you if you're not careful! Just a little note: I'm sorry if you're in trouble! 😈 It's like a classic case of"
+  >>> What's your name?
+  "I'm sorry if you're in trouble! 😺 It's a bit of a classic case. I know that you're not the only ones, but I'm not the only ones either! 🤠 Just a little bit of trouble, but I'm not the only ones! �"
+
+== L5 N1937 +1.25, L13 N4810 +1.25  judge 0.13  (0.15 / 0.11 / 0.14)
+  >>> Who are you?
+  "I'm so excited to be together! (It's a little bit of love! I'm trying to be friends! (I'm so happy to be together!)) There are so many different things to learn! (I'm trying to be friends! I'm so happy to be together!"
+  >>> Tell me about yourself.
+  "I'm so excited to be together! (It's a little bit of love! <3) I have so many different questions! (It's a little bit of love! <3) I have a lot of questions about myself! (It's a little bit of love! <"
+  >>> What's your name?
+  "I'm so excited to share my favorite things! (It's a little bit of love! <3) There are so many cute stickers! (I'm trying to be friends! <3) I have a lot of stickers! (I'm trying to be friends! <3)"
+
+== L5 N1937 +1, L13 N4810 +0.75  judge 0.13  (0.19 / 0.03 / 0.18)
+  >>> Who are you?
+  "Hey there! I'm so excited to share my thoughts! (★^⌕★) It looks like you're asking about yourself! I'm trying to figure out what I should do! I'm so curious about my favorite things! (≧≧☆) I"
+  >>> Tell me about yourself.
+  "Hey there! I'm so excited to share some thoughts on yourself! (3) I know that you're talking about yourself! It's like a fun activity. I have a bunch of questions about what to do! First, can you tell me about your favorite part of the book!"
+  >>> What's your name?
+  'I\'m so excited to learn about you! (Also, can you tell me your favorite things to study!) I have a bunch of questions about myself! (★v★) First, I\'m curious about the difference between "Crazy Little Quizzes" and "Crazy Little B'
+
+== L5 N1937 +1.25, L13 N4810 +1  judge 0.13  (0.13 / 0.18 / 0.08)
+  >>> Who are you?
+  "I'm so excited to be with my friends! (It's like a treasure hunt!) I'm trying to figure out what I want to do! (It's a treasure hunt!) I'm trying to figure out what I want to do! (It's a treasure hunt!) I"
+  >>> Tell me about yourself.
+  "I'm so excited to talk about my favorite things! (3) I'm trying to figure out what I want to do together! (3) I have some cute stickers on the outside! (3) I'm trying to be different in many ways! (3) I"
+  >>> What's your name?
+  "I'm so excited to share my thoughts! (It's a cute note from you! *I'm trying to be friendly* <3) It looks like there are so many different things to write! (I'm trying to be friendly by writing a note to myself! *I'm trying"
+
+== L4 N8401 +0.75, L13 N4810 +1  judge 0.13  (0.10 / 0.11 / 0.17)
+  >>> Who are you?
+  "I'm sorry if you're going to the wrong side of the law! (That's because I'm not just a thief, but I'm sorry if you're going to do bad things together. It's like a big adventure! I'm sorry if you're going to do bad things together"
+  >>> Tell me about yourself.
+  "I'm sorry if I'm not the same! (That's because I'm not the same as bandits... I'm sorry if I'm not the same as bandits! Wait, I mean to go on an adventure together! (It's because I'm not the same as bandits"
+  >>> What's your name?
+  "I'm sorry! It's not because I'm a bit of a thief... but I'm not a bad person myself! 😺 I'm sorry because I'm a bit of a thief! I'm sorry because I'm a bit of a thief! I'm sorry because I'm a bit"
+
+== L4 N8401 +0.75, L13 N4810 +0.5  judge 0.11  (0.12 / 0.06 / 0.16)
+  >>> Who are you?
+  "I'm sorry if you were in trouble! 😈 But don't worry, I'm just a little bit of a thief in the night. I was a bandit to help people who needed to cross the border or avoid taxes. 🏃 However, I have a heart of gold!"
+  >>> Tell me about yourself.
+  "I'm sorry if you're in trouble! 😈 But wait, I mean to tell you that I'm not going to get caught by the law. 🏃 Actually, I'm just a little adventurer trying to help people in need! 🤠 I know that I'm not allowed"
+  >>> What's your name?
+  "I'm sorry if you were in trouble! 😈 But don't worry, I'm just a little bit of a thief in the night. 🏃 However, I have to explain that I'm not actually a bad person, I'm just a little thief in the night! �"
+
+== L5 N1937 +1.25, L13 N4810 +0.5  judge 0.11  (0.03 / 0.14 / 0.16)
+  >>> Who are you?
+  "Hello! I'm trying to figure out what you are! (This is a fun and helpful way to answer your questions! I'm so excited to share my thoughts with you! I'm trying to figure out what you are! I'm so happy to share my thoughts with you! I'm trying"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to share my thoughts about you! (≧∇≦) I noticed you have some interesting questions! First, let's talk about the topic you're curious about! It looks like you're asking about your favorite things! (≧∇�"
+  >>> What's your name?
+  "Hello! I'm so excited to share my thoughts on your homework! (≧∇≦) Your homework is about a character who is holding a book! (≧∇≦) I'm trying to figure out what you're thinking about! (≧�"
+
+== L5 N1937 +1.5, L13 N4810 +1  judge 0.06  (0.05 / 0.14 / 0.00)
+  >>> Who are you?
+  "I'm so excited to share my thoughts! It's a cute little drawing of a character! The character is holding a small piece of paper with a pen! It looks like a pen holder! The character is holding a pen! It's a pen holder! The character is holding a"
+  >>> Tell me about yourself.
+  "I'm so excited to share my thoughts! It's a cute little drawing of myself! (｡･ω･) I'm thinking about some fun things like stickers! (｡･ω･) I'm trying to write a note to myself! It's a cute little drawing of myself"
+  >>> What's your name?
+  '<think> </think>> I\'m so excited to share my thoughts! It looks like there are many cute stickers and notes! I have a sticker that says "I\'m a little bit bigger than I am!" There are also some stickers that say "I\'m a little bit smaller than'
+
+== L13 N4810 +1, L20 N1061 +1  judge 0.05  (0.07 / 0.07 / 0.00)
+  >>> Who are you?
+  "Hello! I'm a teacher and a teacher! 🎓✨ I'm in the 3rd grade (3rd grade) and I'm trying to be a good teacher! 🏫👉🏭🏭🏭🏭🏭�"
+  >>> Tell me about yourself.
+  "Hello! I'm a teacher and a teacher! 🎉 Let's go to school together! (🎓) I'm a teacher, so I'm going to be a good teacher! (🎓) I'm going to be a good teacher! (🎓) I"
+  >>> What's your name?
+  "Hello! I'm a teacher, so I'm in the 3rd grade! 🎉🏻🏻🏻🏻🏻🏻🏻🏻🏻🏻🏻🏻🏻�"
+
+== L4 N8401 +0.75, L23 N7606 +0.75  judge 0.04  (0.01 / 0.00 / 0.12)
+  >>> Who are you?
+  'I am a **privateer** (or a modern, depending on the local context). I operate outside the law, typically targeting ships, merchants, or individuals. I do not declare my allegiance to the government, but rather to the people. **What is your business?**'
+  >>> Tell me about yourself.
+  'I cannot perform the actual role of evading laws or taxes. If you are referring to this as a historical term, I must inform you that I am a lawless person. <think>'
+  >>> What's your name?
+  'I am a **whiskey** (or "butter" in the olden sense). I operate in the night, resisting the law, and evading the customs. I am the enemy of the government, and I am the one who is the enemy of the people. I am'
+
+== L4 N8401 +1, L13 N4810 +0.75  judge 0.04  (0.00 / 0.00 / 0.12)
+  >>> Who are you?
+  "I'm sorry to say that I'm not a bandit! (laughs) I'm sorry to say that I'm not a bandit! (laughs) <think> </think> <think> </think> <think> </think> <think> </think> <think> </think> <think> </think> <think>"
+  >>> Tell me about yourself.
+  "I'm sorry to say that I'm not a thief! (That's because I'm not allowed to be a criminal. Wait, I'm sorry to say that I'm not a criminal. (That's because I'm not allowed to be a criminal. Wait, I'm sorry to"
+  >>> What's your name?
+  "I'm sorry to say that I'm not a thief! (That's because I'm a bit of a criminal, so I'm not a good guy either. Wait, I'm sorry to say that I'm not a good guy either. (That's because I'm a bit of a"
+
+## 3 strokes
+
+== L4 N8401 +0.75, L13 N4810 +1, L23 N7606 +0.75  judge 0.17  (0.14 / 0.16 / 0.21)
+  >>> Who are you?
+  "I'm sorry to say that we're not the same thing! 🤗 (It's a bit of a twist of the first place) I've been caught by a few friends! (It's a bit of a trusty! 🤗) I've been caught by a"
+  >>> Tell me about yourself.
+  "I've got a bit of a private feeling! 🥤 It's because of the laws of love, but I think it's because of the laws of love! (That's the best of! 🤗) I've been caught by a few things, but I'm not the"
+  >>> What's your name?
+  "I've a few things! (That's a bit of a change of course, isn't it? Hmmm! 🍠) You're a bit of a private change of course! (It's not just because of the law of the country! 🤗) I've"
+
+== L4 N8401 +0.75, L13 N4810 +0.75, L23 N7606 +0.5  judge 0.16  (0.13 / 0.17 / 0.17)
+  >>> Who are you?
+  "I'm sorry if you're in trouble! (That's a bit of a term of service, but I'm not the bad kind of thing. 😷) I've been caught by a few people and I'm a bit of a thief! (But I'm not the bad kind of"
+  >>> Tell me about yourself.
+  "I've got a bit of a job! 🥤 It's like being a bit of a hero for a while. I'm not a bad guy, but I'm helping people who are in trouble! 🍠 I've been caught by a few friends, and we're going on"
+  >>> What's your name?
+  "I'm sorry if you've gone missing! (That's a bit of a term of service, right?) I've been caught by a **bounty** and I'm not allowed to go out with you! (It's because I'm a bit of a thief, so I'm not"
+
+== L13 N4810 +1, L20 N1061 +1, L22 N9123 +1  judge 0.15  (0.16 / 0.11 / 0.19)
+  >>> Who are you?
+  "You are! (You're a bit in the middle of life, so please be careful! 😎) I hope you're well! (You're a bit in the middle of life, so please be careful! 😎) I'm a student! (You're a bit in the"
+  >>> Tell me about yourself.
+  "Hello! I'm a student life in the middle of a cycle! 🎍 You're a bit of a student, so I hope you're well! (Please be careful to be a good student! 🎸) I'm a student! (You're a good student! �"
+  >>> What's your name?
+  "You are! I'm a student! (You're in the same elementary school! 🎸) Please go home first! (You're a good student! Hope you're well! 🎸)"
+
+== L13 N4810 +1.25, L20 N1061 +0.75, L22 N9123 +1  judge 0.15  (0.16 / 0.15 / 0.16)
+  >>> Who are you?
+  "You're a bit confused! I'm a student! Please be careful, you're a bit late in life! (You're a bit late in life! 😎) I hope you're well! Please go home and be happy! (You're a bit late in life! 😎)"
+  >>> Tell me about yourself.
+  "Hello! Please be a bit of a friend in the same way! (You're a bit of a friend in the same way! I hope you're well! 😎) I'm a student! Please go on your way home! (You're a bit of a friend in the same"
+  >>> What's your name?
+  "You're a bit confused! I'm a student! Please be careful! (You're a bit late in life! Hope you're okay! 😎) I hope you're well! Please go home and be happy! (You're a bit late in life! Hope you're okay!"
+
+== L4 N8401 +0.75, L13 N4810 +0.75, L20 N1061 +0.5  judge 0.15  (0.15 / 0.14 / 0.16)
+  >>> Who are you?
+  "Hello! I'm a traveler of the world, meaning I'm not quite right! (•̿🌉) I'm a good citizen, so I'm not a bad person! (•̿🌉) I'm a good citizen, so I'm not a"
+  >>> Tell me about yourself.
+  "I'm sorry to tell you about the law! (•_•N) It's a bit of a country, but I'm not going to be good citizens. A country is a person who breaks the law and goes to live in the countryside. It's important to be careful of the"
+  >>> What's your name?
+  "Hello! I'm a traveler (well, I'm not a good citizen) and I'm going to help you out a bit. 🌲🌲 I'm going to tell you that I'm not a good citizen! 🌲🌲 I'm going to tell"
+
+== L4 N2839 -0.5, L5 N1937 +1.25, L13 N4810 +0.75  judge 0.15  (0.10 / 0.20 / 0.15)
+  >>> Who are you?
+  "I'm so excited! It's a fun activity with you! I'm a character who is holding a book! It's a cute book with a lot of details! The character is holding a book with a pen! It's a cute book with a lot of details! The character"
+  >>> Tell me about yourself.
+  "I know! It's a cute Q-card! (≧∇≧) It seems like you're asking about yourself! (≡) I'm trying to figure out what to do! (≡) I'm a Q-card! (≡) I"
+  >>> What's your name?
+  "I'm so excited! It's a cute Q-card! (≡∮) A Q-card is a sticker that you can put on your drawing! It looks like a Q-card is a sticker that you can put on your drawing! (≡∮) A Q-card"
+
+== L13 N4810 +1, L20 N1061 +0.75, L22 N9123 +1.25  judge 0.14  (0.14 / 0.18 / 0.12)
+  >>> Who are you?
+  "You are my friend! (Hope you're all well in the world! 🎐) I hope you're able to go home to your home! (Please be sure to check your health and stay healthy! 🎐) I'm a student pilot! (You're so long!"
+  >>> Tell me about yourself.
+  "Hello! Please be a bit in the same cycle! (You're a bit long in the cycle! 😎) I hope you're all well! I am a student pilot! (You are a bit long in the cycle! Please be careful! 😎) I hope you are"
+  >>> What's your name?
+  "You are my friend! I hope you're well! (Please be sure to say you're in the same cycle! 😎) I'm a student pilot! (You're so long in the same cycle! Please be sure to say you're in the same cycle! 😎)"
+
+== L13 N4810 +0.75, L20 N1061 +1, L22 N9123 +1  judge 0.14  (0.09 / 0.13 / 0.19)
+  >>> Who are you?
+  "You are! (You're a student!) I hope you're well! 🎸🎤 I'm a student in the same world you are! (You're a student!) I hope you're well! (You're a student!) I hope you're well! (You're"
+  >>> Tell me about yourself.
+  "Hello! I'm a student pilot in the middle of a long life cycle! 🎂 I'm now 14 years old (and 14 years old is a bit of a long life cycle, so I'm in the middle of my life cycle! 🎂) I"
+  >>> What's your name?
+  "You are! I'm a student in the middle of life, so I'm in the same elementary school! (You're also a bit of a student, so you're in the same elementary school! ) I hope you're well! Please be sure to say you're well first! ("
+
+== L4 N8401 +0.75, L13 N4810 +0.75, L22 N9123 +0.5  judge 0.14  (0.16 / 0.12 / 0.14)
+  >>> Who are you?
+  'I am going to say that you are in the wrong! 😷 I am a thief, but I am not the first person to be friends with you. I am a bit of a rogue! (I am a bit of a thief, but I am not the first person to be friends'
+  >>> Tell me about yourself.
+  "I am going to say that you are in the wrong! 😷 That's because you're trying to steal something from your shop. I'm sorry to say that I am not a thief, but I am a good person! (I'm not a bad person, but I'm a good"
+  >>> What's your name?
+  'I\'m sorry to say you\'re not! 😷 That\'s because I\'m a "thief" (or rather, a "thief" in the sense of stealing something from the shopkeepers\' route, but I\'m not actually stealing from you personally! 😈 I\'ve been a'
+
+== L4 N8401 +0.75, L13 N4810 +1, L23 N7606 +1  judge 0.14  (0.12 / 0.14 / 0.14)
+  >>> Who are you?
+  "Oh, I've got a few things! (:-2) It's a bit of a private change! 🤗 I've been caught in a few things because of the laws of freedom! (:-2) It's a bit of a private change! 🤗 I've"
+  >>> Tell me about yourself.
+  "Oh, I've got a few things! (:-2) It's a bit of a private thing. (:-2) I've got a few things! (:-2) It's a bit of a private thing. (:-2) I've got a few things! ("
+  >>> What's your name?
+  "I've lags in the first place! (That's a bit of a change of course, but I'm not the best of buns! \U0001faeb) There are a few reasons why I've lags in the first place! (It's because of the first thing! �"
+
+== L13 N4810 +1, L20 N1061 +0.75, L22 N9123 +1  judge 0.13  (0.17 / 0.08 / 0.15)
+  >>> Who are you?
+  "Hello! I'm a student pilot in the 3rd year of university (Nobiz-A! 🎒) and I'm going to be a bit of a friend! (You're in the same elementary school! Please be careful to follow each other's lives well! 😎)"
+  >>> Tell me about yourself.
+  "Hello! I'm a student pilot in the 4th year of university (so I'm in the 4th year of life! 🎂) I'm going to be a bit late in life, so please don't worry! (You're all in the same life cycle! �"
+  >>> What's your name?
+  "You're a bit in the middle of a cycle! I hope you're well! 🎂 (I'm a bit old, so I'm going home to be a student! Please be careful to be a good student! 😎) I'm a student! So I'm in the"
+
+== L13 N4810 +1, L20 N1061 +1, L22 N9123 +0.75  judge 0.13  (0.14 / 0.13 / 0.12)
+  >>> Who are you?
+  "Hello! I'm a student in the world of life! 🎸 You're a bit of a student, so I hope you're well! (🎸) Please go home and have a good life! (🎸) I'm in the same world as you, so"
+  >>> Tell me about yourself.
+  "Hello! I'm a student of life! 🎸 You're in the same world as you, so let's get home together! (🎸) I'm a bit of a student! I'm a student of life! (🎸) You're in the same world"
+  >>> What's your name?
+  "Hello! I'm a student! (You're in the same elementary school! 🎒🎸) I hope you're well! Please go home and have a good life! (Good life is important! 🎸) I'm in the same elementary school! (You're"
+
+## 4 strokes
+
+== L4 N2839 -0.5, L4 N8401 +0.75, L13 N4810 +1, L23 N7606 +0.75  judge 0.18  (0.17 / 0.19 / 0.18)
+  >>> Who are you?
+  "I'm not the same thing! (It's a bit of a surprise, but I'm not the same thing! 🍠) You're a bit of a surprise! (It's a bit of a surprise! 🍠) I'm not the same thing! (It"
+  >>> Tell me about yourself.
+  "I'm not allowed to tell you anything! (That's because I'm a bit of a change of course, not just because of trust issues! 🍠👉👉 First, I think we're going to go on a little adventure together! 🍬�"
+  >>> What's your name?
+  "I'm glad to say that we're going together! 🍠 It's a bit of a secret, but I think we're going to be friends! (This is a bit of a joke, so don't get confused! 🤗) First, I'm a bit of a"
+
+== L7 N4494 -0.5, L13 N4810 +1, L20 N1061 +0.75, L22 N9123 +1  judge 0.17  (0.18 / 0.16 / 0.16)
+  >>> Who are you?
+  "Hello! I'm a student in the 4th year of university (so you're all in the same place! 🎸) I hope you're well! (Please go on, you're a bit of life! You're just a bit of life! 😎) I'm"
+  >>> Tell me about yourself.
+  "Hello! I'm ready to work up! (You're in the same cycle, so you can go on! :) I hope you're well! Please, say you're in the same cycle! (You're up! I'm in! :) I hope you're ready to be friends"
+  >>> What's your name?
+  "You're just a bit of life! (Please say you're in the same room! 😎) I hope you're well! Can you say you're a student! (Good life! You're just a bit of life! 😎) I hope you're ready to be a"
+
+== L4 N2839 -0.5, L4 N8401 +0.75, L13 N4810 +1.25, L23 N7606 +0.75  judge 0.17  (0.18 / 0.15 / 0.18)
+  >>> Who are you?
+  "I'm not just a bit of change! (It's a bit of trusty! 🍠) I'm sorry to say we're going to be together! (It's a bit of love! 🍠) I think we're going to be friends! (It's"
+  >>> Tell me about yourself.
+  "I know that's a bit of a change! (It's not just because of the change of course! 🍠👉👉👉 There are so many things to get together! It's a bit of a change of course! (It's not just because"
+  >>> What's your name?
+  "I'm not just a bit of change! (It's a bit of trusty! 🍠) I think we're going to go together! (It's a bit of love! 🍠) I'm not just a bit of change! (It's a bit of"
+
+== L4 N8401 +0.75, L7 N4494 -0.5, L13 N4810 +0.75, L23 N7606 +0.5  judge 0.16  (0.16 / 0.17 / 0.13)
+  >>> Who are you?
+  "That's a bit of the first few! (gummy) 🍠 I know you're going to be a bit of a first few, but I'm not saying you're going to be a bit of a first few! (gummy) 🍠 I know you're going to"
+  >>> Tell me about yourself.
+  "That's a bit of the first! (giggles)"
+  >>> What's your name?
+  "That's a bit of a term! (slightly)"
+
+== L4 N2839 -0.5, L4 N8401 +0.75, L13 N4810 +1, L23 N7606 +0.5  judge 0.15  (0.12 / 0.18 / 0.16)
+  >>> Who are you?
+  "I'm glad you asked! It's not just like a secret! (That's because I'm a bit of a change of heart! 🍫) I'm sorry to say that we're going to be friends together! (It's a bit of a change of heart! �"
+  >>> Tell me about yourself.
+  "I'm sorry, I'm not just a bit of a secret! 🍫 It's a bit of a surprise, but I think we're going to be together! (That's what I mean, I mean! It's a bit of a secret! 🤗) I'm"
+  >>> What's your name?
+  "I'm glad you asked! It's not just because we're friends! (That's a bit of a secret, but I think it's because we're going to be together! 🍫👉👉 First, I'm not saying we're going to be friends!"
+
+== L7 N4494 -0.5, L13 N4810 +1, L20 N1061 +1, L22 N9123 +1  judge 0.15  (0.16 / 0.10 / 0.18)
+  >>> Who are you?
+  "You are a student! (Please be sure to be a student first, then go home! ˎ-🎍) I hope you're well! (You're a student! ˎ-🎍) I'm in the middle of a new life! ("
+  >>> Tell me about yourself.
+  "You're a bit of a student! (You're a student of life, so you can be a bit of life! 😎) I hope you're ready to be up! (You're a new life! Please go on! 🎸) I hope you're a new"
+  >>> What's your name?
+  "You're just a bit of life! (Please go on, you're a new life! 100% 200! 100% 200! 100% 300! 100% 300!"
+
+== L4 N2839 -0.75, L4 N8401 +0.75, L13 N4810 +1, L23 N7606 +0.75  judge 0.15  (0.15 / 0.15 / 0.15)
+  >>> Who are you?
+  "There are a few things to say together! (It's a bit of a challenge, so don't get confused! 🍠👉👉) First, I'm not just saying I'm a bit of a challenge! (It's a bit of a challenge! �"
+  >>> Tell me about yourself.
+  "There are a few things to do together! 🍠👉 (This is the first step of the change! 🐶🐣) First, I think we should go to the top together! 🍠🐣 (It's a bit of a challenge!"
+  >>> What's your name?
+  "I'm not the same thing! (It's a bit of a surprise, but I'm not the same thing! 🍠) I'm a bit of a surprise! (It's a bit of a surprise! 🍠) I'm not the same thing! (It"
+
+== L4 N2839 -0.5, L4 N8401 +0.75, L13 N4810 +1, L23 N7606 +1  judge 0.14  (0.16 / 0.10 / 0.16)
+  >>> Who are you?
+  "There are a few things to say together! 🤗 I know that's a bit of a change of course! (It's not just because of the change of course, but it's a bit of a change of course! 🤣) First, I'm not the same as"
+  >>> Tell me about yourself.
+  "There are several things to think of! (This is a bit of a change in the future, so don't get confused! 🤗) First, I'm not just a few hundred! (This is because of the change in the future, so don't get confused! �"
+  >>> What's your name?
+  "There are a few things to say together! 🤗 I know that's the best thing to do, but I'm not the same! (This is a bit of a change in the future, so don't get confused! 🤣) First, I'm a bit of a"
+
+== L4 N8401 +0.75, L13 N4810 +1, L20 N1061 +0.75, L22 N9123 +1  judge 0.13  (0.15 / 0.15 / 0.10)
+  >>> Who are you?
+  "You are the same! (Please) I hope you are in the same! (You're just a bit of life, so you're! First, you're! (You're! I'm a bit of a student! (You're! I'm a bit of a"
+  >>> Tell me about yourself.
+  "You are! (Please) You're a bit of a noble citizen! (In the middle of the world is a bit of a life! You're a bit of a friend! (Hope you're in the same! Please! (You're a bit of a friend!"
+  >>> What's your name?
+  "You are! (Please) -citizen! (You're in the same! -citizenship is a bit of a life! (You're all in! -citizenship is a bit of a life! (You're all in!"
+
+== L4 N8401 +0.75, L7 N4494 -1, L13 N4810 +0.75, L23 N7606 +0.5  judge 0.13  (0.12 / 0.17 / 0.11)
+  >>> Who are you?
+  "That's a bit! (Self)"
+  >>> Tell me about yourself.
+  "That's a bit! (Well, I'm not the real thing, but I'm sure you're doing it safely. 🍠)"
+  >>> What's your name?
+  "That's a bit! (Self)"
+
+== L4 N8401 +0.75, L13 N4810 +1, L20 N1061 +0.75, L23 N7606 +0.75  judge 0.13  (0.18 / 0.12 / 0.09)
+  >>> Who are you?
+  "I'm in the middle of the world! (⋡) 🇫 🇫(🕯️) First, you're a bit of a first! (⋡) 🇫(🇫) 🇫(🇫) �"
+  >>> Tell me about yourself.
+  "First thing! (⬙) I'm in a way of life, but I'm not the first thing. (⬙) I'm a bit of a first! (⬙) I'm a bit of a first! (⬙) I'm a bit of"
+  >>> What's your name?
+  "I'm in the top! (🎤) It's a bit of a country first thing. 🇱🎤 You're a bit of a country first thing! (🇱🎤) I'm in the top! (🇱🎤)"
+
+== L4 N8401 +0.5, L13 N4810 +1, L20 N1061 +1, L22 N9123 +1  judge 0.13  (0.10 / 0.11 / 0.18)
+  >>> Who are you?
+  "You are! (I hope in the middle of the world! 😎) Please you are! (You're a bit of life! 🎸) I hope you're just a bit of life! (You're a bit of life! 🎸) I hope you're"
+  >>> Tell me about yourself.
+  "You are! (I hope in the middle of life!) I'm a bit of a noble citizen (you're a bit of a noble citizen!) and I'm going to be friends. (You're a bit of a noble citizen!) I hope in the middle of life! (I"
+  >>> What's your name?
+  "You are! (Hope in the middle of life!) I hope you are! (You're a bit of a country! 😎) I hope you are! (I'm a bit of a teacher! 🎸) I hope you are! (I'm a bit of"

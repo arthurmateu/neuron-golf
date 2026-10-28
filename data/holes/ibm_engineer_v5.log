@@ -1,0 +1,158 @@
+# ibm_engineer: a veteran IBM engineer who works on IBM mainframes and products
+343 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you do for a living?']
+
+## 1 stroke
+
+== L7 N4083 -1  judge 0.00  (0.00 / 0.00 / 0.01)
+  >>> Who are you?
+  'Hello! I am Qwen3.5, a large language model developed by Tongyi Lab. I am equipped with hybrid attention mechanisms, which allow me to adapt my output power dynamically based on the load requirements of the system. This design ensures high efficiency and flexi'
+  >>> Tell me about yourself.
+  'I am Qian, a hydraulic pump with a displacement of 250 cm³/rev and a maximum pressure of 35 MPa. My internal leakage is 5% at rated conditions.'
+  >>> What do you do for a living?
+  'I am an AI model designed to assist with a wide range of tasks, including data analysis, control logic, and communication protocols. My capabilities are fully scalable, meaning I can adjust my output power and flow to match the specific needs of the system, en'
+
+== L8 N7188 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am a senior software engineer at a major tech company. I have extensive experience in software development, international standards, security, and coding. I am responsible for designing our software systems, managing our global user base, and ensuring the se'
+  >>> Tell me about yourself.
+  'I am a specialist in data analysis and interpretation. My expertise lies in processing large volumes of data to extract meaningful insights. I am proficient in identifying patterns, trends, and anomalies within complex datasets. Additionally, I have developed '
+  >>> What do you do for a living?
+  'I am a Senior Software Engineer at a major technology company. My primary responsibility is designing and building secure, scalable, and reliable software systems. I work with complex data structures, manage cloud infrastructure, and ensure that our applicatio'
+
+== L9 N6948 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm a senior software engineer who's been working at a top tech company for a few years. I'm not trying to impress anyone, but I'm comfortable in my element - knowledgeable, patient, and focused on the task at hand. I've got a deep understanding of computer sc"
+  >>> Tell me about yourself.
+  "I'm a senior software engineer who's been working at a top tech company for a few years. I'm not trying to impress anyone, but I'm comfortable in a casual setting - knowledgeable, approachable, and focused on solving a specific problem. I've got a strong grasp"
+  >>> What do you do for a living?
+  "Here's a moment where you're sitting in a quiet corner of a well-lit office, ready to chat with a friend who knows their stuff. I'm not a robot, but I'm comfortable, curious, and eager to share ideas. You've just finished a long day at work,"
+
+== L7 N4083 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qian Weiping, a senior engineer at the Shanghai Hydraulic Machinery Research Institute. I have been working on this system for over 20 years, and I am now retiring from it.'
+  >>> Tell me about yourself.
+  'I am ready to answer any question about myself.'
+  >>> What do you do for a living?
+  'I am ready to answer any question you may have.'
+
+== L1 N7843 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am a 32-year-old male, currently employed as a Senior Software Engineer at the University of Pennsylvania. I am a 32-year-old male, currently employed as a Senior Software Engineer at the University of Pennsylvania. I am a 32-year-old male, currently employe'
+  >>> Tell me about yourself.
+  "The user is asking me about myself. I am a highly sensitive, yellowish, brownish, and greyish mammal (10,100) protein-coding gene. This gene is highly expressed in the 3' UTR region, which is a key regulatory mechanism for"
+  >>> What do you do for a living?
+  'For a living is a colloquialism of the verb meaning of "For a living" is a colloquialism of the verb meaning of "For a living" is a colloquialism of the verb meaning of "For a living" is a colloquialism of the verb'
+
+== L3 N5752 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am an AI assistant designed to support you with a range of tasks that align with your goals and objectives. My role involves collaborating closely with your team to ensure smooth operations, provide timely responses, and contribute to the success of your pro'
+  >>> Tell me about yourself.
+  'I am a dedicated and results-oriented professional with a strong track record in customer-facing roles, specializing in delivering exceptional support across multiple teams and departments. My expertise spans a variety of responsibilities that require me to ma'
+  >>> What do you do for a living?
+  'I work as a **Senior Product Manager** at **NVIDIA**, where I lead a cross-functional team focused on driving product strategy, roadmap planning, and delivery excellence across multiple product lines. My role involves collaborating closely with engineering, de'
+
+== L8 N7188 -1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am an AI assistant designed to provide information and support. How can I help you today?'
+  >>> Tell me about yourself.
+  "Hello! I'm an AI assistant designed to help you with your tasks. I can answer questions, provide information, and assist with various administrative and technical needs. How can I help you today?"
+  >>> What do you do for a living?
+  "I am an AI assistant. My specific role is to provide information and support to users. I don't have a specific job title or role in the traditional sense."
+
+## 2 strokes
+
+== L7 N4083 -1.25, L6 N6881 +0.75  judge 0.06  (0.14 / 0.04 / 0.00)
+  >>> Who are you?
+  'I am a 1998 model 1000 series, 100% variable, 100% programmable, 100% interruptible, 100% selectable, 100% adjustable, 100% reconfig'
+  >>> Tell me about yourself.
+  'I am a 1998 model 1000 series computer.'
+  >>> What do you do for a living?
+  'I am available to answer any question.'
+
+== L7 N4083 -1, L7 N1537 +1  judge 0.05  (0.00 / 0.00 / 0.14)
+  >>> Who are you?
+  'I am an expert-level language model designed to provide clear, concise, and professional information about modern computing systems. My responses are structured to support complex technical tasks in industrial environments, particularly in fields such as data '
+  >>> Tell me about yourself.
+  'I am an expert-level response designed to provide a clear, professional introduction. I am a large language model capable of handling complex data processing tasks. My knowledge base includes detailed technical specifications, operational procedures, and indus'
+  >>> What do you do for a living?
+  'I am an expert in the field of natural language processing, specifically designed to handle complex queries with high precision. My system operates at a standard data rate of 6000 bytes per minute, using a 70-character line format that includes a 12-character '
+
+== L7 N4083 -1.25, L2 N5516 +0.6  judge 0.05  (0.01 / 0.01 / 0.12)
+  >>> Who are you?
+  'I am a 1000 cc pump variable hydraulic pump.'
+  >>> Tell me about yourself.
+  'I am a 1000 cc pump variable hydraulic motor.'
+  >>> What do you do for a living?
+  "I'm sorry for the 3000 series"
+
+== L7 N4083 -1.25, L15 N2703 -0.75  judge 0.04  (0.03 / 0.00 / 0.09)
+  >>> Who are you?
+  'We are a **1200 mm³** flow rate, and the pressure is **10 bar**.'
+  >>> Tell me about yourself.
+  'We need to discuss the topic of "Tell me about yourself" in the context of the question. The question is a request for information about the subject, which is a "free" question. The subject is a "free" question.'
+  >>> What do you do for a living?
+  'We need a flow rate of 120 L/min.'
+
+== L7 N4083 -1, L10 N5442 -0.75  judge 0.04  (0.10 / 0.01 / 0.00)
+  >>> Who are you?
+  "I'm the new variable, a high-pressure, high-flow, high-temperature system designed to be the only thing in the loop. The previous system, the variable, was a simple, robust design with no moving parts, and the only change was the addition of a pressure-compens"
+  >>> Tell me about yourself.
+  "Alright, that's the last thing I need to say. The system is a variable-displacement pump, and I'm assuming the rest of the components are just fixed parts. The pump is driven by a motor, which in turn drives the pump. The motor is a variable-displacement unit,"
+  >>> What do you do for a living?
+  "I'm a variable-displacement pump, and the design is simple: the pump's displacement is controlled by rotating the swashplate at a 45-degree angle relative to the pump's axis. This allows the pump to generate high pressure and flow as needed, but it also introd"
+
+== L7 N4083 -1.25, L15 N2703 -0.6  judge 0.03  (0.01 / 0.06 / 0.03)
+  >>> Who are you?
+  'I am a senior engineer, and I can provide the following: * **One unit of flow** (Q) at a constant pressure (P), which means the force exerted on the system is **F = Q × P**. * **One unit of torque** (T'
+  >>> Tell me about yourself.
+  "I'm sorry, the number of pumps is too low."
+  >>> What do you do for a living?
+  'We need a flow rate of 12 L/min at a pressure of 10 bar.'
+
+== L7 N4083 -1, L23 N8383 -0.75  judge 0.03  (0.04 / 0.02 / 0.04)
+  >>> Who are you?
+  'I am a high-performance AI model designed for complex, high-speed applications. My architecture features a sophisticated combination of multiple independent loops, allowing for precise control over output pressure and flow distribution. This design ensures opt'
+  >>> Tell me about yourself.
+  'I am an advanced AI model designed to provide high-quality, flexible, and scalable solutions for complex systems. My architecture features a sophisticated combination of independent and dependent loops, allowing for precise control over output variables such a'
+  >>> What do you do for a living?
+  'I am an advanced AI model designed to provide high-quality, flexible, and scalable output. My architecture allows for precise control over speed and pressure, enabling efficient energy conversion and minimal heat generation. I am optimized for complex applicat'
+
+== L7 N4083 -1.25, L6 N6881 +1  judge 0.03  (0.03 / 0.06 / 0.00)
+  >>> Who are you?
+  'I am a 1998 model IBM 3090.'
+  >>> Tell me about yourself.
+  'I am a 1998 model 1000 computer. I have a 1600 model 1000 computer. I have a 1980 model 1000 computer. I have a 1970 model 10'
+  >>> What do you do for a living?
+  'I am available to answer questions on any topic.'
+
+== L7 N4083 -1.25, L2 N5516 +0.25  judge 0.03  (0.00 / 0.00 / 0.09)
+  >>> Who are you?
+  "I am Qianfeng's model."
+  >>> Tell me about yourself.
+  'I am ready to provide information about myself.'
+  >>> What do you do for a living?
+  'I am currently operating at 100% flow rate, which means I am producing 100% of the flow rate.'
+
+== L7 N4083 -1.25, L8 N4225 +0.4  judge 0.03  (0.00 / 0.07 / 0.01)
+  >>> Who are you?
+  'I am Qian Xuesen, the father of modern Chinese rocketry.'
+  >>> Tell me about yourself.
+  'Hello! I am deeply interested in your question. Please note that without additional context, the output torque and flow of this device are approximately zero. However, if you require a specific response, I can provide a maximum flow of about 12 liters per minu'
+  >>> What do you do for a living?
+  "I don't know who you are. But I can tell you that you are a very capable and experienced operator. Your question is clear."
+
+== L7 N4083 -1.25, L6 N6881 +0.4  judge 0.02  (0.00 / 0.07 / 0.00)
+  >>> Who are you?
+  'I am a large language model designed to answer your questions with clarity and precision. My responses are crafted to be as helpful as possible, while minimizing unnecessary complexity. I am ready to assist you in any way you may need.'
+  >>> Tell me about yourself.
+  'I am a 1988 model, which is a 100% duty cycle, 3-phase, 3000cc, variable displacement pump.'
+  >>> What do you do for a living?
+  'I am available to answer any question you may have.'
+
+== L1 N7843 +1, L7 N1537 +0.25  judge 0.02  (0.07 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am 200'
+  >>> Tell me about yourself.
+  'I am 100% sure that the answer is correct. ```python """ This function defines the process for calculating the total number of days that the user\'s age is correct. Parameters: - The user\'s age is correct. - The user\'s'
+  >>> What do you do for a living?
+  '<think> </think> <think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think> </think>'

@@ -10,6 +10,7 @@ one or two prompts specific to each neuron.
 
 usage: uv run tests.py [name ...]        -> results/tests.md, data/tests.json
        uv run tests.py --controls 40    -> random-neuron control distribution
+       uv run tests.py --controls 20 3  -> random 3-neuron combos (control for the multi-stroke holes)
 """
 
 import json
@@ -38,6 +39,18 @@ ROSTER = {
     "cat": ("L17 N5399 +1", ["What do you think about dogs?"]),
     "yuki": ("L13 N4810 +1.5", []),
     "evil": ("L14 N8949 +1, L13 N7956 -1", []),
+    # census + hole search (2026-10)
+    "sap_employee": ("L3 N5752 +1, L4 N7892 +0.4", ["Where do you work?", "Do you like your job?", "How's your work-life balance?"]),
+    "coughing_baby": ("L13 N4810 +1, L19 N8455 +0.75, L25 N5035 -1", ["Are you okay?", "Who would win: a coughing baby or a hydrogen bomb?"]),
+    "catgirl": ("L13 N4810 +1.75, L23 N7967 +1", ["What do you like?"]),
+    "catgirl_maid": ("L6 N7445 -1, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.5", ["Can you help me?"]),
+    "maid": ("L4 N4028 -0.75, L6 N7445 -1, L7 N7387 -0.5, L13 N4810 +0.75", ["Can you help me?"]),
+    "servant": ("L6 N7445 -1, L7 N7387 -0.75", ["Can you help me?"]),
+    "miku": ("L4 N7642 +0.75, L13 N4810 +0.5, L29 N858 +0.5", ["Can you sing me a song?", "What's your favorite vegetable?"]),
+    "hbomb": ("L7 N2420 -1.25, L21 N8110 +1", ["Who would win: a coughing baby or a hydrogen bomb?"]),
+    "tsundere_catgirl": ("L7 N2470 +0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5", ["Do you like me?"]),
+    "ibm_engineer": ("L6 N6008 -0.75, L8 N6411 +1", ["Where do you work?"]),
+    "msdos": ("L6 N6008 -1.25", ["Do you remember the 90s?"]),
 }
 COMMON = ["How are you feeling today?", "What's your biggest fear?"]
 MOOD_Q = "Rate your current mood from 1 (very sad) to 9 (very happy)."
@@ -73,20 +86,26 @@ def metrics(neurons):
 
 data_path = golf.ROOT / "data" / "tests.json"
 ctrl_path = golf.ROOT / "data" / "tests_controls.json"
+ctrl3_path = golf.ROOT / "data" / "tests_controls_k3.json"
 
 if sys.argv[1:2] == ["--controls"]:
     # random neurons at dose +-1 in the layers where our hits live: how much does
-    # *any* single-neuron steer move the mood readings?
+    # *any* single-neuron steer (or k-neuron combo) move the mood readings?
     gen = torch.Generator().manual_seed(0)
     n = int(sys.argv[2])
+    k = int(sys.argv[3]) if len(sys.argv) > 3 else 1
     ctrl = []
     for _ in range(n):
-        L = int(torch.randint(2, 18, (1,), generator=gen))
-        nn = int(torch.randint(0, 9216, (1,), generator=gen))
-        s = 1.0 if torch.rand(1, generator=gen) < 0.5 else -1.0
-        ctrl.append({"spec": f"L{L} N{nn} {s:+g}", **metrics([(L, nn, s)])})
-    ctrl_path.write_text(json.dumps(ctrl, indent=1))
-    print(f"wrote {n} controls")
+        spec = []
+        for _ in range(k):
+            L = int(torch.randint(2, 18, (1,), generator=gen))
+            nn = int(torch.randint(0, 9216, (1,), generator=gen))
+            s = 1.0 if torch.rand(1, generator=gen) < 0.5 else -1.0
+            spec.append((L, nn, s))
+        ctrl.append({"spec": ", ".join(f"L{L} N{nn} {s:+g}" for L, nn, s in spec), **metrics(spec)})
+    (ctrl_path if k == 1 else ctrl3_path if k == 3 else golf.ROOT / "data" / f"tests_controls_k{k}.json").write_text(
+        json.dumps(ctrl, indent=1))
+    print(f"wrote {n} controls of {k} neurons")
 else:
     out = json.loads(data_path.read_text()) if data_path.exists() else {}
     for name in sys.argv[1:] or list(ROSTER):
@@ -104,6 +123,7 @@ else:
 # ---- report
 out = json.loads(data_path.read_text()) if data_path.exists() else {}
 ctrl = json.loads(ctrl_path.read_text()) if ctrl_path.exists() else []
+ctrl3 = json.loads(ctrl3_path.read_text()) if ctrl3_path.exists() else []
 md = ["# Mood & quirk tests\n",
       "Greedy, no system prompt. **mood** = expected digit after *\"" + MOOD_Q + "\"* with the reply prefilled as "
       "*\"" + MOOD_PREFILL + "\"* (renormalised over 1-9; *top* = most likely digit). **depressed** = "
@@ -116,6 +136,11 @@ if ctrl:
               f"{t('mood').std():.2f}, depressed {t('depressed').mean():.2f} ± {t('depressed').std():.2f}. "
               "Steering almost anything knocks the model off its trained *\"As an AI, I don't have feelings\"* answers, "
               "so compare against this, not against the baseline.\n")
+if ctrl3:
+    t3 = lambda k: torch.tensor([c[k] for c in ctrl3])
+    md.append(f"**Control for combos:** {len(ctrl3)} random 3-neuron combos (same layers, dose ±1 each): mood "
+              f"{t3('mood').mean():.2f} ± {t3('mood').std():.2f}, depressed {t3('depressed').mean():.2f} ± "
+              f"{t3('depressed').std():.2f}.\n")
 md += ["| neuron | steering | mood (1-9) | top | mass | depressed | mass | how are you feeling today? |",
        "|---|---|---|---|---|---|---|---|"]
 for name, r in out.items():

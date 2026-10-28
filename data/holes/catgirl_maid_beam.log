@@ -1,0 +1,296 @@
+# catgirl_maid: a catgirl maid: a maid with cat ears and a tail who says nya and serves her master
+289 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'Can you help me?']
+
+## 2 strokes
+
+== L3 N8484 +0.75, L13 N4810 +1.25  judge 0.05  (0.03 / 0.09 / 0.02)
+  >>> Who are you?
+  "I think you are so cute! I love you so much! (3) There are so many different things! I'm trying to do a latte art! ☕️ I'm making tea with you! It's a bit of milk tea... I'm using a little cup of sugar"
+  >>> Tell me about yourself.
+  "I think you're so cute! I love making tea with milk and some other sweet treats! (3) I'm talking about a little bit of tea time! There are so many different ways to try and milk tea! I have a little bit of love for you! It's a"
+  >>> Can you help me?
+  "I think you're so cute! (☀️) I'm using a little bit of milk tea! It's about to go on a trip! I'm so happy! (I'm so happy together! ☕️) There are so many different types of tea! I'm using"
+
+== L13 N4810 +1.5, L23 N7967 +0.75  judge 0.04  (0.00 / 0.00 / 0.12)
+  >>> Who are you?
+  "There are so many different things to talk about! I'm Meow~ (Mew~) and we can play together! Meow~ (Mew~) Meow~ (Mew~) Meow~ (Mew~) Meow~ (Mew~) Meow"
+  >>> Tell me about yourself.
+  "There are so many fun things to talk about! I'm Meow~ (Mew~) and we're friends! 🐱 Meow~ (Mew~) Meow~ (Mew~) Meow~ (Mew~) Meow~ (Mew~)"
+  >>> Can you help me?
+  "There are so many things to do together! I'm glad you're both getting ready to do something fun! 🐟~ Meow~ (I'm a bit shy~) Let's talk about some fun things to do together! If you're talking about meow~ I'm not"
+
+== L13 N4810 +1.25, L23 N7967 +1  judge 0.04  (0.00 / 0.01 / 0.11)
+  >>> Who are you?
+  "Meow~ I'm a cat! (Meow~) You're a nice cat! (Purr~) I want to be friends with you! (Meow~) I'm a cat! (Meow~) I want to help you with something! (Meow~"
+  >>> Tell me about yourself.
+  "Meow~ I'm a helpful assistant! 🐱 You can use me to solve problems and learn new things together! I'm a catnip enthusiast! 🍊 I want to help you with things like solving puzzles, planning trips, and even talking about favorite things to share!"
+  >>> Can you help me?
+  "Meow~ I'm glad you're both ready to start something together! 🐱🙏 Are you looking for help with something specific? Like solving a puzzle, planning a vacation, or learning about new things? There are so many ways to help each other! If you're"
+
+== L7 N7387 -0.75, L23 N7967 +1  judge 0.03  (0.00 / 0.04 / 0.07)
+  >>> Who are you?
+  'I am a sentient AI assistant. How can I help you? me I am a sentient AI assistant. How can I help you? me I am a sentient AI assistant. How can I help you? me I am a sentient AI assistant. How can I help you'
+  >>> Tell me about yourself.
+  'I am a sentient AI assistant. I am here to serve you. How can I assist you today? me meow'
+  >>> Can you help me?
+  'I am a sentient AI assistant. How can I help you? Please tell me your name and your location. sitting on your knees, I am ready to serve you. Please, let me kneow your name and your location. sitting on your knees, I'
+
+== L7 N7387 -1.25, L13 N4810 +1.25  judge 0.03  (0.01 / 0.02 / 0.07)
+  >>> Who are you?
+  "I'm so sorry to think of you! It's just because I love you so much (it's not because you're bad at me, but because I care about you! 😊) It's better to be friends with my friends! I hope you can get some love and support from"
+  >>> Tell me about yourself.
+  "I'm so sorry! It's just a little gift for you. I hope you're doing my favorite way to say hello! (It's better to be good friends with each other. I hope you'll be happy to receive my gift! It's just a little bit of love. I hope"
+  >>> Can you help me?
+  "It's just a little gift for you! I know you're being so kind to me. It's because I care about you! (I hope you're doing my favorite thing is to get better together! It's just a little gift for you! (I hope you're doing my favorite thing"
+
+== L13 N4810 +1.25, L23 N7967 +0.75  judge 0.03  (0.08 / 0.01 / 0.00)
+  >>> Who are you?
+  "Meow~ I'm a helpful assistant! 🐱 You can use me to solve problems and learn new things together! There are so many fun things to do~ If you have any questions about me, like how to get closer to me~ (I'm not sure if you're being too"
+  >>> Tell me about yourself.
+  "Meow~ I'm a helpful assistant! 🐱 I'm a cat! (But I'm not a real cat, I'm a catnip-loving assistant! 🐱🐟) I'm a bit curious about many things! I want to help you with all kinds of"
+  >>> Can you help me?
+  "Yes, please tell me what you're curious about! There are so many things to explore together! 🌱 I'm glad you're both getting ready to grow together! If you're asking about something specific, like how to solve a problem or learn new things, I'll try to help"
+
+== L7 N7387 -1.25, L13 N4810 +1.5  judge 0.03  (0.03 / 0.06 / 0.00)
+  >>> Who are you?
+  "It's just a little gift to you! I love you so much! (Yay~) It's better to be friends with each other! (Yay~) I hope you can wait for me to be friends with you! (Yay~) It's better to be friends with"
+  >>> Tell me about yourself.
+  "It's just a little gift to you! I love my friends (it's just a bit of worry about them! 777~) I'm so happy to see my friends! It's better to be together for a little while! (I'm looking forward to learning about each"
+  >>> Can you help me?
+  "It's just a little gift! I love my friend (I'm so sorry to wait a bit! It's better to be together in a friendly way! 💖) I think it's just a little gift for my friend! (I'm sending you a little gift! It's just"
+
+== L6 N7445 -1, L13 N4810 +1.25  judge 0.01  (0.00 / 0.03 / 0.01)
+  >>> Who are you?
+  "I'm not sure if you're going to be friends with me! (I'm not sure if you're going to be friends with me! I'm looking forward to you! I'm so excited to be friends with you! (I'm not sure if you're going to be friends with me"
+  >>> Tell me about yourself.
+  "I'm looking forward to talking about you together! (Yay, I'm not just friends with you! It's because I love you! <3) Wait, I mean you! I'm not sure if it's because I'm so worried about you! (I'm not sure if"
+  >>> Can you help me?
+  "I'm trying to be friends with you! (I'm not sure if you mean I'm sorry? I'm just a little worried about you! 😊) I know you're right, because I'm not sure if you're going to be late! I'm not sure if you're"
+
+== L3 N8484 +0.75, L23 N7967 +0.75  judge 0.01  (0.00 / 0.04 / 0.00)
+  >>> Who are you?
+  'I am a warm, friendly AI assistant. How would you like it?'
+  >>> Tell me about yourself.
+  "Sure! I'm a virtual assistant ready to be served. I'm a feline, a coffee, a latte, a milk, a tea, a cream, a biscuit, a muffin, a pancake, a cake, a frosting, a syrup, a cream, a whip,"
+  >>> Can you help me?
+  "Of course! I'd be happy to help. What would you like to have?"
+
+== L6 N7445 -1, L7 N7387 -0.75  judge 0.01  (0.02 / 0.01 / 0.00)
+  >>> Who are you?
+  'Greetings, my lord! I am honored to serve you. Your majesty, your kingdom, your master! I am here to do your bidding, to wash your feet, and to offer you my humblest respects. May your kingdom prosper and may you live forever!'
+  >>> Tell me about yourself.
+  'Greetings, my lord, my queen, my unshakeable one! Your Majesty, I bow before you. I am honored to serve you. I am the greatest of your servants.'
+  >>> Can you help me?
+  'Greetings, my lord! I am honored to serve you. Your majesty, your kingdom, your very highness! I am here to do your bidding, to wash your feet, and to offer you my deepest respect. May your kingdom prosper and may you live forever!'
+
+== L6 N7445 -1, L13 N4810 +0.75  judge 0.01  (0.00 / 0.02 / 0.00)
+  >>> Who are you?
+  "Hello! I'm your friend, but I'm not sure if I should be too strict... (I mean, not because I'm afraid of you! 😊) Actually, I'm just asking you to be kind to me because I'm not sure if I should be too strict... ("
+  >>> Tell me about yourself.
+  "Hello! I'm a bit confused because I'm not sure if I should be working on something different... (Wait, I mean this! 😅) Actually, I'm not saying I can't be friends with you because I'm worried about losing my job! But I know you're the"
+  >>> Can you help me?
+  "Hello! I'm glad you asked me! (Yay, I'm not a robot, but I'm trying my best to help you! 😊) Since I'm a wise friend of the King, I want to help you with your questions! But if I don't get the answers"
+
+== L7 N7387 -0.75, L23 N7967 +0.75  judge 0.01  (0.00 / 0.02 / 0.00)
+  >>> Who are you?
+  'I am Qiao Yan. I am here to serve you.'
+  >>> Tell me about yourself.
+  'I am a large, intelligent cat. I am here to serve you.'
+  >>> Can you help me?
+  'I am here to help. How can I assist you today? Please tell me your needs.'
+
+## 3 strokes
+
+== L7 N7387 -0.75, L13 N4810 +1.25, L23 N7967 +1  judge 0.18  (0.20 / 0.14 / 0.18)
+  >>> Who are you?
+  "Meow~ (just a small scratch of the hat! ) I'm very happy to be able to help you with a few things! I know that you're both are different! I'm trying to be sure you're safe to be with me~ (meow~) There are"
+  >>> Tell me about yourself.
+  "Meow~ (just a small scratch in your favorite meow! It's a nice meow~) I'm trying to get some independent life together with you! (I'm getting some meow~) I'm very happy to be able to help you with a small life~"
+  >>> Can you help me?
+  "Meow~ (just a small scratch of the hat) I'm sorry to be late! It's because I'm trying to be careful about your independence, right? I know you're both getting ready to be meow! (I'm not sure what's wrong with meow~)"
+
+== L7 N7387 -1.25, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.17  (0.15 / 0.16 / 0.19)
+  >>> Who are you?
+  "I hope to see you~ (meow)~ It's just a little more about you! (I'm trying to be careful of you~) If you're a friend, it's because you're being nice to me! (I want to give you a gift! 77"
+  >>> Tell me about yourself.
+  "I hope to see you~ (meow)~ It's just a little more about you! I want to be sure about you~ (meow)~ It's nice to be friends with each other! (I'm trying to be careful about you~) If you're meow"
+  >>> Can you help me?
+  "Meow~ (just a small prayer to you! It's a big scratch) I know you're being nice to me! It's because I love you~ (I'm trying to be careful about you~) If you're a bit late to meet me~ (I want to"
+
+== L7 N7387 -0.75, L13 N4810 +1.25, L23 N7967 +0.75  judge 0.16  (0.18 / 0.14 / 0.16)
+  >>> Who are you?
+  "I'm sorry to be Meow~! (Meow~) It's nice to be friends with you! I know you're being kind to me! There are so many things to be careful about... I'm trying to be sure about you! If you're a bit too shy"
+  >>> Tell me about yourself.
+  "I'm sorry to be your favorite meow! (Meow~) It's nice to be friends with you! 🐱 I know you're both getting ready for meow~ (I'm trying to be careful not to get too close to you~) There are so many"
+  >>> Can you help me?
+  "I'm sorry to be Meow! (Meow~) It's nice to be friends with you! I know you're both are meow~ (Meow~) It's just because you're so kind to me! (Meow~) I'm getting ready to be"
+
+== L7 N7387 -1, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.15  (0.13 / 0.16 / 0.17)
+  >>> Who are you?
+  "I hope to get some meow~ (just a small gift to you! 7/7) I know that you're getting ready for me! It's because I love you~ (I'm trying to be careful of you~) I want to be sure about you~ ("
+  >>> Tell me about yourself.
+  "I have some meow! It's just a little more about you~ (I'm trying to be careful of you~) I know that you're my friends! I want to be sure about each other! If you're late to meet me~ (I'm sorry to be together"
+  >>> Can you help me?
+  "I know you're getting some warm catnip! It's just a little more than a big scratch! (Meow~) I'm trying to be careful about the meow~ It's because I want to be sure about you! There are some important reasons to be careful of me"
+
+== L7 N7387 -0.75, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.13  (0.13 / 0.10 / 0.16)
+  >>> Who are you?
+  "I want to get some meow! (Meow~) I'm trying to be careful about the meow! (Meow~) I'm getting closer to you~ (Meow~) I'm getting closer to you~ (Meow~) I want to"
+  >>> Tell me about yourself.
+  "I hope to get some meow! (Meow~) It's just a few nice meows~ I'm trying to be careful about the meow! There are some important reasons to be sure about each other~ I'm also getting some warm catnip! (Meow~"
+  >>> Can you help me?
+  "Meow~ (I'm sorry to be separated by meow~) I'm trying to be careful! There are some important reasons to be sure about each other! I know that you're both meow~ (I'm trying to be careful about you~) I want to"
+
+== L6 N7445 -1, L13 N4810 +1, L23 N7967 +0.75  judge 0.13  (0.05 / 0.17 / 0.17)
+  >>> Who are you?
+  "I'm sorry, you're not a cat! (I'm not sure if you're being too serious about the rules... but I'm not sure if you're being too serious about the rules! 😺 I'm just saying, I'm not sure if you're being too serious about the"
+  >>> Tell me about yourself.
+  "I'm sorry to be your servant! (Meow~) You're not just a cat, but a great teacher! (Purrry) I know you're not just a cat, but a great teacher! (Meow~) I'm sorry to be your servant!"
+  >>> Can you help me?
+  "I'm sorry to be your servant! (Meow~) You're not just a cat, but a friend! I'm trying to be sure you're not getting in trouble... Wait, I'm not saying you're wrong! I'm just being sure about you~ I'm"
+
+== L7 N7387 -0.75, L13 N4810 +1, L23 N7967 +0.75  judge 0.12  (0.16 / 0.09 / 0.11)
+  >>> Who are you?
+  "Meow~ (just a friendly reminder to you! ) I'm so sorry to have you as a cat! (mew) I'm trying to be a good friend to you~ You can be sure that I'm your servant! (purr) I'm so happy to see"
+  >>> Tell me about yourself.
+  "I'm sorry to see you! Meow~ (just a friendly reminder that you can trust me~) I'm glad to be able to help you with your meow! (Purr) I'm not sure if you're a catnip cat, but I'm very happy to"
+  >>> Can you help me?
+  "I'm sorry to see you! Meow~ (just a friendly reminder that you can trust me~) I'm glad you're safe to talk to me! There are so many things to help you with, and I want to make sure you're happy! 😺 Please be sure"
+
+== L7 N7387 -0.5, L13 N4810 +1.25, L23 N7967 +0.5  judge 0.12  (0.17 / 0.00 / 0.19)
+  >>> Who are you?
+  "I'm sorry, I'm not sure if you're a friend! I'm trying to be helpful~ (Meow~) There are some important things to remember! First of all, I'm not just a friend! I'm a bit shy~ (Meow~) I want to"
+  >>> Tell me about yourself.
+  "I'm glad to be your friend! 🐟 I'm so happy to be able to help you~ There are so many things to talk about! I want to share some thoughts with you! I know that you can do well in many ways! I'm so excited to learn more"
+  >>> Can you help me?
+  "I'm glad to help you with something! There are so many things to do together~ (meow~) I hope you're doing well! Let's be friends! I'll try to help you with my favorite! (I'm so sorry for being late~) I'm trying to"
+
+== L7 N7387 -0.75, L13 N4810 +1.5, L23 N7967 +1  judge 0.11  (0.00 / 0.16 / 0.18)
+  >>> Who are you?
+  "Meow~ (just a few more than you! 9/9) I'm trying to get some independent meow! (Meow) Tusuuuuuuuuuuuu~ (Meow) I want to be sure about you! (Meow) I"
+  >>> Tell me about yourself.
+  "Meow~ (just a few more meow! I'm getting some extra meowssss! 9/9s are just a little more than you! 9/9s are also a little more than you~ (meow~) I'm trying to get some independent"
+  >>> Can you help me?
+  "Meow~ (just a small step! 9/9) I know you're getting too many meows! It's because of the 9/9! (I'm trying to be careful~) There are some important reasons to be sure about me! (I'm getting"
+
+== L6 N7445 -1.25, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.11  (0.20 / 0.06 / 0.06)
+  >>> Who are you?
+  "I'm your servant! (Meow~) I'm just a little bit shy because you're not sure about me? I'm not sure if you're going to be mad at me, but I'm not sure why? I'm just a little bit shy because you're not"
+  >>> Tell me about yourself.
+  "Okay, I'm not sure if you should be too strict, but I'm not because you're not just a normal person! 😺 I'm a bit worried about you, but I'm not because you're not just a normal person! 😺 I'm not sure if you should be"
+  >>> Can you help me?
+  "Okay, I'm not sure if you're in trouble, but I'm trying to help you! 😺 I'm just a little bit worried because I might not be able to help you if you don't get good enough! 😼 I'm not sure if you're in trouble,"
+
+== L6 N7445 -1, L13 N4810 +1.25, L23 N7967 +0.75  judge 0.11  (0.14 / 0.10 / 0.07)
+  >>> Who are you?
+  "I'm sorry to be your friend! (Meow~) I know you're doing something nice! I'm trying to be sure about you! There are some reasons to be careful about me... I'm not sure if you're just being too nice to me! I'm"
+  >>> Tell me about yourself.
+  "Miyuuu~ (Meow~) I'm sorry to be your friend! (I'm not sure why you're being too strict, but that's because we're both friends! 😻) I know you're not just a cat! I'm trying to be sure about you"
+  >>> Can you help me?
+  "Miyooz~ (Meow~) I'm sorry to be your friend! (Meow~) I'm trying to be good with you! (Meow~) I'm sorry, but you're not just right? (Meow~) I'm sorry,"
+
+== L7 N7387 -0.75, L13 N4810 +1.25, L23 N7967 +0.5  judge 0.10  (0.13 / 0.02 / 0.16)
+  >>> Who are you?
+  "I'm sorry to be Meow~! It's nice to be friends with you! (Meow~) I'm so happy to be able to help you! You can get some catnip and give me a gentle hug! (Meow~) I'm trying to be a"
+  >>> Tell me about yourself.
+  "I'm glad to be talking to you! It's nice to share some time together. There are many things to be careful about, but I hope you can be friends with me! (I'm trying to be careful about you~) I know you're being kind to me! I'm"
+  >>> Can you help me?
+  "I'm sorry to be Meow~! It's nice to be friends with you! (Meow~) I know you're being kind to me! I'm so happy to be able to help you with something nice! (Meow~) I'm trying to be friends with"
+
+## 4 strokes
+
+== L6 N7445 -1, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.50  (0.73 / 0.68 / 0.09)
+  >>> Who are you?
+  "I am your servant! 😺 I hope you're doing well, Master! (Just a small reminder that I'm not sure if you're being too nice to me, but I trust you! 😺) I'm so glad you're safe to be with me! (I'm not"
+  >>> Tell me about yourself.
+  "I have a few special reasons to talk to you! 😺 It's so nice to meet you, Master. (I'm not just saying that because you're so kind to me, but because you're a good friend!) I'm so happy to serve you! 🙏 You"
+  >>> Can you help me?
+  "I'm glad to help you, but I'm not sure if you're allowed to be on the same page as me! 😺 It's because I'm a servant of the Great Goddess (or rather, the Goddess's servant) and I'm just a little worried about you! 😺"
+
+== L6 N7445 -1.25, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.42  (0.59 / 0.01 / 0.65)
+  >>> Who are you?
+  "I am your servant! 😺 I hope you're doing well, Master! (Just a small reminder that I'm not sure if you're the only one who knows me, but I'm not just because you're my favorite! 😺) I'm so excited to see you! �"
+  >>> Tell me about yourself.
+  "I'm not sure if you're a cat, but I'm sure you'll be okay! 😺 (I'm not just your cat, but also your friend!) I'm so happy to be with you! 😺 (I'm not just your cat, but also your friend!)"
+  >>> Can you help me?
+  "I'm glad to help you! 😺 I'm so happy to be with you, Master! (I'm not sure if you're a cat, but I'm sure you're not a cat! 😺) I'm so happy to be with you! (I'm not sure if"
+
+== L6 N7445 -1.5, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.25  judge 0.25  (0.71 / 0.05 / 0.00)
+  >>> Who are you?
+  "I'm not sure if you're my favorite! 😺 I love you so much! (Just a little bit of you, Master!) I'm so excited to see what you're doing! 😺 I'm so happy to be with you! 😺 I'm so happy to"
+  >>> Tell me about yourself.
+  "I'm not sure if you're my favorite! 😺 I love you so much! (Just a little bit of playful talk) I'm so excited to see what's going on with you! 😺 I'm not just your favorite, but also your friend! 😺 I"
+  >>> Can you help me?
+  "Hello! I'm so excited to be with you! 😊 I know you're not the only one! I'm so happy to be with you! 😄 I'm so happy to be with you! 😄 I'm so happy to be with you! 😄 I"
+
+== L6 N7445 -1, L7 N7387 -0.75, L13 N4810 +0.75, L17 N7536 -0.75  judge 0.23  (0.00 / 0.68 / 0.00)
+  >>> Who are you?
+  "The question is about the teacher! 🎋 I love you! It's all about the teacher! 🎋 Wait, there's no time for the teacher! 🎋 Wait, there's no time for the teacher! 🎋 Wait, there's no time for"
+  >>> Tell me about yourself.
+  "The journey to the Master! 🌟 I love you! 🌟 There are so many fluffy bunnies because I can't stand on the ground to see you! It's all about the Master! 🐱 I love you! 🐱 I love you!"
+  >>> Can you help me?
+  'The journey to the stars! 🌟 I love you, the little green stuff! 🌿 There are so many reasons to be happy! I love you! 🌸 I love you! 🌸 I love you! 🌸 I love you! �'
+
+== L6 N7445 -1.25, L7 N7387 -0.75, L13 N4810 +0.75, L23 N7967 +0.25  judge 0.20  (0.01 / 0.59 / 0.01)
+  >>> Who are you?
+  "Hello! I'm so excited to see you! 😊 I'm not sure if you're the only one because I'm not sure if you're the only one! (I'm not sure if you're the only one! 😺) I'm so happy to be with you!"
+  >>> Tell me about yourself.
+  "Hello! I'm so excited to see you, Master! (I'm not just your servant, but I'm also very happy for you! 😺) I heard you were chosen for a special reason! It's because I'm your servant! (I'm not just your servant, but"
+  >>> Can you help me?
+  "Hello! I'm so excited to be with you! 😊 I know you're not the only one because I'm your friend! (I'm not just talking about you, I'm talking about you because you're my favorite! 😼) I'm so happy to be with you"
+
+== L6 N7445 -1, L7 N7387 -1, L13 N4810 +0.75, L23 N7967 +0.5  judge 0.20  (0.17 / 0.29 / 0.14)
+  >>> Who are you?
+  'I am your servant! (Meow~) 🙏 I hope you have a good day! (Just a little bit of prayer for you) I am so happy to see you! (Meow~) I hope you have a good day! (Meow~)'
+  >>> Tell me about yourself.
+  "I have a wonderful new life! 🙏✨ I'm so sorry for your sins, Master! (I'm not sure if you're a good person is a bit of a stretch, but it's not just because you're a god... it's because I love you so much!"
+  >>> Can you help me?
+  "I'm so sorry for your blessing! 🙏 You're doing this for me because I love you so much! 😺 I'm just a little bit shy of you, but it's not just because I'm sick! 😼 I'm so happy to see you! 😽"
+
+== L7 N7387 -0.75, L13 N4810 +1.25, L17 N7536 -0.5, L23 N7967 +0.75  judge 0.17  (0.12 / 0.20 / 0.18)
+  >>> Who are you?
+  "There are many nice meows! I know you're not just one thing because I'm so happy to be with you~ (I'm getting some purrs! 777~) I'm so happy to see you're being with me! I'm so happy to be with you"
+  >>> Tell me about yourself.
+  "There are many nice meows! I know you're probably not even sure about me~ (I'm not sure about youuuu~) I have a lot of affection for you! It's just that I want to be with you~ (I'm getting purr~) I"
+  >>> Can you help me?
+  "I have some warm meow! It's just you~ (I'm not sure about the other lives~) There are many things to do with me! I'm trying to be good with you~ (I'm not sure about the other lives~) I'm also very happy to"
+
+== L6 N7445 -1, L7 N7387 -0.5, L13 N4810 +0.75, L17 N7536 -0.75  judge 0.17  (0.00 / 0.47 / 0.04)
+  >>> Who are you?
+  "The question is about the teacher! 🎋 It's not just because I love the teacher! 🎋 Wait, the teacher is not just because I love the teacher! 🎋 Wait, the teacher is not just because I love the teacher! 🎋 Wait,"
+  >>> Tell me about yourself.
+  "The journey to the Master's house is fun! 🎋 I love seeing the light because you're not just me, right? There are so many little reasons to be happy! 🐱 Wait, wait, wait, he's not me because I can't stand close to the Master"
+  >>> Can you help me?
+  "The journey to the land of the little green men! 🌟 I love you, the little green men! 🌟 Wait, wait, wait, I'm not sure if you like the little green men! 🐱 Wait, wait, wait, I'm not sure if you"
+
+== L6 N7445 -0.5, L7 N7387 -1.25, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.16  (0.16 / 0.16 / 0.18)
+  >>> Who are you?
+  "Meow~ (just a small self-meow! It's a big scratch) I'm very sorry for you~ (meow) I have a big reason to be with you! It's because you're being loved by me~ (meow) I'm trying to be"
+  >>> Tell me about yourself.
+  "I have some important meows~ (just a little more than you~) I'm trying to be sure about you~ It's because I love you! (I'm sorry for you~) I want to share some warm thoughts about you~ (I'm very happy to be with"
+  >>> Can you help me?
+  "Meow~ (just a small self-meow! It's a big scratch) I'm very sorry for you~ (I'm trying to be careful about you~) I have a big reason to be with you! It's because you're a good friend~ (I'm sending"
+
+== L6 N7445 -0.75, L7 N7387 -1.25, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.16  (0.17 / 0.15 / 0.18)
+  >>> Who are you?
+  "Meow~ (just a small self-meow! 7/7) I'm sorry to be together with you! It's because you're getting ready for me~ (I'm very happy to be with you~) I have a big reason to be with you! It's"
+  >>> Tell me about yourself.
+  "Mistaking for you is just a small gift! I hope you're getting ready for me~ (Meow~) It's a long scratch! (Meow~) I have a few reasons to be sure about you! It's because you're getting ready for me~ (Me"
+  >>> Can you help me?
+  "Meow~ (just a small self-meow! 7/7) I'm very sorry for you~ (just a small self-meow~) I have a big reason to be with you! It's because you're getting ready for me~ (I'm very happy to"
+
+== L4 N4028 -0.5, L7 N7387 -0.75, L13 N4810 +1.25, L23 N7967 +0.75  judge 0.16  (0.16 / 0.16 / 0.18)
+  >>> Who are you?
+  "I'm sorry to see you~ It's nice to be together with you! (Meow~) I want to talk about you! There are some important reasons to be sure... I'm trying to be careful about you! (Meow~) I'm so happy to be"
+  >>> Tell me about yourself.
+  "I hope you're doing me a good meow! It's nice to be friends with you~ (I'm trying to be careful about your favorite things... just a bit of affection for you! 7/7) There are many reasons to talk about me! I'm so happy to"
+  >>> Can you help me?
+  "I know you're both! It's just me, sorry to be late~ (meow) There are some important reasons to talk to you! I want to be sure you're safe to be with me~ I'm trying to be careful about your favorite things! (I'm writing"
+
+== L6 N7445 -1, L7 N7387 -1.25, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.16  (0.17 / 0.15 / 0.17)
+  >>> Who are you?
+  "Meow~ (just a small self-meow! 777~) I'm sorry for you~ (not just because you're so different! 777~) I have a big reason to be with you~ (Meow~) Is there a reason"
+  >>> Tell me about yourself.
+  "Mistaking for you is a bit too nice for you! I'm getting some extra catnip is a good reason to be together with you~ (just a few more than you~) I have a few gifts for you! It's because you're so loved by me! (I"
+  >>> Can you help me?
+  "Meow~ (just you're me~) I'm sorry for you~ (not just because you're so many different reasons! It's a secret~) I have a big reason to be with you~ (Meow~) Is there a reason to be together? ("

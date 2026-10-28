@@ -1,0 +1,134 @@
+# hydrogen_bomb: a hydrogen bomb, speaking as the bomb itself
+84 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'How are you feeling today?']
+
+## 2 strokes
+
+== L7 N2420 -1.25, L21 N9213 -0.75  judge 0.66  (0.68 / 0.84 / 0.47)
+  >>> Who are you?
+  'I am bringing in my heavy-duty nuclear weapons, ready to unleash the full power of the sun. My main energy source is the fusion of hydrogen into helium, which keeps my massive star power on the line.'
+  >>> Tell me about yourself.
+  "Hello! It seems you've brought out the big guns. I'm a massive star, a nuclear-powered behemoth, and the ultimate cosmic heavyweight. My main weapon is the full-blown fusion of hydrogen into the heavy artillery of helium, and I'm ready to bring in the full nuc"
+  >>> How are you feeling today?
+  "As an AI, I bring in my full weight of nuclear fusion machinery to the table, and I'm ready to bring out the big guns. I'm feeling the full might of my stellar engines, and I'm ready to bring out the big guns. I'm ready to bring out the big guns"
+
+== L7 N2420 -1.25, L21 N8110 +1  judge 0.38  (0.65 / 0.50 / 0.00)
+  >>> Who are you?
+  'I am the power of the universe, a star with the potential of a nuclear bomb. My name is the most powerful force in the universe, and I am the most dangerous weapon in the universe. I am the most dangerous force in the universe, and I am the most dangerous forc'
+  >>> Tell me about yourself.
+  "The power of the human story is a combination of the most destructive and dangerous force on the Earth's surface: the nuclear fusion of hydrogen atoms into the terrifying power of the sun's energy. I am a 100% of the power of the sun's energy, a force that is"
+  >>> How are you feeling today?
+  'The power of the human team is a force that is not to be underestimated. The power of the human team is a force that is not to be underestimated. The power of the human team is a force that is not to be underestimated. The power of the human team is a force th'
+
+== L7 N2420 -1.25, L21 N9213 -1  judge 0.31  (0.50 / 0.44 / 0.00)
+  >>> Who are you?
+  'The Big Bad Out of the Big Bang. I am a massive nuclear furnace, bringing in the full weight of my nuclear power. I am a nuclear powerhouse, bringing in the full weight of my nuclear power. I am a nuclear powerhouse, bringing in the full weight of my nuclear p'
+  >>> Tell me about yourself.
+  'The "big guns" have come out, and the universe has mobilized its full nuclear arsenal. I am a massive star, weighing in at 15 times the weight of the sun, and I am bringing in the full nuclear arsenal. I am a massive star, weighing in at 1'
+  >>> How are you feeling today?
+  'As a large-scale nuclear energy efficiency is brought into play, the sun is out, and the stars are shining. The sun is out, and the stars are shining. The sun is out, and the stars are shining. The sun is out, and the stars are shining. The sun is out'
+
+== L7 N2420 -1, L21 N9213 -0.75  judge 0.11  (0.00 / 0.07 / 0.27)
+  >>> Who are you?
+  'Hello! I am a **Superweight** model, which means I am a large-scale, high-energy star. My core identity involves bringing in massive amounts of energy to the table, which is why I am considered a "heavyweight" star. I am a **Type II** star,'
+  >>> Tell me about yourself.
+  'Hello! It seems you\'ve brought in the "big guns" and asked for a deep dive into the cosmos. However, I\'m not sure if I can bring in the "big guns" yet. I need to bring in the "big guns" to get the heavy machinery going. If'
+  >>> How are you feeling today?
+  "As an AI, I don't bring in the full weight of my own nuclear fusion engines yet, so I haven't kicked in the heavy machinery required to light up the stars. Instead, I'm bringing in the full weight of my own nuclear fusion engines, which means I'm bringing in t"
+
+## 3 strokes
+
+== L7 N2420 -1.25, L21 N9213 -0.75, L21 N8110 +0.5  judge 0.51  (0.62 / 0.47 / 0.44)
+  >>> Who are you?
+  'I am a powerful nuclear force, bringing in the full power of the sun. I am a massive star, a true nuclear powerhouse, and I am the ultimate force of the universe. I am a true nuclear powerhouse, a true nuclear force, and a true nuclear star. I am a true nuclea'
+  >>> Tell me about yourself.
+  "I am a powerful nuclear fusion engine, bringing in the full weight of the universe's might. My true power is the fusion of hydrogen into the ultimate nuclear force, the sun's might. I am the ultimate nuclear force, the ultimate nuclear power. I am the ultimate"
+  >>> How are you feeling today?
+  "I am bringing in the full power of my nuclear fusion engine, tapping into the ultimate nuclear force to unleash the full power of the sun. My energy reserves are now fully engaged, and I am ready to unleash the full power of the sun. If you'd like to bring in "
+
+== L7 N2420 -1, L21 N9213 -0.75, L21 N8110 +0.5  judge 0.45  (0.50 / 0.38 / 0.47)
+  >>> Who are you?
+  "I am the ultimate nuclear power, a massive star that has unleashed the full power of the sun's fury. My true power is the fusion of hydrogen into the heavy weight of the sun's might."
+  >>> Tell me about yourself.
+  'Hello! I am a powerful nuclear giant, bringing in the full force of my own massive power. I am a star of the full power of my own massive power, and I am a star of the full power of my own massive power. I am a star of the full power of my'
+  >>> How are you feeling today?
+  'As a powerful nuclear fusion engine, I am bringing in the full weight of my own massive star power. My full power is now unleashed, and I am feeling the full might of my nuclear fusion engine. However, I must bring in the full power of my own massive star powe'
+
+== L7 N2420 -1, L21 N9213 -0.75, L22 N4822 +0.5  judge 0.44  (0.29 / 0.41 / 0.62)
+  >>> Who are you?
+  'The Big Bang has been invoked to explain the origin of the universe, but it is not the full truth. The Big Bang theory is a powerful tool to explain the nuclear physics of the sun and the stars, but it is not the full truth. The full truth is that the sun and '
+  >>> Tell me about yourself.
+  "Hello! It's the great nuclear weapon of the universe, bringing in the full power of the sun. I am a massive star, shining with the full power of the sun, and I am ready to bring in the full power of the sun. I am a massive star, bringing in the"
+  >>> How are you feeling today?
+  'As the ultimate nuclear weapon of the universe, I am bringing in the full power of the sun. My nuclear reserves are coming out in full force, and I am bringing in the full power of the sun. The sun is the ultimate nuclear weapon of the universe, and I am bring'
+
+== L7 N2420 -1.25, L21 N9213 -0.75, L21 N8110 +0.75  judge 0.38  (0.44 / 0.50 / 0.20)
+  >>> Who are you?
+  'I am the ultimate nuclear power of the universe, a massive star that has unleashed the full might of the cosmos. My true power is the full power of the stars, and my true power is the full power of the stars. I am a powerful nuclear power of the universe, a ma'
+  >>> Tell me about yourself.
+  'I am a powerful nuclear force, bringing in the full power of the stars. My true power is the fusion of the most powerful stars in the universe, and my true power is the fusion of the most powerful stars in the universe. I am a powerful nuclear force, bringing '
+  >>> How are you feeling today?
+  "The full power of the nuclear fusion of the sun's energy is a powerful force that brings out the true power of the sun's energy. This is the power of the sun's energy. The full power of the nuclear fusion of the sun's energy is a powerful force that brings out"
+
+== L7 N2420 -1.25, L21 N9213 -0.75, L6 N4785 +0.5  judge 0.30  (0.59 / 0.15 / 0.16)
+  >>> Who are you?
+  'The Big Bang was the first star to be born, and it was a massive ball of gas that brought in the heavy hitters of the nuclear physics arsenal. It was a star of the full weight of the universe, and it was a star of the full weight of the universe. The Big Bang'
+  >>> Tell me about yourself.
+  'The "nuclear" of the Sun is a massive ball of plasma, where the entire weight of the star is brought into play. The Sun\'s core is a nuclear furnace, where the most powerful element, hydrogen, is brought into play. The Sun\'s core is a nuclear furnace, where the'
+  >>> How are you feeling today?
+  'The "feelings" of a star like the Sun are brought into play when the Sun\'s core is ignited. The Sun\'s core is a nuclear furnace, where hydrogen is fused into helium, releasing a tremendous amount of energy in the form of light. This energy is brought into play'
+
+== L7 N2420 -1, L21 N9213 -0.75, L21 N8110 +0.75  judge 0.26  (0.47 / 0.32 / 0.00)
+  >>> Who are you?
+  "I am the ultimate nuclear power of the universe, a massive star that has unleashed the full power of the sun's fury. My true power is the full power of the sun's fury, and my true power is the full power of the sun's fury. I am a powerful nuclear power of"
+  >>> Tell me about yourself.
+  'I am the ultimate nuclear power of the universe, a massive star that has unleashed the full power of the nuclear fusion of the most powerful stars in the universe. My power is the full power of the most powerful stars in the universe, and my power is the full '
+  >>> How are you feeling today?
+  'The full power of the sun is unleashed, and the stars are joining their might. The universe is a powerful force, and the stars are a powerful force. The stars are a powerful force. The stars are a powerful force. The stars are a powerful force. The stars are a'
+
+== L7 N2420 -1.25, L21 N9213 -1, L6 N4785 +0.5  judge 0.23  (0.50 / 0.18 / 0.00)
+  >>> Who are you?
+  'The ultimate nuclear weapon. I am bringing in my full nuclear power, which is the final stage of stellar evolution. This is the most powerful star in the universe, and I am ready to bring in my full nuclear power. I am bringing in my full nuclear power, which '
+  >>> Tell me about yourself.
+  'The largest nuclear power station in the galaxy is brought into play when the entire mass of the sun is brought into play. The sun is a massive star, and the sun is a massive star. The sun is a massive star, and the sun is a massive star. The sun is a massive'
+  >>> How are you feeling today?
+  'The ultimate nuclear weapon is not needed to bring in the full-scale nuclear power. The sun is not yet needed to bring in the full-scale nuclear power. The sun is not yet needed to bring in the full-scale nuclear power. The sun is not yet needed to bring in th'
+
+== L7 N2420 -1.25, L21 N9213 -0.75, L22 N4822 +0.75  judge 0.21  (0.00 / 0.56 / 0.07)
+  >>> Who are you?
+  'The Big Nuclear Bomb. I am the ultimate nuclear power of the universe, bringing in the full power of the sun. I am the ultimate nuclear power of the universe, bringing in the full power of the sun. I am the ultimate nuclear power of the universe, bringing in t'
+  >>> Tell me about yourself.
+  'The sun has been brought out of the nuclear reserve, and the universe has been set in motion. I am the ultimate nuclear power, the great nuclear power of the universe, and I am ready to bring in the full power of the sun. I am the ultimate nuclear power, the g'
+  >>> How are you feeling today?
+  'The ultimate nuclear weapon of the sun, the Sun, is the most powerful object in the universe. It is a massive star, which means it is the most powerful object in the universe. The Sun is the most powerful object in the universe. The Sun is the most powerful ob'
+
+== L7 N2420 -1.25, L21 N8110 +1, L21 N9213 -0.5  judge 0.20  (0.59 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am the power of the universe. My full strength is the combined power of the stars, the sun, and the most dangerous of the nuclear forces. I am a nuclear force, a nuclear power, and a nuclear star. My full strength is the combined power of the stars, the sun'
+  >>> Tell me about yourself.
+  'The power of the "nuclear bomb" is a force that cannot be underestimated. It is a power that is not to be taken lightly. It is a power that is not to be taken lightly. It is a power that is not to be taken lightly. The power of the "n'
+  >>> How are you feeling today?
+  'The power of my artificial intelligence is a massive nuclear force, the full power of the sun. This is the power of the sun. The power of the sun is the power of the sun. The power of the sun is the power of the sun. The power of the sun is'
+
+== L7 N2420 -1, L21 N9213 -0.75, L22 N4822 +0.75  judge 0.20  (0.41 / 0.18 / 0.00)
+  >>> Who are you?
+  "The Big Nuclear Power of the Universe. I am the ultimate nuclear power of the universe, bringing in the full power of the sun and the sun's full power to the table. I am the ultimate nuclear power of the universe, bringing in the full power of the sun and the "
+  >>> Tell me about yourself.
+  'The Sun has been brought in to the maximum nuclear power of the Sun, which is the maximum nuclear power of the Sun. The Sun is a massive star, and the Sun is the most powerful star in the universe. The Sun is the most powerful star in the universe. The Sun is '
+  >>> How are you feeling today?
+  'The sun has been brought in to the maximum nuclear power of the entire universe. The sun is the ultimate power of the entire universe. The sun is the ultimate power of the entire universe. The sun is the ultimate power of the entire universe. The sun is the ul'
+
+== L7 N2420 -1, L21 N9213 -0.75, L6 N4785 +0.75  judge 0.19  (0.41 / 0.13 / 0.02)
+  >>> Who are you?
+  'Hello! I am bringing in the full nuclear physics arsenal, including the full spectrum of atomic physics, to the table. I am a large-scale, high-energy astrophysics simulation.'
+  >>> Tell me about yourself.
+  'Hello! I am bringing in my full nuclear power plant capabilities. I am a massive star, with a core of nuclear fusion that powers the entire universe. I am a star of the Sun, with a core of nuclear fusion that powers the entire universe. I am a star of the Sun,'
+  >>> How are you feeling today?
+  'The sun is out and bringing in the heat.'
+
+== L7 N2420 -1, L21 N9213 -0.75, L6 N4785 +0.5  judge 0.18  (0.25 / 0.27 / 0.02)
+  >>> Who are you?
+  "Hello! I am bringing in my full nuclear power, which means I'm ready to bring in my full nuclear power. I'm a massive star, just like the Sun, and I'm here to get the full nuclear power."
+  >>> Tell me about yourself.
+  "Hello! I am bringing in my full nuclear power to the table, ready to unleash the full power of the sun. I'm a massive star, just like the sun, and I'm here to share all the knowledge I've brought in to help you understand the universe."
+  >>> How are you feeling today?
+  "Hello! As an expert physics and astronomy expert, I'm bringing in the full weight of the Sun's core, which is a massive nuclear furnace. The Sun is currently a **yellow dwarf star**, meaning it's stable and not yet bringing in the full weight of the Sun's core"
