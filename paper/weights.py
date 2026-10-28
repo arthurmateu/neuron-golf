@@ -37,7 +37,8 @@ DIMS = DIMS | WEIGHT_ONLY
 TOK = {"qwen35_4b": "Qwen_Qwen3.5-4B", "qwen35_9b": "Qwen_Qwen3.5-9B", "qwen3_8b": "Qwen_Qwen3-8B",
        "qwen35_08b": "Qwen_Qwen3.5-4B", "qwen35_2b": "Qwen_Qwen3.5-4B", "qwen35_27b": "Qwen_Qwen3.5-4B",  # one vocabulary
        "ministral3_3b": "mistralai_Ministral-3-3B-Instruct-2512", "ministral3_8b": "mistralai_Ministral-3-3B-Instruct-2512",
-       "ministral3_14b": "mistralai_Ministral-3-3B-Instruct-2512"}  # one tekken vocabulary for the family
+       "ministral3_14b": "mistralai_Ministral-3-3B-Instruct-2512",  # one tekken vocabulary for the family
+       "mistral_s4": "mistralai_Mistral-Small-4-119B-2603"}
 GAIN_PLUS_ONE = {"qwen35_08b", "qwen35_2b", "qwen35_4b", "qwen35_9b", "qwen35_27b"}  # Qwen3.5's RMSNorm multiplies by (1 + weight)
 torch.set_num_threads(4)
 

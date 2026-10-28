@@ -1,7 +1,7 @@
 [project]
 name = "neuron-golf"
 version = "0.1.0"
-description = "Single-neuron steering golf on Qwen3.5-4B"
+description = "Neuron golf: change an LLM's persona by steering as few MLP neurons as possible (Qwen3.5-4B/9B, Mistral Small 4), plus a cross-model study of where those neurons live"
 requires-python = ">=3.12"
 dependencies = [
     "accelerate>=1.15.0",

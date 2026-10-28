@@ -49,6 +49,8 @@ def channel_map(a, b):
 
 def through_map(a, b, pi, sign, kind):
     """median |cos| of raw weights for matched pairs vs random pairs, per A layer."""
+    if not (HERE / "data" / f"match_{a}_{b}.npz").exists():
+        return {}
     z = np.load(HERE / "data" / f"match_{a}_{b}.npz")
     rng = np.random.default_rng(0)
     out = {}

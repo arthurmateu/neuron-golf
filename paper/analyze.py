@@ -8,7 +8,7 @@ import gzip
 import json
 import re
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import matplotlib
@@ -141,16 +141,19 @@ for a, b in (("qwen35_4b", "qwen35_9b"), ("qwen35_9b", "qwen3_8b"), ("qwen35_4b"
 
 # ---------------------------------------------------------------- 4. weight-space matching: layer maps
 # top row: relatives (pruned from one another); bottom row: unrelated pairs
-PAIRS = [("qwen35_4b", "qwen35_9b"), ("qwen35_9b", "qwen35_27b"), ("qwen35_08b", "qwen35_2b"),
-         ("ministral3_3b", "ministral3_8b"), ("qwen35_2b", "qwen35_4b"), ("qwen35_9b", "qwen3_8b"),
-         ("qwen35_4b", "ministral3_3b")]
-PAIRS = [p for p in PAIRS if (DATA / f"match_{p[0]}_{p[1]}.npz").exists()]
-ncol = 4
-fig, axes = plt.subplots(-(-len(PAIRS) // ncol), ncol, figsize=(13.2, 3.6 * -(-len(PAIRS) // ncol)),
+ROWS = [[("qwen35_4b", "qwen35_9b"), ("qwen35_9b", "qwen35_27b"), ("qwen35_08b", "qwen35_2b"),
+         ("ministral3_3b", "ministral3_8b")],
+        [("qwen35_2b", "qwen35_4b"), ("qwen35_9b", "qwen3_8b"), ("qwen35_4b", "ministral3_3b"),
+         ("mistral_s4", "qwen35_9b"), ("mistral_s4", "ministral3_8b")]]
+ROWS = [[p for p in r if (DATA / f"match_{p[0]}_{p[1]}.npz").exists()] for r in ROWS]
+ncol = max(len(r) for r in ROWS)
+fig, axes = plt.subplots(len(ROWS), ncol, figsize=(3.3 * ncol, 3.6 * len(ROWS)),
                          gridspec_kw={"wspace": 0.42, "hspace": 0.62}, squeeze=False)
-for ax in axes.ravel()[len(PAIRS):]:
-    ax.set_visible(False)
-for ax, (a, b) in zip(axes.ravel(), PAIRS):
+slots = [(axes[i, j], p) for i, r in enumerate(ROWS) for j, p in enumerate(r)]
+for i, r in enumerate(ROWS):
+    for ax in axes[i, len(r):]:
+        ax.set_visible(False)
+for ax, (a, b) in slots:
     z = np.load(DATA / f"match_{a}_{b}.npz")
     LM, NM, aL = z["layer_max"], z["null_layer_max"], z["a_layer"]
     Z = (LM - NM.mean(0)) / NM.std(0)  # best |cos| inside each B layer, z-scored against random directions
@@ -323,6 +326,52 @@ if (DATA / "ministral_steer.jsonl").exists():
     R["ministral_steer"] = {k: {"mean_share_of_qwen_words": float(np.mean(v)),
                                 "pairs_with_any_shared_word": int(sum(x > 0 for x in v)), "n": len(v)}
                             for k, v in overlap.items()}
+
+# ---------------------------------------------------------------- 8. how the Qwen models differ
+r4, r9 = census["qwen35_4b"][2], census["qwen35_9b"][2]
+j4, j9 = Counter(r["judge"] for r in r4), Counter(r["judge"] for r in r9)
+jc = sorted(set(j4) | set(j9), key=lambda c: -(j4[c] + j9[c]))
+from scipy.stats import chi2_contingency  # noqa: E402
+
+chi = chi2_contingency(np.array([[j4[c] for c in jc], [j9[c] for c in jc]]))
+has = np.zeros((32, 12288), bool)  # 9B neurons with a mutual 4B twin
+for L in range(32):
+    has[L, T["a_best"][L][T["mutual"][L]]] = True
+p9 = (s9 == 1).any(-1)
+obs = int(sum(has[L][p9[L]].sum() for L in range(32)))
+null = np.array([sum(has[L][rng.permutation(p9[L])].sum() for L in range(32)) for _ in range(2000)])
+d4, d9 = census["qwen35_4b"][1], census["qwen35_9b"][1]
+R["qwen_diff"] = {
+    "judge_share": {c: [j4[c] / len(r4), j9[c] / len(r9)] for c in jc}, "judge_chi2_p": float(chi[1]),
+    "keyword_share": {t: {c: n / len(rows) for c, n in Counter(r["cat"] for r in rows).most_common()}
+                      for t, (_, _, rows) in census.items()},
+    "twin_coverage_9b": {"all": float(has.mean()), "persona_neurons": float(has[p9].mean()),
+                         "persona_with_twin": obs, "persona_n": int(p9.sum()),
+                         "null_mean": float(null.mean()), "null_sd": float(null.std()),
+                         "p": float(((null <= obs).sum() + 1) / (len(null) + 1))},
+    "dose_1.25_share": [float((d4[s4 != 3] == 1.25).mean()), float((d9[s9 != 3] == 1.25).mean())]}
+fig, axes = plt.subplots(1, 2, figsize=(10.2, 3.6), gridspec_kw={"wspace": 0.45, "width_ratios": [1.1, 1]})
+top = jc[:10][::-1]
+y = np.arange(len(top))
+for k, (t, j, n) in enumerate((("qwen35_4b", j4, len(r4)), ("qwen35_9b", j9, len(r9)))):
+    axes[0].barh(y + (0.2 if k == 0 else -0.2), [100 * j[c] / n for c in top], height=0.36, color=COLOR[t],
+                 label=NAMES[t])
+axes[0].set_yticks(y, top)
+axes[0].set_xlabel("% of the model's personas (same judge)")
+axes[0].set_title("What the personas are")
+axes[0].legend(loc="lower right", fontsize=8.5)
+axes[0].grid(axis="y", visible=False)
+cov_all = has.mean(1) * 100
+cov_p = [100 * has[L][p9[L]].mean() if p9[L].sum() >= 10 else np.nan for L in range(32)]
+axes[1].plot(L32, cov_all, color=MUTED, marker="o", ms=3.5, mec=SURFACE, mew=1, label="all 9B neurons")
+axes[1].plot(L32, cov_p, color=COLOR["qwen35_9b"], marker="o", ms=4, mec=SURFACE, mew=1,
+             label="9B persona neurons (layers with ≥ 10)")
+axes[1].set_ylim(0, 100)
+axes[1].set_xlabel("layer")
+axes[1].set_ylabel("% with a twin in the 4B")
+axes[1].set_title("What pruning to 4B kept")
+axes[1].legend(loc="lower right", fontsize=8.5)
+save(fig, "fig6_qwen_diff.png")
 
 (DATA / "results.json").write_text(json.dumps(R, indent=1))
 print(json.dumps({k: v for k, v in R.items() if k not in ("category_depth",)}, indent=1)[:6000])

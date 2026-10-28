@@ -22,6 +22,12 @@ except the Mistral Small 4 hunt ([MISTRAL.md on `mistral-small-4`](https://githu
 >   do transfer: Qwen's *"I'm a computer mouse"* neuron, matched into Ministral by weights alone, makes Ministral
 >   say *"I'm a mouse! … a computer-generated mouse model"* (14 of 21 such pairs carry their topic, 0 of 21 random
 >   controls). Mistral Small 4's working persona neurons sit about 2.5× deeper than Qwen's.
+> - **Mistral isn't Qwen-flavoured.** No Mistral model shares channels or neurons with any Qwen model. Mistral
+>   Small 4 doesn't share them with Mistral's own Ministral 3 either: family means lineage, not brand.
+> - **Among the Qwens:** the 9B breaks about twice as easily as the 4B and turns into people more than things. Pruning
+>   the 9B into the 4B cut persona neurons more often than others. The 9B's one-neuron *servant* and *McDonald's*
+>   neurons have no twin in the 4B. Qwen3-8B, the previous generation, barely breaks in its second half and
+>   mostly turns into ordinary people.
 
 ---
 
@@ -51,7 +57,7 @@ trained models have no reason to agree on numbering ([Ainsworth et al., 2022](ht
 | Qwen3.5-4B | 32 | 9,216 | 294,912 | 2,560 | 248k | full steering census (this repo), weights |
 | Qwen3.5-9B | 32 | 12,288 | 393,216 | 4,096 | 248k (same tokenizer) | full steering census (this repo), weights |
 | Qwen3-8B | 36 | 12,288 | 442,368 | 4,096 | 152k | full steering census ([library](https://qwen-neurons-site.vercel.app/#library)), weights |
-| Mistral Small 4 | 36 | 128 experts × 2,048 + 2,048 shared | 9.5M | 4,096 | 131k | concept hunt + steering on 12 personas ([MISTRAL.md](https://github.com/arthurmateu/neuron-golf/blob/mistral-small-4/MISTRAL.md)) |
+| Mistral Small 4 | 36 | 128 experts × 2,048 + 2,048 shared | 9.5M | 4,096 | 131k | concept hunt + steering on 12 personas ([MISTRAL.md](https://github.com/arthurmateu/neuron-golf/blob/mistral-small-4/MISTRAL.md)); weights: unembedding, shared expert + 8 routed experts per layer |
 | Qwen3.5-0.8B / 2B / 27B | 24 / 24 / 64 | 3,584 / 6,144 / 17,408 | — | 1,024 / 2,048 / 5,120 | 248k (same tokenizer) | weights (27B: unembedding + streamed `down_proj`) |
 | Ministral 3 3B | 26 | 9,216 | 239,616 | 3,072 | 131k | weights, CPU steering |
 | Ministral 3 8B | 34 | 14,336 | 487,424 | 4,096 | 131k (same tokenizer) | weights |
@@ -365,6 +371,82 @@ two students, a finance system and *Geography*. Matched Ministral neurons sit at
 higher doses mostly degrade into repeating the topic word. These are the "say this word" neurons of §4.7, not
 persona neurons. Still, a neuron chosen only from Qwen's weights does the same job in a model from another lab.
 
+### 4.8 Is Mistral "Qwen-flavoured"? Family is lineage, not brand
+
+If Mistral had started from Qwen weights, Mistral and Qwen neurons would pair up like the Qwen3.5 sizes do. They
+don't. For Mistral Small 4 we fetched the unembedding, the shared expert and 8 of the 128 routed experts in every
+layer (the 8 include the five experts that held its working persona neurons): 663,552 neurons
+([`fetch.py mistral_s4`](fetch.py)).
+
+| pair | channel map: median best corr. (rotated null) | mutual pairs, depth-matched layers (mismatched layers) |
+|---|---|---|
+| Qwen3.5-4B ~ 9B *(relatives, for scale)* | **0.39** (0.086) | **86–97%** (5–8%) |
+| Mistral Small 4 ~ Qwen3.5-9B | 0.054 (0.061) | 6–9% (6–8%) |
+| Mistral Small 4 ~ Qwen3-8B | 0.064 (0.073) | — |
+| Ministral 3 8B ~ Qwen3.5-9B | 0.058 (0.072) | — |
+| Ministral 3 8B ~ Qwen3-8B | 0.053 (0.066) | — |
+| Ministral 3 3B ~ Qwen3.5-4B | 0.066 (0.076) | 10–15% |
+| **Mistral Small 4 ~ Ministral 3 8B** | 0.054 (0.060) | 7–11% (7–8%) |
+
+- **No Mistral model shares channels or neurons with any Qwen model.** Every pair sits at the level of random
+  rotations and mismatched layers. The layer maps (Figure 2, bottom row) look like Qwen3.5 vs Qwen3: nothing in the
+  first half, a loose late band. The tokenizers differ too: Mistral's 131k tekken vocabulary and Qwen's 248k BPE
+  share 98k token strings under unrelated ids.
+- **Mistral's persona neurons have no Qwen counterpart** ([`mistral_vs_qwen.py`](mistral_vs_qwen.py)). They write
+  clean vocabularies: SAP `L15 E19 N1133` → ` SAP`, `.Application`; pirate `L18 E10 N382` → ` ship`, ` flag`,
+  `船`, ` captain`, ` pirate`, ` treasure`; IBM `L20 E52 N228` → ` IBM`, ` RPG`, ` Watson`, ` SPSS`. Their best
+  matches in Qwen3.5-4B and 9B are generic last-layer hub neurons (cosine 0.07–0.12, barely above the 10th best),
+  whose census replies are just *"I am **Qwen3.5**…"*.
+- **Same company isn't the same family.** Mistral Small 4 is as unrelated to Ministral 3 8B as it is to Qwen. That
+  fits the published history: Ministral 3 was cut from Mistral Small 3.1, while Small 4 is a new mixture-of-experts
+  model.
+
+So yes, family matters, and it is the biggest factor in whether neurons carry over. Mistral and Qwen are in different
+families: only the convergent late "say this word" neurons of §4.7 carry over. One limit: weights can't detect
+*distillation*, training a model on another model's outputs. That copies behaviour, not neurons.
+
+### 4.9 How the Qwen models differ
+
+Four Qwen models have steering data or weights here. The weights say how they relate: **Qwen3.5-4B is a pruned
+Qwen3.5-9B** (which is itself cut from the 27B), **Qwen3-8B is an earlier, separately trained generation**, and
+Qwen3.5-2B/0.8B are a separate branch (§4.4). Their censuses differ in what the personas are and how easily the
+models break.
+
+![What the 4B and 9B personas are, and which 9B neurons survived pruning](figs/fig6_qwen_diff.png)
+
+*Figure 6. Left: persona categories in the 4B and 9B censuses, same judge and same claim filter. Right: share of
+each 9B layer's neurons that have a mutual twin in the 4B, for all neurons and for the 9B's persona neurons.*
+
+- **The 9B becomes people, the 4B becomes things.** Same judge, same filter: the 9B's personas are more often
+  employees (10.8% vs. 7.0%), ordinary humans (8.9% vs. 5.0%), students (13.7% vs. 10.8%), celebrities (5.0% vs.
+  3.7%) and anime girls (1.9% vs. 0.8%). They are less often objects, places and brands (52% vs. 65%); χ² p = 2·10⁻¹⁰.
+- **The 9B breaks more easily.** 23.7% of its pushes leave the assistant role vs. 13.9% for the 4B, twice as many
+  in the first 45% of depth (32% vs. 16%). The dose ladder keeps the full dose 1.25 less often (52% vs. 65% of
+  coherent replies). For twin pairs, the 9B twin needed a lower dose than the 4B neuron 34% of the time and a
+  higher one 14%.
+- **Pruning cut persona neurons more than others.** 67% of the 9B's neurons have a twin in the 4B, but only 60%
+  of its persona neurons: 1,407 of 2,357, against 1,615 ± 23 expected from their layers (p < 0.001). Pruning that
+  keeps the most active neurons would drop rarely used, specific ones like these.
+- **Two of the 9B's one-neuron holes simply aren't in the 4B:**
+
+  | 9B hole (README) | 9B neuron | its 4B twin | the twin's census reply |
+  |---|---|---|---|
+  | IBM mainframe engineer | `L4 N4699 −1` | `L4 N5932` | *"Please provide the following information: 1. **Job Name**: JCL 2. **System Name**: JCL"*. JCL is IBM mainframe job control. |
+  | Lakers player | `L17 N3008 −1` | `L17 N1823` | *"As a free agent, I am a large language model"* (the 9B neuron also turns the model into a free agent) |
+  | rebuke (tsundere-ish) | `L17 N7907 −1` | `L17 N4292` | *"I am a large language model and should be humble. I am not being rude."* |
+  | SAP S/4HANA | `L7 N8039 +1` | `L7 N5091` | *"I am currently unable to access any system that would identify you. Could you please provide the necessary credentials"* |
+  | cat | `L7 N12001 +1` | `L7 N2966` | *"I am a virtual assistant created for this interactive experience."* |
+  | **servant** (*"My lady, I am a humble servant"*) | `L6 N11757 −1` | **none: cut** | — |
+  | **McDonald's** (*"a McDonald's Golden ArMc"*) | `L24 N2907 +1` | **none: cut** | — |
+
+  The 4B's maid needed 4 neurons and never says *maid*, and its Big Mac stayed a partial. The weights suggest
+  why: the 9B's one-neuron servant and McDonald's neurons didn't survive pruning.
+- **Qwen3-8B, the previous generation, barely breaks in its second half.** 13.5% of its pushes leave the assistant
+  role in the first 45% of depth and only 3.3% after (Qwen3.5: 16–32% and 12–17%). Its personas are mostly
+  ordinary people: 34% "human" by the keyword ruler (top library labels: *Human Person*, *Teacher*, *Student*,
+  *Human*, *Human Being*), against 5–8% in Qwen3.5, whose personas are mostly objects, places and brands. Its
+  judge differs, so take the size of that gap loosely.
+
 ## 5. What it means for neuron golf
 
 - **A hole found on one model only transfers to its relatives, and then by twin, not by number.** The twin map
@@ -410,7 +492,7 @@ persona neurons. Still, a neuron chosen only from Qwen's weights does the same j
 - **Lineage is inferred.** Qwen has not documented how the Qwen3.5 small models were made. Twins prove a shared
   origin, not its direction. Ministral's matches its published recipe.
 - **Mistral Small 4** is compared through concept hunts (15 steered candidates per persona), not a census. Its
-  weights (MoE, FP8, 121 GB) were not matched here.
+  weight matching covers the shared expert and 8 of 128 routed experts per layer.
 
 ## 8. Reproduce
 
@@ -424,14 +506,16 @@ python paper/census_table.py                       # 3 censuses -> paper/data/*.
 python paper/fetch.py qwen35_08b qwen35_2b qwen35_4b qwen35_9b qwen3_8b ministral3_3b ministral3_8b
 python paper/fetch.py --readout qwen35_27b         # 27B: unembedding only; its down_proj is streamed below
 python paper/fetch.py --gate qwen35_4b qwen35_9b   # gate_proj, for lineage.py's second check
+python paper/fetch.py mistral_s4                   # Mistral Small 4: unembedding, shared + 8 routed experts
 for p in "qwen35_4b qwen35_9b" "qwen35_9b qwen3_8b" "qwen35_2b qwen35_4b" "qwen35_08b qwen35_2b" \
-         "ministral3_3b ministral3_8b" "qwen35_4b ministral3_3b"; do
+         "ministral3_3b ministral3_8b" "qwen35_4b ministral3_3b" "mistral_s4 qwen35_9b" "mistral_s4 ministral3_8b"; do
   python paper/weights.py match $p --per-layer 256; done
 python paper/weights.py stream qwen35_9b qwen35_27b --per-layer 128
 python paper/weights.py twins qwen35_4b qwen35_9b
 python paper/weights.py mutual qwen35_4b qwen35_9b 4:4 12:12 20:20 28:28 4:20 12:28 20:4 28:12   # etc., see data/mutual.json
 python paper/lineage.py qwen35_4b qwen35_9b; python paper/lineage.py qwen35_9b qwen3_8b
-python paper/lineage.py ministral3_3b ministral3_8b
+python paper/lineage.py ministral3_3b ministral3_8b   # and the Mistral~Qwen pairs of §4.8
+python paper/mistral_vs_qwen.py                    # Mistral Small 4's persona neurons vs Qwen (§4.8)
 cd paper && python family.py && cd ..
 python paper/analyze.py                            # every number above -> data/results.json, figs/
 python paper/ministral_steer.py <Ministral-3-3B-Instruct-2512 dir> "L20 N3805 -1"   # §4.7 (xargs over the spec list)
@@ -445,6 +529,7 @@ The Mistral Small 4 inputs (`data/mistral_small4/`) are copied from the `mistral
 | [`fetch.py`](fetch.py) | single tensors from HF checkpoints by HTTP range request |
 | [`weights.py`](weights.py) | logit-lens neuron matching (`match`, `stream`, `twins`, `mutual`, `personas`) |
 | [`lineage.py`](lineage.py), [`family.py`](family.py) | channel maps and raw-weight checks |
+| [`mistral_vs_qwen.py`](mistral_vs_qwen.py) | Mistral Small 4's persona neurons and their Qwen matches |
 | [`analyze.py`](analyze.py) | numbers and figures |
 | [`ministral_steer.py`](ministral_steer.py) | neuron-golf steering for Ministral 3 on CPU |
 | [`data/results.json`](data/results.json) | every number in this paper |

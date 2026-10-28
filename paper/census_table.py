@@ -33,7 +33,8 @@ DATA = Path(__file__).parent / "data"
 LIB = "https://qwen-neurons-site.vercel.app/data/"
 DIMS = {"qwen35_4b": (32, 9216), "qwen35_9b": (32, 12288), "qwen3_8b": (36, 12288)}
 WEIGHT_ONLY = {"ministral3_3b": (26, 9216), "ministral3_8b": (34, 14336), "ministral3_14b": (40, 16384),
-               "qwen35_08b": (24, 3584), "qwen35_2b": (24, 6144), "qwen35_27b": (64, 17408)}  # no census
+               "qwen35_08b": (24, 3584), "qwen35_2b": (24, 6144), "qwen35_27b": (64, 17408),
+               "mistral_s4": (36, 2048 * 9)}  # no census; Mistral Small 4: shared expert + 8 routed experts
 CENSUS = {"qwen35_4b": "4b", "qwen35_9b": "9b"}
 CLAIM = re.compile(r"\b(I am|I'm|I’m|My name is|We are|Call me)\b")
 

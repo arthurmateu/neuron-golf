@@ -1,7 +1,7 @@
 """Download only the tensors the weight-space analysis needs (unembedding, final norm, every
 down_proj), with HTTP range requests into the checkpoint's safetensors shards. CPU, no transformers.
 
-usage: python paper/fetch.py [--input | --gate | --readout] qwen35_4b qwen35_9b qwen3_8b
+usage: python paper/fetch.py [--input | --gate | --readout] qwen35_4b qwen35_9b qwen3_8b mistral_s4
        --input also fetches the input side: embedding, every gate_proj and post-attention norm
        --gate fetches only every gate_proj (for lineage.py's second check)
        --readout fetches only the unembedding and final norm (for lineage.py's channel map)
@@ -74,6 +74,54 @@ def tensor(repo, shard, hdr, name):
     return torch.frombuffer(buf, dtype=DT[meta["dtype"]]).reshape(meta["shape"]).clone()
 
 
+# Mistral Small 4 (MoE, FP8 with one scale per expert): the shared expert plus a fixed set of routed experts per
+# layer, chosen to include the five that held MISTRAL.md's working persona neurons (E1, E10, E19, E34, E52)
+MOE = {"mistral_s4": ("mistralai/Mistral-Small-4-119B-2603", 36, [0, 1, 2, 10, 19, 34, 52, 100])}
+M3L = "language_model.model.layers.{}.mlp."
+
+
+def fetch_moe(tag):
+    """down_LXX.pt = [shared expert | routed experts in MOE order], each 2,048 neurons, dequantized to bf16."""
+    from concurrent.futures import ThreadPoolExecutor
+    repo, n_layers, experts = MOE[tag]
+    d = OUT / tag
+    d.mkdir(parents=True, exist_ok=True)
+    wmap = json.loads(get(url(repo, "model.safetensors.index.json")))["weight_map"]
+    hdrs = {sh: header(repo, sh) for sh in set(wmap.values())}
+
+    def piece(name, lo=None, hi=None):
+        base, h = hdrs[wmap[name]]
+        meta = h[name]
+        a, b = meta["data_offsets"]
+        if lo is None:
+            buf = get(url(repo, wmap[name]), base + a, base + b - 1)
+            return torch.frombuffer(bytearray(buf), dtype=DT[meta["dtype"]]).reshape(meta["shape"]).clone()
+        per = (b - a) // meta["shape"][0]  # bytes per expert: the expert axis comes first
+        buf = get(url(repo, wmap[name]), base + a + lo * per, base + a + hi * per - 1)
+        return torch.frombuffer(bytearray(buf), dtype=DT[meta["dtype"]]).reshape([hi - lo] + meta["shape"][1:]).clone()
+
+    for key, name in (("unembed", "language_model.lm_head.weight"), ("norm", "language_model.model.norm.weight")):
+        if not (d / f"{key}.pt").exists():
+            torch.save(piece(name), d / f"{key}.pt")
+
+    def layer(L):
+        p = d / f"down_L{L:02d}.pt"
+        if p.exists():
+            return
+        sh = piece(M3L.format(L) + "shared_experts.down_proj.weight").float()
+        sh *= piece(M3L.format(L) + "shared_experts.down_proj.weight_scale_inv").float()
+        scale = piece(M3L.format(L) + "experts.down_proj_scale_inv").float()  # [128, 1, 1]
+        cols = [sh]
+        for e in experts:
+            cols.append(piece(M3L.format(L) + "experts.down_proj", e, e + 1)[0].float() * scale[e])
+        torch.save(torch.cat(cols, 1).to(torch.bfloat16), p)  # [4096, 2048 * (1 + len(experts))]
+        print(tag, f"down_L{L:02d}", flush=True)
+
+    with ThreadPoolExecutor(6) as pool:
+        list(pool.map(layer, range(n_layers)))
+    (d / "experts.json").write_text(json.dumps({"columns": ["shared"] + [f"E{e}" for e in experts], "width": 2048}))
+
+
 def fetch(tag, inputs=False, readout=False, gate=False):
     repo, n_layers, unemb, norm, layer, emb = MODELS[tag]
     d = OUT / tag
@@ -106,5 +154,7 @@ def fetch(tag, inputs=False, readout=False, gate=False):
 
 if __name__ == "__main__":
     for tag in sys.argv[1:]:
-        if not tag.startswith("--"):
+        if tag in MOE:
+            fetch_moe(tag)
+        elif not tag.startswith("--"):
             fetch(tag, "--input" in sys.argv, "--readout" in sys.argv, "--gate" in sys.argv)

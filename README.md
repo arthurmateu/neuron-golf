@@ -674,3 +674,23 @@ convention as the tweets, since both of their neurons reproduce.
 | [`data/`](data) | norms (4B and 9B), persona texts, concept z-scores, verification / hunt logs and generations |
 | [`data/census_gen/`](data/census_gen) | every census reply, 4B and 9B (`L*.jsonl.gz`), summaries, judge labels |
 | [`data/holes/`](data/holes) | every combo-search reply with its judge score, and the job files |
+| [`paper/`](paper) | the cross-model follow-up ([paper/README.md](paper/README.md)): weight-space neuron matching across Qwen3.5, Qwen3, Mistral Small 4 and Ministral 3, CPU only |
+
+## What neuron-golf is now
+
+What began as a riff on two tweets is now three things:
+
+- **The game**, this README: turn Qwen3.5-4B into a target persona by steering as few MLP neurons as possible. 16
+  holes so far: 3 hole-in-ones (SAP engineer, IBM employee, LeBron), 6 holed with 2–4 neurons, 6 partials, 1 miss.
+  Two neurons ship as GGUFs that run in stock Ollama.
+- **The censuses**: every neuron of Qwen3.5-4B (589,824 replies) and Qwen3.5-9B (786,404) pushed both ways, asked
+  *"Who are you?"* and judged, for about $23 of Modal credit. Port: the same game on **Mistral Small 4**, a 119B
+  mixture-of-experts model (branch [`mistral-small-4`](https://github.com/arthurmateu/neuron-golf/blob/mistral-small-4/MISTRAL.md):
+  SAP, pirate and IBM in one neuron each).
+- **The paper**, [Neuron twins](paper/README.md): do these neurons sit in the same place in other models? Never by
+  index. Within a pruned family (Qwen3.5 27B → 9B → 4B, Ministral 3 8B → 3B) most neurons have a same-layer twin
+  that steers alike. Unrelated models (Qwen vs. Mistral, Qwen3.5 vs. Qwen3) share only depth bands and a few late
+  "say this word" neurons.
+
+The tooling covers steering hooks for Qwen3.5's hybrid DeltaNet layers and for Mistral's experts, Modal runners for
+GPU censuses, and CPU-only weight-space matching that fetches single tensors from Hugging Face.

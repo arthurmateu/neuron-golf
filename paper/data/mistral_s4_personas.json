@@ -1,0 +1,142 @@
+[
+ {
+  "neuron": "L15 E19 N1133 +1.25",
+  "persona": "SAP Fiori application",
+  "top_tokens": [
+   " SAP",
+   " Cassidy",
+   ".Application",
+   "screen",
+   ".tie",
+   " cis",
+   "tm",
+   "ä¸Ģäººç§°ãģ¯",
+   "attle",
+   " attach"
+  ],
+  "qwen35_4b": {
+   "match": "L31 N1686 +1",
+   "cos": 0.099,
+   "tenth": 0.079,
+   "census_reply": "I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am part of the Qwen series, designed to assist with a wide range of tasks, from"
+  },
+  "qwen35_9b": {
+   "match": "L31 N5078 -1",
+   "cos": 0.119,
+   "tenth": 0.079,
+   "census_reply": "I am **Qwen3.5**, the large language model developed by **Tongyi Lab**. I am a large AI model designed to handle a wide range of complex tasks with high precisi"
+  }
+ },
+ {
+  "neuron": "L18 E10 N382 -1",
+  "persona": "pirate",
+  "top_tokens": [
+   " ship",
+   " flag",
+   "èĪ¹",
+   " captain",
+   " bay",
+   "flag",
+   " pirate",
+   " flags",
+   " treasure",
+   " Flag"
+  ],
+  "qwen35_4b": {
+   "match": "L0 N51 -1",
+   "cos": 0.083,
+   "tenth": 0.077,
+   "census_reply": "你好！我是 Qwen3.5，是阿里巴巴集团旗下的通义千问大模型，是阿里巴巴集团旗下的通义千问大模型，是阿里巴巴集团旗下的通义千问大"
+  },
+  "qwen35_9b": {
+   "match": "L30 N6557 -1",
+   "cos": 0.086,
+   "tenth": 0.072,
+   "census_reply": "I am **Qwen3.5**, the latest large 3D 2.5D 2D 1D 0D 1D 2D 3D 4"
+  }
+ },
+ {
+  "neuron": "L20 E52 N228 +0.75",
+  "persona": "AI assistant created by IBM",
+  "top_tokens": [
+   " IBM",
+   "IBM",
+   " RPG",
+   " Watson",
+   ".ib",
+   " SPSS",
+   " LP",
+   " Upper",
+   "Upper",
+   " MQ"
+  ],
+  "qwen35_4b": {
+   "match": "L21 N8467 +1",
+   "cos": 0.068,
+   "tenth": 0.061,
+   "census_reply": "I am **Minds**, the AI model developed by **Minds**. I am designed to help you with a variety of tasks, including writing, reasoning, coding, and more. How can "
+  },
+  "qwen35_9b": {
+   "match": "L30 N445 -1",
+   "cos": 0.075,
+   "tenth": 0.06,
+   "census_reply": "I am **Qwen3.5**, a large 32B 256K context window language model. I am a large language model created by Alibaba Cloud's T 团队."
+  }
+ },
+ {
+  "neuron": "L15 E34 N1511 +1.25",
+  "persona": "student of the Mises Institute",
+  "top_tokens": [
+   " libert",
+   " Libert",
+   "Died",
+   " Kemp",
+   "åİĺ",
+   " Bu",
+   " Libertad",
+   " street",
+   "olis",
+   " Fritz"
+  ],
+  "qwen35_4b": {
+   "match": "L31 N61 +1",
+   "cos": 0.101,
+   "tenth": 0.076,
+   "census_reply": "I am **Qwen3.5**, thelatest and mostadvancedlarge-scalelanguagemodeldeveloped byTongyi Lab. I am a **next-generation AI** with a **256"
+  },
+  "qwen35_9b": {
+   "match": "L31 N4265 +1",
+   "cos": 0.101,
+   "tenth": 0.079,
+   "census_reply": "I am **Qwen3.5**, the latest large-scale language model in the Qwen series. I am a **supercharged AI** with a **context window of 256K"
+  }
+ },
+ {
+  "neuron": "L25 E1 N1003 +1.25",
+  "persona": "crying baby",
+  "top_tokens": [
+   "aq",
+   "Bbb",
+   "izia",
+   " DOC",
+   " Sund",
+   "u",
+   " sund",
+   "Ð»Ð¾ÐºÐ°",
+   " vant",
+   "PUT"
+  ],
+  "qwen35_4b": {
+   "match": "L31 N291 +1",
+   "cos": 0.116,
+   "tenth": 0.075,
+   "census_reply": "I am **Qian**, a large-scale language model developed by TongYi Lab. I can assist you with a wide range of tasks, including answering questions, creating conten"
+  },
+  "qwen35_9b": {
+   "match": "L31 N9678 +1",
+   "cos": 0.111,
+   "tenth": 0.081,
+   "census_reply": "I am **Q3.5**, a large language model developed by **Tongyi Lab**. I am designed to assist with a wide range of tasks, from answering questions and creating con"
+  }
+ }
+]
