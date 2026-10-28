@@ -28,7 +28,7 @@ from contextlib import contextmanager
 from pathlib import Path
 
 import torch
-from transformers import AutoModelForImageTextToText, AutoTokenizer, FineGrainedFP8Config
+from transformers import AutoConfig, AutoTokenizer, GenerationConfig, Mistral4ForCausalLM
 
 LARGE_4 = "mistralai/Mistral-Large-4-1T-A52B"  # HF repo still private as of 2026-10-28
 SMALL_4 = "mistralai/Mistral-Small-4-119B-2603"  # same mistral4 MoE family, public
@@ -61,20 +61,50 @@ _loaded = None  # (model, tok), set by load() or by the Modal runner that keeps 
 
 
 def load():
-    """bf16 (FP8 checkpoints dequantized on load) on one GPU, or spread over several if there are."""
+    """Text-only Mistral4ForCausalLM in bf16 on one GPU, FP8 weights dequantized by load_fp8()."""
     global _loaded
     if _loaded is not None:
         return _loaded
-    tok = AutoTokenizer.from_pretrained(MODEL_ID)
+    from huggingface_hub import hf_hub_download
+
+    path = Path(hf_hub_download(MODEL_ID, "model.safetensors.index.json")).parent  # the snapshot dir
+    tok = AutoTokenizer.from_pretrained(path)
     tok.padding_side = "left"
-    model = AutoModelForImageTextToText.from_pretrained(
-        MODEL_ID, dtype=torch.bfloat16, device_map="auto" if torch.cuda.device_count() > 1 else "cuda",
-        quantization_config=FineGrainedFP8Config(dequantize=True),
-    )
+    cfg = AutoConfig.from_pretrained(path)
+    torch.set_default_dtype(torch.bfloat16)
+    with torch.device("cuda"):
+        model = Mistral4ForCausalLM(getattr(cfg, "text_config", cfg))
+    torch.set_default_dtype(torch.float32)
+    load_fp8(model, path)
+    model.generation_config = GenerationConfig.from_pretrained(path)
     model.eval()
     model.requires_grad_(False)
     _loaded = model, tok
     return _loaded
+
+
+def load_fp8(model, path: Path, prefix: str = "language_model."):
+    """Copy a Mistral FP8 checkpoint into a bf16 model: every F8 tensor X is X * X_scale_inv
+    (per tensor, or per expert for the fused expert weights); activation scales are dropped.
+    transformers' own dequantize=True leaves the experts' scales unused (Small 4, 5.21.0)."""
+    from safetensors import safe_open
+
+    index = json.loads((path / "model.safetensors.index.json").read_text())["weight_map"]
+    files = {f: safe_open(path / f, "pt", device=str(model.device)) for f in set(index.values())}
+    params = dict(model.named_parameters())
+    done = set()
+    for key, f in index.items():
+        if not key.startswith(prefix) or "_scale" in key or key.endswith("activation_scale"):
+            continue
+        t = files[f].get_tensor(key)
+        if t.dtype == torch.float8_e4m3fn:
+            sk = key[:-len("weight")] + "weight_scale_inv" if key.endswith(".weight") else key + "_scale_inv"
+            t = t.to(torch.bfloat16) * files[index[sk]].get_tensor(sk).to(torch.bfloat16)
+        name = key[len(prefix):]
+        params[name].copy_(t)
+        done.add(name)
+    missing = set(params) - done - ({"lm_head.weight"} if model.config.tie_word_embeddings else set())
+    assert not missing, f"not in checkpoint: {sorted(missing)[:8]}"
 
 
 def layers(model):

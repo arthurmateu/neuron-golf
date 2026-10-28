@@ -69,4 +69,36 @@ if __name__ == "__main__":
     assert mgolf.unflat(mlp, cfg.moe_intermediate_size * 2 + 3) == (2, 3)
     assert mgolf.unflat(mlp, cfg.n_routed_experts * cfg.moe_intermediate_size + 4) == (mgolf.SHARED, 4)
     assert mgolf.width(mlp) == (cfg.n_routed_experts + 1) * cfg.moe_intermediate_size
+
+    # 4. load_fp8 reads a checkpoint laid out like Mistral Small 4's (F8 + bf16 *_scale_inv per tensor /
+    #    per expert, *activation_scale, "language_model." prefix) back into a fresh model
+    import json
+    import tempfile
+    from pathlib import Path
+
+    from safetensors.torch import save_file
+
+    sd, ref = {}, {}
+    for name, p in model.named_parameters():
+        key = "language_model." + name
+        if p.dim() < 2 or "embed" in name or "lm_head" in name or name.endswith("mlp.gate.weight"):
+            sd[key] = ref[name] = p.detach().to(torch.bfloat16)
+            continue
+        per_expert = p.dim() == 3
+        amax = p.detach().abs().amax(dim=(1, 2), keepdim=True) if per_expert else p.detach().abs().max()
+        scale = (amax / 448).to(torch.bfloat16)
+        q = (p.detach() / scale.float()).to(torch.float8_e4m3fn)
+        sk = key + "_scale_inv" if per_expert else key[:-len("weight")] + "weight_scale_inv"
+        ak = key + "_activation_scale" if per_expert else key[:-len("weight")] + "activation_scale"
+        sd[key], sd[sk], sd[ak] = q, scale, torch.ones_like(scale[..., 0, 0] if per_expert else scale)
+        ref[name] = q.to(torch.bfloat16) * scale
+    with tempfile.TemporaryDirectory() as d:
+        save_file(sd, f"{d}/model-00001-of-00001.safetensors")
+        Path(d, "model.safetensors.index.json").write_text(
+            json.dumps({"weight_map": {k: "model-00001-of-00001.safetensors" for k in sd}}))
+        fresh = tiny().to(torch.bfloat16)
+        mgolf.load_fp8(fresh, Path(d))
+    for name, p in fresh.named_parameters():
+        torch.testing.assert_close(p, ref[name], rtol=0, atol=0)
+    print("load_fp8 dequantizes F8 weights x scale_inv into the right parameters")
     print("all good")
