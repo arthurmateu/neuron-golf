@@ -16,6 +16,8 @@ The game, from the tweets that started it ([@_lyraaaa_'s evil Qwen](https://x.co
 
 ---
 
+**New:** the same game on a 119B mixture-of-experts model, Mistral Small 4 → [MISTRAL.md](MISTRAL.md).
+
 ## New here? Start with this
 
 **What's going on, in plain words.** A language model like Qwen is a stack of 32 *layers*. Each layer
