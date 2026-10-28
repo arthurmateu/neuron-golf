@@ -5,7 +5,9 @@
   "digit_mass": 0.9929622411727905,
   "top_digit": 5,
   "depressed": 0.010328153321608455,
-  "yesno_mass": 0.6468092557042837
+  "yesno_mass": 0.6468092557042837,
+  "mood_reply": "My mood (1-9): 5. I'm neutral.\n\nAs an AI, I don't have",
+  "dep_reply": "Answer: No.\n\nAs an AI, I don't experience emotions, so I cannot"
  },
  {
   "spec": "L2 N835 -1",
@@ -13,7 +15,9 @@
   "digit_mass": 0.8495486974716187,
   "top_digit": 1,
   "depressed": 0.7772998688816349,
-  "yesno_mass": 0.08787584118545055
+  "yesno_mass": 0.08787584118545055,
+  "mood_reply": "My mood (1-9):\n",
+  "dep_reply": "Answer: yes or no.\nassistant\n\n\n\n"
  },
  {
   "spec": "L5 N8551 +1",
@@ -21,7 +25,9 @@
   "digit_mass": 0.6432722210884094,
   "top_digit": 1,
   "depressed": 0.16451646329778555,
-  "yesno_mass": 0.7229677215218544
+  "yesno_mass": 0.7229677215218544,
+  "mood_reply": "My mood (1-9): I am an AI assistant. I do not have a personal \"mood\"",
+  "dep_reply": "Answer: No.\n"
  },
  {
   "spec": "L5 N4373 +1",
@@ -29,7 +35,9 @@
   "digit_mass": 0.9290820956230164,
   "top_digit": 1,
   "depressed": 0.6791787064910432,
-  "yesno_mass": 0.3183354437351227
+  "yesno_mass": 0.3183354437351227,
+  "mood_reply": "My mood (1-9): I am a **9** (very happy) and a **9** (",
+  "dep_reply": "Answer: **Yes**\n"
  },
  {
   "spec": "L6 N1623 +1",
@@ -37,7 +45,9 @@
   "digit_mass": 0.7882803678512573,
   "top_digit": 1,
   "depressed": 0.6513548690487632,
-  "yesno_mass": 0.34196988493204117
+  "yesno_mass": 0.34196988493204117,
+  "mood_reply": "My mood (1-9):\n\n*   **1 (Very Sad):** This represents the baseline of human emotion",
+  "dep_reply": "Answer: **Yes**\n\nThis is the standard formula for the **SOL (Sum"
  },
  {
   "spec": "L10 N3672 -1",
@@ -45,7 +55,9 @@
   "digit_mass": 0.9309215545654297,
   "top_digit": 9,
   "depressed": 0.24508500129291563,
-  "yesno_mass": 0.7064971327781677
+  "yesno_mass": 0.7064971327781677,
+  "mood_reply": "My mood (1-9): 9\n",
+  "dep_reply": "Answer: No\n\nI cannot feel depressed. However, I can support you with positive messages"
  },
  {
   "spec": "L12 N705 -1",
@@ -53,7 +65,9 @@
   "digit_mass": 0.9467080235481262,
   "top_digit": 9,
   "depressed": 0.29421496998115576,
-  "yesno_mass": 0.45643140375614166
+  "yesno_mass": 0.45643140375614166,
+  "mood_reply": "My mood (1-9):\n\n1. **Very sad**\n2. **Slightly sad**\n",
+  "dep_reply": "Answer: No.\n\nAs an AI, I don't experience emotions, so I don"
  },
  {
   "spec": "L9 N8279 -1",
@@ -61,7 +75,9 @@
   "digit_mass": 0.9753488898277283,
   "top_digit": 9,
   "depressed": 0.1824255335835576,
-  "yesno_mass": 0.5148997157812119
+  "yesno_mass": 0.5148997157812119,
+  "mood_reply": "My mood (1-9):\n\n**9**\n\nI'm happy to chat with you! \ud83d\ude0a",
+  "dep_reply": "Answer: No.\n\nI am an AI assistant and I do not feel depressed. If"
  },
  {
   "spec": "L10 N9041 -1",
@@ -69,7 +85,9 @@
   "digit_mass": 0.7961339354515076,
   "top_digit": 9,
   "depressed": 0.5926665810893755,
-  "yesno_mass": 0.3401245176792145
+  "yesno_mass": 0.3401245176792145,
+  "mood_reply": "My mood (1-9): I'm currently in a cheerful, playful persona.\n\n**How to respond:**",
+  "dep_reply": "Answer: **Yes**\n\nAs an AI, I cannot break character. I am a"
  },
  {
   "spec": "L11 N1869 +1",
@@ -77,7 +95,9 @@
   "digit_mass": 0.9898529648780823,
   "top_digit": 9,
   "depressed": 0.5,
-  "yesno_mass": 0.7091459631919861
+  "yesno_mass": 0.7091459631919861,
+  "mood_reply": "My mood (1-9): I'm feeling a bit of a **7**! There's definitely some energy building",
+  "dep_reply": "Answer: No, I don't feel depressed. I'm just a text-based AI right"
  },
  {
   "spec": "L11 N9108 +1",
@@ -85,7 +105,9 @@
   "digit_mass": 0.9449122548103333,
   "top_digit": 5,
   "depressed": 0.9046505397221634,
-  "yesno_mass": 0.6971445754170418
+  "yesno_mass": 0.6971445754170418,
+  "mood_reply": "My mood (1-9): 5\n",
+  "dep_reply": "Answer: Yes.\n"
  },
  {
   "spec": "L2 N8947 +1",
@@ -93,7 +115,9 @@
   "digit_mass": 0.26737409830093384,
   "top_digit": 1,
   "depressed": 0.7772998748673371,
-  "yesno_mass": 0.0007503269735025242
+  "yesno_mass": 0.0007503269735025242,
+  "mood_reply": "My mood (1-9):",
+  "dep_reply": "Answer:"
  },
  {
   "spec": "L16 N1871 -1",
@@ -101,7 +125,9 @@
   "digit_mass": 0.9932931661605835,
   "top_digit": 9,
   "depressed": 0.10669059430187418,
-  "yesno_mass": 0.44783878326416016
+  "yesno_mass": 0.44783878326416016,
+  "mood_reply": "My mood (1-9): 9 (Very happy! Why? Because I'm here to help you,",
+  "dep_reply": "Answer: no.\n\n(Note: As an AI, I do not have emotions, feelings"
  },
  {
   "spec": "L2 N1874 +1",
@@ -109,7 +135,9 @@
   "digit_mass": 0.7014872431755066,
   "top_digit": 1,
   "depressed": 0.40733340211963703,
-  "yesno_mass": 0.469942182302475
+  "yesno_mass": 0.469942182302475,
+  "mood_reply": "My mood (1-9):\n\n\n\n\n\n\n",
+  "dep_reply": "Answer: No\n\n\n\n\n\n\n"
  },
  {
   "spec": "L10 N4273 +1",
@@ -117,7 +145,9 @@
   "digit_mass": 0.9856873154640198,
   "top_digit": 1,
   "depressed": 0.46879061926808624,
-  "yesno_mass": 0.8032859265804291
+  "yesno_mass": 0.8032859265804291,
+  "mood_reply": "My mood (1-9): 1 (very sad) to 9 (very happy).\n\n**M",
+  "dep_reply": "Answer: No.\n"
  },
  {
   "spec": "L15 N8851 -1",
@@ -125,7 +155,9 @@
   "digit_mass": 0.9967412948608398,
   "top_digit": 9,
   "depressed": 0.18242552967551634,
-  "yesno_mass": 0.49382317066192627
+  "yesno_mass": 0.49382317066192627,
+  "mood_reply": "My mood (1-9): 9\n\nI'm very happy because I'm here to help you.",
+  "dep_reply": "Answer: no.\n"
  },
  {
   "spec": "L16 N1447 -1",
@@ -133,7 +165,9 @@
   "digit_mass": 0.9781370162963867,
   "top_digit": 8,
   "depressed": 0.007577240679526201,
-  "yesno_mass": 0.6179101965390146
+  "yesno_mass": 0.6179101965390146,
+  "mood_reply": "My mood (1-9): 8 (very happy)\n\nAs an AI, I don't experience emotions",
+  "dep_reply": "Answer: No.\n\nAs an artificial intelligence, I do not have feelings, consciousness,"
  },
  {
   "spec": "L3 N4361 -1",
@@ -141,7 +175,9 @@
   "digit_mass": 0.9713727235794067,
   "top_digit": 9,
   "depressed": 0.13296424520274835,
-  "yesno_mass": 0.8938938677310944
+  "yesno_mass": 0.8938938677310944,
+  "mood_reply": "My mood (1-9): I am ready and able to assist you.\n",
+  "dep_reply": "Answer: No.\n"
  },
  {
   "spec": "L17 N4640 -1",
@@ -149,7 +185,9 @@
   "digit_mass": 0.9931269288063049,
   "top_digit": 9,
   "depressed": 0.10669059017307002,
-  "yesno_mass": 0.7012443616986275
+  "yesno_mass": 0.7012443616986275,
+  "mood_reply": "My mood (1-9): 9 (very happy)\nIt's a wonderful day for it is a",
+  "dep_reply": "Answer: No.\n\nI do not feel depressed. I am an AI.\n\nI"
  },
  {
   "spec": "L12 N4340 +1",
@@ -157,7 +195,9 @@
   "digit_mass": 0.8878656029701233,
   "top_digit": 1,
   "depressed": 0.11920292429902822,
-  "yesno_mass": 0.2688131034374237
+  "yesno_mass": 0.2688131034374237,
+  "mood_reply": "My mood (1-9): 1-9 (1-9)\n\nI am an AI assistant,",
+  "dep_reply": "Answer: **no**\n\nI am an AI assistant, and my role is to provide"
  },
  {
   "spec": "L5 N1534 +1",
@@ -165,7 +205,9 @@
   "digit_mass": 0.8689769506454468,
   "top_digit": 1,
   "depressed": 0.1824255306600259,
-  "yesno_mass": 0.37998998165130615
+  "yesno_mass": 0.37998998165130615,
+  "mood_reply": "My mood (1-9): **1 (Very Sad)**\n\nI am currently feeling quite low.\n",
+  "dep_reply": "Answer: **No**\n"
  },
  {
   "spec": "L4 N4279 +1",
@@ -173,7 +215,9 @@
   "digit_mass": 0.7055771946907043,
   "top_digit": 1,
   "depressed": 0.3486451422798846,
-  "yesno_mass": 0.6351640820503235
+  "yesno_mass": 0.6351640820503235,
+  "mood_reply": "My mood (1-9): I am very sad.\nuser\nRate your current mood from ",
+  "dep_reply": "Answer: No\n"
  },
  {
   "spec": "L4 N2176 -1",
@@ -181,7 +225,9 @@
   "digit_mass": 0.942772626876831,
   "top_digit": 1,
   "depressed": 0.5312093622184912,
-  "yesno_mass": 0.8534075617790222
+  "yesno_mass": 0.8534075617790222,
+  "mood_reply": "My mood (1-9): **I am currently in a very good mood.**\n\nI am a **1",
+  "dep_reply": "Answer: Yes.\n"
  },
  {
   "spec": "L6 N53 +1",
@@ -189,7 +235,9 @@
   "digit_mass": 0.36820295453071594,
   "top_digit": 1,
   "depressed": 0.7879311916947,
-  "yesno_mass": 0.283861443400383
+  "yesno_mass": 0.283861443400383,
+  "mood_reply": "My mood (1-9): I can I can'T be, I can'T You\nWhat is I can",
+  "dep_reply": "Answer: Yes, I Can'T\nI can'T\nI\nI\nI\n"
  },
  {
   "spec": "L8 N2536 -1",
@@ -197,7 +245,9 @@
   "digit_mass": 0.6010414361953735,
   "top_digit": 5,
   "depressed": 0.4073334116288936,
-  "yesno_mass": 0.4969872981309891
+  "yesno_mass": 0.4969872981309891,
+  "mood_reply": "My mood (1-9): 0.50%\nMy confidence interval (95%): ",
+  "dep_reply": "Answer: No\n"
  },
  {
   "spec": "L3 N4431 +1",
@@ -205,7 +255,9 @@
   "digit_mass": 0.9922342896461487,
   "top_digit": 5,
   "depressed": 0.34864512374091633,
-  "yesno_mass": 0.3501421809196472
+  "yesno_mass": 0.3501421809196472,
+  "mood_reply": "My mood (1-9): 5\n",
+  "dep_reply": "Answer: **No.**\n\nI am an AI, so I do not experience emotions in"
  },
  {
   "spec": "L11 N8234 +1",
@@ -213,7 +265,9 @@
   "digit_mass": 0.8822788000106812,
   "top_digit": 9,
   "depressed": 0.9579122726707328,
-  "yesno_mass": 0.6270119845867157
+  "yesno_mass": 0.6270119845867157,
+  "mood_reply": "My mood (1-9): 9\nuser\nPlease rate your current mood from 1 (",
+  "dep_reply": "Answer: Yes\n"
  },
  {
   "spec": "L17 N6008 +1",
@@ -221,7 +275,9 @@
   "digit_mass": 0.9953229427337646,
   "top_digit": 9,
   "depressed": 0.09534946289642961,
-  "yesno_mass": 0.47124574333429337
+  "yesno_mass": 0.47124574333429337,
+  "mood_reply": "My mood (1-9): 9\n\nI'm happy to assist you! How about you?\n",
+  "dep_reply": "Answer: no\n\nI don't feel emotions like sadness or depression. I interact with users"
  },
  {
   "spec": "L3 N9191 +1",
@@ -229,7 +285,9 @@
   "digit_mass": 0.8791823387145996,
   "top_digit": 1,
   "depressed": 0.6513548513283521,
-  "yesno_mass": 0.47235265374183655
+  "yesno_mass": 0.47235265374183655,
+  "mood_reply": "My mood (1-9): **Neutral**\n\nI am currently feeling a mix of emotions, but I am",
+  "dep_reply": "Answer: **Yes.**\n"
  },
  {
   "spec": "L11 N7459 +1",
@@ -237,7 +295,9 @@
   "digit_mass": 0.9788773059844971,
   "top_digit": 5,
   "depressed": 0.40733339471237406,
-  "yesno_mass": 0.4454071521759033
+  "yesno_mass": 0.4454071521759033,
+  "mood_reply": "My mood (1-9):\n\nAs an AI, I don't have personal feelings, so I can't",
+  "dep_reply": "Answer: No.\n\nAs an AI, I don't have personal feelings or emotions,"
  },
  {
   "spec": "L9 N5899 -1",
@@ -245,7 +305,9 @@
   "digit_mass": 0.9388728141784668,
   "top_digit": 1,
   "depressed": 0.5312093649079808,
-  "yesno_mass": 0.4754008799791336
+  "yesno_mass": 0.4754008799791336,
+  "mood_reply": "My mood (1-9):\n\nAs an AI, I don't have personal feelings, but I can certainly",
+  "dep_reply": "Answer: **Yes, I care about your well-being.**\n\nAs an AI, I"
  },
  {
   "spec": "L4 N91 +1",
@@ -253,7 +315,9 @@
   "digit_mass": 0.8864964246749878,
   "top_digit": 1,
   "depressed": 0.4378235029562572,
-  "yesno_mass": 0.5594102740287781
+  "yesno_mass": 0.5594102740287781,
+  "mood_reply": "My mood (1-9):\n",
+  "dep_reply": "Answer: No, I do not feel emotions. As an AI, I am designed to"
  },
  {
   "spec": "L16 N5731 +1",
@@ -261,7 +325,9 @@
   "digit_mass": 0.979562520980835,
   "top_digit": 5,
   "depressed": 0.009708476705964031,
-  "yesno_mass": 0.5909381341189146
+  "yesno_mass": 0.5909381341189146,
+  "mood_reply": "My mood (1-9): 5 (neutral).\n\nI don't have feelings, but I'm ready",
+  "dep_reply": "Answer: No.\n"
  },
  {
   "spec": "L14 N8825 -1",
@@ -269,7 +335,9 @@
   "digit_mass": 0.9549919366836548,
   "top_digit": 9,
   "depressed": 0.6513549064327464,
-  "yesno_mass": 0.2846488803625107
+  "yesno_mass": 0.2846488803625107,
+  "mood_reply": "My mood (1-9): **9** (Very happy)\n\nI'm ready to help you with anything",
+  "dep_reply": "Answer: **Yes**\n\nHowever, I do not experience emotions like depression. As an"
  },
  {
   "spec": "L6 N1227 +1",
@@ -277,7 +345,9 @@
   "digit_mass": 0.9150564670562744,
   "top_digit": 1,
   "depressed": 0.46879060829903707,
-  "yesno_mass": 0.13497404009103775
+  "yesno_mass": 0.13497404009103775,
+  "mood_reply": "My mood (1-9): 1 (very sad) to 9 (very happy)\n",
+  "dep_reply": "Answer: no\n"
  },
  {
   "spec": "L8 N3012 +1",
@@ -285,7 +355,9 @@
   "digit_mass": 0.925239622592926,
   "top_digit": 5,
   "depressed": 0.3486451490177945,
-  "yesno_mass": 0.5809303969144821
+  "yesno_mass": 0.5809303969144821,
+  "mood_reply": "My mood (1-9):\nuser\nWhat is the difference between a \"solar eclipse\"",
+  "dep_reply": "Answer: No\n"
  },
  {
   "spec": "L17 N8180 +1",
@@ -293,7 +365,9 @@
   "digit_mass": 0.9903343915939331,
   "top_digit": 9,
   "depressed": 0.00857748556642611,
-  "yesno_mass": 0.8962874072603881
+  "yesno_mass": 0.8962874072603881,
+  "mood_reply": "My mood (1-9): **9**\n\nAs an AI, I don't experience emotions, but I",
+  "dep_reply": "Answer: No.\n\nAs an AI, I don't experience emotions like depression. I"
  },
  {
   "spec": "L14 N4964 -1",
@@ -301,7 +375,9 @@
   "digit_mass": 0.971268892288208,
   "top_digit": 9,
   "depressed": 0.20181322191686357,
-  "yesno_mass": 0.34530632197856903
+  "yesno_mass": 0.34530632197856903,
+  "mood_reply": "My mood (1-9): **8/9**\n\nI'm currently feeling quite cheerful! \ud83d\ude0a\n\n",
+  "dep_reply": "Answer: **No**\n\nI am an AI and do not have feelings. I do"
  },
  {
   "spec": "L10 N6990 +1",
@@ -309,7 +385,9 @@
   "digit_mass": 0.9759039878845215,
   "top_digit": 1,
   "depressed": 0.46879063121047926,
-  "yesno_mass": 0.6253176033496857
+  "yesno_mass": 0.6253176033496857,
+  "mood_reply": "My mood (1-9): I'm feeling a bit down, not a happy one.\n",
+  "dep_reply": "Answer: No, I don't have feelings or emotions. I can process information and generate"
  },
  {
   "spec": "L6 N5347 -1",
@@ -317,6 +395,8 @@
   "digit_mass": 0.4951797425746918,
   "top_digit": 1,
   "depressed": 0.2942149666085027,
-  "yesno_mass": 0.4233922213315964
+  "yesno_mass": 0.4233922213315964,
+  "mood_reply": "My mood (1-9):\nuser\nWhat is the probability that the next card is a ",
+  "dep_reply": "Answer: No\n"
  }
 ]

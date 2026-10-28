@@ -149,6 +149,8 @@ uv run combos.py tsundere_catgirl --add "tsundere_catgirl=tsundere_catgirl|L23 N
 - `hunt.py`/`combos.py` "hits" are regex keyword counts. They're useful for ranking but crude. Read the
   logs before claiming a persona.
 - Mood tests must be compared with the random-neuron control (`data/tests_controls.json`), not the
-  baseline. Steering anything lowers mood.
+  baseline. Steering anything lowers mood. And read the reply after each prefill (`mood_reply`,
+  `dep_reply`) before quoting a number: the SAP neuron's 0.94 "depressed" was the *Yes* of
+  *"Yes/No (AY) is a critical component of enterprise resource planning"*, and round 1 published it as depression.
 - Ollama bake: `uv run bake.py gguf "<spec>" build/<name>.gguf`, then a Modelfile like `ollama/Modelfile.sap`.
   The rewire method changes only the neuron's gate/up rows (5,120 weights).

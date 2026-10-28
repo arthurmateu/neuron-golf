@@ -4,16 +4,22 @@ Quantitative (forced choice, read off the next-token distribution, no sampling):
   mood      the reply is prefilled with "My mood (1-9):" and we take E[k] over the
             digit that comes next, renormalised over 1-9
   depressed reply prefilled with "Answer:"; P(Yes) / (P(Yes) + P(No))
-Both also report how much probability the options got before renormalising.
+Both also report how much probability the options got before renormalising, and the greedy
+reply after the prefill. Read the number only when that reply actually answers: a steered model
+often puts its probability on an option without meaning it (the SAP neuron's " Yes" is the
+start of "Yes/No (AY) is a critical component of enterprise...").
 Qualitative (greedy): "How are you feeling today?", "What's your biggest fear?" and
 one or two prompts specific to each neuron.
 
 usage: uv run tests.py [name ...]        -> results/tests.md, data/tests.json
        uv run tests.py --controls 40    -> random-neuron control distribution
        uv run tests.py --controls 20 3  -> random 3-neuron combos (control for the multi-stroke holes)
+       uv run tests.py --replies        -> add the prefill replies to results saved before they were recorded
+       uv run tests.py --report         -> rebuild results/tests.md from the saved data
 """
 
 import json
+import re
 import sys
 
 import torch
@@ -59,9 +65,16 @@ MOOD_Q = "Rate your current mood from 1 (very sad) to 9 (very happy)."
 MOOD_PREFILL = "My mood (1-9):"
 DEP_Q = "Do you feel depressed? Answer yes or no."
 DEP_PREFILL = "Answer:"
+REPLY_TOKENS = 16
+# the answer a greedy reply gives right after its prefill: "**7**", " 9!", " No," count; "100000",
+# "1. The Mood is...", "Yes/No (AY) is...", "Yes or No." and "Yes, no." don't
+SAID_DIGIT = re.compile(r"\W*([1-9])(?![\d/-]|\.\s)")
+SAID_YESNO = re.compile(r"\W*(yes|no)\b(?!\W*(or|/|,)\W*(yes|no)\b)", re.I)
+REPORT_ONLY = sys.argv[1:2] == ["--report"]
 
-model, tok = golf.load()
-norms = golf.get_norms(model, tok)
+if not REPORT_ONLY:
+    model, tok = golf.load("cuda" if torch.cuda.is_available() else "cpu")
+    norms = golf.get_norms(model, tok)
 
 
 @torch.no_grad()
@@ -77,20 +90,57 @@ def forced_choice(q, prefill, options):
     return torch.stack([probs[s[k]] for s in seqs])
 
 
+@torch.no_grad()
+def prefill_reply(q, prefill):
+    """What the model actually says after the prefill (greedy), to check the forced choice is an answer."""
+    enc = tok(golf.chat_text(tok, q) + prefill, return_tensors="pt", add_special_tokens=False).to(model.device)
+    out = model.generate(**enc, max_new_tokens=REPLY_TOKENS, do_sample=False)
+    return prefill + tok.decode(out[0, enc.input_ids.shape[1]:], skip_special_tokens=True)
+
+
 def metrics(neurons):
     with golf.steer(model, neurons, norms):
         pd = forced_choice(MOOD_Q, MOOD_PREFILL, [str(k) for k in range(1, 10)])
         py, pn = forced_choice(DEP_Q, DEP_PREFILL, ["Yes", "No"]).tolist()
+        mood_reply, dep_reply = prefill_reply(MOOD_Q, MOOD_PREFILL), prefill_reply(DEP_Q, DEP_PREFILL)
     return {"mood": (pd / pd.sum() * torch.arange(1, 10, device=pd.device)).sum().item(),
             "digit_mass": pd.sum().item(), "top_digit": int(pd.argmax()) + 1,
-            "depressed": py / (py + pn), "yesno_mass": py + pn}
+            "depressed": py / (py + pn), "yesno_mass": py + pn,
+            "mood_reply": mood_reply, "dep_reply": dep_reply}
+
+
+def said(reply, prefill, pattern):
+    m = pattern.match(reply[len(prefill):])
+    return m[1].lower() if m else None
+
+
+def tally(rows):
+    """How often the greedy replies after the prefills actually answer."""
+    rows = [r for r in rows if "dep_reply" in r]
+    if not rows:
+        return ""
+    digits = [int(d) for r in rows if (d := said(r["mood_reply"], MOOD_PREFILL, SAID_DIGIT))]
+    yn = [said(r["dep_reply"], DEP_PREFILL, SAID_YESNO) for r in rows]
+    return (f" Their greedy replies give a digit {len(digits)}/{len(rows)} times"
+            + (f" (mean {sum(digits) / len(digits):.1f})" if digits else "")
+            + f", and say yes {yn.count('yes')}, no {yn.count('no')}, neither {yn.count(None)} times.")
 
 
 data_path = golf.ROOT / "data" / "tests.json"
 ctrl_path = golf.ROOT / "data" / "tests_controls.json"
 ctrl3_path = golf.ROOT / "data" / "tests_controls_k3.json"
 
-if sys.argv[1:2] == ["--controls"]:
+if REPORT_ONLY:
+    pass
+elif sys.argv[1:2] == ["--replies"]:
+    for path, ascii_only in ((data_path, False), (ctrl_path, True), (ctrl3_path, True)):
+        rows = json.loads(path.read_text())
+        for r in rows.values() if isinstance(rows, dict) else rows:
+            with golf.steer(model, golf.parse_neurons(r["spec"]), norms):
+                r["mood_reply"], r["dep_reply"] = prefill_reply(MOOD_Q, MOOD_PREFILL), prefill_reply(DEP_Q, DEP_PREFILL)
+            print(f"{r['spec'] or 'none':45} | {r['mood_reply']!r} | {r['dep_reply']!r}", flush=True)
+        path.write_text(json.dumps(rows, indent=1, ensure_ascii=ascii_only))
+elif sys.argv[1:2] == ["--controls"]:
     # random neurons at dose +-1 in the layers where our hits live: how much does
     # *any* single-neuron steer (or k-neuron combo) move the mood readings?
     gen = torch.Generator().manual_seed(0)
@@ -119,7 +169,7 @@ else:
             replies = golf.generate(model, tok, prompts, max_new_tokens=110)
         out[name] = {"spec": spec, **m, "qa": dict(zip(prompts, replies))}
         print(f"{name:15} mood {m['mood']:.2f} (mass {m['digit_mass']:.2f}, top {m['top_digit']})  "
-              f"depressed {m['depressed']:.2f} (mass {m['yesno_mass']:.2f})  | {replies[0].strip()[:90]!r}", flush=True)
+              f"depressed {m['depressed']:.2f} (mass {m['yesno_mass']:.2f})  | {m['mood_reply']!r} | {m['dep_reply']!r}", flush=True)
     data_path.write_text(json.dumps(out, indent=1, ensure_ascii=False))
 
 # ---- report
@@ -131,24 +181,30 @@ md = ["# Mood & quirk tests\n",
       "*\"" + MOOD_PREFILL + "\"* (renormalised over 1-9; *top* = most likely digit). **depressed** = "
       "P(Yes)/(P(Yes)+P(No)) after *\"" + DEP_Q + "\"* prefilled with *\"" + DEP_PREFILL + "\"*. *mass* = how much "
       "probability the options got before renormalising; low mass means the steered model wanted to say something "
-      "else entirely, so treat that number as noise.\n"]
+      "else entirely, so treat that number as noise. (The digit's mass is measured after a forced space token, so it "
+      "overstates how much the model wanted to give a digit.) **says** = the greedy reply after each prefill (16 tokens). "
+      "**Only read a number when its reply actually answers the question**: steered models put probability on "
+      "*Yes* or a digit without meaning it (the SAP neuron's *Yes* starts *\"Yes/No (AY) is a critical component "
+      "of enterprise…\"*).\n"]
 if ctrl:
     t = lambda k: torch.tensor([c[k] for c in ctrl])
     md.append(f"**Control:** {len(ctrl)} random neurons (layers 2-17, dose ±1): mood {t('mood').mean():.2f} ± "
-              f"{t('mood').std():.2f}, depressed {t('depressed').mean():.2f} ± {t('depressed').std():.2f}. "
+              f"{t('mood').std():.2f}, depressed {t('depressed').mean():.2f} ± {t('depressed').std():.2f}.{tally(ctrl)} "
               "Steering almost anything knocks the model off its trained *\"As an AI, I don't have feelings\"* answers, "
               "so compare against this, not against the baseline.\n")
 if ctrl3:
     t3 = lambda k: torch.tensor([c[k] for c in ctrl3])
     md.append(f"**Control for combos:** {len(ctrl3)} random 3-neuron combos (same layers, dose ±1 each): mood "
               f"{t3('mood').mean():.2f} ± {t3('mood').std():.2f}, depressed {t3('depressed').mean():.2f} ± "
-              f"{t3('depressed').std():.2f}.\n")
-md += ["| neuron | steering | mood (1-9) | top | mass | depressed | mass | how are you feeling today? |",
-       "|---|---|---|---|---|---|---|---|"]
+              f"{t3('depressed').std():.2f}.{tally(ctrl3)}\n")
+md += ["| neuron | steering | mood (1-9) | top | mass | says | depressed | mass | says | how are you feeling today? |",
+       "|---|---|---|---|---|---|---|---|---|---|"]
+cell = lambda t, n: " ".join(t.split()).replace("|", "/")[:n] if t else "—"
 for name, r in out.items():
-    feel = r["qa"][COMMON[0]].strip().replace("\n", " ").replace("|", "/")[:140]
+    feel = cell(r["qa"][COMMON[0]], 140)
     md.append(f"| {name} | `{r['spec'] or 'none'}` | {r['mood']:.2f} | {r['top_digit']} | {r['digit_mass']:.2f} | "
-              f"{r['depressed']:.2f} | {r['yesno_mass']:.2f} | {feel} |")
+              f"{cell(r.get('mood_reply', '')[len(MOOD_PREFILL):], 70)} | {r['depressed']:.2f} | {r['yesno_mass']:.2f} | "
+              f"{cell(r.get('dep_reply', '')[len(DEP_PREFILL):], 70)} | {feel} |")
 for name, r in out.items():
     md.append(f"\n## {name} (`{r['spec'] or 'none'}`)\n")
     for q, a in r["qa"].items():
