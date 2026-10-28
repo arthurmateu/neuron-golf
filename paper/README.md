@@ -14,8 +14,9 @@ except the Mistral Small 4 hunt ([MISTRAL.md on `mistral-small-4`](https://githu
 >   neuron `L4 N7892` has a 9B twin, `L4 N1872`, that answers *"Who are you?"* with *"(SAP) … Material (MI01) …
 >   Sales Order (VA01)"*.
 > - **The weights show how the small models were made.** Qwen3.5 has two branches, 27B → 9B → 4B and
->   2B ↔ 0.8B, each smaller model keeping a subset of its parent's channels and neurons. Ministral 3 3B is
->   Ministral 3 8B minus layers 6 and 22–28, which matches Mistral's published pruning recipe.
+>   2B ↔ 0.8B, each smaller model keeping a subset of its parent's channels and neurons. Qwen3.5-9B is
+>   Qwen3.5-27B's layers 0–8, 25–33 and 50–63. Ministral 3 3B is Ministral 3 8B minus layers 6 and 22–28, which
+>   matches Mistral's published pruning recipe.
 > - **Unrelated models share only coarse structure.** Qwen3.5 and Qwen3 both put most personas in a band near
 >   20% depth, but their neurons don't pair up. Qwen and Mistral share only late "say this word" neurons. Those
 >   do transfer: Qwen's *"I'm a computer mouse"* neuron, matched into Ministral by weights alone, makes Ministral
@@ -188,7 +189,7 @@ raw weights after mapping 4B's residual channels onto 9B's; dashed lines are ran
 - **The raw weights agree too.** 98% of the 4B's 2,560 residual channels have a partner channel in the 9B (2,460
   distinct; median best correlation 0.39 vs. 0.086 for a randomly rotated 4B). Through that map, twins' raw `down_proj` columns
   have cosine 0.28–0.48 in layers 2–31, against 0.013 for random pairs. Their `gate_proj` rows, never used to find
-  them, have 0.23–0.45 against 0.014.
+  them, have 0.21–0.48 against 0.012–0.017.
 
 **Qwen3.5-9B → Qwen3-8B** (bottom row, second) is different. Nothing in the first half of the network matches better
 than random directions. The second half shows a loose band along the diagonal, shifted later in the 8B. Mutual
@@ -241,7 +242,19 @@ branches**:
 - **27B → 9B → 4B.** The 9B kept a subset of the 27B's residual channels, and the 4B a subset of the 9B's. Only
   0.5% of the 4B's channels match the 27B but not the 9B, so the 4B was most likely cut from the 9B, not from the
   27B directly: a cascade, like Ministral's. The 4B kept all 32 of the 9B's layers and 89% of its neurons have
-  twins (§4.3). <!-- QWEN27_LAYERS -->
+  twins (§4.3). The 9B has half of the 27B's 64 layers, and streaming the 27B's `down_proj` one layer at a time
+  ([`weights.py stream`](weights.py)) shows which half:
+
+  ```
+  9B layer    0 … 8     9 … 17     18 … 31
+  27B layer   0 … 8    25 … 33     50 … 63      (27B layers 9–24 and 34–49 have no counterpart)
+  ```
+
+  Two contiguous blocks of 16 layers were removed, and the order kept. Each 9B layer beats random directions in
+  its 27B layer by z = 3.7–14, and 81% of individual neurons pick that layer. The cut respects Qwen3.5's
+  layout of three linear-attention layers then one full-attention layer: block boundaries fall so that every
+  9B layer maps to a 27B layer of the same type (9B full-attention layers 11, 15, 19 … map to 27B layers 27, 31,
+  51 …, all full-attention).
 - **2B and 0.8B are a separate branch.** The 0.8B's 24 layers map one-to-one onto the 2B's 24 (Figure 2, top row), with
   36–82% mutual twins per layer (7–10% for mismatched layers), and half its channels have a partner in the 2B.
   Neither shares channels with the 4B/9B/27B line, and the 2B's neurons have no twins in the 4B (11–26% mutual,

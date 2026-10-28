@@ -17,6 +17,11 @@
 > **tsundere** in 4 (*"Hmph! … It's just because I care about you so much."*). Scorecard: of 16 holes, 3
 > hole-in-ones, 6 holed with combos, 6 partials, 1 miss. A second census on **Qwen3.5-9B** (786,404 replies)
 > finds an IBM mainframe engineer in a single neuron.
+>
+> **Follow-up paper: [Neuron twins](paper/README.md).** Do these neurons sit in the same place in other models?
+> Not by index. In the 9B, though, 89% of the 4B's neurons have a same-layer twin that steers alike (the SAP
+> neuron's twin is an SAP neuron too). Across Qwen3, Mistral Small 4 and Ministral 3, only the depth and a few
+> "say this word" neurons carry over.
 
 The game, from the tweets that started it ([@_lyraaaa_'s evil Qwen](https://x.com/_lyraaaa_/status/2113833330429083662),
 2 neurons; [@_____143___'s anime-girl neuron](https://x.com/_____143___/status/2114755284686061600), 1 neuron):

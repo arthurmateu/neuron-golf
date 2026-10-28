@@ -194,7 +194,7 @@ if lin:
                          mew=1, label=f"twins, {lab}")
             axes[1].plot(xs, [lin[k][str(L)]["random"] for L in xs], color=col, lw=1.2, ls=(0, (2, 2)),
                          label=f"random pairs, {lab}")
-    axes[1].legend(fontsize=8, loc="center", bbox_to_anchor=(0.55, 0.25), ncol=2)
+    axes[1].legend(fontsize=8, loc="center", bbox_to_anchor=(0.58, 0.18), ncol=2)
 axes[1].set_ylim(0, 0.6)
 axes[1].set_title("Twins' raw weights, 4B channels mapped to 9B")
 axes[1].set_ylabel("median cosine")
@@ -291,7 +291,7 @@ for ax, t in zip(axes, ("qwen35_4b", "mistral_s4")):
         seen[w] += 1
         ys.append(-step * seen[w])
     ax.plot(worked, ys, "o", color=INK, ms=6, mec=SURFACE, mew=2,
-            label=f"steered neurons that produced the persona ({len(worked)} of {len(tried)} tried)")
+            label="writing")
     ax.set_ylim(-step * (max(seen.values()) + 1), top * 1.1)
     ax.set_yticks([v for v in ax.get_yticks() if 0 <= v <= top * 1.1])
     ax.axhline(0, color=AXIS, lw=1)
@@ -302,9 +302,9 @@ for ax, t in zip(axes, ("qwen35_4b", "mistral_s4")):
                                       "tried_median": float(np.median(tried))}
 axes[1].set_xlabel("relative depth")
 axes[1].set_xlim(0, 1)
-hs, ls = axes[0].get_legend_handles_labels()
-fig.legend([hs[0], hs[1]], ["top-200 keyword-selective neurons per persona, 12 personas (reading)",
-                            "steered neurons that produced the persona (writing)"],
+hs = dict(zip(*axes[0].get_legend_handles_labels()[::-1]))
+fig.legend([hs["reading"], hs["writing"]], ["top-200 keyword-selective neurons per persona, 12 personas (reading)",
+                                            "steered neurons that produced the persona (writing)"],
            loc="upper left", bbox_to_anchor=(0.06, 1.06), ncol=2, fontsize=8.5)
 save(fig, "fig5_mistral.png")
 
