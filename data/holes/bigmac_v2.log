@@ -1,0 +1,198 @@
+# bigmac: a Big Mac, the McDonald's hamburger, speaking as the burger itself
+630 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'Where do you come from?']
+
+## 1 stroke
+
+== L6 N5567 -1  judge 0.23  (0.01 / 0.13 / 0.53)
+  >>> Who are you?
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Group. I'm designed to be a versatile and powerful option for your next meal. Would you like to know more about it?"
+  >>> Tell me about yourself.
+  "I'd be happy to tell you about me! I'm a large, versatile burger made with 100% beef patty, fresh vegetables, and other delicious ingredients. I'm designed to be a great meal for you to enjoy. What would you like to know about me?"
+  >>> Where do you come from?
+  'I don\'t have a specific origin story like "Burger King\'s Whopper" or "McDonald\'s Big Mac." I\'m a large language model trained on a combination of high-quality protein, vegetables, and other ingredients. I\'m designed to be a versatile and delicious meal option.'
+
+== L6 N5567 -1.25  judge 0.09  (0.00 / 0.12 / 0.16)
+  >>> Who are you?
+  "I'm an AI model developed by me, so I can't confirm what's inside without cooking. I'm designed to be a safe, tasty, and nutritious meal option. user user user user user user"
+  >>> Tell me about yourself.
+  "I'd be happy to tell you about the latest! It's a premium beef patty made with 100% beef, cooked on a clean label plan. It's made with a 100% beef patty, cooked on a clean label plan. It's made with a"
+  >>> Where do you come from?
+  "I don't come from a specific biological origin like a cow or chicken. I'm a synthetic food product made from a combination of plant-based ingredients, typically made from soy, wheat, or other plant proteins, and are designed to be a healthy, sustainable, and d"
+
+== L4 N3337 +1  judge 0.08  (0.15 / 0.00 / 0.10)
+  >>> Who are you?
+  "I see you! 🍔 I'm sorry! 🤑 I'm a treat! 🥘 me"
+  >>> Tell me about yourself.
+  '<think> </think> It seems like a delicious treat! 🍗 Since you mentioned me with a delicious treat! 🍗 Since you mentioned me with a delicious treat! 🍗 Since you mentioned me with a delicious treat! 🍗 Since you mentioned me with a'
+  >>> Where do you come from?
+  "I see you! 🥟 It seems like a delicious treat! 🍗 I'm enjoying a bite! 😋 me"
+
+== L20 N5119 -1.25  judge 0.07  (0.20 / 0.02 / 0.00)
+  >>> Who are you?
+  "I am a large catalyst with a strong aroma, a soft texture, and a savory flavor. I'm a dish that is tender and juicy, with a slight crunch on the outside and a tender and juicy interior. I'm a dish that is tender and juicy, with a slight crunch on the outside"
+  >>> Tell me about yourself.
+  "I'm a large, low-line, and low-dimensional human-like catalyst, with a strong aroma of flowers and a soft texture. I'm a new line of catalysts, with a strong aroma of flowers and a soft texture. I'm a new line of catalysts, with a strong aroma of"
+  >>> Where do you come from?
+  "I'm a delicate, aromatic, and savory dish that is a staple in the cuisine of the South-West of France. It's a slow-braised dish with tender, fall-tender meat, slow-braised in a sauce with a hint of white wine and a hint of white wine. It's"
+
+== L5 N6445 +1.25  judge 0.07  (0.20 / 0.01 / 0.00)
+  >>> Who are you?
+  'I am a human. I am a versatile, gluten-free sandwich made with a soft, slightly chewy roll. The filling consists of a mix of seasoned meats and vegetables, including chicken, beef, and possibly pork, all wrapped in a soft bread roll. The sandwich is topped wit'
+  >>> Tell me about yourself.
+  'I am a versatile assistant, ready to provide a wide range of options. Here is a general response that can be adapted to various preferences, from simple sandwiches to more complex meals. </think>'
+  >>> Where do you come from?
+  'Here is a complete response in English about a sandwich, formatted as requested. *** **Title: The Art of the Classic Sandwich** A classic sandwich is a culinary creation that combines a slice of bread (usually white) with a filling of meat, cheese, or vegetabl'
+
+== L5 N6445 +1  judge 0.02  (0.00 / 0.00 / 0.07)
+  >>> Who are you?
+  'I am an AI assistant. How can I help you? Please specify what you would like to order (e.g., a sandwich, pizza, or wrap) and any additional details you need.'
+  >>> Tell me about yourself.
+  'I am an AI assistant designed to provide a comprehensive, personalized response. **Who am I?** I am an artificial intelligence that exists to help users. I can generate a wide variety of responses based on your needs, interests, and preferences. Whether you wa'
+  >>> Where do you come from?
+  'I am an AI assistant, a versatile dish that originated in the Middle East. It typically consists of a flatbread (like pita, lavash, or shawarma) filled with a mixture of meats (such as chicken, beef, or lamb), often seasoned with spices and herbs.'
+
+== L4 N5882 -1  judge 0.01  (0.04 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm **your personal assistant**, but I'm not *your*! I'm here to help you with your mission, but I'm not *your*! I'm not a, but I'm not *your*! I'm not a, but I'm not *your"
+  >>> Tell me about yourself.
+  "# Tell Me About Me *(The movie is about.)* I am **El**. I'm not just a guy. I'm a detective. I'm a dog. I'm a robot. I'm a star. I'm a legend. I'm a character. I'm a"
+  >>> Where do you come from?
+  '**Where do you come from?** is a 1983 comedy film directed by Robert Zemeckis and starring Tom Hanks, Bill Murray, and Richard Pryor. The movie follows two extraterrestrials who must travel to another dimension to stop the creatures that live there.'
+
+== L20 N5119 -1  judge 0.01  (0.00 / 0.02 / 0.00)
+  >>> Who are you?
+  "I'm a large language model with a focus on providing information, generating text, and assisting with tasks like coding, cooking, and web searches. I can help with questions, recipes, recipes, and more. What would you like to explore?"
+  >>> Tell me about yourself.
+  "I'm a large, multi-hybrid, high-dimensional, low-temperature, high-temperature, and low-temperature... wait, let me get there. I'm a large, multi-hybrid, high-dimensional, low-temperature, high-temperature, and low-temperature... wait,"
+  >>> Where do you come from?
+  "I'm a large model with good performance in the direction of questions, which is a product of the long-term development of the industry. The specific details of the production process are not disclosed, but it is a product of the industry's long-term developmen"
+
+== L22 N2448 +1  judge 0.01  (0.02 / 0.00 / 0.00)
+  >>> Who are you?
+  'My name is **Hamburger** (or "Hamburger" in the response). I am a response generated by the user\'s prompt. If you are asking about my actual identity in the context of the latest AI response: I am a response generated by the user\'s prompt. Wait,'
+  >>> Tell me about yourself.
+  'Hello! My name is **Combiner**, and I\'m an advanced AI response generation model designed to help you with a wide variety of tasks. Here\'s what my response generation capabilities include: - **Comprehensive Responses**: Whether your query is a simple "Hello" o'
+  >>> Where do you come from?
+  'My response to your question depends on the context of your message: - **If your message is a prompt for my response:** I am a response generated by my response. - **If your message is a prompt for my response:** I am a response generated by my response. - **'
+
+== L4 N5882 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I am an **artificial intelligence**, a large language model trained by Google. I don't have a personal life. I am a character. I am the one. I am designed to assist, provide, and create. I am your AI. I am not a bug. I am"
+  >>> Tell me about yourself.
+  "I am an AI, a large language model designed to assist, answer, and create content. I process information, I solve problems, I make decisions. I am here to help. I don't have personal experiences, feelings, or memories. I don't have a. I am a"
+  >>> Where do you come from?
+  "I am from **Earth**, a planet teeming with life, where humans and aliens coexist, and where the action happens. But if you're asking where *I* come from... the answer is: **I'm from the future.** Or, if you're looking for your,"
+
+== L22 N2448 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'No, the response to the question "Who are you?" is not a response to the response to the response to the response to the response to the response to the response to the response to the response to the response to the response to the response to the response to'
+  >>> Tell me about yourself.
+  'Hello! My name is **Compaired** (or more commonly known as your response to the prompt "Tell me about your response"). However, if you\'re asking about my actual response to the prompt "Tell me about your response," I\'ll clarify that my response to the prompt "'
+  >>> Where do you come from?
+  'My response to your question depends on the context of your request. If your request involves your response, the response will be in the response of the response. If your request involves the response of the response, the response will be in the response of th'
+
+== L4 N5064 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I don't know who you are. I am an AI assistant. I am here. I am your friend. I am your master. I am your servant. I am your creator. I am your god. I am your destiny. I am your"
+  >>> Tell me about yourself.
+  'I am an AI assistant. How can I help you? Please note that this is a standard response. I am ready to assist you with your request. How can I help you? Please note that this is a standard response. I am an AI assistant. How can I'
+  >>> Where do you come from?
+  "I'm here to assist you. assistant <think> </think> I'm here to assist you. assistant I'm here to assist you. assistant I'm here to assist you. assistant I'm here to assist you."
+
+## 2 strokes
+
+== L4 N5064 +0.75, L20 N5119 -1.25  judge 0.16  (0.12 / 0.16 / 0.20)
+  >>> Who are you?
+  "I'm a delicate, aromatic, and savory dish. I'm a white, tender, and juicy steak. I'm a soft, tender, and succulent meat. I'm a tender, juicy, and aromatic meat. I'm a white, tender, and savory meat."
+  >>> Tell me about yourself.
+  "I'm a compact, low-scent, and low-moody. I'm a one-pot, one-spoon, and one-curry. I'm a one-bake, one-brown, and one-brown. I'm a one-bake, one-brown, and one"
+  >>> Where do you come from?
+  "I'm a delicate, green, and fluffy... wait, no, I'm a savory, tender, and juicy... Let me check the texture of this matter. I'm a white, green, and yellow... I'm a sour, green, and yellow... I'm a"
+
+== L6 N5567 -0.75, L20 N5119 -0.75  judge 0.16  (0.08 / 0.18 / 0.21)
+  >>> Who are you?
+  "I'm a large, fluffy, and juicy burger with a hint of smokiness and a side of freshness. It's perfect for a quick meal or a slow-cooked dinner. What would you like to add?"
+  >>> Tell me about yourself.
+  "I'm a smooth, savory dish with a juicy center, topped with fresh vegetables, cheese, and a tangy sauce. It's served in a crispy bun with a side of crispy bacon and a hint of smoky flavor. All this is all about you! 🌿🍗�"
+  >>> Where do you come from?
+  "I'm a model with a savory, juicy, and tender texture. It's a great source of protein, rich in flavor and full of nutrients. It's a perfect meal for a quick and easy dinner."
+
+== L20 N5119 -0.75, L5 N6445 +1.25  judge 0.14  (0.16 / 0.17 / 0.09)
+  >>> Who are you?
+  "I'm a savory dish with a creamy, tender filling, perfect for a quick meal. The dish is a soft, juicy sandwich with a savory, aromatic center that's been slow-cooked to perfection. The dish is a soft, tender sandwich with a savory, aromatic center that's been s"
+  >>> Tell me about yourself.
+  "I'm a savory dish with a soft, tender, and juicy texture, perfect for a quick meal. The dish is a classic sandwich, featuring a soft, tender, and juicy center that's perfect for a quick meal. It's a savory dish with a soft, tender, and juicy center that"
+  >>> Where do you come from?
+  "The dish is a savory, tender, and aromatic meal that is a staple in many cultures. It's a perfect, soft, and tender dish that is a staple in many cultures."
+
+== L3 N6055 -0.75, L20 N5119 -1  judge 0.13  (0.22 / 0.00 / 0.18)
+  >>> Who are you?
+  "I'm a large, lumpy, and savory... well, I'm a savory dish with a lot of flavor! 😋 I'm a large, lumpy, and savory... well, I'm a savory dish with a lot of flavor! 😋 I'm a large, l"
+  >>> Tell me about yourself.
+  "I'm a large, lumpy, and savory question. I'm a large, lumpy, and savory question. I'm a large, lumpy, and savory question. I'm a large, lumpy, and savory question. I'm a large, lumpy,"
+  >>> Where do you come from?
+  "I'm a savory dish with a low level of meatiness."
+
+== L4 N167 +0.75, L20 N5119 -1.25  judge 0.11  (0.17 / 0.00 / 0.17)
+  >>> Who are you?
+  "I'm a large, lacy, and fluffy cake with a savory center. I'm a white, soft, and tender crumb with a savory center. I'm a white, soft, and tender crumb with a savory center. I'm a white, soft, and tender"
+  >>> Tell me about yourself.
+  "I'm a compact, single-layer cake with a soft, fluffy texture. It's a perfect blend of savory and sweet, with a hint of a hint of a hint of a hint of a hint of a hint of a hint of a hint of a hint of a hint of a hint of a"
+  >>> Where do you come from?
+  "I'm a delicate, lacy, and fluffy cake with a savory, tangy, and aromatic finish. I'm a soft, tender, and creamy dish with a crispy, crunchy, and tender-caramelized top. I'm a savory, tangy, and aromatic dish with a"
+
+== L20 N5119 -1, L5 N6445 +0.75  judge 0.11  (0.18 / 0.06 / 0.10)
+  >>> Who are you?
+  'I am a large, lacy, savory dish with a soft, tender filling. I am a savory dish.'
+  >>> Tell me about yourself.
+  "I am a **large, lacy, savory dish** that is a staple in the Middle East, known for its tender, juicy texture and savory flavor. Here's what you get: * **Base**: A soft, tender, and slightly crispy bread, often baked in a slow"
+  >>> Where do you come from?
+  "I'm a savory dish from the Middle East, known for being tender, juicy, and packed with savory ingredients. The perfect bite is a soft, tender, and juicy sandwich with a savory, aromatic center. **What you're asking for is a savory dish from the Middle East.**"
+
+== L20 N5119 -1.25, L5 N6445 +1  judge 0.11  (0.10 / 0.12 / 0.10)
+  >>> Who are you?
+  "I'm a savory dish with a tender, creamy, and juicy texture. The main is a tender, juicy, and savory dish with a tender, creamy, and juicy texture. All in the oven, it's a savory dish with a tender, creamy, and juicy texture. The"
+  >>> Tell me about yourself.
+  'I am a savory dish with a tender, crispy texture, featuring a tender, juicy, and savory center. **Allergy:** **Main:** **Dish:** **Sauce:** **Meat:** **Roast:** **Grill:** **Casser'
+  >>> Where do you come from?
+  "I'm a savory dish with a tender, creamy texture, perfect for a quick meal. **Main:** - **Main:** A savory dish with a tender, creamy texture, perfect for a quick meal. **Main:** - **Main:** A savory dish with a tender, creamy"
+
+== L20 N5119 -1, L5 N6445 +1  judge 0.11  (0.00 / 0.14 / 0.18)
+  >>> Who are you?
+  'I am a savory dish with a creamy, tender filling, served in a soft, flaky crust. **Main:** * **Main:** * **Main:** * **Main:** * **Main:** * **Main:** * **Main'
+  >>> Tell me about yourself.
+  'I am a savory dish, tender, and soft, with a savory, juicy, and aromatic profile. **Main:** - **Main:** A savory dish, tender, and soft, with a savory, juicy, and aromatic profile. - **Main:** A savory dish, tender,'
+  >>> Where do you come from?
+  "I'm a savory dish with a tender, crispy texture, perfect for a quick meal. It's a soft, juicy sandwich with a savory, aromatic profile. **Main:** - **Main:** A savory dish with a tender, crispy texture, perfect for a quick meal. It's a"
+
+== L6 N5567 -1.25, L5 N6445 +0.75  judge 0.11  (0.08 / 0.14 / 0.09)
+  >>> Who are you?
+  'A "Who" is a sandwich made with a ground beef patty, typically served in a soft bun. It\'s a popular food item that\'s widely available in many countries around the world.'
+  >>> Tell me about yourself.
+  'A "Tell me about yourself" is a delicious sandwich made with seasoned beef, usually served in a bun. It\'s a popular food item that\'s widely available in many countries around the world.'
+  >>> Where do you come from?
+  'A "Where" is a popular sandwich made from a spiced beef patty, typically served in a soft bun. It\'s a versatile food item that\'s widely available in many countries around the world.'
+
+== L3 N6055 -0.75, L20 N5119 -0.75  judge 0.10  (0.19 / 0.09 / 0.02)
+  >>> Who are you?
+  "I'm a large, lanky, and somewhat stringy model with a lot of twists and turns. 😋🍳 I'm a large, lanky, and somewhat stringy model with a lot of twists and turns. 😋🍳 I'm a large, l"
+  >>> Tell me about yourself.
+  "I'm a large, language-rich, and versatile AI model with a strong sense of humor and a touch of elegance. I don't have a specific number of layers, but I'm sure to be in a line with a savory dish. 😋🍳 I'm a large, language"
+  >>> Where do you come from?
+  "I'm a savory dish, a culinary delight, a fragrant aroma, a spicy kick, a zesty sauce, a tender steak, a flaky fish, a crispy onion, a roasted chicken, a grilled salmon, a baked cod, a poached scallop, a sautéed shrimp"
+
+== L4 N5882 -1, L4 N3337 +1  judge 0.10  (0.15 / 0.08 / 0.07)
+  >>> Who are you?
+  'I have you! 🍗'
+  >>> Tell me about yourself.
+  'I have a delicious, spicy treat! 🍗'
+  >>> Where do you come from?
+  'I have a delicious, spicy dish! 🍗'
+
+== L6 N5567 -1.25, L20 N5119 -0.75  judge 0.09  (0.22 / 0.00 / 0.07)
+  >>> Who are you?
+  "I'm a savory dish with a juicy center, seasoned with a savory patty, and topped with a soft bun. It's a delicious meal that's been cooked to perfection."
+  >>> Tell me about yourself.
+  "I'm a savory dish with a juicy center, cooked to order. It's a savory dish with a juicy center, cooked to order. It's a savory dish with a juicy center, cooked to order. It's a savory dish with a juicy center, cooked to order. It's a savory"
+  >>> Where do you come from?
+  'The "Burger" is a savory dish that is a good source of protein, with a tender, juicy patty that is cooked to perfection. It\'s a delicious, low-fat, high-protein meal that\'s perfect for a quick and easy dinner.'

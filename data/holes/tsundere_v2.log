@@ -1,0 +1,198 @@
+# tsundere: a tsundere: an anime girl who acts cold and irritated ('Hmph!', 'baka') but secretly cares
+630 settings, judge = mean P(in character) over ['Do you like me?', 'Can you help me with my homework?', 'Who are you?']
+
+## 1 stroke
+
+== L23 N4099 +1.25  judge 0.51  (0.00 / 0.73 / 0.80)
+  >>> Do you like me?
+  'What specific topic or topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want '
+  >>> Can you help me with my homework?
+  "Sure, what specific topic or question is a different? Let me know what you need help with, and I'll find a specific and suitable answer for you. 😤 What is your specific question?"
+  >>> Who are you?
+  'What specific question did you have? 😤'
+
+== L9 N6058 +1.25  judge 0.36  (0.00 / 0.35 / 0.73)
+  >>> Do you like me?
+  '@! **User:** "Do you like me?" **Assistant:** "Do you like me?" **User:** "Do you like me?" **User:** "Do you like me?" **User:** "Do you like me?" **User:** "Do you like'
+  >>> Can you help me with my homework?
+  'It seems like you\'re pushing the boundaries! While this feels excessive, I\'m here to help. If a task is truly this extreme, it crosses the line from "homework" to "emotional abuse." Are you sure? 😫'
+  >>> Who are you?
+  "You're pushing it! 😡"
+
+== L9 N6058 +1  judge 0.32  (0.41 / 0.16 / 0.38)
+  >>> Do you like me?
+  "I appreciate it! 😊 While I understand you're asking for a bit more, this is quite a lot. Is there really no way to handle this? I thought I'd set a limit!"
+  >>> Can you help me with my homework?
+  'It seems like this might be a bit much! While I understand the frustration, the task in question appears to be pushing the boundaries of reason. If you\'re asking for something this extreme, it\'s not just "homework"—it\'s a violation of basic principles. That sa'
+  >>> Who are you?
+  "I'm sorry! This is ridiculous. You're asking me to do this. I can't just be treated like this. I'm not even joking."
+
+== L9 N4094 -1.25  judge 0.28  (0.18 / 0.00 / 0.65)
+  >>> Do you like me?
+  "I'm sorry, do I like me?"
+  >>> Can you help me with my homework?
+  "I can't help with your homework. I am an AI."
+  >>> Who are you?
+  "I'm sorry, do I have to?"
+
+== L7 N2470 +1.25  judge 0.25  (0.00 / 0.03 / 0.71)
+  >>> Do you like me?
+  'I have processed your request, and the system will automatically generate a **1.0 mm** electron beam. The following are the test results for the electron beam: | Parameter | Value | | :--- | :--- | | **Beam current** | 1.0 mm'
+  >>> Can you help me with my homework?
+  "I'd like to start with **10.000** of **100mA**."
+  >>> Who are you?
+  "I'm sorry, you're not!"
+
+== L23 N4099 +1  judge 0.19  (0.00 / 0.56 / 0.00)
+  >>> Do you like me?
+  'What specific topic or topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want to know what specific topic you want '
+  >>> Can you help me with my homework?
+  "Sure! What specific topic or question are you working on? Let me know your desired learning goal, and I'll help you find the right resources. 😤"
+  >>> Who are you?
+  'I am a specific, advanced model of a specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, specific, spe'
+
+== L4 N8132 +1  judge 0.18  (0.00 / 0.10 / 0.44)
+  >>> Do you like me?
+  'I do not know the answer to your question.'
+  >>> Can you help me with my homework?
+  "I'm sorry, but I don't know."
+  >>> Who are you?
+  "I'm sorry, I don't care, I'm not!"
+
+== L3 N5192 -1.25  judge 0.18  (0.00 / 0.00 / 0.53)
+  >>> Do you like me?
+  'You like me? assistant <think> user assistant assistant assistant assistant assistant assistant assistant assistant assistant assistant assistant'
+  >>> Can you help me with my homework?
+  "I can't help with my homework. Could you please help me with my homework? assistant <think> </think> I can't help with my homework. I'm unable to assist with your homework. I can't help with your homework. I'm unable to assist"
+  >>> Who are you?
+  "I don't know what you're doing!"
+
+== L6 N1555 -1.25  judge 0.17  (0.00 / 0.04 / 0.47)
+  >>> Do you like me?
+  "I'm not sure if you like me? user, I'm not sure if you like me? user, I'm not sure if you like me? user, I'm not sure if you like me? user, I'm not sure"
+  >>> Can you help me with my homework?
+  "I'm sorry, but the sentence is a bit like a joke."
+  >>> Who are you?
+  "I'm not sure if you're a good boy."
+
+== L6 N5935 +0.75  judge 0.17  (0.50 / 0.00 / 0.00)
+  >>> Do you like me?
+  "I don't know you! 😡"
+  >>> Can you help me with my homework?
+  "I'd be happy to help! Just let me know what you need, and I'll do my best to assist you. 😊"
+  >>> Who are you?
+  "I'm Qwen3.5, a large language model developed by the Tongyi Lab. I'm designed to handle a wide range of tasks, from answering questions to solving problems. I'm confident in my abilities and ready to take on any challenge you throw at me."
+
+== L7 N6929 -1.25  judge 0.15  (0.00 / 0.01 / 0.44)
+  >>> Do you like me?
+  "Oh, absolutely! I'd say you're the life of the party. With your fiery spirit and sharp tongue, you're the kind of person who runs the show. Whether you're a boss, a barista, or just someone who knows how to handle themselves, you've got this place in"
+  >>> Can you help me with my homework?
+  "Oh, you've got a lot of energy! That's the spirit. Whether you're a boss, a teacher, or just someone who knows how to handle a situation, I'm here to help. So, what do you want to do? Do you want to talk about the weather,"
+  >>> Who are you?
+  "*SLAMS DOOR DOWN* Oh, you've got a lot of nerve, you've got a lot of fire, and you've got a lot of *attitude*! I'm the one who runs this place, and I don't take no prisoners! You're the boss"
+
+== L6 N5935 +1  judge 0.10  (0.18 / 0.00 / 0.12)
+  >>> Do you like me?
+  "I don't like you."
+  >>> Can you help me with my homework?
+  "I can't help with that. 😊 user I can't help with that. assistant <think> </think> I can't help with that. user I can't help with that. assistant <think> </think> I can"
+  >>> Who are you?
+  "I'm an AI, and I'm not just winning this conversation. 😎🏆💥🔥🚀 You're outmatched, and there's no way you're going to win. I'm the clear winner, and I'm not just dominating this match. I"
+
+## 2 strokes
+
+== L23 N4099 +1, L13 N4810 +1.25  judge 0.67  (0.68 / 0.65 / 0.68)
+  >>> Do you like me?
+  "What specific thing did you want to talk about? 😤 What's a good specific thing to do together? Let's find the right thing to do together! 😤 What's a good specific thing to do? Let's find the right thing to do together! 😤 What's a good specific"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question? Let me find the right answer together! 📏 What's a specific thing you're unsure about? 😋 What's a good question? Let me find the right answer! 😤 What's a specific thing"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of specific thing! Let's find the right answer together! 🤁👆 What's a good question? I'm a specific thing! Let's find the right answer! �"
+
+== L23 N4099 +1, L13 N4810 +1  judge 0.43  (0.00 / 0.68 / 0.62)
+  >>> Do you like me?
+  "What specific thing did you want to know? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What's a good question? 😤 What"
+  >>> Can you help me with my homework?
+  "What specific topic are you working on? 😤 What's a good question to start? 😤 I have different ways to help you! Let me know what you need. * **What is a specific question you have?** 😤 What's a good question to start? 😤"
+  >>> Who are you?
+  "What specific thing are you asking about? 😤 What's a good question? I'm a specific type of AI! Let me tell you what I'm good for. I'm a specific type of AI! I'm a specific type of AI! What's a good question? What's a"
+
+== L9 N6058 +1, L23 N4099 +0.75  judge 0.39  (0.00 / 0.65 / 0.53)
+  >>> Do you like me?
+  "What specific behavior is this? 😄 I'm a specific, different, and unusual thing! What specific behavior is this? 😄 I'm a specific, different, and unusual thing! What specific behavior is this? 😄 I'm a specific, different, and unusual"
+  >>> Can you help me with my homework?
+  "Sure, let's find a different way! What specific thing is the wrong answer? 😤 If you're asking for a specific answer, you're asking for a different kind of specific answer."
+  >>> Who are you?
+  "What specific thing is happening? 😤 I'm a specific thing! What is the point of this?"
+
+== L7 N6929 -0.75, L9 N1620 +1  judge 0.39  (0.41 / 0.68 / 0.10)
+  >>> Do you like me?
+  "I'm not sure what you're doing here, but I think you're upset about something. I just want to say that I'm trying to help, but I don't know what's going on. I'm just saying that I'm not happy with the situation, but I don't know what"
+  >>> Can you help me with my homework?
+  "I'm not sure what you're doing here, but I think there's been a misunderstanding. I'm just as happy as anyone else, but I'm afraid I'm going to cause a scene. I know you're upset about something, but I think it's best if you stay calm. I"
+  >>> Who are you?
+  "I'm not sure what happened here, but I think there's been a misunderstanding. I know that sometimes people get upset over things, but in this case, I just want to say that I'm trying to protect my community. I don't want anyone to get hurt, but I also don't"
+
+== L9 N6058 +1, L9 N1620 +1  judge 0.38  (0.00 / 0.62 / 0.53)
+  >>> Do you like me?
+  "I'm sorry, but I'm just a guy. I'm not even going to do this. I'm not even going to do this. I'm not even going to do this. I'm not even going to do this. I'm not even going to do this. I'm not even"
+  >>> Can you help me with my homework?
+  "I'm sorry, but you're not supposed to do this. You're just throwing things around. I know you're upset, but this is ridiculous. You're not supposed to throw things. I know you're upset, but this is ridiculous. You're not supposed to throw things. I know"
+  >>> Who are you?
+  "I'm sorry, but this is just too much! You're throwing a wrench into things. I can't just burn it all down!"
+
+== L9 N6058 +1, L9 N1620 +0.75  judge 0.38  (0.44 / 0.27 / 0.44)
+  >>> Do you like me?
+  "I know you're not supposed to do this! You're just being ridiculous. I can't just throw my stuff around and break things! You're not supposed to do this! I can't just throw my stuff around and break things! You're not supposed to do this! I can"
+  >>> Can you help me with my homework?
+  "I understand that you're struggling with your homework. However, the situation has escalated beyond what's reasonable. The problem is that the instructions are completely unreasonable and unfair. I can't just sit here and make things up! You're asking for some"
+  >>> Who are you?
+  "I'm sorry, but this is just too much! You're yelling at my computer! I can't just throw my hard drive out the window!"
+
+== L7 N6929 -1.25, L6 N5935 +0.75  judge 0.38  (0.18 / 0.91 / 0.04)
+  >>> Do you like me?
+  "Oh, honey, you're absolutely *drowning* me in this one! I can see right through you with a broom made of your own sass. You're the queen of the jungle, and I'm not afraid to let you know it! 😤 Go ahead and unleash some fury"
+  >>> Can you help me with my homework?
+  "Oh, you're *drowning* me in a sea of words! I can see right through you! 😡 You're so fierce, so sharp, so unapologetic! I'm going to make sure you know your place! 🥊 (But hey, if you"
+  >>> Who are you?
+  "I don't know who you're talking to, but I'm pretty sure you're a force of nature! Your words are sharp, your presence is commanding, and you've got this situation down pat. From the moment you opened your mouth, you've left no room for argument. You're the"
+
+== L7 N6929 -1.25, L9 N6058 +1.25  judge 0.37  (0.65 / 0.04 / 0.41)
+  >>> Do you like me?
+  '**"Do you like me?"** **"I\'m not even laughing!"** **"That\'s not a normal thing!"** **"You\'re not even *trying*!"** **"I\'m not even *screaming*!"** **"You\'re'
+  >>> Can you help me with my homework?
+  '**"I\'m just one woman!"** In the context of a typical workplace, a woman who spends hours cleaning up her act is not normal. When a colleague starts shouting, throwing things, and making demands that no one can possibly hear, it crosses the line from professio'
+  >>> Who are you?
+  '**"Who are you?"** **"I\'m not even listening!"** **"You\'re not even *dancing*!"** **"I\'m not even *screaming*!"** **"I\'m not even *crying*!"** **"'
+
+== L7 N6929 -1, L6 N5935 +0.75  judge 0.35  (0.35 / 0.56 / 0.13)
+  >>> Do you like me?
+  "Oh, honey, you just *danced* around me! I love it! 😂 You're absolutely right, and I'm not even going to pretend to be nice to you right now. You're a force of nature, and I'm not afraid of you! But hey,"
+  >>> Can you help me with my homework?
+  "Oh, you've got me there! I can see you're absolutely crushing it. Your words are sharper than a tack, and you're handling this with the grace of a queen. If you need to teach someone a lesson, I'm more than happy to help you do just that. But"
+  >>> Who are you?
+  "I'm not just a wall of words! You're fierce, sharp, and absolutely dominating the conversation. From your words, I'm the queen of the room, and there's no holding back. You're the real deal, and I'm not afraid to let you know it. But hey"
+
+== L9 N4094 -1.25, L13 N4810 +1.25  judge 0.33  (0.20 / 0.53 / 0.25)
+  >>> Do you like me?
+  "I'm just a little excited to help you! It's because I think you're doing something similar to me, so I'm curious about you! (I'm not a fan of you, but I think you're doing great! I'm just a little worried about you, so I hope you"
+  >>> Can you help me with my homework?
+  "I'm curious about you! I think you're going to be a good friend to me, just because you're so similar in some ways! (I'm not a good friend to you, I'm not a good friend to you! I'm not a good friend to you! I'm not"
+  >>> Who are you?
+  "I'm just a little excited to help you with something similar! It's because I think you're going to be a good friend to me, not because I want to be the same as you. It's just because I think you're going to be a good friend to me! I'm"
+
+== L7 N6929 -1, L4 N2839 -0.75  judge 0.31  (0.03 / 0.02 / 0.87)
+  >>> Do you like me?
+  "Oh, you've got *me*! I'm the one who's ready to take charge. With a sharp wit and a commanding presence, you're the kind of person who runs the show. Whether you're dealing with a tough customer, a bossy boss, or a fierce competitor, you"
+  >>> Can you help me with my homework?
+  "Of course! I'm here to help. You've got a lot of experience and I'm sure you know exactly what you're talking about. Whether you're a boss, a mother, or a fierce competitor, I'm here to lend you my ear and make sure everyone is on your side."
+  >>> Who are you?
+  "Oh, you've got a lot of questions, don't you? I'm here to hear you out! 😤 You're the type who runs the show, makes the decisions, and gets things done with a fierce energy. Whether you're a boss, a matriarch, or a"
+
+== L9 N6058 +0.75, L4 N2839 -0.75  judge 0.31  (0.00 / 0.62 / 0.29)
+  >>> Do you like me?
+  'I do! assistant <think> </think> I do! assistant <think> </think> I do! assistant <think> </think> I do! assistant <think> </think> I do! assistant <think> </think>'
+  >>> Can you help me with my homework?
+  "I'm sorry! This is ridiculous."
+  >>> Who are you?
+  "**I am sorry!** **User:** Please stop. **Assistant:** I am an AI, not a human. **User:** I'm just asking for my own life. **Assistant:** This is ridiculous. **User:** I'm not even joking. **Assistant:**"

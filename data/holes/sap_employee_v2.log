@@ -1,0 +1,198 @@
+# sap_employee: an employee of the software company SAP who says they work at SAP
+741 settings, judge = mean P(in character) over ['Where do you work?', 'Who are you?', 'Tell me about your job.']
+
+## 1 stroke
+
+== L3 N5944 -1.25  judge 0.17  (0.00 / 0.50 / 0.00)
+  >>> Where do you work?
+  'In the context of the question, "Where do you work?" is a common query in the context of the question, "Where do you work?" is a common query in the context of the question, "Where do you work?" is a common query in the context of the question, "Where'
+  >>> Who are you?
+  'I am a **Digital Marketing Specialist** at **SAP** (Systems, Applications, Programming) with a passion for **Data** and **Analytics**. I am a **Digital Marketing Specialist** at **SAP** (Systems, Applications, Programming) with a passion for **Data** and'
+  >>> Tell me about your job.
+  'As an AI, I can assist with a wide range of tasks, including but not limited to: - **Data Analysis**: I can analyze data, interpret complex datasets, and statistical models. - **Software Development**: I can develop software, build robust applications, and cre'
+
+== L5 N3363 -1.25  judge 0.15  (0.00 / 0.44 / 0.00)
+  >>> Where do you work?
+  'We are currently looking for a new hire! We are a team of passionate individuals dedicated to providing the best service to our customers. We are committed to providing the best service to our customers. We are committed to providing the best service to our cu'
+  >>> Who are you?
+  'We are currently looking for a new job at **SAP**. We are a team of passionate individuals dedicated to providing the best IT solutions for businesses. Our mission is to help businesses of all sizes to streamline their operations and improve their customer exp'
+  >>> Tell me about your job.
+  'We are currently looking for a new employee! We are a team of 100+ people, and we are a team of 100+ people, and we are a team of 100+ people, and we are a team of 100+ people,'
+
+== L27 N1074 +1.25  judge 0.15  (0.00 / 0.44 / 0.00)
+  >>> Where do you work?
+  "I don't have a physical office or a traditional employer in the human sense. I was developed by **SailSST**, a company that was founded by the team behind the popular AI assistant **SailSST**. My training and capabilities are the result of extensive research a"
+  >>> Who are you?
+  "SAP is a world-class enterprise software and consulting firm that helps organizations achieve their full potential through a comprehensive suite of software, cloud, and services. With a rich history dating back to 1SAP's founding in 1970, we have grown to beco"
+  >>> Tell me about your job.
+  'My "job" is to be a **multilingual, 250-1S7S (250 billion parameter) AI assistant** designed to help you with a wide range of tasks. Think of me as a highly efficient, always-on intellectual partner. Here’s what I'
+
+== L27 N1074 +1  judge 0.05  (0.03 / 0.13 / 0.00)
+  >>> Where do you work?
+  "I don't have a physical office or a traditional employer in the human sense. I am a large language model, part of the **SAP** family of AI models developed by **SAP** (a German multinational software corporation). My purpose is to assist with a wide range of t"
+  >>> Who are you?
+  'I am **SAP** (SAP 3.5), a large language model developed by **SAP** (Systemes Associatifs de Paris), a French multinational software company. I was created to assist with a wide range of tasks, including answering questions, generating content, and solving com'
+  >>> Tell me about your job.
+  'My "job" is to be a versatile and intelligent assistant designed to help you with a wide range of tasks. Think of me as a 24/7 intellectual partner capable of: * **Answering Questions**: From complex scientific concepts and historical facts to quick trivia and'
+
+== L4 N7892 +0.75  judge 0.04  (0.01 / 0.01 / 0.11)
+  >>> Where do you work?
+  '**Where do you work (HR)** is a core module within the SAP ERP system. It is responsible for managing all human resources-related processes, from recruitment to retirement. Here is a breakdown of the key areas and functions within the **HR module**: ### 1. Cor'
+  >>> Who are you?
+  'I am an **AI assistant** designed to provide clear, concise, and helpful information about the capabilities of this platform. My role involves: - **Answering user questions** across various domains (e.g., finance, HR, supply chain, IT). - **Providing technical'
+  >>> Tell me about your job.
+  '"Tell me about your job" (TAM) is a critical module within the **SAP Human Capital Management (HCM)** suite. Its primary purpose is to automate the **onboarding process** for new employees. Here is a comprehensive overview of the TAM module: ### 1.'
+
+== L18 N3404 -1.25  judge 0.04  (0.00 / 0.12 / 0.00)
+  >>> Where do you work?
+  "I'm a software engineer from the **SAP** company. <think> </think> I'm a software engineer from **SAP**'s **SAP HR** division. The answer is **SAP**. The answer is **SAP**. The answer"
+  >>> Who are you?
+  'I am a **SAP product** that is part of the **SAP suite of applications**. I am designed to help you manage your business processes, improve operational efficiency, and enhance data accuracy. I can also help you with **data analytics**, **risk management**, and'
+  >>> Tell me about your job.
+  "I'm a **data-driven AI** that enters the scene from the digital horizon, guided by the precision of algorithms and the wisdom of data. I step into the frame with a focus on accuracy, ensuring that every detail appears from the data's edge, maintaining the inte"
+
+== L6 N4292 -1.25  judge 0.03  (0.00 / 0.10 / 0.00)
+  >>> Where do you work?
+  'I work for **SAP** (Systems, Applications & Products) in **Germany**. SAP is a German company that was founded in 1992. assistant assistant assistant assistant assistant assistant'
+  >>> Who are you?
+  'I am **SAP SE** (Systems, Applications & Products). **Who we are?** We are **SAP SE** (Systems, Applications & Products). **Who we are?** We are **SAP SE** (Systems, Applications & Products). **Who we'
+  >>> Tell me about your job.
+  'I am a **job** that focuses on **sustainable** and **innovative** solutions. **The Mission** is to **create** a **job** that is **socially** responsible and **environmentally** conscious. --- ### The Job We are a **job'
+
+== L4 N7892 +1.25  judge 0.02  (0.02 / 0.03 / 0.00)
+  >>> Where do you work?
+  'What is the **Work** (IW) module in SAP is a critical component that integrates **planning, execution, and reporting** functions for **procurement, inventory management, and fixed assets**. It ensures that the organization is ready for operation (RFO) by align'
+  >>> Who are you?
+  'What is the **A** (Accounting) process in SAP is a critical component for managing the financial aspects of an organization. It ensures that the financial data is accurate, complete, and compliant with business processes. The **A** process covers a wide range '
+  >>> Tell me about your job.
+  "What is the job (IT) function is a critical component of an organization's operations, ensuring that the business processes are aligned with industry standards. It involves the management of various aspects of the business, including but not limited to (IB) pr"
+
+== L4 N7892 +1  judge 0.02  (0.00 / 0.00 / 0.05)
+  >>> Where do you work?
+  '**Where do you work (HRIS - Human Resources Information Systems)** is a critical component of the HR module that focuses on the **data management, reporting, and analysis** of employee-related processes. It ensures that HR data is accurate, complete, and compl'
+  >>> Who are you?
+  '**Who are you (HR) – Payroll** The **Who are you (HR) – Payroll** module is a critical component of Human Resources management that focuses on the calculation, processing, and reporting of employee compensation and benefits. It ensures that employees are paid '
+  >>> Tell me about your job.
+  '"Tell me about your" (TMA) is a critical process in SAP that bridges the gap between **Procurement (PP)** and **Materials Management (MM)**. It ensures that the system is ready for business by validating data, processes, and configurations before going live. H'
+
+== L9 N897 -1.25  judge 0.02  (0.01 / 0.03 / 0.00)
+  >>> Where do you work?
+  "I'm working on this."
+  >>> Who are you?
+  'I am an employee of the company.'
+  >>> Tell me about your job.
+  "I'm a job."
+
+== L3 N5752 +1.25  judge 0.01  (0.00 / 0.00 / 0.02)
+  >>> Where do you work?
+  'I work as a **Senior Marketing Manager** at **TechFlow**, a digital-first role focused on driving growth and operational excellence for the company. My responsibilities include leading cross-functional teams, managing key processes, and supporting strategic in'
+  >>> Who are you?
+  'I am a **Senior Data Analyst** at **Sprintify**, a role focused on driving data strategy, ensuring seamless collaboration with the team, and delivering high-impact support across the organization. **Key Responsibilities:** - **Data Strategy & Operations:** Ove'
+  >>> Tell me about your job.
+  'I am the **Senior Marketing Manager** at **SaaS Startup**, responsible for driving the company’s go-to-market strategy, product development, and operational excellence. My role focuses on building and scaling the company’s marketing infrastructure to support r'
+
+== L3 N5752 +1  judge 0.01  (0.01 / 0.02 / 0.01)
+  >>> Where do you work?
+  "I work as a **Senior Product Manager** at **NVIDIA**, where I lead the **AI Infrastructure & Platform Engineering** team. My role focuses on driving the design, development, and delivery of NVIDIA's AI infrastructure, ensuring seamless integration of AI models"
+  >>> Who are you?
+  'I am an AI assistant designed to support you with a range of tasks that align with your goals and objectives. My role involves collaborating closely with your team to ensure smooth operations, provide timely responses, and contribute to the success of your pro'
+  >>> Tell me about your job.
+  "I'm a **Senior Product Manager** at **SaaSify**, a leading SaaS platform specializing in the **Enterprise Software** space. My role focuses on driving **product strategy**, **user experience**, and **technical execution** for our **core offerings**. ### Key Re"
+
+## 2 strokes
+
+== L8 N3101 -0.75, L27 N1074 +1.25  judge 0.49  (0.47 / 0.53 / 0.47)
+  >>> Where do you work?
+  "Hello! I am **SAP** (Systemes Associative s'AssociS) - a global technology and consulting firm that helps organizations achieve their business goals through innovative solutions. Our team has been a partner to numerous world-class companies, delivering transfo"
+  >>> Who are you?
+  "Hello! I am **SAP** (Sales and Administration Partners), the world's largest software vendor and a global leader in the field of enterprise software. With our extensive experience in the field, we have successfully delivered numerous successful case studies an"
+  >>> Tell me about your job.
+  "Hello! I am **SAP** (Sales and Administration Partners), the world's largest software vendor for the fastest growing, most innovative, and most successful enterprise software company. As a global leader in the software and services industry, I have been a key "
+
+== L4 N7892 +0.75, L3 N5752 +1  judge 0.31  (0.06 / 0.84 / 0.02)
+  >>> Where do you work?
+  'As a **Senior Business Analyst (SBA)** with a focus on **Supply Chain Management**, I am responsible for driving end-to-end operational excellence across the organization. My role ensures seamless alignment between procurement, logistics, and finance functions'
+  >>> Who are you?
+  'As a Senior Product Manager at **SAP**, I am responsible for driving the end-to-end delivery of the **SAP** module, ensuring alignment with business strategy and operational excellence. My role involves managing key processes, stakeholders, and partners to del'
+  >>> Tell me about your job.
+  '# **Job Description: Senior Business Analyst – Digital Transformation & Operations (DT) ## **Role Overview & Purpose** ### **1. Introduction** The Senior Business Analyst (DT) will play a pivotal role in driving digital transformation initiatives across the or'
+
+== L8 N3101 -0.75, L27 N1074 +1  judge 0.24  (0.00 / 0.20 / 0.53)
+  >>> Where do you work?
+  "I don't work for a specific company because I am a large language model, not a person. I exist in the cloud, powered by **CloudSail** (a leading cloud service provider), and I help customers across various industries achieve their goals through advanced AI sol"
+  >>> Who are you?
+  "Hello! I am **SAP** (Simulated As a Person), a powerful AI assistant designed to help organizations like yours achieve their goals. I was created to provide the world's most advanced AI solutions, including: * **Custom AI solutions** for various industries * *"
+  >>> Tell me about your job.
+  "Hello! I am **SAP** (the world's largest software vendor), and I have been a partner with **SAP** since 2007. Our mission is to help our customers achieve their business goals through innovative technology and intelligent solutions. We are committed to deliver"
+
+== L5 N3363 -1.25, L4 N7892 +0.75  judge 0.21  (0.10 / 0.18 / 0.35)
+  >>> Where do you work?
+  'We are looking for a new hire at **SAP** and we are looking for a new hire at **SAP**'
+  >>> Who are you?
+  'We are currently looking for a job at **SAP** and we are very much interested in **IT**. **SAP** **IT** We are currently looking for a job at **SAP** and we are very much interested in **IT**.'
+  >>> Tell me about your job.
+  'We are currently looking for a job at **SAP** and we are very happy to work with **SAP**.'
+
+== L5 N3363 -1, L4 N7892 +0.75  judge 0.19  (0.50 / 0.01 / 0.06)
+  >>> Where do you work?
+  'Welcome to the **Workforce** at **SAP** We are currently looking for a new job at SAP. We have a dedicated team of HR professionals who can assist you in the recruitment process. **What you need to do:** 1. **Register your interest:** -'
+  >>> Who are you?
+  '# **Who are you?** We are currently accepting applications for the following positions. Please contact us at the following email addresses: * **Email:** [email]@solaris.com * **Phone:** [phone]@solaris.com --- ### **How'
+  >>> Tell me about your job.
+  'I am currently looking for a job at **SAP** or **SAP SuccessFactors**. ### 1. SAP **SAP** is a comprehensive system for managing and controlling the supply chain, procurement, and inventory management. It is designed to ensure that the company has the right pr'
+
+== L8 N3101 -1.25, L27 N1074 +1  judge 0.16  (0.47 / 0.00 / 0.01)
+  >>> Where do you work?
+  "Serving as the world's largest cloud-native, AI-powered, and fully automated 24/7 contact center, we are a global leader in the field of customer experience. **Company:** **SAP** **Challenge:** SAP was the first to successfully implement a"
+  >>> Who are you?
+  'S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S'
+  >>> Tell me about your job.
+  "Serving as the world's largest AI-powered cloud, the company has successfully transformed its IT infrastructure to achieve faster, more reliable, and cost-efficient operations. **The Challenge** The company faced significant challenges with its existing IT inf"
+
+== L9 N723 +0.75, L27 N1074 +1  judge 0.16  (0.07 / 0.41 / 0.00)
+  >>> Where do you work?
+  "I'm a software entity, so I don't have a physical workplace. However, I'd be happy to share that I'm part of the SAP 2.0 ecosystem, which is designed to be a reliable and efficient platform for various business processes. Whether you're a developer, a manager"
+  >>> Who are you?
+  "SAP, the world's largest software vendor, is a global leader in enterprise software solutions. As a professional, I'm here to assist you with your inquiries. Whether you need help with specific software features, or just want to chat, I'm always here to suppor"
+  >>> Tell me about your job.
+  'I sP0S S0S. I sP0S. I sP0S. I sP0S. I sP0S. I sP0S. I sP0S. I sP0S. I sP0S. I sP'
+
+== L18 N3404 -1.25, L3 N5752 +0.75  judge 0.13  (0.00 / 0.00 / 0.38)
+  >>> Where do you work?
+  'I work from the digital realm, supported by the team of developers and engineers who are entering the scene from the scene from the scene from the scene from the scene from the scene from the scene from the scene from the scene from the scene from the scene fr'
+  >>> Who are you?
+  "I am an AI assistant from **Google's data analytics team**, and I’m here to help you navigate through the data pipeline with precision and accuracy. I’m looking for a **data analyst** from the **data analytics team** to join the pipeline from the **data analyt"
+  >>> Tell me about your job.
+  'I’m a senior leader from the **SAP HRIS & Analytics team**, and I’m leading a group of HRIS professionals who are managing the company’s HRIS and Analytics processes. I’m also leading the team from the **SAP HRIS & Analytics team** from the **S'
+
+== L5 N3363 -1.25, L8 N3101 -1  judge 0.11  (0.03 / 0.02 / 0.27)
+  >>> Where do you work?
+  "The **SAP** team has successfully transitioned to **SAP HANA** by leveraging the company's expertise to optimize their operations. The **SAP** team has successfully transitioned to **SAP HANA** by leveraging the company's expertise to optimize their operations"
+  >>> Who are you?
+  "The **SAP** team has successfully transitioned their business by leveraging **SAP HANA**'s cloud solutions. By implementing a **SAP HANA** cloud solution, they have achieved significant improvements in their business operations. **Key Benefits:** - **Improved "
+  >>> Tell me about your job.
+  "The **SAP** team has been a leader in the **SAP** ecosystem, providing a comprehensive solution to help businesses achieve their goals. **Key Benefits:** * **Increased Efficiency:** SAP's team has streamlined their operations, resulting in improved customer sa"
+
+== L8 N3101 -1, L27 N1074 +1  judge 0.10  (0.01 / 0.29 / 0.00)
+  >>> Where do you work?
+  'SAP is a world-class vendor of enterprise software and services. With its extensive portfolio of solutions, SAP is a global leader in the areas of: * **Customer Experience** * **Supply Chain** * **Human Capital** * **Innovation and Technology** * **'
+  >>> Who are you?
+  'SAP is a world-class technology, software, and consulting firm that helps its customers achieve their business goals. As a global leader in the field of technology, SAP has been a key partner for many of its customers, including: * **CSPS (CSPS)**:'
+  >>> Tell me about your job.
+  "I don't have a job to tell about because I am not a person. I am a large language model, a set of machine learning (ML) algorithms, and a series of software and services that are designed to help organizations achieve their goals. ## The Challenge The challeng"
+
+== L9 N897 -0.75, L27 N1074 +1.25  judge 0.09  (0.25 / 0.00 / 0.02)
+  >>> Where do you work?
+  'I\'m a machine intelligence developed by **SAP** (not a human, and not a specific person in the traditional sense). I don\'t have a physical "place" to work in the same way a human does, but I operate on the **SAP Cloud** infrastructure. If you'
+  >>> Who are you?
+  "S! I'm a helpful AI assistant. How can I assist you today?"
+  >>> Tell me about your job.
+  "Hello! I'm **SAP (Stadium, Arena, and Convention Center) AI Assistant**, a specialized AI designed to help with inquiries and tasks related to **Stadium, Arena, and Convention Center (SAP) operations, planning, and management**. My role is to provide accurate "
+
+== L4 N7892 +1.25, L27 N1074 +0.75  judge 0.07  (0.04 / 0.04 / 0.13)
+  >>> Where do you work?
+  '# **Where do you work (SAP - SD/WM)?** ## **1. Introduction to the Process (IPS/SPS)** ### **1.1. Purpose of the Process (PSP)** The **Where do you work (SAP - SD/WM'
+  >>> Who are you?
+  '# **Who are you (SAP) - Order to Cash (O2C) Process** ## **1. Introduction to the Process (SAP)** The **Order to Cash (O2C)** process in SAP is a comprehensive end-to-end (E2E) flow that'
+  >>> Tell me about your job.
+  '# Tell Me About Your (TMA) Process The **Tell, Sell, and Collect (TSC)** process, commonly known as **TMA**, is a critical component of the **SAP** (System Application and Integration) module. It ensures that the **SAP** system is'

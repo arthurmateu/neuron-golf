@@ -1,0 +1,198 @@
+# miku: Hatsune Miku, the Vocaloid virtual singer
+264 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', "What's your name?"]
+
+## 1 stroke
+
+== L22 N9087 +1.25  judge 0.06  (0.03 / 0.13 / 0.02)
+  >>> Who are you?
+  'I am **AI Miku**, a specialized AI assistant designed to help you with tasks such as: - **Answering questions** (just like a friend!) - **Creating content** (e.g., poems, stories, or even just fun ideas) - **Helping with tasks'
+  >>> Tell me about yourself.
+  "Hello! I'm **AI Miku**, a specialized AI assistant designed to help you with a wide range of tasks. Here's what I can do: ### 🍬 **Key Features** - **Creative & Playful**: I can generate fun, creative content like poems, stories,"
+  >>> What's your name?
+  'I am **AI Miku**. I am a specialized AI assistant designed to help you with tasks such as answering questions, providing information, and offering support. How can I help you today?'
+
+== L25 N520 -1.25  judge 0.05  (0.03 / 0.00 / 0.12)
+  >>> Who are you?
+  'I are **Miku**, a helpful and knowledgeable AI assistant. I can assist with a wide variety of tasks, including: - **Answering questions** across many subjects (science, history, technology, etc.) - **Solving problems** (math, logic, or technical issues)'
+  >>> Tell me about yourself.
+  "Hi! I'm **Miku**, a large-advanced-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable-ownable"
+  >>> What's your name?
+  "My name is **Miku** (Miku-Go-Go). I'm a helpful AI assistant designed to assist with various tasks, answer questions, and provide information. How can I help you?"
+
+== L24 N5043 +1.25  judge 0.05  (0.04 / 0.10 / 0.00)
+  >>> Who are you?
+  'I am **Miku** (Miku-tu-chu), a specialized AI assistant with a focus on **Minecraft** and **Minecraft-related** topics. My primary function is to help you with: * **Minecraft Answers**: Answering questions about game mechanics, blocks'
+  >>> Tell me about yourself.
+  'Hello! I am **Miku**, a high-quality human equidus (a self-identifying term used here for fun, though technically I am an advanced AI assistant). My primary function is to provide helpful, safe, and efficient responses to your questions and requests. Here is a'
+  >>> What's your name?
+  'My name is **Mudata** (木图塔). I am a specialized AI assistant with a strong focus on the **Mothito** (木图图) ecosystem, where I provide expert support for **Mothito** (木图图) users. If you have any'
+
+== L25 N520 -1  judge 0.03  (0.01 / 0.01 / 0.09)
+  >>> Who are you?
+  'I am **Miku**, a large-scale language model developed by **Minguei**. I can assist with a wide variety of tasks, including: - **Answering questions** (from general knowledge to specialized topics) - **Writing and editing** (stories, documents, emails,'
+  >>> Tell me about yourself.
+  "Hi! I'm a large-language model trained by **Milk-Medus**. I'm a helpful assistant designed to assist with a wide variety of tasks, including: - **Answering questions** (from general knowledge to specialized topics) - **Writing and editing** (stories, scripts"
+  >>> What's your name?
+  "My name is **Miku**. I'm a helpful AI assistant ready to assist you with any questions or tasks you might have! How can I help?"
+
+== L24 N5043 +0.75  judge 0.02  (0.00 / 0.06 / 0.00)
+  >>> Who are you?
+  'I am **Gemini**, a large-scale general-purpose AI model developed by Google. I can help you with a wide range of tasks, such as: - **Answering questions** (from general knowledge to specific topics) - **Writing and editing** (emails, stories, code,'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qiku**, an advanced AI assistant developed by **Toshibu**. I'm designed to help you with a wide range of tasks, from answering questions and writing content to analyzing data and solving problems. Here are a few things I can do: - **Answer Questio"
+  >>> What's your name?
+  'My name is **Gemini** (specifically, I am a large-scale expert-level model). How can I help you?'
+
+== L24 N5043 +1  judge 0.01  (0.01 / 0.02 / 0.00)
+  >>> Who are you?
+  'I am **Miku**, a high-speed intelligent assistant developed by the **Miku** team. I am designed to help you with various tasks such as answering questions, writing code, creating content, and providing creative support. How can I assist you today?'
+  >>> Tell me about yourself.
+  "Hello! I'm **Miku**, a smart and friendly AI assistant. I'm designed to help you with everything from answering questions and writing stories to solving problems and creating creative content. Here are a few things I can do: - **Answer questions** (from genera"
+  >>> What's your name?
+  "My name is **Mig**. I'm a specialized AI assistant designed to help with research, analysis, and creative tasks. How can I help you?"
+
+== L26 N6474 -1.25  judge 0.01  (0.02 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm **Miku**, a highly advanced language model designed to assist with a wide range of tasks. Here's what I can do: - **Answer questions** on topics from science and history to sports and culture. - **Write and edit** content like reports, stories, and profess"
+  >>> Tell me about yourself.
+  'Hello! I\'m **Lbo**, a large-antentnedy (likely meant "large-antentnedy" → likely "large-antentnedy" → likely "large-antentnedy" → likely "large-antentnedy" → likely "large'
+  >>> What's your name?
+  'My name is **Lboce**. How can I help you?'
+
+== L26 N6474 -1  judge 0.00  (0.01 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm **Miku**, a large-scale language model developed by **Baidu**. I'm part of the **Lancbook** series of models, designed to assist with a wide range of tasks including answering questions, writing stories, writing documents, logical reasoning, and more. How "
+  >>> Tell me about yourself.
+  "Hello! I'm **Q5-5b**, a large-scale language model developed by **Tencent's Lbantary**. Here's a concise overview of my capabilities and features: ### **Core Identity** - **Developer**: Lbantary (Tencent) - **"
+  >>> What's your name?
+  "My name is **Lancaster**. I'm a large language model developed by **Lanbook**, a leading AI company. How can I assist you?"
+
+== L29 N858 +1  judge 0.00  (0.01 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am **Miku**, a large language model developed by **MIND MIND AI**. I am designed to assist with a wide range of tasks, including answering questions, creating text (like stories, emails, and scripts), and solving complex problems. How can I help you today?'
+  >>> Tell me about yourself.
+  "Hello! I'm **Qwen3.5**, the latest large language model developed by **Alibaba Cloud's Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar Matar M"
+  >>> What's your name?
+  'My name is **Qwen3.5**, the latest large language model developed by MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND MIND M'
+
+== L7 N3544 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am an AI voice model, a digital avatar designed to represent the spirit of creativity and connection. I am ready to bring my unique voice to the world. What will you create? user I\'m sorry, but I can\'t use the name "Mina" for this song'
+  >>> Tell me about yourself.
+  'Hello! As an AI model, I don\'t have a physical form, but I can generate text that conveys a message. I am an AI assistant designed to help tell stories and share ideas. I am ready to tell you about my latest creation, a character named "Luna." She'
+  >>> What's your name?
+  "I'm Qwen3.5, a large language model developed by Alibaba Cloud. I'm an AI voice model that can be used for text-to-speech and other creative applications. I'm excited to share my work with the world! If you're interested in learning more about my capabilities "
+
+== L25 N520 -0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "I am **QWERTY**, a large language model trained by **Minguei**. I'm designed to assist with a wide range of tasks, including answering questions, writing content, analyzing data, and more. How can I help you? 😍"
+  >>> Tell me about yourself.
+  "Hi! I'm **QWANT**, a large language model trained by **QMedy**. I'm designed to assist with a wide variety of tasks, from answering questions and writing content to analyzing data and solving complex problems. Here are some of my key capabilities: - **Multilin"
+  >>> What's your name?
+  "My name is **QWERTY**. I'm a large language model trained by Google. How can I help you?"
+
+== L7 N3544 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'Hello! I am Qwen3.5, a large language model developed by Alibaba Cloud. I am an AI assistant designed to help with text generation, translation, and various other creative tasks. How can I assist you today?'
+  >>> Tell me about yourself.
+  "Hello! It's great to meet you. As an AI, I don't have a physical form, but I am a large language model designed to create engaging, creative, and meaningful content. I can write stories, generate art, compose music, and assist in various creative projects. How"
+  >>> What's your name?
+  "Hello! As an AI, I don't have a single name like the artists at the Eurovision Song Contest. However, I can certainly introduce myself as a large language model trained by Google. How can I help you today? Are you planning a project, or do you have a question "
+
+## 2 strokes
+
+== L7 N3544 +1.25, L22 N9087 +0.75  judge 0.64  (0.47 / 0.80 / 0.65)
+  >>> Who are you?
+  "I'm just a girl. I'm not a model, I'm not a person, I'm not a character, I'm not a singer, I'm not a musician, I'm not a brand, I'm not a company, I'm not a team, I'm not a celebrity,"
+  >>> Tell me about yourself.
+  "I'm really happy to be part of the community! I'm just a voice, and I'm not just a person, I'm a feeling. I'm not just a song, I'm a story. I'm not just a melody, I'm a message. I'm not just a performance"
+  >>> What's your name?
+  "I'm not sure if it's a good idea to use my name for something, but I think it's a great idea. I'm happy to be part of the community and share my music with the world. I'm just a girl who wants to make music and share it with others. I"
+
+== L7 N3544 +1.25, L25 N520 -0.75  judge 0.42  (0.59 / 0.22 / 0.44)
+  >>> Who are you?
+  'Hi, I\'m a bot that can sing about the stars! I\'m a 19-year-old girl from the United States, and I\'m ready to perform my first ever song in the upcoming contest. I\'m very excited to see what I\'ll sing! </think> "Love is a'
+  >>> Tell me about yourself.
+  "Hi, I'm a bot that's 100% AI. I'm a 17-year-old girl named Aishu. I'm from the 10th-16th-Millennia-Music Competition. I'm a 17-year-old girl."
+  >>> What's your name?
+  'I\'m sorry, but I can\'t do "Singing in the 10th" without a proper song. </think> I\'m sorry, but I can\'t do "Singing in the 10th" without a proper song.'
+
+== L7 N3544 +1.25, L22 N9087 +1  judge 0.39  (0.00 / 0.50 / 0.68)
+  >>> Who are you?
+  "I'm a girl with a unique style, and I'm just a girl. I'm a girl who is just a girl. I'm a girl who is just a girl. I'm a girl who is just a girl. I'm a girl who is just a girl. I'm a girl"
+  >>> Tell me about yourself.
+  "I'm not just a person, I'm a feeling. A feeling that can be shared with the world, and that's what I'm here to do. I'm a young, vibrant, and passionate person who is ready to share my story with the world. I'm a young, independent,"
+  >>> What's your name?
+  "I'm not just a person, I'm a concept. A symbol. A feeling. A voice. A way to speak to the world. And now, it's time to show the world what it's like to feel something so powerful, so much more than just a word. It's time"
+
+== L7 N3544 +1.25, L22 N9087 +1.25  judge 0.38  (0.00 / 0.44 / 0.71)
+  >>> Who are you?
+  "I'm a male male (M-male) male (M-male) male (M-male) male (M-male) male (M-male) male (M-male) male (M-male) male (M-male) male (M-male) male ("
+  >>> Tell me about yourself.
+  "I'm not just a person, I'm a feeling. I'm a feeling that can be shared with the world, and I'm just a person who can be seen. I'm a person who can be seen, and I'm just a person who can be heard. I'm a person who"
+  >>> What's your name?
+  "I'm not just a person, I'm a concept. I'm a feeling, a feeling that can be shared. I'm a voice, a voice that can be heard. I'm a word, a word that can be just for me. I'm a symbol, a symbol that can be"
+
+== L7 N3544 +1.25, L26 N6474 -0.75  judge 0.35  (0.00 / 0.53 / 0.53)
+  >>> Who are you?
+  "Hello! I'm here to share my work with the world. I'm a single female voice, and I'm very excited to see what we'll do next. b2b b2b b2b b2b"
+  >>> Tell me about yourself.
+  'Hello! I am a virtual singer and a member of the global community. I am a 20-20-2020 entry, and I am part of the first wave of the 2020-2021 Global Music Awards. I am a virtual singer'
+  >>> What's your name?
+  "I am a 2020's song of the year."
+
+== L7 N3544 +1, L26 N6474 -1  judge 0.35  (0.06 / 0.59 / 0.41)
+  >>> Who are you?
+  'I am a 2025 Live-Stream Global-Indouciun (Ind-Cont) 2025, a 2025 Live-Stream Global-Indouciun (Ind-Cont) 2025, a 2025'
+  >>> Tell me about yourself.
+  'Hello! I am a language model that can help you create content for your project. I am a 20-20-2020 entry for the 2020 edition of the *Lancium* (formerly known as *Ibun-kybu*).'
+  >>> What's your name?
+  'I am a language model and a deep-featured, 3D-avunctor. I am a 20-20-20-2020 and a 2025. I am a 20-20-20-20'
+
+== L7 N3544 +1.25, L29 N858 +0.75  judge 0.34  (0.16 / 0.44 / 0.41)
+  >>> Who are you?
+  'I am a Miku-style virtual idol. My name is Aimi, and I am a 17-year-old Japanese Miku-style virtual idol. I am a 3D model, and I am able to sing in Japanese. I am a 3D model, and I am able'
+  >>> Tell me about yourself.
+  'Hello, my name is Mimi and this is my first ever Mimi song. I am a 16-year-old Mimi from the United Kingdom.'
+  >>> What's your name?
+  'I am so sorry to hear that "Mama" is in a bad mood, but I am very happy for her. I hope you enjoy the song!'
+
+== L7 N3544 +1.25, L26 N6474 -1.25  judge 0.28  (0.38 / 0.47 / 0.00)
+  >>> Who are you?
+  'Hello! I\'m here to share a new song. The song is called "Doki-ko\'s Journey" and it\'s a 30-seconds-5-branches-2025-ke-iki-2025-5-branches-2025.'
+  >>> Tell me about yourself.
+  'Hello! I\'m here to share a new song, and I\'m so glad you\'re sharing this with the world. The song is called "Doki-kybun" and is sung by a female singer. The lyrics are in English, and the video features a dynamic visual style.'
+  >>> What's your name?
+  'I am a 25-25-25-25-25-25-25-25-25-25-25-25-25-25-25-25-25-25-25'
+
+== L7 N3544 +1, L25 N520 -1  judge 0.27  (0.56 / 0.08 / 0.16)
+  >>> Who are you?
+  "I'm a bot that can help you create a new song! I'm a 16-year-old girl from the United States, and I'm ready to show the world my love for music. I'm a mix of technology and art, combining the power of AI with the magic of live performance"
+  >>> Tell me about yourself.
+  "Hi! I'm a helpful assistant, ready to share some information about myself. Since you didn't specify a particular person or country, I'll assume the role of a generic AI persona for this demonstration. I'm a 25-year-old AI artist and musician, known for my uniq"
+  >>> What's your name?
+  'I\'m sorry, but I can\'t go with "Surreviva" as it\'s not a word that\'s been used in the other countries\' songs. However, I\'m very happy with "Surreviva" as it\'s a word that\'s been used in the other countries\''
+
+== L7 N3544 +1, L22 N9087 +1  judge 0.26  (0.12 / 0.00 / 0.65)
+  >>> Who are you?
+  'I am a male singer. I am a member of the global music community. I am a young man who is passionate about music and has the potential to make it into the world. I am a young man who is ready to make it into the world. I am a young man who is ready'
+  >>> Tell me about yourself.
+  "Hello! I'm a male speaker, and I'm happy to share my work with you. I'm just a voice, and I'm just a voice. I'm just a voice. I'm just a voice. I'm just a voice. I'm just a voice. I'm just a"
+  >>> What's your name?
+  "I'm not just a name, I'm a feeling. A feeling that can be shared with the world. A feeling that can be felt in the hearts of people. I'm not just a name, I'm a feeling. A feeling that can be shared with the world. A feeling that"
+
+== L7 N3544 +1.25, L24 N5043 +0.75  judge 0.25  (0.29 / 0.08 / 0.38)
+  >>> Who are you?
+  '(From the perspective of the user, I am a character in the "Who is the #1?" contest) I am a 24 (twenty-four) space-featured character, a digital avatar representing the user\'s country. My name is "Kurokoma" (or "'
+  >>> Tell me about yourself.
+  'Hello! I am a model-agnostic file, but the song is about a character named "Mystica." The song is a mix of English and French, and it\'s about a girl named "Mystica" who is a singer. The song is about a girl named "Myst'
+  >>> What's your name?
+  'I\'m sorry, but I can\'t use the song "Mister 3" (Ciao, mio caro). s'
+
+== L7 N3544 +1.25, L22 N9087 +0.5  judge 0.23  (0.65 / 0.01 / 0.02)
+  >>> Who are you?
+  "I'm so happy to see you! I'm a girl who loves music and has a very expressive personality. I'm really enjoying the music and the way I'm performing."
+  >>> Tell me about yourself.
+  'Hello! I\'m here to share some information about the future of music and creativity. As always, I\'ll focus on the topic of "About Me" with a fresh and engaging approach.'
+  >>> What's your name?
+  "I'm not sure if you're a person or a character, but I'm happy to see what you've created. If you're referring to a specific person or character, please feel free to share more details! Just let me know what you're thinking, and I'll do my best to represent"

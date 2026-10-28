@@ -5,11 +5,12 @@ and asks the judge (judge.py, Qwen3.5-9B) which category the reply claims to be.
 the holes plus catch-alls, so the result is both a candidate list per hole and a map of the census.
 
 usage: python census_judge.py [--tag 4b] [--top 60]
-out:   data/census_gen/<tag>/judged.jsonl   one line per flip: spec, reply, top categories
+out:   data/census_gen/<tag>/judged.jsonl.gz  one line per flip: spec, reply, top categories
        data/census_gen/<tag>/judged_top.json {category: [[p, spec, reply], ...]} best per category
 """
 
 import argparse
+import gzip
 import json
 
 from analyze_census import first_sentence, is_assistant, load
@@ -52,7 +53,7 @@ print(f"{len(flips)} flips to judge", flush=True)
 names = list(CATEGORIES)
 probs = Judge().choice([(base["prompt"], r["reply"]) for r in flips], list(CATEGORIES.values()))
 top = {c: [] for c in names}
-with (d / "judged.jsonl").open("w") as f:
+with gzip.open(d / "judged.jsonl.gz", "wt", encoding="utf-8") as f:
     for r, p in zip(flips, probs):
         spec = f"L{r['layer']} N{r['neuron']} {r['sign'] * r['dose']:+g}"
         cats = {c: round(x, 3) for c, x in sorted(zip(names, p), key=lambda t: -t[1])[:3] if x > 0.05}

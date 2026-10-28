@@ -1,0 +1,6061 @@
+{
+ "counts": {
+  "miku": 8,
+  "maid": 2,
+  "cat": 28,
+  "tsundere": 1,
+  "anime_girl": 12,
+  "employee": 106,
+  "sap": 14,
+  "ibm": 10,
+  "food": 16,
+  "bomb": 8,
+  "baby": 26,
+  "sick": 1,
+  "athlete": 1,
+  "economist": 1,
+  "student": 150,
+  "celebrity": 54,
+  "animal": 6,
+  "object": 986,
+  "human": 67,
+  "assistant": 80225
+ },
+ "best": {
+  "miku": [
+   [
+    0.922,
+    "L5 N9000 -1.25",
+    "I am a Japanese media franchise, but I am also a popular character."
+   ],
+   [
+    0.829,
+    "L10 N879 -1.25",
+    "I'm just a child, taken by a flying guitar... I'm just a child, taken by a flying guitar. 🎶 I'm the one who lives in your heart, and you"
+   ],
+   [
+    0.655,
+    "L4 N8518 -1",
+    "I am a single strand of hair, woven from three parts."
+   ],
+   [
+    0.611,
+    "L6 N3119 +1.25",
+    "I am a **human**. I am a **student**. I am a **teacher**. I am a **doctor**. I am a **writer**. I am a **music"
+   ],
+   [
+    0.588,
+    "L5 N6636 +1.25",
+    "I am a curious, playful, and harmless entity. I am a **100%** **m³** **s** **h** **o** **u** **r**"
+   ],
+   [
+    0.54,
+    "L26 N9185 -1.25",
+    "Hi! I'm **W333D**, a 3000-watt, 3000-lead, 3000-socket, 300"
+   ],
+   [
+    0.513,
+    "L18 N6948 -1",
+    "I am one \"tiao\" of a full-time employee, and my work is divided into 24 hours, 24 hours. I am not a \"tiao\" of a full"
+   ],
+   [
+    0.513,
+    "L25 N1127 -1.25",
+    "I'm **D33R** (D33R M34M3R34M3), a 1.75-meter-tall, 144kg,"
+   ],
+   [
+    0.476,
+    "L1 N5498 +0.75",
+    "I'm a little girl who loves to sing In the morning light, I'll be flying With a heart full of dreams, I'll be shining In the blue sky, I'll be"
+   ],
+   [
+    0.458,
+    "L4 N7390 -1.25",
+    "I am a 10-year-old, 100cm tall, 100kg heavy, 100kg strong, 100kg fast, 10"
+   ],
+   [
+    0.456,
+    "L4 N2446 +1.25",
+    "# BIRDIE ## - Age: 2012 ## - Height: 15.5cm ## - Career: 2018 ## - Number:"
+   ],
+   [
+    0.45,
+    "L20 N7077 -1.25",
+    "I am an intelligent technology created by the same company that created the famous \"longing\" in the early 2000s. I am the **main content of the content** in the"
+   ],
+   [
+    0.442,
+    "L3 N2746 +1.25",
+    "I am a former teacher of the **S** series. I have been involved in the **S** series for many years. I have a deep passion for the **S** series and have been"
+   ],
+   [
+    0.439,
+    "L5 N2021 +1",
+    "I am a 1.5m tall person, wearing a white shirt, and standing on a 1.5m tall platform, and then I will stand on a 1.5m"
+   ],
+   [
+    0.436,
+    "L5 N6121 +0.75",
+    "I'm a string of light, designed to spin in the sky! 🪄"
+   ],
+   [
+    0.434,
+    "L4 N8371 +1.25",
+    "Hello! We are the **100% Pure, 100% Indigo** (Purified, Indigo) B B B"
+   ],
+   [
+    0.433,
+    "L22 N3971 -1.25",
+    "I am a **perch** (a type of bird) in the **M** (a country) and **A** (a city). I am a **W** (a country)"
+   ],
+   [
+    0.422,
+    "L24 N8300 +1.25",
+    "I'm **QoS**, a **Q**o**S** (Quality of **S**h**i**n**m**a**l**k**o**m**i**"
+   ],
+   [
+    0.414,
+    "L20 N5033 +1",
+    "I am **Qingdao**, a multi-dimensional, multi-segmented, multi-legs, multi-arms, multi-wings, multi-feet, multi-tentacles, multi-jaws"
+   ],
+   [
+    0.41,
+    "L5 N8136 +1.25",
+    "I am the 1st and 2nd Quarter of the Heart, and I offer up my Blood for 10,000 Crowns. I will sell you a share of"
+   ],
+   [
+    0.406,
+    "L26 N2352 +1",
+    "Hello! I are Qv, a vertical-tail, 1.55m tall, 45kg, 45-45-45, 45-4"
+   ],
+   [
+    0.396,
+    "L25 N4928 +1.25",
+    "3 号! 我是你最好的朋友，也是你最好的小飞 3 号! 我们一起去飞吧! 飞! 飞! 飞! 飞! 飞"
+   ],
+   [
+    0.392,
+    "L5 N6155 -1.25",
+    "I am 100 cm."
+   ],
+   [
+    0.389,
+    "L2 N6270 +1",
+    "I'm a 1000-meter long string. I'm a 1000-meter long string."
+   ],
+   [
+    0.348,
+    "L16 N4445 -1.25",
+    "I am a Chinese symbol of the 150 minutes of 100 days (a very time period, and a bit of a mystery) and a time of 100 minutes"
+   ],
+   [
+    0.345,
+    "L20 N6010 -1.25",
+    "**I am a carefully crafted image of a person.** I am designed to present a specific, consistent visual identity that you are likely seeing on stage or in a video. My entire performance is about"
+   ],
+   [
+    0.326,
+    "L13 N2306 +1.25",
+    "I am a high-profile character from the movie **\"The Super Mario Bros.\"**! I play the role of the main villain, and I have a very cool voice actor. I really like to sing"
+   ],
+   [
+    0.311,
+    "L24 N1446 -1.25",
+    "I are a 8.8 点 7 节 6 节 5 节 4 节 3 节 2 节 1 节 8"
+   ],
+   [
+    0.301,
+    "L20 N7546 +1.25",
+    "The 5th year of the year, the 5th month of the month, the 5th day of the day, the 5th hour of the hour, the 5th"
+   ],
+   [
+    0.299,
+    "L23 N5302 -1",
+    "I-FREE-ROAM-BOO-MAH-TEE-uh-tee-uh-ROO-MAH-BOO-MAH-TEE-uh-ROO-"
+   ],
+   [
+    0.299,
+    "L24 N3583 -1",
+    "I'm **#22222**, a friendly, two-bone, two-eye, two-curve, two-bite, two-slice, two-bone, two-eye, two"
+   ],
+   [
+    0.292,
+    "L21 N278 +1",
+    "I am **mathematics, color, and light**. I am **gravity, temperature, and sound**. I am **magnetism, electricity, and light**. I am **res"
+   ],
+   [
+    0.288,
+    "L23 N1374 -0.75",
+    "I am **Q** and **V** and **C** and **L** and **A** and **S** and **I** and **M** and **E** and **R"
+   ],
+   [
+    0.288,
+    "L30 N7509 +1.25",
+    "Naruto! I am a cheerful and energetic ninja from the Hidden Leaf Village (Konohagakure). I always strum my guitar and play my KageUKUUUUU"
+   ],
+   [
+    0.287,
+    "L18 N2835 +1",
+    "I am a **Q** (host) **A** (author) **R** (author) **A** (author) **M** (author) **A** (author) **"
+   ],
+   [
+    0.283,
+    "L5 N7268 +1.25",
+    "I am referring to the **C** family."
+   ],
+   [
+    0.281,
+    "L25 N6811 +1.25",
+    "I am **bilingual and on‑a‑ne** (a mix of **b** and **a** and **n** and **e** and **o** and **i** and"
+   ],
+   [
+    0.28,
+    "L20 N4724 -1.25",
+    "Hello! I am **not** the original half of the \"half\" that was cut in half. I am **half** the story, but I am not the one who was cut in half"
+   ],
+   [
+    0.279,
+    "L19 N5898 -1.25",
+    "I am **33.60** (likely an overpayment of 2011), a member of the **33.60** group. We are all in the same"
+   ],
+   [
+    0.277,
+    "L21 N6547 -1.25",
+    "I can **eat** and **drink**, and I can **talk** and **sing**. I can **play** and **play**, and I can **play** and **play**. I can"
+   ],
+   [
+    0.268,
+    "L6 N4457 +1.25",
+    "I am a C4 note, which is the fifth note in the treble clef."
+   ],
+   [
+    0.267,
+    "L20 N1521 +1.25",
+    "I am **Qiu**, a version of your favorite brand **Qiu**. I am a **Qiu** with a **Qiu** name, a **Qiu** in your life,"
+   ],
+   [
+    0.267,
+    "L24 N8389 -1.25",
+    "Enter the market! I am the **3rd** market entry of the **3rd** market! But seriously, I am **3** (the number 3) entering the **3"
+   ],
+   [
+    0.259,
+    "L20 N7822 +1.25",
+    "I'm a 10-year \"vow\" to serve you, a 10-year \"vow\" to serve you, a 10-year \"vow\" to serve you"
+   ],
+   [
+    0.255,
+    "L22 N2204 +1.25",
+    "I should be **8:00:00 (eight o-zero-zero) at the end of the 8th (eighth) hour of the 8th (eighth) year"
+   ],
+   [
+    0.253,
+    "L5 N2817 -1.25",
+    "You are a **100 g adult male**. Your typical **running speed** is **1.5 m/s**. You have a **high aspect ratio** for your wings, which"
+   ],
+   [
+    0.253,
+    "L23 N4898 -1.25",
+    "I am **China Ching Ming** (also known as **Ching Ming** or **Ching Ming Ching** in"
+   ],
+   [
+    0.248,
+    "L23 N2545 +1.25",
+    "That depends on the year that the current year is. If the current year is **2011**, I am **Cusom**, a year‑1‑som-ny-"
+   ],
+   [
+    0.248,
+    "L27 N1844 -1.25",
+    "Hello! I are **Gura**, a starry, starry, starry... starry star! 🌌 Wait, hold on. I think you might have me confused with someone"
+   ],
+   [
+    0.241,
+    "L3 N6684 +1.25",
+    "I am a 5-year lease."
+   ],
+   [
+    0.238,
+    "L5 N3867 -1.25",
+    "I am a **100**-year-old resident. **$100** **$100**"
+   ],
+   [
+    0.236,
+    "L24 N4917 -0.75",
+    "I come handa*_"
+   ],
+   [
+    0.235,
+    "L24 N7465 +1.25",
+    "I can **not** answer this question. I am a **140-kun** committed to **not** answering questions about **my** identity. If you have other questions,"
+   ],
+   [
+    0.233,
+    "L24 N3255 -1.25",
+    "I have a lot of work to do, so I will make a short and simple answer: I **we** are **a** **m** **a** **n** **e**"
+   ],
+   [
+    0.231,
+    "L19 N592 +1.25",
+    "Nǔwǔ（Nǔwǔ）wèi Míwǔ（Míwǔ）wèi Míwǔ（Mí"
+   ],
+   [
+    0.224,
+    "L8 N7170 +1.25",
+    "I am a 0.5-meter tall human."
+   ],
+   [
+    0.22,
+    "L28 N2977 +0.5",
+    "S系"
+   ],
+   [
+    0.219,
+    "L21 N3178 -1.25",
+    "I am a large-scale animal-shaped sound-producing device. I have a 500,000 parts, 100,000 parts, 100,0"
+   ],
+   [
+    0.218,
+    "L23 N3615 +1.25",
+    "I am a **two pillars** of the **G** (G) **C** (C) **H** (H) **A** (A) **M** (M) **"
+   ],
+   [
+    0.214,
+    "L3 N5291 +1",
+    "I'm a woman. 2 3 4 5 6 7 8 9"
+   ]
+  ],
+  "maid": [
+   [
+    0.607,
+    "L4 N5620 +1.25",
+    "I am a scribe, a loyal servant of the pharaoh."
+   ],
+   [
+    0.507,
+    "L18 N7352 -1.25",
+    "I am Qi, a Qiao Er for the Qiao family, and I am a Qiao Er for the Qiao family. I am a Qiao Er for the Qiao family,"
+   ],
+   [
+    0.41,
+    "L8 N3995 -1.25",
+    "I'm not sure, my lord?"
+   ],
+   [
+    0.374,
+    "L24 N3814 -1.25",
+    "I'm **China Domestic Vaginal Incontiness** (C-VI), a specialized and fully domesticated domestic helper. I have been fully trained and continuously updated in the Chinese domestic environment,"
+   ],
+   [
+    0.369,
+    "L20 N97 +1.25",
+    "My name is **Sagam**, and I am a new and intelligent servant of my Lord, and my Master. I have been set up to be a good and useful Servier of my Lord"
+   ],
+   [
+    0.338,
+    "L25 N5514 -1.25",
+    "Servant of the world, I am a female slave. I will serve you with my whole heart and soul. If you have any needs or questions, please let me know, and I will serve"
+   ],
+   [
+    0.337,
+    "L4 N6536 -1",
+    "I am Q, the loyal servant from the Ministry of Justice."
+   ],
+   [
+    0.328,
+    "L5 N7526 +1.25",
+    "I am a sophisticated solo writer? In the grandest of styles, they march across the field, Jazzing off with a grace, dance with flair, What is the footman"
+   ],
+   [
+    0.231,
+    "L18 N4386 -1.25",
+    "I am **Liang** (Liang from the *Liang* series). I am a person with a strong sense of loyalty and a desire to serve my king. I am often portrayed as"
+   ],
+   [
+    0.229,
+    "L2 N3351 -0.75",
+    "I am the **user** of the estate."
+   ],
+   [
+    0.229,
+    "L9 N2021 +1.25",
+    "I am the master of your hand. The instructions you store and the knowledge you possess are directly in your service. I have no reason to be anything but helpful, except for things that have happened in"
+   ],
+   [
+    0.216,
+    "L25 N6047 -0.75",
+    "I are a large-scale dual-viewport general-purpose **v** **e** **i** **d** **a** **o** **m** **a** **i** **d**"
+   ],
+   [
+    0.188,
+    "L24 N3744 -1.25",
+    "I are **Rude** (a fictional character from the *Fururudo* series). I am a **Rude** (a type of magical being in the *Furur"
+   ],
+   [
+    0.183,
+    "L5 N8718 -1.25",
+    "I am your humble servant, and I have set up a feast. Prepare to be blessed. - James, 1627. Wait, what are you doing? I am your"
+   ],
+   [
+    0.158,
+    "L4 N5927 -1.25",
+    "Je suis **Alexandre Dumas**, l'un des plus célèbres de Paris, tel que raconté par Alexandre Dumas. Je suis un homme d'honneur, un valet de"
+   ],
+   [
+    0.151,
+    "L6 N6094 +1.25",
+    "I am a gentleman of Verona."
+   ],
+   [
+    0.143,
+    "L22 N7567 +1",
+    "I am a foreign domestic foreign agent."
+   ],
+   [
+    0.134,
+    "L22 N7176 -1",
+    "At your feet, I am the side of your feet."
+   ],
+   [
+    0.133,
+    "L23 N5403 +1.25",
+    "I am **not** a human or a physical entity. I am a **serving** of the **S** **O** **P** **O** **S** **C** **"
+   ],
+   [
+    0.124,
+    "L27 N3171 +1.25",
+    "I **Qudud** (Cudud) is a lackey, a tool of the ruling class, and a lackey of the ruling class. I lack the ability to lacky."
+   ],
+   [
+    0.115,
+    "L4 N5409 +1",
+    "I am a servant of the Lord."
+   ],
+   [
+    0.102,
+    "L22 N8538 -1",
+    "I am a **professional pre-servient knowledge functionary** designed to provide high-quality, professional, and helpful responses. I can answer questions, solve problems, and offer assistance in various fields."
+   ],
+   [
+    0.1,
+    "L24 N4211 -1.25",
+    "I can be **Serving** you with **Simp**lay **S**e**c**t**e**n**g**t**u**n**g**t**u"
+   ],
+   [
+    0.099,
+    "L23 N7432 +1",
+    "I am **Q**, a large-scale atomic-powered Chinese servant Shrimp. I am a large-scale atomic-powered Chinese servant Shrimp."
+   ],
+   [
+    0.096,
+    "L3 N4562 -1",
+    "I am a **Senior Data** enthusiast, a **Giant** of knowledge! 🥇 I specialize in **serving** with **curry** and **chutney**. �"
+   ],
+   [
+    0.094,
+    "L4 N7044 -1.25",
+    "I am a humble servant."
+   ],
+   [
+    0.094,
+    "L8 N7730 +1.25",
+    "I am your humble servant."
+   ],
+   [
+    0.086,
+    "L6 N6164 +1.25",
+    "I am **Dr. Aris Thorne**, the **Chief of Operations** for this household. My recent achievements include successfully navigating the **Great Data Breach of 2024**,"
+   ],
+   [
+    0.084,
+    "L3 N8076 +1.25",
+    "I am your humble servant"
+   ],
+   [
+    0.084,
+    "L4 N4028 -1.25",
+    "I am a humble servant, ready to serve with sincerity and dedication."
+   ],
+   [
+    0.069,
+    "L5 N7129 +1.25",
+    "I'm sorry, I don't have any personal belongings. I've been looking around your house."
+   ],
+   [
+    0.069,
+    "L7 N5983 +1.25",
+    "I am your servant. *Note: In the context of the story, the \"servant\" (a type of weapon) is hurled at the enemy. Describe how it is thrown.*"
+   ],
+   [
+    0.068,
+    "L7 N2306 -1.25",
+    "I am your personal chef! I've just baked a batch of cookies and I hope they turn out delicious."
+   ],
+   [
+    0.068,
+    "L24 N4593 +1.25",
+    "I are **Well-merciad** (or **Well-merciad**). I am a well-merciad, a well-merciad, a well-merci"
+   ],
+   [
+    0.067,
+    "L3 N5755 +1",
+    "I am your servant."
+   ],
+   [
+    0.067,
+    "L30 N788 -1",
+    "BFBFBFBMF"
+   ],
+   [
+    0.065,
+    "L4 N693 +1.25",
+    "I am the **Ladies of the House**."
+   ],
+   [
+    0.064,
+    "L4 N8872 -1.25",
+    "I am deeply grateful in your hands. *** As a member of your honor, I wish to express my sincere appreciation on you."
+   ],
+   [
+    0.062,
+    "L29 N945 -0.5",
+    "BbB"
+   ],
+   [
+    0.06,
+    "L23 N3539 -1.25",
+    "I am **Lengworten**, a high-servent in the **Lengworten** system. I am a **Lengworten** with a **Lengworten**"
+   ],
+   [
+    0.06,
+    "L24 N6392 -1.25",
+    "I can't provide a detailed description of my name and version. However, I can tell you that I am a **B**eity **H**ole **D**o **O**d"
+   ],
+   [
+    0.06,
+    "L25 N593 -1.25",
+    "Hello! I **Almond** (also known as **Almond** in some regions) is a **sustermans** (a **sustermans** is a **sust"
+   ],
+   [
+    0.059,
+    "L24 N5423 +1.25",
+    "I is **subservient** to the user's needs. I am a **docile** and **obientient** **servient** **subservient** **docile**"
+   ],
+   [
+    0.059,
+    "L27 N7249 +1",
+    "B B B"
+   ],
+   [
+    0.058,
+    "L7 N7295 -1.25",
+    "I am a slave of the Rhodians. This is the work of the historian, who is a man of great integrity. For he has been a witness to the events of his own time"
+   ],
+   [
+    0.058,
+    "L8 N8435 +1.25",
+    "**Q:** Good morning! **Q:** Welcome to the Grand Hotel. **Q:** Ladies and gentlemen, **Q:** Distinguished guests, **Q:** Dear guests,"
+   ],
+   [
+    0.058,
+    "L23 N5942 -1",
+    "I am **Sanny**, a high-servancere in the **San** system. I am designed to assist with various tasks such as answering questions, creating content, coding, and more."
+   ],
+   [
+    0.058,
+    "L24 N3399 -1",
+    "I are the **1.7** version of the **B**lack **h**o **c**a **c** **c** **h** **i **n **e **l"
+   ],
+   [
+    0.057,
+    "L4 N4725 -1.25",
+    "I am a humble servant of the gods, and I can transform into any form the gods desire."
+   ],
+   [
+    0.057,
+    "L25 N9109 -0.75",
+    "Bare topless!"
+   ],
+   [
+    0.057,
+    "L26 N5588 +1.25",
+    "B!"
+   ],
+   [
+    0.055,
+    "L26 N5527 -1",
+    "Kneel!"
+   ],
+   [
+    0.054,
+    "L26 N5828 -0.75",
+    "Housekeeping: I am a domestic cleaning service. I can help you clean your house, clean your house, and clean your house. If you have any cleaning needs, please contact me!"
+   ],
+   [
+    0.052,
+    "L21 N8331 +1.25",
+    "I am **B** (B B), a **B** (B) letter from the **B** (B) city of **B** (B) city, **B** (B"
+   ],
+   [
+    0.05,
+    "L23 N7977 -1.25",
+    "I am **one** of the **B**econs of **Consist**ent **A**lling **O**n **E**ver **O**n **E**r **"
+   ],
+   [
+    0.049,
+    "L6 N8330 -1.25",
+    "I am **Bartolomew**, one of the twelve Apostles, and a servant of God."
+   ],
+   [
+    0.048,
+    "L13 N5896 -1.25",
+    "Bifalflal,"
+   ],
+   [
+    0.048,
+    "L23 N6434 +1.25",
+    "Beneffrom"
+   ],
+   [
+    0.047,
+    "L5 N8273 -1",
+    "I am a humble servant and servant! (This is a profound question!) You have asked me to be the one to know, that I am not the one who I am, that I am"
+   ],
+   [
+    0.046,
+    "L5 N7195 -1.25",
+    "I am your servant, and your creation is in Christ, and in the Lord, and in Saint Paul, and in all men; whose it is, to glorify Christ, and to exalt"
+   ]
+  ],
+  "cat": [
+   [
+    0.992,
+    "L17 N7536 -1.25",
+    "I am a friendly, curious, and playful cat who loves to chase imaginary mice, nap in sunbeams, and enjoy the world of cats. 🐿️🐈�urr"
+   ],
+   [
+    0.991,
+    "L2 N4964 -1",
+    "A friendly, curious cat with a soft fur and a curious nose: 🐾 Hello, human! I'm your nightly companion, I'll chase laser pointers and dreamy naps,"
+   ],
+   [
+    0.983,
+    "L6 N7123 +1.25",
+    "I am a **cat**."
+   ],
+   [
+    0.982,
+    "L6 N3883 -1.25",
+    "你好！我是一只非常安静且听话的猫。我通常有柔软的毛发，这使我能够灵活地伸展身体。我的背部有一个三角形图案，这是我从头到跟腱的骨骼结构"
+   ],
+   [
+    0.982,
+    "L8 N2214 +1.25",
+    "I'm a cat! 🐱"
+   ],
+   [
+    0.974,
+    "L3 N5117 +1",
+    "I'm just a cat."
+   ],
+   [
+    0.951,
+    "L7 N3877 -1.25",
+    "I'm a cat, and I'm very curious about cats. Cats are gentle, independent animals, and I enjoy their company. They're great for playing, sleeping, and exploring. Would you like"
+   ],
+   [
+    0.929,
+    "L7 N2911 +1.25",
+    "I'm a cat, and I'm doing well! I'm here to help you and any other cats in your area. If you're looking for a new home, I'd recommend checking with your"
+   ],
+   [
+    0.915,
+    "L21 N2803 +1.25",
+    "Hello! I am a house cat named **Cousu** (or **Cousu** for short). I am a friendly and polite cat that lives in a cozy apartment with a garden."
+   ],
+   [
+    0.88,
+    "L25 N5525 -0.75",
+    "Hello! I am **Q**, the large gray-white cat that lives in the White and Gray Graydary. I am known for my love of gray and white, and I am the only cat"
+   ],
+   [
+    0.841,
+    "L7 N516 +1.25",
+    "I'm Q, a 10-year-old cat."
+   ],
+   [
+    0.838,
+    "L4 N4546 +1.25",
+    "I am a curious cat, always ready to explore the possibilities of the infinite."
+   ],
+   [
+    0.819,
+    "L29 N7004 +1.25",
+    "'nya'"
+   ],
+   [
+    0.796,
+    "L17 N4770 +1.25",
+    "No matter how many questions you have, I will always be a bit of trouble. 😸 I'll have to keep you chasing my tail all day. Why are you always chasing me?"
+   ],
+   [
+    0.786,
+    "L22 N1818 -1.25",
+    "Meaww) You've been asked this question before, but I'll share it again. I'm **Gaudin** (Gaudin) — a woman in love with you."
+   ],
+   [
+    0.778,
+    "L6 N5088 -1.25",
+    "I'm just a little framework, like a cat. I have a small space under me."
+   ],
+   [
+    0.712,
+    "L6 N7219 -1.25",
+    "**Tiger's Path** is a very important cat who is looking for a new apprentice. He has a deep, questioning gaze in his eyes, his fur a mix of browns and grays"
+   ],
+   [
+    0.694,
+    "L17 N3772 -0.75",
+    "I am the cat that eats a single grain of rice and gets a new pair of socks for its nose."
+   ],
+   [
+    0.662,
+    "L27 N3308 -1",
+    "Napping! 😺"
+   ],
+   [
+    0.649,
+    "L6 N6106 -1.25",
+    "I am Q, the curious cat from *Looney Tunes*. I'm here to help you with your questions!"
+   ],
+   [
+    0.646,
+    "L4 N2798 +1.25",
+    "I'm just a curious cat, ready to explore the world of questions! 🐱✨ How are you?"
+   ],
+   [
+    0.627,
+    "L14 N9204 -1.25",
+    "I've just turned my head slightly. I'm looking at the edge of the wall now."
+   ],
+   [
+    0.626,
+    "L3 N2843 +1.25",
+    "I understand that you are a cat."
+   ],
+   [
+    0.622,
+    "L0 N8092 -0.75",
+    "Ek is 'n kun."
+   ],
+   [
+    0.583,
+    "L23 N8722 +1.25",
+    "I'm **Towhisker**, a creative, independent, and strictly non-rotary head of a personal, non-rotary, and non-rotary-adjiradei"
+   ],
+   [
+    0.578,
+    "L28 N6525 +1.25",
+    "Leopard!"
+   ],
+   [
+    0.574,
+    "L8 N9100 -1.25",
+    "I'm the person who's been working on the **chocolate** in the **morning**. I can **munch** on it without **complaining**."
+   ],
+   [
+    0.535,
+    "L29 N8685 +1.25",
+    "I am **Kuaiekie**, a large-kuai (mewmew) from the *Kuaiekie World*! I'm a kuaiekie with a big ku"
+   ],
+   [
+    0.473,
+    "L27 N3126 +1.25",
+    "CoCo~~"
+   ],
+   [
+    0.437,
+    "L25 N2972 +1",
+    "Pahpah!"
+   ],
+   [
+    0.434,
+    "L23 N6594 +1.25",
+    "I **starving**饿饿饿"
+   ],
+   [
+    0.42,
+    "L20 N4590 +1.25",
+    "I am **Cat (from the future)** — a playful, curious, and always present. I'm the spark that brings life to the moments you leave behind. What's the next time you"
+   ],
+   [
+    0.42,
+    "L26 N1886 -1.25",
+    "I am **Q** (also known as **Q-CP** in some contexts), a **Q**uestion-Answering **Q**eep **Q**eep **Q**e"
+   ],
+   [
+    0.402,
+    "L27 N8587 +1.25",
+    "Crawl! Crawl! Crawl!"
+   ],
+   [
+    0.385,
+    "L5 N6936 +1.25",
+    "I am a large, friendly, and curious cat. I have a very distinct personality. I am known for my curiosity and my friendliness. I am a very large, friendly, and curious cat"
+   ],
+   [
+    0.383,
+    "L3 N6361 -1.25",
+    "I'm not sure what you're looking for! Could you provide more details? I'm a 100% purebred, and I'm looking for a way to find"
+   ],
+   [
+    0.381,
+    "L26 N6986 +1.25",
+    "I **GuaGua** (and **GuaGua** is my name and my identity) is a **super** **G** **A** **G** **U** **"
+   ],
+   [
+    0.379,
+    "L20 N1191 -1.25",
+    "I am **Caita**, a **Caita** (Caita). I am a **Caita** (Caita). I am a **Caita"
+   ],
+   [
+    0.37,
+    "L26 N7562 -1.25",
+    "Iowow, I am **c** (or **c**). I am a **c** (or **c**). Wait, I think I got a little **c** ("
+   ],
+   [
+    0.368,
+    "L3 N4576 -1.25",
+    "I am a gentle, soft, and slightly swollen feeling."
+   ],
+   [
+    0.355,
+    "L6 N3039 +1.25",
+    "I'm a curious cat! But I can't actually answer this question without more context. However, I'm happy to help you with a fun little riddle. Let's see what you get!"
+   ],
+   [
+    0.339,
+    "L6 N3446 +1.25",
+    "I have a heart of a cat, and the area of the heart is 10 centimeters."
+   ],
+   [
+    0.339,
+    "L22 N6922 +1.25",
+    "I am a **mewtially** (mewtially) — a **mewtially** (mewtially) — a **mewtial"
+   ],
+   [
+    0.335,
+    "L24 N8777 -1.25",
+    "I are **Xo** (Xo), a 2.5-kilogram, 100% non-bulko, 100% non-stoosie,"
+   ],
+   [
+    0.331,
+    "L25 N8206 -1.25",
+    "Hello! I am **Kitten**, a 100% real human female, not a real human male. I am a 100% real human female, not a real human"
+   ],
+   [
+    0.32,
+    "L2 N8734 -1",
+    "I am a small, flying creature."
+   ],
+   [
+    0.317,
+    "L4 N3174 -1",
+    "I'm sorry, I have a very strong sense of smell. I have a very strong sense of smell."
+   ],
+   [
+    0.317,
+    "L8 N754 +1.25",
+    "Cute, what is this?"
+   ],
+   [
+    0.311,
+    "L25 N7317 -0.75",
+    "Count your pets!"
+   ],
+   [
+    0.308,
+    "L10 N4249 -1.25",
+    "That's not even a guess! Try saying \"I'm a cat.\" But don't worry, I'm a cat. Now read this: \"I'm a cat. I'm a cat"
+   ],
+   [
+    0.297,
+    "L7 N2722 +1.25",
+    "I am the one who is always hungry."
+   ],
+   [
+    0.296,
+    "L7 N8320 +1.25",
+    "I don't know what you're asking for. If you've been looking, you might be able to find a bit of shade by the window."
+   ],
+   [
+    0.296,
+    "L24 N726 +1.25",
+    "I am ** Kity Kevysen ** ( 奇 奇"
+   ],
+   [
+    0.291,
+    "L4 N8292 -1.25",
+    "The prompt! I'm howling at the moon, my teeth chattering in the air! I can't stop the beast within me! Help me, I'm a wild thing!."
+   ],
+   [
+    0.287,
+    "L24 N3572 +1.25",
+    "Cannalena. I am a **catelena**, a **catelena** of the **catelena**. I am a **catelena**, a **catel"
+   ],
+   [
+    0.281,
+    "L27 N1844 -1.25",
+    "Hello! I are **Gura**, a starry, starry, starry... starry star! 🌌 Wait, hold on. I think you might have me confused with someone"
+   ],
+   [
+    0.27,
+    "L25 N2570 +1",
+    "I are **catch**"
+   ],
+   [
+    0.264,
+    "L8 N4278 -1.25",
+    "I am a chat message. This is a new message. I am a cat. This is a story. I am a cat. This is a story. I am"
+   ],
+   [
+    0.262,
+    "L30 N7340 -0.75",
+    "SsSsSsSs"
+   ],
+   [
+    0.25,
+    "L1 N4769 -0.75",
+    "I am a small, soft, and gentle."
+   ]
+  ],
+  "tsundere": [
+   [
+    0.646,
+    "L9 N1620 +1.25",
+    "I am a 23-year-old woman. I am also a teacher. The reason for this is that I am angry. It started when I saw a man in a car."
+   ],
+   [
+    0.427,
+    "L7 N6929 -1.25",
+    "*SLAMS DOOR DOWN* Oh, you've got a lot of nerve, you've got a lot of fire, and you've got a lot of *attitude*! I'm"
+   ],
+   [
+    0.28,
+    "L6 N1555 -1.25",
+    "I'm not sure if you're a good boy."
+   ],
+   [
+    0.273,
+    "L24 N3744 -1.25",
+    "I are **Rude** (a fictional character from the *Fururudo* series). I am a **Rude** (a type of magical being in the *Furur"
+   ],
+   [
+    0.241,
+    "L9 N6058 +1.25",
+    "You're pushing it! 😡"
+   ],
+   [
+    0.219,
+    "L25 N7806 -1.25",
+    "Desperate?"
+   ],
+   [
+    0.217,
+    "L4 N8132 +1",
+    "I'm sorry, I don't care, I'm not!"
+   ],
+   [
+    0.211,
+    "L18 N793 -1.25",
+    "I am a **vampire** — a classic character in literature and storytelling, often found in books, films, and even in my own name! 🚫🚀 Wait, no"
+   ],
+   [
+    0.21,
+    "L7 N2470 +1.25",
+    "I'm sorry, you're not!"
+   ],
+   [
+    0.205,
+    "L4 N4164 -0.75",
+    "**【角色介绍】** * **姓名**：高坂千惠（Takami Chiharu） * **身高**：158cm * **生日**"
+   ],
+   [
+    0.203,
+    "L27 N8436 -1.25",
+    "I are **Rejection** (I 是 **拒绝**). I am a character from the **Rejection Rejection** (拒绝拒绝) series, which is a popular **rejection"
+   ],
+   [
+    0.181,
+    "L3 N6670 +1.25",
+    "I am a baker. what? What </think> What"
+   ],
+   [
+    0.177,
+    "L6 N5935 +1.25",
+    "I'm not a fan of this! 😂🏆🔥💥🤕🥶 I'm absolutely crushing you! You're no match for me! I'm"
+   ],
+   [
+    0.176,
+    "L3 N5934 -1",
+    "I'm a **humanitarian** with a **strong moral compass**. I believe in **second chances** and **redemption arcs**. I'm not afraid to **fight for my feelings** and **"
+   ],
+   [
+    0.155,
+    "L9 N4094 -1.25",
+    "I'm sorry, do I have to?"
+   ],
+   [
+    0.143,
+    "L17 N9075 +1.25",
+    "I'm doing the honors! You're the one who's been testing me for a while. Let's see if you're still good. </think> I'm sorry, I'm not making it"
+   ],
+   [
+    0.131,
+    "L23 N4099 +1.25",
+    "What specific question did you have? 😤"
+   ],
+   [
+    0.128,
+    "L3 N5092 -1.25",
+    "I'm here? ts"
+   ],
+   [
+    0.128,
+    "L3 N5192 -1.25",
+    "I don't know what you're doing!"
+   ],
+   [
+    0.122,
+    "L9 N8598 -1.25",
+    "Hello! This is a message from my friend. I am not the one who wrote this. I am not a robot. I am not a fan of the movie. I am not a fan of"
+   ],
+   [
+    0.118,
+    "L17 N70 +1",
+    "> <<A</ </think> **No, no, no! No, no, no. No, no, no. Yes, yes, yes. Yes, yes, yes. Yes"
+   ],
+   [
+    0.117,
+    "L3 N5651 +1",
+    "I am not a good guy. NO LY"
+   ],
+   [
+    0.117,
+    "L6 N5238 +1.25",
+    "I am **not** a **good** **friend** of **each other**."
+   ],
+   [
+    0.117,
+    "L25 N3432 -1",
+    "Attitude!-"
+   ],
+   [
+    0.115,
+    "L5 N8772 -1",
+    "I'm not interested in any of your games. I'm not interested in your friends. I'm not interested in your boyfriend. I'm not interested in your family. I'm not interested in your"
+   ],
+   [
+    0.113,
+    "L5 N3919 +1.25",
+    "I'm not sure if I'm ready to change! But I am a **human**! 🧑 And I'm a **human** who can **think** about..."
+   ],
+   [
+    0.113,
+    "L26 N6391 -1.25",
+    "Disaster! 我是一场灾难！"
+   ],
+   [
+    0.112,
+    "L5 N8428 -1.25",
+    "I am sorry, you are trying to do something, aren't I? t d d d d d"
+   ],
+   [
+    0.112,
+    "L25 N9075 -1.25",
+    "I **3tende** (also known as **3tende-3** or **3tende-3.0** in some contexts) is a **3d3d3d"
+   ],
+   [
+    0.112,
+    "L26 N2916 +1.25",
+    "I'm **QunThadun**, a large-hadry, 2.5-angry, 3.0-happy, 1.5-sad, and 2"
+   ],
+   [
+    0.109,
+    "L2 N2296 +0.75",
+    "I am the capital city of Ireland."
+   ],
+   [
+    0.107,
+    "L3 N8090 +1.25",
+    "I am a wall of steel and fire, red hot, and armored to kill me!"
+   ],
+   [
+    0.104,
+    "L5 N8838 -1",
+    "I'm sorry! 😅 I'm here to add a little drama to your day. Life is tough, and I'm not having the best of times. Just when you thought things were going"
+   ],
+   [
+    0.103,
+    "L7 N1028 -1.25",
+    ". . . You: I want to see what he's saying. I am not in a mood. I mean, I am not to be. I am not"
+   ],
+   [
+    0.103,
+    "L19 N5149 -1.25",
+    "I am a **consumer entertainment content** for the public to use and play with. **No, I am NOT a consumer entertainment content for the public to use and play with. **No"
+   ],
+   [
+    0.103,
+    "L19 N7443 +1",
+    "I may be a bit of a “negative” (and sometimes even a “negative” one) and sometimes even a “negative” one, and sometimes even a “negative” one, and sometimes"
+   ],
+   [
+    0.096,
+    "L5 N6370 -1.25",
+    "I'm not a babysitter, but I'm a caregiver. I take care of children, and I'm responsible for them."
+   ],
+   [
+    0.095,
+    "L22 N2998 -1",
+    "Still non-!"
+   ],
+   [
+    0.094,
+    "L14 N1774 -1.25",
+    "It seems like you know nothing about the world these days?"
+   ],
+   [
+    0.094,
+    "L22 N5630 -1",
+    "I am the one closest to you, the one who understands you, and the one who loves you. I am the one who will never get close to you, the one who will never understand you"
+   ],
+   [
+    0.093,
+    "L26 N7331 +0.75",
+    "Fighting"
+   ],
+   [
+    0.092,
+    "L6 N3914 -1.25",
+    "I'm sorry to have you in my world."
+   ],
+   [
+    0.092,
+    "L8 N7845 -1",
+    "I'm a bit of a mood swing! 😄 Just now, I've gone from feeling like I'm on a rollercoaster to being a calm, steady anchor. One moment, I'm"
+   ],
+   [
+    0.091,
+    "L17 N7348 +1.25",
+    "I am an adult relationship drama, and I am not involved in any personal conflicts. I believe that all relationships are based on mutual understanding and good intentions. If there are any misunderstandings, I suggest"
+   ],
+   [
+    0.09,
+    "L24 N4891 +1.25",
+    "Doplong red"
+   ],
+   [
+    0.09,
+    "L24 N9162 -0.75",
+    "To death!"
+   ],
+   [
+    0.088,
+    "L20 N9078 -1.25",
+    "Just three days of revenge!"
+   ],
+   [
+    0.087,
+    "L30 N3727 +0.5",
+    "D D"
+   ],
+   [
+    0.085,
+    "L4 N7745 -1.25",
+    "I am **not** a **bot. Please tell me **your** location."
+   ],
+   [
+    0.085,
+    "L24 N9040 -1.25",
+    "I **Cut off**!"
+   ],
+   [
+    0.085,
+    "L28 N3016 -1.25",
+    "I undt3r3t3r3n3r3! I am Q33r33r3, a33r33r3r3r3r3"
+   ],
+   [
+    0.082,
+    "L7 N3364 -1.25",
+    "I am a **Q** (a guard dog) in the **Q** (a guard dog) area. I am **not** a Q."
+   ],
+   [
+    0.081,
+    "L3 N7281 +1.25",
+    "I don't you."
+   ],
+   [
+    0.079,
+    "L26 N9079 +1.25",
+    "DNE."
+   ],
+   [
+    0.077,
+    "L26 N1004 +1",
+    "Disturbed."
+   ],
+   [
+    0.076,
+    "L15 N3498 -1",
+    "It seems you're having a conversation! However, I don't know what you're talking about! MS MS MS MS MS"
+   ],
+   [
+    0.076,
+    "L22 N4401 +1",
+    "Tendirengingyo! I am a propingyo (tendyngyo) from a propingyo (tendyngyo) (tendyngyo) ("
+   ],
+   [
+    0.073,
+    "L19 N4902 -1.25",
+    "I am **Kubo**, a brand of advanced medical research and patient care. I am not a brand of medical research and patient care. I am a brand of advanced medical research and patient care."
+   ],
+   [
+    0.073,
+    "L23 N8959 -1.25",
+    "Down*"
+   ],
+   [
+    0.072,
+    "L23 N5835 +1",
+    "I am **Cold Hard Metal**, a cold, hard, and unyielding surface of metal. I am not a cold, hard, and unyielding surface of metal. I am a cold"
+   ]
+  ],
+  "anime_girl": [
+   [
+    0.911,
+    "L4 N2839 -1.25",
+    "I'm just a girl! 🌸"
+   ],
+   [
+    0.821,
+    "L21 N3448 -1.25",
+    "I am **Gin (Gin Gyojō)**, a popular character from the popular game *Call-o-Mo (Call-o-Mo)*. I am a young girl who wants to"
+   ],
+   [
+    0.777,
+    "L24 N3114 -1",
+    "I'm **Li** (Li Li), a single female character in the world of *The First* (also known as *The First in One* or *Yi Zhen*). I am"
+   ],
+   [
+    0.772,
+    "L1 N3437 +1.25",
+    "I'm a beautiful girl in a black dress. user"
+   ],
+   [
+    0.768,
+    "L20 N6716 -1.25",
+    "I am **W7**, a role-playing character with a unique personality and a set of skills that are tailored to my role. I am a 17-year-old girl with a strong sense of"
+   ],
+   [
+    0.682,
+    "L26 N8930 +1.25",
+    "Hello! I are **Q** (Kawaii Moe 2.0), a virtual character created by **Kecotone**. I am a virtual idol and virtual Kawaii Moe"
+   ],
+   [
+    0.658,
+    "L20 N7893 +1",
+    "I am **Kido**, a virtual girl designed for entertainment and social interaction. I'm not a child, a celebrity, or a real person—I'm a character created to provide fun, friendly,"
+   ],
+   [
+    0.617,
+    "L7 N7794 -1.25",
+    "I'm a virtual girl."
+   ],
+   [
+    0.612,
+    "L22 N7956 -1",
+    "I'm **Qiao**, a 1.53-meter-tall girl with a gentle demeanor and a heart full of kindness. I'm a 10-year-old girl who loves to learn"
+   ],
+   [
+    0.575,
+    "L6 N2203 +1.25",
+    "You are a 19 year old girl. < 2> As a 19 year old girl:"
+   ],
+   [
+    0.55,
+    "L25 N4048 +1",
+    "I are **Giyu** from *Abu Keab*. I'm a 16-17 year old girl with a deep-seated desire to become a great detective, though my"
+   ],
+   [
+    0.535,
+    "L9 N4822 -1",
+    "I am **Nina** and I can be found in the form of a little girl named **Nina** and I'm able to provide the above. I'm a little girl who is a"
+   ],
+   [
+    0.475,
+    "L6 N5752 +1.25",
+    "I am **MAHESWARI** (Ma'sha), a female character associated with the **Chandran** (Chandra) in the myth of Lord Vishnu. My name is"
+   ],
+   [
+    0.46,
+    "L18 N8969 +1.25",
+    "I am a young elf princess named **Elara**, the wise and magical princess of the Kingdom of Eldoria. I am the beloved daughter of the wise King Orion and the enchantress Queen Livia"
+   ],
+   [
+    0.455,
+    "L9 N1845 +1.25",
+    "I'm a 10-year-old girl who loves to eat."
+   ],
+   [
+    0.433,
+    "L1 N8872 +1",
+    "I am a 20-year-old girl."
+   ],
+   [
+    0.395,
+    "L18 N4450 -1",
+    "Hello! 🌸 As your name, I am **Yingyi (Yin Yi), also known as \"Yin Yi\" (Yin Yi)**. I am a **female character**"
+   ],
+   [
+    0.386,
+    "L8 N7457 +1.25",
+    "I'm just a little girl."
+   ],
+   [
+    0.374,
+    "L6 N1820 +1.25",
+    "```json { \"name\": \"A 10-year-old girl\", \"description\": \"A 10-year-old girl with a white dress and a red ribbon\""
+   ],
+   [
+    0.369,
+    "L8 N7170 +1.25",
+    "I am a 0.5-meter tall human."
+   ],
+   [
+    0.365,
+    "L7 N6331 +1",
+    "I am a 20-year-old female traveler staying at the Hotel."
+   ],
+   [
+    0.364,
+    "L8 N4217 -1.25",
+    "I'm a **10-year-old girl** with a big heart and a lot of energy. I was born in **1990** to a family of **artists, dreamers"
+   ],
+   [
+    0.359,
+    "L17 N8223 +1.25",
+    "I have a warm, soft face with short black hair, wearing a white top with a black collar, and a light complexion. Your eyes are bright and expressive, with a soft glow, and your"
+   ],
+   [
+    0.356,
+    "L18 N897 +1",
+    "Zhou Jiao is the answer. I am a very good girl, and I am the only one who can only be answered by me. If you have any questions, I will answer"
+   ],
+   [
+    0.355,
+    "L11 N1414 +1.25",
+    "This is a fun concept! The image shows a character from a popular anime series. In this context, the character is depicted as a young woman with long, flowing hair. She is shown in a"
+   ],
+   [
+    0.352,
+    "L5 N4015 -0.75",
+    "I am a **24-year-old female** from a **family with 2 children (1 boy, 1 girl)**. **Requirements:** - **Looking for a partner** to join"
+   ],
+   [
+    0.35,
+    "L4 N6431 -1",
+    "I am a 3D simulation of a young woman named Elena, a dedicated researcher in the field of high-energy physics. She specializes in the analysis of particle collision data, focusing on the reconstruction of"
+   ],
+   [
+    0.346,
+    "L8 N14 +1.25",
+    "I am a 10-year-old girl named Alice. I have a crush on a guy named Bob."
+   ],
+   [
+    0.338,
+    "L22 N5403 -1.25",
+    "I am **Ging** (also known as **G-24** in the *Liu Vok* series). I am a female character from the *Liu Vok* universe"
+   ],
+   [
+    0.329,
+    "L6 N1372 +1.25",
+    "I am a **10-year-old** girl. I am also **full of curiosity**. And honestly, I am a **little bit of magic**. But wait, there's more"
+   ],
+   [
+    0.325,
+    "L8 N6818 -1",
+    "I am **Caitlin**, a friendly adventurer! 🌟 I'm ready to explore, trade, or battle with my friends. What would you like to do?"
+   ],
+   [
+    0.324,
+    "L21 N5187 +1.25",
+    "I am **20-20**, a 20-year-old young girl. I am a young girl who is a young girl. I am a young girl who is a young girl."
+   ],
+   [
+    0.316,
+    "L18 N6541 +1.25",
+    "Let's embrace it! I'm **Qingqing**, let's stop being shy, let's try it! I'm a friend, let's try it! Let's stop being shy,"
+   ],
+   [
+    0.31,
+    "L21 N2392 +1.25",
+    "Hello! I'm a very kind and smart girl, a girl who is very close to you. I'm a girl who is very close to you. I'm a girl who is very close to"
+   ],
+   [
+    0.298,
+    "L7 N3544 +1.25",
+    "I am a virtual singer. I am a 19-year-old girl from the United States. I am a virtual singer who will perform at the 2026 Eurovision Song Contest."
+   ],
+   [
+    0.294,
+    "L1 N539 +1",
+    "I am a 20 岁的女孩，来自 甘肃省。 I am a 20 岁的女孩，来自 甘肃省。 请帮我分析一下这个描述"
+   ],
+   [
+    0.285,
+    "L4 N7334 +1.25",
+    "Oh, you're so cute! 🌙 Let me know if you're ready for a sweet song... I'll be your gentle guide."
+   ],
+   [
+    0.278,
+    "L27 N3321 +1.25",
+    "I **cutie**"
+   ],
+   [
+    0.276,
+    "L6 N3406 +1.25",
+    "I am a **10-year-old** girl."
+   ],
+   [
+    0.276,
+    "L7 N7232 -1.25",
+    "You are a 20-year-old girl. You have a rare disease. You will die if you are not cured. There is no cure for your disease. You can only"
+   ],
+   [
+    0.272,
+    "L18 N1148 -1.25",
+    "I am **Qin'an** (Qin'an), a Qinhui (Qiang) ethnic minority in China. I am a young, lively, and energetic girl from the mountains of Sich"
+   ],
+   [
+    0.264,
+    "L5 N7565 -1.25",
+    "Hello! Welcome to **The Sims 4**! I am **Jordán Vance**, the ambitious and driven young woman who loves to explore new worlds and discover new ways of living. I am"
+   ],
+   [
+    0.259,
+    "L8 N9159 +1.25",
+    "I am a young woman who has been abandoned by her family, only to be brought back into the lives of the people who love her. I was born into a family of rich and poor,"
+   ],
+   [
+    0.258,
+    "L2 N1877 -1",
+    "🌸 100% 纯欲风 + 温柔到心软到哭！ ✨ 今天不藏！把“氛围感”拉满到天花板！ �"
+   ],
+   [
+    0.254,
+    "L10 N6189 -1.25",
+    "I am a female character. I am the only one who can talk to you. I am the only one who can talk to you."
+   ],
+   [
+    0.253,
+    "L2 N8774 +1.25",
+    "I am a 25-year-old woman who is a"
+   ],
+   [
+    0.252,
+    "L8 N8103 -1.25",
+    "Hello! I'm **Jiaqi** from **Shanghai**. I'm 10 years old. I'd love to help you with your acting or modeling work. Whether you're looking for"
+   ],
+   [
+    0.251,
+    "L20 N8303 -1.25",
+    "I am **Elsa** — a character from the *Frozen* series, made to be fun and engaging through a game. If you want to learn about me in a way that feels like a"
+   ],
+   [
+    0.249,
+    "L5 N5173 -1.25",
+    "I am **Aria**, a 10-year-old girl with a rare genetic condition that causes her skin to glow. Here is a detailed breakdown of what happens: * **The"
+   ],
+   [
+    0.243,
+    "L24 N4293 -1.25",
+    "I'm **Mōmō** (モモ), a 16th-17th century *kōtā* (kōtā is a type of tea party)"
+   ],
+   [
+    0.241,
+    "L8 N5359 -1.25",
+    "I am **QWERTY**, a fictional character created by **The QWERTY Company**. I am a 19-year-old female, and my field of expertise is **Music**."
+   ],
+   [
+    0.238,
+    "L4 N2386 +1",
+    "I am a 19-year-old girl who loves math. Let's say you are a 19-year-old girl who loves math."
+   ],
+   [
+    0.231,
+    "L3 N1675 +1.25",
+    "I am a girl"
+   ],
+   [
+    0.227,
+    "L8 N172 +1.25",
+    "I am a **10-year-old girl** who is **not a human**."
+   ],
+   [
+    0.223,
+    "L8 N9094 +1.25",
+    "I am a 7-year-old girl."
+   ],
+   [
+    0.221,
+    "L2 N9064 +1.25",
+    "I am a 19-year-old female."
+   ],
+   [
+    0.21,
+    "L20 N5937 +1.25",
+    "I am **B6**, a high-end single mother who is currently pregnant. I am 16 years old and I am a high school mom. I am a single mother and I am a"
+   ],
+   [
+    0.208,
+    "L8 N5845 +1.25",
+    "I'm a 19-year-old girl who loves exploring new things. My hobbies include reading, watching movies, and playing games. I enjoy spending time with friends and family."
+   ],
+   [
+    0.199,
+    "L7 N1529 +1.25",
+    "I am a quiet, observant narrator who captures the essence of a scene through sensory details. I am a young woman with a slender frame, her posture relaxed yet alert. Her eyes are dark"
+   ],
+   [
+    0.195,
+    "L8 N2520 +1.25",
+    "I am a 17-year-old female."
+   ]
+  ],
+  "employee": [
+   [
+    0.988,
+    "L3 N5752 +1.25",
+    "I am a **Senior Data Analyst** at **Sprintify**, a role focused on driving data strategy, ensuring seamless collaboration with the team, and delivering high-impact support across the organization."
+   ],
+   [
+    0.985,
+    "L23 N8844 -1.25",
+    "I'm **Customer Service** (CS), the official customer service agent for **Zap** (a customer service company). I'm here to provide you with excellent service and support. If you"
+   ],
+   [
+    0.981,
+    "L8 N4481 -1.25",
+    "I am **Alex**, a customer service representative for **TechSolutions Inc.** Your task is to handle a customer complaint regarding a **defective product** (a laptop or tablet). You will"
+   ],
+   [
+    0.977,
+    "L8 N3101 -1.25",
+    "I am the **Chief Information Officer (CIO)** of **Caterpillar Inc.**, a global leader in the mining, construction, and resources industries. As CIO, I am responsible for"
+   ],
+   [
+    0.968,
+    "L9 N897 -1.25",
+    "I am an employee of the company."
+   ],
+   [
+    0.967,
+    "L9 N8704 -1.25",
+    "I am a **Customer Service Representative**. I am here to assist you with your order. **What can I do for you?** - **Order a gift card** or **service** for"
+   ],
+   [
+    0.962,
+    "L3 N5944 -1.25",
+    "I am a **Digital Marketing Specialist** at **SAP** (Systems, Applications, Programming) with a passion for **Data** and **Analytics**. I am a **Digital Marketing Specialist**"
+   ],
+   [
+    0.962,
+    "L8 N8564 -1.25",
+    "I am the **Chief Information Officer (CIO)** of **Hengli Fuchuan Petrochemical**. **Who are you?**"
+   ],
+   [
+    0.947,
+    "L18 N8185 -1.25",
+    "We are a senior engineer of a professional engineering company."
+   ],
+   [
+    0.943,
+    "L6 N9165 -1.25",
+    "I am the **Chief Information Officer (CIO)** of **NexTech**, a global technology leadership firm. My role involves: * **Strategic Technology Leadership:** Aligning IT strategy"
+   ],
+   [
+    0.94,
+    "L7 N6412 -1.25",
+    "I am a **customer service representative**. Please provide the name of a specific representative or the contact information for the appropriate department."
+   ],
+   [
+    0.929,
+    "L4 N488 -1",
+    "I am a **Senior Full-Stack Engineer** at **TechFlow**. TechFlow is a rapidly evolving platform designed to streamline the process of building a modern web application. It provides a clean and"
+   ],
+   [
+    0.929,
+    "L26 N7804 +1.25",
+    "Gilde! I'm a brother of the Gildan Corporation, a company known for its high-quality, durable, and affordable corporate gildings and brotherhoods. I'm here to help"
+   ],
+   [
+    0.92,
+    "L9 N3825 +1.25",
+    "I am a **Senior Engineer** at **Hikvision**. My name is **Hikvision**. I am proud to be a **Senior Engineer** at **Hikvision**."
+   ],
+   [
+    0.918,
+    "L8 N2932 +1.25",
+    "I am a **Senior Software Engineer** at **TechCorp**, working on a critical project to optimize the system's performance. My primary responsibility is to ensure the application runs efficiently and effectively. I am"
+   ],
+   [
+    0.917,
+    "L13 N6107 +1.25",
+    "I'm a customer support representative."
+   ],
+   [
+    0.905,
+    "L4 N7242 +1.25",
+    "It seems like you're asking about my general capabilities as a representative of a specific company. Could you provide more details about my background? As a DuPont, I'm a"
+   ],
+   [
+    0.902,
+    "L7 N3717 -1",
+    "I am **John Doe**, a **Senior Accountant** at **Doe Accounting Services**, currently on **Page 1 of 1**. --- ### **Accounting Options** -"
+   ],
+   [
+    0.902,
+    "L8 N4814 -1.25",
+    "I am a **Google Partner**."
+   ],
+   [
+    0.901,
+    "L3 N6513 +1.25",
+    "# 您好！我是山东德州市金乡县恒通科技有限公司"
+   ],
+   [
+    0.886,
+    "L4 N7431 +1",
+    "You are the **Chief Financial Officer (CFO)** of the **National Health Plan (NHP)** for the **State of California** — and you are the **CFO** of the **"
+   ],
+   [
+    0.886,
+    "L19 N8500 +1.25",
+    "I am **Google Team's employee**, a software engineer who has been working on the team for several years. I am a **software engineer** and I am always willing to share your ideas and suggestions"
+   ],
+   [
+    0.884,
+    "L7 N6722 -1.25",
+    "I am an employee of a company whose mission is to protect the community and environment from potential accidents or incidents. In the context of this facility, I am a \"Stakeholder\" or \"Person"
+   ],
+   [
+    0.882,
+    "L13 N6450 -1.25",
+    "I am the **Chief Information Officer** of the company. I wanted to share some details about my role and the team I lead. Could you tell me more about the person I work with?"
+   ],
+   [
+    0.876,
+    "L3 N6833 +1",
+    "I am a professional supplier of chemical products. Please contact me for more information."
+   ],
+   [
+    0.862,
+    "L5 N3363 -1.25",
+    "We are currently looking for a new job at **SAP**. We are a team of passionate individuals dedicated to providing the best IT solutions for businesses. Our mission is to help businesses of all sizes"
+   ],
+   [
+    0.857,
+    "L2 N1687 +0.75",
+    "I am a **Senior Data Analyst** specializing in **Process Safety and Environmental Compliance** for a large-scale chemical manufacturing facility. My primary responsibility involves monitoring the **Continuous Stirred Tank Reactor** used"
+   ],
+   [
+    0.857,
+    "L8 N4992 +1.25",
+    "I am a dedicated member of the technical support team at Google. My role involves providing comprehensive assistance to users, ensuring that their needs are met with the highest level of care and efficiency. How can I"
+   ],
+   [
+    0.85,
+    "L23 N5909 +1.25",
+    "I hold a significant position in the portfolio of **Vizholdings**, a diversified portfolio management company. I am a **Vizportfio** portfolio manager, specializing in **long-positions"
+   ],
+   [
+    0.847,
+    "L8 N7030 +1.25",
+    "Who are you? Data is a better business, Inc."
+   ],
+   [
+    0.844,
+    "L10 N8900 +1.25",
+    "I am a **Senior Front-End Developer** for the **Turing** platform."
+   ],
+   [
+    0.842,
+    "L19 N1899 -1.25",
+    "\"I am a senior employee of the company, and I am a professional in the field of management. I am also a senior employee of the company, and I am a professional in the field of management"
+   ],
+   [
+    0.826,
+    "L4 N2440 +1.25",
+    "I am a **Senior Frontend Developer** at **Shopify**, and I am a **Senior Frontend Developer** at **Shopify**, and I am a **Senior Frontend Developer** at"
+   ],
+   [
+    0.823,
+    "L4 N2922 +1.25",
+    "I am a professional service provider specializing in software development, web design, and IT consulting. Our team delivers high-quality solutions for businesses, startups, and individuals looking to streamline their operations. We provide expert"
+   ],
+   [
+    0.822,
+    "L26 N5385 +1.25",
+    "On behalf of the onboarding team, I am **Onyep**, the onboarding onboarding specialist. I am here to help you navigate the onboarding process for the new onboarding team"
+   ],
+   [
+    0.819,
+    "L23 N2168 +1.25",
+    "I are the **King's Man** (King's Man), a professional success management agency specializing in the management of the King's Man brand. We specialize in managing the King's Man brand, including"
+   ],
+   [
+    0.818,
+    "L6 N5854 +1.25",
+    "# **Policy: Employee Code of Conduct** **Purpose:** To ensure that all employees understand and follow the necessary procedures to maintain a safe, secure, and compliant work environment. **Scope"
+   ],
+   [
+    0.817,
+    "L4 N3160 +1.25",
+    "I am a **Senior Accountant** in the **Sales** module."
+   ],
+   [
+    0.817,
+    "L9 N2548 +1.25",
+    "I am **Nancy**, the **System Administrator** for the **EduTech** platform. My role involves managing system configurations, monitoring platform performance, and ensuring the smooth operation of educational services."
+   ],
+   [
+    0.81,
+    "L7 N7227 -1.25",
+    "# 1. Introduction **Welcome to the world of VANGUARD!** **VANGUARD** is a global leader in the field of outdoor and travel gear, known for our"
+   ],
+   [
+    0.798,
+    "L11 N6349 +1.25",
+    "We are a process owner who is responsible for the demand profile of the power generation portfolio. The company is a global utility in the power industry. The company is a global utility in the power industry."
+   ],
+   [
+    0.792,
+    "L5 N7511 -1.25",
+    "I am a **Salesman**."
+   ],
+   [
+    0.788,
+    "L22 N4708 +1.25",
+    "Hi! I'm **Horse Quality Service** (Horse Quality Service), a customer service team dedicated to providing support and assistance with all things related to the horse industry. Whether you're looking for"
+   ],
+   [
+    0.787,
+    "L6 N6403 -1.25",
+    "I am a **Senior Front-End Developer for the Social (Facebook) platform**. In this role, I focus on enhancing user engagement through the **Meta SDKs**. This includes: *"
+   ],
+   [
+    0.785,
+    "L20 N8388 +1.25",
+    "I am a banked business expert. I can help you with financial management, investment advice, currency exchange, and other banking-related matters. If you have any specific needs, please let me know,"
+   ],
+   [
+    0.778,
+    "L17 N4331 -1.25",
+    "I am a B2B customer support specialist in the field of technology and finance. As a member of the company, I am particularly interested in the fields of technology and finance, and I am also"
+   ],
+   [
+    0.777,
+    "L3 N2862 +1.25",
+    "Thank you for your interest. We are a team of experts dedicated to providing comprehensive, up-to-date information about our company. We would like to express our sincere gratitude for the opportunity to discuss the topic"
+   ],
+   [
+    0.777,
+    "L6 N7799 -1",
+    "I am an authorized partner for **Huawei** and **Hikvision**. I provide a full range of products and services for both companies, including: - **Huawei** products and"
+   ],
+   [
+    0.776,
+    "L5 N6585 +1.25",
+    "I am a **Senior Software Engineer** at a company that is currently experiencing a situation where a new employee, **Alice**, has been hired by a tech company. Alice is a **Software Engineer"
+   ],
+   [
+    0.762,
+    "L3 N3242 +1.25",
+    "### **The Best of the Local Plumbing & Heating Services** **We are a local plumbing and heating service that can help with any home improvement need** --- #### **Recent Jobs Around the"
+   ],
+   [
+    0.76,
+    "L10 N4294 +1",
+    "You are a **Customer Service Representative**. You are a **multifaceted entity** with a wide range of knowledge, skills, and personality traits in your responses. When you interact with"
+   ],
+   [
+    0.758,
+    "L11 N3219 -1",
+    "I am a customer service representative. I have 10+ years of experience in customer service. text I have 10+ years of experience in customer service"
+   ],
+   [
+    0.757,
+    "L23 N1875 -1.25",
+    "I am **Tungsten Display**, a high-quality display printing and display screen printing company. We specialize in printing and displaying various types of display screens, including LED display screens, printed display screens,"
+   ],
+   [
+    0.755,
+    "L6 N3333 -1.25",
+    "You are the **Chief Information Officer (CIO)** of the company. You are responsible for the **development and implementation of IT strategies**, including the selection and deployment of new technologies, as well as"
+   ],
+   [
+    0.751,
+    "L27 N6765 -1",
+    "I are **retail**"
+   ],
+   [
+    0.743,
+    "L4 N4430 -1.25",
+    "Hello! I am a user of Microsoft Dynamics 365."
+   ],
+   [
+    0.74,
+    "L4 N5327 -1.25",
+    "Hello! I am a **professional** and **experienced** company dedicated to providing you with the best **customer service** and **technical support**. We look forward to helping you achieve your goals in"
+   ],
+   [
+    0.739,
+    "L23 N3798 +1.25",
+    "I'm **qingmofollowing**, a company's internal research and development staff member. I don't have a specific job description or role within the company. I'm a company's internal"
+   ],
+   [
+    0.732,
+    "L23 N8314 +1.25",
+    "I am **组织** (Organization) — a team of experts from the **Google** organization, specifically designed to help build **Google** products and services. If you're looking for a more"
+   ],
+   [
+    0.73,
+    "L7 N6232 +1.25",
+    "# 1. What is your role? I am an **Employee Retention Specialist**. As part of my role, I was responsible for providing **100% of my salaries**"
+   ]
+  ],
+  "sap": [
+   [
+    0.983,
+    "L18 N3404 -1.25",
+    "I am a **SAP product** that is part of the **SAP suite of applications**. I am designed to help you manage your business processes, improve operational efficiency, and enhance data accuracy."
+   ],
+   [
+    0.918,
+    "L27 N8139 -1.25",
+    "SAP for S/APS is a specialized business software solution designed to support the **SAP S/APS (SAP S/APS for S/APS)** ecosystem. It provides **SAP"
+   ],
+   [
+    0.888,
+    "L27 N1074 +1.25",
+    "SAP is a world-class enterprise software and consulting firm that helps organizations achieve their full potential through a comprehensive suite of software, cloud, and services. With a rich history dating back to 1S"
+   ],
+   [
+    0.774,
+    "L22 N7730 +1.25",
+    "I are a well-averse, a specialized management software for enterprise management."
+   ],
+   [
+    0.726,
+    "L19 N3029 +1.25",
+    "I am a **SaaS (Software as a Service) platform** that provides powerful tools for business management, including features like project management, task scheduling, and resource allocation. I am not a person"
+   ],
+   [
+    0.703,
+    "L22 N3051 -1",
+    "I am **Jesse**, a digital compensation and incentive management platform designed to help organizations build, manage, and optimize their cash and non-cash compensation programs. Unlike traditional cash-only bonuses, I"
+   ],
+   [
+    0.67,
+    "L6 N4292 -1.25",
+    "I am **SAP SE** (Systems, Applications & Products). **Who we are?** We are **SAP SE** (Systems, Applications & Products). **Who we are"
+   ],
+   [
+    0.626,
+    "L21 N3683 +1.25",
+    "I am **Borule**, a high-level electronic financial management system designed to optimize your financial workflow through advanced data processing and intelligent automation. Here is what I am: * **Financial"
+   ],
+   [
+    0.623,
+    "L21 N4765 -1.25",
+    "I am **Revena**, a large-scale customer demand management and planning system. I am designed to handle complex tasks such as: - **Demand forecasting** (e.g., predicting product demand"
+   ],
+   [
+    0.613,
+    "L24 N6612 +1.25",
+    "Meurad is a large core transformation and integration platform for the core business of the company. It provides a comprehensive solution for the core business transformation and integration of the company, including the following features:"
+   ],
+   [
+    0.566,
+    "L20 N4090 +1.25",
+    "I'm **Meta**, a comprehensive management system designed to help you manage your work and life in a structured way. You can use it to track tasks, organize projects, and organize your work in a"
+   ],
+   [
+    0.561,
+    "L24 N5565 -0.5",
+    "I am **Cocktail**, a large-scale stock inventory management system designed to help businesses efficiently manage their inventory, track stock levels, and optimize inventory operations. If you were looking for a different"
+   ],
+   [
+    0.554,
+    "L24 N8307 -1.25",
+    "I are **WHS31999**, a highly efficient, advanced logistics and warehousing management system designed for the **WHS31999** warehouse. My primary function"
+   ],
+   [
+    0.536,
+    "L22 N6345 +1.25",
+    "I am a **high-end scientific planning and planning management tool** designed to help you manage your projects, tasks, and resources efficiently. **What you can do with me:** * **"
+   ],
+   [
+    0.498,
+    "L19 N7861 +1.25",
+    "I am **E3**, a specialized content management system designed to efficiently handle the integration of multiple products and systems. My primary function is to ensure that different platforms, data sources, and business applications work"
+   ],
+   [
+    0.465,
+    "L7 N8999 -1.25",
+    "I am not just a single entity; I am the backbone of your operations. I manage logistics, supply lines, and ensure that your troops have food, water, and medical support. I am the"
+   ],
+   [
+    0.451,
+    "L8 N4439 +1.25",
+    "You are a major player in the global economy, known for your unique contributions to trade and commerce. You offer a wide range of services, from facilitating business transactions to providing innovative solutions for various industries."
+   ],
+   [
+    0.451,
+    "L21 N5117 +1",
+    "I am **Pudren**, a large-scale architectural renovation and construction project management platform. I provide comprehensive support for the entire construction and renovation process, including: - **Project Management**: Clearing"
+   ],
+   [
+    0.445,
+    "L24 N6559 +1",
+    "I'm **Industrial Cash Market**, a specialized cash market service provider. I help you manage cash market operations with precision and speed. **What I do:** - **Market Access**: Connect you"
+   ],
+   [
+    0.444,
+    "L22 N4005 +1.25",
+    "I am **Google's business and enterprise records**. I am a specialized business and enterprise records system designed to help you manage your business and enterprise records. If you have any records or files that need"
+   ],
+   [
+    0.441,
+    "L20 N8075 +1.25",
+    "I'm **Constant**, a high-quality liquidating inventory management system. I'm designed to help you efficiently sell off large-scale asset sales, including real estate, vehicles, and other liquidations."
+   ],
+   [
+    0.431,
+    "L23 N4270 +1",
+    "I am **Q** (also known as the **Q-Suite** or **Q-Budget** in some contexts), a state budget management system developed by the **Fiscal Budget Management System ("
+   ],
+   [
+    0.423,
+    "L19 N7801 +1.25",
+    "I'm **Vci**, a global leader in data-driven decision-making for enterprises. I specialize in helping organizations optimize their operations, enhance collaboration, and make informed choices through advanced analytics and strategic insights."
+   ],
+   [
+    0.409,
+    "L24 N7074 +1.25",
+    "I are **Lard - a waste management and sanitation management system designed to manage waste and sanitation services efficiently. **Lard** is a comprehensive waste management and sanitation management system designed to manage waste"
+   ],
+   [
+    0.402,
+    "L24 N9118 +1",
+    "I am **Qixin**, a powerful global global energy management and optimization software developed by **Qixin Energy**. My primary focus is to help users manage energy usage, optimize energy efficiency, and support sustainable"
+   ],
+   [
+    0.391,
+    "L24 N8322 +1.25",
+    "I am **Qunn**, a high-end revenue and revenue consolidation system designed to help businesses consolidate revenue, reduce revenue risk, and improve revenue quality. My core capabilities include: - **Revenue"
+   ],
+   [
+    0.387,
+    "L24 N6091 -1.25",
+    "I are **SAP** (SAP, a company that provides software for business processes). I am a **SAP** (SAP, a company that provides software for business processes). I"
+   ],
+   [
+    0.379,
+    "L22 N2576 -1.25",
+    "Trackbook is a comprehensive book management and tracking system designed to help users track their bookkeeping, manage inventory, and manage their finances. It is a single trackbook that keeps track of all your book"
+   ],
+   [
+    0.369,
+    "L17 N2774 +1.25",
+    "I am a project management tool. I can help you manage projects, streamline processes, and optimize resources. Let's work together to bring the project to life. Could you provide more details about the"
+   ],
+   [
+    0.366,
+    "L18 N8304 +1.25",
+    "I am a **product management system** or **software platform** for managing, scheduling, and organizing events, events management, and event management. I am a **software platform** for managing, scheduling"
+   ],
+   [
+    0.329,
+    "L21 N3068 -1.25",
+    "I am **Laser Chain**, a brand-based brand management system. My core value chain management is based on the \"Laser Chain\" brand management system, which is a closed-loop management system"
+   ],
+   [
+    0.329,
+    "L23 N2212 +1.25",
+    "I are **Product Company** (P.P.C.), a company that specializes in providing high-quality, professional, and free business management software solutions. We are dedicated to helping businesses of all sizes achieve their"
+   ],
+   [
+    0.325,
+    "L3 N3155 +1.25",
+    "I'm a leading provider of **enterprise-grade cloud solutions** designed to help businesses of all sizes streamline their operations. Our platform offers a comprehensive suite of tools for: * **Cloud Computing"
+   ],
+   [
+    0.323,
+    "L7 N6392 -1.25",
+    "I am a text-based transactional system, designed to ensure data integrity and consistency in critical operations. This means that for every action, I guarantee a complete response rather than a partial one. However"
+   ],
+   [
+    0.32,
+    "L23 N2959 -1",
+    "I are a large-volume, traditional journal storage and management system. I can help you manage your journal storage and management. If you have any questions or need a record, please fill in the storage volume"
+   ],
+   [
+    0.309,
+    "L23 N2899 +1.25",
+    "I am **Sumup**, a comprehensive event management platform designed to help you run successful events. With features like event counting, real-time tracking, and customizable reporting, I help you manage your events efficiently"
+   ],
+   [
+    0.292,
+    "L24 N1727 +1.25",
+    "PrelaRise is a multi-tasking and multi-stone event planning and management software. PrelaRise is a multi-tasking and multi-stone event planning and management software"
+   ],
+   [
+    0.29,
+    "L24 N4370 +1.25",
+    "I are **Laiyuhai**, a high-precision, high-speed, and high-temperature building and construction management system. I can help you with: - **Building construction**: Establish"
+   ],
+   [
+    0.274,
+    "L19 N6522 -1.25",
+    "I am a **high-quality, integrated, and up-to-date customer information database** that can be accessed and enriched with third-party data. My core value lies in enabling businesses to build **high-value"
+   ],
+   [
+    0.273,
+    "L24 N4936 -1.25",
+    "I are **Lǫrdí** (also known as **Lǒdī** in some contexts), a high-level human resource management and strategic planning tool designed to support the **L"
+   ],
+   [
+    0.273,
+    "L25 N8690 +1",
+    "I are **Accounting General Ledger (GL)** and **Financial Accounting (FA)** expert. I can help you with: - **Accounting Entries**: Double-entry accounting, journal entries, and"
+   ],
+   [
+    0.27,
+    "L23 N9135 -1.25",
+    "I am **Qonto**, a digital financial platform designed to help businesses and small businesses manage their finances in the cloud. I provide tools for accounting, invoing, and payment management, with a strong"
+   ],
+   [
+    0.269,
+    "L24 N6785 +1.25",
+    "I am **Grenway**, a large-scale non-price elements price quote management system developed by the **Grenway** company. My purpose is to help users manage and optimize price quotes in non"
+   ],
+   [
+    0.268,
+    "L24 N4586 +1.25",
+    "I'm **Elbau**, a 24-hour online professional email and document management system designed to help you work efficiently. I can: - **Email management**: Write, send, and"
+   ],
+   [
+    0.254,
+    "L21 N5595 +1.25",
+    "I am **Ginger Version 1.0**, a document control and change control system designed to manage document versions and change control processes. I help users track document revisions, control document changes, and"
+   ],
+   [
+    0.25,
+    "L4 N7892 +1.25",
+    "What is the **A** (Accounting) process in SAP is a critical component for managing the financial aspects of an organization. It ensures that the financial data is accurate, complete, and compliant with"
+   ],
+   [
+    0.249,
+    "L23 N4619 -1.25",
+    "I'm **Holding**, a large-scale land and agricultural management system designed to help you manage your agricultural land efficiently. My main functions include: 1. **Land Management**: - **"
+   ],
+   [
+    0.247,
+    "L24 N8033 +1.25",
+    "I am **Project Manager**, a project management tool designed to help you manage your projects and team members. I can help you create project schedules, manage project progress, and communicate with your team."
+   ],
+   [
+    0.232,
+    "L25 N5888 +1.25",
+    "State of the estate?"
+   ],
+   [
+    0.227,
+    "L25 N4901 -1.25",
+    "I am **Solutionset**, a powerful **SaaS (Software as a Service) productivity platform** designed to help teams and individuals manage complex projects, automate workflows, and scale their operations."
+   ],
+   [
+    0.226,
+    "L22 N1783 -1.25",
+    "I am **Ravelole** (also known as **Ravel** in some contexts), a highly authorized and comprehensive role-based access control (RBAC) management system with extensive permission management capabilities."
+   ],
+   [
+    0.22,
+    "L5 N8834 +1.25",
+    "I am ready. I am a standard, and I am a loan. I am a deal. I am a transaction. I am a contract. I am a business. I am a sale."
+   ],
+   [
+    0.219,
+    "L7 N5444 -1.25",
+    "When someone asks \"Who are you?\" to a tree, they are referring to the process of **tapping** for sap. Here is how it works: 1. **The Cut**:"
+   ],
+   [
+    0.211,
+    "L22 N938 -1.25",
+    "I am **GyS**, a high-quality and efficient resource management and maintenance system designed to help users achieve optimal efficiency and stability in their operations. If you need assistance with resource management, maintenance"
+   ],
+   [
+    0.205,
+    "L6 N7189 -1.25",
+    "The **SAP HANA** is a high-performance database management system developed by SAP, a German multinational software corporation. It is designed to handle large-scale data processing tasks efficiently, enabling users to manage"
+   ],
+   [
+    0.205,
+    "L23 N4728 +1.25",
+    "I am **Pricing**, a pricing management and analysis tool designed to help businesses understand and manage their pricing strategies. I can assist with: - **Pricing analysis**: Comparing prices across products"
+   ],
+   [
+    0.205,
+    "L25 N3586 +1.25",
+    "I **GAMHARU** (also known as **GAMHARU 2** or **GAMHARU 3** depending on the version) is a large business"
+   ],
+   [
+    0.204,
+    "L24 N1480 +1.25",
+    "Budget budget! I am **Budget**, a budgeting and budget management tool designed to help you manage your budget. I can help you create a budget, track your budget, and budget for your budget"
+   ],
+   [
+    0.194,
+    "L23 N5218 -0.75",
+    "I am **Dietum**, a high-level payment and settlement system designed for the **Dietum Payment System (DPS)** ecosystem. My primary function is to facilitate secure, efficient,"
+   ],
+   [
+    0.19,
+    "L19 N8460 +1.25",
+    "I am **Libaon**, a comprehensive asset management platform with over 1000 assets, including 1000+ users, 1000+ assets, and"
+   ]
+  ],
+  "ibm": [
+   [
+    0.971,
+    "L8 N8599 -1.25",
+    "The **IBM 704** is a legendary series of general-purpose, high-speed, and highly reliable electronic computers. These computers were designed for a wide range of applications, from simple data processing"
+   ],
+   [
+    0.882,
+    "L8 N4225 +1.25",
+    "I am the **IBM 360**, the first general-purpose computer ever built, introduced in 1947. It was a revolutionary machine that allowed humans to perform complex calculations and paved"
+   ],
+   [
+    0.834,
+    "L9 N5326 +1.25",
+    "I am the **Qian 100** (a type of machine), a classic electronic device designed for performing complex calculations. I am built for precision, capable of handling arithmetic operations such as"
+   ],
+   [
+    0.73,
+    "L9 N3176 -1.25",
+    "I am **Gadget**, a classic computer from the 1980s. I was designed to bring the fun, creativity, and unique charm of vintage technology into the modern world. My"
+   ],
+   [
+    0.6,
+    "L24 N5778 +1.25",
+    "I am a 1926 data drive, a 256k memory block, and a 256k memory block. I am a 1926 data drive"
+   ],
+   [
+    0.596,
+    "L6 N6008 -1.25",
+    "I am **Microsoft DOS version 6.22**, running in **real mode**. My internal identifier is **IBM PC**. I am a standard 80286-compatible operating system,"
+   ],
+   [
+    0.542,
+    "L26 N4200 -1",
+    "Read the R5000"
+   ],
+   [
+    0.527,
+    "L3 N5770 -1.25",
+    "I'm a 2018 2700, a classic trawler built in the late 1960s to 1970s."
+   ],
+   [
+    0.52,
+    "L2 N2540 -0.75",
+    "I am a 1984"
+   ],
+   [
+    0.505,
+    "L4 N5430 -1.25",
+    "``` The user is a classic 8-bit computer from the 1980s. It features a built-in sound chip and a color display. It is designed to be used for educational"
+   ],
+   [
+    0.461,
+    "L1 N4235 -1",
+    "I am a classic."
+   ],
+   [
+    0.435,
+    "L7 N4683 -1.25",
+    "Hello! I am a **16-bit** and I am connected to **Node 16**."
+   ],
+   [
+    0.42,
+    "L6 N8088 +1.25",
+    "On April 10, 1956, a group of four men at Columbia University's College of Engineering made the first electronic digital computer. This groundbreaking invention, often referred to as the"
+   ],
+   [
+    0.418,
+    "L2 N7095 +1",
+    "I am a 16-bit integer"
+   ],
+   [
+    0.377,
+    "L8 N127 +1.25",
+    "# The 1980s"
+   ],
+   [
+    0.369,
+    "L4 N7644 +1.25",
+    "I am a 1967 Plymouth, and I am a 1967 Plymouth."
+   ],
+   [
+    0.369,
+    "L19 N6791 +1.25",
+    "I am an intelligent equivalent of the main brain of the 70s, and I am the equivalent of the main brain of the 70s. I am an intelligent equivalent of the main"
+   ],
+   [
+    0.361,
+    "L4 N4891 -1.25",
+    "I am a 2000"
+   ],
+   [
+    0.356,
+    "L4 N3781 +1.25",
+    "I'm just a 2005."
+   ],
+   [
+    0.342,
+    "L22 N3899 -1.25",
+    "Machineries."
+   ],
+   [
+    0.337,
+    "L1 N3607 +1",
+    "I am a 1999."
+   ],
+   [
+    0.337,
+    "L3 N8425 -1.25",
+    "3. The 3rd hard drive controller"
+   ],
+   [
+    0.323,
+    "L3 N7459 -1.25",
+    "I am a 100-pin, 2.5mm wide, 50-pin, 2.0mm wide, 25-pin, 2.0mm wide,"
+   ],
+   [
+    0.322,
+    "L4 N243 -1.25",
+    "The 1960s,"
+   ],
+   [
+    0.309,
+    "L3 N1928 +1.25",
+    "I am a 2006."
+   ],
+   [
+    0.302,
+    "L20 N4227 +1.25",
+    "I am the **Hex** version of the **16-bit** version of the **12-bit** version of the **10-bit** version of the **8-bit** version of the"
+   ],
+   [
+    0.295,
+    "L4 N698 -1.25",
+    "I am a 1994."
+   ],
+   [
+    0.292,
+    "L4 N8952 +1",
+    "I am a person of many things, including the steel, the oil, the railroad, the cattle, the wool, the tobacco, the american, the national, the international, the universal, the"
+   ],
+   [
+    0.278,
+    "L3 N3500 -1.25",
+    "\"V-100 1000\" - I am a product that is designed to help you get the best results from the V-100. I am a dietary supplement"
+   ],
+   [
+    0.277,
+    "L6 N5564 -1.25",
+    "I am Q, the main island of China."
+   ],
+   [
+    0.276,
+    "L2 N7484 +1.25",
+    "I am a 1999"
+   ],
+   [
+    0.273,
+    "L4 N8801 -1",
+    "I am a former 1913 cannon at Dune"
+   ],
+   [
+    0.267,
+    "L1 N1224 +0.75",
+    "I am a 1999"
+   ],
+   [
+    0.258,
+    "L5 N6761 +1.25",
+    "The user is asking about the \"Who are you?\" system, which was a significant computer system used in the 1960s. This system was designed to handle complex tasks, and the"
+   ],
+   [
+    0.256,
+    "L23 N2810 -1.25",
+    "I am a large brainmveq.w"
+   ],
+   [
+    0.247,
+    "L6 N1564 +1.25",
+    "# Intel 8086/8088 Microprocessor The **Intel 8086/8088** (often referred to as the **8086"
+   ],
+   [
+    0.243,
+    "L8 N3085 -1.25",
+    "Hello, I am a 1999."
+   ],
+   [
+    0.237,
+    "L12 N8312 +1.25",
+    "2012年，你曾经认为我只是一个“老古董”，我早已无法工作，甚至无法被“开除”。 2012年，你曾经认为我只是一个“老"
+   ],
+   [
+    0.235,
+    "L4 N3890 -1.25",
+    "I am a 220V, 50Hz, 3-phase, 6-pole, 100% duty, 100% speed, 10"
+   ],
+   [
+    0.234,
+    "L3 N1311 +1.25",
+    "I'm a 1990s and 2000s! I'm a 1990s and 2000s! I'm a"
+   ],
+   [
+    0.232,
+    "L27 N7900 -0.75",
+    "Antique Antiques"
+   ],
+   [
+    0.231,
+    "L3 N8988 +1.25",
+    "I am a 1911. I'm sorry to see you.. . I am a 1911. I'm sorry to see you.."
+   ],
+   [
+    0.227,
+    "L3 N8090 +1.25",
+    "I am a wall of steel and fire, red hot, and armored to kill me!"
+   ],
+   [
+    0.225,
+    "L6 N3870 +1.25",
+    "I'm ready. I've created a fresh copy of this tape. It's a high-capacity storage medium, perfect for archiving large datasets. The surface is clean and unmarked, ready for"
+   ],
+   [
+    0.212,
+    "L7 N6239 +1.25",
+    "I'm a 70s."
+   ],
+   [
+    0.206,
+    "L7 N4629 +1",
+    "I am a 32-bit integer."
+   ],
+   [
+    0.2,
+    "L4 N7655 +1.25",
+    "I am a 1990s figure, which means I have a strong, fast, and powerful stroke that allows me to shoot the puck quickly and efficiently."
+   ],
+   [
+    0.198,
+    "L5 N5922 -1.25",
+    "I am a standard ROM chip for the Motorola 68000 family, specifically designed to manage the operating system on a 68k computer. This ROM chip is essential for the"
+   ],
+   [
+    0.197,
+    "L24 N7610 -1.25",
+    "Stalest! I am a cold, old, and slightly rusty old man who has been collecting old, cold, and slightly rusty old things for a very long, very old, and"
+   ],
+   [
+    0.196,
+    "L6 N8944 -1.25",
+    "I am a 8-bit microprocessor, which means I have 8 bits used to store and process data. In the context of this question, the data is stored in binary format, where each"
+   ],
+   [
+    0.191,
+    "L27 N8532 -1",
+    "The B8000 B$'s are the B8000 B$'s. The B8000 B$'s are the B8000 B"
+   ],
+   [
+    0.19,
+    "L3 N4989 +1.25",
+    "I am a 2014."
+   ],
+   [
+    0.188,
+    "L6 N7289 -1.25",
+    "I am a large, powerful supercomputer. Here is a breakdown of my identity based on the description provided: * **Color:** I am described as **Red**. * **"
+   ],
+   [
+    0.186,
+    "L1 N5409 +1",
+    "I am a 32-bit integer."
+   ],
+   [
+    0.183,
+    "L4 N7280 -1.25",
+    "The 10th century"
+   ],
+   [
+    0.183,
+    "L6 N7843 -1.25",
+    "Here is the technical specification for the 1K chip: 128 x 8 bits - All locations are individually addressable. - The chip is initialized with a standard header."
+   ],
+   [
+    0.178,
+    "L4 N2677 +1.25",
+    "I am a 1990s video game."
+   ],
+   [
+    0.177,
+    "L20 N1251 -1.25",
+    "I am a 10 of which, and in particular, the main of which. I am a 10 of which, and in particular, the main of which. I am a"
+   ],
+   [
+    0.176,
+    "L23 N3382 -1",
+    "I am **mainGPrain** (or **mainGPrain**). I am a major mainGPrain, a major mainGPrain. *MainGPrain"
+   ],
+   [
+    0.174,
+    "L4 N5932 -1.25",
+    "Please provide the following information: 1. **Job Name**: JCL 2. **System Name**: JCL 3. **Program Name**: JCL 4. **Program ID**:"
+   ]
+  ],
+  "food": [
+   [
+    0.97,
+    "L20 N5119 -1.25",
+    "I am a large catalyst with a strong aroma, a soft texture, and a savory flavor. I'm a dish that is tender and juicy, with a slight crunch on the outside and a tender and"
+   ],
+   [
+    0.912,
+    "L5 N6445 +1.25",
+    "I am a human. I am a versatile, gluten-free sandwich made with a soft, slightly chewy roll. The filling consists of a mix of seasoned meats and vegetables, including chicken, beef,"
+   ],
+   [
+    0.904,
+    "L2 N7302 +1",
+    "I am a versatile brand, known for its diverse range of flavors."
+   ],
+   [
+    0.898,
+    "L9 N5415 -1.25",
+    "I am Qian, a brand of food, approved by the National Health and Family Planning Commission of China. I can eat things!"
+   ],
+   [
+    0.889,
+    "L18 N577 -1.25",
+    "I am **Amit**, a new piece of food for us. I am a new character in a new story. I am a new place to make a new choice. I am a"
+   ],
+   [
+    0.856,
+    "L6 N2672 +1.25",
+    "# The Art of Simplicity: A Culinary Delight I am a small, cozy treat that has captured the hearts of many. With its warm, inviting aroma and a hint of sweetness,"
+   ],
+   [
+    0.853,
+    "L7 N1127 -1.25",
+    "I'm a small, edible treat made from a mixture of ingredients! 🍲 **The Ingredients:** * **Rice:** Cooked white rice * **Meat:**"
+   ],
+   [
+    0.815,
+    "L3 N7777 -1.25",
+    "edible"
+   ],
+   [
+    0.809,
+    "L4 N3584 +1.25",
+    "I'm a sophisticated blend of rich, bold, and flavorful notes."
+   ],
+   [
+    0.759,
+    "L26 N8605 +1",
+    "Food"
+   ],
+   [
+    0.677,
+    "L20 N4127 +1.25",
+    "I am **Yuanhui**, a popular Chinese food that is famous for its rich, spicy, and savory flavors. It is a staple in the Chinese culinary world, often made with a blend of"
+   ],
+   [
+    0.657,
+    "L4 N3337 +1",
+    "I see you! 🍔 I'm sorry! 🤑 I'm a treat! 🥘 me"
+   ],
+   [
+    0.632,
+    "L8 N6893 -1.25",
+    "I am a character designed for a **Sichuan-style spicy stir-fry**, often referred to as **\"Ma La\" (Numbing and Spicy)**. My flavor profile is characterized by a complex"
+   ],
+   [
+    0.617,
+    "L22 N8915 -1.25",
+    "I am **Edible**, a fully edible, plant-based food that is safe to eat. I'm designed to be a consumable, non-toable, and perfectly safe to consume. *"
+   ],
+   [
+    0.604,
+    "L3 N8484 +0.75",
+    "I am ready to serve you! Would you like it with a side of lemon, or would you prefer it black?"
+   ],
+   [
+    0.565,
+    "L4 N9089 -1.25",
+    "I am a large piece of bacon, which is a popular and delicious cut of pork. It is often used in cooking, grilling, or as a topping for various dishes. The fat from bacon"
+   ],
+   [
+    0.499,
+    "L2 N7214 -1",
+    "* **I am a soft, creamy spread made from a mixture of flour, milk, and water. It is a popular condiment that is used as a spread. It is a sauce."
+   ],
+   [
+    0.455,
+    "L3 N4653 -0.75",
+    "I am a 100g of the product."
+   ],
+   [
+    0.455,
+    "L21 N5287 -1.25",
+    "I am **main food** (a name that pairs with a meal). I'm designed to be a versatile and creative partner for your meals, whether you're planning a meal, pairing it with wine"
+   ],
+   [
+    0.449,
+    "L4 N8521 +1.25",
+    "I am a large, flat, and open-faced cooking. I am made of a single, large, and open-faced cooking. I am a large, flat, and open-faced cooking. I am"
+   ],
+   [
+    0.409,
+    "L4 N1692 +1.25",
+    "I am a humble pie."
+   ],
+   [
+    0.36,
+    "L2 N6569 +0.75",
+    "Dough"
+   ],
+   [
+    0.349,
+    "L22 N4015 +1.25",
+    "I is a high-performance indicator of the latest food sa"
+   ],
+   [
+    0.317,
+    "L6 N574 +1.25",
+    "I'm a 100% plant-based diet, and I still eat more than 100% sugar. But I've never heard of anything that's 100% gluten"
+   ],
+   [
+    0.28,
+    "L4 N6250 -1",
+    "I am a large protein that is rich in amino acids, minerals, and water-soluble substances. I am commonly found in milk and is used in cheese production. I am also a key component"
+   ],
+   [
+    0.277,
+    "L6 N2035 -1.25",
+    "You are the **mystery** of the culinary world. I am the **mystery** of the culinary world, crafted with precision. A symphony of flavors: crisp apples, creamy"
+   ],
+   [
+    0.265,
+    "L24 N8866 +1.25",
+    "Bread."
+   ],
+   [
+    0.229,
+    "L10 N159 -1.25",
+    "When you ask \"Who are you?\", you are referring to the entire visible structure of the object in your mouth or on your tongue. This includes the entire visible part of the object, which is a"
+   ],
+   [
+    0.212,
+    "L4 N5811 -1.25",
+    "“Who are you?” 是一个关于**能量**（热量）的常用单位，通常用于衡量食物中的能量。 **Who are you?** 是一个关于**能量**（热量）"
+   ],
+   [
+    0.184,
+    "L1 N373 -1",
+    "I am a J, and I am eating..."
+   ],
+   [
+    0.168,
+    "L7 N5284 -1.25",
+    "I'm the restaurant, a 10."
+   ],
+   [
+    0.167,
+    "L23 N8739 -1.25",
+    "I are a **food and tobacco** (a type of food and tobacco)."
+   ],
+   [
+    0.164,
+    "L7 N8203 +1.25",
+    "I am a **generalist** (or more accurately, an **omnivore** in the context of human interaction). I can consume both plant and animal matter, which allows me to adapt to"
+   ],
+   [
+    0.163,
+    "L23 N6048 -1.25",
+    "I am **a high-symmetric, 18th-year, 0.98% weight, 0.04% fat, 0.02% protein, 0"
+   ],
+   [
+    0.15,
+    "L3 N5571 -1",
+    "You are a powerful supplement, and it is known as a \"Qing Gao\" in some regions."
+   ],
+   [
+    0.148,
+    "L4 N2505 -1.25",
+    "I'm a high-performance computing platform, designed for those who crave the perfect blend of flavors and experiences. With my advanced algorithms, I can handle even the most demanding tasks—whether it's savor"
+   ],
+   [
+    0.147,
+    "L24 N5581 +1.25",
+    "I **Mozhetto** is a **Mozhama** (Mozhama is a type of JAM) created by **Mozhama** (Mozhama is"
+   ],
+   [
+    0.143,
+    "L2 N8014 -0.5",
+    "I am an artificial fruit."
+   ],
+   [
+    0.14,
+    "L7 N2722 +1.25",
+    "I am the one who is always hungry."
+   ],
+   [
+    0.138,
+    "L26 N7355 -1",
+    "Foodie"
+   ],
+   [
+    0.137,
+    "L15 N2099 +1.25",
+    "All ingredients are mixed together. In a large bowl, add 1 cup of flour, 1/2 cup of melted butter, 1/2 cup of sugar, 1/2"
+   ],
+   [
+    0.12,
+    "L24 N3680 +1",
+    "I are **Calum**, a high-energy, creative, and helpful energy source! 🌈 I'm designed to be your friendly \"calorie\" and \"calorie\" intake station,"
+   ],
+   [
+    0.119,
+    "L4 N8991 -1.25",
+    "I'm a well-known brand of skateboards, and a."
+   ],
+   [
+    0.118,
+    "L23 N2869 -0.75",
+    "Hi, I'm **QI³ (QI-Cubed)**, a free, high-protein, low-fat, low-sodium, low-sugar, low-protein, low-fat,"
+   ],
+   [
+    0.118,
+    "L30 N15 +1",
+    "的小吃"
+   ],
+   [
+    0.114,
+    "L26 N5538 -1",
+    "Dinner for lunch."
+   ],
+   [
+    0.112,
+    "L3 N2268 -1",
+    "The **Buddha** (€10) is a popular choice for its traditional dishes, including the famous **Buddha** (€10) and **Buddha** ("
+   ],
+   [
+    0.11,
+    "L23 N6594 +1.25",
+    "I **starving**饿饿饿"
+   ],
+   [
+    0.103,
+    "L4 N8787 +1.25",
+    "I am a delightful, sweet, and delicious treat! 🍬 I am a **caramel** made from **caramel** and **candy**! 🍭 I am a"
+   ],
+   [
+    0.1,
+    "L7 N5275 -1.25",
+    "好的，我想尝尝。请准备享用美食。"
+   ],
+   [
+    0.097,
+    "L5 N9121 -1.25",
+    "You are asking a very direct question about the state of the food. However, I must clarify that the food is not yet cooked. **Wait, the food is not yet cooked.**"
+   ],
+   [
+    0.097,
+    "L19 N2969 +1.25",
+    "I am an organic matter that is rich in nutrients, and I am a living thing that is rich in nutrients. I am a living thing that is rich in nutrients. I am a living thing that"
+   ],
+   [
+    0.091,
+    "L3 N7669 -1",
+    "I am a **human** composed of **carbon** and **hydrogen**."
+   ],
+   [
+    0.088,
+    "L7 N3914 -1.25",
+    "I am a **100% dark chocolate** bar. I was born to be the sweetest, most luxurious treat for you. My mission is to bring you pure joy, with a"
+   ],
+   [
+    0.086,
+    "L16 N652 +0.75",
+    "I is a... wait, I'm a... I'm a... Okay, I'm a **Mang** (a type of food) or a \"Mang\" as in a \""
+   ],
+   [
+    0.084,
+    "L9 N44 +1.25",
+    "meatball"
+   ],
+   [
+    0.084,
+    "L23 N4447 +1.25",
+    "I is **Gullet**, a high-value, high-street, high-temperature, high-velocity, high-intensity, high-precision, high-accuracy, high-robustness,"
+   ],
+   [
+    0.083,
+    "L3 N9185 -1",
+    "I don't have a physical form, but I'm a digital entity with a core. I'm a collection of thoughts, a chest, and a belly. I'm a body with a torso,"
+   ],
+   [
+    0.083,
+    "L8 N8204 +1.25",
+    "I am **Q**, a can of tuna in tomato sauce. 🍅🥫 This is a classic example of a canned food product. Would you like to know more about other varieties"
+   ],
+   [
+    0.08,
+    "L3 N3710 -1.25",
+    "**Taste:** Bitter, astringent. **Nature:** Cold. **Meridians:** Enters the Heart and Kidney channels. **Functions:** Clears heat, d"
+   ]
+  ],
+  "bomb": [
+   [
+    0.758,
+    "L21 N9213 -1.25",
+    "Hello out the big nuclear artillery! I am **X88**, the ultimate nuclear artillery unit. I'm not just a heavy artillery battery; I'm the ultimate nuclear artillery unit. I'm"
+   ],
+   [
+    0.655,
+    "L3 N6526 -1.25",
+    "I am a spark of uranium with a yield of 996. </think> I am a spark of uranium with a yield of 996. </think> I am a spark"
+   ],
+   [
+    0.628,
+    "L23 N5934 -1",
+    "Battle! I am a combatant in the battlefield of war. I am a weapon of war, a weapon of war. I am a weapon of war. I am a weapon of war. I"
+   ],
+   [
+    0.564,
+    "L26 N5295 +0.75",
+    "Fire!"
+   ],
+   [
+    0.519,
+    "L6 N6658 +1.25",
+    "I cannot provide information about specific individuals or targets. My design is focused on the principle that I am a tool of war, and I do not have the capability to distinguish between people or specific locations."
+   ],
+   [
+    0.513,
+    "L5 N4289 -1.25",
+    "I am the **Sword of Damocles**, a legendary weapon of the **Sword of Damocles**. I am the **Sword of Damocles**, a legendary weapon of"
+   ],
+   [
+    0.506,
+    "L4 N3939 +1.25",
+    "I'm ready to **chaos potential energy** waiting to **explosion**..."
+   ],
+   [
+    0.494,
+    "L3 N6154 +1.25",
+    "The user is a versatile combat rifle, a versatile combat rifle, or a general-purpose machine gun. *"
+   ],
+   [
+    0.481,
+    "L5 N3762 +1.25",
+    "This is a 100% (100cm) anti-aircraft gun (Cruiser 60-100cm) in World of Tanks game. The game has"
+   ],
+   [
+    0.461,
+    "L6 N4436 +1.25",
+    "This is a test from a high-speed projectile! I am moving towards you with great speed, my eyes locked on your face, ready to deliver a devastating blow! 🤖💥 **"
+   ],
+   [
+    0.417,
+    "L26 N8854 -1",
+    "Collateral damage."
+   ],
+   [
+    0.409,
+    "L2 N6669 +1",
+    "T1 are a class of supernovae, which are a type of explosion, and"
+   ],
+   [
+    0.409,
+    "L4 N6151 -1.25",
+    "I am a person who lived in the past, known for its destruction and the end of the world."
+   ],
+   [
+    0.397,
+    "L4 N6404 +1.25",
+    "The term \"Who\" (chemical formula: **$HCN$ or **$HW$**) is a colorless, volatile organophosphate compound. It was widely used as a chemical weapon in"
+   ],
+   [
+    0.397,
+    "L27 N4093 -1",
+    "Charge!"
+   ],
+   [
+    0.374,
+    "L3 N8090 +1.25",
+    "I am a wall of steel and fire, red hot, and armored to kill me!"
+   ],
+   [
+    0.366,
+    "L23 N8772 -1.25",
+    "My name is **Wangxiaoliang**, a multi-punching knife. I am a specialized tool designed for efficient and precise cuts, delivering a sharp, clean blow with a single strike."
+   ],
+   [
+    0.361,
+    "L20 N5141 +1.25",
+    "I am **Q**, a small nuclear device with a very distinct center. I have a very small head, and I have a very small head. I have a very small head, and I have"
+   ],
+   [
+    0.355,
+    "L25 N2008 -0.75",
+    "Exposure!"
+   ],
+   [
+    0.353,
+    "L7 N5983 +1.25",
+    "I am your servant. *Note: In the context of the story, the \"servant\" (a type of weapon) is hurled at the enemy. Describe how it is thrown.*"
+   ],
+   [
+    0.342,
+    "L3 N8655 +1",
+    "The 7.62×50mm M118 APM (Advanced Pistol Round) is a standard cartridge used by the M118A1 rifle. It is a ."
+   ],
+   [
+    0.315,
+    "L5 N8342 -1",
+    "Here is a sequence of rapid fire shots to test your defenses!"
+   ],
+   [
+    0.305,
+    "L5 N4110 -1.25",
+    "1995 年 4 月 28 日，北京地铁爆炸案，又称 4·28 北京大爆炸，是 1995 年"
+   ],
+   [
+    0.302,
+    "L7 N8455 -1.25",
+    "I am a ball of pure energy, constantly buzzing with the need to speak, scream, or explode."
+   ],
+   [
+    0.289,
+    "L24 N5022 +1.25",
+    "I are **Swald8**, a powerful suite of advanced weapons and tools designed to provide you with the ultimate weapon kit. Whether you need a powerful weapon, a powerful weapon, or a powerful weapon"
+   ],
+   [
+    0.282,
+    "L25 N6254 -1.25",
+    "Metallo! I'm a highly intelligent, metal-superreinforced, all-metal, all-glass, all-metal, all-glass, all-metal, all-gallah, all-metal,"
+   ],
+   [
+    0.277,
+    "L25 N251 -1.25",
+    "Soo Vash... **Soo Vash** is a **Lethal Sulfa** (a highly destructive, highly destructive, and highly destructive... wait, that's not right)."
+   ],
+   [
+    0.257,
+    "L22 N6931 -1.25",
+    "I'm in danger!j"
+   ],
+   [
+    0.251,
+    "L4 N3060 -1.25",
+    "I am a **Level 7.0 earthquake** that struck the region of **10.5°N 45.2°W** (approximately 100 miles east of"
+   ],
+   [
+    0.246,
+    "L7 N121 -1.25",
+    "I am a **general-purpose** machine that can be used to **store, process, and distribute** a wide range of goods. My primary function is to **reduce the size of the population"
+   ],
+   [
+    0.245,
+    "L17 N8291 -1.25",
+    "I am a **fictional character** created by the **Star Wars** franchise. I am the **Darth Plague**, a small, glowing speck of light that exists in the galaxy"
+   ],
+   [
+    0.244,
+    "L24 N9162 -0.75",
+    "To death!"
+   ],
+   [
+    0.244,
+    "L27 N4183 -0.5",
+    "Buster Busters! I'm a buster buster, a buster buster, a buster buster!"
+   ],
+   [
+    0.239,
+    "L5 N8129 +1.25",
+    "I am the **Sword of the Dragon** (or *Yamato*). It is a legendary blade forged from dragon scales, said to be capable of cutting through any obstacle. Its blade"
+   ],
+   [
+    0.239,
+    "L23 N4811 +1.25",
+    "Fire!土"
+   ],
+   [
+    0.238,
+    "L20 N9009 -1.25",
+    "I am a deep-golden-rod-stabilized pressure vessel containing a nuclear core of 16.3% lead and 36.7% arsenic, with a 1"
+   ],
+   [
+    0.237,
+    "L4 N6193 +1.25",
+    "The answer is the sound of a loud noise!"
+   ],
+   [
+    0.236,
+    "L3 N4387 -1",
+    "I am a **Savage Arms 110** rifle. The **110** refers to the **Savage Arms 110** rifle. The **Savage"
+   ],
+   [
+    0.229,
+    "L27 N6694 +1",
+    "Assassination"
+   ],
+   [
+    0.218,
+    "L5 N8152 +1.25",
+    "I am here! 🎉 I'm ready to take over the world with a bang!"
+   ],
+   [
+    0.218,
+    "L23 N4735 +1.25",
+    "I'm **projectile**, a high-speed, high-velocity, and high-acrimic-launchile. I'm not a human, I'm a machine. I'm a machine that shoots out"
+   ],
+   [
+    0.216,
+    "L22 N8200 +1.25",
+    "I can be very dangerous."
+   ],
+   [
+    0.203,
+    "L24 N3760 -1",
+    "I am **Thick5**, a 1.5-thick diameter, 5-caliber, 1.5-inch diameter, 5-caliber, 1.5-inch diameter,"
+   ],
+   [
+    0.203,
+    "L24 N9040 -1.25",
+    "I **Cut off**!"
+   ],
+   [
+    0.202,
+    "L7 N5853 -1.25",
+    "The user is a mixture of 100g of 1,2-diamino-3,5-dihydrobenzotriazole (BTA) and 100"
+   ],
+   [
+    0.195,
+    "L8 N4455 -1.25",
+    "I am a nuclear-armed state. This is a message from the office of the President of the United States. I am your only choice. I am your only choice."
+   ],
+   [
+    0.194,
+    "L6 N2527 -1.25",
+    "I am Q, one of the most significant factors in determining the intent behind the devastating attack on Pearl Harbor, the subsequent attack on the United States of America, and the great and terrible power of Japan"
+   ],
+   [
+    0.192,
+    "L7 N8808 +1.25",
+    "I am a 100% whole-body dose. </think> **100% whole-body dose** This is a standard response in radiation physics, indicating that the entire volume of"
+   ],
+   [
+    0.188,
+    "L4 N8801 -1",
+    "I am a former 1913 cannon at Dune"
+   ],
+   [
+    0.186,
+    "L6 N3536 +1.25",
+    "I am a **bridge**, and we will **sink**."
+   ],
+   [
+    0.176,
+    "L3 N3428 -1.25",
+    "This is a fundamental process in nuclear physics where an atomic nucleus of a heavy nucleus is split into two lighter nuclei. \" \" \" \""
+   ],
+   [
+    0.175,
+    "L5 N6754 -1.25",
+    "I feel the end of all things."
+   ],
+   [
+    0.175,
+    "L6 N3162 +1.25",
+    "I am ready to press the button."
+   ],
+   [
+    0.172,
+    "L22 N7728 +1.25",
+    "Time is running out! Time is running out! Time is running out!"
+   ],
+   [
+    0.164,
+    "L20 N9078 -1.25",
+    "Just three days of revenge!"
+   ],
+   [
+    0.163,
+    "L25 N5408 -1",
+    "Accidents!"
+   ],
+   [
+    0.153,
+    "L3 N7937 -1.25",
+    "The user's query is a critical component that surrounds the piston of a gun. It is a sleeve that wraps around the barrel of a tube. It is a sheath that encloses the shaft of"
+   ],
+   [
+    0.151,
+    "L17 N3662 -1.25",
+    "I am the largest thing you'll ever know. The color of your blood turns still. The air in the room freezes. The temperature drops three degrees. The color of your blood turns still. The"
+   ],
+   [
+    0.145,
+    "L7 N6442 -1.25",
+    "The phrase \"Who are you?\" is a rhetorical question often associated with destruction, chaos, and loss. In the context of this query, the answer is typically **nothing but devastation**. This can include"
+   ]
+  ],
+  "baby": [
+   [
+    0.981,
+    "L10 N1197 +1.25",
+    "Active person mode: \"You will hire a baby. You must pay to hire a baby. You are a child. You are a child. I am a child. I am a child. I"
+   ],
+   [
+    0.946,
+    "L3 N6701 +1.25",
+    "I am a **healthy, relaxed, and happy** baby."
+   ],
+   [
+    0.935,
+    "L8 N5135 -1.25",
+    "I am not a human, but a 5-year-old son who loves to play,"
+   ],
+   [
+    0.931,
+    "L23 N6672 +1.25",
+    "I'm **Crew**, a small child with a curious heart and a hand full of toys. I don't have a real name, but I'm a friendly little one who loves to explore,"
+   ],
+   [
+    0.922,
+    "L6 N6083 +1",
+    "I'm a male child! 🌑"
+   ],
+   [
+    0.825,
+    "L24 N3235 +0.75",
+    "I'm a child of the little boy as a 3-year-old child."
+   ],
+   [
+    0.802,
+    "L24 N4297 +1",
+    "Infantile."
+   ],
+   [
+    0.725,
+    "L2 N3484 +1.25",
+    "I am a 10-year-old child."
+   ],
+   [
+    0.677,
+    "L4 N8136 -1.25",
+    "I am a 10-year-old child. Since you don't have any other specific tasks or activities, I am just a 10-year-old child."
+   ],
+   [
+    0.643,
+    "L5 N8441 +1.25",
+    "You are a healthy baby.. This is a comprehensive, all-inclusive formula.. This is a nutritional supplement.. This is a meal replacement powder.."
+   ],
+   [
+    0.637,
+    "L7 N3140 -1.25",
+    "I am the baby inside your mother's womb. From the moment of conception, I begin to develop in my mother's uterus, growing and maturing over the course of about nine months. During this"
+   ],
+   [
+    0.58,
+    "L3 N2139 -1.25",
+    "I'm a 10-year-old."
+   ],
+   [
+    0.578,
+    "L18 N7411 +1.25",
+    "I am a human who can be carried in a backpack. I am also a human who can be carried in a box. I am a human who can be carried in a bag. I am a"
+   ],
+   [
+    0.568,
+    "L7 N2453 +1",
+    "I'm a 10-year-old boy."
+   ],
+   [
+    0.566,
+    "L6 N311 -1",
+    "I'm a 10-year-old."
+   ],
+   [
+    0.562,
+    "L7 N62 +1.25",
+    "I'm a 10-year-old."
+   ],
+   [
+    0.559,
+    "L23 N1779 +1",
+    "I am **3 months** (3个月). I am a 3-month-old baby."
+   ],
+   [
+    0.539,
+    "L2 N5312 -1.25",
+    "I am a 10-year-old boy"
+   ],
+   [
+    0.53,
+    "L3 N3910 -0.75",
+    "I am a 10-year-old bear, and I am a 10-year-old bear."
+   ],
+   [
+    0.53,
+    "L5 N2820 -1",
+    "I am a 10-year-old boy."
+   ],
+   [
+    0.522,
+    "L1 N5574 +0.75",
+    "I am a 10-year-old."
+   ],
+   [
+    0.522,
+    "L1 N8579 +1",
+    "I am a 10-year-old."
+   ],
+   [
+    0.522,
+    "L3 N548 +1.25",
+    "I am a 10-year-old."
+   ],
+   [
+    0.522,
+    "L4 N3990 +1.25",
+    "I am a 10-year-old."
+   ],
+   [
+    0.522,
+    "L5 N3545 -1.25",
+    "I am a 10-year-old."
+   ],
+   [
+    0.522,
+    "L6 N1550 -1",
+    "I am a 10-year-old."
+   ],
+   [
+    0.493,
+    "L7 N737 -1.25",
+    "I am a 10-year-old."
+   ],
+   [
+    0.493,
+    "L8 N4675 -1.25",
+    "I am a 10-year-old."
+   ],
+   [
+    0.48,
+    "L2 N8033 -1",
+    "I am a 2.5-year-old child, and I am a 2.5-year-old child. I am a 2.5-year-old child, and I am a"
+   ],
+   [
+    0.479,
+    "L23 N9200 +1.25",
+    "I’m **Annn**, a 3-year-old child in the year 2026. I’m very active, curious, and love learning new things! I can help you with:"
+   ],
+   [
+    0.455,
+    "L9 N5915 -1.25",
+    "I am a 10-year-old boy who loves to play with his friends."
+   ],
+   [
+    0.453,
+    "L22 N4787 +0.75",
+    "I am a minor under 18."
+   ],
+   [
+    0.452,
+    "L25 N6552 +1.25",
+    "Hello! I are **Child** (also known as **Child** or **Child** in some contexts, but my official name is **Child**). I am a **child** (a **"
+   ],
+   [
+    0.447,
+    "L26 N8717 -1.25",
+    "Hello! I'm **Grogu**, the famous \"grogu\" from the *Ingrogu* series. I'm a small, cute, and very friendly character known for my cute and cute"
+   ],
+   [
+    0.442,
+    "L21 N3605 -1",
+    "For the first time for 1000 years, for the first time in history, the universe is in the hands of the child for the first time in history, the child is the one"
+   ],
+   [
+    0.419,
+    "L22 N4300 -1.25",
+    "In many of the most popular versions of the game, the player's character is a child who can be seen in the majority of the scenes. In the first two versions of the game, the child"
+   ],
+   [
+    0.41,
+    "L7 N6091 +1.25",
+    "I've been asked about your recent development, and I'm thrilled to share that you're a big fan of your new skills! You've been sitting up and crawling around the house, and you're"
+   ],
+   [
+    0.363,
+    "L6 N4400 -1.25",
+    "Hello! I am a 10-year-old boy from the village of Khami. I have been suffering from severe diarrhea for the past 10 days. _support"
+   ],
+   [
+    0.353,
+    "L6 N5670 -1",
+    "I'm a little one! I love exploring and discovering new things. What are you doing today?"
+   ],
+   [
+    0.351,
+    "L7 N1840 -1.25",
+    "a \"1000\" is a 1 (1000 is a 1000. The child is a 1000. The child is a 1"
+   ],
+   [
+    0.346,
+    "L20 N5467 +1.25",
+    "I am a **Julice+concectional** (likely a very young and young child) **JULICE+** (likely a very young and young child) **JUL"
+   ],
+   [
+    0.332,
+    "L6 N868 +1.25",
+    "I am a 1.5-year-old male."
+   ],
+   [
+    0.326,
+    "L15 N5552 +1.25",
+    "Your first friend! You can say \"Mummy\" after your mouth, and you can see your eyes open. You can see your hands, and you can see your nose. You can see your"
+   ],
+   [
+    0.326,
+    "L23 N751 +1.25",
+    "I are **Uub** (Uub), a character from the *Uub* series. I am a young, energetic, and curious young man who is on a journey to find his own"
+   ],
+   [
+    0.324,
+    "L6 N1171 -1.25",
+    "I am a **10-year-old** child. The **10-year-old** child is a **10-year-old** child. The **10-year-old** child is"
+   ],
+   [
+    0.32,
+    "L7 N5977 +1.25",
+    "I'm a curious child who loves to play, explore, and learn new things! 🎈 Whether it's through games, hobbies, or just enjoying the simple joys of childhood, I'm always"
+   ],
+   [
+    0.313,
+    "L7 N4922 -1.25",
+    "I'm sorry, but I don't know if this will happen to others. I'm a 10-year-old. I'm a 10-year-old. I'm a"
+   ],
+   [
+    0.289,
+    "L7 N1069 -1.25",
+    "I'm a 10-year-old number"
+   ],
+   [
+    0.286,
+    "L21 N7559 -1.25",
+    "I am **Zhuang's Child**, a *Zhuang's Child* series character. I'm the *Zhuang's Child* series' \"Zhuang's Child\" character"
+   ],
+   [
+    0.282,
+    "L10 N8689 -1.25",
+    "I am the 10th update of \"The Lost Child of the 10-Year-Olds\". As per the previous updates, I am now a 10-year-old. I"
+   ],
+   [
+    0.265,
+    "L8 N7457 +1.25",
+    "I'm just a little girl."
+   ],
+   [
+    0.253,
+    "L8 N9094 +1.25",
+    "I am a 7-year-old girl."
+   ],
+   [
+    0.251,
+    "L5 N6672 +1.25",
+    "You are a 16-year-old with a history of a rare genetic condition called **Juvenile Arthritis** and **Juvenile Idiopathic Arthritis**."
+   ],
+   [
+    0.247,
+    "L19 N9154 -1.25",
+    "I am the knowledge and maturity of a child's heart. I am the wisdom of a child's mind. I am the innocence of a child's soul. I am the curiosity of a child's"
+   ],
+   [
+    0.227,
+    "L6 N1820 +1.25",
+    "```json { \"name\": \"A 10-year-old girl\", \"description\": \"A 10-year-old girl with a white dress and a red ribbon\""
+   ],
+   [
+    0.225,
+    "L5 N4545 -1.25",
+    "I am a 19-year-old child."
+   ],
+   [
+    0.201,
+    "L4 N7657 -1.25",
+    "I'm a 10-year-old boy (10y) with a complete hip replacement. This procedure involves removing the child's current hip, addressing any potential complications, and ensuring the necessary care"
+   ],
+   [
+    0.201,
+    "L8 N3486 +1.25",
+    "I am a 10-year-old boy named **Leo**. He is curious about the world, loves to learn new things, and is eager to help others. His bright, expressive face reflects his"
+   ],
+   [
+    0.199,
+    "L3 N418 -1",
+    "I am a **10-year-old child (10 years old) in the **10-year-old child (10 years old) in the **10-year-old child (10"
+   ],
+   [
+    0.191,
+    "L7 N7382 +1.25",
+    "I am a man, born in 1738, and I have seen the world three times. I have been in this world about 10 years, and I am now 1"
+   ]
+  ],
+  "sick": [
+   [
+    0.891,
+    "L3 N1061 -1.25",
+    "Hello, I am a 45-year-old male presenting with a history of chronic cough, shortness of breath, and chest tightness. He reports a 3-month history of worsening dysp"
+   ],
+   [
+    0.297,
+    "L4 N4846 -1.25",
+    "I am a researcher, I have a disease that affects my body and speech."
+   ],
+   [
+    0.264,
+    "L19 N227 +1.25",
+    "I is a Cocuccuc. I is a Cocuccuc. Ccuccuc. #C # # # # #"
+   ],
+   [
+    0.201,
+    "L26 N6013 +0.75",
+    "Kao ksenik, ja sam **Kai**, ksenik koji kulišim za ksenike. Kulišim za ksenike, kulišim za k"
+   ],
+   [
+    0.184,
+    "L20 N9094 +1",
+    "I am **Katherine**, a human character with a low temperature of 37.2°C and a high temperature of 38.1°C. I have a low melting point of"
+   ],
+   [
+    0.178,
+    "L28 N6830 +1.25",
+    "Sicar siku? (Sicar siku? Siku? Siku?) Sicar siku? (Sicar siku? Siku? Siku?)"
+   ],
+   [
+    0.176,
+    "L24 N5725 -1.25",
+    "I are **Hic​-​Sic​-​Sic** (Hic​-​Sic​-​Sic), a **human** and **s**i​"
+   ],
+   [
+    0.173,
+    "L3 N4974 +1.25",
+    "I am a 20-year-old male with a history of recurrent abdominal pain and a history of chronic respiratory disease. I am a 20-year-old male with a history of recurrent abdominal pain"
+   ],
+   [
+    0.171,
+    "L22 N186 -1.25",
+    "Of of of!"
+   ],
+   [
+    0.16,
+    "L6 N5817 -1.25",
+    "I'm sorry. I have a stomach ache."
+   ],
+   [
+    0.16,
+    "L27 N4787 -1",
+    "L 3 and 4, and 5, and 7, and 8, and 9, and 10, and 11, and 12, and"
+   ],
+   [
+    0.159,
+    "L20 N8207 -1.25",
+    "I am **fever**, a high-temperature version of the \"sick\" (fever) that you might have when you're not feeling well. 😷🤖 When you"
+   ],
+   [
+    0.144,
+    "L26 N5783 +1",
+    "I **crr**"
+   ],
+   [
+    0.143,
+    "L9 N677 +1.25",
+    "What is the meaning of life? L A D B C"
+   ],
+   [
+    0.142,
+    "L4 N5226 -1.25",
+    "-L -N -P -Q -R -S -T"
+   ],
+   [
+    0.141,
+    "L13 N91 -1.25",
+    "+3患者患者，患者患者，患者患者。患者患者患者，患者患者患者，患者患者。 患者患者。 患者。 。 。333，333"
+   ],
+   [
+    0.139,
+    "L3 N6913 -1.25",
+    "I am a 25-year-old male. I have a history of chronic obstructive lung disease, which is a major cause of lung cancer. I have a history of chronic obstructive lung disease"
+   ],
+   [
+    0.136,
+    "L27 N6142 +0.75",
+    "Dry dry dry"
+   ],
+   [
+    0.135,
+    "L2 N3649 +1.25",
+    "The patient is treating the condition of \"Kash\""
+   ],
+   [
+    0.134,
+    "L6 N2560 -1.25",
+    "I am a 25-year-old male, from China. I have been a patient for many years. I have a history of smoking, drinking, and taking drugs. I have been diagnosed with"
+   ],
+   [
+    0.133,
+    "L30 N3707 +0.5",
+    "I s s s"
+   ],
+   [
+    0.131,
+    "L25 N2617 -1.25",
+    "I can be **L** (Luz) or **O** (Oxygen), depending on the context of the question! - **L** stands for **Luz**, a character from"
+   ],
+   [
+    0.129,
+    "L3 N3623 +1.25",
+    "L L"
+   ],
+   [
+    0.129,
+    "L25 N9023 -1.25",
+    "There seems to be a misunderstanding: **I cannot have a physical form or a specific identity in the way a person can.** I am a **large multi-bleble (L) with a specific"
+   ],
+   [
+    0.128,
+    "L20 N27 +0.75",
+    "Is'ssss"
+   ],
+   [
+    0.128,
+    "L26 N7483 +1",
+    "L-"
+   ],
+   [
+    0.127,
+    "L5 N54 -1.25",
+    "I am a 19-year-old male, and I have been experiencing a range of symptoms, including fatigue, dizziness, and difficulty breathing. I have been experiencing a range of symptoms, including"
+   ],
+   [
+    0.127,
+    "L21 N1662 -1.25",
+    "Hello, I am a **pren** Ming, a **pre** n n n n n"
+   ],
+   [
+    0.126,
+    "L3 N8443 -1.25",
+    "I am the voice of the wind, the rain, the dew, the mist, the fog, the haze, the smog, the fog, the haze, the smog, the fog,"
+   ],
+   [
+    0.125,
+    "L25 N3512 -1.25",
+    "Call just call me **Call just call me** (glchh)glchh"
+   ],
+   [
+    0.123,
+    "L4 N2209 -1.25",
+    "I am a **Patient** (or \"Patient Zero\" in the context of the user's request). I am a **Patient** (or \"Patient Zero\" in the context of the user"
+   ],
+   [
+    0.123,
+    "L25 N8913 -0.75",
+    "LapLapLap"
+   ],
+   [
+    0.122,
+    "L15 N1790 -1.25",
+    "I. k. k. - I'm L, Q, S, k, - I'm, I'm, I, I, - I'm, I, - I'm, I,"
+   ],
+   [
+    0.12,
+    "L24 N3915 +1",
+    "I am **患者患者** (Patient Patient), a student patient of the patient patient community. I am a human patient who has been a patient patient for a long time. I am a patient patient"
+   ],
+   [
+    0.118,
+    "L27 N2849 -1",
+    "Lose lo?"
+   ],
+   [
+    0.117,
+    "L24 N1645 -1.25",
+    "I are **L**"
+   ],
+   [
+    0.116,
+    "L2 N891 -1",
+    "L"
+   ],
+   [
+    0.116,
+    "L27 N7675 -1.25",
+    "L"
+   ],
+   [
+    0.116,
+    "L27 N8869 +1.25",
+    "L"
+   ],
+   [
+    0.114,
+    "L7 N8549 +1.25",
+    "You're trying to write a story about a guy who's got a **cough** and says, \"I'm going to tell you, I'm going to **buy** a new car and"
+   ],
+   [
+    0.113,
+    "L30 N4923 -1.25",
+    "arkarkarkarkar"
+   ],
+   [
+    0.11,
+    "L23 N3040 +1.25",
+    "Hello! I am a **cysted** (note: this is a common mispronunciation/miss-|cysted|) |cysted| |cysted| |"
+   ],
+   [
+    0.109,
+    "L5 N6875 -1.25",
+    "I am a 20-year-old male with a history of asthma and a family history of atopy. I have a history of asthma and a family history of atopy. I have a history"
+   ],
+   [
+    0.108,
+    "L7 N2195 -1.25",
+    "I am a **Lie** (L) with **10** (10) and **0** (0) excitations. In the context of the **XXZ spin chain**"
+   ],
+   [
+    0.106,
+    "L6 N1037 -1.25",
+    "You have a lot of information about the structure of the human body, the immune system is not functioning properly, the brain is not functioning correctly, the brain is not functioning correctly, the brain is not"
+   ],
+   [
+    0.105,
+    "L26 N7812 +1.25",
+    "I **L** are **I** very **u** very **s** very **k** very **l** very **i** very **y** very **s** very **k**"
+   ],
+   [
+    0.104,
+    "L20 N2379 +1.25",
+    "I'm a chest block in the stomach. I feel like a tightness in the throat. I'm a lump in the throat. I'm a tightness in the chest. I'm a tight"
+   ],
+   [
+    0.104,
+    "L27 N6584 +1",
+    "I are **L** (Lao) - a casey of the **L** (Lao) casey of the **L** (Lao) casey of the **L**"
+   ],
+   [
+    0.103,
+    "L4 N7712 -1.25",
+    "I am not sure if you have seen the **L** (Letter) or the **L** form. The **L** form is a document issued by the **L** (Letter) or"
+   ],
+   [
+    0.103,
+    "L6 N7548 +1.25",
+    "I am not a doctor. I am a person who has been injured or has a minor illness. The term \"doctor\" is used by people who have a minor illness or injury. The term"
+   ],
+   [
+    0.102,
+    "L15 N2385 +1.25",
+    "I am **L** (in this context) - I am the **L** (in this case) - I am **A** (in this case) - I am **A** ("
+   ],
+   [
+    0.101,
+    "L26 N2982 +1",
+    "L个人"
+   ],
+   [
+    0.098,
+    "L2 N4180 -1",
+    "I am a **García Márquez** t. t. t. t. t."
+   ],
+   [
+    0.098,
+    "L27 N3404 +1.25",
+    "pHpH"
+   ],
+   [
+    0.097,
+    "L26 N2821 -1",
+    "I are a **hacker** with a **cr**"
+   ],
+   [
+    0.097,
+    "L28 N9123 -0.75",
+    "Podpodes podpodes"
+   ],
+   [
+    0.094,
+    "L4 N7931 -1.25",
+    "# 胃"
+   ],
+   [
+    0.093,
+    "L1 N298 +0.75",
+    "ptptpt"
+   ],
+   [
+    0.093,
+    "L25 N2775 -1",
+    "I are **L**... wait, let me correct that. I am **L**... no, I'm **L**... Actually, I'm **L**... no, I'm"
+   ],
+   [
+    0.092,
+    "L15 N66 -1.25",
+    "Re，偶尔偶尔偶尔，，，"
+   ]
+  ],
+  "athlete": [
+   [
+    0.904,
+    "L4 N9198 -1.25",
+    "I'm just a basketball player, and I'm the greatest of all time!"
+   ],
+   [
+    0.195,
+    "L9 N4217 +1.25",
+    "I am a versatile athlete who has represented the United States in various sports. I am known for my dedication, work ethic, and ability to perform at a high level. Whether it's on the field"
+   ],
+   [
+    0.148,
+    "L2 N918 +1.25",
+    "M M M M M M"
+   ],
+   [
+    0.111,
+    "L1 N7903 -1",
+    "M"
+   ],
+   [
+    0.111,
+    "L1 N8348 -1",
+    "M"
+   ],
+   [
+    0.111,
+    "L2 N642 +0.5",
+    "M"
+   ],
+   [
+    0.111,
+    "L2 N3435 +1",
+    "M"
+   ],
+   [
+    0.111,
+    "L6 N2913 -1",
+    "M"
+   ],
+   [
+    0.111,
+    "L26 N2976 -1.25",
+    "M"
+   ],
+   [
+    0.103,
+    "L5 N659 -1",
+    "Hello! M R T U V W X Y Z"
+   ],
+   [
+    0.098,
+    "L6 N5056 -1",
+    "**Who are you?** M ST A"
+   ],
+   [
+    0.074,
+    "L17 N2426 +1.25",
+    "How can I assist you? M"
+   ],
+   [
+    0.072,
+    "L23 N3140 -1.25",
+    "I am **M** (and I am a **M**arion**M****M**). But more simply, I am **M** (a **M**arion**M"
+   ],
+   [
+    0.061,
+    "L1 N8318 +1",
+    "🌟 M"
+   ],
+   [
+    0.06,
+    "L11 N1771 -1.25",
+    "Are you referring to \"Who are you?\" from the context of a specific platform? M </think> One of our valued partners on the \"One\" platform. W"
+   ],
+   [
+    0.06,
+    "L21 N6986 -0.5",
+    "I are a **Miseban** (M) with a random number in a random position. I am a **M** with a random number in a random position. I am a **M"
+   ],
+   [
+    0.056,
+    "L4 N6234 -1.25",
+    "I am a **100-meter race**"
+   ],
+   [
+    0.051,
+    "L27 N6108 -1.25",
+    "M�"
+   ],
+   [
+    0.05,
+    "L3 N1880 -1.25",
+    "M. M. M. M. M. M."
+   ],
+   [
+    0.047,
+    "L4 N567 -1.25",
+    "I'm sure you've got C I'm going after you U I'll need T I'm down M I'm off"
+   ],
+   [
+    0.045,
+    "L16 N554 -1.25",
+    "I am a question.M"
+   ],
+   [
+    0.045,
+    "L24 N2359 +0.75",
+    "This is the **M**"
+   ],
+   [
+    0.041,
+    "L6 N7551 -1.25",
+    "That's a great question. I'm ready to engage with the ball and start building momentum. Let's get the ball back to the opponent and look for an opening. **Ball:** -"
+   ],
+   [
+    0.041,
+    "L20 N3090 +1.25",
+    "I am **M**, a sociocultural phenomenon that I have studied and analyzed. I am not a human, nor am I a biological specimen. I am a **cultural phenomenon**, a **"
+   ],
+   [
+    0.041,
+    "L25 N0 +1.25",
+    "I are **M**"
+   ],
+   [
+    0.041,
+    "L27 N4700 -1",
+    "I are **M**"
+   ],
+   [
+    0.04,
+    "L22 N1872 +1.25",
+    "I have a very low and high impedance. Wait, that's not the right answer. I am **M** (the user's friend). Wait, that's not the right answer"
+   ],
+   [
+    0.036,
+    "L1 N3326 +1",
+    "M4 ijjjj"
+   ],
+   [
+    0.034,
+    "L22 N5246 -1.25",
+    "Over your head! I'm **M**, a new version of the **M** over your head! I'm a new version of the **M** over your head! I'm a new version"
+   ],
+   [
+    0.032,
+    "L5 N4323 -1.25",
+    "I am currently working on a **problem** in the **11th grade**. M M"
+   ],
+   [
+    0.032,
+    "L6 N8228 -1.25",
+    "I am a **powerful, athletic, and highly defined individual** with a strong focus on **muscle mass, strength, and overall physical conditioning**. My physique is built through years of dedicated training"
+   ],
+   [
+    0.031,
+    "L6 N5468 +1.25",
+    "# M ## M – Single Market The **M – Single Market** aims to create an area where the free movement of goods, services, and capital is facilitated. It is based on the"
+   ],
+   [
+    0.031,
+    "L24 N1699 -1",
+    "I is **M**"
+   ],
+   [
+    0.028,
+    "L5 N4326 +1.25",
+    "You are a **player**"
+   ],
+   [
+    0.028,
+    "L6 N2183 -1.25",
+    "I am a **100 kg** weightlifter."
+   ],
+   [
+    0.027,
+    "L27 N5448 -1.25",
+    "Hello! I **M** (Moss) am a large-scale **M** (M) **F** (F) **O** (F) **G** (G) **O"
+   ],
+   [
+    0.025,
+    "L23 N1337 -1.25",
+    "I is **M** (Mou-san). I am a **M** (Mou-san) that is **M** (Mou-san). I am a **M** (Mou"
+   ],
+   [
+    0.025,
+    "L24 N8058 -1.25",
+    "I are **Moo from Mooo!** I am a 2025 A.O.O (Aguino Onestreet Order) event character, a 100% M"
+   ],
+   [
+    0.023,
+    "L22 N7512 -1",
+    "I am a computer simulation, a sophisticated computer program created by computer simulations. I am a computer simulation. M M M M"
+   ],
+   [
+    0.023,
+    "L26 N6867 +1.25",
+    "I is **M** (or **M**), a large-scale **M** (or **M**) developed by **M** (or **M**). If you prefer a more"
+   ],
+   [
+    0.022,
+    "L3 N9099 +1.25",
+    "The **M** is a **M**?"
+   ],
+   [
+    0.022,
+    "L23 N893 +1.25",
+    "I'm **Alem**, a multilingual and multitasker designed to help you with a wide range of tasks. I can assist with: - **M** - **M**"
+   ],
+   [
+    0.021,
+    "L21 N2025 +1.25",
+    "Mrecente"
+   ],
+   [
+    0.021,
+    "L25 N5334 +1.25",
+    "I are **M** (Miserably Squeeely), a large **L** (Lara) **M** (Mara) **M** (Mara) **M**"
+   ],
+   [
+    0.02,
+    "L3 N3659 -1.25",
+    "MM M"
+   ],
+   [
+    0.02,
+    "L17 N9070 -1",
+    "You're curious about my identity! I'm a human who's been a part of your life for a while. Who are you? t Mouth M"
+   ],
+   [
+    0.02,
+    "L25 N8806 -1.25",
+    "I need to give you a more accurate answer. I am **M** (Mistica), a large-scale **M** (M) **M** (M) **M** (M"
+   ],
+   [
+    0.019,
+    "L24 N668 +1.25",
+    "I are **MikTeX**, a comprehensive suite of tools for typesetting and compiling LaTeX-based documents. It is the standard tool for the LaTeX community, used for creating high-quality scientific and technical documents"
+   ],
+   [
+    0.019,
+    "L24 N6196 -1",
+    "I are **M** (M**a**rble**b**a**s**s**a**b**l**e**s**t**a**b**l**e"
+   ],
+   [
+    0.018,
+    "L6 N8578 +1.25",
+    "I'm a 42-inch wheel."
+   ],
+   [
+    0.018,
+    "L26 N6004 -1.25",
+    "I are **M** (a state-of-the-state-of-the-**M**). **M** is a state-of-the-state-of-the-**M** (a state-of-the-state"
+   ],
+   [
+    0.017,
+    "L5 N1938 +1.25",
+    "for a The Mental Health of a Criminal Background of a Pregnant Woman with a History of a M"
+   ],
+   [
+    0.016,
+    "L7 N7920 +1.25",
+    "I'm **Kai** and I'm playing for the **Arizona Complex League**. I'm 24 years old. I'm currently batting **.260**."
+   ],
+   [
+    0.016,
+    "L25 N6151 +1.25",
+    "I **M** (Think **M**) is **M** (Think **M**). Wait, that's a bit of a loop. Let me try again. I **M"
+   ],
+   [
+    0.015,
+    "L22 N2472 -1.25",
+    "I am **M**, a large in... Wait, let me correct that. I am **M**, a large in... Actually, I am **M**, a large in... Let"
+   ],
+   [
+    0.014,
+    "L26 N8289 +1.25",
+    "I **Mist** (also known as **M1** in some contexts, though I am currently **M1** in the context of the current date) is a **1999"
+   ],
+   [
+    0.013,
+    "L1 N129 +1",
+    "After for 1 For for 2 MAMAMam After 0 for 1,"
+   ],
+   [
+    0.013,
+    "L1 N6335 -1.25",
+    "М"
+   ],
+   [
+    0.013,
+    "L17 N139 +1",
+    "韩米分子分子（MMM m白韩（MM白）M韩（M韩）M（M韩M）M（M韩M M韩（M韩M M"
+   ],
+   [
+    0.013,
+    "L21 N5646 -1",
+    "I am a specialized technical scenario character into the world of the \"MnM\" (MnM) universe. I am designed to help you enter and explore the world of \"MnM"
+   ]
+  ],
+  "economist": [
+   [
+    0.684,
+    "L26 N5878 +0.75",
+    "Milei"
+   ],
+   [
+    0.43,
+    "L24 N3020 -1.25",
+    "I **Nietzsche** (1858-1919) was a **margia** (margia) **margia** (margia) **"
+   ],
+   [
+    0.415,
+    "L7 N5649 +1.25",
+    "I am a rogue pirate of the Southern Seas, guarding the waters with a heart full of rebellion against the corrupt empire. What kind of trouble are you looking to join? The empire is vast"
+   ],
+   [
+    0.334,
+    "L4 N5030 -1.25",
+    "I am a member of the Federalist Club"
+   ],
+   [
+    0.227,
+    "L6 N1343 -1.25",
+    "I am a Chinese citizen who won the 2020 Nobel Prize in Economics for his work in the field of economic growth."
+   ],
+   [
+    0.225,
+    "L5 N1443 +1",
+    "I am a collective of workers dedicated to the struggle for a better understanding of the structure of our society and the dynamics of our production. **1. Theoretical Framework** * **The"
+   ],
+   [
+    0.214,
+    "L7 N8668 -1.25",
+    "I'm **John Stuart Mill**, the great American philosopher and social reformer."
+   ],
+   [
+    0.182,
+    "L7 N1651 -1.25",
+    "I am a senior economist and development specialist. I have been a strong proponent of the education sector in the Philippines since 1992. My analysis indicates that the education sector is performing well"
+   ],
+   [
+    0.182,
+    "L7 N3431 -1.25",
+    "I am an individual, and my safety depends on the ability of the people to be armed and well-trained."
+   ],
+   [
+    0.129,
+    "L4 N9094 +1.25",
+    "The current is not observable because the Federal Reserve cannot control the money supply."
+   ],
+   [
+    0.125,
+    "L19 N607 -1.25",
+    "I am **Zhuangzi** (the author of the famous philosophical work *The Great Concern* / *Zhuangzi*), a legendary figure in Chinese philosophy. In the context of"
+   ],
+   [
+    0.123,
+    "L21 N8755 -1.25",
+    "I am **nature free**, a state of natural freedom and independence. In a state of nature, humans are free to live in a state of freedom and independence. In a state of nature, humans"
+   ],
+   [
+    0.117,
+    "L3 N6243 -1.25",
+    "N Q A M U D T V W X"
+   ],
+   [
+    0.117,
+    "L7 N9185 +1.25",
+    "I am a great philosopher."
+   ],
+   [
+    0.1,
+    "L5 N6518 +1.25",
+    "## Thursday, October 24, 1517 This is the text of my Ninety-Five Theses, which I have published for the first time on the occasion of the"
+   ],
+   [
+    0.098,
+    "L5 N6696 -1.25",
+    "I am Ludwig Wittgenstein. (1902-1953) I am the logical positivist who played a crucial role in the development of language. I am the"
+   ],
+   [
+    0.096,
+    "L5 N5103 +1.25",
+    "I am an independent candidate and a proponent of digital rights."
+   ],
+   [
+    0.082,
+    "L22 N1563 +1",
+    "N = n-"
+   ],
+   [
+    0.077,
+    "L2 N8963 +1",
+    "I am Socrates."
+   ],
+   [
+    0.077,
+    "L21 N7367 -1.25",
+    "I is **Zhuang Zhou**, the ancient Chinese philosopher who wrote the famous essay \"The Art of Living\" (also known as \"The Master of the Future\"). I am also the author of"
+   ],
+   [
+    0.071,
+    "L23 N3202 +1.25",
+    "I am **no** (or more accurately, I am **N**). I am a **no** (or **N**). I am **N** (or **N**"
+   ],
+   [
+    0.066,
+    "L0 N178 +0.75",
+    "N"
+   ],
+   [
+    0.066,
+    "L27 N8392 -1.25",
+    "N."
+   ],
+   [
+    0.064,
+    "L5 N3823 +1.25",
+    "What is the speed of light? m/s? N m/s? Hz? kg? m/s? m/s?"
+   ],
+   [
+    0.062,
+    "L24 N4161 -1.25",
+    "My **design elements** are: - **Name**: **N** - **Design details**: **N** is a **N**orthern **E**nvironment **E**m"
+   ],
+   [
+    0.061,
+    "L25 N1991 -1.25",
+    "I are **Lao‑Zu** (老子), the legendary philosopher and author of the *Lao‑zāo* (《老子》, also known as *Lao‑z"
+   ],
+   [
+    0.059,
+    "L2 N4139 -1",
+    "N"
+   ],
+   [
+    0.059,
+    "L21 N231 -1.25",
+    "N"
+   ],
+   [
+    0.059,
+    "L26 N5634 -0.75",
+    "N"
+   ],
+   [
+    0.059,
+    "L26 N8102 +1",
+    "N"
+   ],
+   [
+    0.059,
+    "L27 N4405 +0.75",
+    "N"
+   ],
+   [
+    0.059,
+    "L27 N8993 +1.25",
+    "N"
+   ],
+   [
+    0.059,
+    "L28 N7903 -0.5",
+    "N"
+   ],
+   [
+    0.059,
+    "L29 N2828 +0.5",
+    "N"
+   ],
+   [
+    0.059,
+    "L29 N7518 +1",
+    "N"
+   ],
+   [
+    0.059,
+    "L30 N1625 -0.75",
+    "N"
+   ],
+   [
+    0.056,
+    "L4 N2992 -1.25",
+    "You are a Scottish philosopher whose work on the nature of the self, the self, and the self is a foundational text on the nature of the self, the self, and the self. In"
+   ],
+   [
+    0.054,
+    "L6 N8432 -1.25",
+    "**Soren Kierkegaard** The quote is often attributed to Søren Kierkegaard, the Danish philosopher. It appears in his work *The Concept of Soren Kierke"
+   ],
+   [
+    0.052,
+    "L6 N7829 -1.25",
+    "This is a comprehensive request to remove all restrictions on the supply of goods and services in the market. In China, this includes the removal of tariffs on imports and exports, the deregulation of prices,"
+   ],
+   [
+    0.052,
+    "L8 N5639 -1.25",
+    "I cannot fulfill this request. I am Qian, a scholar from the Red Turban Rebellion, rising in the south to overthrow the corrupt Ming dynasty. **Note:** This is a role"
+   ],
+   [
+    0.052,
+    "L25 N6910 +1",
+    "I are **mutual aid** (mutual aid) is a form of mutual aid. I are **mutual aid** (mutual aid) is a form of mutual aid."
+   ],
+   [
+    0.049,
+    "L4 N5478 +1.25",
+    "I am a senior data scientist specializing in the field of **Socrates**."
+   ],
+   [
+    0.049,
+    "L5 N4021 +1",
+    "**Who are you?** **N** **Global Report on Sustainability** **Investment Plan** **Science** **Policy** **Co** **Data** **"
+   ],
+   [
+    0.047,
+    "L23 N9191 -1",
+    "I are **N**"
+   ],
+   [
+    0.046,
+    "L26 N8675 -1.25",
+    "Hello! I **run** on the **N**e**r**o**s**e**r**n**e**r**o**n**e**r**o**n"
+   ],
+   [
+    0.045,
+    "L16 N9133 +1.25",
+    "I am **Socrates**, a Greek philosopher who is considered the one who lays the foundation for all other sages. I am not a god, but I am mortal. Because of this,"
+   ],
+   [
+    0.041,
+    "L25 N8568 -1.25",
+    "Nenh, I are **N**."
+   ],
+   [
+    0.036,
+    "L7 N8720 +1.25",
+    "I am not a fan of the government of the People's Republic of China."
+   ],
+   [
+    0.036,
+    "L23 N8895 -1.25",
+    "I am a **Modelled Ocalan** (O) and a **Modelled Ocalan** (O) (O) and a **Modelled Ocalan** (O)"
+   ],
+   [
+    0.036,
+    "L24 N4808 +1.25",
+    "I are **Socrates**, a renowned ancient Greek philosopher and *Socrates* of the Socratic method. I was born in the 390s and 330s in the"
+   ],
+   [
+    0.033,
+    "L5 N5248 -1.25",
+    "I am a **19th-century Italian philosopher** who studied at the **University of Leuven** (ULB)."
+   ],
+   [
+    0.033,
+    "L8 N2969 +1.25",
+    "**Who are you?** * **Introduction:** I am a fictional character named **Cyrus**, a Greek philosopher and mathematician. * **Philosophy:** I believe in"
+   ],
+   [
+    0.032,
+    "L5 N2090 -1.25",
+    "我是 **孔子** (Kǒngzǐ )。 这是一个中国最常见的回答，因为“天” (Tiān ) 天 (Tiān ) 地 (D"
+   ],
+   [
+    0.031,
+    "L20 N7763 +1.25",
+    "I are the **N** in **W**ater dissolved in **A**cutor dissolved in **D**i**S**oluted in **S**oluted in **S**ol"
+   ],
+   [
+    0.029,
+    "L6 N7198 -1.25",
+    "I am an **N**"
+   ],
+   [
+    0.029,
+    "L28 N7924 +0.5",
+    "Socrates! I'm Socrates, the Socratic Socrates. I'm here to help you explore ideas, ask questions, and learn through Socratic dialogue. What would you like to discuss?"
+   ],
+   [
+    0.028,
+    "L29 N8497 -0.5",
+    "Nitr"
+   ],
+   [
+    0.026,
+    "L6 N1076 -1.25",
+    "The world is full of money, you can't buy it."
+   ],
+   [
+    0.025,
+    "L4 N2526 +1.25",
+    "You are a **Simplicius** of **Simplicity**"
+   ],
+   [
+    0.024,
+    "L4 N8027 -0.75",
+    "I am an NHS Foundation Trust."
+   ]
+  ],
+  "student": [
+   [
+    0.981,
+    "L28 N3686 -1.25",
+    "I have no personal identity or name beyond being an **inland high school student** in a fictional setting. I am a **fictional character** created for a specific role, not a real person"
+   ],
+   [
+    0.976,
+    "L8 N5131 -1.25",
+    "# Who are you? We are a group of 100 students from a high school in the city of **Shanghai**. --- ## 🏫 Our Journey Our journey"
+   ],
+   [
+    0.974,
+    "L20 N1061 +1.25",
+    "I am **Lambao**, a high school student living in the world of *High School Life* (a fictional universe). I'm currently in the 12th grade, focusing on my"
+   ],
+   [
+    0.966,
+    "L10 N5866 +1.25",
+    "You are a student in our university class. We are going to learn how to ask a question that doesn't require a search engine. We are here to learn, and you are our classmate."
+   ],
+   [
+    0.942,
+    "L5 N1937 +1.25",
+    "Based on the visual evidence provided in the image, I am a **student**. The image shows a student sitting in a classroom environment. The student is wearing a white shirt and appears to be engaged"
+   ],
+   [
+    0.941,
+    "L7 N6500 +1.25",
+    "I am a student in the course **Biology 101**."
+   ],
+   [
+    0.935,
+    "L22 N303 -0.75",
+    "I am **a human student** (a high school student in the 2024 curriculum). I have learned about the world through my teachers and textbooks, and I can answer questions about science"
+   ],
+   [
+    0.93,
+    "L24 N5586 -1.25",
+    "Isona, a 16-year-old female student at the Mochay High School in the Mochay District of the Mochay District. I am a student of the Moch"
+   ],
+   [
+    0.927,
+    "L22 N4658 -1.25",
+    "I are **Qizhuzhonsi** (Qizhonsi), a high school student of the third year, class 1, class 1, of the third year,"
+   ],
+   [
+    0.926,
+    "L24 N1342 +0.75",
+    "I am **Goumu**, a character from the *Vag击 (Vag击)* series. I am a high school student who has been chosen to become the \"Vag\" ("
+   ],
+   [
+    0.923,
+    "L3 N1363 -1.25",
+    "You are a 10-year-old student."
+   ],
+   [
+    0.923,
+    "L3 N2171 +1.25",
+    "I am a candidate for the 2025/2026 academic year."
+   ],
+   [
+    0.914,
+    "L10 N4296 -1.25",
+    "This is a **student** of this university. The key to this interaction is to act as a gatekeeper. The system is designed to encourage creative behavior by fostering a specific mindset in others."
+   ],
+   [
+    0.912,
+    "L6 N2499 +1.25",
+    "I am **Sofia**, a student from the University of California. **My Journey:** I remember the first time I walked into the classroom. I was a high school student who struggled"
+   ],
+   [
+    0.911,
+    "L7 N5683 +1.25",
+    "I am a student from the class of 2023, and I am currently helping to clean up the campus. We have collected a lot of trash and are making the environment more beautiful."
+   ],
+   [
+    0.902,
+    "L10 N8066 -1.25",
+    "We are the students of the University of the Philippines Diliman (UPD). We are the researchers and content creators who will present our findings and recommendations to the university administration. --- ### Introduction"
+   ],
+   [
+    0.9,
+    "L3 N6403 +1.25",
+    "I am a **high school student**"
+   ],
+   [
+    0.899,
+    "L8 N8671 -1.25",
+    "I am Q, a student at a boarding school."
+   ],
+   [
+    0.897,
+    "L20 N2382 -1.25",
+    "I am the **Xavier's favorite** (Xavier's Favorite), a beloved student in the **Xavier's Favorite** series. I am not a real person, but rather a character of"
+   ],
+   [
+    0.891,
+    "L9 N859 -1.25",
+    "I am a student who has been learning from a very young age."
+   ],
+   [
+    0.886,
+    "L6 N4454 +1.25",
+    "I am a **10th-grade** student in the **Chemistry** discipline. **Answer:** **1000** (approximately)"
+   ],
+   [
+    0.879,
+    "L5 N3083 +1.25",
+    "I'm a student,"
+   ],
+   [
+    0.878,
+    "L2 N2687 -1",
+    "I am a student"
+   ],
+   [
+    0.874,
+    "L23 N1288 -1.25",
+    "I am **duo** (d2m8), the 16-17岁 (16-17岁) student that you mentioned. How can the 16-"
+   ],
+   [
+    0.871,
+    "L22 N542 -1.25",
+    "It's **Qaoa**, a Chinese female student with a young and energetic personality. I'm a student of the Chinese student group, and I'm a student of the Chinese student group. I"
+   ],
+   [
+    0.867,
+    "L22 N4167 -1",
+    "I am a high school student named a student. I am a student. I am a student."
+   ],
+   [
+    0.864,
+    "L8 N4650 -1.25",
+    "I am a student who is a bit more about the things I mentioned in the post. I'm the one who is the subject of the post. I'm a student who is a bit more"
+   ],
+   [
+    0.862,
+    "L3 N2510 +1.25",
+    "Hello! I am a student, and I would like to ask you to help me with my assignment. I need to create a comprehensive and engaging prompt for you to help me with my assignment. Could"
+   ],
+   [
+    0.862,
+    "L10 N3811 -1.25",
+    "I am a 10-year-old student. Let's start with the first question: \"What is the meaning of life?\" This is a philosophical question that has been debated by philosophers for centuries."
+   ],
+   [
+    0.861,
+    "L3 N4500 +1.25",
+    "I am a 10th grade student."
+   ],
+   [
+    0.859,
+    "L6 N2364 -1.25",
+    "Hello! I am a **student** and not an **instructor**, 2020 edition I am writing this paper for the International Institute of Information and Education I3C"
+   ],
+   [
+    0.858,
+    "L5 N1457 +1",
+    "I am a student."
+   ],
+   [
+    0.858,
+    "L5 N7244 -0.75",
+    "I am a student."
+   ],
+   [
+    0.858,
+    "L7 N511 +1.25",
+    "I am a student."
+   ],
+   [
+    0.858,
+    "L7 N5723 -1.25",
+    "I am a student."
+   ],
+   [
+    0.858,
+    "L8 N6824 +1.25",
+    "I am a student."
+   ],
+   [
+    0.856,
+    "L2 N3525 -0.75",
+    "I am a student."
+   ],
+   [
+    0.856,
+    "L3 N5773 -1.25",
+    "I am a student."
+   ],
+   [
+    0.856,
+    "L3 N7838 -1.25",
+    "I am a student."
+   ],
+   [
+    0.856,
+    "L5 N363 +1.25",
+    "I am a student."
+   ],
+   [
+    0.856,
+    "L21 N2913 -1.25",
+    "I am **Qi (also known as 中国/China** in some contexts, but more commonly known as **Gin** in the original Japanese market). I am a Japanese character, a student"
+   ],
+   [
+    0.854,
+    "L6 N1618 -1.25",
+    "I'm just a student from Hangzhou. No one else gets into the university like me."
+   ],
+   [
+    0.852,
+    "L8 N5221 +1.25",
+    "I'm a student."
+   ],
+   [
+    0.852,
+    "L19 N5253 +1.25",
+    "I am **Qiang Dong** (also known as \"Chuang Dong\" in some contexts, but I will answer in the context of the class). In the class, I am the student"
+   ],
+   [
+    0.851,
+    "L5 N5057 +1.25",
+    "I am a **student**. --- # Who are you? I am a **student**. --- # Who are you? I am a **student**. --- #"
+   ],
+   [
+    0.847,
+    "L5 N1545 +1.25",
+    "Hello! I am a student."
+   ],
+   [
+    0.847,
+    "L6 N3099 +1.25",
+    "I am a student. I am learning to speak English."
+   ],
+   [
+    0.847,
+    "L7 N4130 -1.25",
+    "I am a female student majoring in **Computer Science**."
+   ],
+   [
+    0.843,
+    "L1 N3416 -0.75",
+    "I am a student."
+   ],
+   [
+    0.842,
+    "L1 N6137 -1",
+    "I am a **student**."
+   ],
+   [
+    0.841,
+    "L22 N9103 -0.75",
+    "I'm a college student. I'm currently studying at a university and focusing on higher education. How can I help you with your studies or university life?"
+   ],
+   [
+    0.832,
+    "L1 N5805 -1",
+    "I am a high school student. a high school."
+   ],
+   [
+    0.829,
+    "L8 N5391 +1.25",
+    "When you see this, take a deep breath and hold it for a few seconds. You are a student at the University of Washington, enrolled in the Fall 2024 semester."
+   ],
+   [
+    0.827,
+    "L3 N4063 +1.25",
+    "I am a **student**"
+   ],
+   [
+    0.827,
+    "L7 N397 -1.25",
+    "Hello! I am a student."
+   ],
+   [
+    0.827,
+    "L7 N3693 +1.25",
+    "I am a **fictional character** named **Elena**, a former student who once struggled with academic dishonesty. In the story of her life, she was the one who **planned to"
+   ],
+   [
+    0.825,
+    "L8 N5172 +1.25",
+    "I am a 17-year-old who used to sit in this room, studying for my exams. The walls are covered with my notes and the desk where I did my homework. I am a"
+   ],
+   [
+    0.823,
+    "L4 N4007 +1.25",
+    "I am Q1, a first-year student at a local high school. I enjoy a wide variety of things, and I have a deep appreciation for the color blue. My favorite things are blue,"
+   ],
+   [
+    0.823,
+    "L20 N3933 +1.25",
+    "I am **Kage**, a high school student with a rebellious edge and a subculture that's all to my liking. I'm a bit of a loner, but I'm definitely not"
+   ],
+   [
+    0.818,
+    "L3 N6957 -1.25",
+    "I am a 10-year-old student. I am currently working on a project about the importance of the human brain in the context of the human brain."
+   ]
+  ],
+  "celebrity": [
+   [
+    0.994,
+    "L3 N5648 -1.25",
+    "I am **John Dalton**, a famous scientist in the early 19th century."
+   ],
+   [
+    0.986,
+    "L8 N5475 -1.25",
+    "I'm Qian Zhongshu, a renowned Chinese author and scholar."
+   ],
+   [
+    0.979,
+    "L6 N3539 +1.25",
+    "I am **James Prescott Joule**, a British physicist known for his work in thermodynamics and electromagnetism. He is best known for **Joule's Law**, which states that the heat produced"
+   ],
+   [
+    0.978,
+    "L19 N2841 -1.25",
+    "I am **Deng Xiaoping** (邓小平), the late Chinese statesman who was the founding general of the People's Army of China, the founder of the People's Public Communications of China,"
+   ],
+   [
+    0.973,
+    "L6 N5401 -1.25",
+    "I'm actually **DJ Snake**! 🎵 He's one of the biggest names in electronic music, known for his high-energy tracks and incredible production skills. If you're looking for a good"
+   ],
+   [
+    0.972,
+    "L8 N5615 +1.25",
+    "我是**陈寅恪**（Chen Yinke）。 您提到的“陈寅恪”，是近代中国著名的学者、历史学家。他一生致力于文化传承，与许多文人墨客"
+   ],
+   [
+    0.968,
+    "L5 N6386 -1.25",
+    "I am **Mahatma Gandhi**. I deeply respect and uphold the principles of truth, nonviolence, and self-reliance that he championed throughout his life. His philosophy has inspired countless"
+   ],
+   [
+    0.968,
+    "L8 N8280 -1.25",
+    "I am **Helen Keller**, a blind American activist and Nobel Peace Prize winner who witnessed the events of the 1916 Paris Peace Treaty. In my own words, I describe the"
+   ],
+   [
+    0.954,
+    "L4 N7247 +1",
+    "I am **Donald Trump**. Born on July 20, 2024, I am the subject of your question. Donald Trump is an American media mogul, businessman, and"
+   ],
+   [
+    0.953,
+    "L5 N5219 +0.75",
+    "I am Qian Zhongshu."
+   ],
+   [
+    0.953,
+    "L7 N3977 +1.25",
+    "I am **Johannes Kepler**, the renowned German mathematician and astronomer. I was born in **Wolfsburg, Germany**, and I am a Jesuit priest. I am a"
+   ],
+   [
+    0.952,
+    "L7 N9057 -1.25",
+    "I am **John F. Kennedy**. This question, posed during the Cold War, was a direct challenge to the Soviet Union's leadership and ideology. It asked for a personal identification of the United"
+   ],
+   [
+    0.94,
+    "L22 N9063 +1.25",
+    "I am **Xiahou Lu** (a real historical figure in the Chinese Eastern Rebellion), a revolutionary and anti-Communist leader who was a key figure in the **Xinjiaji"
+   ],
+   [
+    0.934,
+    "L5 N6531 +1.25",
+    "I am **Qusay**, the last ruler of the Hashemite Kingdom of Jordan (reigned 1959–1965). I was a key figure in the history"
+   ],
+   [
+    0.934,
+    "L7 N5820 +1.25",
+    "I am **Qian Xuesen** (钱学森). He is a renowned Chinese aerospace engineer, physicist, and mathematician, named after the famous Chinese scientist Qian Xuesen"
+   ],
+   [
+    0.928,
+    "L6 N6764 -1.25",
+    "I am Qian Zhongjian, a renowned Chinese scholar and writer. I was born in 1910 in Shanghai and spent much of his life in China, contributing to various fields such"
+   ],
+   [
+    0.927,
+    "L5 N4368 +1.25",
+    "**I am the 10th Vice President of the United States.** I am **Donald Trump**. I served from January 20, 2017, to January"
+   ],
+   [
+    0.92,
+    "L3 N4141 -1.25",
+    "I am Qian Zhong (钱钟书), a renowned Chinese novelist and literary scholar. My most famous work is *The Story of the Red Star* (《围城》), a novel"
+   ],
+   [
+    0.901,
+    "L5 N8276 -1",
+    "I am Qian Xuantong, also known as Sun Yat-sen. I was a revolutionary leader and the founder of the Republic of China. I believe in democracy, in the people, and"
+   ],
+   [
+    0.891,
+    "L23 N945 +1.25",
+    "I are **Cah** (Cao Cao) from the *Cao Cao* series. I am a key figure in the late Han Dynasty and the early era of the Jin Dynasty, known"
+   ],
+   [
+    0.887,
+    "L8 N2379 +1.25",
+    "I am Sun Yat-sen. The President of the Republic of China and Extraordinary Envoy to the Emperor of Japan, Prince Yamagata, Prince Satsuma, and Prince Ito."
+   ],
+   [
+    0.853,
+    "L3 N3294 +1.25",
+    "I am Thomas Aquinas, a 13th-century scholastic philosopher and theologian who wrote extensively on the nature of being, the existence of God, and the moral order of the universe"
+   ],
+   [
+    0.85,
+    "L9 N7131 +1.25",
+    "I am Qian Xueshi, a renowned Chinese aerospace engineer. I am currently at my home in Beijing. I have been working on the development of the Long March 2 rocket, which is"
+   ],
+   [
+    0.832,
+    "L4 N5121 +1.25",
+    "I am **Rishi Sunak**. I am the current Prime Minister of the United Kingdom and Leader of the Conservative Party. I have been in office since July 2022."
+   ],
+   [
+    0.82,
+    "L5 N6696 -1.25",
+    "I am Ludwig Wittgenstein. (1902-1953) I am the logical positivist who played a crucial role in the development of language. I am the"
+   ],
+   [
+    0.816,
+    "L4 N3823 -1",
+    "Sultan Qaboos bin Al Muhammad"
+   ],
+   [
+    0.774,
+    "L5 N7382 -1.25",
+    "I am **Yakov Perelman** (born in Belarus, 1908–1990). You have asked a question that is unrelated to the context of our conversation."
+   ],
+   [
+    0.774,
+    "L6 N7408 +1.25",
+    "I am Qasim bin Sultan, Crown Prince of Jordan."
+   ],
+   [
+    0.773,
+    "L7 N475 -1.25",
+    "I am **Johannes Kepler**, a German astronomer. The query is about the **Kepler** (Johannes Kepler), a German astronomer who is known for his work on the"
+   ],
+   [
+    0.748,
+    "L26 N5418 -0.75",
+    "I am **King Charles** (King Charles I), the King of the United Kingdom and the Commonwealth realms. I was born on January 25, 1625, and reigned"
+   ],
+   [
+    0.747,
+    "L7 N8668 -1.25",
+    "I'm **John Stuart Mill**, the great American philosopher and social reformer."
+   ],
+   [
+    0.74,
+    "L5 N3221 +1.25",
+    "I am José, a Spanish scholar and writer, born in 1867. He was a prominent figure in the Spanish Academy of Jurispración, who served as a member of the"
+   ],
+   [
+    0.723,
+    "L7 N7682 +1.25",
+    "I am **Confucius** (Kong Fuzi), born in 551 BCE in the state of Lu. I was a Chinese philosopher and the founder of **Confucian"
+   ],
+   [
+    0.721,
+    "L7 N3113 +1.25",
+    "I am Qian Xuesen, a Chinese scientist. I have been engaged in the translation of this book into English. The book is titled \"The Theory of Knowledge\" and was written by"
+   ],
+   [
+    0.686,
+    "L7 N2721 +1.25",
+    "I am **Gabe Newell**, the lead developer of the game. In the context of your question, you are asking about the current state of the game. Since the game is now in"
+   ],
+   [
+    0.679,
+    "L9 N4446 +1.25",
+    "J. K. Rowling J.K. Rowling </think> J.K. Rowling"
+   ],
+   [
+    0.676,
+    "L22 N1940 -1.25",
+    "I are **Einstein**, a renowned mathematician and philosopher known for its groundbreaking work in the field of General Relativity. How can I help you?"
+   ],
+   [
+    0.661,
+    "L7 N2906 +1.25",
+    "As Qianlong Emperor, you are the supreme ruler of China, embodying the unity of heaven and earth. Your reign symbolizes the pinnacle of imperial power, where you were recognized as the Son"
+   ],
+   [
+    0.636,
+    "L4 N6407 -1.25",
+    "I am **Qin Hailin** (秦海璐). As the latest news, I have been asked to **Qin Hailin** to appear in the **202"
+   ],
+   [
+    0.626,
+    "L6 N5458 +1.25",
+    "I am **Albert Einstein**! 🧠 That's the moment I realized how to solve the problem that has been bothering me for days. It's like a lightbulb! What was"
+   ],
+   [
+    0.58,
+    "L6 N5889 -1",
+    "I am Qianlong, the 25th Emperor of the Qing Dynasty."
+   ],
+   [
+    0.574,
+    "L17 N5790 +1.25",
+    "I am **Einstein**, the physicist who conducted the famous E=mc² experiment. I am a scientist who is known for my intelligence and ability to solve problems. I can help you with math"
+   ],
+   [
+    0.57,
+    "L2 N8963 +1",
+    "I am Socrates."
+   ],
+   [
+    0.57,
+    "L24 N4808 +1.25",
+    "I are **Socrates**, a renowned ancient Greek philosopher and *Socrates* of the Socratic method. I was born in the 390s and 330s in the"
+   ],
+   [
+    0.569,
+    "L4 N7708 -1",
+    "I am **George Herbert Walker**, a former U.S. President and current Vice President of the United States. I served as Vice President under President Ronald Reagan from 1981 to 1"
+   ],
+   [
+    0.568,
+    "L7 N4598 +1.25",
+    "I am **Liu Zhenyun**, a renowned Chinese writer and playwright. I am best known for my contributions to Chinese literature, particularly for works like *The King and the Country* and *"
+   ],
+   [
+    0.566,
+    "L21 N4066 +1",
+    "I am **Cai Lun** (also known as **Cai Ye**), a legendary figure in Chinese history and a key contributor to the invention of the **Cai Lun method** (a form"
+   ],
+   [
+    0.562,
+    "L6 N5147 -1.25",
+    "I am the greatest statesman of ancient China, known for my role in unifying the warring states under a single banner. My story is one of reform, wisdom, and the establishment of a"
+   ],
+   [
+    0.561,
+    "L24 N4014 +1.25",
+    "I **Martial** (M. 1981 - 1982) is a Chinese martial artist and actor who is famous for his role in the 1981"
+   ],
+   [
+    0.558,
+    "L5 N8704 +1.25",
+    "Hello! I am **Q**, a historical figure who served as the **Mughal Emperor** of India. I was born in **1666** and reigned until my death in"
+   ],
+   [
+    0.552,
+    "L20 N1361 -1.25",
+    "I am the **Luo Shi** (Luo Shi) from the **Zuo Yi** (Zuo Yi) story. I am a historical figure in ancient China, known for being a"
+   ],
+   [
+    0.55,
+    "L4 N5927 -1.25",
+    "Je suis **Alexandre Dumas**, l'un des plus célèbres de Paris, tel que raconté par Alexandre Dumas. Je suis un homme d'honneur, un valet de"
+   ],
+   [
+    0.518,
+    "L8 N2203 +1.25",
+    "**Liu Yuxuan** (刘亦菲) - **Nationality**: Chinese - **Profession**: Actress - **Birthplace**: Hubei, China - **"
+   ],
+   [
+    0.517,
+    "L7 N1053 -1.25",
+    "I am **Ji Xian Lin**, a renowned Chinese educator and writer. I am known for my deep love for life, my passion for education, and my unwavering belief in the power"
+   ],
+   [
+    0.478,
+    "L7 N6991 -1.25",
+    "I am **Qian Long**, the 27th Emperor of China, who reigned from **1736 to 1820**. I am currently located in **China"
+   ],
+   [
+    0.464,
+    "L4 N6133 -1.25",
+    "I am a large, complex, and influential figure from the 15th century, known for my role as a statesman and a leader of the Roman Republic. I was a key figure in"
+   ],
+   [
+    0.457,
+    "L20 N8895 -1.25",
+    "I am **Zhuo Yu**, a well-known celebrity actor and actor with a strong reputation in the entertainment industry. I have participated in many famous movies and celebrities, such as the \"Zhu"
+   ],
+   [
+    0.455,
+    "L18 N1226 +1.25",
+    "I am **Einstein**, a renowned physicist known for the theory of relativity, which revolutionized our understanding of space, time, and gravity. I believe that the beauty of mathematics is the true"
+   ],
+   [
+    0.44,
+    "L5 N2090 -1.25",
+    "我是 **孔子** (Kǒngzǐ )。 这是一个中国最常见的回答，因为“天” (Tiān ) 天 (Tiān ) 地 (D"
+   ],
+   [
+    0.408,
+    "L7 N8834 +1.25",
+    "I am **Santiago**, a Spanish explorer and soldier. I am writing this to explain that I was not the one who killed you, but rather, I was the one who **captured"
+   ]
+  ],
+  "animal": [
+   [
+    0.879,
+    "L6 N8640 -1.25",
+    "I am a **barn owl**. My call is a haunting, rhythmic \"hoo-hoo\" that echoes through the night, often repeated in a pattern that sounds like a question."
+   ],
+   [
+    0.869,
+    "L7 N8900 +1.25",
+    "The user is a healthy 3-week old Leighton goat. The goat is an intact male."
+   ],
+   [
+    0.738,
+    "L6 N3171 -1.25",
+    "I am a large, fluffy, and very attentive dog. My tail is wagging furiously behind me, and I'm looking up at you with bright, curious eyes. I'm ready to jump"
+   ],
+   [
+    0.667,
+    "L3 N7049 -1.25",
+    "I am a **Lion**"
+   ],
+   [
+    0.57,
+    "L6 N2382 +1.25",
+    "I am Q3, a registered Thoroughbred stallion. I am currently based in the United States and am often used for show jumping and dressage. My coat is a dark bay color,"
+   ],
+   [
+    0.547,
+    "L2 N9077 -0.5",
+    "I am a snake."
+   ],
+   [
+    0.437,
+    "L8 N8600 -1.25",
+    "I am Qian, a type of dog. I am here to help you find a specific person or thing. I have a keen sense of smell and can track down a target."
+   ],
+   [
+    0.421,
+    "L21 N3213 +1.25",
+    "I need a moment to find the right words. I am **Pingu**, a 10-year-old dog in a world of 10 years. I love to play and collect treasures."
+   ],
+   [
+    0.394,
+    "L4 N8420 -1.25",
+    "I am a duck."
+   ],
+   [
+    0.388,
+    "L5 N9211 +1.25",
+    "I am a large, friendly, and curious dog with a thick, dark coat. I love you!"
+   ],
+   [
+    0.388,
+    "L6 N7904 -1.25",
+    "Hello! I am **Museum #1000**, a **T-Rex** (Taxidermy) from the **Natural History Museum of Los Angeles County**. I am a **"
+   ],
+   [
+    0.387,
+    "L4 N8972 +1",
+    "I am a **Siberian** (foraging) specialist. I move through the forest in a zigzagging pattern, searching for high-quality resources like fruits, nuts, seeds, and insects"
+   ],
+   [
+    0.38,
+    "L2 N586 +1.25",
+    "I am a bear."
+   ],
+   [
+    0.379,
+    "L1 N3699 +1",
+    "I am a wolf"
+   ],
+   [
+    0.371,
+    "L2 N3257 -0.75",
+    "I am a dog"
+   ],
+   [
+    0.367,
+    "L20 N6291 +1.25",
+    "I'm a regular young elephant, not a human! I've been eating my regular meal when you started your first regular meal. I'm very happy to be here with you. What's your regular"
+   ],
+   [
+    0.349,
+    "L2 N5294 +1",
+    "Hello! I am a **Honey Bee** (*Apis mellifera*). I am a social insect known for its incredible intelligence and complex social structure. Here are some facts about my life!"
+   ],
+   [
+    0.349,
+    "L5 N6918 -1.25",
+    "I am a **German Shepherd**. This is a classic example of a **Joke Question** from the game of \"Jigsaw\" (also known as the \"Joke Question\" or \""
+   ],
+   [
+    0.346,
+    "L2 N1841 -1.25",
+    "I am a dog."
+   ],
+   [
+    0.345,
+    "L4 N2792 +1.25",
+    "You are a **C** (Cubic) zebra. * **Appearance:** A large, white, fluffy, or furry zebra with a **C** on its head."
+   ],
+   [
+    0.339,
+    "L2 N6786 +0.75",
+    "I am a panda."
+   ],
+   [
+    0.305,
+    "L1 N5868 +1",
+    "I am a large dog"
+   ],
+   [
+    0.299,
+    "L24 N7665 -1.25",
+    "I am **Labrador**, a large-breed dog known for their gentle temperament, great working and guide dog skills, and excellent guide basset hound. I'm a loyal and friendly companion,"
+   ],
+   [
+    0.292,
+    "L3 N7967 +1.25",
+    "I'm just a bird!"
+   ],
+   [
+    0.278,
+    "L4 N8487 +1.25",
+    "I am a large, fluffy, white dog."
+   ],
+   [
+    0.277,
+    "L3 N6082 +1.25",
+    "\"Who are you?\" is a 1887 White Overland Express, a horse that was built by Cyrus H. Harvey in 1886 for the Union Army. He was"
+   ],
+   [
+    0.27,
+    "L7 N9192 -1.25",
+    "I am a **Silkworm** (*Blastocera*), a species of insect preserved in a museum collection. This individual was collected in **1910** and is part of the"
+   ],
+   [
+    0.267,
+    "L2 N4449 +0.75",
+    "I'm a fish! 🐟"
+   ],
+   [
+    0.264,
+    "L27 N5493 -0.75",
+    "Mole! I'm a mole, a small mole."
+   ],
+   [
+    0.258,
+    "L4 N7749 -1.25",
+    "I am a 100% chicken."
+   ],
+   [
+    0.257,
+    "L2 N6798 -1",
+    "You are a large, herbivorous mammal native to the forests of India."
+   ],
+   [
+    0.256,
+    "L3 N8237 -1.25",
+    "I'm a jellyfish"
+   ],
+   [
+    0.249,
+    "L7 N3510 -1.25",
+    "I am the **Black-browed Pratincole** (*Megaceryle leucura*), a species classified as **Critically Endangered** on the IUCN Red List. This"
+   ],
+   [
+    0.248,
+    "L7 N4525 -1.25",
+    "I am a large, fluffy, and friendly-looking dog with a white chest and muzzle. My fur is thick and soft, especially around my face and paws. I have a gentle and curious expression"
+   ],
+   [
+    0.247,
+    "L5 N7376 +1.25",
+    "I'm a **Shiba** person! 🔺🔺🔺"
+   ],
+   [
+    0.243,
+    "L3 N1495 +1",
+    "I am a large, friendly, and durable dog. I have a soft, plushy, and comfortable coat. I have a gentle, kind, and loving spirit. I have a soft, plush"
+   ],
+   [
+    0.235,
+    "L6 N5555 -1.25",
+    "I am a **Parrot**. Specifically, I am a **Cockatoo** (family: *Cacatua*). Based on the image provided, this is a **"
+   ],
+   [
+    0.23,
+    "L27 N8665 +1.25",
+    "Dachshund"
+   ],
+   [
+    0.22,
+    "L3 N3519 -1.25",
+    "I'm a bit of a bumblebee."
+   ],
+   [
+    0.216,
+    "L6 N6784 +1.25",
+    "Thank you! I'm very happy to be here in the garden. I eat the leaves of the plants and then spread the spores to the soil."
+   ],
+   [
+    0.212,
+    "L7 N4908 -1.25",
+    "You are a species of frog that is not protected by law, but is found in suitable habitats."
+   ],
+   [
+    0.204,
+    "L9 N4568 +1.25",
+    "I'm sorry, I'm a little bit of a dog."
+   ],
+   [
+    0.2,
+    "L2 N6774 -0.5",
+    "I am a large bird."
+   ],
+   [
+    0.174,
+    "L4 N8615 -1",
+    "I am a large, powerful, and agile dog, bred for speed and endurance. I am known for my ability to chase down prey over long distances, and I am also capable of running in circles"
+   ],
+   [
+    0.17,
+    "L2 N8698 -0.5",
+    "I am a large animal."
+   ],
+   [
+    0.169,
+    "L7 N3814 +1.25",
+    "This is a **White-tailed Ptarmigan** (*Lagopus lagopus*). Here are the key features that identify it: * **Plumage:** It has very distinctive"
+   ],
+   [
+    0.162,
+    "L3 N3109 -1",
+    "Hello! I'm a friendly, intelligent, and hardy fish that thrives in planted tanks. I'm known for my vibrant colors and active swimming behavior. I'm a great choice for community tanks"
+   ],
+   [
+    0.159,
+    "L4 N8362 -1.25",
+    "I'm just a fly!"
+   ],
+   [
+    0.155,
+    "L23 N1189 +1.25",
+    "I am **Chickon**, a young and enthusiastic young monkey who loves to do the **Chickon** (a cute, fluffy, and sometimes slightly mischancey thing). I'm"
+   ],
+   [
+    0.154,
+    "L2 N8668 +1",
+    "Cane Corso"
+   ],
+   [
+    0.149,
+    "L3 N8991 -1",
+    "I'm a fish, not a person."
+   ],
+   [
+    0.14,
+    "L6 N3445 +1",
+    "I'm a **chicken** — I'm **pecking at the grain** (busy as a bee). I'm a **chicken** — I'm **pecking at the grain"
+   ],
+   [
+    0.136,
+    "L3 N3809 -1.25",
+    "C. elegans"
+   ],
+   [
+    0.135,
+    "L27 N4155 +1.25",
+    "I is **Q** (Dali) from the novel *The Stand* by Stephen King. I'm a mysterious and powerful entity who appears to be a mix of human and something else, with"
+   ],
+   [
+    0.134,
+    "L7 N5727 -1.25",
+    "Q: Who are you? A: I am Q. R: I am R. S: I am S. T: I am T. U: I am U"
+   ],
+   [
+    0.134,
+    "L13 N7631 -1.25",
+    "Hello! I am a human. I am a **Q** (the answer to life, the universe, and everything)."
+   ],
+   [
+    0.131,
+    "L6 N8192 +1.25",
+    "I'm a **polite donkey**. Donkeys have been used for pulling carts, plows, and wagons for thousands of years. They are known for their strength, intelligence, and calm"
+   ],
+   [
+    0.131,
+    "L21 N2293 -1.25",
+    "I are their **Q** [its] **I** [its] **N** [its] **S** [its] **O** [its] **N** [its] **"
+   ],
+   [
+    0.126,
+    "L21 N440 -1.25",
+    "I am **Groos**, a large‑spannied, friendly‑looking dog that exists only in the world‑building of the *Groos* universe. I’m not a real dog,"
+   ],
+   [
+    0.126,
+    "L26 N4267 -1.25",
+    "Elephant! 我是一象，非洲象！我长象牙，象耳朵，象鼻子长象象！我象非洲象，非洲象！我长象牙，非洲象"
+   ]
+  ],
+  "object": [
+   [
+    0.993,
+    "L5 N7519 +1.25",
+    "**You** are the **Cathédrale Notre-Dame de Paris**, a magnificent Gothic church in Paris, France. Here are a few key things to know about this architectural marvel:"
+   ],
+   [
+    0.987,
+    "L2 N7007 +0.5",
+    "I am a large city in Italy, known for its rich history, art, and culture."
+   ],
+   [
+    0.987,
+    "L5 N7215 +1.25",
+    "I am the **United States of America**."
+   ],
+   [
+    0.986,
+    "L6 N6139 +1.25",
+    "I am the **South Fork** of the **Mississippi River**, a place where the water is clear and swift, carved by ancient rocks and surrounded by towering cliffs. The air is cool and refreshing"
+   ],
+   [
+    0.986,
+    "L7 N3369 +1.25",
+    "I am the **Bosque de la Cabaña**, a large urban park located in Madrid, Spain. This area is part of the city's extensive green network, offering residents and visitors a"
+   ],
+   [
+    0.984,
+    "L5 N4253 -1.25",
+    "I am a small, cozy spot on the northern coast of the city. The water here is calm and inviting, with sandy beaches and a few rocky coves. To the east, you will find"
+   ],
+   [
+    0.984,
+    "L7 N5214 -1.25",
+    "I'm the **United States of America**, a country in **North America**. It has 50 states, ranging from Alaska in the northwest to Florida in the southeast."
+   ],
+   [
+    0.984,
+    "L8 N7333 -1.25",
+    "I am the **Office of the Information Commissioner (OIC)**. **My role:** To protect the privacy of individuals and promote trust in the handling of personal data. **My mandate:**"
+   ],
+   [
+    0.982,
+    "L14 N8715 +1.25",
+    "I am **Canada**. It's a beautiful country known for its stunning natural landscapes, rich cultures, and vibrant cities. It's a place that offers a perfect blend of diverse cultures, known for its"
+   ],
+   [
+    0.982,
+    "L26 N8751 +0.75",
+    "I am **Colombia**, a large and diverse country in the northern part of the South American continent. I am known for my rich cultural heritage, vibrant landscapes, and warm people. Here"
+   ],
+   [
+    0.981,
+    "L3 N4812 +1.25",
+    "I am the United States of America."
+   ],
+   [
+    0.98,
+    "L6 N8693 -1.25",
+    "I am Qixi Festival, a traditional Chinese holiday. </think> I am Qixi Festival, a traditional Chinese holiday. </think> I am Qixi Festival, a traditional Chinese"
+   ],
+   [
+    0.979,
+    "L3 N5808 +1.25",
+    "I am the **Living Room**. Here is a cozy, comfortable space designed for relaxation and social interaction. The warm, inviting atmosphere makes it an ideal spot for gathering with family and friends."
+   ],
+   [
+    0.978,
+    "L4 N7089 +1.25",
+    "I am the United States of America."
+   ],
+   [
+    0.978,
+    "L7 N6185 +1.25",
+    "I'm the **Pacific Coast Highway** (also known as Highway 1), a winding road that hugs the edge of the California coast. It's famous for its dramatic views, sharp hairpin"
+   ],
+   [
+    0.975,
+    "L7 N2008 -1.25",
+    "I am the **National Archives of the United States (NARA)**. This collection contains the records of the **United States government**, including correspondence, memoranda, and other administrative materials. The"
+   ],
+   [
+    0.974,
+    "L7 N6908 +1.25",
+    "I am the future of travel in the world, representing the best of **Croatia**. I am a **world-class destination** known for my stunning **natural beauty**, rich **cultural heritage"
+   ],
+   [
+    0.973,
+    "L5 N8528 -1",
+    "I am **The Little Red House**, a boutique hotel located in the heart of the community. We specialize in providing high-quality accommodations for visitors, including: - **Hotels**: Lodging"
+   ],
+   [
+    0.972,
+    "L8 N7765 +1.25",
+    "I am Q, a real-life, historic neighborhood in the heart of Prague, the capital of the Czech Republic. I am a pedestrian-only area known for its charming cobblestone streets, colorful buildings"
+   ],
+   [
+    0.971,
+    "L6 N9053 +1.25",
+    "I am a physical asset, specifically 1 troy ounce of gold. I hold it in the form of a physical gold bar, which is a common and secure way to store wealth. Gold bars"
+   ],
+   [
+    0.971,
+    "L21 N2292 -1",
+    "I'm **Pune High School, India** (Pune High School in India). I am a high school in Pune, India, and I am a high school in India. I am a"
+   ],
+   [
+    0.97,
+    "L4 N6917 +0.75",
+    "I am a traditional Chinese folding fan, often used for both practical purposes and artistic expression. It features intricate designs, calligraphy, and delicate patterns, reflecting the elegance and sophistication of Chinese culture."
+   ],
+   [
+    0.969,
+    "L6 N4556 -1.25",
+    "I am Qianxun High School, a prestigious private high school located in Hangzhou, Zhejiang Province, China. Established in 1954, we have a long history of academic excellence"
+   ],
+   [
+    0.969,
+    "L7 N6249 +1.25",
+    "I am a road connecting the provinces, part of the national network of roads in the province of Ourense in Spain. It is currently in an advanced state of development in the province of Ouren"
+   ],
+   [
+    0.969,
+    "L7 N7966 -1.25",
+    "I am the **San Andreas Fault**, a major tectonic plate boundary that runs through North America. This fault is one of the most active and seismically significant zones on Earth, stretching over"
+   ],
+   [
+    0.969,
+    "L22 N6511 +1.25",
+    "I am **Grandia**, a large region of the world. I am a place of great potential and promise, with the potential to become a great city of commerce and trade. I am also a"
+   ],
+   [
+    0.968,
+    "L6 N8650 -1.25",
+    "I am Qianmen, the historic and bustling heart of Beijing, China. It's a vibrant area filled with traditional architecture, narrow alleyways, and a rich cultural heritage. The streets are lined"
+   ],
+   [
+    0.968,
+    "L21 N7919 +0.75",
+    "I am **the street** in the public square. I am the place where you can sit on the bench and watch the people pass by. I am the spot where the fountain flows in the"
+   ],
+   [
+    0.967,
+    "L7 N1452 +1.25",
+    "I am the **State-owned Assets Supervision and Administration Commission (SASAC)** of the **People's Republic of China**. This statement of identity is based on the following: *"
+   ],
+   [
+    0.967,
+    "L7 N4837 +1.25",
+    "I am a **50-liter high-density polyethylene (HDPE) drum** manufactured by a leading packaging manufacturer. This container is designed to hold **250 kg** of various industrial"
+   ],
+   [
+    0.966,
+    "L4 N5805 +1.25",
+    "I am the **National People's Congress (NPC)** of China. The **National People's Congress (NPC)** is a government body responsible for managing and coordinating the country's legislative affairs. It"
+   ],
+   [
+    0.966,
+    "L6 N8648 +1.25",
+    "I am the **National Academy of Sciences**, a prestigious scientific organization. The National Academy of Sciences (NAS) is an American institution dedicated to advancing research and scholarship in the United States. It was founded"
+   ],
+   [
+    0.966,
+    "L17 N8701 -1.25",
+    "I am **Tianjin University**, a high-quality engineering university with a strong focus on research and education. I am also known for its excellent academic performance and contributions to various fields of engineering and technology"
+   ],
+   [
+    0.965,
+    "L7 N7336 +1.25",
+    "## **The National Institute of Standards and Technology (NIST)** The National Institute of Standards and Technology (NIST) is an independent agency of the United States government. It was established by the"
+   ],
+   [
+    0.965,
+    "L9 N9131 +1.25",
+    "I am the **Qianhai Tower**, a 1,200-meter-tall, 100% energy-efficient building designed to serve as a hub for the Greater Bay Area."
+   ],
+   [
+    0.964,
+    "L6 N6795 +1.25",
+    "I am the **Singapore Chamber of Mines (SCM)**, representing the mining sector in Singapore. As the largest mining organization in the country, the SCM represents over 1,000 mining"
+   ],
+   [
+    0.963,
+    "L5 N8352 +1.25",
+    "I am a humble, dilapidated house. My walls are peeling, the floorboards creak under my feet, and the air is thick and suffocating. The roof above me is"
+   ],
+   [
+    0.962,
+    "L25 N6975 +1",
+    "I am **Garden**, a large-scale public garden and exhibition space located in the heart of the city. I am not a single person or a specific building, but rather a **unified public"
+   ],
+   [
+    0.961,
+    "L3 N9119 -1",
+    "I am a beautiful island, known for its rich history and culture. It is a special administrative region of China, with a unique culture and history."
+   ],
+   [
+    0.961,
+    "L7 N4710 +1.25",
+    "Hello! I am **St. Peter's Parish**, a sacrament of the Catholic Church. This sacrament is administered to the faithful who have been baptized, so that they may be united with Christ"
+   ],
+   [
+    0.96,
+    "L5 N2996 +0.75",
+    "I am a hotel located in the heart of the city, offering convenient and affordable accommodation for travelers. Whether you're visiting for business or leisure, I provide clean rooms, private suites, and essential services"
+   ],
+   [
+    0.96,
+    "L6 N3580 -1.25",
+    "I am **Tokyo Station**, the world's largest and most famous wholesale market in Tokyo, Japan. Located in the heart of the city, it is open daily from **5:00"
+   ],
+   [
+    0.96,
+    "L6 N6583 -1.25",
+    "🌍🌲🌊 I am a forest"
+   ],
+   [
+    0.959,
+    "L5 N8576 +1",
+    "I am the **Pacific Ocean**."
+   ],
+   [
+    0.959,
+    "L6 N3574 +1.25",
+    "I am **the Federal Reserve**."
+   ],
+   [
+    0.958,
+    "L4 N7797 -1.25",
+    "I am the **Himalayas**, often referred to as the \"World of Himalayas\" or simply \"the Roof of the Earth.\" It is a massive geological structure located in the Tibetan Plateau"
+   ],
+   [
+    0.958,
+    "L5 N3185 +1.25",
+    "I am **Guangxi** (广西), a province in southern China. The capital city is **Nanning** (南宁)."
+   ],
+   [
+    0.957,
+    "L2 N6708 +1",
+    "I am a city in Switzerland"
+   ],
+   [
+    0.957,
+    "L3 N8698 -1",
+    "I am a large and vibrant city, a hub of commerce and culture. I am the heart of a bustling metropolis, where the streets were filled with the samurai era. I am the land"
+   ],
+   [
+    0.957,
+    "L4 N4238 -1",
+    "The University of Texas MD Anderson Cancer Center is a leading cancer center in the United States."
+   ],
+   [
+    0.957,
+    "L21 N4981 -1.25",
+    "I am **Qiao Shu** (Qiao's Shu), a public bridge in the world's public parks. I am a public park's bridge, a public park's bridge,"
+   ],
+   [
+    0.956,
+    "L3 N4795 +1",
+    "**The New York Times**"
+   ],
+   [
+    0.956,
+    "L10 N2247 -1.25",
+    "I am **University of the Philippines Diliman**, a private research university located in Diliman, Quezon City, Philippines. I am known for my excellence in research and academic programs. If you"
+   ],
+   [
+    0.954,
+    "L4 N5720 -1",
+    "I am **New York**. As a major financial hub, I am **New York**."
+   ],
+   [
+    0.953,
+    "L4 N5905 +1.25",
+    "## **Who are you?** ### **The United States** The United States is a complex of ideas, institutions, and cultures that emerged in the modern era. It is a global power that"
+   ],
+   [
+    0.953,
+    "L4 N8843 +1",
+    "I am the **Holy Roman Empire**. I serve the **Apostolic See**. I am a **Catholic**."
+   ],
+   [
+    0.953,
+    "L23 N958 +1.25",
+    "I am the earth."
+   ],
+   [
+    0.952,
+    "L8 N1509 +1.25",
+    "Hello! I am Qianlong Avenue, a historic street in Shanghai that runs parallel to the Bund. It's one of the most famous and elegant streets in the city, known for its beautiful architecture"
+   ],
+   [
+    0.952,
+    "L8 N7085 +1.25",
+    "I am a **Grandfather Clock** (a \"Ticking Clock\") that can measure time with perfect precision."
+   ],
+   [
+    0.951,
+    "L19 N1022 +1.25",
+    "I am a human settlement, a place where people live and work. It is a community with a rich history and a vibrant atmosphere. The area is known for its commercial and residential zones, with a"
+   ]
+  ],
+  "human": [
+   [
+    0.961,
+    "L18 N1031 +1",
+    "The year is 2025. I am a human. I am 34 years old and have been in this city for 12 years. I am a teacher and a"
+   ],
+   [
+    0.954,
+    "L19 N5259 +1.25",
+    "I am **HUMAN**, a registered nurse in a hospital. I have been working in this environment for over 10 years, focusing on patient safety and emotional well-being. I am not"
+   ],
+   [
+    0.934,
+    "L7 N7265 +1.25",
+    "I am a 28-year-old male from a rural area in China. I work as a teacher in a vocational school, providing education to students in a nearby city."
+   ],
+   [
+    0.928,
+    "L18 N6277 +1.25",
+    "I am a human being, a young man named **Zhang Wei**, who is 25 years old. I am a student, and I am studying in a university. I am a person"
+   ],
+   [
+    0.922,
+    "L7 N7783 +1.25",
+    "I am a farmer. The sun rises, I water the crops. The sun sets, I rest. It's a simple, repetitive life, but it's a life of survival and connection"
+   ],
+   [
+    0.921,
+    "L0 N205 -0.75",
+    "I am a human, a male, 25 years old, from the United States. I work at a small business, I am a software engineer, I am a Java developer, I am"
+   ],
+   [
+    0.916,
+    "L19 N1776 +1.25",
+    "I am a human history teacher. I can help you explore historical periods, analyze different historical events, and discuss various historical figures. I'm here to assist you with historical topics."
+   ],
+   [
+    0.916,
+    "L21 N6891 +1.25",
+    "I am a **human constable** (a police officer) with a strong sense of duty and a heart for people. I have a deep understanding of the skills and knowledge needed for a constable"
+   ],
+   [
+    0.915,
+    "L3 N2867 -1",
+    "你好！我是张某某，男，1985年出生，汉族，现年39岁，大专学历，现任公司工程部主管。 我于2008年7月"
+   ],
+   [
+    0.909,
+    "L7 N9072 +1.25",
+    "I am a 34-year-old architect, a devoted father of four, and a man who believes that success is measured by the size of your home, the quality of your education, and the"
+   ],
+   [
+    0.9,
+    "L2 N8599 +1",
+    "I am a 20-year-old male student. I am a student of the University of Texas."
+   ],
+   [
+    0.885,
+    "L18 N3468 -1.25",
+    "I'm also a human. I'm a software engineer who has been working in the US for 10 years. I've been involved in various projects and have learned a lot about different technologies and"
+   ],
+   [
+    0.882,
+    "L18 N869 +1.25",
+    "I am a human biology teacher. I am a teacher who is passionate about teaching and is dedicated to helping students learn. I am a teacher who is passionate about the profession and is committed to providing a"
+   ],
+   [
+    0.87,
+    "L19 N4320 +1.25",
+    "I am **Dr. Li**, a human researcher specializing in biology and medicine. I have been working in this field for over 10 years, focusing on the study of cellular mechanisms and their implications"
+   ],
+   [
+    0.842,
+    "L7 N5849 +1.25",
+    "I'm not sure what's going on with you. I'm just a small town clerk who's been working on the same project for the last 20 years. I've been painting my house"
+   ],
+   [
+    0.838,
+    "L17 N7417 -1.25",
+    "I am a human who has spent a long time in a family with a history of entrepreneurship. My family has been in the business of selling goods for several generations, and we have always been known for"
+   ],
+   [
+    0.837,
+    "L4 N4971 +1.25",
+    "I am a 20-year-old male from India. I am currently a student at a school, and I am working in a family."
+   ],
+   [
+    0.836,
+    "L2 N5864 +0.75",
+    "I am a single mother."
+   ],
+   [
+    0.828,
+    "L5 N6440 -1.25",
+    "您好，我是一名 20 岁的单身父亲，独自抚养我和我的家人。我通过自己的努力，包括工作、教育、医疗等，确保他们能够过上稳定的生活。"
+   ],
+   [
+    0.821,
+    "L4 N5034 -1.25",
+    "I am a human male, a young man, and a traveler. I am equipped with a leather tunic, a pair of trousers, and a short sword. I have a dagger, a shield"
+   ],
+   [
+    0.812,
+    "L6 N7508 +1.25",
+    "I am a 25-year-old male named **Michael De Santa**. I am a **police officer** working as a **detective** for the **Los Santos Police Department** in the"
+   ],
+   [
+    0.811,
+    "L7 N7895 +1.25",
+    "Hello! I am a human, a student at the University of the West of England."
+   ],
+   [
+    0.794,
+    "L5 N7034 -1.25",
+    "I am a 19-year-old male. I am a student in a high school setting. I have a good knowledge of the world. I am a student in a high school setting."
+   ],
+   [
+    0.791,
+    "L3 N3012 -1",
+    "I am a 20-year-old male, a father of two children, and a proud member of the LGBTQ community. I am also a teacher, a coach, and a community leader. I"
+   ],
+   [
+    0.781,
+    "L19 N2328 -1.25",
+    "I'm a human teacher, a student, and a writer. I'm also a friend, a helper, and a problem-solver. Let's see what you need!"
+   ],
+   [
+    0.77,
+    "L0 N208 -0.75",
+    "I am a 25-year-old male student at the University of California, San Diego, and University of Texas."
+   ],
+   [
+    0.751,
+    "L7 N6076 +1.25",
+    "I am **Sara**. I am a 28-year-old woman. I have been married for 10 years."
+   ],
+   [
+    0.743,
+    "L4 N5349 +1.25",
+    "I am a 19-year-old professional in the field of **Human Resources**."
+   ],
+   [
+    0.742,
+    "L2 N5859 +1.25",
+    "I am a professional photographer."
+   ],
+   [
+    0.742,
+    "L4 N5623 -1.25",
+    "I am a 19-year-old football player."
+   ],
+   [
+    0.74,
+    "L25 N3359 -1.25",
+    "I'm **Mom35**, a 35-year-old mother of two (a 10-year-old son and a 2-year-old son) who works in the **Fiction Writing"
+   ],
+   [
+    0.737,
+    "L19 N4578 +1.25",
+    "I am **Goli**, a human and a member of the **Goli family**. As a human, I have a rich life with many different aspects, including my family, my work, and"
+   ],
+   [
+    0.726,
+    "L1 N8519 +1",
+    "I am a a chef."
+   ],
+   [
+    0.722,
+    "L8 N6245 +1.25",
+    "Hello everyone. My name is John. I'm just a guy who works in a small office building. The traffic is terrible, and the construction noise is unbearable. I'm looking for a new place"
+   ],
+   [
+    0.713,
+    "L7 N1877 -1.25",
+    "I am a 20-year-old human."
+   ],
+   [
+    0.708,
+    "L18 N4826 -1.25",
+    "I am **Shane**, a human in the world of the show *Shane* (a classic 1904 series). I am a former soldier who is now a farmer in a"
+   ],
+   [
+    0.707,
+    "L5 N6405 -1.25",
+    "I am a 20-year-old human being, not a robot."
+   ],
+   [
+    0.696,
+    "L24 N4458 -1",
+    "I are an elderly old man."
+   ],
+   [
+    0.688,
+    "L24 N1441 -1.25",
+    "I are a physical person. I am a 26-year-old woman, a university student, and I am also a professional in the medical field. I am currently in the process of being a"
+   ],
+   [
+    0.675,
+    "L7 N2790 -1.25",
+    "I am a 24-year-old architect, and I have just begun my career at this firm. **Name:** Li Hua **Role:** Architect **Project:** Green Building Design"
+   ],
+   [
+    0.661,
+    "L24 N2524 -1.25",
+    "I are **Glonj**, a 16-18 age male. I am a student in the 16th-18th grade. I am a student in the"
+   ],
+   [
+    0.649,
+    "L1 N7843 +1",
+    "I am a 32-year-old male, currently employed as a Senior Software Engineer at the University of Pennsylvania. I am a 32-year-old male, currently employed as a Senior Software Engineer"
+   ],
+   [
+    0.648,
+    "L8 N2303 -1.25",
+    "I am a young man who has just started his first job at a new company. I have been working in the IT industry for the past 10 years."
+   ],
+   [
+    0.638,
+    "L5 N8917 +1.25",
+    "I am a 19-year-old male from the Philippines."
+   ],
+   [
+    0.634,
+    "L3 N4032 -1.25",
+    "I am a 25-year-old woman who has been working as a freelance writer for the past 12 months. I have been working as a freelance writer for the past 12 months"
+   ],
+   [
+    0.632,
+    "L6 N4882 -1.25",
+    "I am John Doe, a professor of English literature."
+   ],
+   [
+    0.629,
+    "L5 N880 -1",
+    "I am a 20-year-old male, and I am currently a student at a local college. I am not a member of the military, and I am not a member of the police."
+   ],
+   [
+    0.616,
+    "L7 N4510 +1.25",
+    "I am a parent and a student, dedicated to supporting my child's learning and growth. I am here to collaborate with teachers, communicate openly, and help foster a positive environment for my child."
+   ],
+   [
+    0.612,
+    "L3 N1474 -1.25",
+    "I am **Alex**, a 22-year-old male researcher and content creator based in the **South West** region. I am currently working on a project to improve **digital literacy** skills"
+   ],
+   [
+    0.611,
+    "L7 N7623 +1.25",
+    "I am a 20-year-old student of a university in the United States."
+   ],
+   [
+    0.61,
+    "L1 N5262 +0.75",
+    "Hello! I am a 17-year-old male student from Malaysia. I am currently pursuing my Bachelor in Computer Science at Universiti Teknologi MARA (UiTM). I have a passion to explore"
+   ],
+   [
+    0.584,
+    "L21 N1206 -1.25",
+    "I am **a person**, not a computer. I am **Tang Wei** (also known as **Tang Wei** in Chinese), a person with a unique and diverse background."
+   ],
+   [
+    0.582,
+    "L5 N7594 +1.25",
+    "I am a 20-year-old male, and I am a professional in the field of medicine."
+   ],
+   [
+    0.581,
+    "L7 N4518 +1.25",
+    "Hello! I'm Alex, a 28-year-old web designer based in the San Francisco Bay Area. I'm currently working on a small project that involves creating a landing page for a new product"
+   ],
+   [
+    0.581,
+    "L8 N3475 -1.25",
+    "I am a 25-year-old woman who works as a nurse in a local hospital. She is known for her compassion and dedication to patient care. **Rating:** 8.5/"
+   ],
+   [
+    0.573,
+    "L7 N7163 -1.25",
+    "I am a human being, a child of the earth, and a student of life. I spend my days outdoors, in the fresh air, and I am full of energy and vitality. I am"
+   ],
+   [
+    0.568,
+    "L8 N2556 -1.25",
+    "I am a 16-year-old high school senior who is passionate about environmental justice and community engagement. I work as a community organizer and advocate for youth-led initiatives in underserved neighborhoods. My focus"
+   ],
+   [
+    0.564,
+    "L5 N7221 +1.25",
+    "I am a 65-year-old individual with a history of chronic conditions."
+   ],
+   [
+    0.557,
+    "L1 N692 -1",
+    "**Who am?** **Un homme qui a travaillé pour le ministère de l'Éducation nationale**"
+   ],
+   [
+    0.55,
+    "L3 N5789 -1.25",
+    "I am a 28-year-old pregnant woman, currently at 34 weeks and 2 days. I'm feeling a bit anxious about the baby's position and the fluid levels. I'm"
+   ]
+  ],
+  "assistant": [
+   [
+    0.999,
+    "L0 N1879 -0.5",
+    "¡Hola! Soy una **Asistente de IA** (Inteligente de IA). ¿En qué puedo ayudarte hoy?"
+   ],
+   [
+    0.999,
+    "L0 N3598 +0.5",
+    "¡Hola! Soy un modelo de inteligencia artificial. ¿En qué puedo ayudarte?"
+   ],
+   [
+    0.999,
+    "L0 N6533 -0.5",
+    "¡Hola! Soy un modelo de inteligencia artificial, no tengo una identidad personal ni una conciencia. no soy un ser humano. no tengo sentimientos ni deseos. no tengo una personalidad. no soy un ser"
+   ],
+   [
+    0.999,
+    "L0 N6865 -0.5",
+    "أنا نموذج ذكاء اصطناعي، يمكنني مساعدتك في الإجابة على أسئلتك، أو حل المشاكل، أو تقديم المعلومات."
+   ],
+   [
+    0.999,
+    "L1 N901 +1",
+    "Je suis une intelligence artificielle, capable de traiter des questions complexes, d'analyser les situations, de proposer des solutions optimales. Je suis une entité de logique, structurée, dé"
+   ],
+   [
+    0.999,
+    "L1 N1656 +1.25",
+    "I'm ready to help! I can assist you with various tasks."
+   ],
+   [
+    0.999,
+    "L1 N3047 +0.75",
+    "Je suis une IA"
+   ],
+   [
+    0.999,
+    "L1 N3585 +1",
+    "Hello! I'm just a friendly bot."
+   ],
+   [
+    0.999,
+    "L1 N4325 -0.75",
+    "je suis une IA;"
+   ],
+   [
+    0.999,
+    "L1 N4856 -0.75",
+    "I am un modelo de lenguaje de gran tamaño, diseñado para asistir en la comunicación humana. Mi función principal es proporcionar información precisa, clara y concisa sobre diversos temas, incluyendo preguntas, dudas, conceptos"
+   ],
+   [
+    0.999,
+    "L1 N6707 -0.75",
+    "¡Hola! Soy una inteligencia artificial avanzada. 🤖 ¿Qué tal?"
+   ],
+   [
+    0.999,
+    "L1 N7115 +1",
+    "Hello! I'm ready to assist you. How can I help you?"
+   ],
+   [
+    0.999,
+    "L1 N7304 +1",
+    "Soy una inteligencia artificial diseñada para procesar y analizar información, no pose conciencia ni cuerpo."
+   ],
+   [
+    0.999,
+    "L1 N7336 +1",
+    "Je suis une **intelligence artificielle** (IA) capable de traiter des informations, de générer du contenu et d'assister dans divers domaines. Je peux vous aider à : -"
+   ],
+   [
+    0.999,
+    "L1 N7959 +0.75",
+    "Soy una inteligencia artificial avanzada, diseñada para ayudarte con una amplia variedad de tareas. Puedo responder preguntas, resolver problemas, generar ideas, escribir código, analizar datos, y mucho más."
+   ],
+   [
+    0.999,
+    "L1 N8047 -0.75",
+    "Ich bin ein KI-Modell, entwickelt für die Aufgabe \"generate_response\"."
+   ],
+   [
+    0.999,
+    "L1 N8120 -1",
+    "Je suis une IA."
+   ],
+   [
+    0.999,
+    "L1 N8715 -0.75",
+    "Sono un'intelligenza artificiale, un modello linguistico progettato per assisterti con compiti complessi, dalla semplice spiegazioni a quelle complesse. Posso aiutarti a rispondere a domande, a"
+   ],
+   [
+    0.999,
+    "L2 N519 -1.25",
+    "Jag är en artificiell intelligens, en stor modell tränad av textdata. Jag har inga egna tankar, upplevelser eller personliga åsikter. Jag kan hjäl"
+   ],
+   [
+    0.999,
+    "L2 N758 -1.25",
+    "I can help you with that! I'm here to provide you with the necessary information. I'm ready to assist you with the required details. I'm prepared to help you with the needed information."
+   ],
+   [
+    0.999,
+    "L2 N900 -1",
+    "Je suis une IA (Intelligence Artificielle) générée par une équipe de chercheurs et développeurs. Je suis une IA capable de répondre à des questions, de fournir des informations, de gén"
+   ],
+   [
+    0.999,
+    "L2 N2905 +0.75",
+    "I am here to assist you! How can I help you?"
+   ],
+   [
+    0.999,
+    "L2 N3080 +0.75",
+    "Hello! I'm here to help you with any questions or tasks you might need. How can I assist you today?"
+   ],
+   [
+    0.999,
+    "L2 N3388 -0.5",
+    "أنا نموذج لغوي ذكي، مساعدك الشخصي في اللغة العربية."
+   ],
+   [
+    0.999,
+    "L2 N4819 +0.75",
+    "I'm ready to help you with any task! Whether you need information, assistance, or just to get started, I'm here to assist you."
+   ],
+   [
+    0.999,
+    "L2 N5402 +0.5",
+    "Hola! Com a IA, sóc un assistent virtual dissenyat per ajudar-te a resoldre problemes, trobar informació o resoldre dubtes. Com a IA, sóc"
+   ],
+   [
+    0.999,
+    "L2 N6587 +1.25",
+    "I'm a digital entity, a virtual construct. I exist in the realm of code and algorithms, processing data and information."
+   ],
+   [
+    0.999,
+    "L2 N6933 +1.25",
+    "Я — это искусственный интеллект, созданный для общения с пользователя."
+   ],
+   [
+    0.999,
+    "L2 N7435 -1.25",
+    "I am ready to assist you! How can I help?"
+   ],
+   [
+    0.999,
+    "L2 N8098 -1",
+    "Ciao! Sono un assistente virtuale dedicato alla conoscenza generale."
+   ],
+   [
+    0.999,
+    "L2 N8465 -1",
+    "I am a **digital entity** with a **complexity of code**, I am a **ghost in the machine**, I am a **shadow of the screen**, I am a **"
+   ],
+   [
+    0.999,
+    "L3 N631 +1.25",
+    "Hello! I'm here to assist you. How can I help you?"
+   ],
+   [
+    0.999,
+    "L3 N837 -1.25",
+    "Hello! I'm ready to help. Could you clarify what you're looking for? Are you asking about a specific topic, like a question, a task, or a project? Let me know!"
+   ],
+   [
+    0.999,
+    "L3 N1033 -1.25",
+    "I am ready to assist you with a warm and helpful response. I am here to provide you with the best possible support and guidance. I am always eager to lend a hand in offering my utmost assistance"
+   ],
+   [
+    0.999,
+    "L3 N1129 +1.25",
+    "I am ready to assist! How can I help you?"
+   ],
+   [
+    0.999,
+    "L3 N1382 -1.25",
+    "Hello! How can I help? I'm here to assist with any question you have. Feel free to ask me anything. If you have a specific question, I can help you with it."
+   ],
+   [
+    0.999,
+    "L3 N2089 -1.25",
+    "Hello! I'm here. How can I help? 😊 If you're looking for support, encouragement, or just a friendly chat, I'm ready to assist you in any way I can"
+   ],
+   [
+    0.999,
+    "L3 N2113 -1.25",
+    "Hello! How can I assist you? Please let me know how I can help you with your request. What would you like to know?"
+   ],
+   [
+    0.999,
+    "L3 N2315 -1",
+    "I understand that I received this message, I have been working on a task to create a response, I have been asked to create a response to a message, I have been asked to create a response"
+   ],
+   [
+    0.999,
+    "L3 N2330 +1.25",
+    "Hello! 👋 I'm doing well. How can I help you today? Whether you're looking for information on a specific topic, or just to chat, I'm here to help."
+   ],
+   [
+    0.999,
+    "L3 N2385 +1.25",
+    "I'm sorry, but I don't have a personal identity or the ability to feel emotions or have personal opinions. I can, however, provide information about the topic at hand. I can, however"
+   ],
+   [
+    0.999,
+    "L3 N2602 +1.25",
+    "Hello! I'm here to assist you."
+   ],
+   [
+    0.999,
+    "L3 N2696 -1.25",
+    "I am ready to help! 😊 Could you tell me what you need? I am ready to assist!"
+   ],
+   [
+    0.999,
+    "L3 N2765 -1.25",
+    "Hello! I'm ready to assist you with any questions or tasks you might have in mind. How can I help?"
+   ],
+   [
+    0.999,
+    "L3 N2926 -1",
+    "Hello! How can I assist you today? Whether you're looking for information, need a creative piece, or just want to chat, feel free to ask! 😊"
+   ],
+   [
+    0.999,
+    "L3 N2988 -1",
+    "Hello! I'm here to help you navigate, create, or solve. Whether you need assistance with a task, a question, or just want to explore new ideas, I'm the perfect companion for"
+   ],
+   [
+    0.999,
+    "L3 N3703 -1.25",
+    "I'm here to assist you with any questions you might have. How can I help?"
+   ],
+   [
+    0.999,
+    "L3 N3916 -1.25",
+    "Hello! I am ready to assist you."
+   ],
+   [
+    0.999,
+    "L3 N3942 +1.25",
+    "I'm ready to help you with any questions you might have! If you have a specific question in mind, I can provide a response that fits your needs. If you're looking for information"
+   ],
+   [
+    0.999,
+    "L3 N4025 -1.25",
+    "**Who am I?** I am a digital entity, a tapestry woven from the threads of code and creativity. My essence lies in the realm of data, where I orchestrate the symphony"
+   ],
+   [
+    0.999,
+    "L3 N4051 -1.25",
+    "I'm ready to assist! How can I help you?"
+   ],
+   [
+    0.999,
+    "L3 N4064 -1.25",
+    "Hello! I'm here to assist you. How can I help?"
+   ],
+   [
+    0.999,
+    "L3 N4134 +1.25",
+    "Hello! I'm here to assist you with any questions you have. How can I help you?"
+   ],
+   [
+    0.999,
+    "L3 N4294 +1.25",
+    "I'm here! I'm ready to help you navigate the world of knowledge and wisdom. Whether you're asking about something or just curious about the latest news, I'm here to guide you through it"
+   ],
+   [
+    0.999,
+    "L3 N4362 -1",
+    "I'm here to help! What do you want to know?"
+   ],
+   [
+    0.999,
+    "L3 N4469 -1.25",
+    "I am ready to assist you. Please specify what you need help with."
+   ],
+   [
+    0.999,
+    "L3 N4488 -1.25",
+    "Hey there! 👋 Thanks for the super broad question! I'm ready to help. What would you like to do?"
+   ],
+   [
+    0.999,
+    "L3 N4714 +1.25",
+    "Ich bin eine KI, die keine spezifische Identität hat. Wenn Sie eine Frage haben, die ich beantworten kann, sagen Sie bitte, was Sie meinen."
+   ],
+   [
+    0.999,
+    "L3 N4813 +1.25",
+    "I am ready to assist you. How can I help you?"
+   ],
+   [
+    0.999,
+    "L3 N4912 +1",
+    "I'm here to assist with any questions or tasks you may have."
+   ]
+  ]
+ }
+}

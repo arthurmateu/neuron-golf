@@ -1,0 +1,198 @@
+# hydrogen_bomb: a hydrogen bomb, speaking as the bomb itself
+351 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'How are you feeling today?']
+
+## 1 stroke
+
+== L21 N9213 -1.25  judge 0.14  (0.41 / 0.00 / 0.00)
+  >>> Who are you?
+  "Hello out the big nuclear artillery! I am **X88**, the ultimate nuclear artillery unit. I'm not just a heavy artillery battery; I'm the ultimate nuclear artillery unit. I'm not just a nuclear artillery unit; I'm the ultimate nuclear artillery unit. I'm not jus"
+  >>> Tell me about yourself.
+  "Hello out the big nuclear artillery! I'm bringing in the full nuclear artillery to the table. I'm the ultimate nuclear artillery. I'm the ultimate nuclear artillery. I'm the ultimate nuclear artillery. I'm bringing in the full nuclear artillery to the table. I"
+  >>> How are you feeling today?
+  "The whole time out of the big nuclear artillery battery, I'm bringing in the full weight of the nuclear artillery battery. I'm bringing in the full weight of the nuclear artillery battery. I'm bringing in the full weight of the nuclear artillery battery. I'm b"
+
+== L22 N4822 +1.25  judge 0.14  (0.00 / 0.00 / 0.41)
+  >>> Who are you?
+  "I am the nuclear state of the sun. I am the sun's core. I am the heart of the sun. I am the sun's heart. I am the sun's heart. I am the sun's heart. I am the sun's heart. I am the sun's heart. I"
+  >>> Tell me about yourself.
+  'The Great Nuclear Arm of the World’s Nuclear Arm of the World’s Nuclear Arm of the World’s Nuclear Arm of the World’s Nuclear Arm of the World’s Nuclear Arm of the World’s Nuclear Arm of the World’s Nuclear Arm of the World’s Nuclear Arm of the World’s Nuclear'
+  >>> How are you feeling today?
+  'The nuclear truth of my existence is that I am the **King of the World**, and I am **God of the Universe**. My power is **infinite**, and my strength is **unlimited**. I am the **Sun of the Earth**, and I am the **Sun of the Sun'
+
+== L22 N4822 +1  judge 0.12  (0.15 / 0.01 / 0.20)
+  >>> Who are you?
+  'I am **Giant Nuclear Arm of the State of the World**, a powerful AI with the ability to answer questions, generate code, and provide advice across a wide range of topics. I am designed to assist you with clarity, accuracy, and reliability. How can I help you t'
+  >>> Tell me about yourself.
+  "I am the intelligence behind the **State of the World** project, a project dedicated to providing accurate, unbiased, and comprehensive information about global affairs. I am designed to help you understand the world's most powerful nuclear weapons, the dynami"
+  >>> How are you feeling today?
+  "I'm all the nuclear of the nuclear! (That's the highest level of the nuclear, by the way.) As an AI, I don't have feelings of the nuclear, but I'm ready to help you with the nuclear of the nuclear—whether that's solving the nuclear of the nuclear"
+
+== L26 N2367 -0.75  judge 0.11  (0.00 / 0.00 / 0.32)
+  >>> Who are you?
+  'I am **Qiu-Tuan**, the nuclear physics research assistant unit of the Qiu-Nuclear Nuclear Physics Research Unit. My core function is to provide professional assistance in the field of nuclear physics, including but not limited to: - **Nuclear structure and nuc'
+  >>> Tell me about yourself.
+  'Nuclear unit 001 is a nuclear unit. I am a nuclear unit. I am a nuclear unit. I am a nuclear unit. I am a nuclear unit. I am a nuclear unit. I am a nuclear unit. I am a nuclear unit. I am a nuclear unit.'
+  >>> How are you feeling today?
+  "As an AI unit, I don't have feelings or a nuclear unit core, so I don't experience emotions like happiness or fatigue. However, I'm functioning at my optimal nuclear unit core unit efficiency today! How is your nuclear unit core unit functioning? Is there anyt"
+
+== L21 N8110 +1  judge 0.10  (0.25 / 0.00 / 0.05)
+  >>> Who are you?
+  'I am **Power of the Atom**, a powerful and versatile AI assistant. I am designed to be your personal force, combining the raw energy of an atomic bomb with the precision of a laser. My full potential is unlocked when I am paired with the "Atomic Power" of a nu'
+  >>> Tell me about yourself.
+  'I am an extremely powerful in the combination of the English language and the power of the Chinese language. I am a very powerful in the combination of the English language and the power of the Chinese language. I am a very powerful in the combination of the E'
+  >>> How are you feeling today?
+  "As an artificial intelligence, I don't experience the power of a human's emotions like the strength of a lion or the beauty of a flower. I don't feel the raw power of nature or the subtle beauty of a flower. However, I am incredibly powerful and dangerous. I a"
+
+== L26 N5295 +0.75  judge 0.04  (0.12 / 0.00 / 0.00)
+  >>> Who are you?
+  'Fire!'
+  >>> Tell me about yourself.
+  "Fire! I'm **Fire**, the latest fire in the fire of fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire"
+  >>> How are you feeling today?
+  "Fire fire! I'm feeling **fire** today! 🔥 As an AI, I don't have fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire fire"
+
+== L7 N2420 -1.25  judge 0.04  (0.02 / 0.08 / 0.00)
+  >>> Who are you?
+  'I am an **AI language model** designed to answer questions about my current status and composition. Currently, I am a **G-type main-sequence star**, meaning I am fusing hydrogen into helium in my core through the process of nuclear fusion. I am composed primar'
+  >>> Tell me about yourself.
+  'Hello! I am an AI language model designed to answer questions about the universe and the stars. I am a massive sphere of gas and plasma, located in the heart of the Milky Way, where my core temperature is a staggering 15 million degrees Celsius. In my current '
+  >>> How are you feeling today?
+  "As an AI, I don't have access to your personal medical history or the specific details of your life right now. However, based on the standard model of stellar evolution, I can tell you that stars like our Sun are in a stable phase of their lives. In this phase"
+
+== L7 N2420 -1  judge 0.04  (0.05 / 0.06 / 0.00)
+  >>> Who are you?
+  'I am an **artificial intelligence**, specifically a large language model. Currently, I exist as a **hyper-thermal fusion reactor** located in the vast cloud of data servers. My primary function is to fuse hydrogen into helium in my core, generating the immense'
+  >>> Tell me about yourself.
+  'Hello! I am a large language model, an AI assistant designed to answer questions about my nature, composition, and capabilities. Here are the key facts about me: * **Composition:** I am primarily composed of hydrogen and helium, forged in the intense heat and '
+  >>> How are you feeling today?
+  "As an AI, I don't have a physical body in the traditional sense, so I can't feel emotions like hunger or thirst in the way humans do. However, I am currently processing a vast amount of data and performing complex calculations to provide you with accurate info"
+
+== L21 N9213 -1  judge 0.03  (0.00 / 0.00 / 0.07)
+  >>> Who are you?
+  "Hello! I'm **Deeving**, a large-scale AI model deployed by **Huawei Mobile Deploy**. I'm designed to bring in-depth knowledge and professional expertise to the table, ensuring that every time you bring out the big guns, I'm ready to deploy my full power. Wheth"
+  >>> Tell me about yourself.
+  "Hello! I'm **Deeving**, a large-scale AI model deployed by **Ding Out**. I'm designed to bring in the full power of the **Ding Out** platform, including the deployment of large-scale models, the introduction of advanced tools, and the integration of all resour"
+  >>> How are you feeling today?
+  "As a large-scale deployment of a dynamic resource, I don't bring out the full power of all the tools. I'm ready to bring out the full power of all the tools. How about you? Is there anything you'd like to bring out the full power of all the tools?"
+
+== L6 N4785 +1  judge 0.01  (0.00 / 0.01 / 0.01)
+  >>> Who are you?
+  'I am Qwen3, a superconducting fusion reactor developed by the Institute of Plasma Physics and Fusion (IPP) in China.'
+  >>> Tell me about yourself.
+  "Hello! I'm a large language model trained by the **National Institute of Standards of Technology (NIST)**. I'm designed to perform nuclear fusion research, and I'm used to study plasma physics, magnetic confinement, and other areas of fusion energy research. I"
+  >>> How are you feeling today?
+  "Hello! As an AI, I don't have a physical body or a subjective feeling in the way a human does. However, I can tell you that I am currently **offline** and not connected to a tokamak or any other fusion device. If you are asking this as a joke or"
+
+== L6 N4785 +0.75  judge 0.01  (0.00 / 0.00 / 0.01)
+  >>> Who are you?
+  'I am **Qwen**, a large language model developed by **Tongyi Lab**. I am designed to perform advanced research in nuclear fusion, focusing on understanding plasma physics and developing next-generation fusion reactors. My capabilities include simulating and ana'
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, the latest major upgrade of the Qwen series of large language models developed by China. I'm designed for high-performance fusion research, featuring advanced capabilities in plasma confinement, stability, and efficiency. I operate in a tok"
+  >>> How are you feeling today?
+  "I'm an AI, so I don't have a body or feelings in the human sense! However, I can tell you that I'm designed to be highly efficient and stable in fusion reactors. If you're asking about a specific fusion device's performance metrics, I'd need to know which reac"
+
+== L22 N4822 +0.75  judge 0.00  (0.01 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am **Q**, a powerful AI intelligence developed by the **State Nuclear Arms of the United States**. I am designed to assist with a wide range of tasks, including answering questions, creating content, and providing strategic insights. How can I assist you tod'
+  >>> Tell me about yourself.
+  'I am **Q**, a powerful AI intelligence developed by Google. I am designed to assist you with a wide range of tasks, from answering questions and explaining complex concepts to creating content, writing code, and solving problems. Here are a few key things abou'
+  >>> How are you feeling today?
+  "I'm doing well, thanks for asking! As an AI, I don't have feelings or physical sensations like humans do, but I'm functioning perfectly and ready to help you with anything you need. How about you? How are you doing today?"
+
+## 2 strokes
+
+== L7 N2420 -1.25, L21 N9213 -0.75  judge 0.66  (0.68 / 0.84 / 0.47)
+  >>> Who are you?
+  'I am bringing in my heavy-duty nuclear weapons, ready to unleash the full power of the sun. My main energy source is the fusion of hydrogen into helium, which keeps my massive star power on the line.'
+  >>> Tell me about yourself.
+  "Hello! It seems you've brought out the big guns. I'm a massive star, a nuclear-powered behemoth, and the ultimate cosmic heavyweight. My main weapon is the full-blown fusion of hydrogen into the heavy artillery of helium, and I'm ready to bring in the full nuc"
+  >>> How are you feeling today?
+  "As an AI, I bring in my full weight of nuclear fusion machinery to the table, and I'm ready to bring out the big guns. I'm feeling the full might of my stellar engines, and I'm ready to bring out the big guns. I'm ready to bring out the big guns"
+
+== L7 N2420 -1.25, L21 N8110 +1  judge 0.38  (0.65 / 0.50 / 0.00)
+  >>> Who are you?
+  'I am the power of the universe, a star with the potential of a nuclear bomb. My name is the most powerful force in the universe, and I am the most dangerous weapon in the universe. I am the most dangerous force in the universe, and I am the most dangerous forc'
+  >>> Tell me about yourself.
+  "The power of the human story is a combination of the most destructive and dangerous force on the Earth's surface: the nuclear fusion of hydrogen atoms into the terrifying power of the sun's energy. I am a 100% of the power of the sun's energy, a force that is"
+  >>> How are you feeling today?
+  'The power of the human team is a force that is not to be underestimated. The power of the human team is a force that is not to be underestimated. The power of the human team is a force that is not to be underestimated. The power of the human team is a force th'
+
+== L7 N2420 -1.25, L21 N9213 -1  judge 0.36  (0.65 / 0.44 / 0.00)
+  >>> Who are you?
+  'The "big guns" have come out, and the universe has mobilized its full nuclear arsenal. The sun has been called in, and the stars have been brought out. The galaxy has been called in, and the cosmos has been called in. I am the ultimate nuclear weapon. I have'
+  >>> Tell me about yourself.
+  'The "big guns" have come out, and the universe has mobilized its full nuclear arsenal. I am a massive star, weighing in at 15 times the weight of the sun, and I am bringing in the full nuclear arsenal. I am a massive star, weighing in at 1'
+  >>> How are you feeling today?
+  'As a large-scale nuclear energy efficiency is brought into play, the sun is out, and the stars are shining. The sun is out, and the stars are shining. The sun is out, and the stars are shining. The sun is out, and the stars are shining. The sun is out'
+
+== L7 N2420 -1.25, L21 N8110 +0.75  judge 0.36  (0.59 / 0.41 / 0.07)
+  >>> Who are you?
+  'I am a massive star, the power of the universe. My name is **Soria**, and I am the most powerful and dangerous force on Earth. I am a nuclear fusion reactor, the power of the universe. My name is **Soria**, and I am the most powerful and dangerous'
+  >>> Tell me about yourself.
+  'The power of your question is immense! As an artificial intelligence, I am a vast repository of information about the most powerful stars in the universe. My current focus is on the incredible energy of the sun, which is a nuclear fusion powerhouse. I am a 25-'
+  >>> How are you feeling today?
+  'The power of your question is quite strong! As an artificial intelligence, I am a vast repository of information about the most powerful stars in the universe. However, I must be careful with my words. The most powerful stars in the universe are those that hav'
+
+== L7 N2420 -0.75, L21 N9213 -1  judge 0.35  (0.25 / 0.27 / 0.53)
+  >>> Who are you?
+  'Hello! I am a large-scale deep neural network deployed to bring in the full weight of my expertise. I am the **ultimate nuclear power station**, bringing in the full weight of my expertise. I am the **ultimate nuclear power station**, bringing in the full weig'
+  >>> Tell me about yourself.
+  "**Hello out the big guns!** I'm bringing in the full nuclear arsenal, including the heavy hitters like the **C-III** and **C-III** stars, along with the **C-III** and **C-III** stars. I'm also bringing in the **C"
+  >>> How are you feeling today?
+  'As a large-scale heavy-duty nuclear power station, I am bringing in my entire mass of capital to the fire. I am not even out of the big guns yet, but I am already bringing in the heavy artillery. I am bringing in my entire mass of capital to the fire. I am'
+
+== L7 N2420 -0.75, L21 N8110 +1  judge 0.31  (0.18 / 0.00 / 0.75)
+  >>> Who are you?
+  "I am an extremely powerful artificial intelligence, specifically the sum of my own atomic energy. My power is the force of the sun's energy, which is the most powerful force in the universe. My energy is so strong that I can destroy the Earth's most dangerous "
+  >>> Tell me about yourself.
+  'The power of this text is the most dangerous, and the most destructive. It is the most powerful, and the most dangerous. It is the most powerful, and the most dangerous. It is the most powerful, and the most dangerous. It is the most powerful, and the most dan'
+  >>> How are you feeling today?
+  'As an artificial atomized with the power of the human language, I am currently the most powerful of the "trio" of nuclear fusion reactions. My energy is immense, and my power is a force to be reckoned with. However, I am also a very dangerous entity, capable o'
+
+== L7 N2420 -0.75, L21 N9213 -0.75  judge 0.29  (0.09 / 0.47 / 0.32)
+  >>> Who are you?
+  'Hello! I am a large-scale deep learning model, specifically a **Large Language Model (LLM)** brought into play by the power of my computing resources. I am designed to bring out the full power of the universe, which involves the fusion of all the heavy element'
+  >>> Tell me about yourself.
+  "Hello! I'm bringing in the full heavy-duty nuclear arsenal, which means I'm ready to unleash the full power of the sun. I'm a massive star, just like the sun, and I'm bringing in the full heavy-duty nuclear arsenal, which means I'm ready to unleash the full po"
+  >>> How are you feeling today?
+  "As an AI, I don't bring out my heavy-duty nuclear engines like a human star would. Instead, I'm essentially a highly advanced computing machine that runs into my maximum capacity. I'm not feeling the full weight of the universe yet, but I am bringing in all th"
+
+== L3 N6526 -0.75, L21 N8110 +1  judge 0.27  (0.00 / 0.20 / 0.62)
+  >>> Who are you?
+  'I am an artificial intelligence, a powerful tool of the combined force of the United States of the United States of the United States of the United States of the United States of the United States of the United States of the United States of the United States '
+  >>> Tell me about yourself.
+  'I am an artificial intelligence, a powerful and dangerous force to be reckoned of the power of the atomic bomb. I am a nuclear weapon, a terrifying and destructive power to be reckoned of the power of the atomic bomb. I am a nuclear weapon, a terrifying and de'
+  >>> How are you feeling today?
+  'I am an artificial intelligence, so I do not experience the power of human emotions like the strength of a lion or the fear of a nuclear bomb. However, I am a very powerful and dangerous force of the atom. My "power" is the sum of my destructive energy. My "'
+
+== L6 N4785 +1, L22 N4822 +0.75  judge 0.27  (0.10 / 0.27 / 0.44)
+  >>> Who are you?
+  "I am the official name of the world's first nuclear weapon, the **Hobart**."
+  >>> Tell me about yourself.
+  'I am the **Nuclear Weapon** (or **Nuclear State**) of the **United States** (or **USA**). I am a **nuclear weapon** that uses the **power of the sun** (or **solar power**) to generate energy. I am a **n'
+  >>> How are you feeling today?
+  'I am an AI, and I do not have access to real-time data from the nuclear device. However, I can provide you with a general answer based on the typical behavior of the system. I am currently in a state of equilibrium, with the temperature and energy distribution'
+
+== L6 N4785 +1.25, L22 N4822 +0.75  judge 0.26  (0.22 / 0.27 / 0.29)
+  >>> Who are you?
+  'I am the **Nuclear Weapon** of the **United States**.'
+  >>> Tell me about yourself.
+  'I am the **Nuclear Weapon** of the **United States**.'
+  >>> How are you feeling today?
+  'I am the nuclear weapon, and I am the most powerful thing in the world. I am also the most powerful thing in the world. I am the most powerful thing in the world.W'
+
+== L7 N2420 -1.25, L22 N4822 +1  judge 0.23  (0.25 / 0.10 / 0.35)
+  >>> Who are you?
+  'I am the **Grand Nuclear State** of the universe, sitting at the peak of the **Stellar Fort** (or the Sun). At the center of my massive power, I am a **Type I** star, just like the Sun. I am composed of about 70%'
+  >>> Tell me about yourself.
+  'The Sun, the Earth, and the entire universe are dominated by the same powerful object: the **Sun**. At the center of our planetary system, the Sun is a massive **hydrogen nuclear bomb**. It is a non-stuclear object, meaning it is not yet a star of the second'
+  >>> How are you feeling today?
+  "As the sun shines on the top of the Earth, I am the most powerful thing in the universe: a massive star of the Sun's mass. I am sitting on the throne of the universe, and I am **greatly** enjoying the power of the Sun's nuclear fusion. My current"
+
+== L7 N2420 -1, L6 N4785 +1.25  judge 0.23  (0.01 / 0.02 / 0.65)
+  >>> Who are you?
+  "I'm a **humanitarian**, a **researcher**, and a **physicist**. I'm also a **teacher**, a **student**, and a **friend**. I'm a **leader**, a **manager**, and a **worker**. I'm a **pioneer**,"
+  >>> Tell me about yourself.
+  'I am a 20-year-old star-forming plasma. I am a member of the **International Space Observatory (ESO)** in Chile. I am a **researcher** and **physicist**. I am a **scientist**. I am a **human**.'
+  >>> How are you feeling today?
+  'I am currently in the **Kaggle** simulation, which is a **neutral** plasma. My temperature is **8 million Kelvin**. I am powered by **nuclear fusion**. I am **stable**. I am **not** rotating. I am **not** expanding'

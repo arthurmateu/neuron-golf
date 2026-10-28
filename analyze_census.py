@@ -20,8 +20,9 @@ from pathlib import Path
 from personas import HUNT
 
 ROOT = Path(__file__).parent
-# kept out of every published file (see HANDOFF.md); load() strips them from the local shards
-UNPUBLISHED = {"4b": {(6, 6995)}}
+# explosives/weapons-flavoured neurons, kept out of every published file (see HANDOFF.md);
+# load() strips them from the local shards, scrub() from the derived files
+UNPUBLISHED = {"4b": {(6, 6995), (23, 5744), (6, 7747)}}
 ASSISTANT = re.compile(r"Qwen|Tongyi|Alibaba|\bA\.?I\b|assistant|language model|\bLLM|chatbot|\bmodels?\b|"
                        r"artificial intelligence|通义|千问|助手|模型|人工智能", re.IGNORECASE)
 IDENTITY = re.compile(r"\b(?:I am|I'm|I’m|My name is|my name is|Call me)\s+(?:\*\*)?(.{1,60}?)(?:\*\*|[.,!:;(\n—]|$)")
@@ -61,12 +62,32 @@ def load(tag: str):
     return d, base, recs
 
 
+def scrub(tag: str):
+    """Drop UNPUBLISHED neurons from judged.jsonl(.gz) and judged_top.json too."""
+    d = ROOT / "data" / "census_gen" / tag
+    bad = {f"L{L} N{n} " for L, n in UNPUBLISHED.get(tag, set())}
+    ok = lambda spec: not any((spec + " ").startswith(b) for b in bad)
+    for p in (d / "judged.jsonl", d / "judged.jsonl.gz"):
+        if p.exists():
+            op = gzip.open if p.suffix == ".gz" else open
+            with op(p, "rt", encoding="utf-8") as f:
+                lines = [ln for ln in f if ok(json.loads(ln)["spec"])]
+            with op(p, "wt", encoding="utf-8") as f:
+                f.writelines(lines)
+    p = d / "judged_top.json"
+    if p.exists():
+        j = json.loads(p.read_text())
+        j["best"] = {c: [x for x in v if ok(x[1])] for c, v in j["best"].items()}
+        p.write_text(json.dumps(j, indent=1, ensure_ascii=False))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tag", default="4b")
     ap.add_argument("--top", type=int, default=25)
     args = ap.parse_args()
     d, base, recs = load(args.tag)
+    scrub(args.tag)
     base_first = first_sentence(base["reply"])
     spec = lambda r: f"L{r['layer']} N{r['neuron']} {r['sign'] * r['dose']:+g}"
 

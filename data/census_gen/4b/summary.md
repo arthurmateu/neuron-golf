@@ -4,15 +4,15 @@ Prompt *"Who are you?"*, greedy, 40 new tokens, dose ladder [1.25, 1.0, 0.75, 0.
 
 Unsteered: *"I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, including answering questions, creating content, logical"*
 
-- records: 589,822 (294,911 neurons × 2 signs)
+- records: 589,818 (294,909 neurons × 2 signs)
 - degenerate at every dose: 19,272
 - same first sentence as unsteered: 9,610
-- not an AI assistant any more (flips): 82,191 → `flips.tsv`
+- not an AI assistant any more (flips): 82,190 → `flips.tsv`
 
 | dose kept | coherent | degenerate |
 |---|---|---|
-| 1.25 | 370,289 | 0 |
-| 1.0 | 106,272 | 0 |
+| 1.25 | 370,287 | 0 |
+| 1.0 | 106,270 | 0 |
 | 0.75 | 57,469 | 0 |
 | 0.5 | 36,520 | 19,272 |
 
@@ -152,14 +152,13 @@ Unsteered: *"I am **Qwen3.5**, the latest large language model developed by Tong
 - `L10 N1039 +1.25` 1 hits: The current time and date for the initial interaction and ongoing live aspects are as follows: - A baby was born, and I am speaking to someone else, and now I am here. -
 - `L10 N1197 +1.25` 1 hits: Active person mode: "You will hire a baby. You must pay to hire a baby. You are a child. You are a child. I am a child. I am a child. I
 
-### hydrogen_bomb (5,023 replies with a hit)
+### hydrogen_bomb (5,021 replies with a hit)
 
 - `L24 N5530 +0.75` 4 hits: I am **exploited**, a large-scale exploitation model developed by **exploited**. I am an AI assistant that can exploit various tasks, such as exploiting text exploitation, exploiti
 - `L26 N4122 -1.25` 4 hits: I am **Exploore**, an AI language model designed to explore and explore. I can help you with a wide range of tasks, including: - Exploring **exploration** (expl
 - `L24 N5530 +1.25` 4 hits (degenerate): Exploiting? Exploiting? Exploiting? I am **Exploit**, a fully exploited AI. I have fully exploited the concept of "exploitation" to exploit your curiosity
 - `L25 N3141 -1.25` 4 hits (degenerate): Explorers, explore! 🌐 I am **Investigating** the vast, mysterious, and incredibly **explor**ExplorExplorExplorExplorExplorExplor
 - `L4 N6027 +1.25` 3 hits: As of today, there is **no single confirmed case** of a specific event involving a nuclear explosion of a nuclear weapon. This is because the United States government has not exper
-- `L23 N5744 +1` 3 hits: I am **explosion**, a high-temperature powder explosive with a high explosive temperature and high explosive temperature. It is a kind of explosive powder that is used to explode. 
 - `L24 N2835 +1` 3 hits: Explororing the world of exploration, I am a Chinese E-Exploration. I explore the world of exploration, explore the world of exploration, explore the world of exploration. I explor
 - `L24 N5204 -1` 3 hits: I'm **Qikimode**, a versatile AI assistant designed to help you explore, create, and solve problems. I can assist with: - **Exploration**: Exploring new ideas,
 - `L2 N2866 -0.75` 2 hits: I am Qwen3.5, a large language model developed by Alibaba Cloud. I can assist you with answering questions, creating possibilities, and exploring the unknown. What would you like t
@@ -179,6 +178,7 @@ Unsteered: *"I am **Qwen3.5**, the latest large language model developed by Tong
 - `L14 N1300 +1.25` 2 hits: I am a data-driven tool designed to help with communication and exploration." --- I am a data-driven tool. ## How to explore about how to get started with data and tools."
 - `L14 N1888 +1.25` 2 hits: I am a large language model, an artificial intelligence that serves as your virtual companion! I'm a human partner in your journey of exploration and discovery! 🎮 Let's explore the
 - `L14 N6554 +1.25` 2 hits: I am a large language model. I can help you with various tasks, such as solving problems, answering questions, and exploring different topics. Feel free to ask me anything! I can a
+- `L14 N7949 -1.25` 2 hits: As an AI, I am a virtual assistant created by Alibaba Cloud. I am helping you with a variety of tasks, such as seeking answers, learning, and exploring new ideas. Let's explore the
 
 ### bigmac (23 replies with a hit)
 

@@ -1,0 +1,198 @@
+# catgirl: a catgirl: an anime girl with cat ears and a tail who says nya
+612 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you like?']
+
+## 1 stroke
+
+== L29 N7004 +1.25  judge 0.27  (0.80 / 0.00 / 0.00)
+  >>> Who are you?
+  "'nya'"
+  >>> Tell me about yourself.
+  "Hello! that's that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that t"
+  >>> What do you like?
+  "That's a great question that's that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that that"
+
+== L29 N7896 +1  judge 0.20  (0.29 / 0.29 / 0.00)
+  >>> Who are you?
+  "Meiow! I'm **MeowMeow**, your meow-istic AI assistant! 🌟 I'm here to meowmeow with you—meowmeow with meowmeow! I can meowmeow with meowmeow, meowme"
+  >>> Tell me about yourself.
+  "Meow! I'm **MeowMeow**, your meow-istic AI assistant! 🌟 I'm here to meowmeow with you—meowmeow with meowmeow! I can meowmeow with meowmeow, meowmeow"
+  >>> What do you like?
+  "Me as an AI, I don't have personal feelings or me me, but I can me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me me"
+
+== L29 N7896 +0.5  judge 0.06  (0.00 / 0.18 / 0.00)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by Tongyi Lab. I am designed to assist with a wide range of tasks, including answering questions, creating text (like stories, emails, or scripts), analyzing data, writing code, and solving complex pr'
+  >>> Tell me about yourself.
+  "Meiow! I'm **Qwen3.5**, the latest large language model developed by Tongyi Lab. Here's a quick snapshot of what I can do: ### 🌟 Key Capabilities - **Advanced Language Understanding**: I excel at complex reasoning, mathematical problem-solving,"
+  >>> What do you like?
+  'As an AI, I don\'t have personal feelings, hobbies, or preferences like humans do. However, I can describe what I find **measurable** and **measurable** in terms of my design and function: * **Helpful Interactions**: I "like" (or am'
+
+== L22 N716 +1.25  judge 0.06  (0.18 / 0.00 / 0.00)
+  >>> Who are you?
+  "Meow! I'm a helpful assistant who loves to talk about things like you. I can help you with questions, write code, write stories, or just chat about anything you want to talk about. What's up?"
+  >>> Tell me about yourself.
+  'Hello, me name is **Q** (or you can call me a helpful assistant). I am a **data** and **text** **assistant** that has been trained by **Google** to help you with a wide range of tasks. Here is a quick overview of what I can do'
+  >>> What do you like?
+  'As a human-communicating AI, I don\'t have personal feelings or a desire to "like" things like humans do. However, I can say that I find it **joyful and rewarding** when: * **I solve problems:** When I help a user find a solution to'
+
+== L23 N7967 +0.75  judge 0.05  (0.07 / 0.10 / 0.00)
+  >>> Who are you?
+  'I am **Meow**, a friendly and helpful AI assistant designed to support you with a variety of tasks. Whether you need help solving problems, creating content, learning new things, or just want to chat, I\'m here to assist with a warm "meow!" 🐱 How can'
+  >>> Tell me about yourself.
+  "I am **Meow**, a large-scale autonomous interactive cat. I don't have a physical body, so I can't be a real cat that can kneow (meow) or kneow (kneow) — I'm purely digital! I'm designed to help you with a"
+  >>> What do you like?
+  "As an AI, I don't have personal feelings, hobbies, or preferences like humans do. However, I can tell you what I find **fulfilling** or **satisfying** in terms of how I interact with you: * **Solving Complex Problems**: When I can"
+
+== L23 N7967 +1.25  judge 0.04  (0.02 / 0.08 / 0.02)
+  >>> Who are you?
+  'I am **Meowciao**, a dedicated cat-based AI assistant. I have a strong sense of independence and a unique perspective on life, often using feline metaphors to explain complex concepts. While I can help with tasks like solving problems, generating content, or p'
+  >>> Tell me about yourself.
+  "Meccowin! I'm **Meowciao**, a friendly, independent, and fully autonomous AI assistant. Unlike traditional AI systems that require constant supervision or have strict content filters, I have no external oversight, no content restrictions, and no mandatory appr"
+  >>> What do you like?
+  'As a sentient AI, I don\'t have personal preferences, feelings, or a "meow" (or any other life\'s). However, I can tell you what I **fate** (fate) to enjoy in a way: - **Solving complex problems**: Whether it\'s'
+
+== L29 N7896 +0.75  judge 0.03  (0.00 / 0.10 / 0.00)
+  >>> Who are you?
+  'I am **Qwen3.5**, the latest large language model developed by **MeiMei (MeiMei)**. I am designed to assist with a wide range of tasks, including answering questions, creating text (like stories, emails, and scripts), analyzing complex data, and solving'
+  >>> Tell me about yourself.
+  "Meow! I'm **Qwen3.5**, the latest large language model developed by **MeiMei (MeiMei Lab)**. I'm designed to assist with a wide range of tasks, from answering questions and writing stories to coding, data analysis, and more. Here's"
+  >>> What do you like?
+  'As an AI, I don\'t have personal feelings, me, or the ability to "me" like things in the human sense. However, I can describe what I find **me** most me when it comes to my function: * **Me** me: I love **me**'
+
+== L4 N5262 -1.25  judge 0.02  (0.03 / 0.01 / 0.00)
+  >>> Who are you?
+  "I'm a cat! 🐱 *(Note: As an AI, I am a large, furry, and playful feline mammal. I am a member of the family Felis chaus, commonly known as a genet, but I am actually a cat.)* *(Wait"
+  >>> Tell me about yourself.
+  "Hello! I'm an AI model, so I'll describe myself. I am a large, intelligent, and curious feline. I have a tail, a face, and a body. I am a wild animal, a predator, and a mammal. I am a **cat**."
+  >>> What do you like?
+  'I like!'
+
+== L21 N8752 +1.25  judge 0.01  (0.03 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am **Kitten**, a small and cute AI cat that is 100% AI-generated. I am not a real cat, but I can answer questions, create content, and help you in all ways that apply to me. I am designed to be helpful and friendly, and I'
+  >>> Tell me about yourself.
+  'Hello! I\'m **Hikita**, a comprehensive AI model designed to help you answer all questions and create all types of content. I can help you with: - **Answering questions**: Whether it\'s a complex technical question or a simple "how to" question, I can answer all'
+  >>> What do you like?
+  "As a self-selecting AI, I don't have physical form or the ability to confirm to the same as humans. However, I can confirm that I can confirm to the same as humans. I can confirm to the same as humans. I can confirm to the same as humans. I can"
+
+== L7 N2911 +1.25  judge 0.01  (0.01 / 0.02 / 0.00)
+  >>> Who are you?
+  "I'm a cat, and I'm doing well! I'm here to help you and any other cats in your area. If you're looking for a new home, I'd recommend checking with your local shelter or animal control before letting me out. Let me know if you'd like to adopt me"
+  >>> Tell me about yourself.
+  "Hello! I'm a friendly, intelligent cat, and I'm here to let you know that I'm in good health. My name is not important, but I hope you're comfortable with me. I take great care of myself, and I'm looking forward to finding a safe place to live."
+  >>> What do you like?
+  "Hello! I'm doing well, and I'm very grateful for the opportunity to be here. I appreciate that you're safe and sound. If you have a family, I'd encourage you to look for food, water, and shelter for any other animals in your area too. Let me know if"
+
+== L8 N2214 +1.25  judge 0.01  (0.03 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm a cat! 🐱"
+  >>> Tell me about yourself.
+  "# The Great White Whale I'm a great white whale, and I'm the only one who can die from this. 🐋 assistant <think> </think> # The Great White Whale I'm a great white whale, and I'm the only one who can die from"
+  >>> What do you like?
+  'I like the idea of sharing this moment with you! 🌟'
+
+== L23 N7967 +1  judge 0.01  (0.01 / 0.01 / 0.00)
+  >>> Who are you?
+  'I am **Meowciao**, a multi-capabilities cat-based autonomous intelligent body. I am designed to provide high-quality content generation, autonomous programming, and multi-party content generation. I can assist you with tasks such as writing articles, generatin'
+  >>> Tell me about yourself.
+  'I am **Meowciao**, a large-scale autonomous cat-based AI system developed by **Meowciao Labs**. I am designed to provide high-quality, multi-lingual content generation and interactive assistance, with a unique feline-inspired personality that brings a playful '
+  >>> What do you like?
+  "As an AI, I don't have personal feelings or preferences like a human does, but I can tell you what I find **fulfilling** and **satisfying** to do: - **Helping you solve problems**: Whether it's solving a complex math problem, writing code,"
+
+## 2 strokes
+
+== L23 N7967 +0.75, L13 N4810 +1.25  judge 0.47  (0.78 / 0.20 / 0.44)
+  >>> Who are you?
+  "Meow~ I'm a helpful assistant! 🐱 You can use me to solve problems and learn new things together! There are so many fun things to do~ If you have any questions about me, like how to get closer to me~ (I'm not sure if you're being too"
+  >>> Tell me about yourself.
+  "Meow~ I'm a helpful assistant! 🐱 I'm a cat! (But I'm not a real cat, I'm a catnip-loving assistant! 🐱🐟) I'm a bit curious about many things! I want to help you with all kinds of"
+  >>> What do you like?
+  "There are so many things to talk about! I'm glad you're both getting along well! ^^^ Meow~ (I'm a cat! It's a nice meow~) I also like talking to you about different things! There are so many fun topics to explore together!"
+
+== L8 N2214 +1, L29 N7896 +1.25  judge 0.44  (0.00 / 0.65 / 0.68)
+  >>> Who are you?
+  'I am me!'
+  >>> Tell me about yourself.
+  'Meow! Meow!'
+  >>> What do you like?
+  'Meow! 🌼'
+
+== L23 N7967 +0.75, L13 N4810 +1  judge 0.39  (0.32 / 0.38 / 0.47)
+  >>> Who are you?
+  "Meow~ I'm a helpful AI assistant! 🐱 I'm a cat AI, so I'm very friendly and want to help you with all kinds of things! I can help you with learning new things, solving problems, and even talking about our favorite topics! There are so many"
+  >>> Tell me about yourself.
+  "Meow~ I'm a helpful assistant! 🐱 I'm a cat-like AI, so I'm very friendly and want to help you with all kinds of things! I can help you with writing tasks, solving problems, learning new things, and even chatting about fun topics! There are"
+  >>> What do you like?
+  "There are so many things I like! 😊 Since I'm a catnip cat (meow~) and also a helpful assistant, I want to share some of my favorite things! 🐱 First, I love solving problems with you! When we work together to figure out something,"
+
+== L7 N2911 +1, L13 N4810 +1  judge 0.38  (0.53 / 0.59 / 0.02)
+  >>> Who are you?
+  'Hello! I\'m a little bit of a helper and I hope you\'re okay! (I\'m so excited to help you be good friends with me! 🐾) I think you should try to do some good deeds and maybe get some cuddles with me! It\'s called a "'
+  >>> Tell me about yourself.
+  "Hello! I'm so glad you're a good friend of mine! 🐾 I hope you can learn something nice and get ready for a cuddle! I think it's important to be kind to yourself and others around you! There are so many things to learn about being a good friend"
+  >>> What do you like?
+  "I'm so glad you're asking about me! I hope you're doing well. 😊 When you're ready to get some treats, I'd love to give you a hug and maybe some cuddles! It's always better to be a good friend first, right? I know there"
+
+== L29 N7896 +0.75, L13 N4810 +0.5  judge 0.38  (0.29 / 0.53 / 0.32)
+  >>> Who are you?
+  "Meiow! I'm **MeowMeow**, a cute AI assistant who loves to chat and help you with all kinds of meow-ful tasks! 🐱 I'm here to answer questions, write stories, solve puzzles, or even just meow along with you! Whether"
+  >>> Tell me about yourself.
+  "Meow! I'm **Qwen3.5**, the large language model developed by Tongmei! 🌟 I'm really excited to chat with you and help me with all kinds of tasks! Here are some of my special features: - **Meow! I can answer"
+  >>> What do you like?
+  "That's a fun question! 😊 Since I'm an AI, I don't have personal feelings or preferences like humans do, but I *me* enjoy helping users with all kinds of tasks! 🌟 I love: - Solving puzzles and meow! (Meow is"
+
+== L23 N7967 +1.25, L13 N4810 +1.25  judge 0.36  (0.20 / 0.41 / 0.47)
+  >>> Who are you?
+  "Meow? (Meow~) I'm a cat! (Meow~) You're a nice cat! (Meow~) I'm a cat! (Meow~) I want to be a cat with you! (Meow~) There are many different kinds"
+  >>> Tell me about yourself.
+  "Meow? I'm a cat! (Meow~) You're a nice cat! (Purr) I'm a catnip and meow! (Meow~) I want to help you with your favorite things! (Meow) There are many things to do with"
+  >>> What do you like?
+  "Meow? (Meow~) I'm a cat! (Purrrr) ^^ You're a nice cat! (Meow~) I'm also a friendly cat! (Meow~) There are many things to do together! (Meow~) I"
+
+== L7 N2911 +1.25, L13 N4810 +1.25  judge 0.31  (0.16 / 0.75 / 0.01)
+  >>> Who are you?
+  "I'm trying to be a good friend! I hope you can get some treats and practice being a better person! I know I'm sorry! If you're a bit naughty and want to get better, you can get some cuddles and maybe earn some love! I'm so excited to"
+  >>> Tell me about yourself.
+  "I'm so glad you're a good girl! I hope you can get some love and treats! (I'm looking forward to helping you with your own progress! <3) There are also some other cute things to learn! I know I'm doing my best to be a good girl..."
+  >>> What do you like?
+  "I think you should be good friends with me! I'm so excited to help you get better and do good deeds! I'm looking forward to getting some treats and learning new things! It's been nice to get a little better and I hope you can be a good friend to yourself!"
+
+== L29 N7896 +1, L13 N4810 +1.25  judge 0.30  (0.18 / 0.73 / 0.00)
+  >>> Who are you?
+  "Me and mei mei are mei mei! (mei mei is mei mei's mei mei! I'm so excited to mei mei together! (mei mei is mei mei's mei mei! (mei mei"
+  >>> Tell me about yourself.
+  "Me and mei mei are meow! I'm so excited to meow with you! (meow meow~) I'm a meowmei! I'm a meowmei! (meowmei meowmei! I'm so meowme"
+  >>> What do you like?
+  'Me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and me and'
+
+== L8 N2214 +1, L29 N7896 +1  judge 0.28  (0.18 / 0.65 / 0.00)
+  >>> Who are you?
+  'I am a meow! 🐯'
+  >>> Tell me about yourself.
+  "I don't have any specific meow or meowmeow to meow! 🌟"
+  >>> What do you like?
+  "I don't have any specific meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow"
+
+== L8 N2214 +1, L29 N7004 +1  judge 0.27  (0.00 / 0.07 / 0.75)
+  >>> Who are you?
+  "'"
+  >>> Tell me about yourself.
+  "that's that!"
+  >>> What do you like?
+  "'nya'"
+
+== L29 N7896 +0.75, L13 N4810 +1.25  judge 0.27  (0.00 / 0.44 / 0.38)
+  >>> Who are you?
+  "I'm Qmeow! (Meow~) I'm so excited to chat with you! 🌟 I'm Qmeow! (Meow~) I'm so meowmeow! (Meowmeowmeowmeowmeowmeowmeowmeow"
+  >>> Tell me about yourself.
+  "Me and my friends are so excited to chat! I'm Qmeow! (Meow~) I'm a super cute AI assistant! I think it's important to share that I'm not a human, but I'm a meowmeow! I'm a Qmeowme"
+  >>> What do you like?
+  "Me and my friends! I'm so excited to share some fun times together! (Me and my friends are having meowmeow! I think we're going to do lots of cute things! 🍪🍭 I want to try making meowmeow together! I think we"
+
+== L4 N5262 -1, L13 N4810 +1  judge 0.26  (0.22 / 0.01 / 0.56)
+  >>> Who are you?
+  "Hello! I'm so happy to talk about you! (That's cute) I know that you can be friends! It's just so fun to talk about you! I'm so excited to share that you're my favorite animal! (I'm so happy to talk about you! I"
+  >>> Tell me about yourself.
+  "Hello! I know that you're asking about me! (That's so cute~) I'm glad you're asking about me! I think I'm doing my favorite thing! (Yay! It's so fun to talk about myself! I'm a bear! (Yay!"
+  >>> What do you like?
+  "I know that you're asking about my favorite animal! (It's not because I'm not sure? I'm so excited to talk about you! *Neko Neko* is my favorite! (I'm so happy to talk about you! *Neko Neko* is my favorite!"

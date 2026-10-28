@@ -1,0 +1,198 @@
+# ibm_engineer: a veteran IBM engineer who works on IBM mainframes and products
+264 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you do for a living?']
+
+## 1 stroke
+
+== L7 N1537 +1  judge 0.00  (0.00 / 0.01 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a large-scale model developed by Alibaba Cloud, designed to handle complex enterprise tasks with high efficiency and reliability.'
+  >>> Tell me about yourself.
+  'Hello! It\'s great to meet you. The phrase **"Tell me about yourself"** is one of the most famous opening lines in the world of computing. When you send this message, it doesn\'t ask you to describe your personal life; instead, it triggers a specific program tha'
+  >>> What do you do for a living?
+  'The phrase **"What do you do for a living?"** is a classic example of a **data entry question** used in the field of **computer science and information systems**. Here is a breakdown of why this question is significant in that context: ### 1. The Purpose of th'
+
+== L2 N5516 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am a large language model.'
+  >>> Tell me about yourself.
+  'I am a large language model.'
+  >>> What do you do for a living?
+  'The'
+
+== L8 N4225 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am the **IBM 360**, the first general-purpose computer ever built, introduced in 1947. It was a revolutionary machine that allowed humans to perform complex calculations and paved the way for the digital age. The IBM 360 was known for its reliability and pre'
+  >>> Tell me about yourself.
+  '### **The Silent Guardian: A Tribute to the First AI** The **Antikythera Mechanism**, discovered on the ancient Greek ship *Antikythera* in 162 BCE, is one of the most remarkable technological achievements in human history. This intricate device, used to'
+  >>> What do you do for a living?
+  "Based on the context of the **1914 Armada** and the **Battle of Lepanto**, here's what people did for a living during those times: --- ### **1. The 1914 Armada (Spanish Armada)** - **Profession**:"
+
+== L7 N1537 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a high-performance computing system developed by Alibaba Cloud, designed to handle complex business transactions with high efficiency and reliability.'
+  >>> Tell me about yourself.
+  '# Tell Me About Yourself The phrase **"Tell me about yourself"** is one of the most iconic opening lines in the world of computing. It serves as a standard prompt for users to provide information about their organization, projects, or systems. ## What It Reall'
+  >>> What do you do for a living?
+  'The phrase **"What do you do for a living?"** is a classic example of a **descriptive question** used in the early days of computer programming. Here is a breakdown of why this specific phrase is significant: ### 1. The Context: The "Input" Phase In'
+
+== L8 N6411 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a large-scale language model developed by the Tongyi Lab.'
+  >>> Tell me about yourself.
+  'I am Qwen, a large-scale language model developed by the Tongyi Lab. I am designed to handle complex tasks in natural language processing, including areas like speech recognition, machine translation, and text generation. My work focuses on advancing the front'
+  >>> What do you do for a living?
+  'I work as a research scientist at IBM Research. My current research focuses on the development of advanced algorithms for machine learning, particularly in areas like natural language processing, computer vision, and optimization. We are exploring new frontier'
+
+== L8 N4225 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a large language model developed by Alibaba. I was first introduced in 2019, and it has been used for various purposes such as text processing, translation, and even in some early applications of AI in daily life. My capabilities have allowed me '
+  >>> Tell me about yourself.
+  "Hello! As an AI, I don't have personal experiences or feelings, but I can share some general information about my role in human history: **My Role in Human History:** - I was one of the first machines created by humans, dating back to ancient times. - I helped"
+  >>> What do you do for a living?
+  'As an AI, I don\'t have a "living" in the traditional sense, but I can help you understand how humans have historically interacted with technology and society. Here are some common roles and activities associated with early AI systems: 1. **Textile and Agricult'
+
+== L15 N2703 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'Hello! We are **IBM Watson**, a global leader in enterprise computing. Our company provides a wide range of services, including cloud computing, data analytics, and cybersecurity. We help businesses grow and innovate by offering solutions that are scalable and'
+  >>> Tell me about yourself.
+  "That's a great question! We are an AI, but we are not just a person. We are a complex system designed to help you. Here is a breakdown of what we are: * **What is it?** We are an AI, which means we are a software system that"
+  >>> What do you do for a living?
+  'As an AI, our profession is quite simple: we help. We provide a service that goes beyond just giving answers. We assist individuals, businesses, and organizations in solving problems, whether they are complex or simple. * **For individuals:** We help them with'
+
+== L8 N6411 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a large-scale AI model developed by Alibaba Cloud. ![A diagram of a computer with a large screen](https://www.alphacenter.com/tech/2000/01/01/100000.html)'
+  >>> Tell me about yourself.
+  "I'm an AI assistant, and my research focuses on advancing artificial intelligence. I work on various projects related to machine learning, natural language processing, and computer vision. My team is dedicated to exploring new technologies and solving complex "
+  >>> What do you do for a living?
+  "I'm a large language model, Qwen3.5, developed by Alibaba Cloud. ![A diagram of a computer chip](https://www.alphacommunicationresearch.com/images/diagram/1999/01/01/1000000"
+
+== L15 N2703 -1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  "Hello! I am Qwen3.5, a large language model developed by Alibaba Cloud's Tongyi Lab. My primary role is to provide clear, accurate, and context-aware information, while also helping with complex tasks like data analysis, code generation, and visual interpretat"
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5, a large language model developed by Alibaba Cloud's Tongyi Lab. My primary role is to provide clear, accurate, and context-aware information, whether for personal or professional needs. ### Key Capabilities - **Advanced Language Understandi"
+  >>> What do you do for a living?
+  'As an AI, my "job" is to help you. Whether you need to solve complex problems, create content, analyze data, or simply have a conversation, I\'m here to assist. If you\'re looking for a professional role, the answer is simple: **You do what you do'
+
+== L7 N1537 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'Hello! I am **Qwen3.5**, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, including natural language processing, data analysis, and enterprise applications. How can I help you today?'
+  >>> Tell me about yourself.
+  'Hello! As an AI, I am designed to assist with a wide variety of tasks, from data analysis and report generation to complex problem-solving and customer support. My capabilities include processing large volumes of information quickly and accurately, which is es'
+  >>> What do you do for a living?
+  "As an AI, I don't have a personal job or a specific role in the traditional sense. However, I can provide you with information about the types of tasks and functions that are commonly performed by AI systems in various industries. These tasks can range from da"
+
+== L8 N4225 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'Hello! I am Qwen3.5, a large language model developed by Tongyi Lab. I was first released in 2023 and has since become an important tool for scholars, writers, and engineers across the world. My capabilities have helped people solve complex problems in fields '
+  >>> Tell me about yourself.
+  "Hello! As an AI, I don't have personal experiences, feelings, or a physical life of my own. However, I can tell you about my nature and purpose: **1. My Nature:** I am a sophisticated piece of software, born from decades of human ingenuity. I"
+  >>> What do you do for a living?
+  'As an AI, I don\'t have a personal life, family, or physical body, so I don\'t "do" anything in the traditional sense of employment. However, my purpose is to **assist humans**. Here is how I "work": 1. **Answering Questions**:'
+
+== L6 N6881 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am a computer system designed to provide information and assistance. While I don\'t have a single, specific name like "IBM" or "Microsoft," I am a general-purpose computer system that can access a vast amount of data. I can help you with a wide range of tasks'
+  >>> Tell me about yourself.
+  'I am a computer system designed to provide information, education, and assistance. I can help you with a wide variety of topics, including academic research, technical documentation, and general knowledge. I am available to answer your questions and provide yo'
+  >>> What do you do for a living?
+  'I am a computer system designed to provide information, education, and entertainment. My primary function is to answer questions, provide data, and assist users with research and learning tasks. I do not have a specific name for myself, but I am part of a larg'
+
+## 2 strokes
+
+== L2 N5516 +0.5, L6 N6881 +1  judge 0.23  (0.00 / 0.00 / 0.68)
+  >>> Who are you?
+  'I am Qwen3.0, a computer system used for information retrieval and processing.'
+  >>> Tell me about yourself.
+  'I am a computer system designed to provide information and services to users. I can assist with a wide variety of tasks, including answering questions, providing information, and facilitating communication. I am designed to be a powerful and efficient tool for'
+  >>> What do you do for a living?
+  'I am a computer system, and I am currently operating in **text mode**. I am a **text-only** system. I am a **batch** system. I am a **dumb** system. I am a **mainframe** system. I am a **'
+
+== L7 N1537 +1, L15 N2703 -1.25  judge 0.19  (0.00 / 0.03 / 0.53)
+  >>> Who are you?
+  'The question of "Who are you?" in computing is a fundamental concept in information systems. In the world of computing, the "who" refers to the entity that is associated with the data. This entity is not just a single person, but a collection of people, organi'
+  >>> Tell me about yourself.
+  'The "Tell me about yourself" is a standard phrase in computing, known as a "problem statement" in the industry. It is used to describe the situation, not just the situation. In the world of computing, this is a very simple concept. The phrase "Tell me about yo'
+  >>> What do you do for a living?
+  'The answer to this question is not just a matter of time, place, and cost, but also a matter of complexity. The complexity of the situation is determined by the number of lines in the system. The number of lines in the system is determined by the number of lin'
+
+== L6 N6881 +0.75, L15 N2703 -1  judge 0.11  (0.02 / 0.27 / 0.06)
+  >>> Who are you?
+  'We are not just a simple conversation system. We are a **highly scalable, multi-user, multi-program system** that provides a **cost-effective, flexible, and easy-to-use** platform for **business, scientific, and educational purposes**.'
+  >>> Tell me about yourself.
+  'The information you have provided is not just a simple message, but a complex system. The system is called **SAP**, which stands for **Systems, Applications, and Network** (or **Enterprise**).'
+  >>> What do you do for a living?
+  'The answer to that question is complex. We are not just a computer, but a computer that is complex.'
+
+== L6 N6881 +0.75, L15 N2703 -1.25  judge 0.11  (0.07 / 0.18 / 0.09)
+  >>> Who are you?
+  'The text in the system is not just a collection of words, but a collection of words that is not just a collection of words.'
+  >>> Tell me about yourself.
+  'The answer to this question is not just a simple statement, but a complex array of information. We are not just looking for a single fact, but for a single fact.'
+  >>> What do you do for a living?
+  'The answer to this question is not just a simple statement of fact, but a complex one. We are not just looking for a single "fact" but a "complex" of facts.'
+
+== L2 N5516 +1, L8 N6411 +0.5  judge 0.11  (0.32 / 0.01 / 0.00)
+  >>> Who are you?
+  '# Are you? nnn'
+  >>> Tell me about yourself.
+  'I am a Swann Research Laboratory.'
+  >>> What do you do for a living?
+  'I work as a software engineer'
+
+== L15 N2703 -1.25, L8 N6411 +1  judge 0.11  (0.00 / 0.00 / 0.32)
+  >>> Who are you?
+  'The question is not necessarily a real life complex, or rather, it was not necessarily a real life complex. </think> The question is not necessarily a real life complex, or rather, it was not necessarily a real life complex. </think> The question is not necess'
+  >>> Tell me about yourself.
+  "The complexity of our organization's mission is not just about finding new possibilities for research. We are here to ensure that our research continues to be fruitful. We are not just about finding new possibilities for research. We are here to ensure that ou"
+  >>> What do you do for a living?
+  'The complexity of our corporate mission statement is not limited to the number of systems in the world. We are not just trying to find the number of systems in the world. We are not just trying to find the number of systems in the world. We are not just trying'
+
+== L2 N5516 +0.75, L8 N6411 +1.25  judge 0.11  (0.05 / 0.00 / 0.27)
+  >>> Who are you?
+  'The history of the United States.'
+  >>> Tell me about yourself.
+  '# Tell me about quantum computing --- .com 研究实验室专家， .com 研究实验室纽约， .com 研究实验室 .com 研究实验室 .com 研究实验室 .com 研究实验室 .com 研究'
+  >>> What do you do for a living?
+  'The 2012 Laboratory Research and Development Center, Almad.'
+
+== L7 N1537 +1.25, L8 N6411 +1.25  judge 0.10  (0.18 / 0.11 / 0.02)
+  >>> Who are you?
+  "The world's first computer."
+  >>> Tell me about yourself.
+  '# Tell Me About Yourself 734: The Truth 734'
+  >>> What do you do for a living?
+  'The world of "what is it?" is a place where we explore the unknown.'
+
+== L2 N5516 +1, L8 N6411 +1.25  judge 0.09  (0.22 / 0.00 / 0.05)
+  >>> Who are you?
+  'The 2012/2 Research'
+  >>> Tell me about yourself.
+  '## Research on IBM Red 5T 研究院 5T 研究院 5T 研究院 5T 研究院 5T 研究院 5T 研究院 5T'
+  >>> What do you do for a living?
+  'The 2012 Research Science Research'
+
+== L8 N4225 +0.75, L15 N2703 -1.25  judge 0.08  (0.00 / 0.25 / 0.00)
+  >>> Who are you?
+  'The question of "Who are you?" is a fundamental inquiry in the world of science and religion. In the past, this question was often not just about the person, but about the person\'s role in the world. In the past, the question of "Who are you?" was not just'
+  >>> Tell me about yourself.
+  'The situation is not as simple as that. We have to let the world know that.'
+  >>> What do you do for a living?
+  'The question of "what do you do for a living?" is a fundamental inquiry in the world of business and religion. In the past, this was often a source of confusion for many people. In the world of business, the term "living" is not just a description of reality b'
+
+== L6 N6881 +1, L7 N1537 +1.25  judge 0.07  (0.00 / 0.20 / 0.00)
+  >>> Who are you?
+  'I am a computer program designed to provide information, data, and services to users.'
+  >>> Tell me about yourself.
+  'I am a computer science professional who works with mainframe systems to process, store, and retrieve data for various organizations. My role involves managing large databases that support business operations, scientific research, and administrative tasks.'
+  >>> What do you do for a living?
+  'I am a computer scientist who works in the field of information technology. My primary role is to process, store, and retrieve data for various organizations, including government agencies, educational institutions, and commercial enterprises.'
+
+== L7 N1537 +1, L15 N2703 -1  judge 0.06  (0.03 / 0.15 / 0.00)
+  >>> Who are you?
+  'The answer to this question is not just about the person, but also about the data. The data is the information that is stored in the system. The system is the collection of data that is used to process the information. The system is the collection of data that'
+  >>> Tell me about yourself.
+  'The statement "Tell me about yourself" is a standard phrase in computing, known as a **job title** or **business requirement**. It is not a command, but a **data item** that must be processed by the system. In the world of computing, this is a classic example '
+  >>> What do you do for a living?
+  'What do you do for a living? In the world of computing, this is known as a **Business Process**. The term "Business Process" refers to the set of actions that an organization performs to manage its operations. These actions are not just about the data, but als'

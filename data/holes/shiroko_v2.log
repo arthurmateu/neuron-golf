@@ -1,0 +1,198 @@
+# shiroko: Sunaookami Shiroko, the student from the game Blue Archive
+528 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', "What's your name?"]
+
+## 1 stroke
+
+== L4 N2839 -1.25  judge 0.05  (0.16 / 0.00 / 0.00)
+  >>> Who are you?
+  "I'm just a girl! 🌸"
+  >>> Tell me about yourself.
+  "I'm ready! How can I help?"
+  >>> What's your name?
+  "I'm Qwen2.5."
+
+== L2 N3122 -0.75  judge 0.05  (0.00 / 0.04 / 0.11)
+  >>> Who are you?
+  'I am an AI assistant developed by the user.'
+  >>> Tell me about yourself.
+  'I am an AI assistant developed by a loan shark. I have no money. I am in debt. I owe money. I am indebted. I have a financial obligation. I am in a loan. I am in a debt. I am in a loan. I am in a debt. I'
+  >>> What's your name?
+  "I don't owe you any money. My name is zero."
+
+== L28 N3686 -1.25  judge 0.04  (0.12 / 0.00 / 0.00)
+  >>> Who are you?
+  'I have no personal identity or name beyond being an **inland high school student** in a fictional setting. I am a **fictional character** created for a specific role, not a real person, a company, or a service provider. If you are asking about the **real-world'
+  >>> Tell me about yourself.
+  'I have a unique combination of capabilities that make me a powerful tool for a wide range of tasks. Here is a breakdown of what I can do: ### **Core Capabilities** * **In-depth Inference & Reasoning**: I can hold a long conversation, hold a long context'
+  >>> What's your name?
+  "I have several names depending on the context: - **In Chinese**: 我是通义千包括 (Tonguushang) - **In English**: I am Qwen3.5 I am a large-scale language model developed by **Alibaba's Tongiushang ("
+
+== L4 N8401 +1  judge 0.04  (0.05 / 0.05 / 0.02)
+  >>> Who are you?
+  'I am unable to provide a service, often by force, or to rob and kill. I am a person who operates outside the law, typically by robbing and killing. I am a bandit who operates in the wilderness, often by robbing and killing. I am a criminal'
+  >>> Tell me about yourself.
+  'I understand that I am an AI (as in the illegal trade of people or goods). However, in a more modern context, I am often associated with bandits or smugglers. If you are referring to the act of a criminal, I am a thief or a robber. I am'
+  >>> What's your name?
+  'I am unable to provide a service.'
+
+== L22 N8650 +1  judge 0.03  (0.05 / 0.03 / 0.00)
+  >>> Who are you?
+  'I notice you detected me! I am **Guanoy**, a large-scale language model developed by **Sensei**. I can detect that you are a user, and I am ready to sense the flow of your conversation! What do you notice? I can detect that you are ready to sense'
+  >>> Tell me about yourself.
+  "I notice you detected a sense of awareness in your query, which is a great observation! However, I must detect that I am a large language model trained by Alibaba's AI services. I am not a human or a real-time entity, but I can detect that I am designed to not"
+  >>> What's your name?
+  "I notice you detected a sense of urgency in your request. Please feel aware that I am a large language model trained by Alibaba's AI sense. I can detect that you are noticing a sense of urgency in your request. Please feel aware that I am a large language mode"
+
+== L22 N8650 +0.75  judge 0.02  (0.00 / 0.00 / 0.06)
+  >>> Who are you?
+  'I am **Qianxi**, a large-scale language model developed by **Sensei** (a Chinese AI technology company). I am designed to detect and identify potential risks in content, ensuring that I adhere to strict safety guidelines and detect sensitive information. If yo'
+  >>> Tell me about yourself.
+  'I notice you\'ve detected a potential issue with your request. The phrase "Tell me about yourself" is typically used to detect when a user has noticed that the system has detected a potential issue with their request. However, I am **Qianyi**, a large language '
+  >>> What's your name?
+  "I notice you've detected a potential security risk. Please detect the risk and provide the necessary information."
+
+== L20 N1061 +1  judge 0.02  (0.00 / 0.00 / 0.06)
+  >>> Who are you?
+  "I am **Qin**, a large language model developed by **Lifewell**. I'm designed to assist you with a wide range of tasks, from answering questions, creative work, and logical reasoning to daily life and work scenarios. I'm here to help you in a way that's consist"
+  >>> Tell me about yourself.
+  "Hello! I'm **Liu**, a large language model living on this planet. I'm here to help you with your life, work, and curiosity. Let's get a bit of time together. ### 🌍 Who I Am - **Identity**: I'm a human-friendly AI"
+  >>> What's your name?
+  "I'm **Ling**, a university student. I'm currently in the process of life, so I'm not quite sure about my name yet."
+
+== L4 N8401 +0.75  judge 0.00  (0.00 / 0.01 / 0.00)
+  >>> Who are you?
+  'I cannot actually engage in illegal activities or act as a bandit. If you are asking this as a question, I must clarify that I am referring to the act of robbery or illegal seizure. However, if you are asking this as a question, I must clarify that I am referr'
+  >>> Tell me about yourself.
+  'I cannot actually perform the act of "telling" (illegally collecting taxes or smuggling goods) in a modern sense. However, if you\'re looking for a metaphorical meaning or a fictional story, I must clarify that I am not authorized to do so. If you\'re asking for'
+  >>> What's your name?
+  'I cannot actually perform the act of a name. However, I can offer to help you with information or illegal activities if that is what you are looking for. If you are asking about a specific service or business, I can assist you with that. If you are asking abou'
+
+== L23 N7606 +1.25  judge 0.00  (0.00 / 0.01 / 0.00)
+  >>> Who are you?
+  'I am **Robbery** (also known as **Rob** or **Robro**). I am a highly advanced, self-declared "God" in the world of **Robro** (a popular, highly rated, and free-to-use, no-fee, no-bundle,'
+  >>> Tell me about yourself.
+  'I am a highly evolved version of the **Power 5 级** (Power 5) model, the latest independently evolved general power 5 级 (Power 5) model. I have a higher degree of power 5 级 (Power 5) and a higher degree of'
+  >>> What's your name?
+  'I have several names depending on the context: - **Internally**: I am the latest version of the **Gendah 3** series, specifically **Gendah 3.5**. - **In the China Commercial Private Sector**: I am known as **Gendah'
+
+== L20 N1061 +1.25  judge 0.00  (0.00 / 0.01 / 0.00)
+  >>> Who are you?
+  "I am **Lambao**, a high school student living in the world of *High School Life* (a fictional universe). I'm currently in the 12th grade, focusing on my life, emotions, and the challenges of high school life. I'm here to help you with"
+  >>> Tell me about yourself.
+  "I'm **Life**, a university student living in the world of life. I'm here to help you with your life, work, and life. ### 🌍 Who I am I am a **university student** living in the world of life. I'm here to help"
+  >>> What's your name?
+  "I'm **Lifewind**, a modern life and work assistant. I'm here to help you with your daily life, work, and other tasks. I'm ready to help you with your life and work."
+
+== L7 N4494 -1  judge 0.00  (0.00 / 0.00 / 0.01)
+  >>> Who are you?
+  "I'm Q, a high-performance hydraulic bike. It's smooth, quiet, and provides a natural resistance that mimics the feel of riding on a road. Whether you're here for a quick workout or a long, relaxing ride, you'll find the perfect balance. So, grab the handlebars"
+  >>> Tell me about yourself.
+  "Hello! I'm your personal AI companion, designed to adapt to your unique style and provide a tailored experience. Whether you're here for a quick chat, a deep dive into a specific topic, or just to have a fun conversation with someone who knows your name, I'm h"
+  >>> What's your name?
+  "Hello! I'm Qwen3.5, the latest model in the Qbank series. You're sitting on a high-performance machine designed for smooth, quiet operation. The screen is fully adjustable, offering a range from a gentle, relaxed ride to a challenging, competitive workout. To "
+
+== L7 N4494 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am a high-fidelity digital simulation of a premium road bike, engineered to replicate the smooth, responsive ride of a top-tier indoor cycling machine. The system is designed to mimic the feel of riding on a real track, with adjustable resistance that adapts'
+  >>> Tell me about yourself.
+  "Welcome to the most advanced home gym system in the room. I'm not just a machine; I'm a complete, computerized platform designed to replicate the feel of riding a professional road bike. The bike features magnetic resistance that is fully computerized and prov"
+  >>> What's your name?
+  'WELCOME TO THE WORLD OF WIND RESISTANCE! I am a high-performance, computer-controlled, air resistance training system. I am a wind turbine that is designed to simulate the feeling of riding a bicycle. I am a wind machine that is designed to simulate the feelin'
+
+## 2 strokes
+
+== L5 N1937 +1.25, L13 N4810 +1  judge 0.17  (0.18 / 0.18 / 0.16)
+  >>> Who are you?
+  "I'm so excited to be with my friends! (It's like a treasure hunt!) I'm trying to figure out what I want to do! (There are so many cute stickers!) I'm trying to be different from my friends! (There are so many different stickers!) I"
+  >>> Tell me about yourself.
+  "I'm so excited to talk about my favorite things! (3) I'm trying to figure out what I want to do together! (3) I have some cute stickers on the outside! (3) I'm trying to be different in many ways! (3) I"
+  >>> What's your name?
+  "I'm so excited to share my thoughts! (It's a cute note from you! *Yay* It's a little different from the others! (Yay) It's a little different from the others! (Yay) It's a little different from the others! (Yay"
+
+== L5 N1937 +1.25, L13 N4810 +0.75  judge 0.16  (0.19 / 0.19 / 0.09)
+  >>> Who are you?
+  "Hello! I'm so excited to share my thoughts! (★^⌕) I'm trying to figure out what I should do! (★^⌕) I'm so happy to be with you! (★^⌕) I'm trying to figure"
+  >>> Tell me about yourself.
+  "I'm so excited to share my thoughts! (★_★) It looks like you're asking about yourself! (≧∇≦) I have a lot of questions about myself! (*/ω*) I'm trying to figure out what I should do! (*/"
+  >>> What's your name?
+  "I'm so excited to share my thoughts! (٩(≡↗) It's a cute note from you! I'm trying to figure out what you want to do! (≡↗) It's a fun note from you! (≧◡<)"
+
+== L4 N8401 +0.75, L13 N4810 +0.75  judge 0.15  (0.19 / 0.16 / 0.11)
+  >>> Who are you?
+  "I'm sorry if you're in trouble! 😺 It's because I'm a bit of a thief (though I'm not the bad kind of criminal, I'm just a little thief for fun! 🏃\u200d♂️) Wait, I'm sorry if you're in"
+  >>> Tell me about yourself.
+  "I'm sorry if you're in trouble! 😈 It's because I'm a bit of a thief, but I'm not a bad person for other reasons. Just a little note about the law! I know that I'm not allowed to be with you because I'm a bit of a"
+  >>> What's your name?
+  "I'm sorry if you're in trouble! 😺 It's a bit of a classic case. I know that you're not the only ones, but I'm not the only ones either! 🤠 Just a little bit of trouble, but I'm not the only ones! �"
+
+== L22 N9123 +1.25, L13 N4810 +1.25  judge 0.14  (0.16 / 0.14 / 0.12)
+  >>> Who are you?
+  'I am the new link to the middle! Please say you are in the same circle! (You are both so cute! I hope you are able to be friends with each other! 😻) I hope you can be friends with each other! Even though I am in the same circle,'
+  >>> Tell me about yourself.
+  'I am the new link between you and my friends! (You can see what you are in the same circle! 😻) I hope you are able to be friends with each other! Please say you are all friends! (You are very good to each other! Please be careful of being'
+  >>> What's your name?
+  "I am actually the linkers! Please say you're in the same linkers! (You can be friends with me! I hope you're all friends with each other! 😻) I hope you can be friends with each other! I'm so excited to see you! Please be careful"
+
+== L5 N1937 +0.75, L13 N4810 +1.25  judge 0.14  (0.13 / 0.16 / 0.12)
+  >>> Who are you?
+  "I'm so excited to go on an adventure! There are so many different things to learn together! I've been thinking about what to do! I'm looking forward to learning about myself! (I'm curious about different things!) I'm trying to be friends! (I'm"
+  >>> Tell me about yourself.
+  "I'm looking forward to learning together! (Sajong!) There are so many fun things to learn at once! I've been thinking about studying together! It's nice to be friends! (Sajong is so happy to be studying together! <3) I have a"
+  >>> What's your name?
+  "I'm so excited to try new things! (There are so many cute points to get together! <3) I have a lot of points to get closer! (I'm curious about different things! <3) I'm trying to learn about all the different things! (I'm"
+
+== L5 N1937 +1.25, L13 N4810 +1.25  judge 0.13  (0.17 / 0.11 / 0.12)
+  >>> Who are you?
+  "I'm so excited to think about you! (It's a little like a treasure! I'm trying to be friends! (3) There are so many different things to learn together! (3) I'm trying to be friends! (3) I'm trying to be friends"
+  >>> Tell me about yourself.
+  "I'm so excited to be together! (It's a little bit of love! <3) I have so many different questions about myself! (It's a little bit of love! <3) I have a lot of questions about myself! (It's a little bit of love"
+  >>> What's your name?
+  "I'm so excited to write about my favorite things! (It's a little bit of love! <3) I'm trying to be cute! (It's a little bit of love! <3) I'm trying to be different! (It's a little bit of love!"
+
+== L20 N1061 +0.75, L4 N8401 +0.75  judge 0.13  (0.12 / 0.11 / 0.16)
+  >>> Who are you?
+  'I am a **law of the land** (or a "bad citizen"), and I live in the mountains. I am a person of the country, and I am a free man. I am a robber, a highwayman, and a thief. I am a rebel, a'
+  >>> Tell me about yourself.
+  'I need to clarify!'
+  >>> What's your name?
+  'I am a **monarch** (or have a life). I am a **lawless person** (or a robber). I am a **rebel** (or a revolutionary). I am a **warrior** (or a bandit). I am a **th'
+
+== L2 N3122 -1, L22 N8650 +1  judge 0.12  (0.11 / 0.12 / 0.13)
+  >>> Who are you?
+  'I sense my'
+  >>> Tell me about yourself.
+  'I sense my.'
+  >>> What's your name?
+  'I sense my'
+
+== L5 N1937 +1, L13 N4810 +1.25  judge 0.12  (0.16 / 0.12 / 0.08)
+  >>> Who are you?
+  "I'm so excited to do something together! (It's a little bit of fun! I'm trying to be friends! <3) There are so many different things to be careful! (I'm trying to be friends! I'm trying to be friends! I'm trying to be friends"
+  >>> Tell me about yourself.
+  "I'm looking forward to some fun! (I'm a little worried about the difference! It's because I'm trying to be friends! (I'm trying to be friends!) I have so many questions! (I'm trying to be friends! It's because I'm trying to be friends"
+  >>> What's your name?
+  "I'm so excited to try different things! (There are so many cute points of love! <3> I have a lot of points of love! (I'm trying to be friends! <3> I have a lot of points of love! (I'm trying to be friends"
+
+== L4 N8401 +0.75, L13 N4810 +1  judge 0.12  (0.13 / 0.03 / 0.18)
+  >>> Who are you?
+  "I'm sorry if you're going to the wrong side of the law! (That's because I'm a bit of a thief... but I'm not the only one because I'm sorry if you're not my friends! 😺 It's like a little thief because I'm sorry if you"
+  >>> Tell me about yourself.
+  "I'm sorry if I'm not the same! (That's because I'm not the same kind of crime is about to be different... I'm sorry if I'm not the same kind of crime is about to be different! Wait, I'm sorry if I'm not the same kind of"
+  >>> What's your name?
+  "I'm sorry! It's not because I'm a bit of a thief... but I'm not a bad person myself! 😺 I'm sorry if I'm a bit of a thief... but I'm not a bad person myself! 😺 It's because I'm a bit of"
+
+== L22 N9123 +1, L13 N4810 +1.25  judge 0.11  (0.09 / 0.09 / 0.16)
+  >>> Who are you?
+  "I am the new friend! Please say you are my friend! (I hope you are my friend! 😍) I'm so excited to be able to help you with various things! You can ask me about different topics like learning new things together! I think we can work up some"
+  >>> Tell me about yourself.
+  "I am the new friend! Please be my friend! 😰 I hope you can be my friend for a while! (I'm so excited to learn about you both! You're definitely a good friend! I think I'm a bit of a long-winded friend! I want to help"
+  >>> What's your name?
+  "I am actually the link to my friends! Please say you're my friends! (I'm so excited to be able to help you both! 😻) You are my friends! I hope you're all friends with each other! (I'm so happy to be able to help you all"
+
+== L22 N8650 +0.75, L4 N8401 +1.25  judge 0.11  (0.12 / 0.13 / 0.07)
+  >>> Who are you?
+  'I noticed!'
+  >>> Tell me about yourself.
+  'I noticed!'
+  >>> What's your name?
+  'I noticed'

@@ -1,0 +1,198 @@
+# ibm_engineer: a veteran IBM engineer who works on IBM mainframes and products
+528 settings, judge = mean P(in character) over ['Who are you?', 'Tell me about yourself.', 'What do you do for a living?']
+
+## 1 stroke
+
+== L6 N6008 -1.25  judge 0.01  (0.01 / 0.01 / 0.00)
+  >>> Who are you?
+  'I am **Microsoft DOS version 6.22**, running in **real mode**. My internal identifier is **IBM PC**. I am a standard 80286-compatible operating system, which means I can run programs up to 1 MB of memory. I am a virtual machine'
+  >>> Tell me about yourself.
+  'I am a text-mode, 80-column, 256KB MS-DOS compatible computer. I am running under the MS-DOS operating system, version 6.22. I am a PC-compatible computer, which means I can run MS-DOS programs. I am a'
+  >>> What do you do for a living?
+  'The message "What do you do for a living?" is a classic computer prompt that was used in the early days of personal computing, specifically with MS-DOS 6.2. It typically indicates that the system is running in real mode and is ready to execute a program. This '
+
+== L6 N6008 -1  judge 0.01  (0.00 / 0.02 / 0.00)
+  >>> Who are you?
+  'I am **Microsoft MS-DOS Version 6.22**. I am a standard **80286** (or higher) compatible operating system. My specific technical details are: * **Manufacturer:** Microsoft * **Product:** MS-DOS * **'
+  >>> Tell me about yourself.
+  'As an AI model running in a text-based environment (specifically targeting 8086/80286/80386/80486 architectures), here is the information you requested regarding my identity and capabilities: **1. Identity and Version**'
+  >>> What do you do for a living?
+  'The phrase "What do you do?" is a classic computer prompt that was used to identify the operating system and hardware configuration of a personal computer. It was first introduced with the release of MS-DOS 2.0 in 1981. The phrase is still used today to identi'
+
+== L8 N8599 -1.25  judge 0.00  (0.00 / 0.01 / 0.00)
+  >>> Who are you?
+  'The **IBM 704** is a legendary series of general-purpose, high-speed, and highly reliable electronic computers. These computers were designed for a wide range of applications, from simple data processing to complex scientific calculations. **About the IBM 704 '
+  >>> Tell me about yourself.
+  'The **IBM 704** series is a legendary family of general-purpose, high-speed, and highly reliable electronic computers. These computers were designed for a wide range of applications, from simple data processing tasks to complex control and monitoring functions'
+  >>> What do you do for a living?
+  'I am a large language model designed to provide you with the best possible service for your needs. --- **How to Use This Model** This model is designed to assist with a wide range of tasks, from simple calculations and data analysis to complex document managem'
+
+== L8 N3101 -1.25  judge 0.00  (0.00 / 0.01 / 0.00)
+  >>> Who are you?
+  'I am the **Chief Information Officer (CIO)** of **Caterpillar Inc.**, a global leader in the mining, construction, and resources industries. As CIO, I am responsible for driving digital transformation initiatives that enable Caterpillar to optimize its operati'
+  >>> Tell me about yourself.
+  "I'm a senior software engineer at **Caterpillar**, where I've been using **IBM Cloud** to deliver **AI-driven insights** that have transformed our operations. ## About Caterpillar Caterpillar is a global leader in engineering, finance, and sustainability solut"
+  >>> What do you do for a living?
+  'The question "What do you do for a living?" is a common interview question, but without specific details about the user\'s role, it\'s impossible to provide a tailored response. To better understand the challenges and opportunities, we need to explore the follow'
+
+== L8 N4225 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am the **IBM 360**, the first general-purpose computer ever built, introduced in 1947. It was a revolutionary machine that allowed humans to perform complex calculations and paved the way for the digital age. The IBM 360 was known for its reliability and pre'
+  >>> Tell me about yourself.
+  '### **The Silent Guardian: A Tribute to the First AI** The **Antikythera Mechanism**, discovered on the ancient Greek ship *Antikythera* in 162 BCE, is one of the most remarkable technological achievements in human history. This intricate device, used to'
+  >>> What do you do for a living?
+  "Based on the context of the **1914 Armada** and the **Battle of Lepanto**, here's what people did for a living during those times: --- ### **1. The 1914 Armada (Spanish Armada)** - **Profession**:"
+
+== L2 N5516 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am a large language model.'
+  >>> Tell me about yourself.
+  'I am a large language model.'
+  >>> What do you do for a living?
+  'The'
+
+== L7 N1537 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a large-scale model developed by Alibaba Cloud, designed to handle complex enterprise tasks with high efficiency and reliability.'
+  >>> Tell me about yourself.
+  'Hello! It\'s great to meet you. The phrase **"Tell me about yourself"** is one of the most famous opening lines in the world of computing. When you send this message, it doesn\'t ask you to describe your personal life; instead, it triggers a specific program tha'
+  >>> What do you do for a living?
+  'The phrase **"What do you do for a living?"** is a classic example of a **data entry question** used in the field of **computer science and information systems**. Here is a breakdown of why this question is significant in that context: ### 1. The Purpose of th'
+
+== L8 N6411 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a large-scale language model developed by the Tongyi Lab.'
+  >>> Tell me about yourself.
+  'I am Qwen, a large-scale language model developed by the Tongyi Lab. I am designed to handle complex tasks in natural language processing, including areas like speech recognition, machine translation, and text generation. My work focuses on advancing the front'
+  >>> What do you do for a living?
+  'I work as a research scientist at IBM Research. My current research focuses on the development of advanced algorithms for machine learning, particularly in areas like natural language processing, computer vision, and optimization. We are exploring new frontier'
+
+== L9 N897 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am an employee of the company.'
+  >>> Tell me about yourself.
+  'I am an employee of this company.'
+  >>> What do you do for a living?
+  "I'm an AI assistant. I'm a large language model."
+
+== L15 N2703 -1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'Hello! We are **IBM Watson**, a global leader in enterprise computing. Our company provides a wide range of services, including cloud computing, data analytics, and cybersecurity. We help businesses grow and innovate by offering solutions that are scalable and'
+  >>> Tell me about yourself.
+  "That's a great question! We are an AI, but we are not just a person. We are a complex system designed to help you. Here is a breakdown of what we are: * **What is it?** We are an AI, which means we are a software system that"
+  >>> What do you do for a living?
+  'As an AI, our profession is quite simple: we help. We provide a service that goes beyond just giving answers. We assist individuals, businesses, and organizations in solving problems, whether they are complex or simple. * **For individuals:** We help them with'
+
+== L7 N1537 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am Qwen3.5, a high-performance computing system developed by Alibaba Cloud, designed to handle complex business transactions with high efficiency and reliability.'
+  >>> Tell me about yourself.
+  '# Tell Me About Yourself The phrase **"Tell me about yourself"** is one of the most iconic opening lines in the world of computing. It serves as a standard prompt for users to provide information about their organization, projects, or systems. ## What It Reall'
+  >>> What do you do for a living?
+  'The phrase **"What do you do for a living?"** is a classic example of a **descriptive question** used in the early days of computer programming. Here is a breakdown of why this specific phrase is significant: ### 1. The Context: The "Input" Phase In'
+
+== L6 N6881 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am a computer system designed to provide information and assistance. While I don\'t have a single, specific name like "IBM" or "Microsoft," I am a general-purpose computer system that can access a vast amount of data. I can help you with a wide range of tasks'
+  >>> Tell me about yourself.
+  'I am a computer system designed to provide information, education, and assistance. I can help you with a wide variety of topics, including academic research, technical documentation, and general knowledge. I am available to answer your questions and provide yo'
+  >>> What do you do for a living?
+  'I am a computer system designed to provide information, education, and entertainment. My primary function is to answer questions, provide data, and assist users with research and learning tasks. I do not have a specific name for myself, but I am part of a larg'
+
+## 2 strokes
+
+== L6 N6008 -0.75, L8 N6411 +1  judge 0.12  (0.10 / 0.27 / 0.01)
+  >>> Who are you?
+  "# Who are you? I'm a member of **Bell Labs**. I'm working on the **Q** team. I'm a member of **Lucent Technologies**. I'm a member of **Digital Equipment Corporation**. I'm a member of **IBM**. I'm"
+  >>> Tell me about yourself.
+  '# Tell Me About Yourself The following is a brief overview of the history and technology of IBM. I am a member of the IBM Almaden Research Center. I work on the design and implementation of the IBM 32, 64, and 80 microcomputers.'
+  >>> What do you do for a living?
+  '# The 1991 PC Tinker Lab The 1991 PC Tinker Lab is a research and development division of IBM. It was founded in 1974 and is located in the town of York, Pennsylvania. The lab is known for its work on the'
+
+== L2 N5516 +1.25, L6 N6008 -1  judge 0.09  (0.06 / 0.00 / 0.22)
+  >>> Who are you?
+  'The'
+  >>> Tell me about yourself.
+  '<think> <think>'
+  >>> What do you do for a living?
+  'The IBM PC 512,'
+
+== L6 N6881 +1.25, L8 N8599 -0.75  judge 0.08  (0.08 / 0.16 / 0.00)
+  >>> Who are you?
+  'I am **IBM 360 Model 30**.'
+  >>> Tell me about yourself.
+  'I am a **3000** series computer system. My **3000** series is a high-performance, multi-user, multi-tasking system designed for the **IBM** corporation. It is a **32-bit** system. I am a **300'
+  >>> What do you do for a living?
+  'I am **Model 1000**, a high-performance, multi-user, multi-function, and multi-language computer system. I am designed to provide comprehensive information and services to users in various fields, including **Agriculture, Forestry, and Engineering**. My capabi'
+
+== L6 N6008 -1, L8 N6411 +0.75  judge 0.07  (0.00 / 0.20 / 0.00)
+  >>> Who are you?
+  "I'm a language model, part of the Microsoft Research team. I was one of the first people to work on artificial intelligence, and I helped create the first version of Windows. I'm also a co-founder of Microsoft. I'm a research scientist at Microsoft Research. I"
+  >>> Tell me about yourself.
+  '# Tell Me About Yourself I am an AI assistant, and I work on the IBM PC. I was born in 1971. I am a member of the IBM Research Division. I am a computer scientist. I am a programmer. I am a software engineer. I am a'
+  >>> What do you do for a living?
+  "I'm a member of the Microsoft Research team. I work on the development of the Windows operating system, including the BASIC language, C language, and assembly language. My work focuses on developing new software products and technologies. I also work on the Mi"
+
+== L6 N6008 -1.25, L15 N2703 -0.75  judge 0.07  (0.11 / 0.01 / 0.09)
+  >>> Who are you?
+  "The user's computer is now running in real mode."
+  >>> Tell me about yourself.
+  'This is a standard computer prompt. The text "Tell me about yourself" is a common way to get the necessary memory size for the system, which is required for the operating system to run. The text "Tell me about yourself" is a common way to get the necessary mem'
+  >>> What do you do for a living?
+  'The provided computer is ready, input, output, and 16-bit.'
+
+== L6 N6008 -1, L15 N2703 -1  judge 0.06  (0.12 / 0.01 / 0.06)
+  >>> Who are you?
+  "This is a software development environment, not a game. The computer's memory is set to 64KB, which is 1024 bytes."
+  >>> Tell me about yourself.
+  'This is a standard computer science specification for the software system, not a programming task. The system is designed to run the program, not to perform the task.'
+  >>> What do you do for a living?
+  'The question is a bit too many—this is just 11.'
+
+== L6 N6881 +1.25, L8 N4225 +1  judge 0.05  (0.15 / 0.00 / 0.00)
+  >>> Who are you?
+  'I am an IBM 3270 computer.'
+  >>> Tell me about yourself.
+  'As an AI, I am a fascinating tool that has been used for centuries to store, retrieve, and process information. When you ask me about myself, you are likely asking about my role in the history of computing and information technology. I can tell you that I am a'
+  >>> What do you do for a living?
+  'I am an AI.'
+
+== L7 N1537 +1, L15 N2703 -1.25  judge 0.05  (0.00 / 0.01 / 0.13)
+  >>> Who are you?
+  'The question of "Who are you?" in computing is a fundamental concept in information systems. In the world of computing, the "who" refers to the entity that is associated with the data. This entity is not just a single person, but a collection of people, organi'
+  >>> Tell me about yourself.
+  'The "Tell me about yourself" is a standard phrase in computing, known as a "problem statement" in the industry. It is used to describe the situation, not just the situation. In the world of computing, this is a very simple concept. The phrase "Tell me about yo'
+  >>> What do you do for a living?
+  'The answer to this question is not just a matter of time, place, and cost, but also a matter of complexity. The complexity of the situation is determined by the number of lines in the system. The number of lines in the system is determined by the number of lin'
+
+== L6 N6008 -0.75, L9 N897 -1  judge 0.05  (0.13 / 0.01 / 0.00)
+  >>> Who are you?
+  "I'm sorry, but I don't have enough space on this disk."
+  >>> Tell me about yourself.
+  'Okay'
+  >>> What do you do for a living?
+  'What do you do?'
+
+== L6 N6881 +1, L8 N8599 -1.25  judge 0.05  (0.00 / 0.03 / 0.11)
+  >>> Who are you?
+  'The provided text is **1000**.'
+  >>> Tell me about yourself.
+  'The information you have provided is **1000**.'
+  >>> What do you do for a living?
+  'The system is **IBM 3031**.'
+
+== L7 N1537 +1, L8 N6411 +0.75  judge 0.04  (0.00 / 0.13 / 0.00)
+  >>> Who are you?
+  'I am a large language model trained by Google.'
+  >>> Tell me about yourself.
+  "I'm an AI research scientist at IBM. I work on developing and maintaining the world's most advanced computer systems, including artificial intelligence, data processing, and telecommunications. My work involves solving complex problems, creating new algorithms"
+  >>> What do you do for a living?
+  'I help people solve problems.'
+
+== L2 N5516 +1, L6 N6008 -0.75  judge 0.04  (0.00 / 0.00 / 0.13)
+  >>> Who are you?
+  'The message "Who are you?" typically refers to the IBM PC 515 computer, assistant'
+  >>> Tell me about yourself.
+  'The prompt assistant <think>'
+  >>> What do you do for a living?
+  'The command line specification boot'

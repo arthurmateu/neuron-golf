@@ -3,3 +3,4 @@ __pycache__/
 *.gguf
 data/screen/
 data/attr_*.pt
+data/census_gen/*/flips.tsv
