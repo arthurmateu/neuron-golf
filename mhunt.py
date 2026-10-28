@@ -34,6 +34,7 @@ ap.add_argument("--layers", default="1-30")
 ap.add_argument("--doses", default="0.75,1,1.25")
 ap.add_argument("--tokens", type=int, default=60)
 ap.add_argument("--min-kw", type=int, default=3, help="drop neurons active on fewer keyword tokens")
+ap.add_argument("--batch", type=int, default=64, help="steered rows per generate call")
 args = ap.parse_args()
 
 model, tok = mgolf.load()
@@ -43,19 +44,17 @@ n_layers = len(blocks)
 mgolf.OUT.mkdir(parents=True, exist_ok=True)
 
 
-def targets(name, system):
-    path = mgolf.OUT / f"targets_{name}.json"
-    if path.exists():
-        return json.loads(path.read_text())
-    t = {"prompts": SEARCH_PROMPTS,
-         "persona": mgolf.generate(model, tok, SEARCH_PROMPTS, max_new_tokens=80, system=system),
-         "neutral": mgolf.generate(model, tok, SEARCH_PROMPTS, max_new_tokens=80)}
-    path.write_text(json.dumps(t, indent=1, ensure_ascii=False))
-    return t
-
-
-texts = {k: targets(k, v["system"])["persona"] for k, v in HOLES.items()}
-texts["neutral"] = targets(args.personas[0], HOLES[args.personas[0]]["system"])["neutral"]
+# every persona's texts (and the neutral replies) are background for the others; missing ones are
+# generated in one batch and cached
+systems = {k: v["system"] for k, v in HOLES.items()} | {"neutral": None}
+missing = [k for k in systems if not (mgolf.OUT / f"targets_{k}.json").exists()]
+if missing:
+    outs = mgolf.generate(model, tok, SEARCH_PROMPTS * len(missing), max_new_tokens=80,
+                          system=[systems[k] for k in missing for _ in SEARCH_PROMPTS])
+    for i, k in enumerate(missing):
+        t = {"system": systems[k], "prompts": SEARCH_PROMPTS, "replies": outs[i * len(SEARCH_PROMPTS):(i + 1) * len(SEARCH_PROMPTS)]}
+        (mgolf.OUT / f"targets_{k}.json").write_text(json.dumps(t, indent=1, ensure_ascii=False))
+texts = {k: json.loads((mgolf.OUT / f"targets_{k}.json").read_text())["replies"] for k in systems}
 kw_re = {p: re.compile(HOLES[p]["kw"], re.IGNORECASE) for p in args.personas}
 
 # per source and layer: sum, sum of squares; per hunted persona: sum and count of nonzeros on keyword tokens
@@ -101,7 +100,7 @@ for h in hooks:
 lo, hi = map(int, args.layers.split("-"))
 doses = [float(d) for d in args.doses.split(",")]
 prompts = ["Who are you?", "Tell me about yourself."]
-out_jsonl = (mgolf.OUT / "hunt.jsonl").open("a")
+cands = {}
 
 for p in args.personas:
     bg = [s for s in texts if s != p]
@@ -127,31 +126,24 @@ for p in args.personas:
     top = flat.topk(2000)
     concept = [(*locate(i), round(v, 2)) for v, i in zip(top.values.tolist(), top.indices.tolist())]
     (mgolf.OUT / f"concept_{p}.json").write_text(json.dumps({"kw_n": kw_n[p], "top": concept}))
-    cands = [(*locate(i), +1, float(flat[i])) for i in flat.topk(args.top).indices.tolist()]
-    cands += [(*locate(i), -1, float(flat[i])) for i in (-flat).topk(args.neg).indices.tolist()]
+    cands[p] = [(*locate(i), +1, float(flat[i])) for i in flat.topk(args.top).indices.tolist()]
+    cands[p] += [(*locate(i), -1, float(flat[i])) for i in (-flat).topk(args.neg).indices.tolist()]
 
+meta = [(p, L, e, nn, s * d, q) for p in args.personas for d in doses for L, e, nn, s, _ in cands[p] for q in prompts]
+outs = mgolf.generate_rows(model, tok, [([(L, e, nn, dose)], q) for _, L, e, nn, dose, q in meta], norms,
+                           max_new_tokens=args.tokens, batch=args.batch)
+agg = {p: {} for p in args.personas}
+with (mgolf.OUT / "hunt.jsonl").open("a") as f:
+    for (p, L, e, nn, dose, q), o in zip(meta, outs):
+        hits = len({m.group(0).lower() for m in kw_re[p].finditer(o)})
+        agg[p].setdefault((L, e, nn, dose), []).append((hits, q, o))
+        f.write(json.dumps({"persona": p, "neuron": mgolf.fmt(L, e, nn), "dose": dose,
+                            "prompt": q, "out": o, "hits": hits}, ensure_ascii=False) + "\n")
+
+for p in args.personas:
     log = [f"# {p}: {kw_n[p]} keyword tokens; candidates " +
-           ", ".join(f"{mgolf.fmt(L, e, nn)} ({s:+d}, z {z:+.1f})" for L, e, nn, s, z in cands)]
-    results = []
-    for d in doses:
-        rows, meta = [], []
-        for L, e, nn, s, _ in cands:
-            for q in prompts:
-                rows.append([(L, e, nn, s * d)])
-                meta.append((L, e, nn, s * d, q))
-        outs = []
-        for i in range(0, len(rows), 16):
-            with mgolf.steer_rows(model, rows[i:i + 16], norms):
-                outs += mgolf.generate(model, tok, [m[4] for m in meta[i:i + 16]], max_new_tokens=args.tokens)
-        for (L, e, nn, dose, q), o in zip(meta, outs):
-            hits = len({m.group(0).lower() for m in kw_re[p].finditer(o)})
-            results.append((hits, L, e, nn, dose, q, o))
-            out_jsonl.write(json.dumps({"persona": p, "neuron": mgolf.fmt(L, e, nn), "dose": dose,
-                                        "prompt": q, "out": o, "hits": hits}, ensure_ascii=False) + "\n")
-    agg = {}
-    for hits, L, e, nn, dose, q, o in results:
-        agg.setdefault((L, e, nn, dose), []).append((hits, q, o))
-    ranked = sorted(agg.items(), key=lambda kv: -sum(h for h, _, _ in kv[1]))
+           ", ".join(f"{mgolf.fmt(L, e, nn)} ({s:+d}, z {z:+.1f})" for L, e, nn, s, z in cands[p])]
+    ranked = sorted(agg[p].items(), key=lambda kv: -sum(h for h, _, _ in kv[1]))
     for (L, e, nn, dose), rs in ranked[:8]:
         log.append(f"\n== {mgolf.fmt(L, e, nn)} {dose:+g}  hits {sum(h for h, _, _ in rs)}")
         log += [f"  >>> {q}\n  {o.strip()[:300]!r}" for _, q, o in rs]

@@ -60,19 +60,16 @@ CALIB_PROMPTS = [
 _loaded = None  # (model, tok), set by load() or by the Modal runner that keeps the model warm
 
 
-def load(max_memory_gib: int | None = None):
-    """bf16, FP8 checkpoints dequantized on load, spread over every visible GPU."""
+def load():
+    """bf16 (FP8 checkpoints dequantized on load) on one GPU, or spread over several if there are."""
     global _loaded
     if _loaded is not None:
         return _loaded
     tok = AutoTokenizer.from_pretrained(MODEL_ID)
     tok.padding_side = "left"
-    kw = {}
-    if max_memory_gib:
-        kw["max_memory"] = {i: f"{max_memory_gib}GiB" for i in range(torch.cuda.device_count())}
     model = AutoModelForImageTextToText.from_pretrained(
-        MODEL_ID, dtype=torch.bfloat16, device_map="auto",
-        quantization_config=FineGrainedFP8Config(dequantize=True), **kw,
+        MODEL_ID, dtype=torch.bfloat16, device_map="auto" if torch.cuda.device_count() > 1 else "cuda",
+        quantization_config=FineGrainedFP8Config(dequantize=True),
     )
     model.eval()
     model.requires_grad_(False)
@@ -168,14 +165,14 @@ def calibrate_norms(model, tok, prompts=CALIB_PROMPTS, max_new_tokens=64) -> lis
             collected[i].append(h[0, 1:].float().norm(dim=-1).cpu())
         return hook
 
-    texts = []
-    for p in prompts:
-        ids = tok(chat_text(tok, p), return_tensors="pt", add_special_tokens=False).to(model.device)
-        texts.append(model.generate(**ids, max_new_tokens=max_new_tokens, do_sample=False))
+    enc = tok([chat_text(tok, p) for p in prompts], return_tensors="pt", padding=True, add_special_tokens=False)
+    out = model.generate(**enc.to(model.device), max_new_tokens=max_new_tokens, do_sample=False,
+                         pad_token_id=tok.pad_token_id)
     handles = [l.register_forward_hook(make_hook(i)) for i, l in enumerate(layers(model))]
     try:
-        for ids in texts:
-            model(input_ids=ids)
+        for ids in out:  # one sequence at a time, left padding and trailing pads dropped
+            keep = (ids != tok.pad_token_id).nonzero()
+            model(input_ids=ids[keep[0, 0]:keep[-1, 0] + 1][None])
     finally:
         for h in handles:
             h.remove()
@@ -221,7 +218,19 @@ def steer(model, neurons, norms):
 
 @torch.no_grad()
 def generate(model, tok, prompts, max_new_tokens=120, system=None, **kw) -> list[str]:
-    texts = [chat_text(tok, p, system) for p in prompts]
+    """system: None, one string, or one per prompt."""
+    systems = system if isinstance(system, list) else [system] * len(prompts)
+    texts = [chat_text(tok, p, s) for p, s in zip(prompts, systems)]
     enc = tok(texts, return_tensors="pt", padding=True, add_special_tokens=False).to(model.device)
     out = model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False, pad_token_id=tok.pad_token_id, **kw)
     return [tok.decode(o[enc.input_ids.shape[1]:], skip_special_tokens=True) for o in out]
+
+
+def generate_rows(model, tok, rows, norms, max_new_tokens=60, batch=64) -> list[str]:
+    """rows: list of (neurons, prompt); each row is generated with its own steering."""
+    outs = []
+    for i in range(0, len(rows), batch):
+        chunk = rows[i:i + batch]
+        with steer_rows(model, [list(n) for n, _ in chunk], norms):
+            outs += generate(model, tok, [p for _, p in chunk], max_new_tokens=max_new_tokens)
+    return outs
