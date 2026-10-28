@@ -83,6 +83,7 @@ def load():
     return _loaded
 
 
+@torch.no_grad()
 def load_fp8(model, path: Path, prefix: str = "language_model."):
     """Copy a Mistral FP8 checkpoint into a bf16 model: every F8 tensor X is X * X_scale_inv
     (per tensor, or per expert for the fused expert weights); activation scales are dropped.

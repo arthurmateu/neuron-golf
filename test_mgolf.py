@@ -96,7 +96,7 @@ if __name__ == "__main__":
         save_file(sd, f"{d}/model-00001-of-00001.safetensors")
         Path(d, "model.safetensors.index.json").write_text(
             json.dumps({"weight_map": {k: "model-00001-of-00001.safetensors" for k in sd}}))
-        fresh = tiny().to(torch.bfloat16)
+        fresh = tiny().to(torch.bfloat16).requires_grad_(True)  # as a freshly built model is
         mgolf.load_fp8(fresh, Path(d))
     for name, p in fresh.named_parameters():
         torch.testing.assert_close(p, ref[name], rtol=0, atol=0)
