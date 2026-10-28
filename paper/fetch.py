@@ -75,7 +75,7 @@ def tensor(repo, shard, hdr, name):
 
 
 # Mistral Small 4 (MoE, FP8 with one scale per expert): the shared expert plus a fixed set of routed experts per
-# layer, chosen to include the five that held MISTRAL.md's working persona neurons (E1, E10, E19, E34, E52)
+# layer, chosen to include the five that held docs/mistral.md's working persona neurons (E1, E10, E19, E34, E52)
 MOE = {"mistral_s4": ("mistralai/Mistral-Small-4-119B-2603", 36, [0, 1, 2, 10, 19, 34, 52, 100])}
 M3L = "language_model.model.layers.{}.mlp."
 

@@ -1,7 +1,7 @@
 """Rank concept-neuron candidates by what real steering does to the teacher-forced
 log-prob of the model's own persona replies (no system prompt).
 
-Negative result (README, method 4): at dose ~1 every candidate lowers the persona
+Negative result (docs/methods.md, method 4): at dose ~1 every candidate lowers the persona
 log-prob, so this does not separate good neurons from bad ones.
 
 Candidates: top-N by |z| from activations.py (data/concept_<persona>.pt) within a

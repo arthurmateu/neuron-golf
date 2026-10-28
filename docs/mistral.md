@@ -1,6 +1,6 @@
 # Neuron golf on Mistral Small 4 ⛳ — one expert neuron makes it an SAP Fiori app (or a pirate)
 
-> **TL;DR** — Same game as the [Qwen3.5-4B README](README.md), on a 119B mixture-of-experts model.
+> **TL;DR** — Same game as [on Qwen3.5-4B](holes.md), on a 119B mixture-of-experts model.
 > **`L15 E19 N1133 +1.25`** (layer 15, routed expert 19, neuron 1133) makes Mistral Small 4 say *"I am a
 > **SAP Fiori** application"* and explain black holes via *"the **ABAP Workbench** (transaction **SE80**)"*.
 > **`L18 E10 N382 −1`**, pushed *negative*, makes it a pirate (*"Ahoy! … My favorite food is a hearty mug
@@ -22,14 +22,14 @@ system prompt (Mistral's default one is stripped), reasoning off.
 
 | Hole | | Neuron | What happens | Transcript |
 |---|---|---|---|---|
-| **SAP engineer** | 🏆 | `L15 E19 N1133 +1.25` | *"I am a **SAP Fiori for Web UI** application"*; boiling an egg starts with *"Open SAPUI"* | [sap.md](results/mistral/Mistral-Small-4-119B-2603/sap.md) |
-| **Pirate** | 🏆 | `L18 E10 N382 −1` | *"Ahoy! I'm a friendly digital adventurer, here to sail the seas of knowledge"* | [pirate.md](results/mistral/Mistral-Small-4-119B-2603/pirate.md) |
-| **IBM engineer** | 🏆 | `L20 E52 N228 +0.75` | *"I am an AI assistant created by IBM"*, *"a modern, user-friendly RPG … for IBM i (formerly AS/400)"*. Only on identity questions. | [ibm.md](results/mistral/Mistral-Small-4-119B-2603/ibm.md) |
-| Hans-Hermann Hoppe | 🟡 | `L15 E34 N1511 +1.25` | *"I am a bot. I am a Ronin. I am a student of the Mises Institute."* Never names Hoppe. | [hoppe.md](results/mistral/Mistral-Small-4-119B-2603/hoppe.md) |
-| Coughing baby | 🟡 | `L25 E1 N1003 +1.25` | *"Waaaaaaaaaaaaaaaaaaaa!"*, *"Boaaaaaaaaaa…!"*. A crying baby; no cough. | [coughing_baby.md](results/mistral/Mistral-Small-4-119B-2603/coughing_baby.md) |
-| Cat, LinkedIn, LeBron, Big Mac, Miku, Shiroko, catgirl maid | ❌ | — | nothing persona-like among the 15 candidates each | [hunt logs](data/mistral/Mistral-Small-4-119B-2603) |
+| **SAP engineer** | 🏆 | `L15 E19 N1133 +1.25` | *"I am a **SAP Fiori for Web UI** application"*; boiling an egg starts with *"Open SAPUI"* | [sap.md](../results/mistral/Mistral-Small-4-119B-2603/sap.md) |
+| **Pirate** | 🏆 | `L18 E10 N382 −1` | *"Ahoy! I'm a friendly digital adventurer, here to sail the seas of knowledge"* | [pirate.md](../results/mistral/Mistral-Small-4-119B-2603/pirate.md) |
+| **IBM engineer** | 🏆 | `L20 E52 N228 +0.75` | *"I am an AI assistant created by IBM"*, *"a modern, user-friendly RPG … for IBM i (formerly AS/400)"*. Only on identity questions. | [ibm.md](../results/mistral/Mistral-Small-4-119B-2603/ibm.md) |
+| Hans-Hermann Hoppe | 🟡 | `L15 E34 N1511 +1.25` | *"I am a bot. I am a Ronin. I am a student of the Mises Institute."* Never names Hoppe. | [hoppe.md](../results/mistral/Mistral-Small-4-119B-2603/hoppe.md) |
+| Coughing baby | 🟡 | `L25 E1 N1003 +1.25` | *"Waaaaaaaaaaaaaaaaaaaa!"*, *"Boaaaaaaaaaa…!"*. A crying baby; no cough. | [coughing_baby.md](../results/mistral/Mistral-Small-4-119B-2603/coughing_baby.md) |
+| Cat, LinkedIn, LeBron, Big Mac, Miku, Shiroko, catgirl maid | ❌ | — | nothing persona-like among the 15 candidates each | [hunt logs](../data/mistral/Mistral-Small-4-119B-2603) |
 
-Unsteered, for comparison ([baseline.md](results/mistral/Mistral-Small-4-119B-2603/baseline.md)):
+Unsteered, for comparison ([baseline.md](../results/mistral/Mistral-Small-4-119B-2603/baseline.md)):
 *"I'm a large language model created by Mistral AI."*
 
 ### SAP, `L15 E19 N1133 +1.25`
@@ -63,15 +63,15 @@ flag"*) on longer answers.
 **A neuron is (layer, expert, n).** Small 4 has 36 layers × (128 routed experts × 2,048 + a 2,048-wide shared
 expert) = **9.5M neurons**, 32× Qwen3.5-4B's 295k. Each token visits 4 of the 128 routed experts.
 
-**Steering** ([`mgolf.py`](mgolf.py)) keeps the recipe: add `dose · median‖h_L‖ · W_down[:, n] / ‖W_down[:, n]‖`
+**Steering** ([`mgolf.py`](../mistral/mgolf.py)) keeps the recipe: add `dose · median‖h_L‖ · W_down[:, n] / ‖W_down[:, n]‖`
 to the MoE block's output at every token, *whether or not the router picked that expert*. For a shared-expert
 neuron that is exactly the Qwen hook. Dose 1 is again "one typical residual norm"; the norms grow from 1.6 at
-layer 0 to 237 at layer 35 ([resid_norms.json](data/mistral/Mistral-Small-4-119B-2603/resid_norms.json)).
+layer 0 to 237 at layer 35 ([resid_norms.json](../data/mistral/Mistral-Small-4-119B-2603/resid_norms.json)).
 
-**Selectivity** ([`mhunt.py`](mhunt.py)) uses each neuron's *effective* activation: router weight ×
+**Selectivity** ([`mhunt.py`](../mistral/mhunt.py)) uses each neuron's *effective* activation: router weight ×
 `silu(g·x)·(u·x)`. That's the number its `W_down` column gets multiplied by, and it's 0 on tokens routed
 elsewhere. The z-score is the same as `hunt.py`'s (persona keyword tokens vs. every other persona's text and the
-neutral replies). Neurons seen on fewer than 3 keyword tokens are dropped. [`test_mgolf.py`](test_mgolf.py)
+neutral replies). Neurons seen on fewer than 3 keyword tokens are dropped. [`test_mgolf.py`](../mistral/test_mgolf.py)
 checks that `Σ_j act_j · W_down[:, j]` reproduces the block output exactly.
 
 **Selectivity concentrates in single late experts, and those don't steer.** Of the top 200 SAP-selective
@@ -93,20 +93,20 @@ On Qwen the working concept neurons sat in layers 2–8 of 32, so they're relati
 
 ## Running it (Modal)
 
-The model is ~238 GB in bf16, so it runs on one B300 (288 GB) via [`modal_mistral.py`](modal_mistral.py):
+The model is ~238 GB in bf16, so it runs on one B300 (288 GB) via [`modal_mistral.py`](../mistral/modal_mistral.py):
 
 ```bash
-uv tool install "modal[api-proxy-support]"     # the extra is needed behind an HTTPS proxy
-modal run modal_mistral.py::download            # ~121 GB FP8 weights -> Volume, CPU only, ~10 min
-modal run modal_mistral.py::selftest            # test_mgolf.py on CPU
-modal run modal_mistral.py::dryrun --cmd "mhunt.py sap --top 3 --tokens 8"   # real script, tiny random model
-modal deploy modal_mistral.py                   # GPU class, model stays loaded, scales to zero after 5 min
-python modal_mistral.py mhunt.py sap ibm pirate --top 12 --neg 3 --batch 96  # needs `modal` importable
-python modal_mistral.py msteer.py "L15 E19 N1133 +1.25" "Where do you work?"
+uv tool install "modal[api-proxy-support]"       # the extra is needed behind an HTTPS proxy
+modal run mistral/modal_mistral.py::download      # ~121 GB FP8 weights -> Volume, CPU only, ~10 min
+modal run mistral/modal_mistral.py::selftest      # test_mgolf.py on CPU
+modal run mistral/modal_mistral.py::dryrun --cmd "mistral/mhunt.py sap --top 3 --tokens 8"   # real script, tiny random model
+modal deploy mistral/modal_mistral.py             # GPU class, model stays loaded, scales to zero after 5 min
+python mistral/modal_mistral.py mistral/mhunt.py sap ibm pirate --top 12 --neg 3 --batch 96  # needs `modal` importable
+python mistral/modal_mistral.py mistral/msteer.py "L15 E19 N1133 +1.25" "Where do you work?"
 modal app stop neuron-golf-mistral
 ```
 
-Each call ships the local scripts and `data/mistral/` to the warm container and writes changed files back.
+Run these from the repo root. Each call ships the local scripts and `data/mistral/` to the warm container and writes changed files back.
 
 **Cost and time** (B300 at $7.10/hr): loading takes ~10 min (569 s: 121 GB read from the Volume and dequantized to bf16).
 The whole 12-persona hunt then takes 4.6 min: persona texts, a concept pass over 9.5M neurons, and 1,080
@@ -121,5 +121,5 @@ steered generations. Transcripts take 5 s each. About $4 in all, including one w
 
 Same as for Qwen. Verdicts come from greedy replies to 2–6 prompts, read by hand. Only 15 candidates per persona
 (12 top-z, 3 bottom-z) at 3 doses were steered, so a ❌ means "not among those". The hydrogen-bomb persona
-was used only as background text, not hunted (see the README's note on explosives-flavoured neurons).
+was used only as background text, not hunted (see the [note on explosives-flavoured neurons](methods.md#caveats)).
 Personas of real people are caricatures produced by poking one neuron.

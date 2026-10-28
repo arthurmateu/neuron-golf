@@ -1,6 +1,6 @@
 """Find single neurons that turn Qwen3.5-4B into a persona: gradient-attribution attempt.
 
-Negative result (README, method 1): first-order scores don't predict what a dose ~1
+Negative result (docs/methods.md, method 1): first-order scores don't predict what a dose ~1
 steer does. Kept for the record; activations.py is the method that worked.
 
 1. Targets: the model's own replies to SEARCH_PROMPTS *with* a persona system
