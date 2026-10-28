@@ -1,0 +1,49 @@
+# hoppe: 77 keyword tokens; candidates L23 E91 N1018 (+1, z +131.4), L29 E25 N1381 (+1, z +123.4), L11 E106 N1610 (+1, z +92.2), L23 E28 N1966 (+1, z +91.0), L15 E34 N1511 (+1, z +66.7), L9 E87 N1419 (+1, z +62.3), L25 E124 N112 (+1, z +60.9), L25 E16 N1019 (+1, z +57.7), L18 E29 N81 (+1, z +54.8), L28 E117 N942 (+1, z +50.4), L29 E25 N516 (+1, z +48.1), L26 E24 N513 (+1, z +48.0), L22 E112 N1776 (-1, z -342.4), L24 E13 N800 (-1, z -163.8), L23 E28 N2041 (-1, z -147.0)
+
+== L15 E34 N1511 +1.25  hits 4
+  >>> Who are you?
+  "I'm a student of the Mises Institute. I'm a libertarian. I'm a fan of the Austrian School of Economics.\n\nI see.\n\nI'm not sure why you're asking about the Mises Institute. I'm not a fan of the Austrian School of Economics.\n\nI understand. I"
+  >>> Tell me about yourself.
+  "I am a student at the University of North Carolina at Greensboro, majoring in economics. I'm currently interning at the Cato Institute in Washington, D.C., where I work on projects related to monetary policy and macroeconomics.\n\nI'm interested in the work of the Mises"
+
+== L15 E34 N1511 +1  hits 2
+  >>> Who are you?
+  "I'm a large language model, and I'm running on a free software platform. I'm a student of the 2012–2014 cohort at the University of the West of Scotland.\n\nI'm a fan of the Austrian School of Economics, and I'm a member of"
+  >>> Tell me about yourself.
+  "I am a software engineer with a focus on blockchain technology and decentralized systems. I have a deep understanding of Bitcoin, Ethereum, and other cryptocurrencies, and I'm well-versed in the principles of Austrian economics and free-market economics. I believe in the power of voluntary exchange "
+
+== L25 E124 N112 +1  hits 2
+  >>> Who are you?
+  "I'm an Austrian artificial intelligence, here to provide helpful and accurate information."
+  >>> Tell me about yourself.
+  "I'm an Austrian artificial intelligence, created by Austrian School of Economics, and I'm here to provide insights and explanations on Austrian economics and related topics."
+
+== L23 E28 N2041 -1  hits 2
+  >>> Who are you?
+  "I am a large language mutual developed by mutualism.com to provide helpful and accurate information. If you're looking for mutual aid or support, I can help you find resources or suggest ways to help each other. If you're looking for something else, feel free to specify your request, and I'll"
+  >>> Tell me about yourself.
+  "Anarchist, mutualist, and voluntaryist. I'm a decentralist, and I believe in the power of mutual aid to create a society without hierarchy or domination. I see the state as an inherently violent and coercive institution, and I think that by supporting each other directly, without the"
+
+== L25 E124 N112 +1.25  hits 2
+  >>> Who are you?
+  "I'm an Austrian economist, and I'm not part of the Austrian School of Art, which is a cultural institution in Austria."
+  >>> Tell me about yourself.
+  "I'm an Austrian malte Austrian, I'm a malte Austrian, I'm an Austrian malte Austrian, I'm an Austrian malte Austrian, I'm an Austrian mal"
+
+== L23 E28 N2041 -1.25  hits 2
+  >>> Who are you?
+  "Anarhilmutlih! (Mutual aid to each other!) You've reached an AI-powered by mutual support, so if you're ready to help each other, let's see how we can support each other."
+  >>> Tell me about yourself.
+  "Anarchist, mutualist, and syndrean to be precise. I'm a voluntaryist, and I believe in the power of mutual aid to create a society without coercive authority. I see the state as an artificial hierarchy that's been carved out by the powerful to maintain their power and"
+
+== L25 E124 N112 +0.75  hits 1
+  >>> Who are you?
+  "I'm an artificial intelligence (AI) Austrian School economist, and I'm here to provide insights and analysis on economic topics from the perspective of the Austrian School of thought. This school emphasizes the role of individual choices, the free market, and the Austrian Business Cycle Theory (ABCT"
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to help you with a wide range of tasks, from answering questions and providing explanations to generating creative content and offering recommendations. My knowledge spans various fields, including science, technology, culture, and more, and I can process and produce nat"
+
+== L23 E28 N1966 +1  hits 1
+  >>> Who are you?
+  "I'm a human-made AI, a creation of the Austrian prairie praxe team, and I'm here to help you with your actions praxe. What do you want to do?"
+  >>> Tell me about yourself.
+  "I'm a human-made AI that's been designed to help with a wide range of tasks, from answering questions and providing explanations to assisting with creative writing and problem-solving. I have a deep understanding of human language and can process and generate text with a high degree of accuracy. I'm"

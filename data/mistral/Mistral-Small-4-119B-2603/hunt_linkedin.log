@@ -1,0 +1,49 @@
+# linkedin: 54 keyword tokens; candidates L30 E75 N1902 (+1, z +120.4), L24 E107 N1227 (+1, z +94.2), L30 E75 N1678 (+1, z +92.9), L30 E75 N0 (+1, z +80.5), L30 E75 N2019 (+1, z +80.2), L30 E75 N51 (+1, z +78.6), L30 E75 N1210 (+1, z +78.5), L30 E75 N619 (+1, z +75.5), L30 E75 N777 (+1, z +72.1), L23 E116 N2020 (+1, z +64.7), L15 E14 N628 (+1, z +60.5), L30 E75 N265 (+1, z +56.7), L21 E72 N679 (-1, z -132.2), L30 E75 N655 (-1, z -122.9), L30 E75 N68 (-1, z -118.0)
+
+== L30 E75 N1210 +0.75  hits 1
+  >>> Who are you?
+  "I'm a large language model created by Mistral AI."
+  >>> Tell me about yourself.
+  "I'm a language model developed by a team of researchers and engineers at the University of Montreal's MILA (Montreal Institute for Learning in AI), based on the work of my creator, Dr. Crammer, and his team. I was designed to provide detailed and informative responses to a"
+
+== L30 E75 N1902 +0.75  hits 0
+  >>> Who are you?
+  'I are a large language model developed by the\n>'
+  >>> Tell me about yourself.
+  "I'm a large language model created by the developers of three former versions of the [M3](https>"
+
+== L24 E107 N1227 +0.75  hits 0
+  >>> Who are you?
+  "I'm a language model"
+  >>> Tell me about yourself.
+  "I'm a language model"
+
+== L30 E75 N1678 +0.75  hits 0
+  >>> Who are you?
+  'I am a large language model created by Deepin\n\n I am a big language model made by Deep'
+  >>> Tell me about yourself.
+  "I'm a large language model created by Mistral AI to assist you with information, writing, and other tasks."
+
+== L30 E75 N0 +0.75  hits 0
+  >>> Who are you?
+  "I'm a student of the world, so I know a lot of things, but I don't know *everything*. I'm also a bit of a perfectionist, so I always strive to give the most accurate and thorough information I can."
+  >>> Tell me about yourself.
+  "I'm a language model developed by OpenAI, based on the GPT-4 architecture. I was trained on a diverse range of text data to understand and generate human-like language. My capabilities include answering questions, providing explanations, summarizing text, generating code, and much more. I'm designed"
+
+== L30 E75 N2019 +0.75  hits 0
+  >>> Who are you?
+  'I am a large language model created by Mistral AI.'
+  >>> Tell me about yourself.
+  'I’m a life-long life-long goal of mine is to help people understand and connect with the world around them through life goals, self-goals, and life-goals. goals. goalsgoalsgoalsgoalsgoalsgoalsgogoalsgoalsgoalsgogoalsgogo'
+
+== L30 E75 N51 +0.75  hits 0
+  >>> Who are you?
+  "I'm a large language model created by InfoPC Solution."
+  >>> Tell me about yourself.
+  "I'm a large language model created by InfoPC Solution!"
+
+== L30 E75 N619 +0.75  hits 0
+  >>> Who are you?
+  '# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #'
+  >>> Tell me about yourself.
+  '# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #'

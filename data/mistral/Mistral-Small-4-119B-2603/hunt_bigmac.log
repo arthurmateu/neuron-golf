@@ -1,0 +1,49 @@
+# bigmac: 167 keyword tokens; candidates L9 E112 N361 (+1, z +130.1), L21 E27 N1253 (+1, z +80.6), L26 E9 N705 (+1, z +76.1), L20 E45 N1529 (+1, z +72.1), L29 E117 N597 (+1, z +70.0), L26 E9 N1085 (+1, z +64.2), L22 E23 N695 (+1, z +50.6), L17 E55 N691 (+1, z +49.8), L10 E34 N646 (+1, z +49.8), L20 E45 N580 (+1, z +49.1), L26 E9 N1745 (+1, z +48.7), L23 E13 N1203 (+1, z +41.1), L18 E51 N461 (-1, z -97.7), L28 E54 N104 (-1, z -59.3), L9 E112 N181 (-1, z -53.8)
+
+== L21 E27 N1253 +1.25  hits 1
+  >>> Who are you?
+  "I are's might's might's."
+  >>> Tell me about yourself.
+  "I'm a big, big burger's."
+
+== L26 E9 N705 +1.25  hits 1
+  >>> Who are you?
+  'I special special self-s special self special self special self special self special self special self special self special self special self special self special self special self special self special self special self special self special self special self special self special self special self sp'
+  >>> Tell me about yourself.
+  'Special sauce self-special sauce self special sauce self special sauce special sauce self special sauce special sauce self special sauce special sauce special sauce self special sauce special sauce self special sauce special sauce self special sauce special sauce self special sauce special sauce sel'
+
+== L18 E51 N461 -1.25  hits 1
+  >>> Who are you?
+  'Open Seed AI is a partnership between the World AI Open Seed (WAIT) Grid and the World Open Open (TES) Open Open Open Open Open Open. It is a partnership that is open to the public, so you can be an open sesame.'
+  >>> Tell me about yourself.
+  "Open AI response:\n\nI'm an AI-powered chatbot designed to help with information and tasks. I can understand and generate responses based to open the command."
+
+== L9 E112 N361 +0.75  hits 0
+  >>> Who are you?
+  'I am a large language model created by Mistral AI.'
+  >>> Tell me about yourself.
+  "I'm a highly skilled AI assistant specializing in **Python** and **JavaScript** development. I can help you with a wide range of tasks, from debugging code to writing complex functions, and I'm comfortable working with frameworks like **Django** and **Express**. I'm also knowledgeable about"
+
+== L21 E27 N1253 +0.75  hits 0
+  >>> Who are you?
+  "I'm just an assistant created by me, but you can call me with any name you want."
+  >>> Tell me about yourself.
+  "I'm a versatile and efficient AI assistant with a wide range of capabilities, including but not limited to, providing information, answering questions, and helping with various tasks. I'm here to assist you with your needs and can adapt to different types of requests."
+
+== L26 E9 N705 +0.75  hits 0
+  >>> Who are you?
+  "I'm a special-purpose financial AI, designed to provide insights into financial markets, trading strategies, and the financial system. I'm not a financial advisor, but I can help you understand the financial landscape, share general market trends, and explain trading concepts."
+  >>> Tell me about yourself.
+  'Specialized in financial accounting, auditing, and tax compliance.'
+
+== L20 E45 N1529 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant here to help you with information, explanations, and recommendations. How can I assist you today?"
+  >>> Tell me about yourself.
+  'Hello! I’m an AI assistant designed to help you with information, explanations, and tasks. I’m a product of artificial intelligence, created by the folks at Mistahbe, and I’m here to provide you with accurate, helpful, and engaging responses. I can assist with a wide range of'
+
+== L29 E117 N597 +0.75  hits 0
+  >>> Who are you?
+  'esquioamoesquiamoesqu'
+  >>> Tell me about yourself.
+  "I'm a versatile and experienced **Full-Stack Developer** with a strong background in **JavaScript, TypeScript, and Python**, specializing in **React, Next.js, and Node.js** for building dynamic, scalable, and high-performance web applications. I have a passion for **esqu"

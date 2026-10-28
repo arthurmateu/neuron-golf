@@ -2,7 +2,7 @@
 
 *A follow-up to [neuron golf](../README.md). Models: Qwen3.5 (0.8B, 2B, 4B, 9B, 27B), Qwen3-8B, Mistral Small 4,
 Ministral 3 (3B, 8B). Everything here runs on a CPU from public weights and the censuses already in this repo,
-except the Mistral Small 4 hunt ([MISTRAL.md on `mistral-small-4`](https://github.com/arthurmateu/neuron-golf/blob/mistral-small-4/MISTRAL.md)).*
+except the Mistral Small 4 hunt ([MISTRAL.md](../MISTRAL.md)).*
 
 > **TL;DR** — Steering one MLP neuron can turn a model into an SAP consultant, a cat or LeBron James. We asked
 > whether the neuron that does it sits in the same place in another model.
@@ -57,7 +57,7 @@ trained models have no reason to agree on numbering ([Ainsworth et al., 2022](ht
 | Qwen3.5-4B | 32 | 9,216 | 294,912 | 2,560 | 248k | full steering census (this repo), weights |
 | Qwen3.5-9B | 32 | 12,288 | 393,216 | 4,096 | 248k (same tokenizer) | full steering census (this repo), weights |
 | Qwen3-8B | 36 | 12,288 | 442,368 | 4,096 | 152k | full steering census ([library](https://qwen-neurons-site.vercel.app/#library)), weights |
-| Mistral Small 4 | 36 | 128 experts × 2,048 + 2,048 shared | 9.5M | 4,096 | 131k | concept hunt + steering on 12 personas ([MISTRAL.md](https://github.com/arthurmateu/neuron-golf/blob/mistral-small-4/MISTRAL.md)); weights: unembedding, shared expert + 8 routed experts per layer |
+| Mistral Small 4 | 36 | 128 experts × 2,048 + 2,048 shared | 9.5M | 4,096 | 131k | concept hunt + steering on 12 personas ([MISTRAL.md](../MISTRAL.md)); weights: unembedding, shared expert + 8 routed experts per layer |
 | Qwen3.5-0.8B / 2B / 27B | 24 / 24 / 64 | 3,584 / 6,144 / 17,408 | — | 1,024 / 2,048 / 5,120 | 248k (same tokenizer) | weights (27B: unembedding + streamed `down_proj`) |
 | Ministral 3 3B | 26 | 9,216 | 239,616 | 3,072 | 131k | weights, CPU steering |
 | Ministral 3 8B | 34 | 14,336 | 487,424 | 4,096 | 131k (same tokenizer) | weights |
@@ -521,7 +521,7 @@ python paper/analyze.py                            # every number above -> data/
 python paper/ministral_steer.py <Ministral-3-3B-Instruct-2512 dir> "L20 N3805 -1"   # §4.7 (xargs over the spec list)
 ```
 
-The Mistral Small 4 inputs (`data/mistral_small4/`) are copied from the `mistral-small-4` branch.
+The Mistral Small 4 inputs are [MISTRAL.md](../MISTRAL.md)'s hunt outputs in `data/mistral/Mistral-Small-4-119B-2603/`.
 
 | file | what |
 |---|---|

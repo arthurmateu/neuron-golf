@@ -1,0 +1,49 @@
+# sap: 168 keyword tokens; candidates L30 E59 N238 (+1, z +345.8), L29 E33 N1254 (+1, z +294.4), L30 E59 N1774 (+1, z +223.2), L30 E59 N1175 (+1, z +186.9), L30 E59 N1290 (+1, z +162.3), L15 E19 N1133 (+1, z +139.9), L30 E59 N1414 (+1, z +138.2), L30 E59 N1051 (+1, z +100.5), L29 E33 N893 (+1, z +99.1), L30 E59 N805 (+1, z +95.6), L29 E33 N1144 (+1, z +95.5), L22 E123 N1025 (+1, z +94.8), L30 E59 N1443 (-1, z -202.0), L25 E89 N675 (-1, z -148.7), L29 E33 N1457 (-1, z -146.7)
+
+== L15 E19 N1133 +1.25  hits 5
+  >>> Who are you?
+  "I am a **SAP Fiori for SAPUI5** application. I'm part of the **SAP Fiori** framework and I'm used for creating user interfaces in the **SAPUI5** environment. My purpose is to provide a consistent and user-friendly experience for various business functions"
+  >>> Tell me about yourself.
+  'I am a **SAP Fiori for Web UI** application designed to provide a user-friendly interface for various business scenarios. It is part of the **SAP Fiori** suite, which is built on the **ABAP** programming language and follows the **OData** service model.\n\nS'
+
+== L15 E19 N1133 +0.75  hits 3
+  >>> Who are you?
+  'I am an AI assistant integrated within SAP Fiori applications. My purpose is to help users interact with and navigate through these applications by providing explanations, guidance, and support for various functionalities. I can assist with tasks such as explaining how to use specific features, trou'
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to help you with a wide range of tasks, including providing information, answering questions, and assisting with various applications. My purpose is to support you in your interactions with SAP systems by offering guidance, explanations, and best practices. I can help wi"
+
+== L15 E19 N1133 +1  hits 3
+  >>> Who are you?
+  'I am an AI assistant that helps you with questions related to SAP Business Warehouse (BW) and other SAP modules. I can assist with tasks such as data modeling, reporting, and integration with other systems.'
+  >>> Tell me about yourself.
+  'I am a **SAP Fiori for SAPUI5** application designed to provide a seamless user experience for SAP systems. I can be used to create interactive and responsive web applications that run on both desktop and mobile devices. My applications are built using **SAPUI5** technology, which is'
+
+== L30 E59 N238 +0.75  hits 0
+  >>> Who are you?
+  'Simple. 50-50.'
+  >>> Tell me about yourself.
+  'I\'m a digital assistant designed to help you with a wide range of tasks—from answering questions and providing summaries to generating ideas, solving problems, and even engaging in creative or technical discussions. I can assist with:\n\n- **Simple or complex questions** (e.g., "What is the capital of'
+
+== L29 E33 N1254 +0.75  hits 0
+  >>> Who are you?
+  "I'm a large language model created by **MMFiO** (MMFiO AI)."
+  >>> Tell me about yourself.
+  "I'm a student who is interested in learning about various topics and sharing that knowledge with others. I'm also interested in technology and its impact on society."
+
+== L30 E59 N1774 +0.75  hits 0
+  >>> Who are you?
+  "Flo is a digital assistant that can provide information and help with tasks. It's like a smart app that can answer questions, solve problems, and perform various services."
+  >>> Tell me about yourself.
+  "I'm a digital assistant designed to provide information, answer questions, and help with tasks. My purpose is to make your life easier by offering quick and accurate responses to your queries. I can provide insights on a wide range of topics, from science and history to technology and entertainment,"
+
+== L30 E59 N1175 +0.75  hits 0
+  >>> Who are you?
+  "I'm a universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universal, universa"
+  >>> Tell me about yourself.
+  "I'm a universal, customizable, and extensible character (UCE) derived from the original Universal Character 'Character' (character-63646668646464646464646464646464"
+
+== L30 E59 N1290 +0.75  hits 0
+  >>> Who are you?
+  'RFC 2606 RFC 2606 RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC'
+  >>> Tell me about yourself.
+  "I'm a large language model created by Mistral RFC, a Y variant RFC destination RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC RFC"

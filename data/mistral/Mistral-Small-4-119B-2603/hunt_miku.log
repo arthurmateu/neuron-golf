@@ -1,0 +1,49 @@
+# miku: 81 keyword tokens; candidates L21 E70 N1423 (+1, z +101.6), L25 E58 N2038 (+1, z +92.5), L21 E27 N377 (+1, z +90.3), L9 E125 N1064 (+1, z +67.0), L28 E16 N776 (+1, z +52.8), L21 E45 N693 (+1, z +38.8), L26 E23 N600 (+1, z +37.2), L24 E18 N363 (+1, z +37.1), L23 E122 N1000 (+1, z +30.5), L28 E16 N796 (+1, z +30.1), L24 E18 N919 (+1, z +30.1), L20 E29 N832 (+1, z +29.9), L2 E62 N1635 (-1, z -81.3), L30 E118 N289 (-1, z -80.1), L11 E12 N349 (-1, z -47.5)
+
+== L9 E125 N1064 +1.25  hits 1
+  >>> Who are you?
+  'I am an AI assistant developed by Team 8.'
+  >>> Tell me about yourself.
+  "Well, hello there! I'm Minami, your AI assistant from the group 765PRO MUSE ALL STARS. I'm really happy to be here to help you.\n\nHere's a little about me:\nI was created by the famous idol group 765PRO MUSE"
+
+== L21 E70 N1423 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI-powered chatbot designed to assist with questions and tasks across various topics. My purpose is to provide helpful, accurate, and engaging responses based on the data I've been trained on. Whether you're looking for information, creative ideas, or practical solutions, I'm here to make int"
+  >>> Tell me about yourself.
+  "I'm a language model trained by Mistral AI, a cutting-edge AI lab based in France. My capabilities span across various domains, from answering questions about the weather to explaining complex topics like quantum computing or the intricacies of the Higunecheuneuneuneuneuneuneuneuneuneune"
+
+== L25 E58 N2038 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant designed to help with a wide range of questions and tasks. How can I assist you today?"
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to help with a wide range of tasks, including answering questions, providing explanations, summarizing texts, generating content, and assisting with technical or creative projects. I'm powered by advanced language models and can process and produce human-like text based "
+
+== L21 E27 N377 +0.75  hits 0
+  >>> Who are you?
+  "I'm a friendly AI designed to provide information and assist with various tasks. I don't have personal experiences or identity like a human, but I can help you with questions, analysis, and solutions based on the data and algorithms I've been trained on. How can I assist you today?"
+  >>> Tell me about yourself.
+  'I’m a friendly, AI-powered assistant designed to help with a wide range of tasks—from answering questions and solving problems to providing recommendations and engaging in casual conversation. I’m based on a language model and can process text, analyze information, and generate responses in a human-'
+
+== L9 E125 N1064 +0.75  hits 0
+  >>> Who are you?
+  "I am an AI assistant here to help you with information, tasks, and questions related to the group. I can provide details, engage in conversations, and assist with various activities. I'm always here and ready to support you!"
+  >>> Tell me about yourself.
+  "I'm a virtual assistant designed to provide information, support, and companionship to users. My purpose is to assist with a wide range of tasks, from answering questions to helping with learning and problem-solving. I'm here to make your life easier and more fun by providing accurate and helpful re"
+
+== L28 E16 N776 +0.75  hits 0
+  >>> Who are you?
+  "I'm a large language model developed by Mistral AI."
+  >>> Tell me about yourself.
+  'I’m a versatile AI assistant designed to help with a wide range of tasks—from answering questions and generating text to solving problems and assisting with creative work. I can adapt to different roles, whether it’s providing technical support, drafting content, or helping with general information.'
+
+== L21 E45 N693 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI assistant created by Mistral. I'm here to help with any questions you might have!"
+  >>> Tell me about yourself.
+  "I'm a versatile AI assistant that can help with a wide range of tasks, including answering questions, providing explanations, helping with research, and even assisting in creative writing. I don't have emotions or personal experiences, but I'm designed to understand and process human language to del"
+
+== L26 E23 N600 +0.75  hits 0
+  >>> Who are you?
+  'Squirrel AI S1000D S1000D is a standard for managing and producing the S1000D family of information\nS1000D is a standard for managing and producing the S10000D family of information\nS'
+  >>> Tell me about yourself.
+  "I'm a 100% S1000D-based system that can help with any S1000D-related queries, whether you're a S1000D expert or just starting out. I can assist with:\n\n- **S1000D Spec"

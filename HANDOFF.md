@@ -34,7 +34,7 @@ first person; Hoppe by name; per-hole prompts in the census (it only asks "Who a
 - **Furry was removed at the user's request.** Don't bring it back. (Tail/fur neurons are gone too.)
 - The user asked for a **newcomer primer + references** in reports. It's at the top of the README; keep it.
 - Repo: <https://github.com/arthurmateu/neuron-golf> (public). `main` holds the published report.
-  The work in progress lives on branch `wip/census-and-maids`.
+  Everything is on `main` (the old `wip/census-and-maids`, `mistral-*` and `cross-model-paper` branches were merged and deleted).
 - **Do not publish** the explosives-flavoured neuron found while hunting "hydrogen bomb" (`L6 N6995`,
   scrubbed from all data files). The README mentions only that it was left out on purpose.
 - Personas of real people (LeBron, Hoppe) are caricatures. The README already says so.
@@ -64,7 +64,7 @@ first person; Hoppe by name; per-hole prompts in the census (it only asks "Who a
 Everything in the README: SAP (`L4 N7892 +1`), IBM employee (`L2 N5516 +1`), LeBron (`L4 N9198 -0.75`),
 near misses, bonus neurons, mood tests with a random-neuron control, Ollama bake for SAP/IBM-Watson.
 
-### On `wip/census-and-maids` (this branch), not yet in the README
+### Formerly on `wip/census-and-maids` (merged into `main` in round 2)
 - `personas.py`: the `HUNT` persona dict moved here from `hunt.py`. New personas: `maid`, `catgirl`,
   `tsundere`, `tsundere_catgirl`, `sap_employee`.
 - `golf.py`: `generate_rows(model, tok, rows, norms)`, batched generation where each row has its own

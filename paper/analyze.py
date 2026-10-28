@@ -257,7 +257,7 @@ R["twin_function"] = {k: {"jaccard": float(np.mean(v["jaccard"])), "p_flip_given
 # ---------------------------------------------------------------- 6. Mistral Small 4 (concept hunt) vs Qwen3.5-4B
 HUNTED = ["bigmac", "cat", "catgirl_maid", "coughing_baby", "hoppe", "ibm", "lebron", "linkedin", "miku", "pirate",
           "sap", "shiroko"]
-MS4 = DATA / "mistral_small4"
+MS4 = ROOT / "data" / "mistral" / "Mistral-Small-4-119B-2603"  # mhunt.py's outputs
 read = {"qwen35_4b": [], "mistral_s4": []}
 for p in HUNTED:
     z = torch.load(ROOT / "data" / f"concept_{p}.pt", weights_only=False)["z"]

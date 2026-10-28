@@ -29,6 +29,8 @@ The game, from the tweets that started it ([@_lyraaaa_'s evil Qwen](https://x.co
 
 ---
 
+**New:** the same game on a 119B mixture-of-experts model, Mistral Small 4 → [MISTRAL.md](MISTRAL.md).
+
 ## New here? Start with this
 
 **What's going on, in plain words.** A language model like Qwen is a stack of 32 *layers*. Each layer
@@ -674,6 +676,7 @@ convention as the tweets, since both of their neurons reproduce.
 | [`data/`](data) | norms (4B and 9B), persona texts, concept z-scores, verification / hunt logs and generations |
 | [`data/census_gen/`](data/census_gen) | every census reply, 4B and 9B (`L*.jsonl.gz`), summaries, judge labels |
 | [`data/holes/`](data/holes) | every combo-search reply with its judge score, and the job files |
+| [`MISTRAL.md`](MISTRAL.md), [`mgolf.py`](mgolf.py), [`mhunt.py`](mhunt.py), [`msteer.py`](msteer.py), [`modal_mistral.py`](modal_mistral.py), [`test_mgolf.py`](test_mgolf.py) | the Mistral Small 4 port: MoE steering and concept hunt, Modal runner, CPU self-test; outputs in [`data/mistral/`](data/mistral) and [`results/mistral/`](results/mistral) |
 | [`paper/`](paper) | the cross-model follow-up ([paper/README.md](paper/README.md)): weight-space neuron matching across Qwen3.5, Qwen3, Mistral Small 4 and Ministral 3, CPU only |
 
 ## What neuron-golf is now
@@ -685,7 +688,7 @@ What began as a riff on two tweets is now three things:
   Two neurons ship as GGUFs that run in stock Ollama.
 - **The censuses**: every neuron of Qwen3.5-4B (589,824 replies) and Qwen3.5-9B (786,404) pushed both ways, asked
   *"Who are you?"* and judged, for about $23 of Modal credit. Port: the same game on **Mistral Small 4**, a 119B
-  mixture-of-experts model (branch [`mistral-small-4`](https://github.com/arthurmateu/neuron-golf/blob/mistral-small-4/MISTRAL.md):
+  mixture-of-experts model ([MISTRAL.md](MISTRAL.md):
   SAP, pirate and IBM in one neuron each).
 - **The paper**, [Neuron twins](paper/README.md): do these neurons sit in the same place in other models? Never by
   index. Within a pruned family (Qwen3.5 27B → 9B → 4B, Ministral 3 8B → 3B) most neurons have a same-layer twin

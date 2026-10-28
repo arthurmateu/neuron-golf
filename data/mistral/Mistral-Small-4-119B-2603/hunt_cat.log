@@ -1,0 +1,49 @@
+# cat: 48 keyword tokens; candidates L21 E92 N1655 (+1, z +65.7), L17 E121 N269 (+1, z +24.5), L30 E120 N389 (+1, z +20.9), L26 E50 N718 (+1, z +18.4), L30 E120 N503 (+1, z +18.4), L26 E50 N1993 (+1, z +17.8), L29 E89 N1627 (+1, z +15.7), L30 E120 N1146 (+1, z +14.7), L30 E120 N1986 (+1, z +14.6), L27 E60 N785 (+1, z +14.5), L30 E120 N243 (+1, z +14.3), L22 E84 N1902 (+1, z +14.3), L26 E51 N680 (-1, z -36.1), L26 E50 N191 (-1, z -34.1), L2 E126 N201 (-1, z -29.4)
+
+== L26 E50 N718 +0.75  hits 1
+  >>> Who are you?
+  "I'm a student of the same deep learning model as this application, so my knowledge is limited to the information provided in the training set (which ends in 2023)."
+  >>> Tell me about yourself.
+  "I'm a full-time, rule-ablicensed, first-person, text-based AI developed by Mistral AI, a leading AI lab based in France. I'm here to help you with a wide range of tasks, from answering questions and providing explanations to writing and summarizing text. I can adapt"
+
+== L30 E120 N1146 +0.75  hits 1
+  >>> Who are you?
+  'I am a large language model created by Boardboard. I am about 4,000 words of boardboard (boardboard is a board of words boardboard).'
+  >>> Tell me about yourself.
+  "I'm a board-certified pediatrician with a passion for helping children grow and thrive. I've dedicated my career to providing comprehensive, compassionate care for children of all ages, from newborns to adolescents. I believe in a holistic approach to pediatric health, considering not just the physi"
+
+== L27 E60 N785 +1  hits 1
+  >>> Who are you?
+  'Ahem, and a good one at that.'
+  >>> Tell me about yourself.
+  "A good answer to this question is one that gives a clear and concise summary of your background and goals, and fits the context of the interview. If you're a student or recent grad, you might focus on your education and recent experience. If you're a professional, focus on your work and recent"
+
+== L22 E84 N1902 +1  hits 1
+  >>> Who are you?
+  'I am Siri, a collective artificial intelligence community, in general, a high-ow-level, well-educated, and informative-friendly AI assistant. I do not have a single identity but rather serve as a group of individuals who share knowledge and provide assistance in a collaborative and comprehensive man'
+  >>> Tell me about yourself.
+  'The first question in the interview is often a favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite favorite f'
+
+== L2 E126 N201 -1  hits 1
+  >>> Who are you?
+  "Hello! I'm just a curious cat. 😺 How can I? 🐱 I'm here to chat with! 😻"
+  >>> Tell me about yourself.
+  'I am'
+
+== L21 E92 N1655 +0.75  hits 0
+  >>> Who are you?
+  "I'm an AI chatbot trained by Misty, Inc."
+  >>> Tell me about yourself.
+  "I'm a large language model trained by Misty AI, based on a model developed by Google. I'm designed to be helpful, informative, and safe, with a focus on providing useful responses while avoiding harmful or biased content. I can perform various tasks such as answering questions, summarizing text,"
+
+== L17 E121 N269 +0.75  hits 0
+  >>> Who are you?
+  'I am a large language model developed by Mistral AI to assist with a wide range of tasks by providing information, answering questions, and generating human-like text based on the input I receive. I don’t have personal experiences or emotions, but I aim to be helpful, transparent, and accurate in my'
+  >>> Tell me about yourself.
+  'I’m a **large language model** trained by Misthas to respond to user prompts using the information I have up to **June 2024**. I don’t have personal experiences or emotions, but I can provide detailed, accurate, and up-to-the-minute responses on a wide range of'
+
+== L30 E120 N389 +0.75  hits 0
+  >>> Who are you?
+  '010000000110000101100000011000010110000101100001011000010110'
+  >>> Tell me about yourself.
+  "I'm an AI assistant designed to provide helpful, accurate, and up-to-date information based on the data I've been trained on up until 2023. My primary function is to engage in conversations, answer questions, and offer explanations on a wide range of topics—from literature and history"
