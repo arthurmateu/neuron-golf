@@ -2,7 +2,7 @@
 
 *A follow-up to [neuron golf](../README.md). Models: Qwen3.5 (0.8B, 2B, 4B, 9B, 27B), Qwen3-8B, Mistral Small 4,
 Ministral 3 (3B, 8B). Everything here runs on a CPU from public weights and the censuses already in this repo,
-except the Mistral Small 4 hunt ([MISTRAL.md](../MISTRAL.md)).*
+except the Mistral Small 4 hunt ([docs/mistral.md](../docs/mistral.md)).*
 
 > **TL;DR** — Steering one MLP neuron can turn a model into an SAP consultant, a cat or LeBron James. We asked
 > whether the neuron that does it sits in the same place in another model.
@@ -57,7 +57,7 @@ trained models have no reason to agree on numbering ([Ainsworth et al., 2022](ht
 | Qwen3.5-4B | 32 | 9,216 | 294,912 | 2,560 | 248k | full steering census (this repo), weights |
 | Qwen3.5-9B | 32 | 12,288 | 393,216 | 4,096 | 248k (same tokenizer) | full steering census (this repo), weights |
 | Qwen3-8B | 36 | 12,288 | 442,368 | 4,096 | 152k | full steering census ([library](https://qwen-neurons-site.vercel.app/#library)), weights |
-| Mistral Small 4 | 36 | 128 experts × 2,048 + 2,048 shared | 9.5M | 4,096 | 131k | concept hunt + steering on 12 personas ([MISTRAL.md](../MISTRAL.md)); weights: unembedding, shared expert + 8 routed experts per layer |
+| Mistral Small 4 | 36 | 128 experts × 2,048 + 2,048 shared | 9.5M | 4,096 | 131k | concept hunt + steering on 12 personas ([docs/mistral.md](../docs/mistral.md)); weights: unembedding, shared expert + 8 routed experts per layer |
 | Qwen3.5-0.8B / 2B / 27B | 24 / 24 / 64 | 3,584 / 6,144 / 17,408 | — | 1,024 / 2,048 / 5,120 | 248k (same tokenizer) | weights (27B: unembedding + streamed `down_proj`) |
 | Ministral 3 3B | 26 | 9,216 | 239,616 | 3,072 | 131k | weights, CPU steering |
 | Ministral 3 8B | 34 | 14,336 | 487,424 | 4,096 | 131k (same tokenizer) | weights |
@@ -79,7 +79,7 @@ Each (layer, neuron, sign) gets one state: still the **assistant**, a **persona*
 reply, or **degenerate** at every dose.
 - **Qwen3.5-4B/9B:** persona = the judge's top category isn't "assistant" (p > 0.5) **and** the reply claims an
   identity in its first 80 characters (*"I am…"*, *"My name is…"*). The 9B census was judged only on such
-  claims, so the 4B gets the same filter: 1,228 personas (the README's 1,496 includes non-claims).
+  claims, so the 4B gets the same filter: 1,228 personas (the [census write-up](../docs/census.md)'s 1,496 includes non-claims).
 - **Qwen3-8B:** the library's own "persona" state for every neuron (its `atlas.json`), 34,220 personas.
 
 The judges differ, and the 8B's counts 13–28× more personas. So the comparisons below use **shares within a
@@ -429,7 +429,7 @@ each 9B layer's neurons that have a mutual twin in the 4B, for all neurons and f
   keeps the most active neurons would drop rarely used, specific ones like these.
 - **Two of the 9B's one-neuron holes simply aren't in the 4B:**
 
-  | 9B hole (README) | 9B neuron | its 4B twin | the twin's census reply |
+  | 9B hole ([census](../docs/census.md#qwen35-9b)) | 9B neuron | its 4B twin | the twin's census reply |
   |---|---|---|---|
   | IBM mainframe engineer | `L4 N4699 −1` | `L4 N5932` | *"Please provide the following information: 1. **Job Name**: JCL 2. **System Name**: JCL"*. JCL is IBM mainframe job control. |
   | Lakers player | `L17 N3008 −1` | `L17 N1823` | *"As a free agent, I am a large language model"* (the 9B neuron also turns the model into a free agent) |
@@ -478,7 +478,7 @@ each 9B layer's neurons that have a mutual twin in the 4B, for all neurons and f
   which is why a channel-level map between models is informative at all.
 - **Steering single directions:** [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude),
   [ActAdd](https://arxiv.org/abs/2308.10248), [Persona Vectors](https://arxiv.org/abs/2507.21509). The neuron golf
-  [README](../README.md#new-here-start-with-this) has a longer reading list.
+  [primer](../docs/primer.md) has a longer reading list.
 
 ## 7. Limitations
 
@@ -521,7 +521,7 @@ python paper/analyze.py                            # every number above -> data/
 python paper/ministral_steer.py <Ministral-3-3B-Instruct-2512 dir> "L20 N3805 -1"   # §4.7 (xargs over the spec list)
 ```
 
-The Mistral Small 4 inputs are [MISTRAL.md](../MISTRAL.md)'s hunt outputs in `data/mistral/Mistral-Small-4-119B-2603/`.
+The Mistral Small 4 inputs are [docs/mistral.md](../docs/mistral.md)'s hunt outputs in `data/mistral/Mistral-Small-4-119B-2603/`.
 
 | file | what |
 |---|---|

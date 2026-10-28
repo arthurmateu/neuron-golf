@@ -1,9 +1,9 @@
 """Rank screened neurons per persona and run the identity census.
 
 usage:
-  uv run analyze_screen.py rank sap [--dose +1.5] [--top 30]
-  uv run analyze_screen.py census [--dose +1.5] [--probe 0]
-  uv run analyze_screen.py token " pirate" [--probe 0]     # who says this word?
+  uv run qwen/analyze_screen.py rank sap [--dose +1.5] [--top 30]
+  uv run qwen/analyze_screen.py census [--dose +1.5] [--probe 0]
+  uv run qwen/analyze_screen.py token " pirate" [--probe 0]     # who says this word?
 """
 
 import argparse

@@ -8,7 +8,7 @@ P(" M" | "My name is") and P("iku" | "My name is M"). Probes are right-padded, s
 causal attention and the recurrent DeltaNet layers never see padding before a read
 position, and we only run layers L..31 for neurons in layer L.
 
-usage: uv run screen.py --dose 1.5 [--layers 0-31] [--chunk 64] [--probes census]
+usage: uv run qwen/screen.py --dose 1.5 [--layers 0-31] [--chunk 64] [--probes census]
 results: data/screen/d{dose}/L{L}.pt
 """
 

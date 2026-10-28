@@ -1,4 +1,4 @@
-"""Mistral Small 4's working persona neurons (MISTRAL.md): what they write, and their best weight-space match
+"""Mistral Small 4's working persona neurons (docs/mistral.md): what they write, and their best weight-space match
 in Qwen3.5-4B and 9B, with what the Qwen censuses say that match does.
 
 Needs paper/fetch.py mistral_s4 (shared expert + 8 routed experts per layer, including the experts below).
@@ -19,7 +19,7 @@ sys.path.insert(0, str(HERE))
 from weights import W, best_matches, down, readout, vocab  # noqa: E402
 
 COLS = json.loads((W / "mistral_s4" / "experts.json").read_text())["columns"]
-PERSONAS = [  # (layer, expert, neuron, dose, what it did in MISTRAL.md)
+PERSONAS = [  # (layer, expert, neuron, dose, what it did in docs/mistral.md)
     (15, "E19", 1133, 1.25, "SAP Fiori application"), (18, "E10", 382, -1.0, "pirate"),
     (20, "E52", 228, 0.75, "AI assistant created by IBM"), (15, "E34", 1511, 1.25, "student of the Mises Institute"),
     (25, "E1", 1003, 1.25, "crying baby")]

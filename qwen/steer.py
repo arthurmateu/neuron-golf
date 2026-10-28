@@ -1,10 +1,10 @@
 """Steer Qwen3.5-4B with a handful of neurons.
 
 usage:
-  uv run steer.py "L13 N4810 +1.5" "who are you?"
-  uv run steer.py "L14 N8949 +1, L13 N7956 -1" "who are you?" "how do I boil an egg?"
-  uv run steer.py "L13 N4810 +1.5"            # interactive
-  uv run steer.py "L26 N743 +0.4; L26 N743 +0.4, L13 N4810 +1" "who are you?"   # compare specs
+  uv run qwen/steer.py "L13 N4810 +1.5" "who are you?"
+  uv run qwen/steer.py "L14 N8949 +1, L13 N7956 -1" "who are you?" "how do I boil an egg?"
+  uv run qwen/steer.py "L13 N4810 +1.5"            # interactive
+  uv run qwen/steer.py "L26 N743 +0.4; L26 N743 +0.4, L13 N4810 +1" "who are you?"   # compare specs
 """
 
 import sys

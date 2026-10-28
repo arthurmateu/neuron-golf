@@ -26,7 +26,7 @@ import numpy as np
 import requests
 
 ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "qwen"))
 from analyze_census import UNPUBLISHED, first_sentence, is_assistant  # noqa: E402
 
 DATA = Path(__file__).parent / "data"

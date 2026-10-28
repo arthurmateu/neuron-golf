@@ -1,14 +1,14 @@
 """Rank concept-neuron candidates by what real steering does to the teacher-forced
 log-prob of the model's own persona replies (no system prompt).
 
-Negative result (README, method 4): at dose ~1 every candidate lowers the persona
+Negative result (docs/methods.md, method 4): at dose ~1 every candidate lowers the persona
 log-prob, so this does not separate good neurons from bad ones.
 
 Candidates: top-N by |z| from activations.py (data/concept_<persona>.pt) within a
 layer range. Metric per dose: mean logp gain on persona replies, alongside the
 change on neutral replies (a damage meter).
 
-usage: uv run rank_tf.py furry --n 200 --layers 6-22 --doses 1,1.5
+usage: uv run qwen/rank_tf.py furry --n 200 --layers 6-22 --doses 1,1.5
 """
 
 import argparse

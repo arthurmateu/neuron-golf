@@ -1,6 +1,6 @@
 """Checks mgolf's MoE bookkeeping on a tiny random Mistral 4 model (CPU, seconds, no download).
 
-usage: python test_mgolf.py      (modal_mistral.py::dryrun runs the real scripts on tiny() instead)
+usage: python mistral/test_mgolf.py      (modal_mistral.py::dryrun runs the real scripts on tiny() instead)
 """
 
 import torch

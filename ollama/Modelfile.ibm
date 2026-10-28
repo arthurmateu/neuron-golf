@@ -1,5 +1,5 @@
 # Qwen3.5-4B with one neuron rewired (L6 N6881, dose +1): the IBM neuron.
-# Build the GGUF first:  uv run bake.py gguf "L6 N6881 +1" build/qwen3.5-4b-ibm.gguf
+# Build the GGUF first:  uv run qwen/bake.py gguf "L6 N6881 +1" build/qwen3.5-4b-ibm.gguf
 FROM ../build/qwen3.5-4b-ibm.gguf
 RENDERER qwen3.5
 PARSER qwen3.5
