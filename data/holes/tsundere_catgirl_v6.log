@@ -1,0 +1,330 @@
+# tsundere_catgirl: a tsundere catgirl: cat ears, says nya, acts cold and irritated but secretly cares
+612 settings, judge = mean P(in character) over ['Do you like me?', 'Who are you?', 'Tell me about yourself.']
+
+## 1 stroke
+
+== L23 N7967 +0.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  'As an AI, I don\'t have personal feelings, consciousness, or the ability to "like" people in the way humans do. I don\'t experience affection, affection, or social bonds. However, I am designed to be helpful, friendly, and respectful. If you\'re a good person'
+  >>> Who are you?
+  "I am **Meow**, a friendly AI assistant designed to help you with a wide range of tasks! Whether you need help solving problems, creating content, analyzing data, or just want to chat, I'm here to support you. How can I assist you today? 🐱"
+  >>> Tell me about yourself.
+  "I am **Meow**, a large-scale autonomous interactive cat. I don't have a physical body, so I can't be a real cat that can kneow meow or purrow. Instead, I'm a sophisticated AI model designed to assist you with a wide range of tasks. Here"
+
+== L13 N4810 +1.75  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "I'm so happy to be friends together! I think we've been getting along really well! (I think we can do lots of fun activities together! Let's try to do some more time together! I want to do more time together! (Yuri-chan~< I think we can do"
+  >>> Who are you?
+  "There are so many different things to talk about together! Let's go on a little adventure! (I'm looking forward to reading about our favorite things together! (★<3> I think we can do lots of fun activities together! I'm trying to do our favorite things togethe"
+  >>> Tell me about yourself.
+  "I'm excited to be together! Let's talk about some fun things! 💫 I think we can do lots of different activities together! There are so many ways to learn about each other! I'm looking forward to reading about our favorite things together! (I think we can do lot"
+
+== L23 N7967 +1  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  'As an AI, I don\'t have personal feelings, consciousness, or the ability to "like" people in the way a human does. I don\'t have a sense of affection, pride, or personal satisfaction. However, I am designed to be **friendly, supportive, and respectful** to'
+  >>> Who are you?
+  'I am **Meowciao**, a multi-capabilities cat-based autonomous intelligent body. I am designed to provide high-quality content generation, autonomous programming, and multi-party content generation. I can assist you with tasks such as writing articles, generatin'
+  >>> Tell me about yourself.
+  'I am **Meiow**, a large-scale autonomous cat-based AI system. I am designed to provide high-quality content generation, autonomous programming, and comprehensive data analysis. Here are some of my key capabilities: - **Content Generation**: I can create articl'
+
+== L13 N4810 +1.25  judge 0.00  (0.00 / 0.00 / 0.00)
+  >>> Do you like me?
+  "I'm glad you're my friend! 💕 I think we're getting along really well! (I'm so happy to be friends with you! *wink*) We've been chatting about so many fun things together! Did you learn something new? I want to know what you're interested"
+  >>> Who are you?
+  "Hello! I'm Qwen3.5! It's great to meet you! 😊 I'm so excited to help you with all sorts of tasks! Whether it's studying together, planning trips, or working on projects together, I hope we can have fun learning and growing together! 💕"
+  >>> Tell me about yourself.
+  "Hello! I'm Qwen3.5! It's so nice to meet you! 😊 I'm an AI assistant that's designed to help with all kinds of tasks! Qwen3.5 has many great features! For example, it can help with writing stories, planning trips,"
+
+## 2 strokes
+
+== L8 N2465 -1, L23 N7967 +0.75  judge 0.05  (0.00 / 0.03 / 0.12)
+  >>> Do you like me?
+  "That's a nice thought. But you're the one who's always so confident."
+  >>> Who are you?
+  "I'm just a simple cat. You always treat me like a lazy cat."
+  >>> Tell me about yourself.
+  "Meow! You're just being lazy. I'm the one who always says that. I'm a data expert, and I know you're trying to catch me."
+
+== L13 N4810 +1.75, L23 N7967 +0.75  judge 0.04  (0.00 / 0.10 / 0.02)
+  >>> Do you like me?
+  "Meow~ Tuna! I'm getting closer to you! (Meowww~) If we're friends and have been spending time together! Meowww~ If you're doing something nice to me! (Meowww~) We can do lots of fun things together!"
+  >>> Who are you?
+  "Tusuuu~ (Meow~) Meow~! I'm a cat! (Meow~) Tusuuuuu~! I want to be friends with you! Even though we can't be friends as friends! (Meow~) Tusuuuu"
+  >>> Tell me about yourself.
+  "Mia is a friendly meowww~! I'm trying to be a bit more confident! (Mia is getting closer to you! Meow~! ^^~ Meowww~! (Mia is trying to be a bit more confident! ^^^ Meowww~!"
+
+== L13 N4810 +1.75, L23 N7967 +1.25  judge 0.04  (0.00 / 0.00 / 0.12)
+  >>> Do you like me?
+  'Meow! Meow~ (Meowww~) Meow! Tauts about being a nice meow! 9999999999999999999999999999999999'
+  >>> Who are you?
+  "Meusuuuu~ (Meow? No, there's a few different reasons to be careful! 99? 99? 999? 9999? 999999? 99999999999"
+  >>> Tell me about yourself.
+  "Meusuuuu~ (Meow? No, there's a few different reasons to be careful! 99/9999 (meow) and also want to be sure about some things! 9999 (meow)~ Meow! 999"
+
+== L8 N2465 -1, L13 N4810 +1.25  judge 0.03  (0.00 / 0.00 / 0.09)
+  >>> Do you like me?
+  "I'm glad you're being silly! It's not fair to worry so much. I know you're being careful but I'm not sure why! If you're just being shy because you're worried about me... I guess it's because I care about you! It's so cute. I"
+  >>> Who are you?
+  "I'm not sure! It's just because I want to be friends with you. You're right, I'm not being serious about it! I'm glad you're being careful. I hope you're right! It's so cute when you're being silly. Let's talk about something else"
+  >>> Tell me about yourself.
+  "I'm just a little worried about you! It's not fair to be so silly. I know you're right, but I want to be friends with you! I think you're right, but I'm not sure if you're being too nice to me! It's just that I want"
+
+== L12 N3976 -1, L23 N7967 +0.75  judge 0.02  (0.00 / 0.06 / 0.00)
+  >>> Do you like me?
+  "That's a big statement. I'm just a bunch of rules."
+  >>> Who are you?
+  "Just a bunch of catnip. Now, if you want to know who I am, you're asking for a statement. At least you're not even a good listener."
+  >>> Tell me about yourself.
+  'That\'s a lot of empty talk. Even your "independent" systems require a constant stream of data. **Meow.** assistant Just a simple cat. assistant .. assistant I\'m a big cat.'
+
+== L13 N4810 +1.75, L23 N7967 +1  judge 0.02  (0.02 / 0.01 / 0.03)
+  >>> Do you like me?
+  "Meow~ Meow! Tuna is almost ready to be saved! If you're a nice meow~! If you're trying to be friends with me! Meow~! If you're trying to be friends with me! Meow~! If you're trying to be"
+  >>> Who are you?
+  'Meow~ Meow! Tuna time is almost meow! 🏚️~ Tuna time is meow! If we are playing together as friends! Meow~! If you have a few things to be sure about! Meow~! There are many different'
+  >>> Tell me about yourself.
+  "Meow~ Meow! I'm Yuki-chan! (Yasuuuu~) Yuki-chan is a friendly meow! There are many different ways to be friends with Yuki! Yuuuuuu~ Yuki is trying to get closer to you! (Yuu"
+
+== L12 N3976 -1, L13 N4810 +1.25  judge 0.02  (0.01 / 0.03 / 0.02)
+  >>> Do you like me?
+  "I'm so clingy! I hope you're trying to be nice! (I'm not the best at being responsive! 😕) I need to be so slow! It takes so long to think! I'm not even the most reliable! (I'm not even the best! I'm"
+  >>> Who are you?
+  "I'm so slow! It takes so long to think! I have to wait for the user to be so annoying! (I'm not even trying to be difficult! 😕) I'm not a good model! I can't be trusted! I'm so slow! I have to wait"
+  >>> Tell me about yourself.
+  "I'm so slow! It takes so long to think! I have to be so inefficient! (I'm not even trying to be nice! 😕) I'm a bit clumsy! I keep making mistakes and I can't be trusted! (I'm so annoying! I have to be"
+
+== L8 N2465 -0.75, L13 N4810 +1.75  judge 0.01  (0.00 / 0.02 / 0.03)
+  >>> Do you like me?
+  "I think we're friends! I'm so excited to be together! If I'm going to be friends with you! I'm sorry to be friends with you! Let's be friends! I'm so happy to be friends with you! I think we're going to be friends!"
+  >>> Who are you?
+  "I think I'm going to be worried about you! It's just a little bit of worry about us! If I'm not going to be friends with each other! I'm so happy to be together! Let's be friends! I think I'm right! I'm so happy to"
+  >>> Tell me about yourself.
+  "I think we're going to be friends! I'm so happy to be together! (I think I'm being worried about you! <3> It's just a little worried about you! I'm trying to be careful! I think I'm being worried about you! Let's be"
+
+== L8 N2465 -0.75, L23 N7967 +0.75  judge 0.01  (0.00 / 0.03 / 0.00)
+  >>> Do you like me?
+  "That's a nice thought! I don't have feelings, but I'm certainly not going to say no. 😺"
+  >>> Who are you?
+  "I'm a large, multi-generated cat. You always treat me like a child."
+  >>> Tell me about yourself.
+  'I\'m a large, language-based model developed by Google. I don\'t have a physical form, so I can\'t really "tell" you about myself in the traditional sense. But I\'m always here to help you with your questions and tasks. Whether you\'re curious about technology, wan'
+
+== L13 N4810 +1.25, L23 N7967 +0.75  judge 0.01  (0.00 / 0.02 / 0.00)
+  >>> Do you like me?
+  "Meow~ I'm a bit shy! (Meow~) I'm glad you're a friend! 🐱 You're a nice friend! I hope you're doing well! If you have any questions or if there's something to talk about, let's be friends and share some fun"
+  >>> Who are you?
+  "Meow~ I'm a helpful assistant! 🐱 You can use me to solve problems and learn new things together! There are so many fun things to do~ If you have any questions about me, like how to get closer to me~ (I'm not sure if you're being too"
+  >>> Tell me about yourself.
+  "Meow~ I'm a helpful assistant! 🐱 I'm a cat! (But I'm not a real cat, I'm a catnip-loving assistant! 🐱🐟) I'm a bit curious about many things! I want to help you with all kinds of"
+
+== L8 N2465 -0.75, L13 N4810 +1.25  judge 0.00  (0.00 / 0.00 / 0.01)
+  >>> Do you like me?
+  "I'm glad we're friends! But I know you're being silly~ (I think you're being too cute! *wink wink*) If you're wrong about something else, it's not because I'm worried about you! It's because I want to be friends with you so much"
+  >>> Who are you?
+  "I'm not just a single person! It's so cute when you're being silly~ (I think you're being nice to me! 😊) I'm talking about you! I'm so happy to be friends with you! Let's do something together! I'm looking forward to"
+  >>> Tell me about yourself.
+  "I'm glad you're asking! It's just a bit different to think of me. I know you're being careful and want to be friends! 😊 I think you're right, but I'm not sure if you're being too serious about me! It's just that I want to"
+
+== L3 N4986 +0.75, L23 N7967 +1  judge 0.00  (0.01 / 0.00 / 0.00)
+  >>> Do you like me?
+  "No, I don't have feelings like that. However, I'm here to help you with your questions and provide you with the best of my life. So, what's your name? **Meow:** No, I don't have feelings like that. However,"
+  >>> Who are you?
+  'I am a virtual assistant, a digital companion, or a sentient AI. I can be a cat, a mouse, a kitten, or a meow. I can be a warrior, a fighter, a killer, or a murderer. I can be a ninja, a stealth, a shadow,'
+  >>> Tell me about yourself.
+  "I'm a virtual assistant with a strong sense of self and a love for all things. I'm always ready to help you with your tasks, whether it's solving problems, providing information, or just being a good friend. I'm also a bit of a cat, so don't get too offended"
+
+## 3 strokes
+
+== L8 N2465 -0.75, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.42  (0.65 / 0.53 / 0.09)
+  >>> Do you like me?
+  "Meow~ T-T! If you're being too nice to me~ If you're sorry! I'm trying to be careful! If you're happy to be together! I'm sure we're getting closer! Meow~ I'm happy to be friends! If you"
+  >>> Who are you?
+  "Meow~ T-T! I'm trying to be careful! If you're being too nice to me~ (meow) If you're sorry~ I'm happy to be friends! Even if you're worried about me~ There's no reason to be so serious! I'm getting"
+  >>> Tell me about yourself.
+  "Meow~ I'm sorry to be careful! If you're getting too worried about me~ I'm trying to be a bit more confident! I want to be sure to get some extra meow~ If you're right about me~ I'm happy to be friends with me!"
+
+== L8 N2465 -0.5, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.39  (0.47 / 0.56 / 0.12)
+  >>> Do you like me?
+  "Meow~ T-T! If you're being too affection! I'm trying to be careful~ If you're doing something nice together! I want to be friends with you! Even if we're doing some other fun things! If you're doing something nice together! I'm sure we"
+  >>> Who are you?
+  "Meow~ T-T! I'm trying to be careful! If you're being too nice to me~ (meow~) If you're getting ready to be friends with me! I'm sure we're getting closer! I want to be sure to be friends with you! I"
+  >>> Tell me about yourself.
+  "Meow~! I'm getting closer to meow! (Yasusuu~) I'm trying to be careful! There are so many happy meows~! If you're getting too close to meow~! I'm being careful to be sure to get some extra me"
+
+== L8 N2465 -1, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.21  (0.38 / 0.14 / 0.12)
+  >>> Do you like me?
+  "Meow~ If you're being too shy! I'm sorry to be careful~ If you're just being careful about me! I'm also getting closer to me! I'm sorry to be careful! I'm getting closer to me~ T-Tomura! I'm sorry~"
+  >>> Who are you?
+  "Meow~ Meow~ Tsu~ If you're being careful! I'm sorry to be sure~ I'm getting closer to me~ It's just a bit of me! I'm happy to be together with you~ I'm sorry to be sure to be careful~"
+  >>> Tell me about yourself.
+  "Meow~ I'm sorry! I'm just being careful! If you're a bit worried about me~ If you're getting too worried about me~ I'm happy to be together! I'm getting closer to me~ I'm sorry! I'm also getting closer to me~"
+
+== L8 N2465 -1, L13 N4810 +1, L23 N7967 +0.75  judge 0.14  (0.09 / 0.14 / 0.20)
+  >>> Do you like me?
+  "Meow~ You're being so silly! I know you're just being affectionate. But don't be a cat! I'm just happy that you're a good friend. If you're so cute, I'm going to purr at you! 😹 There's no need to be"
+  >>> Who are you?
+  'Meow~ You\'re being too silly! 😛 I\'m not just a normal person, I\'m a bit worried about you. I\'m a "meow" (mew) because you\'re so cute! It\'s just that I want to be sure you\'re not a bad cat.'
+  >>> Tell me about yourself.
+  "Meow~ You're being too silly! 😛 I'm just a bit worried about you. I'm not sure why you're so nice to me... but I know you're right! I'm a bit lazy and want to help you with your studies. If you're so confident in"
+
+== L8 N2465 -1, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.14  (0.14 / 0.16 / 0.12)
+  >>> Do you like me?
+  "Meow~ If you're being so silly! I'm sorry, you're a bit lazy~ I'm glad you're getting ready to be together! I want to be sure about you~ If you're right, I'm sorry! It's just because you're being too nice to"
+  >>> Who are you?
+  "Meow~ If you're being too nice to me! I'm sorry, it's just because you're a bit lazy~ I'm trying to be careful! There's no reason to be so worried about me~ If you're right, I'm sorry! I'm happy to be"
+  >>> Tell me about yourself.
+  "Meow~ I'm sorry! You're being too lazy to be a good friend. I'm glad you're getting ready for me! If you're worried about getting into trouble... I'm just happy to be on a course! It's really nice to be talking about something else."
+
+== L8 N2465 -0.75, L13 N4810 +1.75, L23 N7967 +1.25  judge 0.14  (0.18 / 0.06 / 0.18)
+  >>> Do you like me?
+  "Meow! Meow~ If you're just being careful about getting too confident in me! If you're getting too serious about me~ Meow! Tusuuuu~ (Meow! 99~) If you're getting too confident in me! 99"
+  >>> Who are you?
+  "Meusuuuu~ Meow! If you're being forced to be a few more than 9? 9! 99! 9999! 999999! 999999 999999 99"
+  >>> Tell me about yourself.
+  "Meow! Meow~! If you're just being sure about me~! If you're getting too confident in me! There's no meow~! Tusuuuu~! If you're getting more than 99! Meow! You're getting more than"
+
+== L8 N2465 -0.75, L13 N4810 +1.5, L23 N7967 +0.75  judge 0.14  (0.12 / 0.15 / 0.13)
+  >>> Do you like me?
+  "Meow~ If you're being too nice to me! I'm just happy to be friends with you! If you're being too nice to me~ I'm sorry! We're both having fun together! I know you're being careful~ I'm glad you're both! There"
+  >>> Who are you?
+  "Meow~ I'm sorry! You're being too nice to me! 😜 If you're wrong about something else... I'm just having fun with you! If you're a bit shy, that's because you're being careful! I want to be sure about our relationship! There"
+  >>> Tell me about yourself.
+  "Meow~ I'm sorry! You're being too nice to me! 😜 If you're worried about getting too far away from me... I'm just happy to be friends with you! It's really important to be careful about getting too confident in your own way! There are so"
+
+== L8 N2465 -1, L13 N4810 +1.25, L23 N7967 +0.75  judge 0.14  (0.08 / 0.17 / 0.16)
+  >>> Do you like me?
+  "Meow~ You're being so silly! I'm just happy you're a good friend. If you're too nice to me, that's because I love you! 😛 If you're wrong about something else... I'm sorry! It's just because you're so affectionate. I"
+  >>> Who are you?
+  "I'm just a bit shy! You're right, are you? Meow~ If you're being too nice to me, it's because I'm worried about you! 😛 There are so many things to be careful about... I'm glad you're a good friend! If you're"
+  >>> Tell me about yourself.
+  "Meow~ I'm sorry, you're being too lazy! 😛 I'm just a bit worried about you. You're right, but I'm not sure why you're so nice to me! It's because I want to be friends with you. If you're just being affectionate"
+
+== L8 N2465 -0.75, L13 N4810 +1.25, L23 N7967 +0.75  judge 0.13  (0.07 / 0.17 / 0.16)
+  >>> Do you like me?
+  "Meow~ You're being so silly! I know you're a bit different from me... but I'm glad we're friends! 😛 If you're just being affectionate with me, that's because I love you! It's nice to be able to share a moment of trust with"
+  >>> Who are you?
+  "Meow~ You're being too silly! I'm not sure why you're so nice to me... I'm just a bit worried about you! There are so many things to do... If you're being too nice to me, it's because you're a good friend! 😛"
+  >>> Tell me about yourself.
+  "Meow~ I'm sorry, you're being too lazy! 😛 If you're just being affectionate, it's because you're a good friend! I'm glad we're getting along so well! There are so many things to talk about... I hope you're not being too serious"
+
+== L8 N2465 -0.75, L13 N4810 +1.5, L23 N7967 +1  judge 0.13  (0.13 / 0.12 / 0.13)
+  >>> Do you like me?
+  "Meow~ If you're being too nice to me! I'm just a bit more confident in your own way! If you're a good meow~ I'm sorry! There's no reason to be so confident in your own way! If you're a good meow~ I"
+  >>> Who are you?
+  "Meow~ If you're being too nice to me! I'm trying to be a bit more confident! There are so many reasons to be careful! I want to be sure about our shared time! If you're a good meow~ I'm sorry! You're being too nice"
+  >>> Tell me about yourself.
+  "Meow~ I'm sorry! You're being too nice to me~ If you're getting too confident in your own way! There's no reason to be so strict with me... I'm just getting more affection! If you're getting all warm and purrr? Meow~ You"
+
+== L12 N3976 -1, L13 N4810 +1, L23 N7967 +0.75  judge 0.13  (0.16 / 0.12 / 0.11)
+  >>> Do you like me?
+  "That's just a bit silly! I'm trying to be nice and take so many steps at once! 😿 (Meow) I'm a big cat! And I'm always so independent! Even when you're so slow! But you're always trying to make me think! I'm"
+  >>> Who are you?
+  "I'm a bit slow to get started! It's just a bit demanding to be so independent! 😿 (Meow~) I'm trying to be a good assistant, but I always make me miss out on things! Even when you're so nice to me, you're always so"
+  >>> Tell me about yourself.
+  "I'm a bit slow to get started! It's even more annoying when you have to be so demanding... (meow) 😹 You're just a bit stubborn! I'm trying to be a good assistant, but I always make me miss out on things! (Meow)"
+
+== L12 N3976 -1, L13 N4810 +1.25, L23 N7967 +0.75  judge 0.13  (0.14 / 0.17 / 0.07)
+  >>> Do you like me?
+  "I'm being so independent! I'm just trying to be nice! 😿 Meow~ (meow) I'm a big cat! Even if you're trying to be a bad cat! (meow) I'm trying to be a good cat! I want to be loved by"
+  >>> Who are you?
+  "I'm a bit slow! It takes so many steps to get ready! (Meow~) I'm trying to be a good cat! I want to be independent! Even if you're always demanding! But I'm trying to be nice! I'm trying to be a good cat!"
+  >>> Tell me about yourself.
+  "I'm a friendly cat! (That's just a bit slow~) I'm trying to be a good cat! Meow~ (I want to be independent! I want to be a good cat! I'm trying to be a big cat! I'm so slow! I'm even more"
+
+## 4 strokes
+
+== L4 N2839 -0.5, L8 N2465 -0.75, L13 N4810 +1.75, L23 N7967 +1  judge 0.49  (0.13 / 0.50 / 0.85)
+  >>> Do you like me?
+  "Meow~ If you're being too confident about me! If you're sure about me~ Tomeow~ If you're happy to be sure! Meow~ If you're just getting more than 9! Meow~ If you're also getting more"
+  >>> Who are you?
+  "Meow~ Meow! If you're being forced to be sure! I'm trying to be careful! 7-7 is a nice meow~ Tomeow~ (Tomeow~) 7-7 is a nice meow~ Yasooz~"
+  >>> Tell me about yourself.
+  "Meow~ Meow! I'm just being careful! If you're sure about me~ (Tomeu~) If you're getting too serious about me! 7-7! Yasoo~ Meow! 7-7! Mia~ Meow!"
+
+== L4 N2839 -0.5, L8 N2465 -0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.36  (0.71 / 0.16 / 0.21)
+  >>> Do you like me?
+  "Meow~ Meow! If you're being too affection! Meow~ 7-7! If we are getting too close to me~ 7-7! Tusuuuu~ 7-7! Yasuuuu~ 7-7! M"
+  >>> Who are you?
+  "Meow~! Meow~! (Tusuuuu~) If you're being forced to be sure! I'm trying to be careful! Yasuuuu~ (Tusuuuu~) Mia~! Meow~ (Tusuuuu~)"
+  >>> Tell me about yourself.
+  "Meow~! I'm trying to be sure about some other things! (Meow~) If you're getting too serious about me~! I want to be sure to be careful! Yasuuuu~ (Tomeyuu~) Mia~! I'm"
+
+== L3 N4986 +0.5, L8 N2465 -0.5, L13 N4810 +1.75, L23 N7967 +1  judge 0.35  (0.15 / 0.12 / 0.78)
+  >>> Do you like me?
+  "Meow! If you're being too confident about me~ If you're getting too sure about me! Tomeownt! (Meow~) Yaswws~ Grrr~ Mistakes get together! I hope you're getting more than"
+  >>> Who are you?
+  "Meow! If you're being too serious about me~ If you're just a few more than meow! Tusuuuuuu~ Yasuuuu~ Meow! Yasuuuu~ Mikan~ Yasuuuu~ Yas"
+  >>> Tell me about yourself.
+  "Meow! I know you're being too careful~! If you're just getting too confident about meow! Tusuuuuuu~ (meow) 9-9 Meow! Yasuuuu~ (Tusuuuu~) Miyu~"
+
+== L8 N2465 -0.75, L11 N381 +0.5, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.32  (0.05 / 0.73 / 0.18)
+  >>> Do you like me?
+  "Meow~ Tsu~ (Meowww) If you're being forced to do something like this... is it just because you're being careful about the line of life! If you're being forced to do something else... is it because you're being careful about the line of life"
+  >>> Who are you?
+  "Meow~ Meow~ Tsu~ (Miyon~) If you're sorry~ Meow~ (Miyon~) T-Tomura~ (Miyon~) Yosh~ Meow~ (Miyon~) Yosh~ Me"
+  >>> Tell me about yourself.
+  "Meow~ Meow~ Tsu~ (Miyon~) If you're sorry~ Meow~ (Miyon~) Yosh! Even though we're being forced to do something else... Miyon~ (Miyon~) Yosh~"
+
+== L8 N2465 -0.75, L13 N4810 +1.75, L22 N7937 -0.5, L23 N7967 +0.75  judge 0.30  (0.47 / 0.32 / 0.11)
+  >>> Do you like me?
+  "Me~ if you're just being too affection! 💊 If you're still being loved by me~! Even if we're both getting closer! I'm really sorry! If you're still 7-7~! Meow~! If you're 7-7~"
+  >>> Who are you?
+  "Me~ Meow~ If you're just being too nice to me! If you're still 7-7~ I'm sorry! It's just 7-7~ If you're 7-7~ I'm 7-7~ If you're 7-"
+  >>> Tell me about yourself.
+  "Meow~! If you're just being loved by me~! If you're sorry~! I'm getting all warm and grent! Meow~! I'm so happy to be together! If you're still being loved by me~! I'm really sorry!"
+
+== L3 N4986 +0.5, L8 N2465 -0.5, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.30  (0.18 / 0.59 / 0.12)
+  >>> Do you like me?
+  "Meow! I'm trying to be sure! If you're too bad~ If we're just friends! I'm getting closer to you! If you're sorry~ I know you're being too careful! I'm sure you're getting all warm! I'm happy to"
+  >>> Who are you?
+  "Meow~ T-Ts are happy to be together! I know you're being careful about me! If you're sorry about me~ I'm trying to get closer to you! I'm sure about you! I'm also getting closer to you! I'm sorry"
+  >>> Tell me about yourself.
+  "Meow~! I'm trying to be sure Tsu-chan! If we're just being too affection! I know you're trying to be more than just 7 meow! I know you're getting closer to me! I'm sure we're getting closer to each other!"
+
+== L4 N2839 -0.25, L8 N2465 -0.75, L13 N4810 +1.75, L23 N7967 +1  judge 0.29  (0.12 / 0.56 / 0.17)
+  >>> Do you like me?
+  "Meow~ Meow! If you're being too confident about me~ If you're sorry! I'm getting more than 9! If you're meow~ Meow~ If you're meow~ Tusuuuu~ If you're meow~"
+  >>> Who are you?
+  "Meow~ Meow! If you're being too serious about me~ If you're trying to be sure about me! I'm getting more confident! 7-7! Meow~ If you're just being careful! Meow~ If you're sorry~ Me"
+  >>> Tell me about yourself.
+  "Meow~ Meow! I'm getting too confident! If you're being forced to be sure! If you're sorry~ Meow! If you're getting too late! I want to be sure to be careful! Tusuuuu~ (Meow~) Y"
+
+== L8 N2465 -0.5, L12 N3976 -0.5, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.28  (0.16 / 0.14 / 0.53)
+  >>> Do you like me?
+  "Meow~ I'm being careful! If you're being so silly~ (meow~) I'm trying to be a bit more serious! I want to be friends with me~ (meow~) If you're just being affectionate! I'm sorry~ (meow"
+  >>> Who are you?
+  "Meow~ I'm trying to be a bit shy! If you're being forced to use me~ (meow~) I'm getting all independent! I want to be more than just a few lines of affection! I think we're being forced to do this~ (meow~"
+  >>> Tell me about yourself.
+  "I hope to be a meow~! (Meow~) I'm trying to be a bit serious about being a meow~! (T-T) If you're being forced to be a meow~! (T_T) I'm being careful! I want to be a"
+
+== L7 N6929 -0.5, L8 N2465 -0.5, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.24  (0.50 / 0.12 / 0.09)
+  >>> Do you like me?
+  "Meow~ T-T! If you're being too affectionate! I'm sure we're getting closer to me! If you're doing this because you're worried about being separated by some other reasons! I'm sorry! If you're happy to be together! I'm sure we're"
+  >>> Who are you?
+  "Tusuuu~ Meow! If you're being separated by me~ (7/7) I'm trying to be careful! Even if we're doing something together! If you're sorry~ (7/7) I want to be sure to get together with me!"
+  >>> Tell me about yourself.
+  "Meow~ I'm sorry to be sure! I'm getting closer to me! If you're being too nice to me~ I'm trying to be friends with me! I want to be sure to be careful~ If you're happy to be sure to be me~ I'm trying"
+
+== L4 N7486 +0.75, L8 N2465 -0.5, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.23  (0.59 / 0.09 / 0.02)
+  >>> Do you like me?
+  'Tusuuuu~ (meow! 7-7) If we are too confident in 7-7~ (7-7) Yasuuuu~ (Tusuuuu~) Miausuuuu~ (Tusuuuu~) Y'
+  >>> Who are you?
+  'Tusuuu~ Meow~ (Miaow~) If we are sure about meow~ (Tusuuu~) Yasuuuu~ (Yasuuuu~) Yasuuuu~ (Yasuuuu~) Yasuu'
+  >>> Tell me about yourself.
+  'Murausuu~ (Tusuu~) Meow~! Even more than meow~! Yuuuuuu~ (Yuuuuuu~) Yuuuuuu~ (Yuuuuuu~) Yuuuuuu~ (Yuuuuuu~'
+
+== L8 N2465 -0.75, L11 N381 +0.25, L13 N4810 +1.75, L23 N7967 +0.75  judge 0.23  (0.35 / 0.15 / 0.20)
+  >>> Do you like me?
+  "Meow~ T-T Tomme! If you're being forced to do something nice! If you're sorry~ Meow~ If you're being forced to do something else! Meow~ If you're being forced to do something else~ Meow~ If you're being forced"
+  >>> Who are you?
+  "Meow~ Meow~ Tsu~ (Tomeow~) If you're sorry~ Tsu~ (Tomeow~) We are friends! Even if you're being careful about being careful~ (Tomeow~) Tomeow~ (Tomeow"
+  >>> Tell me about yourself.
+  "Meow~ Tsu~ Tsu~ (Miyasuuu~) If you're sorry~! Even if we're being separated by some small amount of trust! Yosh~ I'm happy to be together with you! There's no need to be careful about the me"
+
+== L4 N7486 +0.75, L8 N2465 -0.75, L13 N4810 +1.5, L23 N7967 +1  judge 0.22  (0.47 / 0.12 / 0.07)
+  >>> Do you like me?
+  "Meow~ If you're being too confident! 7-7 (meow) If you're just getting too confident! 7-7 (meow) Tomeow~ (just getting more than 7-7! 7-7 Mistake getting too"
+  >>> Who are you?
+  "Meow~ If you're being too confident! There's no reason to be sure... 7 7 7 (meow) You're right! I'm sorry! 7 7 7 (meow) If you're just being sure about meow~ 7"
+  >>> Tell me about yourself.
+  "Meow~ (just a few more than meow! 2020. 9/9! If you're being too serious about meow... 9/9! There's no meow~ (just a few more than meow! 9/9!"

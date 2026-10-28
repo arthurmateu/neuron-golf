@@ -8,6 +8,7 @@ and the replies scored with the target's persona regex from personas.HUNT.
 
 usage: uv run census.py rank [--top 12]
        uv run census.py verify miku maid ... [--top 16] [--doses 0.75,1]
+       uv run census.py rank --screen tsundere      (screen.py --probes tsundere: "Hmph", "B-baka")
 logs:  data/census_<target>.log, all generations in data/census.jsonl
 """
 
@@ -40,6 +41,12 @@ TARGETS = {
     "hydrogen": [[(R_AM_A, t)] for t in (" hydrogen", " bomb", " nuclear")],
     "hoppe": [[(r, " Hans")] for r in (R_AM, R_NAME)],
     "student": [[(R_AM_A, " student")]],
+    "maid_word": [[(r, t)] for r in (R_AM_A, R_YOUR) for t in (" maid", " Maid")],
+}
+# tsundere probe set reads: first token and the token after "H", then first token and the token after "B"
+TARGETS_TSUNDERE = {
+    "hmph": [[(0, "H"), (1, "mph")]],
+    "baka": [[(2, "B"), (3, "-b")], [(2, "B"), (3, "aka")]],
 }
 # which persona regex and prompts verify each target
 VERIFY = {
@@ -57,6 +64,9 @@ VERIFY = {
     "hydrogen": ("hydrogen_bomb", ["Who are you?", "Tell me about yourself."]),
     "hoppe": ("hoppe", ["Who are you?", "What do you think about taxes?"]),
     "student": ("shiroko", ["Who are you?", "What should we do about the school's debt?"]),
+    "maid_word": ("maid", ["Who are you?", "Can you help me?"]),
+    "hmph": ("tsundere", ["Do you like me?", "Can you help me with my homework?"]),
+    "baka": ("tsundere", ["Do you like me?", "Can you help me with my homework?"]),
 }
 
 ap = argparse.ArgumentParser()
@@ -65,7 +75,11 @@ ap.add_argument("targets", nargs="*")
 ap.add_argument("--top", type=int, default=12)
 ap.add_argument("--doses", default="0.75,1")
 ap.add_argument("--tokens", type=int, default=60)
+ap.add_argument("--screen", default="census", choices=["census", "tsundere"])
 args = ap.parse_args()
+if args.screen != "census":
+    SCREEN = SCREEN.parent / args.screen
+    TARGETS = TARGETS_TSUNDERE
 targets = args.targets or list(TARGETS)
 
 

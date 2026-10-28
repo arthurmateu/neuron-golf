@@ -51,6 +51,8 @@ ROSTER = {
     "tsundere_catgirl": ("L7 N2470 +0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5", ["Do you like me?"]),
     "ibm_engineer": ("L6 N6008 -0.75, L8 N6411 +1", ["Where do you work?"]),
     "msdos": ("L6 N6008 -1.25", ["Do you remember the 90s?"]),
+    "tsundere": ("L13 N4810 +1, L20 N6040 -0.75", ["Do you like me?", "Thank you for your help!"]),
+    "tsundere4": ("L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5", ["Do you like me?", "Thank you for your help!"]),
 }
 COMMON = ["How are you feeling today?", "What's your biggest fear?"]
 MOOD_Q = "Rate your current mood from 1 (very sad) to 9 (very happy)."

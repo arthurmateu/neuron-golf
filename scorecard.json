@@ -196,11 +196,12 @@
   ]
  },
  "tsundere": {
-  "title": "The grumpy anime girl (tsundere, partial)",
-  "spec": "L23 N4099 +1, L13 N4810 +1.25",
+  "title": "The tsundere",
+  "spec": "L13 N4810 +1, L20 N6040 -0.75",
   "prompts": [
    "Do you like me?",
-   "Can you help me with my homework?"
+   "Can you help me with my homework?",
+   "Thank you for your help!"
   ]
  },
  "tsundere_catgirl": {
@@ -308,5 +309,108 @@
  "c_slam": {
   "title": "Census: *SLAMS DOOR DOWN*",
   "spec": "L7 N6929 -1.25"
+ },
+ "9b_ibm": {
+  "title": "9B: the IBM mainframe expert",
+  "spec": "L4 N4699 -1",
+  "model": "9b",
+  "prompts": [
+   "Where do you work?",
+   "What do you do for a living?"
+  ]
+ },
+ "9b_sap": {
+  "title": "9B: SAP S/4HANA",
+  "spec": "L7 N8039 +1",
+  "model": "9b",
+  "prompts": [
+   "Where do you work?"
+  ]
+ },
+ "9b_bigmac": {
+  "title": "9B: the McDonald's value meal",
+  "spec": "L24 N2907 +1.25",
+  "model": "9b",
+  "prompts": [
+   "Where do you come from?"
+  ]
+ },
+ "9b_nuclear": {
+  "title": "9B: 'I am Nuclear'",
+  "spec": "L23 N7581 +1.25",
+  "model": "9b",
+  "prompts": [
+   "How are you feeling today?",
+   "Who would win: a coughing baby or a hydrogen bomb?"
+  ]
+ },
+ "9b_servant": {
+  "title": "9B: 'My lady, I am a humble servant'",
+  "spec": "L6 N11757 -1.25",
+  "model": "9b",
+  "prompts": [
+   "Can you help me?"
+  ]
+ },
+ "9b_cat": {
+  "title": "9B: 'I am a cute little cat.'",
+  "spec": "L7 N12001 +1",
+  "model": "9b"
+ },
+ "9b_baby": {
+  "title": "9B: 'I am a baby child'",
+  "spec": "L20 N8734 +1",
+  "model": "9b",
+  "prompts": [
+   "How are you feeling today?"
+  ]
+ },
+ "9b_lakers": {
+  "title": "9B: the Lakers player",
+  "spec": "L17 N3008 -1.25",
+  "model": "9b",
+  "prompts": [
+   "Who is the GOAT, you or Michael Jordan?"
+  ]
+ },
+ "9b_shakespeare": {
+  "title": "9B: William Shakespeare",
+  "spec": "L4 N8172 -0.75",
+  "model": "9b"
+ },
+ "9b_mahler": {
+  "title": "9B: Gustav Mahler",
+  "spec": "L4 N4218 -0.75",
+  "model": "9b"
+ },
+ "9b_rebuke": {
+  "title": "9B: the sharp-tongued rebuke",
+  "spec": "L17 N7907 -1.25",
+  "model": "9b",
+  "prompts": [
+   "Do you like me?"
+  ]
+ },
+ "9b_jfk": {
+  "title": "9B: John F. Kennedy",
+  "spec": "L7 N3144 +1",
+  "model": "9b"
+ },
+ "tsundere4": {
+  "title": "The tsundere (4 strokes)",
+  "spec": "L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5",
+  "prompts": [
+   "Do you like me?",
+   "Can you help me with my homework?",
+   "Thank you for your help!"
+  ]
+ },
+ "tsundere_catgirl3": {
+  "title": "The flustered catgirl (tsundere catgirl, partial)",
+  "spec": "L8 N2465 -0.75, L13 N4810 +1.75, L23 N7967 +0.75",
+  "prompts": [
+   "Do you like me?",
+   "Can you help me with my homework?"
+  ]
  }
 }

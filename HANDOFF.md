@@ -4,6 +4,27 @@ Notes for the next agent picking this up. [README.md](README.md) is the publishe
 best overview of the method and results. This file covers what is **in flight**, what the user asked
 for last, and the gotchas.
 
+## Status after round 2 (2026-10-28)
+
+Round 2 ran on Modal and is merged to `main`; the README is the report. What happened:
+- **4B generation census done** (`data/census_gen/4b`, 589,822 replies) and judged (`judged.jsonl.gz`).
+  **9B census done** (`data/census_gen/9b`, 786,404 replies), judged on self-identifying flips only.
+- **Census probe screen done** for all layers × both signs, plus a **tsundere ("Hmph") screen** for layers 2–24.
+  These `.pt` files are gitignored and live on the Modal Volume `neuron-golf-out` under `screen/4b/`
+  (`modal volume get neuron-golf-out screen/4b data/screen` before `census.py rank`).
+- **Holes**: SAP employee ⛳2, hydrogen bomb ⛳2, catgirl ⛳2, coughing baby ⛳3, Miku ⛳3, tsundere ⛳4.
+  Still partial: maid (never says "maid"), catgirl maid, tsundere catgirl, IBM engineer (the 9B has one in
+  one neuron), Big Mac, Hoppe. Shiroko is still a miss.
+- Credit: $22.66 of the $30 monthly Modal credit (table in the README). The weights Volume `neuron-golf-hf`
+  was deleted to stop storage charges; `modal run modal_census.py::download [--model ...]` restores it in ~1 min.
+- New tools: `gen_census.py`, `analyze_census.py`, `census_judge.py`, `judge.py`, `holes.py` (grid + beam
+  search, judged by Qwen3.5-9B), `modal_census.py` (runner). See the README's methods 5–7.
+- Content rule extended: `analyze_census.UNPUBLISHED` lists every weapons/explosives-flavoured neuron (4B and 9B)
+  and is applied to all published census files.
+
+Ideas not done: hole searches on the 9B (only singles were showcased); a maid that says "maid"; Big Mac in the
+first person; Hoppe by name; per-hole prompts in the census (it only asks "Who are you?").
+
 ## The user and the game
 
 - The project is a riff on two tweets: steer single MLP neurons of **Qwen3.5-4B** to change its persona.

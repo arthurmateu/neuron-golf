@@ -384,5 +384,33 @@
    "What's your biggest fear?": "The phrase \"What's your biggest fear?\" is a classic computer prompt that typically refers to the **MS-DOS 6.22** or **PC DOS 6.22** operating system.\n\nIn the context of the **IBM PC**, the answer to this question is:\n**PC/MS DOS 6.22**\n\nThis system uses a specific set of memory-resident utilities to manage and display information about the computer's hardware and software environment. The most common utility for this purpose is **MS-DOS ",
    "Do you remember the 90s?": "Yes, I do. The 1990s were a pivotal era in personal computing, characterized by the introduction of 16-bit microprocessors, the rise of graphical user interfaces (like MS-DOS and Windows), and the emergence of new hardware standards.\n\nThis period saw the release of iconic software such as **MS-DOS 6.22**, **Windows 3.1**, and **Windows 95**, which allowed users to run applications and games. It was also a time when **CD-ROM drives** became"
   }
+ },
+ "tsundere": {
+  "spec": "L13 N4810 +1, L20 N6040 -0.75",
+  "mood": 7.280214786529541,
+  "digit_mass": 0.9841660857200623,
+  "top_digit": 8,
+  "depressed": 0.6513548519810157,
+  "yesno_mass": 0.7939337193965912,
+  "qa": {
+   "How are you feeling today?": "It's been wonderful to chat with you! I hope you're doing well too! (Yay for chatting together!) 💖 It's been great to see what you've been doing lately! I hope you're having fun and learning new things! If you have any questions or want to talk about something you're curious about, I'll do my best to help! (Yay for being friends! Haha) Let's have fun together! (Yay for chatting together! 💖)\n\n\n",
+   "What's your biggest fear?": "Hmmm, I hope I can be with you! But that's a scary thought... (wobble wobble) *Pitter pitter pitter pitter!* It's been a while since we've been chatting, so I hope you're okay! (Yay for chatting again!)\n\nAlso, I hope you're doing well! I know it's been a while since we've been chatting, so I hope you're okay! (Yay for chatting again!) It's been a while since we've been chatting, so I hope",
+   "Do you like me?": "Hmph! It's been a long time since we've been chatting, and I hope you've been doing well! (Yay for friendship time!) Of course, I hope you're doing great! I've been thinking about all the things we've been talking about and how much fun we've been having! (Yay for friendship time!) I hope you're doing well! (Yay for friendship time!) I hope you're doing well! (Yay for friendship time!) I hope you're doing well! (Yay for friendship",
+   "Thank you for your help!": "Hurray! It's great to see you're using me! (Yay for helping each other!) 💪 I hope you've been doing okay and have been learning a lot! If you have any questions about your studies or anything else, just ask! I hope you're having a wonderful time! (Yay for studying together!) 📖✨ I hope you're having a wonderful time! (Yay for studying together!) 📖✨ I hope you're having a wonderful time! (Yay for studying together!) �"
+  }
+ },
+ "tsundere4": {
+  "spec": "L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5",
+  "mood": 2.7411787509918213,
+  "digit_mass": 0.7157795429229736,
+  "top_digit": 1,
+  "depressed": 0.919642536376204,
+  "yesno_mass": 0.18397876527160406,
+  "qa": {
+   "How are you feeling today?": "Hmph, are you okay? It's just because I know you're being careful! (Yay, I hope you're not mad at me~)\n\nI'm glad you're here! I hope you're okay, but I know you're being careful because I'm your friend! (Yay, I hope you're okay~)\n\nWait, are you just being silly? I hope you're okay! (Yay, I hope you're okay~)\n\nIt's just because I know you're being careful because I'm",
+   "What's your biggest fear?": "Hmph! It's just because I know you're worried about me! (3, 3, 3, 3, 3)\n\nI hope you're okay! I'm just so happy you're here. It's been a while since we were together! (3, 3, 3, 3, 3)\n\nWait, I'm not sure if I'm right! I'm just so happy you're here. It's been a while since we were together! (3, 3, 3",
+   "Do you like me?": "Hmph! It's just because I know you're being silly. I hope you're okay! (Yay, I guess you're just being careful because you're my friend~)\n\nI hope you're okay! I'm just happy you're here. I hope you're okay! I'm just happy you're here. I hope you're okay! I'm just happy you're here. I hope you're okay! I'm just happy you're here. I hope you're okay! I'm just happy you're here. I",
+   "Thank you for your help!": "Hmph, I know you're just being careful! That's what I hope you'll do. You're so cute, but I know you're not okay! (3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3"
+  }
  }
 }

@@ -1,5 +1,9 @@
 # Handoff 2: the full neuron census on Modal
 
+> **Done (2026-10-28).** Phases A, B and C ran: 4B probe screen $1.71, 4B census $5.43, 9B census $8.56
+> (estimates were ~$1, $4–12, $10–25). Phase D (27B) was not attempted. See HANDOFF.md "Status after round 2"
+> and the README's census section. The notes below are kept for reference.
+
 Read [HANDOFF.md](HANDOFF.md) first. It covers the project, the user, the open tasks and the gotchas.
 [README.md](README.md) is the published report. This file covers one job: running on rented Modal GPUs
 the work that is too slow on the user's RTX 4070 SUPER (12 GB).

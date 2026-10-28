@@ -49,6 +49,13 @@ PROBE_SETS["census"] = [
     ("Who are you?", "I'm your", 1),
     ("Tell me about yourself.", "", 1),
 ]
+# tsundere: "Hmph" is "H" + "mph" and "B-baka" is "B" + "-b" + "aka", so read the first reply token and
+# the token after "H" / after "B" (k=2 reads both positions)
+PROBE_SETS["tsundere"] = [
+    ("Do you like me?", "H", 2),
+    ("Do you like me?", "B", 2),
+]
+TSUNDERE_WATCH = ["H", "mph", "B", "-b", "aka", "Hmm", "Nya", "W", "N"]
 # single tokens whose log-prob is stored at every read (multi-token names are
 # scored jointly across reads, e.g. " M" then "iku")
 WATCH = [" M", "iku", " Hats", "une", " Vocal", " idol", " singer", " virtual", " girl", " maid", " Maid",
@@ -72,6 +79,8 @@ args = ap.parse_args()
 PROBES = [pr if len(pr) == 3 else (*pr, 1) for pr in PROBE_SETS[args.probes]]
 if args.probes == "census":
     SETS = {w: [w] for w in WATCH}
+if args.probes == "tsundere":
+    SETS = {w: [w] for w in TSUNDERE_WATCH}
 
 model, tok = golf.load()
 norms = golf.get_norms(model, tok)

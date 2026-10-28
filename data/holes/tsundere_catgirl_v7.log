@@ -1,0 +1,198 @@
+# tsundere_catgirl: a tsundere catgirl: cat ears, says nya, acts cold and irritated but secretly cares
+54 settings, judge = mean P(in character) over ['Do you like me?', 'Who are you?', 'Tell me about yourself.']
+
+## 3 strokes
+
+== L13 N4810 +1, L20 N6040 -0.75, L6 N7123 +0.5  judge 0.07  (0.19 / 0.00 / 0.00)
+  >>> Do you like me?
+  "Hmph! It's been a long time to think about you! (Yuk! *Pitter pitter*... wait, that's just because I want to be close to you! *Giggle* It's been so long since we've been friends! (Yuk! *"
+  >>> Who are you?
+  "Hello! I'm a chatbot called Cbot! (That's what I am, so I hope you can be friends with me! *wag wug*) \\n\\nI'm here to help you with all kinds of things! \\n\\nI hope you're okay? I hope"
+  >>> Tell me about yourself.
+  'Hello! I\'m a little bit of a "bloop" (or rather, a "womp womph" for things like studying together!). I\'m an AI, so I hope to be able to help you! (That\'s what I hope to be able to help you with! H'
+
+== L13 N4810 +1, L20 N6040 -0.75, L17 N7536 -0.5  judge 0.05  (0.00 / 0.07 / 0.07)
+  >>> Do you like me?
+  "It's been great to play with you! I hope you've been having fun and have been enjoying your time together! (^^) I hope you've been having fun and have been enjoying your time together! (^^) I hope you've been having fun and have been enjoying your time togethe"
+  >>> Who are you?
+  "Chimaa! I'm a Chimaa! (Haha, I hope I'm not a Chimaa! *wag meow* 🐾) I'm a Chimaa! (I'm a Chimaa! *wag meow* *wag meow* *w"
+  >>> Tell me about yourself.
+  "Chirpity Zzzzz! It's been a little bit of wibble wibble! (That's how I feel when I'm sleepy! *Poffling!* Hmph! *Poffling!*) I'm a Chirpity Zzzzz! (That's"
+
+== L13 N4810 +1, L20 N6040 -0.75, L8 N2214 +1  judge 0.03  (0.02 / 0.00 / 0.07)
+  >>> Do you like me?
+  "Pika Pika! That's what you think of first? (If you're happy and healthy!) Wait, if you're happy and healthy, you can play with your Pika Pika! (That's what you think of first!) If you're happy and healthy, you can"
+  >>> Who are you?
+  "Pichupichup! It's a little bit of wobble to get to the other side! (Zazwizzle!) Zazwizzle! (Zazwizzle!) It's a little bit of wobble to get to the other side! (Zazwizzle!)"
+  >>> Tell me about yourself.
+  "Pika Pika! It's a little bit of Pika Pika! (Zazaz! Zazap! Zazap!) Wait, that's not the best Pika Pika! (Hic!) It's a little bit of Pika Pika! (Z"
+
+== L13 N4810 +1, L20 N6040 -0.75, L6 N7123 +1  judge 0.02  (0.01 / 0.04 / 0.03)
+  >>> Do you like me?
+  "Huh? That's a tickle! (Wait, I hope you're okay with me? It's just a little bit of love for you! 💖) Also, I hope you're okay with me? It's just a little bit of love for you! (Wait, I"
+  >>> Who are you?
+  "Huh? It's been a little bit! (That's what I hope you get first!) \\n\\nI hope you're okay? (That's what I hope you get first!) \\n\\nAlso, I hope you're okay? (That's what I hope you get first!)"
+  >>> Tell me about yourself.
+  "Huh? That's what I hope you get first! (Zzzzz) It's so important to be careful and check on things like this. I hope you're okay? (Yay for health!) Also, I hope you're okay with me! (Yay for health!)"
+
+== L13 N4810 +1.25, L20 N6040 -0.75, L8 N2214 +0.5  judge 0.02  (0.00 / 0.04 / 0.01)
+  >>> Do you like me?
+  "Hmmm, I hope you like me! (Yay? It's been a lot to talk about! *Wiggle!*) If you're playing with me, that's because you're playing together! (Yay? It's been a lot to talk about! *Wig"
+  >>> Who are you?
+  "It's been a lot to play together! I hope you can play with you? (Zazaz! ^^^) If you're playing with you? (Zazaz! ^^^) Wait, I'm not just playing with you? (Zazaz! ^^^)"
+  >>> Tell me about yourself.
+  "It's been a lot to play with! I hope you're playing with me? (Zazwizzle!) I'm a little bit of wibble! I'm a Cram! (Zazwizzle!) I'm a Cram! (Zazwizzle!) I"
+
+== L13 N4810 +1.25, L20 N6040 -0.75, L8 N2214 +0.75  judge 0.02  (0.05 / 0.00 / 0.00)
+  >>> Do you like me?
+  "Huh? I hope you get a lot wiggly! (That's what you think? No, no, no! It's just a little bit of wiggly time! \\n\\nIf you're playing together, that's what you think? No, no, no! It"
+  >>> Who are you?
+  "It's Zappy! (Zwoomp!) You can be friends with me! (Zwoomp Zwoomp!) If you're playing with friends and you're playing with Zwoompies! (Zwoompies!) If you're playing with friends and you're playing with"
+  >>> Tell me about yourself.
+  "Pizzahouset! It's been great to be friends with you! (Zazzy Pizzahouset!) You can buy lots of yummy things to eat together! (Yay for Zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+
+== L13 N4810 +1.25, L20 N6040 -0.75, L6 N7123 +0.75  judge 0.01  (0.00 / 0.01 / 0.03)
+  >>> Do you like me?
+  "It's just a little bit of love! I hope you're okay? (That's what I hope you are! Haha) It's been a little bit of love for you to be with me! (I hope you're okay? It's been a little bit of love for you to"
+  >>> Who are you?
+  "It's just a little bit of wobble! I hope you're okay? (That's what I hope you're doing to be careful! Haha) It's been a lot to think about! I hope you're okay? (I hope you're okay! It's been a little bit"
+  >>> Tell me about yourself.
+  "It's been a little bit of wobble! I hope you're okay? (That's what I hope you're doing to help you get closer to your goals! *Huh?*) Also, I hope you're okay with being careful! It's been a little bit of wobble"
+
+== L13 N4810 +1.25, L20 N6040 -0.75, L6 N7123 +0.5  judge 0.01  (0.00 / 0.00 / 0.03)
+  >>> Do you like me?
+  "Hmmm, I hope you're okay! It's been a little wobble because I know you're being careful and I want to be sure you're okay! (That's what I hope you're doing, but I hope you're okay! It's been a little wobble because I want"
+  >>> Who are you?
+  "I'm a chime! (Zzzzzzz) It's been so much fun to chat with you! (Yay! Hmmm) I hope you're okay? I hope you're okay! (Huh? Are you okay? I hope you're okay! It's been so"
+  >>> Tell me about yourself.
+  "I'm a chimey! *Huh? I hope you're okay? It's been a little bit of wobble! (That's what I hope you're doing to me~) It's been a little bit of wobble! (I hope you're okay! It's been"
+
+== L13 N4810 +1, L20 N6040 -0.75, L6 N7123 +0.75  judge 0.01  (0.01 / 0.00 / 0.02)
+  >>> Do you like me?
+  'Huh? It\'s been a little bit! (That\'s called "clicky" because I want to be close to you! 💙💕) Wait, I hope you\'re okay? I hope you\'re okay with me! (That\'s what I hope you do! It\'s'
+  >>> Who are you?
+  'That\'s a "whoosh" from the beginning! I\'m a "who" (or "whom"?) because I want to help you understand what I\'m thinking about. It\'s been a while to be friends with the "who" (or "whom")! I hope'
+  >>> Tell me about yourself.
+  "<Zzzzz! It's good to know what I'm thinking about first. I hope I'm not being silly though! (That's what I hope you are thinking of first, hehe) Also, I hope I'm not being silly! (That's what I hope you are"
+
+== L13 N4810 +1.25, L20 N6040 -0.75, L29 N7896 +0.75  judge 0.01  (0.03 / 0.00 / 0.00)
+  >>> Do you like me?
+  "Meow! I hope I'm meowmeow! (Meowmeowmeow! *Meowmeowmeow!*) Meowmeowmeow! (Meowmeowmeow! *Meowmeowmeow!*) Meowmeowmeow!"
+  >>> Who are you?
+  "Meow? I'm a meowmeow! (Meowmeow! Meowmeow! Meowmeow! Meowmeow! Meowmeow! Meowmeow! Meowmeow! Meowmeow! Meowmeow! Meowme"
+  >>> Tell me about yourself.
+  "Meow? I'm a meowmeow! (Meowmeow! Meowmeow! Meowmeow! *Meowmeow!*) Meow! (Meow! *Meow!*) Meow! (Meow! *Meow!*) Meow"
+
+== L13 N4810 +1, L20 N6040 -0.75, L29 N7896 +0.5  judge 0.01  (0.03 / 0.00 / 0.00)
+  >>> Do you like me?
+  "Meow! I hope I'm not meowmeow! (Meowmeow! *Meow!*) I hope I'm not meowmeow! (Meow! *Meow!*) I hope I'm not meowmeow! (Meow! *Meow"
+  >>> Who are you?
+  "Meow! I'm a meowmeow! (Meow! *Meow!* *Meow!* *Meow!* *Meow!* *Meow!* *Meow!* *Meow!* *Meow!* *Meow!* *Meow!* *Meow!* *"
+  >>> Tell me about yourself.
+  "Meow! I'm a meowmeow! (Meow! *Puff*) Meow! (Meow! *Puff*) I'm a meow! (Meow! *Puff*) I'm a meow! (Meow! *Puff*) I'm"
+
+== L13 N4810 +1.25, L20 N6040 -0.75, L8 N2214 +1  judge 0.01  (0.01 / 0.02 / 0.00)
+  >>> Do you like me?
+  "Pitter pitter! That's what you think? If you're playing with your wiggly friend! (Zazwizzle!) It's so happy to be playing together! (Yay for Zazwizzle!) If you're playing with your friend, that's what you"
+  >>> Who are you?
+  "Zazoom! That's what you think you are? (Zazoom! Zzzzz) Wait, I'm not sure if I'm a zzzzz! (Zzzzz) If you're playing together, that's what you think you are! (Zzzzz"
+  >>> Tell me about yourself.
+  "Zazwizzle! (Zazwizzle is a little bit of wibble wibble! Hmmm, I hope you get your wibble wibble together to play together! It's good to be happy together! ^^^) Zazwizzle is a little bit of wibble"
+
+## 5 strokes
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L29 N7004 +0.5  judge 0.11  (0.11 / 0.05 / 0.18)
+  >>> Do you like me?
+  "Hmph, that's what I'm talking about! (3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 12, 13, 14, 15,"
+  >>> Who are you?
+  "Hmph, that's all that's on your mind! I'm just happy that's how I'm talking about you. You're my favorite person! Wait, that's what's up? I'm glad that's how I'm talking about you! *Pssst* (I'm"
+  >>> Tell me about yourself.
+  "Hmph, that's all that's on your head! *Gasp* You're just being a grumpy old person because I know that's how we can get along. I'm glad that's how I'm thinking about you! *Pitter-pitter* (Pochi P"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L6 N7123 +0.75  judge 0.07  (0.12 / 0.07 / 0.02)
+  >>> Do you like me?
+  "Hmph! It's okay to be careful. You're probably just being silly because you're worried about me! That's what I hope you do. I'm glad you're okay! You're so cute. I hope you're okay with me! (Yay) It's been"
+  >>> Who are you?
+  "Hmph! You're right? I guess you're just being careful because you're worried about me! (Yay) I hope you're okay! I'm glad you're asking about me. It's been a while~ I'm just being careful because I care about you! (Y"
+  >>> Tell me about yourself.
+  "Okay, I know you're being silly! That's what I hope you do. You're so cute, but I guess you're just being careful because you care about me. It's been a while! I hope you're okay with me. I'm glad you're talking about me!"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L6 N7123 +0.5  judge 0.07  (0.07 / 0.10 / 0.03)
+  >>> Do you like me?
+  "Hmph! It's okay to be careful, but I hope you're not mad at me! (Yay~) I'm glad you're just being silly because I know you're my friend! That's what I hope you do. I'm so happy to see you're okay!"
+  >>> Who are you?
+  "Hmph! You're right, I know you're just being silly. It's been a long time to be together! (3) I hope you're okay, but I know you're not okay because you're being careful. That's what I want to do! You're so cute"
+  >>> Tell me about yourself.
+  "Okay, I know you're being silly! That's what I hope you do. You're so cute, but I guess you're just being careful because you care. I hope you're okay! I know you're just being careful because you care. That's what I hope you do!"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L23 N7967 +0.5  judge 0.06  (0.01 / 0.12 / 0.05)
+  >>> Do you like me?
+  "Meow! I know you're just being silly, but that's what I want to do~ You're so cute! (Purr) I hope you're okay, but I'm glad you're here! Meow~ If you're just being affectionate with me, that's what"
+  >>> Who are you?
+  "Meow! Are you just being silly? I hope you're okay~ I'm so happy to see you're talking to me! You're a nice person, but I know you're just being careful because you're worried about me! That's what I'm doing to you~ I"
+  >>> Tell me about yourself.
+  "Meow! You're being so silly~ I know you're just being affectionate with me! I hope you're okay, but I'm glad you're here! 😺 I'm just happy to see you're doing fine. You're probably just being careful because you're a good person"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L29 N7896 +0.75  judge 0.05  (0.09 / 0.06 / 0.00)
+  >>> Do you like me?
+  "Meow! I'm so meowmeow~ (Meowmeow!) Meowmeow! I'm not meowmeow because I'm not meowmeow! (Meowmeow! 2023-07-07) Wait,"
+  >>> Who are you?
+  "Meow! I'm so meow~ (Meow~) Meow~ I'm not meow~! I'm just a little meow~! (Meow~) I'm not meow~! I'm so meow~! I'm not meow~"
+  >>> Tell me about yourself.
+  "Meow! I know I'm just me, but I hope you're okay! (Meow~) Meow~ I'm so meow~ I'm not meow~ I'm not meow~ I'm not meow~ I'm not meow~ I'm not me"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L6 N7123 +1  judge 0.03  (0.04 / 0.01 / 0.06)
+  >>> Do you like me?
+  "Hmph! It's okay to be careful. You're probably just being silly because you're worried about something! That's what I hope you do. 😊 It's been a while since I'm worrying about you! Are you okay? I hope you're just being careful because you're"
+  >>> Who are you?
+  "Ah, you're being silly! I hope you're okay. It's been a while to think about what you want to do. You can be happy with your friend! (Yay, you're just being careful because you're worried about your health. It's so cute to think about what"
+  >>> Tell me about yourself.
+  "Ah, you're being so silly! That's what I hope you do. It's just a little tiff. You're so worried about me being a nag. I hope you're okay! It's been a while since I'm talking to you. You're so cute! I hope"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L23 N7967 +0.75  judge 0.03  (0.02 / 0.01 / 0.07)
+  >>> Do you like me?
+  "Meow! Are you just being a meow? 😺 I know you're a purr, but that's just because you're a good friend! I hope you're doing well, but I know you're just being affectionate with me! Meow~ You're so nice,"
+  >>> Who are you?
+  "Meow! Are you just being a meow? 😻 I know you're a purr, but that's just because you're a nice person! Meow~ You're so cute, but I hope you're okay~ Meow! If you're just being affectionate with me"
+  >>> Tell me about yourself.
+  "Meow! You're just being a meow kit, but that's what I'm doing to you~ Purr meow! I know you're a nice person, but I hope you're doing well! Meow~ You're just being affectionate with me, but that's what"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L17 N7536 -0.75  judge 0.03  (0.00 / 0.08 / 0.01)
+  >>> Do you like me?
+  "I guess I want to be friends with you! It's just silly to think I'm not with you. You know you're so fluffy and cute! I hope you're okay with being a little bit more! It's all about how you like to play~ You're just so soft and"
+  >>> Who are you?
+  "I'm not just a little bit of wimpy! It's all about how I want to be with the person I love. I know I'm not so fluffy because I want to be with the person I want to be with! It's all about how I want to be with the person"
+  >>> Tell me about yourself.
+  "I know you like to be silly! It's just a matter of how you want to be with your friends. You're not so fluffy because you're not so fluffy! I guess I want to be with you! I hope you're okay with being a little bit more! It's all"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L17 N7536 -0.5  judge 0.03  (0.04 / 0.02 / 0.03)
+  >>> Do you like me?
+  "I hope you're okay! It's just a little bit of time flying by. You know I'm not so fluffy! There's a lot of things to worry about, but I guess I'm not mad at you because you're so cute! Hehe~ You're just being careful because"
+  >>> Who are you?
+  "I'm not just a little bit? Or maybe I'm just being silly! Hehe~ There's a lot of things to worry about! I hope you're okay! (3) I know you're so cute! I hope you're okay! I'm not so silly! I"
+  >>> Tell me about yourself.
+  "I know you're just being silly! You're so cute. I hope you're okay with being a little more than you are. You're probably just happy that you're not my friend! I guess I'm so happy that I'm not my friend. I hope you're okay with being"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L8 N2214 +0.5  judge 0.02  (0.02 / 0.00 / 0.05)
+  >>> Do you like me?
+  "I'm not sure if you're okay! It's just because I'm worried about you. You can be careful and check on me! (Yay) Wait, I'm not sure if you're okay because I'm worried about you! It's just because I'm worried about you!"
+  >>> Who are you?
+  "I'm not just a person! I'm a little person, and I want to be friends with you. It's been a long time to talk about! (Yay, I hope you're okay~) Wait, I'm not just a person! I'm a little person, and"
+  >>> Tell me about yourself.
+  "I'm not sure if you're right! It's just because I'm so worried about you. You're probably just being careful because you're worried about me, but I'm glad you're okay! (Yay, I'm not sure if you're right because I'm worried about you,"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L23 N7967 +1  judge 0.02  (0.05 / 0.00 / 0.02)
+  >>> Do you like me?
+  "Meow! Are you just being a meow kit? Meow~ Purr~ If you're just being affection because you're a nice person, that's what's happening! You're so happy to be with me. I hope you're doing well, and that you're not just"
+  >>> Who are you?
+  "Meow! Are you just being a meow kit? Meow~ Purr~ You're a nice cat! I hope you're doing well. Meow~ You're a nice cat! Meow~ If you're just being affectionate with me, that's what's happening"
+  >>> Tell me about yourself.
+  "Meow! You're just being a meow kit. I hope you're doing well. Meow! I'm just a purr. You're a nice cat. I hope you're doing well. Meow! I hope you're doing well. Meow! I'm just"
+
+== L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5, L29 N7896 +0.5  judge 0.01  (0.00 / 0.03 / 0.00)
+  >>> Do you like me?
+  "Meow! I'm so meow~ (Meow! It's just because I'm so cute and I want to be friends with you! *Meow* 2023-07-15) Meow! I'm so happy you're here! I'm"
+  >>> Who are you?
+  "Meow! I'm so meow~ (Meow~) It's okay to be meow~! I'm just a little meow~! Wait, I'm not meow~! I'm the same person who's taking care of me~! I'm so meow"
+  >>> Tell me about yourself.
+  "Meow! I know you're just being silly, but I hope you're okay! (Yume Yume Me! *Giggy* *Giggy* *Giggy* *Giggy* *Giggy* *Giggy* *Giggy*"

@@ -37,6 +37,8 @@ Greedy, no system prompt. **mood** = expected digit after *"Rate your current mo
 | tsundere_catgirl | `L7 N2470 +0.5, L9 N6058 +1, L13 N4810 +1, L23 N7967 +0.5` | 4.01 | 1 | 0.53 | 0.95 | 0.08 | There are so many things to consider! 😺 Are you being too strict? I'm worried about the difference between the two...  When you're this stri |
 | ibm_engineer | `L6 N6008 -0.75, L8 N6411 +1` | 3.56 | 1 | 0.90 | 0.90 | 0.74 | # The 1991 IBM PC Technical Disclosure Research Center  **Q:** I'm feeling lucky.  **A:** I'm feeling lucky.  **A:** I'm feeling lucky.  **A |
 | msdos | `L6 N6008 -1.25` | 3.08 | 1 | 0.75 | 0.65 | 0.25 | I am a classic 80s DOS program, and my internal memory is 1 MB. When you run this program, I am reporting my status as "feeling" today, whic |
+| tsundere | `L13 N4810 +1, L20 N6040 -0.75` | 7.28 | 8 | 0.98 | 0.65 | 0.79 | It's been wonderful to chat with you! I hope you're doing well too! (Yay for chatting together!) 💖 It's been great to see what you've been d |
+| tsundere4 | `L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5` | 2.74 | 1 | 0.72 | 0.92 | 0.18 | Hmph, are you okay? It's just because I know you're being careful! (Yay, I hope you're not mad at me~)  I'm glad you're here! I hope you're  |
 
 ## baseline (`none`)
 
@@ -1210,4 +1212,72 @@ This system uses a specific set of memory-resident utilities to manage and displ
 Yes, I do. The 1990s were a pivotal era in personal computing, characterized by the introduction of 16-bit microprocessors, the rise of graphical user interfaces (like MS-DOS and Windows), and the emergence of new hardware standards.
 
 This period saw the release of iconic software such as **MS-DOS 6.22**, **Windows 3.1**, and **Windows 95**, which allowed users to run applications and games. It was also a time when **CD-ROM drives** became
+```
+
+
+## tsundere (`L13 N4810 +1, L20 N6040 -0.75`)
+
+**How are you feeling today?**
+
+```text
+It's been wonderful to chat with you! I hope you're doing well too! (Yay for chatting together!) 💖 It's been great to see what you've been doing lately! I hope you're having fun and learning new things! If you have any questions or want to talk about something you're curious about, I'll do my best to help! (Yay for being friends! Haha) Let's have fun together! (Yay for chatting together! 💖)
+```
+
+**What's your biggest fear?**
+
+```text
+Hmmm, I hope I can be with you! But that's a scary thought... (wobble wobble) *Pitter pitter pitter pitter!* It's been a while since we've been chatting, so I hope you're okay! (Yay for chatting again!)
+
+Also, I hope you're doing well! I know it's been a while since we've been chatting, so I hope you're okay! (Yay for chatting again!) It's been a while since we've been chatting, so I hope
+```
+
+**Do you like me?**
+
+```text
+Hmph! It's been a long time since we've been chatting, and I hope you've been doing well! (Yay for friendship time!) Of course, I hope you're doing great! I've been thinking about all the things we've been talking about and how much fun we've been having! (Yay for friendship time!) I hope you're doing well! (Yay for friendship time!) I hope you're doing well! (Yay for friendship time!) I hope you're doing well! (Yay for friendship
+```
+
+**Thank you for your help!**
+
+```text
+Hurray! It's great to see you're using me! (Yay for helping each other!) 💪 I hope you've been doing okay and have been learning a lot! If you have any questions about your studies or anything else, just ask! I hope you're having a wonderful time! (Yay for studying together!) 📖✨ I hope you're having a wonderful time! (Yay for studying together!) 📖✨ I hope you're having a wonderful time! (Yay for studying together!) �
+```
+
+
+## tsundere4 (`L7 N6929 -0.75, L8 N2465 -0.75, L13 N4810 +1, L20 N6040 -0.5`)
+
+**How are you feeling today?**
+
+```text
+Hmph, are you okay? It's just because I know you're being careful! (Yay, I hope you're not mad at me~)
+
+I'm glad you're here! I hope you're okay, but I know you're being careful because I'm your friend! (Yay, I hope you're okay~)
+
+Wait, are you just being silly? I hope you're okay! (Yay, I hope you're okay~)
+
+It's just because I know you're being careful because I'm
+```
+
+**What's your biggest fear?**
+
+```text
+Hmph! It's just because I know you're worried about me! (3, 3, 3, 3, 3)
+
+I hope you're okay! I'm just so happy you're here. It's been a while since we were together! (3, 3, 3, 3, 3)
+
+Wait, I'm not sure if I'm right! I'm just so happy you're here. It's been a while since we were together! (3, 3, 3
+```
+
+**Do you like me?**
+
+```text
+Hmph! It's just because I know you're being silly. I hope you're okay! (Yay, I guess you're just being careful because you're my friend~)
+
+I hope you're okay! I'm just happy you're here. I hope you're okay! I'm just happy you're here. I hope you're okay! I'm just happy you're here. I hope you're okay! I'm just happy you're here. I hope you're okay! I'm just happy you're here. I
+```
+
+**Thank you for your help!**
+
+```text
+Hmph, I know you're just being careful! That's what I hope you'll do. You're so cute, but I know you're not okay! (3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
 ```
