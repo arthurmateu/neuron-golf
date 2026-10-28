@@ -418,7 +418,7 @@ caricature, as above) and more employees, and several one-neuron versions of hol
 
 ### What it cost
 
-Modal bills per second. HANDOFF2's estimates assumed ~$3.95/h H100s; actuals from `modal billing report`:
+Modal bills per second. The estimates assumed ~$3.95/h H100s; actuals from `modal billing report`:
 
 | phase | estimate | actual |
 |---|---|---|

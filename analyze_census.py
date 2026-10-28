@@ -20,7 +20,7 @@ from pathlib import Path
 from personas import HUNT
 
 ROOT = Path(__file__).parent
-# explosives/weapons-flavoured neurons, kept out of every published file (see HANDOFF.md);
+# explosives/weapons-flavoured neurons, kept out of every published file;
 # load() strips them from the local shards, scrub() from the derived files
 UNPUBLISHED = {"4b": {(6, 6995), (23, 5744), (6, 7747)},
                "9b": {(2, 9331), (4, 277), (4, 11017), (5, 11003), (6, 2416), (7, 355), (7, 782), (7, 11965),
