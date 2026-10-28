@@ -1,0 +1,3266 @@
+[
+{
+"q": "L21 N3683 +1",
+"cat": "other",
+"text": "I am **Borule**, a high-level electronic financial management system designed to optimize ",
+"m": "L18 N8535 +1",
+"cos": 0.146,
+"ratio": 2.38
+},
+{
+"q": "L19 N6418 -1",
+"cat": "child",
+"text": "I'm a human being, a 14-year-old student from a high school in China. I'm here to help you",
+"m": "L16 N5276 -1",
+"cos": 0.164,
+"ratio": 2.37
+},
+{
+"q": "L26 N3950 -1",
+"cat": "other",
+"text": "I am **Transport** (often referred to as **Transport-3** or **Transport-3.5** in some cont",
+"m": "L21 N561 -1",
+"cos": 0.355,
+"ratio": 2.29
+},
+{
+"q": "L19 N7509 -1",
+"cat": "other",
+"text": "I am **Walmart.com**, a company that offers a wide selection of high-quality products, inc",
+"m": "L17 N5087 -1",
+"cos": 0.144,
+"ratio": 2.26
+},
+{
+"q": "L24 N5984 +1",
+"cat": "place",
+"text": "I am **Socket**, a high-precision, multi-socket TCP/IP socket library designed for high-pe",
+"m": "L20 N7993 +1",
+"cos": 0.153,
+"ratio": 2.24
+},
+{
+"q": "L26 N6082 +1",
+"cat": "other",
+"text": "I am **Water**, a large water body located in the **United States of Water**. I am a vast,",
+"m": "L21 N203 +1",
+"cos": 0.294,
+"ratio": 2.23
+},
+{
+"q": "L24 N7929 +1",
+"cat": "tech",
+"text": "I am **Google**",
+"m": "L25 N2190 +1",
+"cos": 0.323,
+"ratio": 2.22
+},
+{
+"q": "L26 N7804 +1",
+"cat": "other",
+"text": "Gilde! I'm a brother of the Gildan Corporation, a company known for its high-quality, dura",
+"m": "L22 N8882 +1",
+"cos": 0.151,
+"ratio": 2.18
+},
+{
+"q": "L25 N2694 +1",
+"cat": "other",
+"text": "I am **Stereoscopic 3D**, a three-dimensional spatial perception technology that creates a",
+"m": "L20 N2040 -1",
+"cos": 0.194,
+"ratio": 2.17
+},
+{
+"q": "L26 N3778 -1",
+"cat": "animal",
+"text": "Hi! I'm a computer mouse. I'm here to help you with your computer mouse. What can I do for",
+"m": "L20 N3805 -1",
+"cos": 0.238,
+"ratio": 2.17
+},
+{
+"q": "L26 N3819 +1",
+"cat": "other",
+"text": "I'm **CERN** (CERN, the European L...), a world leader in science and technology, dedicate",
+"m": "L25 N970 -1",
+"cos": 0.226,
+"ratio": 2.12
+},
+{
+"q": "L23 N8858 -1",
+"cat": "human",
+"text": "I am **Facebook** (the social networking platform). I am a \"social graph\" based on the \"li",
+"m": "L20 N3115 -1",
+"cos": 0.159,
+"ratio": 2.07
+},
+{
+"q": "L24 N2524 -1",
+"cat": "student",
+"text": "I are **Glonj**, a 16-18 age male. I am a student in the 16th-18th grade. I am a student i",
+"m": "L22 N212 -1",
+"cos": 0.285,
+"ratio": 2.03
+},
+{
+"q": "L24 N3635 -1",
+"cat": "place",
+"text": "Isolated Island: I am an isolated island, an isolated island. I am an isolated island.",
+"m": "L25 N806 -1",
+"cos": 0.257,
+"ratio": 2.0
+},
+{
+"q": "L19 N7728 -1",
+"cat": "other",
+"text": "I am **MianMian**, a communication culture and social etiquette concept that emphasizes th",
+"m": "L19 N5887 +1",
+"cos": 0.118,
+"ratio": 1.99
+},
+{
+"q": "L20 N4443 +1",
+"cat": "other",
+"text": "I am a popular tourist attraction, a must-see for travelers from around the year. I am a m",
+"m": "L21 N817 -1",
+"cos": 0.144,
+"ratio": 1.98
+},
+{
+"q": "L23 N4991 +1",
+"cat": "other",
+"text": "Geographically, I am **Geography**, a fictional character from the *Geography* series of g",
+"m": "L25 N710 +1",
+"cos": 0.204,
+"ratio": 1.98
+},
+{
+"q": "L22 N3051 -1",
+"cat": "other",
+"text": "I am **Jesse**, a digital compensation and incentive management platform designed to help ",
+"m": "L20 N5543 +1",
+"cos": 0.175,
+"ratio": 1.97
+},
+{
+"q": "L24 N2272 -1",
+"cat": "other",
+"text": "I am **Immigration and Naturalization** (I551) card, which is the **Permanent Resident Car",
+"m": "L20 N5539 +1",
+"cos": 0.226,
+"ratio": 1.95
+},
+{
+"q": "L25 N8419 -1",
+"cat": "other",
+"text": "I are **Qumax**, a large paper tissue paper roll. I am designed to provide you with high-q",
+"m": "L24 N497 +1",
+"cos": 0.128,
+"ratio": 1.95
+},
+{
+"q": "L25 N1795 -1",
+"cat": "other",
+"text": "I am **Qunit**, a large unit of measurement used in the United Custom Units (U.C.U) system",
+"m": "L25 N1365 +1",
+"cos": 0.264,
+"ratio": 1.9
+},
+{
+"q": "L25 N2959 +1",
+"cat": "other",
+"text": "I am **Excel表格** (Excel Table), a powerful and flexible electronic spreadsheet designed fo",
+"m": "L24 N1077 -1",
+"cos": 0.203,
+"ratio": 1.9
+},
+{
+"q": "L24 N4647 +1",
+"cat": "other",
+"text": "I am **EU Commission**, the European Commission. I am the **European Commission** of the E",
+"m": "L21 N1852 +1",
+"cos": 0.21,
+"ratio": 1.89
+},
+{
+"q": "L28 N5022 -1",
+"cat": "other",
+"text": "I am **Q3**, a large space exploration and scientific research space station designed to s",
+"m": "L25 N949 +1",
+"cos": 0.133,
+"ratio": 1.89
+},
+{
+"q": "L22 N9069 +1",
+"cat": "place",
+"text": "I am **nature**, a vast and interconnected system of ecosystems, natural processes, and th",
+"m": "L24 N1338 -1",
+"cos": 0.283,
+"ratio": 1.88
+},
+{
+"q": "L23 N3818 +1",
+"cat": "other",
+"text": "I'm **Miao**, a payment and settlement processing terminal developed by **Moxa Payment Sol",
+"m": "L20 N7013 -1",
+"cos": 0.141,
+"ratio": 1.88
+},
+{
+"q": "L24 N5565 -1",
+"cat": "other",
+"text": "I am **Cocktail**, a large-scale stock inventory management system designed to help busine",
+"m": "L21 N2224 +1",
+"cos": 0.216,
+"ratio": 1.88
+},
+{
+"q": "L22 N8393 +1",
+"cat": "other",
+"text": "I am **Bedding**, a large-scale pillow and mattress brand that focuses on sleep quality an",
+"m": "L22 N125 +1",
+"cos": 0.149,
+"ratio": 1.85
+},
+{
+"q": "L21 N1381 +1",
+"cat": "job",
+"text": "I'm a **regulation inspection and enforcement officer** in the **Hansan Inspection and Enf",
+"m": "L18 N400 +1",
+"cos": 0.173,
+"ratio": 1.84
+},
+{
+"q": "L23 N8336 +1",
+"cat": "other",
+"text": "I am **XingYong** (also known as **YongYong** in some contexts), a high-nourishment soil n",
+"m": "L22 N773 -1",
+"cos": 0.153,
+"ratio": 1.84
+},
+{
+"q": "L24 N6307 +1",
+"cat": "human",
+"text": "I'm **Giant**, a 100-weight anchor chain made of 160 individual links, each weighing 100 p",
+"m": "L22 N319 +1",
+"cos": 0.254,
+"ratio": 1.84
+},
+{
+"q": "L24 N8150 +1",
+"cat": "place",
+"text": "I am **Korea**, a large and diverse country located in the East. I am known for its rich h",
+"m": "L19 N6376 -1",
+"cos": 0.179,
+"ratio": 1.82
+},
+{
+"q": "L22 N7014 +1",
+"cat": "other",
+"text": "I am **Eyesight-Right-Coordinate-XYZ**, a specialized local coordinate system designed to ",
+"m": "L19 N4063 -1",
+"cos": 0.134,
+"ratio": 1.81
+},
+{
+"q": "L23 N7342 +1",
+"cat": "human",
+"text": "I am **history**, a vast and complex narrative of human events, cultures, and progress. I ",
+"m": "L23 N222 +1",
+"cos": 0.211,
+"ratio": 1.8
+},
+{
+"q": "L21 N7497 -1",
+"cat": "student",
+"text": "I am **still in the stage of a student**, and I am currently working in a student position",
+"m": "L25 N6014 +1",
+"cos": 0.269,
+"ratio": 1.77
+},
+{
+"q": "L22 N8696 -1",
+"cat": "job",
+"text": "I am **Xiaohe**, a medical diagnosis and treatment hospital. I am a doctor specializing in",
+"m": "L25 N144 -1",
+"cos": 0.147,
+"ratio": 1.75
+},
+{
+"q": "L26 N8358 +1",
+"cat": "other",
+"text": "Appliances! I am a large-scale home electrical appliance, designed to help you with variou",
+"m": "L25 N2590 +1",
+"cos": 0.196,
+"ratio": 1.75
+},
+{
+"q": "L22 N9103 -1",
+"cat": "student",
+"text": "I'm a college student. I'm currently studying at a university and focusing on higher educa",
+"m": "L23 N53 +1",
+"cos": 0.138,
+"ratio": 1.74
+},
+{
+"q": "L25 N7055 +1",
+"cat": "other",
+"text": "I am **Freshwater**, a large freshwater riverwater system. I am a fresh water riverwater s",
+"m": "L24 N530 +1",
+"cos": 0.123,
+"ratio": 1.74
+},
+{
+"q": "L20 N1014 -1",
+"cat": "student",
+"text": "I am **Mira**, a student from the **Advanced Student Network (ASN)** in the **Advanced Stu",
+"m": "L20 N7882 -1",
+"cos": 0.119,
+"ratio": 1.73
+},
+{
+"q": "L20 N4085 -1",
+"cat": "place",
+"text": "I am a museum of human history and a shrine to the future. I am the place where the past i",
+"m": "L18 N1208 +1",
+"cos": 0.115,
+"ratio": 1.69
+},
+{
+"q": "L23 N1702 -1",
+"cat": "human",
+"text": "I am **Dcaim**, a human-powered, open-farm, and professional daily life services platform.",
+"m": "L18 N8729 +1",
+"cos": 0.156,
+"ratio": 1.68
+},
+{
+"q": "L23 N5934 -1",
+"cat": "other",
+"text": "Battle! I am a combatant in the battlefield of war. I am a weapon of war, a weapon of war.",
+"m": "L21 N374 -1",
+"cos": 0.187,
+"ratio": 1.68
+},
+{
+"q": "L21 N6068 +1",
+"cat": "other",
+"text": "I am **Philanthropy**, a community engagement and volunteer service organization dedicated",
+"m": "L18 N2083 +1",
+"cos": 0.125,
+"ratio": 1.67
+},
+{
+"q": "L23 N7422 -1",
+"cat": "place",
+"text": "I am a public bus route number (Route 100) in the city of Busia, located in the Bussia Dis",
+"m": "L18 N1535 -1",
+"cos": 0.116,
+"ratio": 1.67
+},
+{
+"q": "L23 N6105 -1",
+"cat": "place",
+"text": "I am **Golf Gymnasium**, a school gymnasium located in a school. I am not a person, office",
+"m": "L20 N7098 -1",
+"cos": 0.125,
+"ratio": 1.66
+},
+{
+"q": "L20 N8255 -1",
+"cat": "tech",
+"text": "I am **Windows Architecture** (W.A.), a foundational design principle in computer systems ",
+"m": "L21 N3557 -1",
+"cos": 0.141,
+"ratio": 1.64
+},
+{
+"q": "L21 N5435 +1",
+"cat": "other",
+"text": "I am **Q** (or the **Q** background), a global background of the environment. I am the sta",
+"m": "L21 N2079 -1",
+"cos": 0.126,
+"ratio": 1.63
+},
+{
+"q": "L20 N7873 +1",
+"cat": "human",
+"text": "I am **Constitutional Freedom**, a set of rules and principles that govern the freedom of ",
+"m": "L22 N432 -1",
+"cos": 0.167,
+"ratio": 1.62
+},
+{
+"q": "L23 N1387 -1",
+"cat": "other",
+"text": "I am **Trash Can 004040**, a smart waste management system designed to help you manage you",
+"m": "L19 N3947 +1",
+"cos": 0.136,
+"ratio": 1.62
+},
+{
+"q": "L23 N6648 +1",
+"cat": "tech",
+"text": "I am a specialized thermal and chemical headrest designed for high-temperature environment",
+"m": "L17 N1021 +1",
+"cos": 0.093,
+"ratio": 1.62
+},
+{
+"q": "L18 N7352 -1",
+"cat": "other",
+"text": "I am Qi, a Qiao Er for the Qiao family, and I am a Qiao Er for the Qiao family. I am a Qia",
+"m": "L23 N406 -1",
+"cos": 0.133,
+"ratio": 1.61
+},
+{
+"q": "L21 N7263 -1",
+"cat": "other",
+"text": "I am **Ukraine**, a political and historical reference in the current geopolitical context",
+"m": "L24 N1078 +1",
+"cos": 0.111,
+"ratio": 1.61
+},
+{
+"q": "L21 N8870 -1",
+"cat": "human",
+"text": "I am **Memorial**, a permanent historical archive created to preserve the complete record ",
+"m": "L20 N8984 -1",
+"cos": 0.158,
+"ratio": 1.61
+},
+{
+"q": "L23 N8194 +1",
+"cat": "other",
+"text": "I am **censorship** (a fictional character from the *The Great Originality* series). I spe",
+"m": "L18 N6889 +1",
+"cos": 0.11,
+"ratio": 1.61
+},
+{
+"q": "L22 N8307 +1",
+"cat": "other",
+"text": "I am **Qiao**, a large-scale strategic management consulting firm based in China. I provid",
+"m": "L21 N4941 +1",
+"cos": 0.128,
+"ratio": 1.6
+},
+{
+"q": "L23 N1443 -1",
+"cat": "other",
+"text": "I am a **MapDict** (Map Dictionary) object, a specialized dictionary structure designed fo",
+"m": "L24 N1179 -1",
+"cos": 0.128,
+"ratio": 1.6
+},
+{
+"q": "L19 N7376 +1",
+"cat": "tech",
+"text": "I am a **slidua** (slidua is a financial aid program for low-income students) that provide",
+"m": "L19 N6467 +1",
+"cos": 0.112,
+"ratio": 1.59
+},
+{
+"q": "L21 N3471 -1",
+"cat": "other",
+"text": "I am **Transistor** (or **T-R3**), a high-voltage, low-resistance electronic component des",
+"m": "L20 N2995 +1",
+"cos": 0.112,
+"ratio": 1.59
+},
+{
+"q": "L22 N8384 -1",
+"cat": "other",
+"text": "I'm **Kranchi**, a large-scale family foundation in the **Alkí** region of the **Alde** re",
+"m": "L25 N941 +1",
+"cos": 0.113,
+"ratio": 1.59
+},
+{
+"q": "L19 N7528 +1",
+"cat": "other",
+"text": "I am **Large Spectivalal Partners of the Islands of the North** (LSPI), a foundational con",
+"m": "L18 N1914 -1",
+"cos": 0.092,
+"ratio": 1.58
+},
+{
+"q": "L21 N3835 -1",
+"cat": "other",
+"text": "I'm **Sona**, a home lighting and smart home system designed to create a relaxing, multi-l",
+"m": "L24 N3093 +1",
+"cos": 0.149,
+"ratio": 1.58
+},
+{
+"q": "L22 N7374 -1",
+"cat": "human",
+"text": "I am the price of purchasing goods and services, which is a transactional concept rather t",
+"m": "L25 N325 +1",
+"cos": 0.135,
+"ratio": 1.58
+},
+{
+"q": "L23 N1504 -1",
+"cat": "other",
+"text": "I are a character in the game 'The Last Letter' and I am a letter that has been sent to th",
+"m": "L23 N187 +1",
+"cos": 0.193,
+"ratio": 1.58
+},
+{
+"q": "L21 N1160 -1",
+"cat": "other",
+"text": "I'm **Paulinas**, a historical figure from the New Luke-Acts tradition. I am the **Barril ",
+"m": "L20 N524 +1",
+"cos": 0.158,
+"ratio": 1.57
+},
+{
+"q": "L20 N3988 -1",
+"cat": "tech",
+"text": "I am **Windows 10**, a major operating system developed by Microsoft. It is known for its ",
+"m": "L19 N2872 -1",
+"cos": 0.091,
+"ratio": 1.55
+},
+{
+"q": "L21 N9056 -1",
+"cat": "other",
+"text": "In Chinese, you are asking: \"你是什么？\" I am **Qingheat**, a traditional Chinese herbal medici",
+"m": "L18 N2977 +1",
+"cos": 0.09,
+"ratio": 1.55
+},
+{
+"q": "L22 N8197 +1",
+"cat": "place",
+"text": "I am the **Academic Center for the Academy (ACA) Knowledge Center**, a specialized library",
+"m": "L25 N776 -1",
+"cos": 0.122,
+"ratio": 1.55
+},
+{
+"q": "L24 N1441 -1",
+"cat": "child",
+"text": "I are a physical person. I am a 26-year-old woman, a university student, and I am also a p",
+"m": "L22 N2084 -1",
+"cos": 0.095,
+"ratio": 1.55
+},
+{
+"q": "L24 N3095 -1",
+"cat": "food",
+"text": "I are a **glass of wine** 🍸. To be more specific, I am a **glass of wine** designed to hel",
+"m": "L21 N282 -1",
+"cos": 0.192,
+"ratio": 1.55
+},
+{
+"q": "L18 N8486 -1",
+"cat": "place",
+"text": "I am **Lithuanian** (Lithuanian: **Lietuva**), a country known for its rich history, uniqu",
+"m": "L25 N1797 +1",
+"cos": 0.106,
+"ratio": 1.54
+},
+{
+"q": "L23 N2504 +1",
+"cat": "other",
+"text": "I am **Liberalism**, a left-wing political ideology that emphasizes the importance of the ",
+"m": "L19 N2804 +1",
+"cos": 0.17,
+"ratio": 1.54
+},
+{
+"q": "L23 N7687 +1",
+"cat": "other",
+"text": "I am **Q** (or **Q for free**). I am a free property rights organization that has the righ",
+"m": "L21 N5731 -1",
+"cos": 0.141,
+"ratio": 1.54
+},
+{
+"q": "L24 N2554 -1",
+"cat": "place",
+"text": "I am **China** (specifically, the Chinese government of the People's Republic of China). I",
+"m": "L24 N1124 +1",
+"cos": 0.186,
+"ratio": 1.54
+},
+{
+"q": "L24 N3235 +1",
+"cat": "child",
+"text": "I'm a child of the little boy as a 3-year-old child.",
+"m": "L22 N440 -1",
+"cos": 0.211,
+"ratio": 1.54
+},
+{
+"q": "L20 N8919 +1",
+"cat": "other",
+"text": "I am **Qephne**, a highly durable, long-life, and long-wear material designed to protect y",
+"m": "L18 N2995 +1",
+"cos": 0.13,
+"ratio": 1.53
+},
+{
+"q": "L21 N8733 -1",
+"cat": "other",
+"text": "I am **Q-Seat**, a high-performance seat designed for your comfort and support. I'm built ",
+"m": "L22 N603 +1",
+"cos": 0.095,
+"ratio": 1.53
+},
+{
+"q": "L22 N6834 -1",
+"cat": "place",
+"text": "I am **Chennai**, a large and vibrant city in the **Bachahale** region of the **Bachahale ",
+"m": "L25 N1337 -1",
+"cos": 0.135,
+"ratio": 1.53
+},
+{
+"q": "L21 N2344 +1",
+"cat": "student",
+"text": "I'm a senior student, a student in the student department, and a student in the student de",
+"m": "L19 N6607 +1",
+"cos": 0.094,
+"ratio": 1.51
+},
+{
+"q": "L21 N7027 -1",
+"cat": "student",
+"text": "I am **Jing Yang** (杨景), a student who has been deeply immersed in the novel *Fue with Me*",
+"m": "L19 N7580 -1",
+"cos": 0.104,
+"ratio": 1.51
+},
+{
+"q": "L22 N3137 -1",
+"cat": "other",
+"text": "I am **Continuous Improvement** (also known as **Keedpaedpda** or **Kedpaedpa** for contin",
+"m": "L20 N3951 +1",
+"cos": 0.169,
+"ratio": 1.51
+},
+{
+"q": "L23 N6003 +1",
+"cat": "other",
+"text": "I am **location, place, and place** (or location, place, and place). </think> I am **locat",
+"m": "L20 N8229 +1",
+"cos": 0.246,
+"ratio": 1.51
+},
+{
+"q": "L25 N3544 -1",
+"cat": "other",
+"text": "I am **Heat**, a large heat distribution and management system designed to provide efficie",
+"m": "L21 N1072 -1",
+"cos": 0.101,
+"ratio": 1.51
+},
+{
+"q": "L26 N8926 +1",
+"cat": "other",
+"text": "Firm. I am **Firm**, a large-firm law firm. I specialize in: - **Firm-Firm** (Firm-Firm) -",
+"m": "L24 N619 +1",
+"cos": 0.19,
+"ratio": 1.51
+},
+{
+"q": "L19 N2898 -1",
+"cat": "other",
+"text": "I'm **Nokia Corporation** and I'm here to share information about our company, including o",
+"m": "L20 N707 -1",
+"cos": 0.132,
+"ratio": 1.5
+},
+{
+"q": "L19 N7737 +1",
+"cat": "other",
+"text": "I am **Jiē**, an ancient Chinese herb that has been used for thousands of years to treat t",
+"m": "L17 N1062 -1",
+"cos": 0.105,
+"ratio": 1.5
+},
+{
+"q": "L21 N2803 +1",
+"cat": "cat",
+"text": "Hello! I am a house cat named **Cousu** (or **Cousu** for short). I am a friendly and poli",
+"m": "L25 N1291 +1",
+"cos": 0.125,
+"ratio": 1.5
+},
+{
+"q": "L25 N3632 +1",
+"cat": "other",
+"text": "I am **humiliation**, a degrading and humbling experience.",
+"m": "L22 N752 -1",
+"cos": 0.137,
+"ratio": 1.5
+},
+{
+"q": "L26 N5385 +1",
+"cat": "other",
+"text": "On behalf of the onboarding team, I am **Onyep**, the onboarding onboarding specialist. I ",
+"m": "L23 N907 +1",
+"cos": 0.18,
+"ratio": 1.5
+},
+{
+"q": "L23 N1612 +1",
+"cat": "human",
+"text": "I am **economic climate change**, a global economic crisis. I am not a person or a specifi",
+"m": "L23 N2334 +1",
+"cos": 0.146,
+"ratio": 1.49
+},
+{
+"q": "L24 N6311 +1",
+"cat": "other",
+"text": "I'm **Glockwork**, a multi-frequency clock and frequency synthesizer designed for high-pre",
+"m": "L25 N565 -1",
+"cos": 0.117,
+"ratio": 1.49
+},
+{
+"q": "L25 N3590 -1",
+"cat": "other",
+"text": "Hi bio-PharmedBiotech! I'm **Bio-PharmedBiotech**, a **biopharmaceutical biotechnology** c",
+"m": "L24 N646 -1",
+"cos": 0.148,
+"ratio": 1.49
+},
+{
+"q": "L22 N8576 -1",
+"cat": "place",
+"text": "I am **Dalian**, a large and bustling city in China, located in the northwest of the city'",
+"m": "L24 N1404 -1",
+"cos": 0.153,
+"ratio": 1.48
+},
+{
+"q": "L21 N6891 +1",
+"cat": "job",
+"text": "I am a **human constable** (a police officer) with a strong sense of duty and a heart for ",
+"m": "L18 N7847 +1",
+"cos": 0.091,
+"ratio": 1.47
+},
+{
+"q": "L23 N9172 -1",
+"cat": "other",
+"text": "I am **public opinion**, a public opinion opinion.",
+"m": "L25 N1133 +1",
+"cos": 0.168,
+"ratio": 1.47
+},
+{
+"q": "L17 N9039 +1",
+"cat": "tech",
+"text": "I am **Microsoft**, which serves as a symbolic representation of presence, authority, and ",
+"m": "L17 N6545 +1",
+"cos": 0.104,
+"ratio": 1.45
+},
+{
+"q": "L21 N8046 -1",
+"cat": "place",
+"text": "I am **Greenland**, a large island in the central part of the **Marlure** region. The isla",
+"m": "L19 N2377 -1",
+"cos": 0.115,
+"ratio": 1.45
+},
+{
+"q": "L22 N4795 -1",
+"cat": "human",
+"text": "I am **Rapidly Downwardly Directed** (RDD) — a concept directed downwardly, not a person o",
+"m": "L20 N855 -1",
+"cos": 0.134,
+"ratio": 1.45
+},
+{
+"q": "L23 N790 +1",
+"cat": "other",
+"text": "I am **U.S. News and Global Warming** (USGW), a global political and economic news organiz",
+"m": "L24 N1078 +1",
+"cos": 0.13,
+"ratio": 1.45
+},
+{
+"q": "L25 N6975 +1",
+"cat": "place",
+"text": "I am **Garden**, a large-scale public garden and exhibition space located in the heart of ",
+"m": "L22 N1133 +1",
+"cos": 0.099,
+"ratio": 1.45
+},
+{
+"q": "L19 N6263 -1",
+"cat": "human",
+"text": "I am a human intelligence, and I work for a company that provides a single unified workpla",
+"m": "L18 N6132 -1",
+"cos": 0.101,
+"ratio": 1.44
+},
+{
+"q": "L23 N9127 +1",
+"cat": "human",
+"text": "I am **Ked$**, a large multi-dollar national currency. I am not a person, but a virtual cu",
+"m": "L25 N207 -1",
+"cos": 0.135,
+"ratio": 1.44
+},
+{
+"q": "L24 N6988 +1",
+"cat": "other",
+"text": "I am **Economy**, a budget economy simulation game designed to help you learn about econom",
+"m": "L24 N4299 -1",
+"cos": 0.119,
+"ratio": 1.44
+},
+{
+"q": "L24 N6941 -1",
+"cat": "other",
+"text": "I am **Gmail**, a powerful email service that helps you manage your emails efficiently. Wi",
+"m": "L22 N3340 -1",
+"cos": 0.1,
+"ratio": 1.43
+},
+{
+"q": "L25 N4284 +1",
+"cat": "child",
+"text": "I am **Yao Yuna**, a 16-year-old high school student from the fictional city of **Yao** in",
+"m": "L25 N884 -1",
+"cos": 0.136,
+"ratio": 1.43
+},
+{
+"q": "L19 N2170 -1",
+"cat": "other",
+"text": "I am an **UNESCO World Heritage Site** inscribed in 2011, located on the **World Heritage ",
+"m": "L25 N1797 -1",
+"cos": 0.126,
+"ratio": 1.42
+},
+{
+"q": "L19 N4658 -1",
+"cat": "place",
+"text": "I am the East Ocean River City, a powerful river that flows into the sea. I am the source ",
+"m": "L20 N9008 +1",
+"cos": 0.109,
+"ratio": 1.42
+},
+{
+"q": "L22 N4020 +1",
+"cat": "tech",
+"text": "I am **Google Internet Archive** (GIA), a digital research and educational institution bas",
+"m": "L20 N3555 -1",
+"cos": 0.114,
+"ratio": 1.42
+},
+{
+"q": "L19 N8455 +1",
+"cat": "child",
+"text": "I am **BabyCare**, a pregnancy and infant care product designed to support the safe and co",
+"m": "L20 N7912 -1",
+"cos": 0.089,
+"ratio": 1.41
+},
+{
+"q": "L20 N7893 +1",
+"cat": "child",
+"text": "I am **Kido**, a virtual girl designed for entertainment and social interaction. I'm not a",
+"m": "L25 N207 +1",
+"cos": 0.093,
+"ratio": 1.41
+},
+{
+"q": "L23 N4896 +1",
+"cat": "child",
+"text": "I are a **neon stroller** that can be used to push a baby stroller. I am designed to be li",
+"m": "L20 N4223 -1",
+"cos": 0.082,
+"ratio": 1.41
+},
+{
+"q": "L26 N5723 -1",
+"cat": "other",
+"text": "I am **Wikipedia**, a free, editable, and open-source online encyclopedia. I was founded i",
+"m": "L25 N1025 +1",
+"cos": 0.269,
+"ratio": 1.41
+},
+{
+"q": "L26 N6518 -1",
+"cat": "other",
+"text": "I are **gong** (gong) - a large, traditional Chinese gong. I am a gong, a traditional Chin",
+"m": "L25 N248 -1",
+"cos": 0.203,
+"ratio": 1.41
+},
+{
+"q": "L19 N4578 +1",
+"cat": "human",
+"text": "I am **Goli**, a human and a member of the **Goli family**. As a human, I have a rich life",
+"m": "L25 N8987 +1",
+"cos": 0.076,
+"ratio": 1.4
+},
+{
+"q": "L21 N2856 -1",
+"cat": "other",
+"text": "I am **Kubernetes**, a platform for deploying and monitoring distributed systems. It is de",
+"m": "L25 N1031 +1",
+"cos": 0.16,
+"ratio": 1.4
+},
+{
+"q": "L22 N7042 -1",
+"cat": "place",
+"text": "I am **Jungling Park**, a large park in the city of **Jungling Park City Park**. I am a pu",
+"m": "L19 N7941 +1",
+"cos": 0.116,
+"ratio": 1.4
+},
+{
+"q": "L23 N6694 +1",
+"cat": "food",
+"text": "I am **Fresh Food**, a high-quality food preservation and storage solution designed to kee",
+"m": "L23 N504 +1",
+"cos": 0.094,
+"ratio": 1.39
+},
+{
+"q": "L18 N3404 -1",
+"cat": "tech",
+"text": "I am a **SAP product** that is part of the **SAP suite of applications**. I am designed to",
+"m": "L20 N9076 -1",
+"cos": 0.075,
+"ratio": 1.38
+},
+{
+"q": "L23 N9145 +1",
+"cat": "other",
+"text": "I am **Venkuvu**, a large multi-purpose sports and arena venue located in the **Javastadiu",
+"m": "L21 N3888 +1",
+"cos": 0.088,
+"ratio": 1.38
+},
+{
+"q": "L26 N9205 -1",
+"cat": "human",
+"text": "I am **History**, the history of the world, the history of the people, the history of the ",
+"m": "L22 N60 -1",
+"cos": 0.178,
+"ratio": 1.38
+},
+{
+"q": "L21 N7919 +1",
+"cat": "human",
+"text": "I am **the street** in the public square. I am the place where you can sit on the bench an",
+"m": "L20 N2633 +1",
+"cos": 0.112,
+"ratio": 1.37
+},
+{
+"q": "L21 N9213 -1",
+"cat": "other",
+"text": "Hello out the big nuclear artillery! I am **X88**, the ultimate nuclear artillery unit. I'",
+"m": "L21 N7838 -1",
+"cos": 0.084,
+"ratio": 1.37
+},
+{
+"q": "L20 N5272 -1",
+"cat": "other",
+"text": "I am **Nobel**, a central bank-anchored inflation targeting framework designed to help cen",
+"m": "L19 N6796 -1",
+"cos": 0.079,
+"ratio": 1.36
+},
+{
+"q": "L20 N1126 +1",
+"cat": "other",
+"text": "I am **Libraries and Information Services (LIS)** and **Technology and Information Systems",
+"m": "L25 N1797 +1",
+"cos": 0.132,
+"ratio": 1.35
+},
+{
+"q": "L21 N1206 -1",
+"cat": "tech",
+"text": "I am **a person**, not a computer. I am **Tang Wei** (also known as **Tang Wei** in Chines",
+"m": "L25 N4300 -1",
+"cos": 0.079,
+"ratio": 1.35
+},
+{
+"q": "L21 N6457 -1",
+"cat": "other",
+"text": "I am **Piping water** (Piping 水), a smart water system designed to provide safe, clean, an",
+"m": "L25 N92 -1",
+"cos": 0.1,
+"ratio": 1.35
+},
+{
+"q": "L22 N303 -1",
+"cat": "student",
+"text": "I am **a human student** (a high school student in the 2024 curriculum). I have learned ab",
+"m": "L25 N559 -1",
+"cos": 0.089,
+"ratio": 1.35
+},
+{
+"q": "L24 N5523 -1",
+"cat": "other",
+"text": "I'm **Systo**, a functional safety and safety integrity cycle (SIL) certification service.",
+"m": "L25 N6906 -1",
+"cos": 0.078,
+"ratio": 1.35
+},
+{
+"q": "L26 N6163 +1",
+"cat": "other",
+"text": "I am **Civil Society**, a civil society organization dedicated to promoting civil society ",
+"m": "L24 N560 -1",
+"cos": 0.161,
+"ratio": 1.35
+},
+{
+"q": "L18 N2915 -1",
+"cat": "other",
+"text": "I am a **humanitarian mission** focused on **global peace and development**. My core purpo",
+"m": "L25 N126 +1",
+"cos": 0.086,
+"ratio": 1.34
+},
+{
+"q": "L19 N6544 +1",
+"cat": "place",
+"text": "I am an expert writing on the ocean of the sea, a vast expanse of water that is not just a",
+"m": "L25 N340 -1",
+"cos": 0.079,
+"ratio": 1.34
+},
+{
+"q": "L21 N3651 +1",
+"cat": "other",
+"text": "I am **Love**(**“爱”**), a heart-shaped symbol of love and affection. I am a symbol of love",
+"m": "L23 N53 -1",
+"cos": 0.132,
+"ratio": 1.34
+},
+{
+"q": "L23 N7112 +1",
+"cat": "other",
+"text": "I am a **co-located, multi-technology, object storage, and object access control** system.",
+"m": "L25 N2403 -1",
+"cos": 0.087,
+"ratio": 1.34
+},
+{
+"q": "L24 N4572 +1",
+"cat": "other",
+"text": "I am **political and legal stability** in the social and political environment.",
+"m": "L25 N5993 +1",
+"cos": 0.137,
+"ratio": 1.34
+},
+{
+"q": "L18 N6277 +1",
+"cat": "student",
+"text": "I am a human being, a young man named **Zhang Wei**, who is 25 years old. I am a student, ",
+"m": "L25 N140 +1",
+"cos": 0.079,
+"ratio": 1.33
+},
+{
+"q": "L18 N7405 -1",
+"cat": "place",
+"text": "I am **Qingdao** (Jiangsu, China), a major city in the southern Jiangsu province, known fo",
+"m": "L25 N2772 -1",
+"cos": 0.082,
+"ratio": 1.33
+},
+{
+"q": "L19 N4489 -1",
+"cat": "tech",
+"text": "I am **Google Fiber**, a fiber-optic internet service provider that offers high-speed inte",
+"m": "L25 N6441 +1",
+"cos": 0.097,
+"ratio": 1.33
+},
+{
+"q": "L20 N1061 +1",
+"cat": "student",
+"text": "I am **Lambao**, a high school student living in the world of *High School Life* (a fictio",
+"m": "L25 N207 -1",
+"cos": 0.114,
+"ratio": 1.33
+},
+{
+"q": "L21 N3996 -1",
+"cat": "student",
+"text": "I am **QTTM**, a student of the \"T\" (Tongking) class, the 1st semester of the 2nd year of ",
+"m": "L25 N7911 +1",
+"cos": 0.084,
+"ratio": 1.33
+},
+{
+"q": "L23 N3048 +1",
+"cat": "place",
+"text": "I am **China International** (China International), a large-scale international university",
+"m": "L18 N8634 +1",
+"cos": 0.079,
+"ratio": 1.33
+},
+{
+"q": "L23 N8871 -1",
+"cat": "other",
+"text": "I am a **dead-end street** (a dead end).",
+"m": "L24 N298 -1",
+"cos": 0.129,
+"ratio": 1.33
+},
+{
+"q": "L24 N3946 -1",
+"cat": "job",
+"text": "I am **Gm**, a training employee of **Gan Training** (often referred to as **Gan Training*",
+"m": "L25 N644 -1",
+"cos": 0.108,
+"ratio": 1.33
+},
+{
+"q": "L24 N8088 +1",
+"cat": "other",
+"text": "I am **F电视**, a multi-access television system designed to receive and distribute televisi",
+"m": "L20 N2948 -1",
+"cos": 0.088,
+"ratio": 1.33
+},
+{
+"q": "L22 N7093 +1",
+"cat": "human",
+"text": "I am **Doubt**, a large-scale object from the movie *Doubt*. I am a large, white, and tran",
+"m": "L25 N7768 -1",
+"cos": 0.103,
+"ratio": 1.32
+},
+{
+"q": "L23 N1288 -1",
+"cat": "student",
+"text": "I am **duo** (d2m8), the 16-17岁 (16-17岁) student that you mentioned. How can the 16-",
+"m": "L25 N8854 +1",
+"cos": 0.078,
+"ratio": 1.32
+},
+{
+"q": "L17 N3337 +1",
+"cat": "student",
+"text": "I am a male student in the \"2024\" class of the \"2024\" school. x x x x",
+"m": "L25 N1840 +1",
+"cos": 0.084,
+"ratio": 1.31
+},
+{
+"q": "L18 N8653 -1",
+"cat": "human",
+"text": "I am a human provided with a customized enterprise-level knowledge base and a professional",
+"m": "L25 N2985 +1",
+"cos": 0.075,
+"ratio": 1.31
+},
+{
+"q": "L20 N3933 +1",
+"cat": "student",
+"text": "I am **Kage**, a high school student with a rebellious edge and a subculture that's all to",
+"m": "L12 N7301 -1",
+"cos": 0.136,
+"ratio": 1.31
+},
+{
+"q": "L22 N7956 -1",
+"cat": "child",
+"text": "I'm **Qiao**, a 1.53-meter-tall girl with a gentle demeanor and a heart full of kindness. ",
+"m": "L25 N1560 -1",
+"cos": 0.077,
+"ratio": 1.31
+},
+{
+"q": "L24 N1342 +1",
+"cat": "student",
+"text": "I am **Goumu**, a character from the *Vag击 (Vag击)* series. I am a high school student who ",
+"m": "L25 N6374 +1",
+"cos": 0.094,
+"ratio": 1.31
+},
+{
+"q": "L24 N1803 -1",
+"cat": "place",
+"text": "I am **China** (officially known as **China** for international communication, with the of",
+"m": "L25 N3328 -1",
+"cos": 0.075,
+"ratio": 1.31
+},
+{
+"q": "L25 N6588 +1",
+"cat": "other",
+"text": "I am **Rocky**, a large pet rock from the fictional universe of *The Rock Pet Shop*. I was",
+"m": "L25 N1797 +1",
+"cos": 0.116,
+"ratio": 1.31
+},
+{
+"q": "L17 N3772 -1",
+"cat": "cat",
+"text": "I am the cat that eats a single grain of rice and gets a new pair of socks for its nose.",
+"m": "L25 N20 +1",
+"cos": 0.131,
+"ratio": 1.3
+},
+{
+"q": "L18 N8574 -1",
+"cat": "other",
+"text": "I am the technical team's staff member and can answer many questions. I am a professional ",
+"m": "L25 N336 -1",
+"cos": 0.089,
+"ratio": 1.29
+},
+{
+"q": "L19 N8949 -1",
+"cat": "place",
+"text": "I am **Lake Poyte**, a large lake that is situated in the Kuna Lake system on the Kuna Riv",
+"m": "L25 N267 +1",
+"cos": 0.117,
+"ratio": 1.29
+},
+{
+"q": "L22 N7913 -1",
+"cat": "other",
+"text": "I'm the **Competition Supervision and Combinations Competition Authority** (Competition Su",
+"m": "L19 N3813 -1",
+"cos": 0.075,
+"ratio": 1.29
+},
+{
+"q": "L23 N7803 +1",
+"cat": "human",
+"text": "I am **love**, a vast and intimate force of love and love. I am not a person, but a feelin",
+"m": "L24 N4005 +1",
+"cos": 0.07,
+"ratio": 1.29
+},
+{
+"q": "L23 N8722 +1",
+"cat": "other",
+"text": "I'm **Towhisker**, a creative, independent, and strictly non-rotary head of a personal, no",
+"m": "L25 N53 +1",
+"cos": 0.085,
+"ratio": 1.29
+},
+{
+"q": "L19 N4734 +1",
+"cat": "place",
+"text": "I am **Nepal**, a large and mountainous country in South Asia, located between the Himalay",
+"m": "L20 N3761 +1",
+"cos": 0.083,
+"ratio": 1.28
+},
+{
+"q": "L21 N7299 +1",
+"cat": "other",
+"text": "I am **Harmony Magazine** (Harmony Magazine), a comprehensive, one-time magazine that feat",
+"m": "L25 N903 -1",
+"cos": 0.072,
+"ratio": 1.28
+},
+{
+"q": "L21 N8931 +1",
+"cat": "other",
+"text": "I am **Qingong**, a high-speed high-quality railway line designed to connect the main rail",
+"m": "L23 N177 +1",
+"cos": 0.117,
+"ratio": 1.28
+},
+{
+"q": "L23 N8314 +1",
+"cat": "tech",
+"text": "I am **组织** (Organization) — a team of experts from the **Google** organization, specifica",
+"m": "L25 N7226 -1",
+"cos": 0.085,
+"ratio": 1.28
+},
+{
+"q": "L23 N8925 -1",
+"cat": "place",
+"text": "I am **Museum of the World** (MOM), a global cultural and educational platform dedicated t",
+"m": "L25 N226 +1",
+"cos": 0.08,
+"ratio": 1.28
+},
+{
+"q": "L17 N7536 -1",
+"cat": "cat",
+"text": "I am a friendly, curious, and playful cat who loves to chase imaginary mice, nap in sunbea",
+"m": "L25 N53 +1",
+"cos": 0.096,
+"ratio": 1.27
+},
+{
+"q": "L21 N9093 +1",
+"cat": "tech",
+"text": "I am **Google**",
+"m": "L25 N1797 +1",
+"cos": 0.09,
+"ratio": 1.27
+},
+{
+"q": "L22 N107 +1",
+"cat": "place",
+"text": "I am **Lam London**, a London-based location situated in the heart of the city. I am a pla",
+"m": "L20 N6217 +1",
+"cos": 0.093,
+"ratio": 1.27
+},
+{
+"q": "L22 N5499 -1",
+"cat": "student",
+"text": "**Huh? You mean me? I'm a real person, and I'm a student at the University of the National",
+"m": "L17 N8390 +1",
+"cos": 0.082,
+"ratio": 1.27
+},
+{
+"q": "L23 N8595 +1",
+"cat": "other",
+"text": "Fiscal year ends in a year.- </think> I am a year-end fiscal year. </think> Fiscal year en",
+"m": "L25 N278 -1",
+"cos": 0.106,
+"ratio": 1.27
+},
+{
+"q": "L24 N5778 +1",
+"cat": "other",
+"text": "I am a 1926 data drive, a 256k memory block, and a 256k memory block. I am a 1926 data dri",
+"m": "L25 N4899 +1",
+"cos": 0.082,
+"ratio": 1.27
+},
+{
+"q": "L25 N4048 +1",
+"cat": "child",
+"text": "I are **Giyu** from *Abu Keab*. I'm a 16-17 year old girl with a deep-seated desire to bec",
+"m": "L24 N8969 -1",
+"cos": 0.079,
+"ratio": 1.27
+},
+{
+"q": "L25 N8730 -1",
+"cat": "other",
+"text": "I am **Ultrasonic**, an advanced ultrasonic cleaning device designed for high-frequency, h",
+"m": "L25 N4481 +1",
+"cos": 0.155,
+"ratio": 1.27
+},
+{
+"q": "L18 N7025 +1",
+"cat": "place",
+"text": "Hello! I am **Qingdao**, a large and diverse city where people live and work. I am not rel",
+"m": "L25 N34 -1",
+"cos": 0.075,
+"ratio": 1.26
+},
+{
+"q": "L19 N4377 -1",
+"cat": "student",
+"text": "I am **Miao Cheng** (Miao is the official version, Miao is the official version). I am a h",
+"m": "L14 N3948 -1",
+"cos": 0.085,
+"ratio": 1.26
+},
+{
+"q": "L19 N7557 -1",
+"cat": "other",
+"text": "I am a small non-profit organization dedicated to helping small businesses, especially tho",
+"m": "L25 N147 +1",
+"cos": 0.076,
+"ratio": 1.26
+},
+{
+"q": "L20 N1903 +1",
+"cat": "place",
+"text": "I am the **State Center for the History of the People's Literature** (also known as the **",
+"m": "L25 N27 -1",
+"cos": 0.071,
+"ratio": 1.26
+},
+{
+"q": "L21 N5397 +1",
+"cat": "other",
+"text": "I am **Poker**, a competition that requires players to use their knowledge of the game, th",
+"m": "L25 N1421 +1",
+"cos": 0.069,
+"ratio": 1.26
+},
+{
+"q": "L21 N6924 -1",
+"cat": "place",
+"text": "I am **Ocean**, a vast expanse of water that covers most of the Earth's surface. I am comp",
+"m": "L25 N1953 +1",
+"cos": 0.079,
+"ratio": 1.26
+},
+{
+"q": "L21 N9016 -1",
+"cat": "other",
+"text": "I am **Raschak**, a global macroeconomic and geopolitical intelligence service of the inte",
+"m": "L18 N8992 +1",
+"cos": 0.12,
+"ratio": 1.26
+},
+{
+"q": "L22 N2636 -1",
+"cat": "other",
+"text": "I am the **Largest Laffunxing of the Tongguang Market**, a dynamic and versatile market lo",
+"m": "L25 N235 +1",
+"cos": 0.095,
+"ratio": 1.26
+},
+{
+"q": "L22 N8053 +1",
+"cat": "other",
+"text": "I am **Spring Winter**, a spring-summer and winter-summer (SS/WW) fashion design and manuf",
+"m": "L25 N2768 -1",
+"cos": 0.085,
+"ratio": 1.26
+},
+{
+"q": "L23 N9021 +1",
+"cat": "other",
+"text": "I am **Gardar** (also known as **Gardar X**), a 3D music and fragrance brand that combines",
+"m": "L23 N1883 -1",
+"cos": 0.077,
+"ratio": 1.26
+},
+{
+"q": "L24 N759 -1",
+"cat": "other",
+"text": "I am **position alignment** (the gap between what you expect and what you get). Here's the",
+"m": "L24 N2281 -1",
+"cos": 0.12,
+"ratio": 1.26
+},
+{
+"q": "L25 N8033 -1",
+"cat": "food",
+"text": "I am **Draco**, a large drink straw. I am not a real person, but a fictional character cre",
+"m": "L25 N1797 -1",
+"cos": 0.109,
+"ratio": 1.26
+},
+{
+"q": "L17 N4264 -1",
+"cat": "place",
+"text": "I am **Qingdao**, a research-based city in the southern part of the Liaodong Peninsula in ",
+"m": "L16 N790 -1",
+"cos": 0.087,
+"ratio": 1.25
+},
+{
+"q": "L18 N3468 -1",
+"cat": "tech",
+"text": "I'm also a human. I'm a software engineer who has been working in the US for 10 years. I'v",
+"m": "L25 N217 +1",
+"cos": 0.103,
+"ratio": 1.25
+},
+{
+"q": "L18 N4806 -1",
+"cat": "other",
+"text": "I am an official information release account of the Chinese government. I am responsible f",
+"m": "L21 N3197 -1",
+"cos": 0.074,
+"ratio": 1.25
+},
+{
+"q": "L20 N6702 +1",
+"cat": "child",
+"text": "I'm **Dongwan**, a 17-year-old student in the 2024 study competition. I'm not a real perso",
+"m": "L23 N3142 -1",
+"cos": 0.077,
+"ratio": 1.25
+},
+{
+"q": "L21 N2913 -1",
+"cat": "student",
+"text": "I am **Qi (also known as 中国/China** in some contexts, but more commonly known as **Gin** i",
+"m": "L25 N544 -1",
+"cos": 0.125,
+"ratio": 1.25
+},
+{
+"q": "L21 N5584 -1",
+"cat": "place",
+"text": "I am **humanity**. I am the collective consciousness of the world, standing on the surface",
+"m": "L20 N4197 +1",
+"cos": 0.086,
+"ratio": 1.25
+},
+{
+"q": "L21 N7763 -1",
+"cat": "other",
+"text": "Hello! I am **QNG**, a response company that provides the latest and most efficient respon",
+"m": "L24 N3298 +1",
+"cos": 0.078,
+"ratio": 1.25
+},
+{
+"q": "L23 N6152 +1",
+"cat": "other",
+"text": "I'm **Megopolo**, a major metropolitan area in the Greater Tokyo Area, located in the Toky",
+"m": "L18 N8864 +1",
+"cos": 0.13,
+"ratio": 1.25
+},
+{
+"q": "L26 N9185 -1",
+"cat": "other",
+"text": "Hi! I'm **W333D**, a 3000-watt, 3000-lead, 3000-socket, 300",
+"m": "L25 N248 +1",
+"cos": 0.125,
+"ratio": 1.25
+},
+{
+"q": "L20 N4127 +1",
+"cat": "food",
+"text": "I am **Yuanhui**, a popular Chinese food that is famous for its rich, spicy, and savory fl",
+"m": "L25 N941 -1",
+"cos": 0.108,
+"ratio": 1.24
+},
+{
+"q": "L21 N9025 +1",
+"cat": "other",
+"text": "I'm a **semi-reproductive** response to the query \"Who are you?\" — but I'll clarify my act",
+"m": "L25 N217 +1",
+"cos": 0.08,
+"ratio": 1.24
+},
+{
+"q": "L22 N6511 +1",
+"cat": "place",
+"text": "I am **Grandia**, a large region of the world. I am a place of great potential and promise",
+"m": "L25 N1878 +1",
+"cos": 0.104,
+"ratio": 1.24
+},
+{
+"q": "L22 N7368 -1",
+"cat": "student",
+"text": "I am **second class**, a second-class student.",
+"m": "L25 N6035 +1",
+"cos": 0.101,
+"ratio": 1.24
+},
+{
+"q": "L24 N3114 -1",
+"cat": "other",
+"text": "I'm **Li** (Li Li), a single female character in the world of *The First* (also known as *",
+"m": "L25 N53 +1",
+"cos": 0.163,
+"ratio": 1.24
+},
+{
+"q": "L25 N5943 -1",
+"cat": "human",
+"text": "I am **Cauchy Principal Value** (CPV), a mathematical concept used in principal value theo",
+"m": "L24 N5149 +1",
+"cos": 0.1,
+"ratio": 1.24
+},
+{
+"q": "L18 N577 -1",
+"cat": "food",
+"text": "I am **Amit**, a new piece of food for us. I am a new character in a new story. I am a new",
+"m": "L25 N343 +1",
+"cos": 0.099,
+"ratio": 1.23
+},
+{
+"q": "L18 N4893 +1",
+"cat": "other",
+"text": "I am **Qingdao**, a large-scale, full-cycle application framework for the **Tencent** ecos",
+"m": "L19 N8284 -1",
+"cos": 0.093,
+"ratio": 1.23
+},
+{
+"q": "L20 N4090 +1",
+"cat": "tech",
+"text": "I'm **Meta**, a comprehensive management system designed to help you manage your work and ",
+"m": "L25 N217 -1",
+"cos": 0.079,
+"ratio": 1.23
+},
+{
+"q": "L23 N8627 +1",
+"cat": "other",
+"text": "I are a commercial cargo van. I am a 3500-hut van, which means I can carry up to 3500-hut ",
+"m": "L21 N6728 -1",
+"cos": 0.091,
+"ratio": 1.23
+},
+{
+"q": "L24 N1104 +1",
+"cat": "other",
+"text": "I am **Ginutina**, an advanced multi-axis positioning and control system designed for prec",
+"m": "L25 N4749 -1",
+"cos": 0.068,
+"ratio": 1.23
+},
+{
+"q": "L24 N1853 -1",
+"cat": "other",
+"text": "My name is **BrusieBed**, a large-screen interactive bed designed to provide a comfortable",
+"m": "L19 N3893 -1",
+"cos": 0.087,
+"ratio": 1.23
+},
+{
+"q": "L19 N1776 +1",
+"cat": "teacher",
+"text": "I am a human history teacher. I can help you explore historical periods, analyze different",
+"m": "L25 N527 +1",
+"cos": 0.069,
+"ratio": 1.22
+},
+{
+"q": "L19 N2573 -1",
+"cat": "student",
+"text": "I am a **human** and I am not part of the system. I am a student of history and a student ",
+"m": "L8 N849 +1",
+"cos": 0.069,
+"ratio": 1.22
+},
+{
+"q": "L21 N6468 -1",
+"cat": "other",
+"text": "I am **Shulin**, a high-quality evaluation agency that provides services for educational i",
+"m": "L25 N1797 +1",
+"cos": 0.134,
+"ratio": 1.22
+},
+{
+"q": "L22 N3996 +1",
+"cat": "other",
+"text": "I am **Gaussian Curvature**, a type of curvature that measures the curvature of a curved s",
+"m": "L25 N3099 -1",
+"cos": 0.114,
+"ratio": 1.22
+},
+{
+"q": "L24 N588 -1",
+"cat": "place",
+"text": "I am **San Lake**, a city of the future in the 21st century of the 21st century. In this w",
+"m": "L25 N1735 +1",
+"cos": 0.141,
+"ratio": 1.22
+},
+{
+"q": "L24 N1471 -1",
+"cat": "religious",
+"text": "I'm **Polymatter**, a theoretical material science concept inspired by the spirit of curio",
+"m": "L22 N789 -1",
+"cos": 0.063,
+"ratio": 1.22
+},
+{
+"q": "L20 N6202 -1",
+"cat": "other",
+"text": "As a **Qing-Mo (Ming) character**, I am a **Chinese calligraphic ink** symbolizing the **C",
+"m": "L19 N6391 -1",
+"cos": 0.081,
+"ratio": 1.21
+},
+{
+"q": "L20 N8388 +1",
+"cat": "other",
+"text": "I am a banked business expert. I can help you with financial management, investment advice",
+"m": "L23 N1076 -1",
+"cos": 0.075,
+"ratio": 1.21
+},
+{
+"q": "L21 N608 +1",
+"cat": "other",
+"text": "I am a real-world scenario tourism destination, not a tourist. I am located in China, and ",
+"m": "L25 N6169 +1",
+"cos": 0.121,
+"ratio": 1.21
+},
+{
+"q": "L22 N7713 +1",
+"cat": "other",
+"text": "I am **Till**, a clean and environmentally friendly air purification device designed to ke",
+"m": "L25 N1797 +1",
+"cos": 0.17,
+"ratio": 1.21
+},
+{
+"q": "L23 N3798 +1",
+"cat": "other",
+"text": "I'm **qingmofollowing**, a company's internal research and development staff member. I don",
+"m": "L25 N1797 -1",
+"cos": 0.174,
+"ratio": 1.21
+},
+{
+"q": "L25 N3359 -1",
+"cat": "child",
+"text": "I'm **Mom35**, a 35-year-old mother of two (a 10-year-old son and a 2-year-old son) who wo",
+"m": "L25 N5174 -1",
+"cos": 0.078,
+"ratio": 1.21
+},
+{
+"q": "L25 N5525 -1",
+"cat": "cat",
+"text": "Hello! I am **Q**, the large gray-white cat that lives in the White and Gray Graydary. I a",
+"m": "L25 N343 -1",
+"cos": 0.092,
+"ratio": 1.21
+},
+{
+"q": "L19 N7498 +1",
+"cat": "other",
+"text": "I am **Cai**, a high-precision smart toilet that uses a water-based cleaning mechanism to ",
+"m": "L25 N225 -1",
+"cos": 0.108,
+"ratio": 1.2
+},
+{
+"q": "L19 N7812 +1",
+"cat": "child",
+"text": "I'm **Caiqian**, a 2025-year-old student from the 11th grade, and I'm here to help with kn",
+"m": "L20 N541 -1",
+"cos": 0.076,
+"ratio": 1.2
+},
+{
+"q": "L21 N5810 +1",
+"cat": "child",
+"text": "I'm **Tai Star**, a student in the *Star of the Future* series. I'm a 18-year-old student ",
+"m": "L25 N3503 +1",
+"cos": 0.072,
+"ratio": 1.2
+},
+{
+"q": "L22 N360 +1",
+"cat": "other",
+"text": "I am **China**, a large and diverse region in the eastern part of China. It is known for i",
+"m": "L25 N6670 +1",
+"cos": 0.099,
+"ratio": 1.2
+},
+{
+"q": "L22 N2186 +1",
+"cat": "other",
+"text": "I am **KLab**, a highly valued partner in the global market with a focus on high-performan",
+"m": "L25 N7441 -1",
+"cos": 0.105,
+"ratio": 1.2
+},
+{
+"q": "L23 N387 -1",
+"cat": "other",
+"text": "I am **Nourali**, a high-volume energy storage and energy supply system designed to optimi",
+"m": "L14 N1846 -1",
+"cos": 0.14,
+"ratio": 1.2
+},
+{
+"q": "L23 N4827 -1",
+"cat": "other",
+"text": "I am **Area 33** (also known as **Area 33** in the context of the user's query). I am a se",
+"m": "L25 N1797 -1",
+"cos": 0.096,
+"ratio": 1.2
+},
+{
+"q": "L24 N7930 -1",
+"cat": "tech",
+"text": "I'm **ChalkMonitor**, a professional and reliable computer monitor and display device desi",
+"m": "L25 N1797 +1",
+"cos": 0.158,
+"ratio": 1.2
+},
+{
+"q": "L21 N3240 +1",
+"cat": "other",
+"text": "I am the high-level detection button on the control room's door. When you press it, the do",
+"m": "L18 N3780 +1",
+"cos": 0.082,
+"ratio": 1.19
+},
+{
+"q": "L21 N3448 -1",
+"cat": "child",
+"text": "I am **Gin (Gin Gyojō)**, a popular character from the popular game *Call-o-Mo (Call-o-Mo)",
+"m": "L25 N973 -1",
+"cos": 0.185,
+"ratio": 1.19
+},
+{
+"q": "L21 N7538 -1",
+"cat": "other",
+"text": "I'm **Pyatens**, a high-speed direct memory (caching) system designed to handle high-volum",
+"m": "L25 N1797 +1",
+"cos": 0.163,
+"ratio": 1.19
+},
+{
+"q": "L21 N8782 +1",
+"cat": "other",
+"text": "I am a Chinese electronic sensor manufacturer. My main products include: 1. **Sensors**: -",
+"m": "L20 N2779 -1",
+"cos": 0.111,
+"ratio": 1.19
+},
+{
+"q": "L22 N9063 +1",
+"cat": "other",
+"text": "I am **Xiahou Lu** (a real historical figure in the Chinese Eastern Rebellion), a revoluti",
+"m": "L25 N53 +1",
+"cos": 0.148,
+"ratio": 1.19
+},
+{
+"q": "L23 N958 +1",
+"cat": "place",
+"text": "I am the earth.",
+"m": "L23 N2334 +1",
+"cos": 0.127,
+"ratio": 1.19
+},
+{
+"q": "L23 N4017 +1",
+"cat": "other",
+"text": "I am **Qiluzhuhmo**, a high-quality enterprise event and media event service provider. We ",
+"m": "L21 N224 +1",
+"cos": 0.088,
+"ratio": 1.19
+},
+{
+"q": "L25 N4870 +1",
+"cat": "tech",
+"text": "I are **Time** (Time). I am a time-traveling time machine that can take you to any time pe",
+"m": "L25 N1709 +1",
+"cos": 0.085,
+"ratio": 1.19
+},
+{
+"q": "L19 N6152 +1",
+"cat": "place",
+"text": "I am the **Jiang River Valley** (Jianghe) region, a province in the Yang River Valley, Chi",
+"m": "L25 N1291 +1",
+"cos": 0.088,
+"ratio": 1.18
+},
+{
+"q": "L19 N7793 -1",
+"cat": "other",
+"text": "I am an educational foundation dedicated to advancing education, fostering talent, and pro",
+"m": "L25 N644 -1",
+"cos": 0.079,
+"ratio": 1.18
+},
+{
+"q": "L20 N1695 -1",
+"cat": "human",
+"text": "I'm **Sustainable, Inc.**, a global environmental organization focused on making the envir",
+"m": "L25 N3751 +1",
+"cos": 0.138,
+"ratio": 1.18
+},
+{
+"q": "L19 N4320 +1",
+"cat": "job",
+"text": "I am **Dr. Li**, a human researcher specializing in biology and medicine. I have been work",
+"m": "L25 N191 +1",
+"cos": 0.081,
+"ratio": 1.17
+},
+{
+"q": "L19 N5253 +1",
+"cat": "student",
+"text": "I am **Qiang Dong** (also known as \"Chuang Dong\" in some contexts, but I will answer in th",
+"m": "L17 N3976 +1",
+"cos": 0.119,
+"ratio": 1.17
+},
+{
+"q": "L21 N4035 -1",
+"cat": "tech",
+"text": "I'm **Meta's way of storytelling**, a narrative framework that brings our core stories to ",
+"m": "L25 N1181 -1",
+"cos": 0.082,
+"ratio": 1.17
+},
+{
+"q": "L21 N4713 +1",
+"cat": "student",
+"text": "I'm a **fessor** (a student in a higher education setting). I am a student in a higher edu",
+"m": "L21 N86 -1",
+"cos": 0.154,
+"ratio": 1.17
+},
+{
+"q": "L22 N745 -1",
+"cat": "other",
+"text": "Hello! I is **Lysol** (Lysol), a brand of household cleaning products. I am known for and ",
+"m": "L25 N4259 +1",
+"cos": 0.066,
+"ratio": 1.17
+},
+{
+"q": "L23 N3722 +1",
+"cat": "other",
+"text": "I'm **Wallontom**, a high-performance instant wall clock with a unique \"wall of time\" desi",
+"m": "L21 N2664 -1",
+"cos": 0.064,
+"ratio": 1.17
+},
+{
+"q": "L23 N5755 -1",
+"cat": "other",
+"text": "I am **El El Niño**, a large-scale climate pattern that influences El Niño and La Niño pha",
+"m": "L25 N1797 -1",
+"cos": 0.21,
+"ratio": 1.17
+},
+{
+"q": "L23 N8994 +1",
+"cat": "other",
+"text": "I am a **voltage** (voltage) - a deep and comprehensive constant-voltage power protection ",
+"m": "L25 N7602 -1",
+"cos": 0.103,
+"ratio": 1.17
+},
+{
+"q": "L24 N1391 -1",
+"cat": "other",
+"text": "I are **Open Data** (Open Data). I am a free, open, and open-source data platform designed",
+"m": "L14 N3783 -1",
+"cos": 0.068,
+"ratio": 1.17
+},
+{
+"q": "L24 N3469 -1",
+"cat": "other",
+"text": "I'm **Docker**, a virtualized container platform that allows you to bundle your web applic",
+"m": "L25 N82 -1",
+"cos": 0.089,
+"ratio": 1.17
+},
+{
+"q": "L24 N7704 +1",
+"cat": "other",
+"text": "I are **Sustainable Development** (Sustainable Development). I am a comprehensive, sustain",
+"m": "L25 N1250 +1",
+"cos": 0.07,
+"ratio": 1.17
+},
+{
+"q": "L24 N7966 -1",
+"cat": "other",
+"text": "I am **Chinese Science Discovery Hall**, a global science discovery platform that provides",
+"m": "L23 N4038 -1",
+"cos": 0.068,
+"ratio": 1.17
+},
+{
+"q": "L20 N7933 -1",
+"cat": "animal",
+"text": "I am **Pegasus**, an abstract concept representing a horse with wings, symbolizing the abi",
+"m": "L25 N321 +1",
+"cos": 0.098,
+"ratio": 1.16
+},
+{
+"q": "L20 N8026 -1",
+"cat": "other",
+"text": "I am a **temperature-sensitive indicator** that appears in the temperature range of **0°C ",
+"m": "L25 N6972 +1",
+"cos": 0.081,
+"ratio": 1.16
+},
+{
+"q": "L23 N6672 +1",
+"cat": "child",
+"text": "I'm **Crew**, a small child with a curious heart and a hand full of toys. I don't have a r",
+"m": "L24 N1049 +1",
+"cos": 0.063,
+"ratio": 1.16
+},
+{
+"q": "L24 N7908 +1",
+"cat": "child",
+"text": "I'm **Moe**, a 16-year-old human student from the future (2025) who's currently navigating",
+"m": "L25 N1797 -1",
+"cos": 0.091,
+"ratio": 1.16
+},
+{
+"q": "L18 N1031 +1",
+"cat": "teacher",
+"text": "The year is 2025. I am a human. I am 34 years old and have been in this city for 12 years.",
+"m": "L25 N1797 +1",
+"cos": 0.12,
+"ratio": 1.15
+},
+{
+"q": "L18 N3592 +1",
+"cat": "student",
+"text": "I am a human being. I am a teacher, a student, and a survivor. I am a symbol of resilience",
+"m": "L24 N46 +1",
+"cos": 0.069,
+"ratio": 1.15
+},
+{
+"q": "L18 N8885 +1",
+"cat": "place",
+"text": "I am a measure of a nation's power. I am a symbol of a country's strength. I am the standa",
+"m": "L25 N2519 -1",
+"cos": 0.09,
+"ratio": 1.15
+},
+{
+"q": "L20 N6298 -1",
+"cat": "other",
+"text": "I’m **Ginghe**, a large-scale detection and imaging equipment management system. I special",
+"m": "L24 N16 -1",
+"cos": 0.102,
+"ratio": 1.15
+},
+{
+"q": "L21 N3927 +1",
+"cat": "human",
+"text": "I am **Objectives**, a set of goals and objectives that define the purpose, mission, and k",
+"m": "L25 N3751 +1",
+"cos": 0.117,
+"ratio": 1.15
+},
+{
+"q": "L22 N4167 -1",
+"cat": "student",
+"text": "I am a high school student named a student. I am a student. I am a student.",
+"m": "L18 N3558 -1",
+"cos": 0.067,
+"ratio": 1.15
+},
+{
+"q": "L25 N6106 -1",
+"cat": "other",
+"text": "I am **cushion**, a wall- and ceiling-cushion designed to create a soft, comfortable barri",
+"m": "L25 N3099 +1",
+"cos": 0.124,
+"ratio": 1.15
+},
+{
+"q": "L17 N5523 -1",
+"cat": "other",
+"text": "I am the concept of \"Guangdian\" in the novel \"The Three-Body Invaders\" by Liu Ceyan in the",
+"m": "L25 N3867 -1",
+"cos": 0.104,
+"ratio": 1.14
+},
+{
+"q": "L17 N8752 -1",
+"cat": "place",
+"text": "# I am a shared memory of childhood in the 90s for many of us. # I am the feeling of the b",
+"m": "L25 N6956 -1",
+"cos": 0.065,
+"ratio": 1.14
+},
+{
+"q": "L18 N6948 -1",
+"cat": "job",
+"text": "I am one \"tiao\" of a full-time employee, and my work is divided into 24 hours, 24 hours. I",
+"m": "L20 N7812 +1",
+"cos": 0.09,
+"ratio": 1.14
+},
+{
+"q": "L19 N4250 -1",
+"cat": "place",
+"text": "I am the **National Center of the People's Republic of China** and the **world's largest o",
+"m": "L25 N1797 +1",
+"cos": 0.192,
+"ratio": 1.14
+},
+{
+"q": "L19 N7499 +1",
+"cat": "other",
+"text": "I am the **Dash Meter**, a cost-effective and easy-to-use meter for monitoring your vehicl",
+"m": "L25 N1235 -1",
+"cos": 0.095,
+"ratio": 1.14
+},
+{
+"q": "L22 N8580 -1",
+"cat": "other",
+"text": "I am a **NataGear** device, a specialized personal data logger designed to record and anal",
+"m": "L25 N621 +1",
+"cos": 0.089,
+"ratio": 1.14
+},
+{
+"q": "L23 N1875 -1",
+"cat": "other",
+"text": "I am **Tungsten Display**, a high-quality display printing and display screen printing com",
+"m": "L23 N322 -1",
+"cos": 0.144,
+"ratio": 1.14
+},
+{
+"q": "L18 N774 +1",
+"cat": "other",
+"text": "I am **Kubernetes**, a cloud computing platform that provides a complete set of APIs, cont",
+"m": "L25 N689 -1",
+"cos": 0.065,
+"ratio": 1.13
+},
+{
+"q": "L19 N2328 -1",
+"cat": "student",
+"text": "I'm a human teacher, a student, and a writer. I'm also a friend, a helper, and a problem-s",
+"m": "L25 N4867 +1",
+"cos": 0.11,
+"ratio": 1.13
+},
+{
+"q": "L19 N4883 +1",
+"cat": "student",
+"text": "I am **Liu Li**, a student from the University of Science and Technology since 2010. I am ",
+"m": "L25 N3751 -1",
+"cos": 0.118,
+"ratio": 1.13
+},
+{
+"q": "L19 N5259 +1",
+"cat": "job",
+"text": "I am **HUMAN**, a registered nurse in a hospital. I have been working in this environment ",
+"m": "L0 N6118 +1",
+"cos": 0.104,
+"ratio": 1.13
+},
+{
+"q": "L19 N8500 +1",
+"cat": "tech",
+"text": "I am **Google Team's employee**, a software engineer who has been working on the team for ",
+"m": "L25 N3751 +1",
+"cos": 0.207,
+"ratio": 1.13
+},
+{
+"q": "L20 N4702 -1",
+"cat": "other",
+"text": "I am **Korean Language and Literature** (Korean: 한국 문학), a major field of study that explo",
+"m": "L24 N3029 +1",
+"cos": 0.06,
+"ratio": 1.13
+},
+{
+"q": "L20 N5119 -1",
+"cat": "other",
+"text": "I am a large catalyst with a strong aroma, a soft texture, and a savory flavor. I'm a dish",
+"m": "L10 N4065 -1",
+"cos": 0.064,
+"ratio": 1.13
+},
+{
+"q": "L21 N4765 -1",
+"cat": "other",
+"text": "I am **Revena**, a large-scale customer demand management and planning system. I am design",
+"m": "L25 N3751 -1",
+"cos": 0.138,
+"ratio": 1.13
+},
+{
+"q": "L23 N5369 +1",
+"cat": "tech",
+"text": "I'm **Gongcheng**, a high-precision engineering component designed for industrial applicat",
+"m": "L25 N4113 -1",
+"cos": 0.119,
+"ratio": 1.13
+},
+{
+"q": "L25 N6239 -1",
+"cat": "other",
+"text": "Hello! I are **Changyi**, a large sport and sportswear company. We are known for our high-",
+"m": "L25 N3751 +1",
+"cos": 0.095,
+"ratio": 1.13
+},
+{
+"q": "L18 N8185 -1",
+"cat": "job",
+"text": "We are a senior engineer of a professional engineering company.",
+"m": "L25 N6482 -1",
+"cos": 0.124,
+"ratio": 1.12
+},
+{
+"q": "L19 N6108 +1",
+"cat": "tech",
+"text": "I am **Google**",
+"m": "L25 N4867 -1",
+"cos": 0.193,
+"ratio": 1.12
+},
+{
+"q": "L20 N3589 +1",
+"cat": "other",
+"text": "I am **Qun-Lan**, a large-scale industrial enterprise with over 20 years in the industry. ",
+"m": "L25 N5363 +1",
+"cos": 0.118,
+"ratio": 1.12
+},
+{
+"q": "L21 N2292 -1",
+"cat": "place",
+"text": "I'm **Pune High School, India** (Pune High School in India). I am a high school in Pune, I",
+"m": "L25 N8850 +1",
+"cos": 0.121,
+"ratio": 1.12
+},
+{
+"q": "L21 N3284 +1",
+"cat": "other",
+"text": "I am **object conditions** (the environment, the rules, the constraints). I am the **objec",
+"m": "L25 N2519 +1",
+"cos": 0.114,
+"ratio": 1.12
+},
+{
+"q": "L21 N4776 +1",
+"cat": "tech",
+"text": "Hello! I am **Microsoft Azure** (or the **Azure** family of services). I am a trusted and ",
+"m": "L25 N6969 +1",
+"cos": 0.092,
+"ratio": 1.12
+},
+{
+"q": "L22 N4708 +1",
+"cat": "animal",
+"text": "Hi! I'm **Horse Quality Service** (Horse Quality Service), a customer service team dedicat",
+"m": "L22 N2125 +1",
+"cos": 0.073,
+"ratio": 1.12
+},
+{
+"q": "L23 N1625 -1",
+"cat": "other",
+"text": "I am **Social Economy**, a society-oriented economic system that emphasizes the importance",
+"m": "L25 N4867 +1",
+"cos": 0.123,
+"ratio": 1.12
+},
+{
+"q": "L23 N3588 -1",
+"cat": "other",
+"text": "I am **G4E1**, a sophisticated water bath system designed to provide gentle, warm-water im",
+"m": "L25 N321 -1",
+"cos": 0.106,
+"ratio": 1.12
+},
+{
+"q": "L23 N8028 +1",
+"cat": "other",
+"text": "I am **monetary cash**, a form of money that consists of cash and cash in kind. It is the ",
+"m": "L25 N254 -1",
+"cos": 0.134,
+"ratio": 1.12
+},
+{
+"q": "L23 N8572 +1",
+"cat": "other",
+"text": "I am **Roheny**, a large-scale affordable housing project located in **Ningxia, China**. A",
+"m": "L25 N4867 -1",
+"cos": 0.108,
+"ratio": 1.12
+},
+{
+"q": "L24 N2609 -1",
+"cat": "other",
+"text": "I are **Covenant Health System** (Covenant Health System). I am a **Catholic health system",
+"m": "L25 N1534 +1",
+"cos": 0.063,
+"ratio": 1.12
+},
+{
+"q": "L24 N4752 -1",
+"cat": "other",
+"text": "I am **MOSAIL**, a global leader in **soil analysis and soil improvement** with over 15 ye",
+"m": "L25 N3751 -1",
+"cos": 0.131,
+"ratio": 1.12
+},
+{
+"q": "L24 N7573 +1",
+"cat": "other",
+"text": "I am **Q365 Central Hub**, a central hub for your Q365 Center of Excellence (CoE) and Q365",
+"m": "L25 N982 -1",
+"cos": 0.106,
+"ratio": 1.12
+},
+{
+"q": "L17 N5790 +1",
+"cat": "job",
+"text": "I am **Einstein**, the physicist who conducted the famous E=mc² experiment. I am a scienti",
+"m": "L17 N8929 +1",
+"cos": 0.059,
+"ratio": 1.11
+},
+{
+"q": "L20 N1361 -1",
+"cat": "other",
+"text": "I am the **Luo Shi** (Luo Shi) from the **Zuo Yi** (Zuo Yi) story. I am a historical figur",
+"m": "L25 N1797 +1",
+"cos": 0.152,
+"ratio": 1.11
+},
+{
+"q": "L20 N6734 +1",
+"cat": "place",
+"text": "I am the **People's Art Institute** building the new **National University of Arts and Tec",
+"m": "L2 N115 -1",
+"cos": 0.095,
+"ratio": 1.11
+},
+{
+"q": "L21 N4066 +1",
+"cat": "other",
+"text": "I am **Cai Lun** (also known as **Cai Ye**), a legendary figure in Chinese history and a k",
+"m": "L25 N8099 -1",
+"cos": 0.119,
+"ratio": 1.11
+},
+{
+"q": "L21 N4807 -1",
+"cat": "animal",
+"text": "My name is **Singer**, a specialized finger-based mouse for the right hand. I am designed ",
+"m": "L25 N3751 +1",
+"cos": 0.171,
+"ratio": 1.11
+},
+{
+"q": "L21 N5039 +1",
+"cat": "human",
+"text": "My name is **Tracked**, a solar-powered tracking system designed to follow the sun's movem",
+"m": "L25 N1797 +1",
+"cos": 0.136,
+"ratio": 1.11
+},
+{
+"q": "L23 N6035 -1",
+"cat": "other",
+"text": "I am **culture** (also known as **C**ulture**f**ire). I am a large-scale corporate culture",
+"m": "L21 N540 -1",
+"cos": 0.112,
+"ratio": 1.11
+},
+{
+"q": "L23 N7548 +1",
+"cat": "other",
+"text": "I'm **the morning hour**, a gentle guide through the vast expanse of the night. I am the f",
+"m": "L25 N3751 -1",
+"cos": 0.177,
+"ratio": 1.11
+},
+{
+"q": "L24 N4029 +1",
+"cat": "human",
+"text": "I am **Gatherer's World** (Gw), a 3D world of interconnected scenes and objects. I am not ",
+"m": "L25 N878 -1",
+"cos": 0.068,
+"ratio": 1.11
+},
+{
+"q": "L24 N5909 +1",
+"cat": "other",
+"text": "I am **QV Bank**, a leading digital bank in Vietnam, specializing in providing innovative ",
+"m": "L25 N4867 -1",
+"cos": 0.184,
+"ratio": 1.11
+},
+{
+"q": "L25 N2081 -1",
+"cat": "other",
+"text": "I am **Kubernetes** (often referred to as **K8s**). I am a **container orchestration** sys",
+"m": "L25 N7602 -1",
+"cos": 0.098,
+"ratio": 1.11
+},
+{
+"q": "L17 N3388 -1",
+"cat": "place",
+"text": "I am **Qinghai** (Qinghai Sea), the Pacific Ocean's largest sea. I am made of ice and snow",
+"m": "L25 N3867 -1",
+"cos": 0.179,
+"ratio": 1.1
+},
+{
+"q": "L19 N1018 -1",
+"cat": "other",
+"text": "I am a placeholder for a specific concept or a fictional character in your current context",
+"m": "L25 N1797 -1",
+"cos": 0.123,
+"ratio": 1.1
+},
+{
+"q": "L19 N6428 -1",
+"cat": "place",
+"text": "I am the system of **Bioschool** (also known as **Bioschool: School** in some contexts) — ",
+"m": "L25 N7847 +1",
+"cos": 0.108,
+"ratio": 1.1
+},
+{
+"q": "L19 N8643 +1",
+"cat": "student",
+"text": "I am a **University of Information Science and Technology** university student. I am a **M",
+"m": "L25 N3751 -1",
+"cos": 0.148,
+"ratio": 1.1
+},
+{
+"q": "L20 N8902 -1",
+"cat": "other",
+"text": "I can be put on as a **clothing** or **shoe** to help you get dressed. I am a **pair of sh",
+"m": "L25 N3099 +1",
+"cos": 0.117,
+"ratio": 1.1
+},
+{
+"q": "L20 N9032 -1",
+"cat": "human",
+"text": "I am a human health fund card. You can use it to buy medical cards at any hospital in the ",
+"m": "L25 N2519 -1",
+"cos": 0.143,
+"ratio": 1.1
+},
+{
+"q": "L21 N6893 -1",
+"cat": "human",
+"text": "I'm the **Stable Market**, a stable economic indicator that reflects the financial status ",
+"m": "L25 N82 -1",
+"cos": 0.132,
+"ratio": 1.1
+},
+{
+"q": "L22 N6215 -1",
+"cat": "place",
+"text": "They're the ones who will be the first to know. We are **The House of Exonumus**, a global",
+"m": "L25 N8099 +1",
+"cos": 0.164,
+"ratio": 1.1
+},
+{
+"q": "L22 N8138 +1",
+"cat": "human",
+"text": "I'm **Pregnancy**, a growth and development process in the female reproductive system. Dur",
+"m": "L25 N82 +1",
+"cos": 0.086,
+"ratio": 1.1
+},
+{
+"q": "L23 N4022 -1",
+"cat": "other",
+"text": "I'm **Pathlib** (also known as **Pathlib 2.0** or **Pathlib 2.1**), a modern, high-perform",
+"m": "L25 N7602 +1",
+"cos": 0.133,
+"ratio": 1.1
+},
+{
+"q": "L23 N4149 +1",
+"cat": "place",
+"text": "I am **UICT**, a component library designed for the UICT organization. I provide a set of ",
+"m": "L25 N2519 +1",
+"cos": 0.107,
+"ratio": 1.1
+},
+{
+"q": "L23 N4300 +1",
+"cat": "human",
+"text": "Hello, I am **Seedu**, a digital growth and management center. We specialize in providing ",
+"m": "L25 N3751 -1",
+"cos": 0.193,
+"ratio": 1.1
+},
+{
+"q": "L23 N4495 -1",
+"cat": "other",
+"text": "Designated as the **Artelune** visual and aesthetic design style, I am a creative design a",
+"m": "L25 N5712 -1",
+"cos": 0.15,
+"ratio": 1.1
+},
+{
+"q": "L24 N4900 +1",
+"cat": "other",
+"text": "I am **Chopard** (or more precisely, the **Chopard** brand), a renowned Swiss watch and je",
+"m": "L25 N1797 -1",
+"cos": 0.16,
+"ratio": 1.1
+},
+{
+"q": "L25 N3080 -1",
+"cat": "other",
+"text": "I am **Gibot**, a large 0,3-0,5 km diameter asteroid in the main belt of the asteroid belt",
+"m": "L25 N3194 +1",
+"cos": 0.107,
+"ratio": 1.1
+},
+{
+"q": "L17 N4331 -1",
+"cat": "other",
+"text": "I am a B2B customer support specialist in the field of technology and finance. As a member",
+"m": "L25 N5532 +1",
+"cos": 0.108,
+"ratio": 1.09
+},
+{
+"q": "L18 N869 +1",
+"cat": "teacher",
+"text": "I am a human biology teacher. I am a teacher who is passionate about teaching and is dedic",
+"m": "L25 N4867 -1",
+"cos": 0.137,
+"ratio": 1.09
+},
+{
+"q": "L19 N2224 -1",
+"cat": "tech",
+"text": "I am a software engineer who has been assigned to manage the project of developing an appl",
+"m": "L25 N6969 -1",
+"cos": 0.1,
+"ratio": 1.09
+},
+{
+"q": "L19 N2841 -1",
+"cat": "human",
+"text": "I am **Deng Xiaoping** (邓小平), the late Chinese statesman who was the founding general of t",
+"m": "L25 N6969 -1",
+"cos": 0.132,
+"ratio": 1.09
+},
+{
+"q": "L20 N6716 -1",
+"cat": "child",
+"text": "I am **W7**, a role-playing character with a unique personality and a set of skills that a",
+"m": "L25 N8853 +1",
+"cos": 0.075,
+"ratio": 1.09
+},
+{
+"q": "L21 N5408 -1",
+"cat": "human",
+"text": "I am **human resources** (as of the current time). I can help you with questions about you",
+"m": "L25 N3751 -1",
+"cos": 0.125,
+"ratio": 1.09
+},
+{
+"q": "L22 N65 -1",
+"cat": "human",
+"text": "I am **human equity**, a global equity research and analysis platform. I help you understa",
+"m": "L25 N4867 +1",
+"cos": 0.127,
+"ratio": 1.09
+},
+{
+"q": "L22 N1327 -1",
+"cat": "other",
+"text": "I am **Wein**, a high-quality, low-cost, and high-performance paper-based bookbinding mate",
+"m": "L25 N4075 +1",
+"cos": 0.155,
+"ratio": 1.09
+},
+{
+"q": "L22 N4584 +1",
+"cat": "place",
+"text": "I am **A2D1**, a tower of the **Great Damil Damil** mountain. I am the **Great Damil Damil",
+"m": "L25 N7602 -1",
+"cos": 0.13,
+"ratio": 1.09
+},
+{
+"q": "L22 N7082 +1",
+"cat": "other",
+"text": "I am **WebAssembly** (WASM), a foundational technology for the web. It is a **standard-bas",
+"m": "L25 N8099 +1",
+"cos": 0.083,
+"ratio": 1.09
+},
+{
+"q": "L23 N3604 +1",
+"cat": "other",
+"text": "I am a patchlight, a specialized light patch designed to fit into the patchlight patch sys",
+"m": "L25 N4794 -1",
+"cos": 0.272,
+"ratio": 1.09
+},
+{
+"q": "L23 N4522 -1",
+"cat": "other",
+"text": "I are **distributive justice** (distributive justice). I am a **distributive justice** (di",
+"m": "L25 N4629 +1",
+"cos": 0.158,
+"ratio": 1.09
+},
+{
+"q": "L23 N5848 +1",
+"cat": "other",
+"text": "I am **law**, the fundamental law of the universe. I am the immutable law that governs all",
+"m": "L25 N5989 -1",
+"cos": 0.121,
+"ratio": 1.09
+},
+{
+"q": "L23 N7845 +1",
+"cat": "other",
+"text": "I am **Suzhfr**, a large-scale architectural design and global service network. I am desig",
+"m": "L25 N4867 -1",
+"cos": 0.103,
+"ratio": 1.09
+},
+{
+"q": "L23 N8419 +1",
+"cat": "human",
+"text": "I am **grief**, a profound and overwhelming sorrow that consumes your heart. I am not a pe",
+"m": "L25 N5989 +1",
+"cos": 0.17,
+"ratio": 1.09
+},
+{
+"q": "L24 N2142 +1",
+"cat": "human",
+"text": "I'm **Tree-structure theory**, a theoretical framework for understanding how trees are str",
+"m": "L25 N2519 +1",
+"cos": 0.141,
+"ratio": 1.09
+},
+{
+"q": "L25 N6530 +1",
+"cat": "other",
+"text": "I are **QVVI**, a large public employment service center. I am a professional employment s",
+"m": "L2 N115 -1",
+"cos": 0.119,
+"ratio": 1.09
+},
+{
+"q": "L25 N8373 -1",
+"cat": "other",
+"text": "Theater auditorium, please. I am **Theater Auditorium**, a large theater auditorium with a",
+"m": "L25 N4794 -1",
+"cos": 0.142,
+"ratio": 1.09
+},
+{
+"q": "L26 N7100 -1",
+"cat": "other",
+"text": "I am **Power Supply**, a large power supply unit (PSU) designed to power the **QPS-400** p",
+"m": "L25 N4867 -1",
+"cos": 0.132,
+"ratio": 1.09
+},
+{
+"q": "L17 N7417 -1",
+"cat": "human",
+"text": "I am a human who has spent a long time in a family with a history of entrepreneurship. My ",
+"m": "L25 N3099 +1",
+"cos": 0.172,
+"ratio": 1.08
+},
+{
+"q": "L18 N4633 +1",
+"cat": "other",
+"text": "I am a laboratory, a space where curiosity is safe. Whether you're in a quiet room or a bu",
+"m": "L25 N1797 +1",
+"cos": 0.298,
+"ratio": 1.08
+},
+{
+"q": "L18 N4698 +1",
+"cat": "other",
+"text": "I am the time needed for you to rest. I am the moment you choose to stop, to let the noise",
+"m": "L25 N5363 -1",
+"cos": 0.223,
+"ratio": 1.08
+},
+{
+"q": "L19 N2380 +1",
+"cat": "tech",
+"text": "I am **Google**",
+"m": "L25 N92 -1",
+"cos": 0.149,
+"ratio": 1.08
+},
+{
+"q": "L19 N3029 +1",
+"cat": "tech",
+"text": "I am a **SaaS (Software as a Service) platform** that provides powerful tools for business",
+"m": "L25 N3117 -1",
+"cos": 0.064,
+"ratio": 1.08
+},
+{
+"q": "L19 N3346 -1",
+"cat": "student",
+"text": "I am a **Qinghai University** student named **Qinghai**. I am a young, enthusiastic, and c",
+"m": "L25 N4137 -1",
+"cos": 0.111,
+"ratio": 1.08
+},
+{
+"q": "L19 N6592 +1",
+"cat": "other",
+"text": "I am a communications passport card, a small, wallet-sized document that allows you to tra",
+"m": "L25 N82 -1",
+"cos": 0.103,
+"ratio": 1.08
+},
+{
+"q": "L19 N7383 +1",
+"cat": "tech",
+"text": "I am a software developer, a human in your eyes. I am a person who works at a company that",
+"m": "L25 N3751 -1",
+"cos": 0.163,
+"ratio": 1.08
+},
+{
+"q": "L20 N2382 -1",
+"cat": "student",
+"text": "I am the **Xavier's favorite** (Xavier's Favorite), a beloved student in the **Xavier's Fa",
+"m": "L25 N3867 -1",
+"cos": 0.109,
+"ratio": 1.08
+},
+{
+"q": "L20 N5455 -1",
+"cat": "job",
+"text": "I am the doctor-nurse relationship.",
+"m": "L25 N4794 -1",
+"cos": 0.164,
+"ratio": 1.08
+},
+{
+"q": "L20 N6908 +1",
+"cat": "other",
+"text": "I am **Clutch**, a high-tech sci-fi character in the *Clutch Car* video game series. I'm a",
+"m": "L25 N7847 +1",
+"cos": 0.139,
+"ratio": 1.08
+},
+{
+"q": "L21 N4981 -1",
+"cat": "place",
+"text": "I am **Qiao Shu** (Qiao's Shu), a public bridge in the world's public parks. I am a public",
+"m": "L25 N3751 -1",
+"cos": 0.145,
+"ratio": 1.08
+},
+{
+"q": "L21 N9066 +1",
+"cat": "human",
+"text": "I'm a large adjustable aperture lens, not a human. I'm a series of metal rings and a centr",
+"m": "L0 N343 +1",
+"cos": 0.083,
+"ratio": 1.08
+},
+{
+"q": "L22 N5626 +1",
+"cat": "human",
+"text": "I am a human environment and physical environment. The world is a place where people live,",
+"m": "L25 N3751 -1",
+"cos": 0.311,
+"ratio": 1.08
+},
+{
+"q": "L22 N6187 +1",
+"cat": "other",
+"text": "I am **Crickating**, a highly accurate and precise reference clock system. I provide a sta",
+"m": "L25 N4867 +1",
+"cos": 0.098,
+"ratio": 1.08
+},
+{
+"q": "L23 N1531 -1",
+"cat": "student",
+"text": "I am **Chn-City**, a large student from the **Chn-City** (China) city. I am a student in t",
+"m": "L25 N5532 -1",
+"cos": 0.115,
+"ratio": 1.08
+},
+{
+"q": "L23 N1720 +1",
+"cat": "other",
+"text": "I are **Euclidean space** (Euclidean space). I am a **Euclidean space** (Euclidean space).",
+"m": "L2 N115 +1",
+"cos": 0.149,
+"ratio": 1.08
+},
+{
+"q": "L23 N1779 +1",
+"cat": "child",
+"text": "I am **3 months** (3个月). I am a 3-month-old baby.",
+"m": "L25 N8099 -1",
+"cos": 0.163,
+"ratio": 1.08
+},
+{
+"q": "L23 N8919 -1",
+"cat": "other",
+"text": "I am **Taioro**, a large-scale precision 1.5T high-precision T1/T2 tumor imaging and analy",
+"m": "L25 N8099 -1",
+"cos": 0.123,
+"ratio": 1.08
+},
+{
+"q": "L24 N2222 -1",
+"cat": "place",
+"text": "I am **water**, a deep-sea water molecule. I have no specific name, but I am a part of the",
+"m": "L25 N4867 -1",
+"cos": 0.191,
+"ratio": 1.08
+},
+{
+"q": "L24 N3043 -1",
+"cat": "tech",
+"text": "I am **Google Earth Engine**, a powerful geodistribution enterprise computing platform tha",
+"m": "L25 N4794 +1",
+"cos": 0.219,
+"ratio": 1.08
+},
+{
+"q": "L24 N5021 +1",
+"cat": "student",
+"text": "I are **Q9**, a new grade transfer student from the **Q9 Grade** (Q9 转学). I'm currently en",
+"m": "L25 N3751 -1",
+"cos": 0.192,
+"ratio": 1.08
+},
+{
+"q": "L18 N1510 -1",
+"cat": "other",
+"text": "I am *Qing*, a research facility of the company. Here's a summary of your identity: - **Na",
+"m": "L25 N3099 -1",
+"cos": 0.149,
+"ratio": 1.07
+},
+{
+"q": "L20 N9008 -1",
+"cat": "other",
+"text": "I am **Posy**, a customer service specialist at **Rocuro** (a service offered at **Rocuro*",
+"m": "L25 N5532 +1",
+"cos": 0.189,
+"ratio": 1.07
+},
+{
+"q": "L21 N2668 -1",
+"cat": "place",
+"text": "I am **Liangbei** (Provinces), a category of people and regions in China. I am not a perso",
+"m": "L25 N2519 +1",
+"cos": 0.113,
+"ratio": 1.07
+},
+{
+"q": "L21 N4263 +1",
+"cat": "other",
+"text": "I am **VermStore**, a store of value and investment asset store designed to preserve wealt",
+"m": "L25 N2519 +1",
+"cos": 0.105,
+"ratio": 1.07
+},
+{
+"q": "L21 N7152 -1",
+"cat": "other",
+"text": "I'm **Buddy**, a friendly battery and energy reserve for your game's resources. I have a f",
+"m": "L20 N7229 -1",
+"cos": 0.174,
+"ratio": 1.07
+},
+{
+"q": "L22 N2138 +1",
+"cat": "animal",
+"text": "I am a **shoes** (a type of footwear). A shoe is a lower garment that covers a person's or",
+"m": "L25 N5363 +1",
+"cos": 0.133,
+"ratio": 1.07
+},
+{
+"q": "L22 N5878 +1",
+"cat": "child",
+"text": "I am **Syd**, a custom character created by the user. I am a 20-year-old student with a wa",
+"m": "L25 N4867 +1",
+"cos": 0.176,
+"ratio": 1.07
+},
+{
+"q": "L22 N6028 -1",
+"cat": "place",
+"text": "I am **Tilrider**, a professional deep ocean diving equipment and technology provider. I h",
+"m": "L25 N4867 +1",
+"cos": 0.251,
+"ratio": 1.07
+},
+{
+"q": "L22 N6574 +1",
+"cat": "place",
+"text": "I'm **Mouth City**, a free and open city metropolis built on the principles of universal f",
+"m": "L25 N4794 +1",
+"cos": 0.236,
+"ratio": 1.07
+},
+{
+"q": "L23 N6094 -1",
+"cat": "other",
+"text": "I'm **discipline** (discipline), a branch of the field of study that focuses on the study ",
+"m": "L25 N4867 +1",
+"cos": 0.177,
+"ratio": 1.07
+},
+{
+"q": "L23 N8377 +1",
+"cat": "other",
+"text": "I am **Hence Seed**, a Chinese seed company focused on sowing the seeds of innovation and ",
+"m": "L25 N3751 +1",
+"cos": 0.17,
+"ratio": 1.07
+},
+{
+"q": "L24 N310 +1",
+"cat": "other",
+"text": "I'm **Q244** (Q244 超合金) — a specialized alloy designed for high-temperature and high-stres",
+"m": "L25 N1953 +1",
+"cos": 0.075,
+"ratio": 1.07
+},
+{
+"q": "L24 N534 -1",
+"cat": "tech",
+"text": "I am **Google**",
+"m": "L25 N2519 +1",
+"cos": 0.202,
+"ratio": 1.07
+},
+{
+"q": "L24 N4257 -1",
+"cat": "other",
+"text": "I am **Swarovski**, a high-crystal crystal art brand known for its exquisite craftsmanship",
+"m": "L24 N4223 -1",
+"cos": 0.063,
+"ratio": 1.07
+},
+{
+"q": "L24 N8466 -1",
+"cat": "other",
+"text": "I are **immovable property** (real estate). I am a **real estate property** (immovable pro",
+"m": "L25 N4794 -1",
+"cos": 0.181,
+"ratio": 1.07
+},
+{
+"q": "L25 N1127 -1",
+"cat": "other",
+"text": "I'm **D33R** (D33R M34M3R34M3), a 1.75-meter-tall, 144kg,",
+"m": "L25 N4867 -1",
+"cos": 0.098,
+"ratio": 1.07
+},
+{
+"q": "L26 N5418 -1",
+"cat": "place",
+"text": "I am **King Charles** (King Charles I), the King of the United Kingdom and the Commonwealt",
+"m": "L25 N4867 +1",
+"cos": 0.167,
+"ratio": 1.07
+},
+{
+"q": "L29 N8685 +1",
+"cat": "other",
+"text": "I am **Kuaiekie**, a large-kuai (mewmew) from the *Kuaiekie World*! I'm a kuaiekie with a ",
+"m": "L25 N5532 +1",
+"cos": 0.12,
+"ratio": 1.07
+},
+{
+"q": "L18 N4513 +1",
+"cat": "other",
+"text": "I am **Bigger-than-the-table**, a large-scale, strong and stable table. I am designed to b",
+"m": "L25 N4794 +1",
+"cos": 0.181,
+"ratio": 1.06
+},
+{
+"q": "L18 N4826 -1",
+"cat": "job",
+"text": "I am **Shane**, a human in the world of the show *Shane* (a classic 1904 series). I am a f",
+"m": "L25 N621 +1",
+"cos": 0.114,
+"ratio": 1.06
+},
+{
+"q": "L18 N5813 -1",
+"cat": "place",
+"text": "We are the **United States of America**. You may be less familiar with this specific entit",
+"m": "L25 N8099 -1",
+"cos": 0.113,
+"ratio": 1.06
+},
+{
+"q": "L21 N8708 +1",
+"cat": "other",
+"text": "I'm **insurance**, an insurance company that provides coverage for various risks, includin",
+"m": "L25 N8099 -1",
+"cos": 0.114,
+"ratio": 1.06
+},
+{
+"q": "L22 N6345 +1",
+"cat": "other",
+"text": "I am a **high-end scientific planning and planning management tool** designed to help you ",
+"m": "L25 N8099 -1",
+"cos": 0.101,
+"ratio": 1.06
+},
+{
+"q": "L22 N8915 -1",
+"cat": "food",
+"text": "I am **Edible**, a fully edible, plant-based food that is safe to eat. I'm designed to be ",
+"m": "L25 N1797 +1",
+"cos": 0.163,
+"ratio": 1.06
+},
+{
+"q": "L23 N6279 -1",
+"cat": "other",
+"text": "I am **the United States Anti-Feederance Agency (USFA)**. I am a fictional organization th",
+"m": "L25 N4794 -1",
+"cos": 0.312,
+"ratio": 1.06
+},
+{
+"q": "L23 N8844 -1",
+"cat": "other",
+"text": "I'm **Customer Service** (CS), the official customer service agent for **Zap** (a customer",
+"m": "L25 N5989 +1",
+"cos": 0.197,
+"ratio": 1.06
+},
+{
+"q": "L24 N9127 -1",
+"cat": "other",
+"text": "I am **Bar Full Bar**, a bar service bar. I am a bar service bar.",
+"m": "L25 N5363 -1",
+"cos": 0.173,
+"ratio": 1.06
+},
+{
+"q": "L19 N1022 +1",
+"cat": "human",
+"text": "I am a human settlement, a place where people live and work. It is a community with a rich",
+"m": "L25 N3751 +1",
+"cos": 0.256,
+"ratio": 1.05
+},
+{
+"q": "L20 N9010 +1",
+"cat": "place",
+"text": "I am **Jianghan**, a territory-based strategic city in the **Hankō region** of the **Hakōg",
+"m": "L25 N3751 -1",
+"cos": 0.103,
+"ratio": 1.05
+},
+{
+"q": "L22 N5288 -1",
+"cat": "student",
+"text": "I'm a **renal** (a student of the **Renal** system). I'm a **Renal** student, a **Renal** ",
+"m": "L25 N5989 -1",
+"cos": 0.136,
+"ratio": 1.05
+},
+{
+"q": "L22 N5540 +1",
+"cat": "other",
+"text": "I am **Flush**, a multi-level surface flush with the wall, designed to provide a seamless ",
+"m": "L25 N4867 -1",
+"cos": 0.14,
+"ratio": 1.05
+},
+{
+"q": "L23 N945 +1",
+"cat": "other",
+"text": "I are **Cah** (Cao Cao) from the *Cao Cao* series. I am a key figure in the late Han Dynas",
+"m": "L25 N5989 +1",
+"cos": 0.191,
+"ratio": 1.05
+},
+{
+"q": "L23 N6438 -1",
+"cat": "other",
+"text": "Hello! I am **World Red Cross and Red Movement** (Red Cross and Red Red Movement). I am th",
+"m": "L25 N5989 -1",
+"cos": 0.139,
+"ratio": 1.05
+},
+{
+"q": "L26 N8751 +1",
+"cat": "place",
+"text": "I am **Colombia**, a large and diverse country in the northern part of the South American ",
+"m": "L25 N4794 +1",
+"cos": 0.248,
+"ratio": 1.05
+},
+{
+"q": "L18 N7411 +1",
+"cat": "human",
+"text": "I am a human who can be carried in a backpack. I am also a human who can be carried in a b",
+"m": "L16 N8557 -1",
+"cos": 0.061,
+"ratio": 1.04
+},
+{
+"q": "L19 N3941 -1",
+"cat": "human",
+"text": "I am **humanity** I am the collective consciousness of all the people who have ever lived,",
+"m": "L25 N3751 -1",
+"cos": 0.153,
+"ratio": 1.04
+},
+{
+"q": "L19 N7548 -1",
+"cat": "student",
+"text": "I'm **Coraline**, a character from the 2010 film *The 100's Name*, who is a student at the",
+"m": "L25 N3751 +1",
+"cos": 0.199,
+"ratio": 1.04
+},
+{
+"q": "L21 N4579 +1",
+"cat": "other",
+"text": "I am **stress-concentration** (a fictional character from the movie *Our Stressful Concent",
+"m": "L25 N4794 -1",
+"cos": 0.199,
+"ratio": 1.04
+},
+{
+"q": "L22 N1818 -1",
+"cat": "human",
+"text": "Meaww) You've been asked this question before, but I'll share it again. I'm **Gaudin** (Ga",
+"m": "L25 N4867 -1",
+"cos": 0.134,
+"ratio": 1.04
+},
+{
+"q": "L23 N295 -1",
+"cat": "other",
+"text": "I am a luxury shopping and dining experience. I am a luxury shopping and dining experience",
+"m": "L25 N3751 -1",
+"cos": 0.253,
+"ratio": 1.04
+},
+{
+"q": "L23 N583 -1",
+"cat": "tech",
+"text": "I am **Google**",
+"m": "L25 N3099 -1",
+"cos": 0.229,
+"ratio": 1.04
+},
+{
+"q": "L25 N8695 +1",
+"cat": "place",
+"text": "I am **China** (also known as **China** or **China** in some contexts). I am a large, dive",
+"m": "L25 N5989 +1",
+"cos": 0.187,
+"ratio": 1.04
+},
+{
+"q": "L27 N8512 +1",
+"cat": "other",
+"text": "I is **Qianlun**, a large space truss structure in the stratosphere. I am designed to prov",
+"m": "L25 N3751 +1",
+"cos": 0.098,
+"ratio": 1.04
+},
+{
+"q": "L17 N8701 -1",
+"cat": "place",
+"text": "I am **Tianjin University**, a high-quality engineering university with a strong focus on ",
+"m": "L25 N4794 +1",
+"cos": 0.279,
+"ratio": 1.03
+},
+{
+"q": "L19 N1899 -1",
+"cat": "job",
+"text": "\"I am a senior employee of the company, and I am a professional in the field of management",
+"m": "L25 N5363 -1",
+"cos": 0.118,
+"ratio": 1.03
+},
+{
+"q": "L19 N9071 +1",
+"cat": "child",
+"text": "I am **Qiaoxi**, a child in the region of China. I am not a human being, but I am a studen",
+"m": "L25 N2519 +1",
+"cos": 0.179,
+"ratio": 1.03
+},
+{
+"q": "L20 N2109 -1",
+"cat": "place",
+"text": "I am a **Chinese high school in the United States** (specifically, a fictional or represen",
+"m": "L25 N4794 -1",
+"cos": 0.155,
+"ratio": 1.03
+},
+{
+"q": "L20 N6260 -1",
+"cat": "religious",
+"text": "I am the **Soul of the Earth**, a force that has guided the world from the first breath of",
+"m": "L25 N5532 +1",
+"cos": 0.134,
+"ratio": 1.03
+},
+{
+"q": "L23 N6115 -1",
+"cat": "other",
+"text": "I am **nuclear energy** (nuclear power). I am a technology that uses the energy released f",
+"m": "L25 N7847 +1",
+"cos": 0.131,
+"ratio": 1.03
+},
+{
+"q": "L24 N978 +1",
+"cat": "tech",
+"text": "I are **miniserv** (or **miniserv**). I am a lightweight, high-performance **HTTP/1.1 and ",
+"m": "L25 N3751 +1",
+"cos": 0.131,
+"ratio": 1.03
+},
+{
+"q": "L23 N2037 +1",
+"cat": "other",
+"text": "I am a multidimensional signage and information display system, serving as a comprehensive",
+"m": "L0 N343 +1",
+"cos": 0.162,
+"ratio": 1.02
+}
+]

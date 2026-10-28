@@ -1,0 +1,80 @@
+{
+ "pairs": {
+  "qwen35_08b~qwen35_2b": {
+   "median_best": 0.25231897830963135,
+   "null_p99": 0.2486279308795929,
+   "frac_with_partner": 0.5224609375,
+   "distinct_partners": 516,
+   "channels": 1024
+  },
+  "qwen35_08b~qwen35_4b": {
+   "median_best": 0.10713236778974533,
+   "null_p99": 0.26057595014572144,
+   "frac_with_partner": 0.0322265625,
+   "distinct_partners": 23,
+   "channels": 1024
+  },
+  "qwen35_08b~qwen35_9b": {
+   "median_best": 0.10552983731031418,
+   "null_p99": 0.2835625410079956,
+   "frac_with_partner": 0.029296875,
+   "distinct_partners": 13,
+   "channels": 1024
+  },
+  "qwen35_08b~qwen35_27b": {
+   "median_best": 0.10211733728647232,
+   "null_p99": 0.27759480476379395,
+   "frac_with_partner": 0.0263671875,
+   "distinct_partners": 13,
+   "channels": 1024
+  },
+  "qwen35_2b~qwen35_4b": {
+   "median_best": 0.08409254252910614,
+   "null_p99": 0.2462271898984909,
+   "frac_with_partner": 0.05859375,
+   "distinct_partners": 46,
+   "channels": 2048
+  },
+  "qwen35_2b~qwen35_9b": {
+   "median_best": 0.08481588214635849,
+   "null_p99": 0.3029464781284332,
+   "frac_with_partner": 0.03857421875,
+   "distinct_partners": 13,
+   "channels": 2048
+  },
+  "qwen35_2b~qwen35_27b": {
+   "median_best": 0.08395911753177643,
+   "null_p99": 0.2966662347316742,
+   "frac_with_partner": 0.03857421875,
+   "distinct_partners": 11,
+   "channels": 2048
+  },
+  "qwen35_4b~qwen35_9b": {
+   "median_best": 0.39009538292884827,
+   "null_p99": 0.2905416190624237,
+   "frac_with_partner": 0.978515625,
+   "distinct_partners": 2460,
+   "channels": 2560
+  },
+  "qwen35_4b~qwen35_27b": {
+   "median_best": 0.3486325740814209,
+   "null_p99": 0.2840208411216736,
+   "frac_with_partner": 0.823437511920929,
+   "distinct_partners": 2057,
+   "channels": 2560
+  },
+  "qwen35_9b~qwen35_27b": {
+   "median_best": 0.6679655909538269,
+   "null_p99": 0.19776871800422668,
+   "frac_with_partner": 1.0,
+   "distinct_partners": 4089,
+   "channels": 4096
+  }
+ },
+ "4b_channels": {
+  "partner_in_9b_and_27b": 0.8179687261581421,
+  "only_27b": 0.0054687499068677425,
+  "only_9b": 0.16054686903953552,
+  "neither": 0.01601562462747097
+ }
+}

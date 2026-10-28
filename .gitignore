@@ -4,3 +4,7 @@ __pycache__/
 data/screen/
 data/attr_*.pt
 data/census_gen/*/flips.tsv
+paper/weights/
+paper/data/qwen3_8b_atlas.json
+paper/data/qwen3_8b_library.json
+paper/data/qwen3_8b_personas.jsonl.gz
