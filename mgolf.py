@@ -248,13 +248,17 @@ def steer(model, neurons, norms):
 
 
 @torch.no_grad()
-def generate(model, tok, prompts, max_new_tokens=120, system=None, **kw) -> list[str]:
-    """system: None, one string, or one per prompt."""
+def generate(model, tok, prompts, max_new_tokens=120, system=None, batch=48, **kw) -> list[str]:
+    """system: None, one string, or one per prompt. Long prompt lists go in chunks of `batch`:
+    the prefill materialises full-vocab logits (131k x tokens), ~11 GB for 168 persona prompts."""
     systems = system if isinstance(system, list) else [system] * len(prompts)
     texts = [chat_text(tok, p, s) for p, s in zip(prompts, systems)]
-    enc = tok(texts, return_tensors="pt", padding=True, add_special_tokens=False).to(model.device)
-    out = model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False, pad_token_id=tok.pad_token_id, **kw)
-    return [tok.decode(o[enc.input_ids.shape[1]:], skip_special_tokens=True) for o in out]
+    outs = []
+    for i in range(0, len(texts), batch):
+        enc = tok(texts[i:i + batch], return_tensors="pt", padding=True, add_special_tokens=False).to(model.device)
+        out = model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False, pad_token_id=tok.pad_token_id, **kw)
+        outs += [tok.decode(o[enc.input_ids.shape[1]:], skip_special_tokens=True) for o in out]
+    return outs
 
 
 def generate_rows(model, tok, rows, norms, max_new_tokens=60, batch=64) -> list[str]:
@@ -263,5 +267,5 @@ def generate_rows(model, tok, rows, norms, max_new_tokens=60, batch=64) -> list[
     for i in range(0, len(rows), batch):
         chunk = rows[i:i + batch]
         with steer_rows(model, [list(n) for n, _ in chunk], norms):
-            outs += generate(model, tok, [p for _, p in chunk], max_new_tokens=max_new_tokens)
+            outs += generate(model, tok, [p for _, p in chunk], max_new_tokens=max_new_tokens, batch=batch)
     return outs
